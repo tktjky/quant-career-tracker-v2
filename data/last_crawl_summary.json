@@ -1,48 +1,48 @@
 {
-  "crawl_timestamp": "2026-09-30T12:04:32.906818",
-  "duration_seconds": 23.4168,
+  "crawl_timestamp": "2026-09-30T16:06:09.581731",
+  "duration_seconds": 17.275802,
   "diff_stats": {
     "total_active_scraped": 412,
-    "new_openings": 74,
-    "retained_active": 338,
-    "newly_closed": 2,
+    "new_openings": 0,
+    "retained_active": 412,
+    "newly_closed": 0,
     "total_tracked_all_time": 821
   },
   "top_matches": [
     {
-      "firm": "Flow Traders",
-      "title": "Digital Assets Quantitative Researcher",
-      "location": "Amsterdam",
-      "score": 100,
-      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8207306"
-    },
-    {
-      "firm": "Flow Traders",
-      "title": "PhD Graduate Quantitative Researcher",
-      "location": "Hong Kong",
-      "score": 100,
-      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8213037"
-    },
-    {
-      "firm": "Flow Traders",
-      "title": "PhD Graduate Quantitative Researcher",
+      "firm": "Virtu Financial",
+      "title": "Machine Learning Researcher",
       "location": "New York",
       "score": 100,
-      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8156203"
+      "url": "https://job-boards.greenhouse.io/virtu/jobs/8477580002"
     },
     {
-      "firm": "Flow Traders",
-      "title": "PhD Graduate Quantitative Researcher ",
-      "location": "Amsterdam",
+      "firm": "Virtu Financial",
+      "title": "Quantitative Trader ",
+      "location": "Dublin, Ireland",
       "score": 100,
-      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/6492219"
+      "url": "https://job-boards.greenhouse.io/virtu/jobs/4260204002"
     },
     {
-      "firm": "Walleye Capital",
-      "title": "Quantitative Researcher, Single Stock Volatility",
-      "location": "Miami, FL",
+      "firm": "Virtu Financial",
+      "title": "Quantitative Trader ",
+      "location": "Chicago",
       "score": 100,
-      "url": "https://job-boards.greenhouse.io/walleyecapital-external-fulltime/jobs/4690167006"
+      "url": "https://job-boards.greenhouse.io/virtu/jobs/4326632002"
+    },
+    {
+      "firm": "Virtu Financial",
+      "title": "Quantitative Trader ",
+      "location": "Singapore",
+      "score": 100,
+      "url": "https://job-boards.greenhouse.io/virtu/jobs/4232867002"
+    },
+    {
+      "firm": "Virtu Financial",
+      "title": "Quantitative Trader (PhD)",
+      "location": "Austin, TX",
+      "score": 100,
+      "url": "https://job-boards.greenhouse.io/virtu/jobs/8817686002"
     },
     {
       "firm": "Old Mission Capital",
@@ -66,18 +66,18 @@
       "url": "https://www.oldmissioncapital.com/careers/?gh_jid=6088836003"
     },
     {
-      "firm": "Virtu Financial",
-      "title": "Machine Learning Researcher",
-      "location": "New York",
+      "firm": "Flow Traders",
+      "title": "Digital Assets Quantitative Researcher",
+      "location": "Amsterdam",
       "score": 100,
-      "url": "https://job-boards.greenhouse.io/virtu/jobs/8477580002"
+      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8207306"
     },
     {
-      "firm": "Virtu Financial",
-      "title": "Quantitative Trader ",
-      "location": "Dublin, Ireland",
+      "firm": "Flow Traders",
+      "title": "PhD Graduate Quantitative Researcher",
+      "location": "Hong Kong",
       "score": 100,
-      "url": "https://job-boards.greenhouse.io/virtu/jobs/4260204002"
+      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8213037"
     }
   ]
 }
