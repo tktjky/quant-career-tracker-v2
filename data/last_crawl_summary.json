@@ -1,28 +1,14 @@
 {
-  "crawl_timestamp": "2026-09-30T01:39:39.721081",
-  "duration_seconds": 5.615766,
+  "crawl_timestamp": "2026-09-30T05:40:54.721550",
+  "duration_seconds": 19.248739,
   "diff_stats": {
     "total_active_scraped": 335,
-    "new_openings": 10,
-    "retained_active": 325,
+    "new_openings": 0,
+    "retained_active": 335,
     "newly_closed": 0,
     "total_tracked_all_time": 742
   },
   "top_matches": [
-    {
-      "firm": "Akuna Capital",
-      "title": "Junior Quantitative Developer & Strategist",
-      "location": "Chicago, IL ",
-      "score": 100,
-      "url": "https://www.akunacapital.com/careers/job/8016687/?gh_jid=8016687"
-    },
-    {
-      "firm": "Akuna Capital",
-      "title": "Junior Quantitative Researcher - Deep Learning (Time Series)",
-      "location": "Shanghai, China",
-      "score": 100,
-      "url": "https://www.akunacapital.com/careers/job/8175994/?gh_jid=8175994"
-    },
     {
       "firm": "Old Mission Capital",
       "title": "Junior Quantitative Researcher (Ph.D.)",
@@ -78,6 +64,20 @@
       "location": "Hong Kong, Singapore, Shanghai",
       "score": 100,
       "url": "https://www.tower-research.com/open-positions/?gh_jid=7714667"
+    },
+    {
+      "firm": "Tower Research Capital",
+      "title": "Quantitative Developer",
+      "location": "Singapore",
+      "score": 100,
+      "url": "https://www.tower-research.com/open-positions/?gh_jid=5733830"
+    },
+    {
+      "firm": "Tower Research Capital",
+      "title": "Quantitative Developer ",
+      "location": "Gurgaon",
+      "score": 100,
+      "url": "https://www.tower-research.com/open-positions/?gh_jid=7102180"
     }
   ]
 }
