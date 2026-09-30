@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quant Career Intelligence v2 | Live Openings & Crawl Agent</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    :root {
+      --bg: #090d16;
+      --card-bg: #111827;
+      --card-border: #1f2937;
+      --card-hover: #1e293b;
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+      --accent: #3b82f6;
+      --accent-glow: rgba(59, 130, 246, 0.25);
+      --tier-a: #ec4899;
+      --tier-b: #10b981;
+      --tier-c1: #3b82f6;
+      --tier-c2: #f59e0b;
+      --tier-d: #8b5cf6;
+      --badge-new: #ef4444;
+      --badge-active: #10b981;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text-main);
+      line-height: 1.5;
+      padding-bottom: 60px;
+    }
+
+    header {
+      background: linear-gradient(180deg, #111827 0%, rgba(17, 24, 39, 0.8) 100%);
+      border-bottom: 1px solid var(--card-border);
+      padding: 24px 32px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(12px);
+    }
+
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .brand-title {
+      font-size: 1.45rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .brand-title .badge-v2 {
+      font-size: 0.72rem;
+      background: #3b82f6;
+      color: #fff;
+      padding: 2px 8px;
+      border-radius: 6px;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+
+    .profile-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(16, 185, 129, 0.12);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      padding: 6px 14px;
+      border-radius: 9999px;
+      font-size: 0.82rem;
+      color: #34d399;
+      font-weight: 500;
+    }
+
+    .actions-bar {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .btn {
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s ease;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #fff;
+    }
+    .btn-primary:hover {
+      background: #2563eb;
+      box-shadow: 0 0 16px var(--accent-glow);
+    }
+
+    .btn-outline {
+      background: transparent;
+      border: 1px solid var(--card-border);
+      color: var(--text-main);
+    }
+    .btn-outline:hover {
+      background: var(--card-border);
+    }
+
+    .container {
+      max-width: 1380px;
+      margin: 0 auto;
+      padding: 24px 32px;
+    }
+
+    /* Stats Banner */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .stat-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 18px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .stat-card .label {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+    }
+
+    .stat-card .val {
+      font-size: 1.65rem;
+      font-weight: 800;
+    }
+
+    /* Controls & Filter Bar */
+    .filter-panel {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 18px 24px;
+      margin-bottom: 24px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      align-items: center;
+    }
+
+    .search-box {
+      flex: 1 1 260px;
+      position: relative;
+    }
+
+    .search-box input {
+      width: 100%;
+      background: #1f2937;
+      border: 1px solid #374151;
+      padding: 10px 14px 10px 38px;
+      border-radius: 8px;
+      color: #fff;
+      font-size: 0.9rem;
+      outline: none;
+    }
+
+    .search-box input:focus {
+      border-color: var(--accent);
+    }
+
+    .search-box i {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+    }
+
+    .select-group {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .select-group select {
+      background: #1f2937;
+      border: 1px solid #374151;
+      color: #fff;
+      padding: 10px 14px;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      outline: none;
+      cursor: pointer;
+    }
+
+    /* Openings Feed */
+    .feed-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    .feed-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+    }
+
+    .job-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+      gap: 18px;
+    }
+
+    .job-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      transition: all 0.2s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .job-card:hover {
+      border-color: #374151;
+      background: var(--card-hover);
+      transform: translateY(-2px);
+    }
+
+    .job-card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    .firm-name {
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .score-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 0.82rem;
+      font-weight: 700;
+    }
+
+    .score-high {
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid rgba(16, 185, 129, 0.4);
+      color: #34d399;
+    }
+
+    .score-med {
+      background: rgba(59, 130, 246, 0.15);
+      border: 1px solid rgba(59, 130, 246, 0.4);
+      color: #60a5fa;
+    }
+
+    .score-low {
+      background: rgba(245, 158, 11, 0.15);
+      border: 1px solid rgba(245, 158, 11, 0.4);
+      color: #fbbf24;
+    }
+
+    .job-title {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #e5e7eb;
+      margin-top: 2px;
+    }
+
+    .job-meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .meta-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .badges-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 4px;
+    }
+
+    .badge-pill {
+      font-size: 0.72rem;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .pill-tier-a { background: rgba(236, 72, 153, 0.15); color: var(--tier-a); border: 1px solid rgba(236, 72, 153, 0.3); }
+    .pill-tier-b { background: rgba(16, 185, 129, 0.15); color: var(--tier-b); border: 1px solid rgba(16, 185, 129, 0.3); }
+    .pill-tier-c1 { background: rgba(59, 130, 246, 0.15); color: var(--tier-c1); border: 1px solid rgba(59, 130, 246, 0.3); }
+    .pill-status-new { background: rgba(239, 68, 68, 0.2); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.4); }
+    .pill-status-active { background: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.4); }
+
+    .comp-box {
+      background: #182234;
+      border: 1px solid #1e293b;
+      border-radius: 8px;
+      padding: 10px 14px;
+      font-size: 0.8rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .comp-val {
+      font-weight: 700;
+      color: #38bdf8;
+    }
+
+    .comp-delta {
+      font-size: 0.72rem;
+      color: #34d399;
+      font-weight: 600;
+    }
+
+    .job-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: auto;
+      padding-top: 12px;
+      border-top: 1px solid var(--card-border);
+    }
+
+    .btn-apply {
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: background 0.15s ease;
+    }
+
+    .btn-apply:hover {
+      background: #2563eb;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text-muted);
+    }
+
+    /* Modal / Toast */
+    #crawl-toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #1f2937;
+      border: 1px solid var(--accent);
+      padding: 14px 20px;
+      border-radius: 8px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+      display: none;
+      align-items: center;
+      gap: 12px;
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-top">
+      <div class="brand-title">
+        <i class="fa-solid fa-radar" style="color: var(--accent);"></i>
+        <span>Quant Intelligence Crawler</span>
+        <span class="badge-v2">v2 Live Agent</span>
+      </div>
+      
+      <div class="profile-pill">
+        <i class="fa-solid fa-shield-halved"></i>
+        <span>Kangqi (Kevin) Yu | CBS MSFE 2027 | Anchor: Capital One ($183,500 in Hand)</span>
+      </div>
+
+      <div class="actions-bar">
+        <select id="select-firm-crawl" style="background: #1f2937; border: 1px solid #374151; color: #fff; padding: 7px 12px; border-radius: 8px; font-size: 0.82rem; outline: none;">
+          <option value="">-- Crawl Specific Firm --</option>
+          <option value="Jane Street">Jane Street (Tailored Subagent)</option>
+          <option value="Citadel">Citadel & Sec (Tailored Subagent)</option>
+          <option value="Two Sigma">Two Sigma (Tailored Subagent)</option>
+          <option value="D.E. Shaw">D.E. Shaw (Tailored Subagent)</option>
+          <option value="Millennium">Millennium (Tailored Subagent)</option>
+          <option value="Point72">Point72 & Cubist (Tailored Subagent)</option>
+          <option value="Goldman Sachs">Goldman Sachs Strats (Tailored Subagent)</option>
+          <option value="Jump Trading">Jump Trading (ATS)</option>
+          <option value="Optiver">Optiver (ATS)</option>
+          <option value="Akuna Capital">Akuna Capital (ATS)</option>
+          <option value="Flow Traders">Flow Traders (ATS)</option>
+          <option value="Tower Research Capital">Tower Research Capital (ATS)</option>
+        </select>
+        <button id="btn-run-firm-crawl" class="btn btn-outline" onclick="triggerFirmCrawl()">
+          <i class="fa-solid fa-crosshairs"></i>
+          <span>Crawl Firm</span>
+        </button>
+        <button id="btn-run-crawl" class="btn btn-primary" onclick="triggerCrawl()">
+          <i class="fa-solid fa-arrows-rotate"></i>
+          <span>Run All Crawlers</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+
+    <!-- Stats Grid -->
+    <div class="stats-grid">
+      <div class="stat-card">
+        <span class="label">Total Live Openings</span>
+        <span class="val" id="stat-total">-</span>
+      </div>
+      <div class="stat-card">
+        <span class="label">High Suitability (Score &ge; 80)</span>
+        <span class="val" id="stat-high" style="color: #34d399;">-</span>
+      </div>
+      <div class="stat-card">
+        <span class="label">New This Crawl</span>
+        <span class="val" id="stat-new" style="color: #f87171;">-</span>
+      </div>
+      <div class="stat-card">
+        <span class="label">Firms Represented</span>
+        <span class="val" id="stat-firms">-</span>
+      </div>
+    </div>
+
+    <!-- Filter & Search Controls -->
+    <div class="filter-panel">
+      <div class="search-box">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" id="filter-search" placeholder="Search by firm, title (e.g. Quantitative Trader, Strats, ML), or location..." oninput="renderCards()">
+      </div>
+
+      <div class="select-group">
+        <select id="filter-tier" onchange="renderCards()">
+          <option value="ALL" selected>All Priority Tiers</option>
+          <option value="Tier A">Tier A: Moonshots</option>
+          <option value="Tier B">Tier B: Main Focus</option>
+          <option value="Tier C1">Tier C1: Par with C1</option>
+          <option value="Tier D">Tier D: Selective Fit</option>
+        </select>
+
+        <select id="filter-score" onchange="renderCards()">
+          <option value="ALL">All Suitability Scores</option>
+          <option value="80">Top Match (&ge; 80 pts)</option>
+          <option value="60" selected>Strong Fit (&ge; 60 pts)</option>
+          <option value="40">Any Positive (&ge; 40 pts)</option>
+        </select>
+
+        <select id="filter-status" onchange="renderCards()">
+          <option value="ALL">All Listing States</option>
+          <option value="NEW">Newly Discovered Only</option>
+          <option value="ACTIVE">Active Listings</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Feed Header -->
+    <div class="feed-header">
+      <div class="feed-title" id="feed-count-label">Showing Openings</div>
+      <div style="font-size: 0.8rem; color: var(--text-muted);" id="last-updated-label"></div>
+    </div>
+
+    <!-- Cards Grid -->
+    <div class="job-cards-grid" id="jobs-container">
+      <div class="empty-state">
+        <i class="fa-solid fa-circle-notch fa-spin fa-2x"></i>
+        <p style="margin-top: 10px;">Loading live opportunities feed...</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="crawl-toast">
+    <i class="fa-solid fa-spinner fa-spin" style="color: var(--accent);"></i>
+    <span id="toast-text">Executing crawl agent across target ATS boards...</span>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+{
+  "crawl_timestamp": "2026-09-25T15:49:59.495136",
+  "duration_seconds": 3.711212,
+  "diff_stats": {
+    "total_active_scraped": 569,
+    "new_openings": 560,
+    "retained_active": 9,
+    "newly_closed": 0,
+    "total_tracked_all_time": 569
+  },
+  "top_matches": [
+    {
+      "firm": "Akuna Capital",
+      "title": "Quantitative Research Intern, Summer 2027",
+      "location": "Chicago, IL ",
+      "score": 100,
+      "url": "https://www.akunacapital.com/careers/job/8036614/?gh_jid=8036614"
+    },
+    {
+      "firm": "Flow Traders",
+      "title": "Graduate Quantitative Trader",
+      "location": "New York",
+      "score": 100,
+      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8094581"
+    },
+    {
+      "firm": "Flow Traders",
+      "title": "PhD Graduate Quantitative Researcher",
+      "location": "New York",
+      "score": 100,
+      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8156203"
+    },
+    {
+      "firm": "Flow Traders",
+      "title": "PhD Graduate Quantitative Researcher",
+      "location": "Hong Kong",
+      "score": 100,
+      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8213037"
+    },
+    {
+      "firm": "Flow Traders",
+      "title": "PhD Graduate Quantitative Researcher ",
+      "location": "Amsterdam",
+      "score": 100,
+      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/6492219"
+    },
+    {
+      "firm": "Flow Traders",
+      "title": "Quantitative Trading Intern Summer 2027",
+      "location": "New York",
+      "score": 100,
+      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8047166"
+    },
+    {
+      "firm": "Tower Research Capital",
+      "title": "Machine Learning Engineer",
+      "location": "Hong Kong, Hong Kong",
+      "score": 100,
+      "url": "https://www.tower-research.com/open-positions/?gh_jid=7714667"
+    },
+    {
+      "firm": "Tower Research Capital",
+      "title": "Machine Learning Engineer",
+      "location": "Singapore, Singapore",
+      "score": 100,
+      "url": "https://www.tower-research.com/open-positions/?gh_jid=8020385"
+    },
+    {
+      "firm": "Tower Research Capital",
+      "title": "Machine Learning Engineer",
+      "location": "Shanghai, China",
+      "score": 100,
+      "url": "https://www.tower-research.com/open-positions/?gh_jid=8020380"
+    },
+    {
+      "firm": "Tower Research Capital",
+      "title": "Quantitative Developer Intern - Summer 2027",
+      "location": "New York, Chicago",
+      "score": 100,
+      "url": "https://www.tower-research.com/open-positions/?gh_jid=8044334"
+    }
+  ]
+}

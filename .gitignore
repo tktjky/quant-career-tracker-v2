@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+tests/__pycache__/
+crawler/__pycache__/
+agent/__pycache__/
+crawler/firm_agents/__pycache__/
