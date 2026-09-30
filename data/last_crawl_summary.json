@@ -1,12 +1,12 @@
 {
-  "crawl_timestamp": "2026-09-30T16:13:10.065126",
-  "duration_seconds": 29.533845,
+  "crawl_timestamp": "2026-09-30T20:14:16.906868",
+  "duration_seconds": 31.793377,
   "diff_stats": {
-    "total_active_scraped": 672,
-    "new_openings": 0,
-    "retained_active": 672,
+    "total_active_scraped": 635,
+    "new_openings": 2,
+    "retained_active": 633,
     "newly_closed": 0,
-    "total_tracked_all_time": 1042
+    "total_tracked_all_time": 1044
   },
   "top_matches": [
     {
@@ -59,25 +59,25 @@
       "url": "https://www.ellington.com/careers"
     },
     {
-      "firm": "Virtu Financial",
-      "title": "Machine Learning Researcher",
+      "firm": "Flow Traders",
+      "title": "Digital Assets Quantitative Researcher",
+      "location": "Amsterdam",
+      "score": 100,
+      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8207306"
+    },
+    {
+      "firm": "Flow Traders",
+      "title": "PhD Graduate Quantitative Researcher",
+      "location": "Hong Kong",
+      "score": 100,
+      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8213037"
+    },
+    {
+      "firm": "Flow Traders",
+      "title": "PhD Graduate Quantitative Researcher",
       "location": "New York",
       "score": 100,
-      "url": "https://job-boards.greenhouse.io/virtu/jobs/8477580002"
-    },
-    {
-      "firm": "Virtu Financial",
-      "title": "Quantitative Trader ",
-      "location": "Dublin, Ireland",
-      "score": 100,
-      "url": "https://job-boards.greenhouse.io/virtu/jobs/4260204002"
-    },
-    {
-      "firm": "Virtu Financial",
-      "title": "Quantitative Trader ",
-      "location": "Chicago",
-      "score": 100,
-      "url": "https://job-boards.greenhouse.io/virtu/jobs/4326632002"
+      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8156203"
     }
   ]
 }
