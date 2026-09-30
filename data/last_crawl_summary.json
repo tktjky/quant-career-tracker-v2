@@ -1,14 +1,49 @@
 {
-  "crawl_timestamp": "2026-09-30T05:32:07.824452",
-  "duration_seconds": 15.401131,
+  "crawl_timestamp": "2026-09-30T01:39:39.721081",
+  "duration_seconds": 5.615766,
   "diff_stats": {
-    "total_active_scraped": 320,
-    "new_openings": 0,
-    "retained_active": 320,
+    "total_active_scraped": 335,
+    "new_openings": 10,
+    "retained_active": 325,
     "newly_closed": 0,
-    "total_tracked_all_time": 732
+    "total_tracked_all_time": 742
   },
   "top_matches": [
+    {
+      "firm": "Akuna Capital",
+      "title": "Junior Quantitative Developer & Strategist",
+      "location": "Chicago, IL ",
+      "score": 100,
+      "url": "https://www.akunacapital.com/careers/job/8016687/?gh_jid=8016687"
+    },
+    {
+      "firm": "Akuna Capital",
+      "title": "Junior Quantitative Researcher - Deep Learning (Time Series)",
+      "location": "Shanghai, China",
+      "score": 100,
+      "url": "https://www.akunacapital.com/careers/job/8175994/?gh_jid=8175994"
+    },
+    {
+      "firm": "Old Mission Capital",
+      "title": "Junior Quantitative Researcher (Ph.D.)",
+      "location": "Chicago, IL, United States",
+      "score": 100,
+      "url": "https://www.oldmissioncapital.com/careers/?gh_jid=6309652003"
+    },
+    {
+      "firm": "Old Mission Capital",
+      "title": "Quantitative Researcher (Ph.D.) - 2027 Graduate Program - (August Start)",
+      "location": "Chicago, IL, United States",
+      "score": 100,
+      "url": "https://www.oldmissioncapital.com/careers/?gh_jid=7814534003"
+    },
+    {
+      "firm": "Old Mission Capital",
+      "title": "Quantitative Trader (Options)",
+      "location": "Chicago, IL, United States",
+      "score": 100,
+      "url": "https://www.oldmissioncapital.com/careers/?gh_jid=6088836003"
+    },
     {
       "firm": "Flow Traders",
       "title": "Digital Assets Quantitative Researcher",
@@ -38,46 +73,11 @@
       "url": "https://job-boards.greenhouse.io/flowtraders/jobs/6492219"
     },
     {
-      "firm": "Akuna Capital",
-      "title": "Junior Quantitative Developer & Strategist",
-      "location": "Chicago, IL ",
-      "score": 100,
-      "url": "https://www.akunacapital.com/careers/job/8016687/?gh_jid=8016687"
-    },
-    {
-      "firm": "Akuna Capital",
-      "title": "Junior Quantitative Researcher - Deep Learning (Time Series)",
-      "location": "Shanghai, China",
-      "score": 100,
-      "url": "https://www.akunacapital.com/careers/job/8175994/?gh_jid=8175994"
-    },
-    {
       "firm": "Tower Research Capital",
       "title": "Machine Learning Engineer",
       "location": "Hong Kong, Singapore, Shanghai",
       "score": 100,
       "url": "https://www.tower-research.com/open-positions/?gh_jid=7714667"
-    },
-    {
-      "firm": "Tower Research Capital",
-      "title": "Quantitative Developer",
-      "location": "Singapore",
-      "score": 100,
-      "url": "https://www.tower-research.com/open-positions/?gh_jid=5733830"
-    },
-    {
-      "firm": "Tower Research Capital",
-      "title": "Quantitative Developer ",
-      "location": "Gurgaon",
-      "score": 100,
-      "url": "https://www.tower-research.com/open-positions/?gh_jid=7102180"
-    },
-    {
-      "firm": "Tower Research Capital",
-      "title": "Quantitative Developer (C++)",
-      "location": "Hong Kong, Shanghai",
-      "score": 100,
-      "url": "https://www.tower-research.com/open-positions/?gh_jid=6296510"
     }
   ]
 }

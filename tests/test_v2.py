@@ -78,18 +78,23 @@ class TestJobTrackerV2(unittest.TestCase):
         agent = CrawlAgent()
         coinbase = agent.firm_meta.get("Coinbase")
         self.assertIsNotNone(coinbase)
-        self.assertEqual(coinbase["priority_tier"], "Tier D: Selective / Conditional Fit")
+        self.assertEqual(coinbase["priority_tier"], "Tier B: Main Focus")
         self.assertEqual(coinbase["industry_sector"], "FinTech & Elite Tech")
 
         robinhood = agent.firm_meta.get("Robinhood")
         self.assertIsNotNone(robinhood)
-        self.assertEqual(robinhood["priority_tier"], "Tier D: Selective / Conditional Fit")
+        self.assertEqual(robinhood["priority_tier"], "Tier B: Main Focus")
         self.assertEqual(robinhood["industry_sector"], "FinTech & Elite Tech")
 
         goldman = agent.firm_meta.get("Goldman Sachs")
         self.assertIsNotNone(goldman)
-        self.assertEqual(goldman["priority_tier"], "Tier B: Main Focus / High Conviction")
+        self.assertEqual(goldman["priority_tier"], "Tier C1: Same or Above Benchmark")
         self.assertEqual(goldman["industry_sector"], "Bulge Bracket & Global Investment Banks")
+
+        openai = agent.firm_meta.get("OpenAI")
+        self.assertIsNotNone(openai)
+        self.assertEqual(openai["priority_tier"], "Tier A: Too Hard")
+        self.assertEqual(openai["industry_sector"], "FinTech & Elite Tech")
 
     def test_intern_summer_hard_disqualification(self):
         intern_jobs = [
