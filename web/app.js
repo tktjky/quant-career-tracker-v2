@@ -73,7 +73,7 @@ function updateStats() {
   const high = allOpenings.filter(j => (j.suitability_score || 0) >= 80).length;
   const newlyDiscovered = allOpenings.filter(j => j.status === "NEW").length;
   const hiringFirms = new Set(allOpenings.filter(j => j.status !== "INACTIVE").map(j => j.firm_name)).size;
-  const totalMonitoredFirms = (trackerMeta.firms_directory ? trackerMeta.firms_directory.length : (trackerMeta.stats ? trackerMeta.stats.total_monitored_firms : 268)) || 268;
+  const totalMonitoredFirms = (trackerMeta.firms_directory ? trackerMeta.firms_directory.length : (trackerMeta.stats ? trackerMeta.stats.total_monitored_firms : 298)) || 298;
 
   if (document.getElementById("stat-total")) document.getElementById("stat-total").innerText = activeCount;
   if (document.getElementById("stat-high")) document.getElementById("stat-high").innerText = high;
