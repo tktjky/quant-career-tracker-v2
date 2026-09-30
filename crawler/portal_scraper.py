@@ -25,6 +25,14 @@ ICIMS_REGISTRY = {
         "portal": "careers-gtsx",
         "base_url": "https://careers-gtsx.icims.com",
     },
+    "Charles Schwab": {
+        "portal": "career-schwab",
+        "base_url": "https://career-schwab.icims.com",
+    },
+    "Allspring Global Investments": {
+        "portal": "careers-allspringglobal",
+        "base_url": "https://careers-allspringglobal.icims.com",
+    },
 }
 
 JIBE_REGISTRY = {
@@ -37,6 +45,13 @@ JIBE_REGISTRY = {
         "careers_url": "https://careers.sig.com",
     },
 }
+
+JOBVITE_REGISTRY = {
+    "Alger": {
+        "base_url": "https://jobs.jobvite.com/alger",
+    },
+}
+
 
 
 class PortalScraper:
@@ -79,7 +94,7 @@ class PortalScraper:
                     seen_ids.add(job_id)
 
                     title_raw = a.get_text(strip=True)
-                    title = re.sub(r"^(?:Job\s*Title|Title)\s*:?\s*", "", title_raw, flags=re.IGNORECASE).strip()
+                    title = re.sub(r"^(?:Job\s*Posting\s*Title|Job\s*Title|Title)\s*:?\s*", "", title_raw, flags=re.IGNORECASE).strip()
 
                     full_url = href if href.startswith("http") else f"{base_url}{href}"
                     full_url = re.sub(r"[?&]in_iframe=1", "", full_url)
@@ -170,3 +185,44 @@ class PortalScraper:
 
         logger.info(f"Jibe API [{firm_name}]: retrieved {len(jobs)} jobs across {page} pages")
         return jobs
+
+    def scrape_jobvite_portal(self, firm_name: str, base_url: str) -> List[Dict[str, Any]]:
+        """Scrapes Jobvite career portal (e.g., https://jobs.jobvite.com/{company})."""
+        jobs = []
+        try:
+            resp = self.session.get(base_url, timeout=self.timeout)
+            if resp.status_code != 200:
+                logger.warning(f"Jobvite portal {firm_name} ({base_url}) returned {resp.status_code}")
+                return []
+            soup = BeautifulSoup(resp.text, "html.parser")
+            seen_ids = set()
+            for a in soup.find_all("a", href=True):
+                href = a["href"]
+                if "/job/" in href:
+                    job_id = href.rstrip("/").split("/")[-1]
+                    if job_id in seen_ids:
+                        continue
+                    seen_ids.add(job_id)
+                    title = a.get_text(strip=True)
+                    if not title or title.lower() in ["apply", "view"]:
+                        continue
+                    full_url = href if href.startswith("http") else f"https://jobs.jobvite.com{href}"
+                    job_entry = {
+                        "job_id": f"jobvite_{firm_name.lower().replace(' ', '_')}_{job_id}",
+                        "firm_name": firm_name,
+                        "title": title,
+                        "location": "Unknown",
+                        "department": "",
+                        "url": full_url,
+                        "source_ats": "Jobvite",
+                        "description": title,
+                        "updated_at": None,
+                    }
+                    job_entry["posted_pay_range"] = extract_posted_pay_range(job_entry)
+                    jobs.append(job_entry)
+        except Exception as e:
+            logger.error(f"Error scraping Jobvite portal {firm_name} ({base_url}): {e}")
+
+        logger.info(f"Jobvite [{firm_name}]: retrieved {len(jobs)} jobs")
+        return jobs
+

@@ -73,6 +73,18 @@ KNOWN_FIRM_PROFILES = {
     "Trexquant Investment": {"status": "AUTOMATED_FEED", "method": "Workable API", "ats": "workable", "token": "trexquant", "reason": None},
     "GTS": {"status": "AUTOMATED_FEED", "method": "iCIMS API", "ats": "icims", "token": "gts", "reason": None},
     "MSCI": {"status": "AUTOMATED_FEED", "method": "iCIMS API", "ats": "icims", "token": "msci", "reason": None},
+    "Castleton Commodities International (CCI)": {"status": "AUTOMATED_FEED", "method": "Workday CXS API", "ats": "workday", "token": "cci", "reason": None},
+    "Capula Investment Management": {"status": "AUTOMATED_FEED", "method": "Workable API", "ats": "workable", "token": "capula-investment-management-ltd", "reason": None},
+    "AllianceBernstein": {"status": "AUTOMATED_FEED", "method": "Workday CXS API", "ats": "workday", "token": "alliancebernstein", "reason": None},
+    "Invesco": {"status": "AUTOMATED_FEED", "method": "Workday CXS API", "ats": "workday", "token": "invesco", "reason": None},
+    "Brown Brothers Harriman": {"status": "AUTOMATED_FEED", "method": "Workday CXS API", "ats": "workday", "token": "bbh", "reason": None},
+    "CIBC Capital Markets": {"status": "AUTOMATED_FEED", "method": "Workday CXS API", "ats": "workday", "token": "cibc", "reason": None},
+    "American Century Investments": {"status": "AUTOMATED_FEED", "method": "Workday CXS API", "ats": "workday", "token": "americancentury", "reason": None},
+    "Columbia Threadneedle": {"status": "AUTOMATED_FEED", "method": "Workday CXS API", "ats": "workday", "token": "columbiathreadneedle", "reason": None},
+    "Charles Schwab": {"status": "AUTOMATED_FEED", "method": "iCIMS API", "ats": "icims", "token": "schwab", "reason": None},
+    "Allspring Global Investments": {"status": "AUTOMATED_FEED", "method": "iCIMS API", "ats": "icims", "token": "allspring", "reason": None},
+    "Alger": {"status": "AUTOMATED_FEED", "method": "Jobvite Portal", "ats": "jobvite", "token": "alger", "reason": None},
+    "Beacon Platform": {"status": "AUTOMATED_FEED", "method": "Greenhouse API", "ats": "greenhouse", "token": "beaconplatform", "reason": None},
 
     # Truly Protected Portals
     "Morgan Stanley": {"status": "UNCRAWLABLE_PORTAL_ONLY", "method": "Direct Portal Monitored", "ats": "workday", "reason": "Enterprise Taleo/Workday Portal"},

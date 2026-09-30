@@ -54,6 +54,41 @@ WORKDAY_REGISTRY = {
         "tenant": "peak6group",
         "site": "PEAK6",
     },
+    "Castleton Commodities International (CCI)": {
+        "host": "osv-cci.wd1.myworkdayjobs.com",
+        "tenant": "osv_cci",
+        "site": "CCICareers",
+    },
+    "AllianceBernstein": {
+        "host": "abglobal.wd1.myworkdayjobs.com",
+        "tenant": "abglobal",
+        "site": "alliancebernsteincareers",
+    },
+    "Invesco": {
+        "host": "invesco.wd1.myworkdayjobs.com",
+        "tenant": "invesco",
+        "site": "IVZ",
+    },
+    "Brown Brothers Harriman": {
+        "host": "bbh.wd5.myworkdayjobs.com",
+        "tenant": "bbh",
+        "site": "BBH",
+    },
+    "CIBC Capital Markets": {
+        "host": "cibc.wd3.myworkdayjobs.com",
+        "tenant": "cibc",
+        "site": "search",
+    },
+    "American Century Investments": {
+        "host": "americancentury.wd5.myworkdayjobs.com",
+        "tenant": "americancentury",
+        "site": "AmericanCenturyInvestments",
+    },
+    "Columbia Threadneedle": {
+        "host": "ameriprise.wd5.myworkdayjobs.com",
+        "tenant": "ameriprise",
+        "site": "Ameriprise",
+    },
 }
 
 WORKDAY_SEARCH_TERMS = ["quantitative", "quant", "trading", "data scientist"]

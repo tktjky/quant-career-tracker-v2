@@ -68,7 +68,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
   },
   "Aigen Investment Management": {
     "firm_name": "Aigen Investment Management",
@@ -92,14 +92,15 @@
     "industry_sector": "Proprietary Trading & Market Making"
   },
   "Alger": {
+    "status": "AUTOMATED_FEED",
+    "method": "Jobvite Portal",
+    "ats": "jobvite",
+    "token": "alger",
+    "reason": null,
     "firm_name": "Alger",
     "official_careers_url": "https://www.alger.com/careers",
     "priority_tier": "Tier C2: Same or Below Benchmark",
-    "industry_sector": "Systematic Asset Management & Allocators",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "industry_sector": "Systematic Asset Management & Allocators"
   },
   "All Options Trading": {
     "firm_name": "All Options Trading",
@@ -112,24 +113,26 @@
     "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "AllianceBernstein": {
+    "status": "AUTOMATED_FEED",
+    "method": "Workday CXS API",
+    "ats": "workday",
+    "token": "alliancebernstein",
+    "reason": null,
     "firm_name": "AllianceBernstein",
     "official_careers_url": "https://www.alliancebernstein.com/corporate/en/careers.html",
     "priority_tier": "Tier C1: Same or Above Benchmark",
-    "industry_sector": "Systematic Asset Management & Allocators",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "workday",
-    "reason": "Enterprise Workday (Dynamic Session Required)"
+    "industry_sector": "Systematic Asset Management & Allocators"
   },
   "Allspring Global Investments": {
+    "status": "AUTOMATED_FEED",
+    "method": "iCIMS API",
+    "ats": "icims",
+    "token": "allspring",
+    "reason": null,
     "firm_name": "Allspring Global Investments",
     "official_careers_url": "https://www.allspringglobal.com/",
     "priority_tier": "Tier C2: Same or Below Benchmark",
-    "industry_sector": "Systematic Asset Management & Allocators",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "industry_sector": "Systematic Asset Management & Allocators"
   },
   "AlphaROC": {
     "firm_name": "AlphaROC",
@@ -162,14 +165,15 @@
     "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "American Century Investments": {
+    "status": "AUTOMATED_FEED",
+    "method": "Workday CXS API",
+    "ats": "workday",
+    "token": "americancentury",
+    "reason": null,
     "firm_name": "American Century Investments",
     "official_careers_url": "https://www.americancentury.com/careers/",
     "priority_tier": "Tier C2: Same or Below Benchmark",
-    "industry_sector": "Systematic Asset Management & Allocators",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "industry_sector": "Systematic Asset Management & Allocators"
   },
   "American Express": {
     "firm_name": "American Express",
@@ -344,14 +348,15 @@
     "reason": "Enterprise Workday (Dynamic Session Required)"
   },
   "Beacon Platform": {
+    "status": "AUTOMATED_FEED",
+    "method": "Greenhouse API",
+    "ats": "greenhouse",
+    "token": "beaconplatform",
+    "reason": null,
     "firm_name": "Beacon Platform",
     "official_careers_url": "https://www.beacon.io/careers/",
     "priority_tier": "Tier C2: Same or Below Benchmark",
-    "industry_sector": "Financial Data & Market Utilities",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "industry_sector": "Financial Data & Market Utilities"
   },
   "Belvedere Trading": {
     "firm_name": "Belvedere Trading",
@@ -468,24 +473,26 @@
     "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
   },
   "Brown Brothers Harriman": {
+    "status": "AUTOMATED_FEED",
+    "method": "Workday CXS API",
+    "ats": "workday",
+    "token": "bbh",
+    "reason": null,
     "firm_name": "Brown Brothers Harriman",
     "official_careers_url": "https://www.bbh.com/careers",
     "priority_tier": "Tier C1: Same or Above Benchmark",
-    "industry_sector": "Bulge Bracket & Global Investment Banks",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "industry_sector": "Bulge Bracket & Global Investment Banks"
   },
   "CIBC Capital Markets": {
+    "status": "AUTOMATED_FEED",
+    "method": "Workday CXS API",
+    "ats": "workday",
+    "token": "cibc",
+    "reason": null,
     "firm_name": "CIBC Capital Markets",
     "official_careers_url": "https://www.cibc.com/en/about-cibc/careers.html",
     "priority_tier": "Tier C1: Same or Above Benchmark",
-    "industry_sector": "Bulge Bracket & Global Investment Banks",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "workday",
-    "reason": "Enterprise Workday (Dynamic Session Required)"
+    "industry_sector": "Bulge Bracket & Global Investment Banks"
   },
   "CITIC Securities": {
     "firm_name": "CITIC Securities",
@@ -560,14 +567,15 @@
     "industry_sector": "Quantitative Hedge Funds"
   },
   "Capula Investment Management": {
+    "status": "AUTOMATED_FEED",
+    "method": "Workable API",
+    "ats": "workable",
+    "token": "capula-investment-management-ltd",
+    "reason": null,
     "firm_name": "Capula Investment Management",
     "official_careers_url": "https://www.capula.com/careers/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "Quantitative Hedge Funds",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Access Restricted (SSLError)"
+    "industry_sector": "Quantitative Hedge Funds"
   },
   "Caravela Energy Partners": {
     "firm_name": "Caravela Energy Partners",
@@ -580,14 +588,15 @@
     "reason": "Access Restricted (SSLError)"
   },
   "Castleton Commodities International (CCI)": {
+    "status": "AUTOMATED_FEED",
+    "method": "Workday CXS API",
+    "ats": "workday",
+    "token": "cci",
+    "reason": null,
     "firm_name": "Castleton Commodities International (CCI)",
     "official_careers_url": "https://www.cci.com/careers/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "Commodities & Energy Trading Desks",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "workday",
-    "reason": "Enterprise Workday (Dynamic Session Required)"
+    "industry_sector": "Commodities & Energy Trading Desks"
   },
   "Centiva Capital": {
     "firm_name": "Centiva Capital",
@@ -606,18 +615,19 @@
     "industry_sector": "Quantitative Hedge Funds",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "ats": "workday",
+    "reason": "Enterprise Workday (Dynamic Session Required)"
   },
   "Charles Schwab": {
+    "status": "AUTOMATED_FEED",
+    "method": "iCIMS API",
+    "ats": "icims",
+    "token": "schwab",
+    "reason": null,
     "firm_name": "Charles Schwab",
     "official_careers_url": "https://jobs.schwabjobs.com/",
     "priority_tier": "Tier C2: Same or Below Benchmark",
-    "industry_sector": "Systematic Asset Management & Allocators",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "icims",
-    "reason": "Enterprise iCIMS Portal (Dynamic iFrame)"
+    "industry_sector": "Systematic Asset Management & Allocators"
   },
   "Chengqi Funds": {
     "firm_name": "Chengqi Funds",
@@ -668,7 +678,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "China International Capital Corporation (CICC)": {
     "firm_name": "China International Capital Corporation (CICC)",
@@ -751,14 +761,15 @@
     "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Columbia Threadneedle": {
+    "status": "AUTOMATED_FEED",
+    "method": "Workday CXS API",
+    "ats": "workday",
+    "token": "columbiathreadneedle",
+    "reason": null,
     "firm_name": "Columbia Threadneedle",
     "official_careers_url": "https://www.columbiathreadneedle.com/",
     "priority_tier": "Tier C2: Same or Below Benchmark",
-    "industry_sector": "Systematic Asset Management & Allocators",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "industry_sector": "Systematic Asset Management & Allocators"
   },
   "Consolidated Trading": {
     "firm_name": "Consolidated Trading",
@@ -969,8 +980,8 @@
     "industry_sector": "Systematic Asset Management & Allocators",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "ats": "workday",
+    "reason": "Enterprise Workday (Dynamic Session Required)"
   },
   "Dodge & Cox": {
     "firm_name": "Dodge & Cox",
@@ -1032,7 +1043,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (SSLError)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Ernst & Young": {
     "firm_name": "Ernst & Young",
@@ -1123,7 +1134,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
   },
   "Finance Concepts": {
     "firm_name": "Finance Concepts",
@@ -1140,10 +1151,12 @@
     "official_careers_url": "https://fireworks.ai/careers",
     "priority_tier": "Tier B: Main Focus",
     "industry_sector": "FinTech & Elite Tech",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "status": "AUTOMATED_FEED",
+    "method": "Ashby API",
+    "ats": "ashby",
+    "token": "fireworks",
+    "job_count": 86,
+    "reason": null
   },
   "Fitch Ratings": {
     "firm_name": "Fitch Ratings",
@@ -1170,10 +1183,12 @@
     "official_careers_url": "https://fiverings.com/careers/",
     "priority_tier": "Tier A: Too Hard",
     "industry_sector": "Proprietary Trading & Market Making",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "status": "AUTOMATED_FEED",
+    "method": "Greenhouse API",
+    "ats": "greenhouse",
+    "token": "fiveringsllc",
+    "job_count": 16,
+    "reason": null
   },
   "Flow Traders": {
     "status": "AUTOMATED_FEED",
@@ -1395,10 +1410,12 @@
     "official_careers_url": "https://grayscale.com/careers/",
     "priority_tier": "Tier B: Main Focus",
     "industry_sector": "FinTech & Elite Tech",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "status": "AUTOMATED_FEED",
+    "method": "Greenhouse API",
+    "ats": "greenhouse",
+    "token": "grayscaleinvestments",
+    "job_count": 5,
+    "reason": null
   },
   "Gridify": {
     "firm_name": "Gridify",
@@ -1564,14 +1581,15 @@
     "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Invesco": {
+    "status": "AUTOMATED_FEED",
+    "method": "Workday CXS API",
+    "ats": "workday",
+    "token": "invesco",
+    "reason": null,
     "firm_name": "Invesco",
     "official_careers_url": "https://www.invesco.com/corporate/careers",
     "priority_tier": "Tier C1: Same or Above Benchmark",
-    "industry_sector": "Systematic Asset Management & Allocators",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "workday",
-    "reason": "Enterprise Workday (Dynamic Session Required)"
+    "industry_sector": "Systematic Asset Management & Allocators"
   },
   "Investcorp": {
     "firm_name": "Investcorp",
@@ -1903,8 +1921,8 @@
     "industry_sector": "Bulge Bracket & Global Investment Banks",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "ats": "workday",
+    "reason": "Enterprise Workday (Dynamic Session Required)"
   },
   "Mojo Interactive": {
     "firm_name": "Mojo Interactive",
@@ -1985,8 +2003,8 @@
     "industry_sector": "Systematic Asset Management & Allocators",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "ats": "workday",
+    "reason": "Enterprise Workday (Dynamic Session Required)"
   },
   "New York Mortgage Trust": {
     "firm_name": "New York Mortgage Trust",
@@ -2224,7 +2242,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Perella Weinberg Partners": {
     "firm_name": "Perella Weinberg Partners",
@@ -2307,7 +2325,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (SSLError)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Quantbot Technologies": {
     "firm_name": "Quantbot Technologies",
@@ -2386,10 +2404,12 @@
     "official_careers_url": "https://ramp.com/careers",
     "priority_tier": "Tier B: Main Focus",
     "industry_sector": "FinTech & Elite Tech",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "status": "AUTOMATED_FEED",
+    "method": "Ashby API",
+    "ats": "ashby",
+    "token": "ramp",
+    "job_count": 156,
+    "reason": null
   },
   "Robinhood": {
     "firm_name": "Robinhood",
@@ -2503,7 +2523,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (SSLError)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Shanghai Yanfu Investments": {
     "firm_name": "Shanghai Yanfu Investments",
@@ -2520,10 +2540,12 @@
     "official_careers_url": "https://simplextrading.com/careers/",
     "priority_tier": "Tier B: Main Focus",
     "industry_sector": "Proprietary Trading & Market Making",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "status": "AUTOMATED_FEED",
+    "method": "Greenhouse API",
+    "ats": "greenhouse",
+    "token": "simplextrading",
+    "job_count": 5,
+    "reason": null
   },
   "Snowflake": {
     "firm_name": "Snowflake",
@@ -2543,7 +2565,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
   },
   "Societe Generale": {
     "firm_name": "Societe Generale",
@@ -2604,8 +2626,8 @@
     "industry_sector": "Systematic Asset Management & Allocators",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "ats": "workday",
+    "reason": "Enterprise Workday (Dynamic Session Required)"
   },
   "Stripe": {
     "firm_name": "Stripe",
@@ -2726,7 +2748,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
   },
   "Tower Research Capital": {
     "status": "AUTOMATED_FEED",

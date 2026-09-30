@@ -518,5 +518,65 @@
     "ats": "icims",
     "token": "msci",
     "tier": "Tier C2: Same or Below Benchmark"
+  },
+  "Castleton Commodities International (CCI)": {
+    "ats": "workday",
+    "token": "cci",
+    "tier": "Tier B: Main Focus"
+  },
+  "Capula Investment Management": {
+    "ats": "workable",
+    "token": "capula-investment-management-ltd",
+    "tier": "Tier B: Main Focus"
+  },
+  "AllianceBernstein": {
+    "ats": "workday",
+    "token": "alliancebernstein",
+    "tier": "Tier C1: Same or Above Benchmark"
+  },
+  "Invesco": {
+    "ats": "workday",
+    "token": "invesco",
+    "tier": "Tier C1: Same or Above Benchmark"
+  },
+  "Brown Brothers Harriman": {
+    "ats": "workday",
+    "token": "bbh",
+    "tier": "Tier C1: Same or Above Benchmark"
+  },
+  "CIBC Capital Markets": {
+    "ats": "workday",
+    "token": "cibc",
+    "tier": "Tier C1: Same or Above Benchmark"
+  },
+  "Charles Schwab": {
+    "ats": "icims",
+    "token": "schwab",
+    "tier": "Tier C2: Same or Below Benchmark"
+  },
+  "American Century Investments": {
+    "ats": "workday",
+    "token": "americancentury",
+    "tier": "Tier C2: Same or Below Benchmark"
+  },
+  "Columbia Threadneedle": {
+    "ats": "workday",
+    "token": "columbiathreadneedle",
+    "tier": "Tier C2: Same or Below Benchmark"
+  },
+  "Allspring Global Investments": {
+    "ats": "icims",
+    "token": "allspring",
+    "tier": "Tier C2: Same or Below Benchmark"
+  },
+  "Alger": {
+    "ats": "jobvite",
+    "token": "alger",
+    "tier": "Tier C2: Same or Below Benchmark"
+  },
+  "Beacon Platform": {
+    "ats": "greenhouse",
+    "token": "beaconplatform",
+    "tier": "Tier C2: Same or Below Benchmark"
   }
 }

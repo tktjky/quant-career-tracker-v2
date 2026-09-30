@@ -124,10 +124,24 @@ ATS_BOARD_REGISTRY = {
     "CME Group": {"ats": "workday", "token": "cmegroup", "tier": "Tier C1: Same or Above Benchmark"},
     "Arrowstreet Capital": {"ats": "workday", "token": "arrowstreetcapital", "tier": "Tier A: Too Hard"},
     "Options Clearing Corporation (OCC)": {"ats": "workday", "token": "theocc", "tier": "Tier B: Main Focus"},
+    "Castleton Commodities International (CCI)": {"ats": "workday", "token": "cci", "tier": "Tier B: Main Focus"},
+    "AllianceBernstein": {"ats": "workday", "token": "alliancebernstein", "tier": "Tier C1: Same or Above Benchmark"},
+    "Invesco": {"ats": "workday", "token": "invesco", "tier": "Tier C1: Same or Above Benchmark"},
+    "Brown Brothers Harriman": {"ats": "workday", "token": "bbh", "tier": "Tier C1: Same or Above Benchmark"},
+    "CIBC Capital Markets": {"ats": "workday", "token": "cibc", "tier": "Tier C1: Same or Above Benchmark"},
+    "American Century Investments": {"ats": "workday", "token": "americancentury", "tier": "Tier C2: Same or Below Benchmark"},
+    "Columbia Threadneedle": {"ats": "workday", "token": "columbiathreadneedle", "tier": "Tier C2: Same or Below Benchmark"},
 
-    # Enterprise Portals with verified iCIMS/Jibe API
+    # Workable Portals
+    "Capula Investment Management": {"ats": "workable", "token": "capula-investment-management-ltd", "tier": "Tier B: Main Focus"},
+
+    # Enterprise Portals with verified iCIMS/Jibe/Jobvite API
     "MSCI": {"ats": "icims", "token": "msci", "tier": "Tier C2: Same or Below Benchmark"},
     "GTS": {"ats": "icims", "token": "gts", "tier": "Tier A: Too Hard"},
+    "Charles Schwab": {"ats": "icims", "token": "schwab", "tier": "Tier C2: Same or Below Benchmark"},
+    "Allspring Global Investments": {"ats": "icims", "token": "allspring", "tier": "Tier C2: Same or Below Benchmark"},
+    "Alger": {"ats": "jobvite", "token": "alger", "tier": "Tier C2: Same or Below Benchmark"},
+    "Beacon Platform": {"ats": "greenhouse", "token": "beaconplatform", "tier": "Tier C2: Same or Below Benchmark"},
 }
 
 # Auto-merge any newly discovered boards from data/discovered_ats_boards.json
@@ -382,6 +396,8 @@ class ATSScraper:
             return self._scrape_icims(firm_name, token)
         elif ats_type == "jibe":
             return self._scrape_jibe(firm_name, token)
+        elif ats_type == "jobvite":
+            return self._scrape_jobvite(firm_name, token)
         else:
             return []
 
@@ -422,4 +438,17 @@ class ATSScraper:
             firm_name=firm_name,
             api_url=config["api_url"],
         )
+
+    def _scrape_jobvite(self, firm_name: str, token: str) -> List[Dict[str, Any]]:
+        from crawler.portal_scraper import PortalScraper, JOBVITE_REGISTRY
+        config = JOBVITE_REGISTRY.get(firm_name)
+        if not config:
+            logger.warning(f"No Jobvite config for {firm_name}")
+            return []
+        scraper = PortalScraper(timeout=self.timeout)
+        return scraper.scrape_jobvite_portal(
+            firm_name=firm_name,
+            base_url=config["base_url"],
+        )
+
 
