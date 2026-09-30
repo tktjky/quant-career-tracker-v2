@@ -106,7 +106,7 @@ WORKDAY_REGISTRY = {
     },
 }
 
-WORKDAY_SEARCH_TERMS = ["quantitative", "quant", "trading", "data scientist"]
+WORKDAY_SEARCH_TERMS = ["quantitative", "quant", "trading", "data scientist", "machine learning", "product", "data"]
 
 
 class WorkdayScraper:

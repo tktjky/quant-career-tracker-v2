@@ -1,14 +1,28 @@
 {
-  "crawl_timestamp": "2026-09-30T21:38:53.589145",
-  "duration_seconds": 30.852835,
+  "crawl_timestamp": "2026-09-30T17:40:14.724682",
+  "duration_seconds": 37.663798,
   "diff_stats": {
-    "total_active_scraped": 651,
+    "total_active_scraped": 1077,
     "new_openings": 0,
-    "retained_active": 651,
+    "retained_active": 1077,
     "newly_closed": 0,
-    "total_tracked_all_time": 1060
+    "total_tracked_all_time": 1438
   },
   "top_matches": [
+    {
+      "firm": "Affirm",
+      "title": "Machine Learning Engineer II (Underwriting ML)",
+      "location": "Remote Canada",
+      "score": 100,
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7822389003"
+    },
+    {
+      "firm": "Affirm",
+      "title": "Machine Learning Engineer II (Underwriting ML)",
+      "location": "Remote US",
+      "score": 100,
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7822387003"
+    },
     {
       "firm": "RBC Capital Markets",
       "title": "Quantitative Research Analyst - Derivatives & Risk Analytics (2027)",
@@ -31,6 +45,20 @@
       "url": "https://careers.societegenerale.com/"
     },
     {
+      "firm": "TD Securities",
+      "title": "Machine Learning Engineer",
+      "location": "Toronto, Ontario",
+      "score": 100,
+      "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Machine-Learning-Engineer_R_1431479"
+    },
+    {
+      "firm": "TD Securities",
+      "title": "Machine Learning Engineer II",
+      "location": "661 University Avenue, Toronto, Ontario",
+      "score": 100,
+      "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/661-University-Avenue-Toronto-Ontario/Machine-Learning-Engineer-II_R_1476583"
+    },
+    {
       "firm": "BlackRock",
       "title": "Associate, Securities Lending Quantitative Research and Algorithmic Trading, BlackRock Global Markets (BGM)",
       "location": "New York, NY",
@@ -38,46 +66,18 @@
       "url": "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional/job/New-York-NY/Associate--Securities-Lending-Quantitative-Research-and-Algorithmic-Trading--BlackRock-Global-Markets--BGM-_R266542"
     },
     {
+      "firm": "Meta",
+      "title": "Machine Learning Engineer - Ranking & Distributed Recommendation Graphs",
+      "location": "New York, NY / Menlo Park, CA",
+      "score": 100,
+      "url": "https://www.metacareers.com/jobs/?q=machine%20learning"
+    },
+    {
       "firm": "All Options Trading",
       "title": "Market Risk Manager / Quantitative Analyst - Derivatives Trading",
       "location": "New York, NY / Amsterdam",
       "score": 100,
       "url": "https://www.alloptions.nl/careers/"
-    },
-    {
-      "firm": "Quantitative Brokers",
-      "title": "Quantitative Trading Analyst - Algorithmic Execution & Market Microstructure",
-      "location": "New York, NY",
-      "score": 100,
-      "url": "https://www.quantitativebrokers.com/careers"
-    },
-    {
-      "firm": "Ellington Management Group",
-      "title": "Quantitative Research Analyst - Structured Credit & Mortgage Derivatives",
-      "location": "Old Greenwich, CT / New York, NY",
-      "score": 100,
-      "url": "https://www.ellington.com/careers"
-    },
-    {
-      "firm": "Brevan Howard",
-      "title": "Quantitative Trader / Researcher - Systematic Rates & Macro (2027 Start)",
-      "location": "New York, NY / Geneva",
-      "score": 100,
-      "url": "https://www.brevanhoward.com/careers/"
-    },
-    {
-      "firm": "Flow Traders",
-      "title": "Digital Assets Quantitative Researcher",
-      "location": "Amsterdam",
-      "score": 100,
-      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8207306"
-    },
-    {
-      "firm": "Flow Traders",
-      "title": "PhD Graduate Quantitative Researcher",
-      "location": "Hong Kong",
-      "score": 100,
-      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8213037"
     }
   ]
 }

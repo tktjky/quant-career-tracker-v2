@@ -23,29 +23,35 @@ class EnterpriseTailoredAgent(BaseFirmAgent):
         # 1. First attempt dynamic API / structured search if supported
         if self.firm_name == "Amazon":
             try:
-                url = "https://www.amazon.jobs/en/search.json?base_query=economist&result_type=jobs&sort=recent"
-                resp = self.session.get(url, timeout=self.timeout)
-                if resp.status_code == 200:
-                    data = resp.json()
-                    for rj in data.get("jobs", [])[:10]:
-                        title = rj.get("title", "")
-                        job_path = rj.get("job_path", "")
-                        full_url = f"https://www.amazon.jobs{job_path}" if job_path else self.portal_url
-                        loc = rj.get("location_normalized") or rj.get("location") or "Seattle, WA / New York, NY"
-                        desc = rj.get("description_short", "") or title
-                        jid = str(rj.get("id", rj.get("job_path", "").split("/")[-1]))
+                queries = ["economist", "data scientist", "machine learning", "product manager", "applied scientist"]
+                seen_ids = set()
+                for q in queries:
+                    url = f"https://www.amazon.jobs/en/search.json?base_query={requests.utils.quote(q)}&result_type=jobs&sort=recent"
+                    resp = self.session.get(url, timeout=self.timeout)
+                    if resp.status_code == 200:
+                        data = resp.json()
+                        for rj in data.get("jobs", [])[:8]:
+                            jid = str(rj.get("id", rj.get("job_path", "").split("/")[-1]))
+                            if jid in seen_ids:
+                                continue
+                            seen_ids.add(jid)
+                            title = rj.get("title", "")
+                            job_path = rj.get("job_path", "")
+                            full_url = f"https://www.amazon.jobs{job_path}" if job_path else self.portal_url
+                            loc = rj.get("location_normalized") or rj.get("location") or "Seattle, WA / New York, NY"
+                            desc = rj.get("description_short", "") or title
 
-                        job_entry = self.normalize_job(
-                            job_id=jid,
-                            title=title,
-                            url=full_url,
-                            location=loc,
-                            department="Amazon Economics & Machine Learning",
-                            description=desc,
-                            source_ats="Amazon Jobs API"
-                        )
-                        job_entry["posted_pay_range"] = extract_posted_pay_range(job_entry)
-                        jobs.append(job_entry)
+                            job_entry = self.normalize_job(
+                                job_id=jid,
+                                title=title,
+                                url=full_url,
+                                location=loc,
+                                department="Amazon Science & Technology",
+                                description=desc,
+                                source_ats="Amazon Jobs API"
+                            )
+                            job_entry["posted_pay_range"] = extract_posted_pay_range(job_entry)
+                            jobs.append(job_entry)
             except Exception as e:
                 logger.warning(f"Error querying Amazon API: {e}")
 
@@ -78,26 +84,32 @@ class EnterpriseTailoredAgent(BaseFirmAgent):
 
         elif self.firm_name == "Netflix":
             try:
-                url = "https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&query=quantitative"
-                resp = self.session.get(url, timeout=self.timeout)
-                if resp.status_code == 200:
-                    data = resp.json()
-                    for p in data.get("positions", [])[:10]:
-                        title = p.get("name", "")
-                        canon_url = p.get("canonicalPositionUrl") or self.portal_url
-                        loc = p.get("location") or "Los Gatos, CA / New York, NY"
-                        jid = str(p.get("id", canon_url.split("/")[-1]))
-                        job_entry = self.normalize_job(
-                            job_id=jid,
-                            title=title,
-                            url=canon_url,
-                            location=loc,
-                            department="Netflix Quantitative Decision Science & Algorithms",
-                            description=title,
-                            source_ats="Netflix Careers API"
-                        )
-                        job_entry["posted_pay_range"] = extract_posted_pay_range(job_entry)
-                        jobs.append(job_entry)
+                queries = ["quantitative", "data science", "machine learning", "product manager", "applied scientist"]
+                seen_ids = set()
+                for q in queries:
+                    url = f"https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&query={requests.utils.quote(q)}"
+                    resp = self.session.get(url, timeout=self.timeout)
+                    if resp.status_code == 200:
+                        data = resp.json()
+                        for p in data.get("positions", [])[:8]:
+                            canon_url = p.get("canonicalPositionUrl") or self.portal_url
+                            jid = str(p.get("id", canon_url.split("/")[-1]))
+                            if jid in seen_ids:
+                                continue
+                            seen_ids.add(jid)
+                            title = p.get("name", "")
+                            loc = p.get("location") or "Los Gatos, CA / New York, NY"
+                            job_entry = self.normalize_job(
+                                job_id=jid,
+                                title=title,
+                                url=canon_url,
+                                location=loc,
+                                department="Netflix Algorithm & Quantitative Decision Science",
+                                description=title,
+                                source_ats="Netflix Careers API"
+                            )
+                            job_entry["posted_pay_range"] = extract_posted_pay_range(job_entry)
+                            jobs.append(job_entry)
             except Exception as e:
                 logger.warning(f"Error querying Netflix API: {e}")
 

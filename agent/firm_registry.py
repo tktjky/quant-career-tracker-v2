@@ -40,8 +40,24 @@ TAILORED_FIRM_CONFIGS = {
                 "title": "Machine Learning Engineer - Financial Fraud & Risk Algorithms (2027)",
                 "location": "New York, NY / Cupertino, CA",
                 "department": "Apple Pay & Financial Technologies",
-                "url": "https://jobs.apple.com/en-us/search?search=quantitative",
+                "url": "https://jobs.apple.com/en-us/search?search=machine%20learning",
                 "desc": "Develop quantitative risk models, transaction fraud detection algorithms, and real-time inference graphs."
+            },
+            {
+                "id": "apple_data_scientist_2027",
+                "title": "Data Scientist - Analytics, Causal Inference & Predictive Modeling",
+                "location": "New York, NY / Cupertino, CA",
+                "department": "Apple Data Science & Analytics",
+                "url": "https://jobs.apple.com/en-us/search?search=data%20scientist",
+                "desc": "Statistical experimental design, causal inference, user lifetime value estimation, and telemetry forecasting."
+            },
+            {
+                "id": "apple_product_manager_ai_2027",
+                "title": "Product Manager - Machine Learning & Intelligent Systems",
+                "location": "Cupertino, CA / New York, NY",
+                "department": "Apple Intelligence & Machine Learning Product",
+                "url": "https://jobs.apple.com/en-us/search?search=product%20manager",
+                "desc": "Product roadmap and machine learning metrics for on-device foundation models and predictive features."
             }
         ]
     },
@@ -56,6 +72,30 @@ TAILORED_FIRM_CONFIGS = {
                 "department": "Quantitative Analysis & Research",
                 "url": "https://www.google.com/about/careers/applications/jobs/results/?q=quantitative",
                 "desc": "Auction theory, revenue optimization, stochastic market models, and algorithmic asset liability management."
+            },
+            {
+                "id": "google_data_scientist_2027",
+                "title": "Data Scientist - Statistical Modeling & Machine Learning Core",
+                "location": "New York, NY / Mountain View, CA",
+                "department": "Google Central Data Science",
+                "url": "https://www.google.com/about/careers/applications/jobs/results/?q=data%20scientist",
+                "desc": "Causal inference, Bayesian optimization, automated experimentation platforms, and predictive econometric modeling."
+            },
+            {
+                "id": "google_mle_2027",
+                "title": "Software Engineer, Machine Learning (MLE) - 2027 University Graduate",
+                "location": "New York, NY / Sunnyvale, CA",
+                "department": "Core Machine Learning Systems",
+                "url": "https://www.google.com/about/careers/applications/jobs/results/?q=machine%20learning",
+                "desc": "Large-scale transformer training, recommendation systems, low-latency model inference engines, and mathematical optimization."
+            },
+            {
+                "id": "google_apm_product_2027",
+                "title": "Associate Product Manager (APM) - AI Products & Infrastructure (2027)",
+                "location": "New York, NY / Mountain View, CA",
+                "department": "Associate Product Management (APM)",
+                "url": "https://www.google.com/about/careers/applications/jobs/results/?q=product%20manager",
+                "desc": "Define product vision, analytical experimentation roadmaps, and metric telemetry for next-generation generative AI products."
             }
         ]
     },
@@ -70,6 +110,30 @@ TAILORED_FIRM_CONFIGS = {
                 "department": "Monetization Core ML & Economics",
                 "url": "https://www.metacareers.com/jobs/?q=quantitative",
                 "desc": "Stochastic game theory, real-time auction market design, and large-scale pricing elasticity modeling."
+            },
+            {
+                "id": "meta_data_scientist_2027",
+                "title": "Data Scientist, Product Analytics - Monetization & Recommendation Systems",
+                "location": "New York, NY / Menlo Park, CA",
+                "department": "Product Analytics & Data Science",
+                "url": "https://www.metacareers.com/jobs/?q=data%20scientist",
+                "desc": "A/B testing at massive scale, multi-touch attribution, causal graph discovery, and algorithmic monetization."
+            },
+            {
+                "id": "meta_mle_core_2027",
+                "title": "Machine Learning Engineer - Ranking & Distributed Recommendation Graphs",
+                "location": "New York, NY / Menlo Park, CA",
+                "department": "AI Infrastructure & Ranking",
+                "url": "https://www.metacareers.com/jobs/?q=machine%20learning",
+                "desc": "Distributed embedding models, real-time feature stores, candidate generation pipelines, and GPU kernel optimization."
+            },
+            {
+                "id": "meta_rpm_product_2027",
+                "title": "Rotational Product Manager (RPM) - 2027 Full-Time University Graduate",
+                "location": "New York, NY / Menlo Park, CA",
+                "department": "Rotational Product Management",
+                "url": "https://www.metacareers.com/jobs/?q=product%20manager",
+                "desc": "End-to-end product strategy, data-driven feature prioritization, growth loops, and generative AI consumer experiences."
             }
         ]
     },
@@ -84,6 +148,22 @@ TAILORED_FIRM_CONFIGS = {
                 "department": "Azure Resource Optimization & Economics",
                 "url": "https://careers.microsoft.com/v2/global/en/home.html",
                 "desc": "Dynamic pricing, spot market simulation, stochastic optimization, and predictive econometric modeling."
+            },
+            {
+                "id": "msft_data_scientist_2027",
+                "title": "Data Scientist - Azure AI & Enterprise Decision Intelligence",
+                "location": "Redmond, WA / New York, NY",
+                "department": "Cloud & AI Data Science",
+                "url": "https://careers.microsoft.com/v2/global/en/home.html",
+                "desc": "Time-series capacity forecasting, reinforcement learning for resource scheduling, and anomaly detection."
+            },
+            {
+                "id": "msft_product_manager_2027",
+                "title": "Product Manager - AI Platform & Copilot Foundations (2027)",
+                "location": "Redmond, WA / New York, NY",
+                "department": "Developer & AI Products",
+                "url": "https://careers.microsoft.com/v2/global/en/home.html",
+                "desc": "Technical product specifications, API surface design, latency benchmarks, and developer telemetry for Copilot platforms."
             }
         ]
     },
