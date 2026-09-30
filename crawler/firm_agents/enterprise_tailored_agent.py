@@ -76,6 +76,31 @@ class EnterpriseTailoredAgent(BaseFirmAgent):
             except Exception as e:
                 logger.warning(f"Error querying Citi Portal: {e}")
 
+        elif self.firm_name == "Netflix":
+            try:
+                url = "https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&query=quantitative"
+                resp = self.session.get(url, timeout=self.timeout)
+                if resp.status_code == 200:
+                    data = resp.json()
+                    for p in data.get("positions", [])[:10]:
+                        title = p.get("name", "")
+                        canon_url = p.get("canonicalPositionUrl") or self.portal_url
+                        loc = p.get("location") or "Los Gatos, CA / New York, NY"
+                        jid = str(p.get("id", canon_url.split("/")[-1]))
+                        job_entry = self.normalize_job(
+                            job_id=jid,
+                            title=title,
+                            url=canon_url,
+                            location=loc,
+                            department="Netflix Quantitative Decision Science & Algorithms",
+                            description=title,
+                            source_ats="Netflix Careers API"
+                        )
+                        job_entry["posted_pay_range"] = extract_posted_pay_range(job_entry)
+                        jobs.append(job_entry)
+            except Exception as e:
+                logger.warning(f"Error querying Netflix API: {e}")
+
         # 2. If dynamic parsing returned jobs, return them
         if jobs:
             return jobs

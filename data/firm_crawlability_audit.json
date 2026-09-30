@@ -68,7 +68,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
   },
   "Aigen Investment Management": {
     "firm_name": "Aigen Investment Management",
@@ -176,14 +176,14 @@
     "industry_sector": "Systematic Asset Management & Allocators"
   },
   "American Express": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "American Express",
     "official_careers_url": "https://www.americanexpress.com/en-us/careers/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "industry_sector": "FinTech & Elite Tech"
   },
   "Analysis Group": {
     "firm_name": "Analysis Group",
@@ -258,14 +258,14 @@
     "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "BMO Capital Markets": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "BMO Capital Markets",
     "official_careers_url": "https://capitalmarkets.bmo.com/en/about-us/careers/",
     "priority_tier": "Tier C1: Same or Above Benchmark",
-    "industry_sector": "Bulge Bracket & Global Investment Banks",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
+    "industry_sector": "Bulge Bracket & Global Investment Banks"
   },
   "BMW US Capital": {
     "firm_name": "BMW US Capital",
@@ -278,24 +278,24 @@
     "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
   },
   "BNP Paribas": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "BNP Paribas",
     "official_careers_url": "https://group.bnpparibas/en/careers",
     "priority_tier": "Tier C1: Same or Above Benchmark",
-    "industry_sector": "Bulge Bracket & Global Investment Banks",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
+    "industry_sector": "Bulge Bracket & Global Investment Banks"
   },
   "BP Trading": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "BP Trading",
     "official_careers_url": "https://www.bp.com/en/global/corporate/careers.html",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "Commodities & Energy Trading Desks",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "workday",
-    "reason": "Enterprise Workday (Dynamic Session Required)"
+    "industry_sector": "Commodities & Energy Trading Desks"
   },
   "Balbec Capital": {
     "firm_name": "Balbec Capital",
@@ -328,14 +328,14 @@
     "industry_sector": "Bulge Bracket & Global Investment Banks"
   },
   "Bank of New York Mellon (BNY Mellon)": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "Bank of New York Mellon (BNY Mellon)",
     "official_careers_url": "https://www.bankofnewyorkmellon.com/careers",
     "priority_tier": "Tier C1: Same or Above Benchmark",
-    "industry_sector": "Bulge Bracket & Global Investment Banks",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "industry_sector": "Bulge Bracket & Global Investment Banks"
   },
   "Barclays": {
     "status": "AUTOMATED_FEED",
@@ -403,14 +403,14 @@
     "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Bloomberg LP": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "Bloomberg LP",
     "official_careers_url": "https://www.bloomberg.com/company/careers/",
     "priority_tier": "Tier C2: Same or Below Benchmark",
-    "industry_sector": "Financial Data & Market Utilities",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
+    "industry_sector": "Financial Data & Market Utilities"
   },
   "Bopu Fund": {
     "firm_name": "Bopu Fund",
@@ -433,14 +433,14 @@
     "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Brevan Howard": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "Brevan Howard",
     "official_careers_url": "https://www.brevanhoward.com/careers/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "Quantitative Hedge Funds",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "industry_sector": "Quantitative Hedge Funds"
   },
   "Brex": {
     "firm_name": "Brex",
@@ -527,24 +527,24 @@
     "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Calamos Investments": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "Calamos Investments",
     "official_careers_url": "https://www.calamos.com/careers",
     "priority_tier": "Tier C2: Same or Below Benchmark",
-    "industry_sector": "Systematic Asset Management & Allocators",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "industry_sector": "Systematic Asset Management & Allocators"
   },
   "Canada Pension Plan Investment Board (CPPIB)": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "Canada Pension Plan Investment Board (CPPIB)",
     "official_careers_url": "https://www.cppinvestments.com/careers",
     "priority_tier": "Tier C1: Same or Above Benchmark",
-    "industry_sector": "Systematic Asset Management & Allocators",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "industry_sector": "Systematic Asset Management & Allocators"
   },
   "Capital Four": {
     "firm_name": "Capital Four",
@@ -610,14 +610,14 @@
     "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Cerberus Capital Management": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "Cerberus Capital Management",
     "official_careers_url": "https://www.cerberus.com/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "Quantitative Hedge Funds",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "industry_sector": "Quantitative Hedge Funds"
   },
   "Charles Schwab": {
     "status": "AUTOMATED_FEED",
@@ -679,7 +679,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "China International Capital Corporation (CICC)": {
     "firm_name": "China International Capital Corporation (CICC)",
@@ -813,14 +813,14 @@
     "industry_sector": "Bulge Bracket & Global Investment Banks"
   },
   "Credit Suisse": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "Credit Suisse",
     "official_careers_url": "https://www.credit-suisse.com/careers",
     "priority_tier": "Tier C1: Same or Above Benchmark",
-    "industry_sector": "Bulge Bracket & Global Investment Banks",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
+    "industry_sector": "Bulge Bracket & Global Investment Banks"
   },
   "Crimson Education": {
     "firm_name": "Crimson Education",
@@ -975,24 +975,24 @@
     "industry_sector": "Bulge Bracket & Global Investment Banks"
   },
   "Dimensional Fund Advisors (DFA)": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "Dimensional Fund Advisors (DFA)",
     "official_careers_url": "https://www.dimensionalfundadvisors.com/careers",
     "priority_tier": "Tier C2: Same or Below Benchmark",
-    "industry_sector": "Systematic Asset Management & Allocators",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "industry_sector": "Systematic Asset Management & Allocators"
   },
   "Dodge & Cox": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "Dodge & Cox",
     "official_careers_url": "https://www.dodgecox.com/careers",
     "priority_tier": "Tier C2: Same or Below Benchmark",
-    "industry_sector": "Systematic Asset Management & Allocators",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "industry_sector": "Systematic Asset Management & Allocators"
   },
   "EFund Management": {
     "firm_name": "EFund Management",
@@ -1029,12 +1029,10 @@
     "official_careers_url": "https://boards.greenhouse.io/engineersgate",
     "priority_tier": "Tier B: Main Focus",
     "industry_sector": "Quantitative Hedge Funds",
-    "status": "AUTOMATED_FEED",
-    "method": "Greenhouse API",
-    "ats": "greenhouse",
-    "token": "engineersgate",
-    "job_count": 9,
-    "reason": null
+    "status": "UNCRAWLABLE_PORTAL_ONLY",
+    "method": "Direct Portal Monitored",
+    "ats": "custom",
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Ergoteles Capital": {
     "firm_name": "Ergoteles Capital",
@@ -1044,7 +1042,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (SSLError)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Ernst & Young": {
     "firm_name": "Ernst & Young",
@@ -1135,7 +1133,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
   },
   "Finance Concepts": {
     "firm_name": "Finance Concepts",
@@ -1152,10 +1150,12 @@
     "official_careers_url": "https://fireworks.ai/careers",
     "priority_tier": "Tier B: Main Focus",
     "industry_sector": "FinTech & Elite Tech",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "status": "AUTOMATED_FEED",
+    "method": "Ashby API",
+    "ats": "ashby",
+    "token": "fireworks",
+    "job_count": 86,
+    "reason": null
   },
   "Fitch Ratings": {
     "firm_name": "Fitch Ratings",
@@ -1182,10 +1182,12 @@
     "official_careers_url": "https://fiverings.com/careers/",
     "priority_tier": "Tier A: Too Hard",
     "industry_sector": "Proprietary Trading & Market Making",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "status": "AUTOMATED_FEED",
+    "method": "Greenhouse API",
+    "ats": "greenhouse",
+    "token": "fiveringsllc",
+    "job_count": 16,
+    "reason": null
   },
   "Flow Traders": {
     "status": "AUTOMATED_FEED",
@@ -1269,14 +1271,14 @@
     "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "GAM Investments": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "GAM Investments",
     "official_careers_url": "https://www.gam.com/en/careers",
     "priority_tier": "Tier C2: Same or Below Benchmark",
-    "industry_sector": "Systematic Asset Management & Allocators",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "workday",
-    "reason": "Enterprise Workday (Dynamic Session Required)"
+    "industry_sector": "Systematic Asset Management & Allocators"
   },
   "GF Securities": {
     "firm_name": "GF Securities",
@@ -1289,14 +1291,14 @@
     "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "GIC (Government of Singapore Investment Corp)": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "GIC (Government of Singapore Investment Corp)",
     "official_careers_url": "https://www.gic.com/careers",
     "priority_tier": "Tier C1: Same or Above Benchmark",
-    "industry_sector": "Systematic Asset Management & Allocators",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "industry_sector": "Systematic Asset Management & Allocators"
   },
   "GMO": {
     "firm_name": "GMO",
@@ -1407,10 +1409,12 @@
     "official_careers_url": "https://grayscale.com/careers/",
     "priority_tier": "Tier B: Main Focus",
     "industry_sector": "FinTech & Elite Tech",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "status": "AUTOMATED_FEED",
+    "method": "Greenhouse API",
+    "ats": "greenhouse",
+    "token": "grayscaleinvestments",
+    "job_count": 5,
+    "reason": null
   },
   "Gridify": {
     "firm_name": "Gridify",
@@ -1440,7 +1444,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Access Restricted (SSLError)"
   },
   "HBK Capital Management": {
     "firm_name": "HBK Capital Management",
@@ -1546,34 +1550,34 @@
     "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Instinet Incorporated": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "Instinet Incorporated",
     "official_careers_url": "https://www.instinet.com/",
     "priority_tier": "Tier C1: Same or Above Benchmark",
-    "industry_sector": "Bulge Bracket & Global Investment Banks",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "industry_sector": "Bulge Bracket & Global Investment Banks"
   },
   "Intel": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "Intel",
     "official_careers_url": "https://www.intel.com/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
+    "industry_sector": "FinTech & Elite Tech"
   },
   "Intercontinental Exchange (ICE)": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "Intercontinental Exchange (ICE)",
     "official_careers_url": "https://www.theice.com/careers",
     "priority_tier": "Tier C2: Same or Below Benchmark",
-    "industry_sector": "Financial Data & Market Utilities",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "industry_sector": "Financial Data & Market Utilities"
   },
   "Invesco": {
     "status": "AUTOMATED_FEED",
@@ -1587,14 +1591,14 @@
     "industry_sector": "Systematic Asset Management & Allocators"
   },
   "Investcorp": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "Investcorp",
     "official_careers_url": "https://www.investcorp.com/careers",
     "priority_tier": "Tier C2: Same or Below Benchmark",
-    "industry_sector": "Systematic Asset Management & Allocators",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "industry_sector": "Systematic Asset Management & Allocators"
   },
   "Invisible Technologies": {
     "firm_name": "Invisible Technologies",
@@ -1799,14 +1803,14 @@
     "industry_sector": "Quantitative Hedge Funds"
   },
   "MassMutual": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "MassMutual",
     "official_careers_url": "https://www.massmutual.com/careers",
     "priority_tier": "Tier C2: Same or Below Benchmark",
-    "industry_sector": "Systematic Asset Management & Allocators",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
+    "industry_sector": "Systematic Asset Management & Allocators"
   },
   "Maven Securities": {
     "status": "AUTOMATED_FEED",
@@ -1860,14 +1864,14 @@
     "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Mercuria Energy": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "Mercuria Energy",
     "official_careers_url": "https://www.mercuria.com/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "Commodities & Energy Trading Desks",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Access Restricted (SSLError)"
+    "industry_sector": "Commodities & Energy Trading Desks"
   },
   "Meta": {
     "status": "AUTOMATED_FEED",
@@ -1930,14 +1934,14 @@
     "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Moody's Investors Service": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "Moody's Investors Service",
     "official_careers_url": "https://careers.moodys.com/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "industry_sector": "FinTech & Elite Tech"
   },
   "Moon Capital Management": {
     "firm_name": "Moon Capital Management",
@@ -1983,14 +1987,14 @@
     "industry_sector": "FinTech & Elite Tech"
   },
   "Netflix": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "Netflix",
     "official_careers_url": "https://www.netflix.com/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "industry_sector": "FinTech & Elite Tech"
   },
   "Neuberger Berman": {
     "status": "AUTOMATED_FEED",
@@ -2170,10 +2174,10 @@
     "industry_sector": "Systematic Asset Management & Allocators"
   },
   "PIMCO": {
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "workday",
-    "reason": "Enterprise Workday Portal",
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "PIMCO",
     "official_careers_url": "https://www.pimco.com/en-us/our-firm/careers/",
     "priority_tier": "Tier C1: Same or Above Benchmark",
@@ -2238,17 +2242,17 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Perella Weinberg Partners": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "Perella Weinberg Partners",
     "official_careers_url": "https://www.pwpartners.com/careers",
     "priority_tier": "Tier C1: Same or Above Benchmark",
-    "industry_sector": "Bulge Bracket & Global Investment Banks",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "industry_sector": "Bulge Bracket & Global Investment Banks"
   },
   "Perplexity AI": {
     "firm_name": "Perplexity AI",
@@ -2321,7 +2325,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (SSLError)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Quantbot Technologies": {
     "firm_name": "Quantbot Technologies",
@@ -2400,10 +2404,12 @@
     "official_careers_url": "https://ramp.com/careers",
     "priority_tier": "Tier B: Main Focus",
     "industry_sector": "FinTech & Elite Tech",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "status": "AUTOMATED_FEED",
+    "method": "Ashby API",
+    "ats": "ashby",
+    "token": "ramp",
+    "job_count": 155,
+    "reason": null
   },
   "Robinhood": {
     "firm_name": "Robinhood",
@@ -2427,14 +2433,14 @@
     "industry_sector": "Quantitative Hedge Funds"
   },
   "S&P Global": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "S&P Global",
     "official_careers_url": "https://careers.spglobal.com/",
     "priority_tier": "Tier C2: Same or Below Benchmark",
-    "industry_sector": "Financial Data & Market Utilities",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "workday",
-    "reason": "Enterprise Workday (Dynamic Session Required)"
+    "industry_sector": "Financial Data & Market Utilities"
   },
   "SAI": {
     "firm_name": "SAI",
@@ -2517,7 +2523,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (SSLError)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Shanghai Yanfu Investments": {
     "firm_name": "Shanghai Yanfu Investments",
@@ -2534,10 +2540,12 @@
     "official_careers_url": "https://simplextrading.com/careers/",
     "priority_tier": "Tier B: Main Focus",
     "industry_sector": "Proprietary Trading & Market Making",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "status": "AUTOMATED_FEED",
+    "method": "Greenhouse API",
+    "ats": "greenhouse",
+    "token": "simplextrading",
+    "job_count": 5,
+    "reason": null
   },
   "Snowflake": {
     "firm_name": "Snowflake",
@@ -2557,7 +2565,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
   },
   "Societe Generale": {
     "status": "AUTOMATED_FEED",
@@ -2570,14 +2578,14 @@
     "industry_sector": "Bulge Bracket & Global Investment Banks"
   },
   "Soros Fund Management": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "Soros Fund Management",
     "official_careers_url": "https://www.opensocietyfoundations.org/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "Quantitative Hedge Funds",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "industry_sector": "Quantitative Hedge Funds"
   },
   "Spotify": {
     "firm_name": "Spotify",
@@ -2618,8 +2626,8 @@
     "industry_sector": "Systematic Asset Management & Allocators",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "ats": "workday",
+    "reason": "Enterprise Workday (Dynamic Session Required)"
   },
   "Stripe": {
     "firm_name": "Stripe",
@@ -2632,14 +2640,14 @@
     "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Sumitomo Mitsui Banking Corporation (SMBC)": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "Sumitomo Mitsui Banking Corporation (SMBC)",
     "official_careers_url": "https://www.sumitomomitsuibankingcorporation.com/careers",
     "priority_tier": "Tier C1: Same or Above Benchmark",
-    "industry_sector": "Bulge Bracket & Global Investment Banks",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "industry_sector": "Bulge Bracket & Global Investment Banks"
   },
   "Sumridge Partners": {
     "firm_name": "Sumridge Partners",
@@ -2703,14 +2711,14 @@
     "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Tesla": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "Tesla",
     "official_careers_url": "https://www.tesla.com/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
+    "industry_sector": "FinTech & Elite Tech"
   },
   "The Home Depot": {
     "firm_name": "The Home Depot",
@@ -2756,14 +2764,14 @@
     "industry_sector": "Quantitative Hedge Funds"
   },
   "Trafigura": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "Trafigura",
     "official_careers_url": "https://www.trafigura.com/careers/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "Commodities & Energy Trading Desks",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "workday",
-    "reason": "Enterprise Workday (Dynamic Session Required)"
+    "industry_sector": "Commodities & Energy Trading Desks"
   },
   "TransMarket Group": {
     "status": "AUTOMATED_FEED",
@@ -2828,14 +2836,14 @@
     "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
   },
   "UBS": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "UBS",
     "official_careers_url": "https://www.ubs.com/global/en/careers.html",
     "priority_tier": "Tier C1: Same or Above Benchmark",
-    "industry_sector": "Bulge Bracket & Global Investment Banks",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
+    "industry_sector": "Bulge Bracket & Global Investment Banks"
   },
   "UNTL": {
     "firm_name": "UNTL",
@@ -2858,14 +2866,14 @@
     "reason": "Enterprise Workday (Dynamic Session Required)"
   },
   "Uber": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "Uber",
     "official_careers_url": "https://www.uber.com/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "industry_sector": "FinTech & Elite Tech"
   },
   "Ultramarin GmbH": {
     "firm_name": "Ultramarin GmbH",
@@ -2992,24 +3000,24 @@
     "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Wells Fargo": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "Wells Fargo",
     "official_careers_url": "https://www.wellsfargojobs.com/university-programs",
     "priority_tier": "Tier C1: Same or Above Benchmark",
-    "industry_sector": "Bulge Bracket & Global Investment Banks",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "industry_sector": "Bulge Bracket & Global Investment Banks"
   },
   "Wolfe Research": {
+    "status": "AUTOMATED_FEED",
+    "method": "Tailored Subagent",
+    "ats": "custom",
+    "reason": null,
     "firm_name": "Wolfe Research",
     "official_careers_url": "https://www.wolferesearch.com/careers",
     "priority_tier": "Tier C1: Same or Above Benchmark",
-    "industry_sector": "Bulge Bracket & Global Investment Banks",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "industry_sector": "Bulge Bracket & Global Investment Banks"
   },
   "WorldQuant": {
     "status": "AUTOMATED_FEED",
