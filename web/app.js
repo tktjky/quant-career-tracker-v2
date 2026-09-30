@@ -44,17 +44,26 @@ async function loadData() {
   }
 }
 
+const SECTOR_DEFINITIONS = [
+  { key: "FinTech & Elite Tech", label: "FinTech & Elite Tech (Coinbase, Robinhood, Stripe, Databricks, etc.)" },
+  { key: "Proprietary Trading & Market Making", label: "Proprietary Trading & Market Making (Jane Street, Jump, SIG, DRW, etc.)" },
+  { key: "Quantitative Hedge Funds", label: "Quantitative Hedge Funds (Two Sigma, Millennium, Point72, AQR, etc.)" },
+  { key: "Bulge Bracket & Global Investment Banks", label: "Bulge Bracket & Global Investment Banks (Goldman Sachs, Morgan Stanley, JPM, etc.)" },
+  { key: "Systematic Asset Management & Allocators", label: "Systematic Asset Management & Allocators (BlackRock, PIMCO, etc.)" },
+  { key: "Commodities & Energy Trading Desks", label: "Commodities & Energy Trading Desks (Trafigura, Mercuria, Castleton, etc.)" },
+  { key: "Financial Data & Market Utilities", label: "Financial Data & Market Utilities (Bloomberg, CME Group, FactSet, etc.)" },
+  { key: "Commercial Banking & Consulting (Practice)", label: "Commercial Banking & Consulting (Practice) (Accenture, Big 4, etc.)" }
+];
+
 function populateIndustryFilter() {
   const select = document.getElementById("filter-industry");
   if (!select) return;
   const currentVal = select.value;
-  const sectors = Array.from(new Set(allOpenings.map(j => j.industry_sector).filter(Boolean))).sort();
-  if (sectors.length === 0) return;
 
   select.innerHTML = '<option value="ALL" selected>All Industry Sectors</option>' +
-    sectors.map(s => `<option value="${escapeHtml(s)}">${escapeHtml(s)}</option>`).join('');
+    SECTOR_DEFINITIONS.map(s => `<option value="${escapeHtml(s.key)}">${escapeHtml(s.label)}</option>`).join('');
 
-  if (currentVal && sectors.includes(currentVal)) {
+  if (currentVal && (currentVal === "ALL" || SECTOR_DEFINITIONS.some(s => s.key === currentVal))) {
     select.value = currentVal;
   }
 }
