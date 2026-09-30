@@ -1,12 +1,12 @@
 {
-  "crawl_timestamp": "2026-09-30T04:22:52.061503",
-  "duration_seconds": 9.406002,
+  "crawl_timestamp": "2026-09-30T00:30:24.495120",
+  "duration_seconds": 13.245028,
   "diff_stats": {
-    "total_active_scraped": 594,
-    "new_openings": 0,
-    "retained_active": 594,
-    "newly_closed": 0,
-    "total_tracked_all_time": 599
+    "total_active_scraped": 446,
+    "new_openings": 9,
+    "retained_active": 437,
+    "newly_closed": 157,
+    "total_tracked_all_time": 608
   },
   "top_matches": [
     {
@@ -17,11 +17,39 @@
       "url": "https://www.goldmansachs.com/careers/students/programs/americas/new-analyst-program.html"
     },
     {
+      "firm": "Goldman Sachs",
+      "title": "Quantitative Investment Strategies (QIS) Associate - 2027",
+      "location": "New York, NY",
+      "score": 100,
+      "url": "https://www.goldmansachs.com/careers/"
+    },
+    {
+      "firm": "Goldman Sachs",
+      "title": "Core Strats & Risk Engine Associate - 2027 Full Time",
+      "location": "New York, NY",
+      "score": 100,
+      "url": "https://www.goldmansachs.com/careers/"
+    },
+    {
       "firm": "Akuna Capital",
-      "title": "Quantitative Research Intern, Summer 2027",
+      "title": "Junior Quantitative Developer & Strategist",
       "location": "Chicago, IL ",
       "score": 100,
-      "url": "https://www.akunacapital.com/careers/job/8036614/?gh_jid=8036614"
+      "url": "https://www.akunacapital.com/careers/job/8016687/?gh_jid=8016687"
+    },
+    {
+      "firm": "Akuna Capital",
+      "title": "Junior Quantitative Researcher",
+      "location": "Chicago, IL ",
+      "score": 100,
+      "url": "https://www.akunacapital.com/careers/job/8036541/?gh_jid=8036541"
+    },
+    {
+      "firm": "Akuna Capital",
+      "title": "Junior Quantitative Researcher - Deep Learning (Time Series)",
+      "location": "Shanghai, China",
+      "score": 100,
+      "url": "https://www.akunacapital.com/careers/job/8175994/?gh_jid=8175994"
     },
     {
       "firm": "Flow Traders",
@@ -50,34 +78,6 @@
       "location": "Amsterdam",
       "score": 100,
       "url": "https://job-boards.greenhouse.io/flowtraders/jobs/6492219"
-    },
-    {
-      "firm": "Old Mission Capital",
-      "title": "Floor Trader - 2027 Graduate Program (August Start)",
-      "location": "Chicago, IL, United States",
-      "score": 100,
-      "url": "https://www.oldmissioncapital.com/careers/?gh_jid=7993756003"
-    },
-    {
-      "firm": "Old Mission Capital",
-      "title": "Fundamental Research Analyst - 2027 Graduate Program - (August Start)",
-      "location": "Chicago, IL, United States",
-      "score": 100,
-      "url": "https://www.oldmissioncapital.com/careers/?gh_jid=7982061003"
-    },
-    {
-      "firm": "Old Mission Capital",
-      "title": "Quantitative Researcher (Ph.D.) - 2027 Graduate Program - (August Start)",
-      "location": "Chicago, IL, United States",
-      "score": 100,
-      "url": "https://www.oldmissioncapital.com/careers/?gh_jid=7814534003"
-    },
-    {
-      "firm": "Old Mission Capital",
-      "title": " Quantitative Trader – 2027 Graduate Program (August Start)",
-      "location": "Chicago, IL or New York, NY",
-      "score": 100,
-      "url": "https://www.oldmissioncapital.com/careers/?gh_jid=7796044003"
     }
   ]
 }

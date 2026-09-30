@@ -47,13 +47,13 @@ KEYWORD_WEIGHTS = {
     r"\bstochastic\b": 10,
     r"\btime\s+series\b": 8,
 
-    # Cohort / New Grad / Campus markers (Targeting Class of 2027)
+    # Cohort / New Grad / Campus / Junior markers (Targeting Class of 2027 Entry Level / Junior)
     r"\b2027\b": 25,
     r"\b2026\b": 15,
-    r"\b(campus|graduate|new\s+grad(?:uate)?|early\s+career|entry\s+level|university)\b": 20,
+    r"\b(?:campus|graduate|new\s+grad(?:uate)?|early\s+career|entry\s+level|junior|associate|university)\b": 25,
+    r"\bgraduate\s+program\b": 20,
     r"\bmaster(?:'s)?\b": 15,
     r"\bphd\s+or\s+master\b": 15,
-    r"\bassociate\b": 12,
 
     # NYC / Preferred Quant Hubs
     r"\b(?:new\s+york|nyc|ny)\b": 15,
@@ -87,8 +87,21 @@ def score_job_suitability(job_dict: Dict[str, Any], firm_tier: str = "Tier B") -
     department = job_dict.get("department", "").strip()
     description = job_dict.get("description", "") or ""
     
-    full_text = f"{title} | {department} | {location} | {description[:1000]}".lower()
     title_lower = title.lower()
+
+    # Hard rejection: Skip any role that has 'intern' or 'summer' in title or early description
+    if re.search(r"\b(?:intern|internship|internships|summer)\b", title_lower) or \
+       re.search(r"\b(?:summer\s+(?:analyst|associate|intern|program|internship))\b", description[:400].lower()):
+        return 0, {
+            "score": 0,
+            "verdict": "DISQUALIFIED (Internship / Summer)",
+            "recommendation": "Skip (Internship or summer program - seeking full-time new grad / junior)",
+            "has_quant_title": False,
+            "matched_positives": [],
+            "penalties": ["Hard Disqualification: Contains 'intern' or 'summer' (-100)"]
+        }
+
+    full_text = f"{title} | {department} | {location} | {description[:1000]}".lower()
 
     score = 0
     matched_positives = []

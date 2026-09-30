@@ -1,6 +1,8 @@
-// State
+// Quant Career Intelligence v2: Live Client State & Hierarchical Company List View
 let allOpenings = [];
 let trackerMeta = {};
+let expandedCompanies = new Set();
+let isAllExpanded = false;
 
 document.addEventListener("DOMContentLoaded", () => {
   loadData();
@@ -19,7 +21,7 @@ async function loadData() {
       return;
     }
   } catch (err) {
-    console.warn("API /api/openings unavailable, falling back to static window.LIVE_OPENINGS_DATA if available.");
+    console.warn("API /api/openings unavailable, falling back to static window.LIVE_OPENINGS_DATA.");
   }
 
   // Fallback to static window object if data.js is loaded
@@ -35,11 +37,13 @@ async function loadData() {
         <i class="fa-solid fa-triangle-exclamation fa-2x" style="color: #f59e0b;"></i>
         <p style="margin-top: 10px; font-weight: 600;">No live openings dataset found.</p>
         <p style="font-size: 0.85rem; color: #9ca3af; margin-top: 4px;">
-          Click <strong>Run Crawl Agent</strong> above or run <code>python main.py crawl</code> to populate live jobs.
+          Click <strong>Run All Crawlers</strong> above or execute <code>python main.py crawl</code> to populate live jobs.
         </p>
       </div>
     `;
   }
+}
+
 function populateIndustryFilter() {
   const select = document.getElementById("filter-industry");
   if (!select) return;
@@ -57,11 +61,12 @@ function populateIndustryFilter() {
 
 function updateStats() {
   const total = allOpenings.length;
+  const activeCount = allOpenings.filter(j => j.status !== "INACTIVE").length;
   const high = allOpenings.filter(j => (j.suitability_score || 0) >= 80).length;
   const newlyDiscovered = allOpenings.filter(j => j.status === "NEW").length;
   const uniqueFirms = new Set(allOpenings.map(j => j.firm_name)).size;
 
-  document.getElementById("stat-total").innerText = total;
+  document.getElementById("stat-total").innerText = activeCount;
   document.getElementById("stat-high").innerText = high;
   document.getElementById("stat-new").innerText = newlyDiscovered;
   document.getElementById("stat-firms").innerText = uniqueFirms;
@@ -72,22 +77,68 @@ function updateStats() {
   }
 }
 
+function toggleCompany(firmKey) {
+  if (expandedCompanies.has(firmKey)) {
+    expandedCompanies.delete(firmKey);
+  } else {
+    expandedCompanies.add(firmKey);
+  }
+  const el = document.getElementById(`company-card-${firmKey}`);
+  if (el) {
+    el.classList.toggle("expanded", expandedCompanies.has(firmKey));
+  }
+}
+
+function toggleExpandAll() {
+  const btnText = document.getElementById("toggle-all-text");
+  if (!isAllExpanded) {
+    // Expand all visible companies
+    document.querySelectorAll(".company-card").forEach(card => {
+      const firmKey = card.getAttribute("data-firm-key");
+      if (firmKey) expandedCompanies.add(firmKey);
+      card.classList.add("expanded");
+    });
+    isAllExpanded = true;
+    if (btnText) btnText.innerText = "Collapse All";
+  } else {
+    // Collapse all
+    document.querySelectorAll(".company-card").forEach(card => {
+      card.classList.remove("expanded");
+    });
+    expandedCompanies.clear();
+    isAllExpanded = false;
+    if (btnText) btnText.innerText = "Expand All";
+  }
+}
+
+function getTierRank(tierStr) {
+  if (!tierStr) return 99;
+  if (tierStr.includes("Tier A")) return 1;
+  if (tierStr.includes("Tier B")) return 2;
+  if (tierStr.includes("Tier C1")) return 3;
+  if (tierStr.includes("Tier C2")) return 4;
+  if (tierStr.includes("Tier D")) return 5;
+  return 90;
+}
+
 function renderCards() {
   const container = document.getElementById("jobs-container");
   const search = document.getElementById("filter-search").value.toLowerCase().trim();
+  const sortOption = document.getElementById("filter-sort") ? document.getElementById("filter-sort").value : "newest";
   const tierFilter = document.getElementById("filter-tier").value;
   const industryFilter = document.getElementById("filter-industry") ? document.getElementById("filter-industry").value : "ALL";
   const scoreFilter = document.getElementById("filter-score").value;
   const statusFilter = document.getElementById("filter-status").value;
 
-  const filtered = allOpenings.filter(job => {
+  // 1. Filter individual openings
+  const filteredJobs = allOpenings.filter(job => {
     // Text search
     if (search) {
       const matchText = `${job.firm_name} ${job.title} ${job.location} ${job.department || ''} ${job.industry_sector || ''}`.toLowerCase();
       if (!matchText.includes(search)) return false;
     }
 
-    // Tier
+    // Priority Tier
     if (tierFilter !== "ALL") {
       const jobTier = job.priority_tier || "";
       if (!jobTier.includes(tierFilter)) return false;
@@ -99,103 +150,233 @@ function renderCards() {
       if (jobSector !== industryFilter && !jobSector.toLowerCase().includes(industryFilter.toLowerCase())) return false;
     }
 
-    // Score
+    // Suitability Score
     if (scoreFilter !== "ALL") {
       const minScore = parseInt(scoreFilter, 10);
       if ((job.suitability_score || 0) < minScore) return false;
     }
 
-    // Status
-    if (statusFilter !== "ALL") {
+    // Listing Status
+    if (statusFilter === "ACTIVE_ONLY") {
+      if (job.status === "INACTIVE") return false;
+    } else if (statusFilter !== "ALL") {
       if (job.status !== statusFilter) return false;
     }
 
     return true;
   });
 
-  document.getElementById("feed-count-label").innerText = `Showing ${filtered.length} of ${allOpenings.length} Positions`;
+  // 2. Group by Company
+  const companyMap = new Map();
 
-  if (filtered.length === 0) {
+  for (const job of filteredJobs) {
+    const firm = job.firm_name || "Unknown Firm";
+    if (!companyMap.has(firm)) {
+      companyMap.set(firm, {
+        firm_name: firm,
+        priority_tier: job.priority_tier || "Tier B: Main Focus",
+        priority_tag: job.priority_tag || "Main Focus",
+        industry_sector: job.industry_sector || "Quantitative Finance",
+        estimated_comp: job.estimated_comp || "$250,000 - $400,000+",
+        comp_benchmark_delta: job.comp_benchmark_delta || "Significantly Above Benchmark",
+        has_new: false,
+        max_score: 0,
+        latest_date: null,
+        jobs: []
+      });
+    }
+
+    const group = companyMap.get(firm);
+    group.jobs.push(job);
+
+    if (job.status === "NEW") group.has_new = true;
+    if ((job.suitability_score || 0) > group.max_score) {
+      group.max_score = job.suitability_score || 0;
+    }
+    if (job.last_seen) {
+      const d = new Date(job.last_seen);
+      if (!group.latest_date || d > group.latest_date) group.latest_date = d;
+    }
+  }
+
+  const companies = Array.from(companyMap.values());
+
+  // 3. Sort companies according to selected order
+  companies.sort((a, b) => {
+    if (sortOption === "newest") {
+      // Companies with NEW jobs first, then by latest date or max score
+      if (a.has_new !== b.has_new) return b.has_new ? 1 : -1;
+      if (a.latest_date && b.latest_date && a.latest_date.getTime() !== b.latest_date.getTime()) {
+        return b.latest_date.getTime() - a.latest_date.getTime();
+      }
+      return b.max_score - a.max_score;
+    } else if (sortOption === "name_asc") {
+      return a.firm_name.localeCompare(b.firm_name);
+    } else if (sortOption === "tier") {
+      const rankA = getTierRank(a.priority_tier);
+      const rankB = getTierRank(b.priority_tier);
+      if (rankA !== rankB) return rankA - rankB;
+      return b.max_score - a.max_score;
+    } else if (sortOption === "openings") {
+      return b.jobs.length - a.jobs.length;
+    } else if (sortOption === "score") {
+      return b.max_score - a.max_score;
+    }
+    return 0;
+  });
+
+  // Count summary
+  document.getElementById("feed-count-label").innerText = `Showing ${companies.length} Companies (${filteredJobs.length} Roles)`;
+
+  if (companies.length === 0) {
     container.innerHTML = `
-      <div class="empty-state" style="grid-column: 1 / -1;">
+      <div class="empty-state">
         <i class="fa-solid fa-folder-open fa-2x"></i>
-        <p style="margin-top: 10px;">No postings matched your filter criteria.</p>
-        <p style="font-size: 0.85rem; color: #9ca3af;">Try adjusting the priority tier or lowering the suitability threshold.</p>
+        <p style="margin-top: 10px; font-weight: 600;">No postings matched your filter criteria.</p>
+        <p style="font-size: 0.85rem; color: #9ca3af; margin-top: 4px;">
+          Try adjusting the priority tier or lowering the suitability threshold.
+        </p>
       </div>
     `;
     return;
   }
 
-  container.innerHTML = filtered.map(j => {
-    const score = j.suitability_score || 0;
-    let scoreClass = "score-low";
-    if (score >= 80) scoreClass = "score-high";
-    else if (score >= 60) scoreClass = "score-med";
+  // 4. Render Company List View with Expandable 2nd Layer
+  container.innerHTML = companies.map(comp => {
+    const firmKey = encodeURIComponent(comp.firm_name.replace(/\s+/g, "_"));
+    const isExpanded = expandedCompanies.has(firmKey);
 
+    // Tier badge class
     let tierBadgeClass = "pill-tier-b";
-    const pTier = j.priority_tier || "";
+    const pTier = comp.priority_tier || "";
     if (pTier.includes("Tier A")) tierBadgeClass = "pill-tier-a";
     else if (pTier.includes("Tier B")) tierBadgeClass = "pill-tier-b";
     else if (pTier.includes("Tier C1")) tierBadgeClass = "pill-tier-c1";
     else if (pTier.includes("Tier C2")) tierBadgeClass = "pill-tier-c2";
     else if (pTier.includes("Tier D")) tierBadgeClass = "pill-tier-d";
 
-    const isNew = j.status === "NEW";
-    const statusBadge = isNew
-      ? `<span class="badge-pill pill-status-new"><i class="fa-solid fa-sparkles"></i> NEW</span>`
-      : `<span class="badge-pill pill-status-active"><i class="fa-solid fa-circle-check"></i> ACTIVE</span>`;
+    // Score badge for company
+    let topScoreClass = "score-low";
+    if (comp.max_score >= 80) topScoreClass = "score-high";
+    else if (comp.max_score >= 60) topScoreClass = "score-med";
 
-    const signalsList = (j.matched_signals || []).slice(0, 3).map(s => `<li>${escapeHtml(s)}</li>`).join("");
+    // Sort company jobs: highest score first, then NEW status
+    const sortedJobs = comp.jobs.slice().sort((j1, j2) => {
+      if (j1.status === "NEW" && j2.status !== "NEW") return -1;
+      if (j2.status === "NEW" && j1.status !== "NEW") return 1;
+      return (j2.suitability_score || 0) - (j1.suitability_score || 0);
+    });
 
-    return `
-      <div class="job-card">
-        <div class="job-card-top">
-          <div>
-            <div class="firm-name">
-              <span>${escapeHtml(j.firm_name)}</span>
+    const jobsHtml = sortedJobs.map(j => {
+      const score = j.suitability_score || 0;
+      let jScoreClass = "score-low";
+      if (score >= 80) jScoreClass = "score-high";
+      else if (score >= 60) jScoreClass = "score-med";
+
+      const isInactive = j.status === "INACTIVE";
+      const isNew = j.status === "NEW";
+
+      let statusBadge = `<span class="badge-pill pill-status-active"><i class="fa-solid fa-circle-check"></i> ACTIVE</span>`;
+      if (isInactive) {
+        statusBadge = `<span class="badge-pill pill-status-inactive" title="${escapeHtml(j.inactive_reason || 'Page closed')}"><i class="fa-solid fa-circle-xmark"></i> INACTIVE</span>`;
+      } else if (isNew) {
+        statusBadge = `<span class="badge-pill pill-status-new"><i class="fa-solid fa-sparkles"></i> NEW</span>`;
+      }
+
+      const signalsList = (j.matched_signals || []).slice(0, 2).map(s => `<li>${escapeHtml(s)}</li>`).join("");
+
+      return `
+        <div class="job-subcard ${isInactive ? 'inactive-posting' : ''}">
+          <div class="job-main-info">
+            <div class="job-main-title">
+              <span>${escapeHtml(j.title)}</span>
               ${statusBadge}
             </div>
-            <div class="job-title">${escapeHtml(j.title)}</div>
+
+            <div class="job-main-meta">
+              <span class="meta-item"><i class="fa-solid fa-location-dot"></i> ${escapeHtml(j.location || 'NYC / US')}</span>
+              ${j.department ? `<span class="meta-item"><i class="fa-solid fa-layer-group"></i> ${escapeHtml(j.department)}</span>` : ''}
+              <span class="meta-item"><i class="fa-solid fa-cube"></i> ${escapeHtml(j.source_ats || 'Official Portal')}</span>
+              <span class="meta-item" style="color: #60a5fa;"><i class="fa-solid fa-bullseye"></i> ${escapeHtml(j.verdict || 'Target Match')}</span>
+            </div>
+
+            ${signalsList ? `
+              <div style="font-size: 0.74rem; color: #94a3b8; margin-top: 4px;">
+                <ul style="padding-left: 14px; margin: 0; display: flex; gap: 16px; flex-wrap: wrap;">${signalsList}</ul>
+              </div>
+            ` : ''}
           </div>
-          <div class="score-badge ${scoreClass}">
-            <i class="fa-solid fa-crosshairs"></i>
-            <span>${score}% Fit</span>
+
+          <div class="job-action-right">
+            <div class="score-badge ${jScoreClass}">
+              <i class="fa-solid fa-crosshairs"></i>
+              <span>${score}% Fit</span>
+            </div>
+
+            ${isInactive ? `
+              <span class="btn-apply-disabled" title="${escapeHtml(j.inactive_reason || 'Page unlisted or closed')}">
+                <span>Closed</span>
+                <i class="fa-solid fa-ban"></i>
+              </span>
+            ` : `
+              <a href="${escapeHtml(j.url || '#')}" target="_blank" rel="noopener noreferrer" class="btn-apply">
+                <span>Apply Now</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            `}
+          </div>
+        </div>
+      `;
+    }).join("");
+
+    return `
+      <div class="company-card ${isExpanded ? 'expanded' : ''}" id="company-card-${firmKey}" data-firm-key="${firmKey}">
+        <div class="company-header-row" onclick="toggleCompany('${firmKey}')">
+          <div class="company-meta-left">
+            <div class="company-title-wrap">
+              <div class="company-name">
+                <i class="fa-solid fa-building" style="color: #3b82f6; font-size: 1.05rem;"></i>
+                <span>${escapeHtml(comp.firm_name)}</span>
+              </div>
+              <div class="company-badges">
+                <span class="badge-pill ${tierBadgeClass}">${escapeHtml(pTier ? pTier.split(':')[0] : comp.priority_tag)}</span>
+                <span class="badge-pill pill-industry"><i class="fa-solid fa-building-columns"></i> ${escapeHtml(comp.industry_sector)}</span>
+                ${comp.has_new ? `<span class="badge-pill pill-status-new"><i class="fa-solid fa-sparkles"></i> NEW ROLES</span>` : ''}
+              </div>
+            </div>
+
+            <div class="company-comp-summary">
+              <span>Benchmark Comp: <strong>${escapeHtml(comp.estimated_comp)}</strong></span>
+              <span style="color: #4b5563;">&bull;</span>
+              <span style="color: #34d399;">${escapeHtml(comp.comp_benchmark_delta)}</span>
+            </div>
+          </div>
+
+          <div class="company-meta-right">
+            <div class="score-badge ${topScoreClass}" title="Top Role Fit Score">
+              <i class="fa-solid fa-crosshairs"></i>
+              <span>${comp.max_score}% Top Match</span>
+            </div>
+
+            <div class="openings-count-pill">
+              <i class="fa-solid fa-briefcase"></i>
+              <span>${comp.jobs.length} ${comp.jobs.length === 1 ? 'Role' : 'Roles'}</span>
+            </div>
+
+            <div class="chevron-toggle">
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
           </div>
         </div>
 
-        <div class="job-meta-row">
-          <span class="meta-item"><i class="fa-solid fa-location-dot"></i> ${escapeHtml(j.location || 'NYC / US')}</span>
-          ${j.department ? `<span class="meta-item"><i class="fa-solid fa-layer-group"></i> ${escapeHtml(j.department)}</span>` : ''}
-          <span class="meta-item"><i class="fa-solid fa-cube"></i> ${escapeHtml(j.source_ats || 'Official Portal')}</span>
-        </div>
-
-        <div class="badges-row">
-          <span class="badge-pill ${tierBadgeClass}">${escapeHtml(pTier ? pTier.split(':')[0] : (j.priority_tag || 'Main Focus'))}</span>
-          ${j.industry_sector ? `<span class="badge-pill pill-industry"><i class="fa-solid fa-building-columns"></i> ${escapeHtml(j.industry_sector)}</span>` : ''}
-          <span class="badge-pill" style="background: rgba(255,255,255,0.06); color: #cbd5e1;">${escapeHtml(j.verdict || 'Target Match')}</span>
-        </div>
-
-        <div class="comp-box">
-          <div>
-            <div style="font-size: 0.7rem; color: #94a3b8; text-transform: uppercase;">Benchmark First-Year Comp</div>
-            <div class="comp-val">${escapeHtml(j.estimated_comp || '$250,000 - $400,000+')}</div>
+        <div class="company-jobs-drawer">
+          <div class="drawer-header">
+            <span>Available Full-Time Entry-Level / Junior Postings (${comp.jobs.length})</span>
+            <span style="font-size: 0.72rem; color: #64748b;">Click to apply directly on verified portal</span>
           </div>
-          <div class="comp-delta">${escapeHtml(j.comp_benchmark_delta || 'Significantly Above Benchmark')}</div>
-        </div>
-
-        ${signalsList ? `
-          <div style="font-size: 0.76rem; color: #94a3b8; background: rgba(0,0,0,0.2); padding: 8px 12px; border-radius: 6px;">
-            <div style="font-weight: 600; color: #cbd5e1; margin-bottom: 2px;">Key Match Heuristics:</div>
-            <ul style="padding-left: 14px; margin: 0;">${signalsList}</ul>
+          <div class="drawer-jobs-list">
+            ${jobsHtml}
           </div>
-        ` : ''}
-
-        <div class="job-footer">
-          <span style="font-size: 0.72rem; color: #6b7280;">ID: ${escapeHtml(j.job_id || 'ext')}</span>
-          <a href="${escapeHtml(j.url || '#')}" target="_blank" rel="noopener noreferrer" class="btn-apply">
-            <span>Apply Now</span>
-            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-          </a>
         </div>
       </div>
     `;

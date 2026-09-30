@@ -11,6 +11,7 @@ from crawler.ats_scraper import ATSScraper, ATS_BOARD_REGISTRY
 from crawler.web_search_scraper import WebSearchScraper
 from crawler.relevance_filter import score_job_suitability
 from crawler.change_detector import ChangeDetector
+from crawler.url_verifier import verify_jobs_availability
 from agent.firm_registry import FirmRegistry
 
 logger = logging.getLogger("CrawlAgent")
@@ -84,7 +85,15 @@ class CrawlAgent:
 
         scored_jobs = []
         for job in raw_jobs:
+            title = job.get("title", "")
+            # Disqualify any role containing intern or summer
+            if re.search(r"\b(?:intern|internship|internships|summer)\b", title, re.IGNORECASE):
+                continue
+
             score, analysis = score_job_suitability(job, firm_tier=tier_str)
+            if score == 0 or analysis.get("verdict", "").startswith("DISQUALIFIED"):
+                continue
+
             enriched_job = dict(job)
             enriched_job["suitability_score"] = score
             enriched_job["verdict"] = analysis["verdict"]
@@ -171,16 +180,24 @@ class CrawlAgent:
         # 3. Filter & Score candidates against target quantitative finance 2027 profile
         scored_jobs = []
         for job in raw_candidates:
+            title = job.get("title", "")
+            # Disqualify any role containing intern or summer
+            if re.search(r"\b(?:intern|internship|internships|summer)\b", title, re.IGNORECASE):
+                continue
+
             firm_name = job.get("firm_name", "Unknown")
             firm_info = self.firm_meta.get(firm_name, {})
             tier_str = firm_info.get("priority_tier") or job.get("tier", "Tier B")
             
-            # If already scored in crawl_single_firm, reuse
+            # If already scored in crawl_single_firm, reuse if valid
             if "suitability_score" in job:
-                scored_jobs.append(job)
+                if job.get("suitability_score", 0) > 0 and not job.get("verdict", "").startswith("DISQUALIFIED"):
+                    scored_jobs.append(job)
                 continue
 
             score, analysis = score_job_suitability(job, firm_tier=tier_str)
+            if score == 0 or analysis.get("verdict", "").startswith("DISQUALIFIED"):
+                continue
             
             # Keep roles with positive suitability (score >= 45) or explicit quant title
             if score >= 45 or analysis.get("has_quant_title"):
@@ -203,7 +220,13 @@ class CrawlAgent:
         # 5. Diff against state history
         updated_jobs, diff_stats = self.change_detector.diff_and_update(scored_jobs)
 
-        # 6. Save live openings feed
+        # 6. Verify URL availability (mark inactive if page is 404, removed, or closed)
+        updated_jobs, url_stats = verify_jobs_availability(updated_jobs)
+
+        active_jobs_count = len([j for j in updated_jobs if j.get("status") in ("ACTIVE", "NEW", "REOPENED")])
+        inactive_jobs_count = len([j for j in updated_jobs if j.get("status") == "INACTIVE"])
+
+        # 7. Save live openings feed
         output_payload = {
             "last_updated": datetime.now().isoformat(),
             "candidate": {
@@ -212,11 +235,13 @@ class CrawlAgent:
                 "benchmark": "Tier B+ High Conviction Priority"
             },
             "stats": {
-                "total_live_openings": len(scored_jobs),
+                "total_live_openings": len(updated_jobs),
+                "active_openings": active_jobs_count,
+                "inactive_openings": inactive_jobs_count,
                 "new_openings_this_crawl": diff_stats["new_openings"],
-                "active_openings": diff_stats["retained_active"],
+                "retained_active": diff_stats["retained_active"],
                 "closed_openings": diff_stats["newly_closed"],
-                "total_firms_evaluated": len({j.get("firm_name") for j in scored_jobs})
+                "total_firms_evaluated": len({j.get("firm_name") for j in updated_jobs})
             },
             "openings": updated_jobs
         }

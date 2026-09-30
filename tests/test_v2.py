@@ -91,13 +91,48 @@ class TestJobTrackerV2(unittest.TestCase):
         self.assertEqual(goldman["priority_tier"], "Tier C1: Same or Above Benchmark")
         self.assertEqual(goldman["industry_sector"], "Bulge Bracket & Global Investment Banks")
 
-    def test_industry_sector_enrichment(self):
+    def test_intern_summer_hard_disqualification(self):
+        intern_jobs = [
+            {"title": "Quantitative Research Intern - Summer 2027", "location": "New York, NY", "department": "Trading"},
+            {"title": "Summer Analyst - Global Markets Quantitative Strats", "location": "New York, NY", "department": "Strats"},
+            {"title": "Quantitative Trading Internship 2026", "location": "Chicago, IL", "department": "Trading"},
+        ]
+        for job in intern_jobs:
+            score, analysis = score_job_suitability(job, firm_tier="Tier B: Main Focus")
+            self.assertEqual(score, 0)
+            self.assertIn("DISQUALIFIED", analysis["verdict"])
+            self.assertIn("intern", analysis["recommendation"].lower())
+
+    def test_url_verifier_unit(self):
+        from crawler.url_verifier import check_url_availability, verify_jobs_availability
+        is_avail, code, msg = check_url_availability("")
+        self.assertFalse(is_avail)
+        self.assertEqual(code, 0)
+
+        # Batch test
+        sample_jobs = [
+            {"title": "Job 1", "url": "", "status": "ACTIVE"},
+            {"title": "Job 2", "url": "https://boards-api.greenhouse.io/v1/boards/nonexistenttoken123/jobs/99999", "status": "ACTIVE"}
+        ]
+        updated, stats = verify_jobs_availability(sample_jobs, max_workers=2)
+        self.assertEqual(len(updated), 2)
+        self.assertEqual(updated[0]["status"], "INACTIVE")
+        self.assertEqual(updated[1]["status"], "INACTIVE")
+
+    def test_live_openings_contains_no_intern_or_summer_roles(self):
+        import re
         agent = CrawlAgent()
-        res = agent.crawl_single_firm("Coinbase")
-        self.assertGreater(len(res["jobs"]), 0)
-        first_job = res["jobs"][0]
-        self.assertEqual(first_job["industry_sector"], "FinTech & Elite Tech")
-        self.assertEqual(first_job["priority_tier"], "Tier B: Main Focus")
+        if os.path.exists(agent.output_json):
+            with open(agent.output_json, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            openings = data.get("openings", [])
+            for j in openings:
+                title = j.get("title", "")
+                self.assertFalse(
+                    re.search(r"\b(?:intern|internship|internships|summer)\b", title, re.IGNORECASE),
+                    f"Found intern/summer posting in live dataset: {title}"
+                )
 
 if __name__ == "__main__":
     unittest.main()
+

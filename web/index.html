@@ -215,12 +215,14 @@
       cursor: pointer;
     }
 
-    /* Openings Feed */
+    /* Openings Feed & Company List View */
     .feed-header {
       display: flex;
       justify-content: space-between;
       align-items: center;
       margin-bottom: 16px;
+      flex-wrap: wrap;
+      gap: 12px;
     }
 
     .feed-title {
@@ -228,45 +230,205 @@
       font-weight: 700;
     }
 
-    .job-cards-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
-      gap: 18px;
-    }
-
-    .job-card {
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
-      border-radius: 12px;
-      padding: 22px;
+    .company-list-container {
       display: flex;
       flex-direction: column;
       gap: 14px;
-      transition: all 0.2s ease;
-      position: relative;
+    }
+
+    .company-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
       overflow: hidden;
+      transition: all 0.2s ease;
     }
 
-    .job-card:hover {
-      border-color: #374151;
-      background: var(--card-hover);
-      transform: translateY(-2px);
+    .company-card:hover {
+      border-color: #3b82f6;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
     }
 
-    .job-card-top {
+    .company-header-row {
+      padding: 18px 24px;
       display: flex;
       justify-content: space-between;
-      align-items: flex-start;
-      gap: 12px;
+      align-items: center;
+      cursor: pointer;
+      user-select: none;
+      background: #111827;
+      gap: 16px;
+      transition: background 0.15s ease;
     }
 
-    .firm-name {
-      font-size: 1.1rem;
+    .company-header-row:hover {
+      background: #172133;
+    }
+
+    .company-meta-left {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .company-title-wrap {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .company-name {
+      font-size: 1.25rem;
       font-weight: 800;
       color: #fff;
       display: flex;
       align-items: center;
       gap: 8px;
+    }
+
+    .company-badges {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .company-comp-summary {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+    }
+
+    .company-comp-summary strong {
+      color: #38bdf8;
+    }
+
+    .company-meta-right {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .openings-count-pill {
+      background: rgba(59, 130, 246, 0.12);
+      border: 1px solid rgba(59, 130, 246, 0.35);
+      color: #60a5fa;
+      padding: 6px 14px;
+      border-radius: 9999px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      white-space: nowrap;
+    }
+
+    .chevron-toggle {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: #1f2937;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-muted);
+      transition: all 0.25s ease;
+      font-size: 0.9rem;
+    }
+
+    .company-card.expanded .chevron-toggle {
+      transform: rotate(180deg);
+      background: var(--accent);
+      color: #fff;
+    }
+
+    /* Second Layer: Jobs Drawer */
+    .company-jobs-drawer {
+      display: none;
+      background: #090e19;
+      border-top: 1px solid var(--card-border);
+      padding: 18px 24px;
+    }
+
+    .company-card.expanded .company-jobs-drawer {
+      display: block;
+    }
+
+    .drawer-header {
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .job-subcard {
+      background: #111827;
+      border: 1px solid #1f2937;
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin-bottom: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      transition: all 0.2s ease;
+    }
+
+    .job-subcard:last-child {
+      margin-bottom: 0;
+    }
+
+    .job-subcard:hover {
+      border-color: #374151;
+      background: #162032;
+      transform: translateX(4px);
+    }
+
+    .job-subcard.inactive-posting {
+      opacity: 0.65;
+      border-style: dashed;
+      background: #0d121c;
+    }
+
+    .job-main-info {
+      flex: 1 1 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .job-main-title {
+      font-size: 1.02rem;
+      font-weight: 700;
+      color: #f3f4f6;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .job-main-meta {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      flex-wrap: wrap;
+    }
+
+    .job-action-right {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      flex-shrink: 0;
     }
 
     .score-badge {
@@ -277,6 +439,7 @@
       border-radius: 6px;
       font-size: 0.82rem;
       font-weight: 700;
+      white-space: nowrap;
     }
 
     .score-high {
@@ -297,21 +460,6 @@
       color: #fbbf24;
     }
 
-    .job-title {
-      font-size: 1rem;
-      font-weight: 700;
-      color: #e5e7eb;
-      margin-top: 2px;
-    }
-
-    .job-meta-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      font-size: 0.8rem;
-      color: var(--text-muted);
-    }
-
     .meta-item {
       display: inline-flex;
       align-items: center;
@@ -327,10 +475,13 @@
 
     .badge-pill {
       font-size: 0.72rem;
-      padding: 2px 8px;
+      padding: 3px 9px;
       border-radius: 4px;
       font-weight: 600;
       text-transform: uppercase;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
     }
 
     .pill-tier-a { background: rgba(236, 72, 153, 0.15); color: #f472b6; border: 1px solid rgba(236, 72, 153, 0.35); }
@@ -341,43 +492,13 @@
     .pill-industry { background: rgba(99, 102, 241, 0.12); color: #a5b4fc; border: 1px solid rgba(99, 102, 241, 0.3); font-weight: 500; text-transform: none; font-size: 0.74rem; }
     .pill-status-new { background: rgba(239, 68, 68, 0.2); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.4); }
     .pill-status-active { background: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.4); }
-
-    .comp-box {
-      background: #182234;
-      border: 1px solid #1e293b;
-      border-radius: 8px;
-      padding: 10px 14px;
-      font-size: 0.8rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .comp-val {
-      font-weight: 700;
-      color: #38bdf8;
-    }
-
-    .comp-delta {
-      font-size: 0.72rem;
-      color: #34d399;
-      font-weight: 600;
-    }
-
-    .job-footer {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-top: auto;
-      padding-top: 12px;
-      border-top: 1px solid var(--card-border);
-    }
+    .pill-status-inactive { background: rgba(239, 68, 68, 0.12); color: #fca5a5; border: 1px solid rgba(239, 68, 68, 0.3); }
 
     .btn-apply {
       background: var(--accent);
       color: #fff;
       text-decoration: none;
-      padding: 6px 14px;
+      padding: 7px 16px;
       border-radius: 6px;
       font-size: 0.82rem;
       font-weight: 600;
@@ -385,10 +506,26 @@
       align-items: center;
       gap: 6px;
       transition: background 0.15s ease;
+      white-space: nowrap;
     }
 
     .btn-apply:hover {
       background: #2563eb;
+    }
+
+    .btn-apply-disabled {
+      background: #374151;
+      color: #9ca3af;
+      cursor: not-allowed;
+      text-decoration: none;
+      padding: 7px 16px;
+      border-radius: 6px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      white-space: nowrap;
     }
 
     .empty-state {
@@ -487,6 +624,14 @@
       </div>
 
       <div class="select-group">
+        <select id="filter-sort" onchange="renderCards()">
+          <option value="newest" selected>Sort: Newly Posted</option>
+          <option value="name_asc">Sort: Company Name (A &rarr; Z)</option>
+          <option value="tier">Sort: Priority Tier</option>
+          <option value="openings">Sort: Most Openings</option>
+          <option value="score">Sort: Highest Match Score</option>
+        </select>
+
         <select id="filter-tier" onchange="renderCards()">
           <option value="ALL" selected>All Priority Tiers</option>
           <option value="Tier A">Tier A: Too Hard ($400k - $700k+)</option>
@@ -516,21 +661,30 @@
         </select>
 
         <select id="filter-status" onchange="renderCards()">
-          <option value="ALL">All Listing States</option>
+          <option value="ALL" selected>All Listing States</option>
+          <option value="ACTIVE_ONLY">Active & New Only</option>
           <option value="NEW">Newly Discovered Only</option>
-          <option value="ACTIVE">Active Listings</option>
+          <option value="INACTIVE">Inactive / Closed</option>
         </select>
       </div>
     </div>
 
     <!-- Feed Header -->
     <div class="feed-header">
-      <div class="feed-title" id="feed-count-label">Showing Openings</div>
-      <div style="font-size: 0.8rem; color: var(--text-muted);" id="last-updated-label"></div>
+      <div>
+        <div class="feed-title" id="feed-count-label">Showing Companies</div>
+        <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 2px;" id="last-updated-label"></div>
+      </div>
+      <div>
+        <button id="btn-toggle-all" class="btn btn-outline" style="padding: 6px 14px; font-size: 0.8rem;" onclick="toggleExpandAll()">
+          <i class="fa-solid fa-arrows-up-down"></i>
+          <span id="toggle-all-text">Expand All</span>
+        </button>
+      </div>
     </div>
 
-    <!-- Cards Grid -->
-    <div class="job-cards-grid" id="jobs-container">
+    <!-- Company List View Container -->
+    <div class="company-list-container" id="jobs-container">
       <div class="empty-state">
         <i class="fa-solid fa-circle-notch fa-spin fa-2x"></i>
         <p style="margin-top: 10px;">Loading live opportunities feed...</p>
