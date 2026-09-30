@@ -172,8 +172,11 @@ DEFAULT_HEADERS = {
 }
 
 class ATSScraper:
-    def __init__(self, timeout: int = 10):
+    def __init__(self, timeout: int = 15):
         self.session = requests.Session()
+        adapter = requests.adapters.HTTPAdapter(pool_connections=50, pool_maxsize=50, max_retries=2)
+        self.session.mount("https://", adapter)
+        self.session.mount("http://", adapter)
         self.session.headers.update(DEFAULT_HEADERS)
         self.timeout = timeout
 

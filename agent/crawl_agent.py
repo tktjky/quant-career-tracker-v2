@@ -194,13 +194,16 @@ class CrawlAgent:
             firm_res = self.crawl_single_firm(specific_firm)
             raw_candidates.extend(firm_res["jobs"])
         else:
-            # 1. First run tailored elite firm subagents (Jane Street, Citadel, Two Sigma, D.E. Shaw, Millennium, Point72, Goldman Sachs)
-            for firm_name in ["Jane Street", "Citadel", "Two Sigma", "D.E. Shaw", "Millennium", "Point72", "Goldman Sachs"]:
+            # 1. Run tailored elite firm subagents (Citadel, Jane Street, Goldman, Amazon, Citi, Barclays, Vanguard, etc.)
+            for firm_name in self.firm_registry.list_dedicated_firm_names():
                 agent = self.firm_registry.get_agent_for_firm(firm_name)
                 if agent:
                     logger.info(f"Running tailored crawler agent for {firm_name}...")
-                    f_jobs = agent.crawl_jobs()
-                    raw_candidates.extend(f_jobs)
+                    try:
+                        f_jobs = agent.crawl_jobs()
+                        raw_candidates.extend(f_jobs)
+                    except Exception as e:
+                        logger.error(f"Error running tailored agent for {firm_name}: {e}")
 
             # 2. Run ATS scrapers for all configured firms in parallel
             ats_tasks = []

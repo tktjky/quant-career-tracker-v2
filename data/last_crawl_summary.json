@@ -1,14 +1,35 @@
 {
-  "crawl_timestamp": "2026-09-30T20:06:08.624592",
-  "duration_seconds": 37.629463,
+  "crawl_timestamp": "2026-09-30T16:13:10.065126",
+  "duration_seconds": 29.533845,
   "diff_stats": {
-    "total_active_scraped": 578,
+    "total_active_scraped": 672,
     "new_openings": 0,
-    "retained_active": 578,
+    "retained_active": 672,
     "newly_closed": 0,
-    "total_tracked_all_time": 1026
+    "total_tracked_all_time": 1042
   },
   "top_matches": [
+    {
+      "firm": "RBC Capital Markets",
+      "title": "Quantitative Research Analyst - Derivatives & Risk Analytics (2027)",
+      "location": "New York, NY",
+      "score": 100,
+      "url": "https://www.rbc.com/careers/"
+    },
+    {
+      "firm": "Credit Agricole CIB",
+      "title": "Global Markets Quant Strats Analyst - Fixed Income Derivatives (2027)",
+      "location": "New York, NY",
+      "score": 100,
+      "url": "https://www.ca-cib.com/careers"
+    },
+    {
+      "firm": "Societe Generale",
+      "title": "Equity Derivatives Quantitative Strategist (Strats) Analyst - 2027",
+      "location": "New York, NY",
+      "score": 100,
+      "url": "https://careers.societegenerale.com/"
+    },
     {
       "firm": "BlackRock",
       "title": "Associate, Securities Lending Quantitative Research and Algorithmic Trading, BlackRock Global Markets (BGM)",
@@ -17,25 +38,25 @@
       "url": "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional/job/New-York-NY/Associate--Securities-Lending-Quantitative-Research-and-Algorithmic-Trading--BlackRock-Global-Markets--BGM-_R266542"
     },
     {
-      "firm": "Old Mission Capital",
-      "title": "Junior Quantitative Researcher (Ph.D.)",
-      "location": "Chicago, IL, United States",
+      "firm": "All Options Trading",
+      "title": "Market Risk Manager / Quantitative Analyst - Derivatives Trading",
+      "location": "New York, NY / Amsterdam",
       "score": 100,
-      "url": "https://www.oldmissioncapital.com/careers/?gh_jid=6309652003"
+      "url": "https://www.alloptions.nl/careers/"
     },
     {
-      "firm": "Old Mission Capital",
-      "title": "Quantitative Researcher (Ph.D.) - 2027 Graduate Program - (August Start)",
-      "location": "Chicago, IL, United States",
+      "firm": "Quantitative Brokers",
+      "title": "Quantitative Trading Analyst - Algorithmic Execution & Market Microstructure",
+      "location": "New York, NY",
       "score": 100,
-      "url": "https://www.oldmissioncapital.com/careers/?gh_jid=7814534003"
+      "url": "https://www.quantitativebrokers.com/careers"
     },
     {
-      "firm": "Old Mission Capital",
-      "title": "Quantitative Trader (Options)",
-      "location": "Chicago, IL, United States",
+      "firm": "Ellington Management Group",
+      "title": "Quantitative Research Analyst - Structured Credit & Mortgage Derivatives",
+      "location": "Old Greenwich, CT / New York, NY",
       "score": 100,
-      "url": "https://www.oldmissioncapital.com/careers/?gh_jid=6088836003"
+      "url": "https://www.ellington.com/careers"
     },
     {
       "firm": "Virtu Financial",
@@ -57,27 +78,6 @@
       "location": "Chicago",
       "score": 100,
       "url": "https://job-boards.greenhouse.io/virtu/jobs/4326632002"
-    },
-    {
-      "firm": "Virtu Financial",
-      "title": "Quantitative Trader ",
-      "location": "Singapore",
-      "score": 100,
-      "url": "https://job-boards.greenhouse.io/virtu/jobs/4232867002"
-    },
-    {
-      "firm": "Virtu Financial",
-      "title": "Quantitative Trader (PhD)",
-      "location": "Austin, TX",
-      "score": 100,
-      "url": "https://job-boards.greenhouse.io/virtu/jobs/8817686002"
-    },
-    {
-      "firm": "Flow Traders",
-      "title": "Digital Assets Quantitative Researcher",
-      "location": "Amsterdam",
-      "score": 100,
-      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8207306"
     }
   ]
 }
