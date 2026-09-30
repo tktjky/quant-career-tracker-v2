@@ -1,11 +1,11 @@
 {
-  "crawl_timestamp": "2026-09-30T00:30:24.495120",
-  "duration_seconds": 13.245028,
+  "crawl_timestamp": "2026-09-30T04:32:29.269080",
+  "duration_seconds": 18.713067,
   "diff_stats": {
     "total_active_scraped": 446,
-    "new_openings": 9,
-    "retained_active": 437,
-    "newly_closed": 157,
+    "new_openings": 0,
+    "retained_active": 446,
+    "newly_closed": 0,
     "total_tracked_all_time": 608
   },
   "top_matches": [
@@ -61,16 +61,16 @@
     {
       "firm": "Flow Traders",
       "title": "PhD Graduate Quantitative Researcher",
-      "location": "Hong Kong",
+      "location": "New York",
       "score": 100,
-      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8213037"
+      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8156203"
     },
     {
       "firm": "Flow Traders",
       "title": "PhD Graduate Quantitative Researcher",
-      "location": "New York",
+      "location": "Hong Kong",
       "score": 100,
-      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8156203"
+      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8213037"
     },
     {
       "firm": "Flow Traders",
