@@ -2,20 +2,9 @@ import re
 from typing import Dict, Any, Tuple
 
 CANDIDATE_PROFILE = {
-    "name": "Kangqi (Kevin) Yu",
-    "program": "Columbia Business School MS in Financial Economics (MSFE)",
+    "role_level": "Master of Science in Financial Economics (Class of 2027)",
+    "target_degree": "MSFE / Quantitative Finance",
     "graduation_year": 2027,
-    "undergrad": "UIBE (Economics / Investment, 2025)",
-    "current_offer": {
-        "company": "Capital One",
-        "role": "Senior Associate - Data Science",
-        "location": "McLean, VA",
-        "total_comp": 183500,
-        "base": 147000,
-        "sign_on": 30000,
-        "bonus": 6500,
-        "sponsorship": True
-    },
     "target_roles": [
         "Quantitative Researcher",
         "Quantitative Research",
@@ -58,7 +47,7 @@ KEYWORD_WEIGHTS = {
     r"\bstochastic\b": 10,
     r"\btime\s+series\b": 8,
 
-    # Cohort / New Grad / Campus markers (Kevin is MSFE Class of 2027)
+    # Cohort / New Grad / Campus markers (Targeting Class of 2027)
     r"\b2027\b": 25,
     r"\b2026\b": 15,
     r"\b(campus|graduate|new\s+grad(?:uate)?|early\s+career|entry\s+level|university)\b": 20,
@@ -88,7 +77,7 @@ DISQUALIFIER_PATTERNS = [
 
 def score_job_suitability(job_dict: Dict[str, Any], firm_tier: str = "Tier B") -> Tuple[int, Dict[str, Any]]:
     """
-    Evaluates a candidate job opening against Kevin's CBS MSFE profile.
+    Evaluates a candidate job opening against target MSFE quantitative profile.
     Returns:
         score: int (0 to 100)
         reasons: dict with matched signals, penalties, and fit tier verdict

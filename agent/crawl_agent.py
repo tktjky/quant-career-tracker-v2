@@ -18,7 +18,7 @@ class CrawlAgent:
     Expert autonomous crawling agent that:
     1. Orchestrates tailored subagents for specific target firms.
     2. Executes multi-source scraping (ATS APIs + Custom Portals + Web Feeds).
-    3. Evaluates role suitability against Kevin's Columbia MSFE 2027 profile.
+    3. Evaluates role suitability against target MSFE 2027 profile.
     4. Detects state transitions (NEW vs ACTIVE vs CLOSED).
     5. Saves parsed results to data/live_openings.json and outputs summary reports.
     """
@@ -140,7 +140,7 @@ class CrawlAgent:
                     if max_boards and crawled_count >= max_boards:
                         break
 
-        # 3. Filter & Score candidates against Kevin's Columbia MSFE 2027 profile
+        # 3. Filter & Score candidates against target MSFE 2027 profile
         scored_jobs = []
         for job in raw_candidates:
             firm_name = job.get("firm_name", "Unknown")
@@ -178,9 +178,9 @@ class CrawlAgent:
         output_payload = {
             "last_updated": datetime.now().isoformat(),
             "candidate": {
-                "name": "Kangqi (Kevin) Yu",
-                "target": "Columbia MSFE 2027 Full-Time Quant Roles",
-                "anchor_offer": "Capital One ($183,500 Total Comp in Hand)"
+                "cohort": "MSFE Class of 2027",
+                "target": "Full-Time QR / QT / Strats Quant Roles",
+                "benchmark": "Tier B+ High Conviction Priority"
             },
             "stats": {
                 "total_live_openings": len(scored_jobs),

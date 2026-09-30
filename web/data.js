@@ -1,9 +1,9 @@
 window.LIVE_OPENINGS_DATA = {
   "last_updated": "2026-09-30T03:23:26.209301",
   "candidate": {
-    "name": "Kangqi (Kevin) Yu",
-    "target": "Columbia MSFE 2027 Full-Time Quant Roles",
-    "anchor_offer": "Capital One ($183,500 Total Comp in Hand)"
+    "cohort": "MSFE Class of 2027",
+    "target": "Full-Time QR / QT / Strats Quant Roles",
+    "benchmark": "Tier B+ High Conviction Priority"
   },
   "stats": {
     "total_live_openings": 579,

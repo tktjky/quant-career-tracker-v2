@@ -9,7 +9,7 @@ logger = logging.getLogger("Scheduler")
 class CrawlScheduler:
     """
     Recurring daemon that triggers CrawlAgent on an interval (e.g., every 6 hours or 24 hours),
-    logging delta updates and ensuring Kevin always has the latest openings.
+    logging delta updates and ensuring the database always has the latest openings.
     """
 
     def __init__(self, interval_hours: float = 6.0):
