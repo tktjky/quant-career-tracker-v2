@@ -1,11 +1,11 @@
 {
-  "crawl_timestamp": "2026-09-30T16:04:38.209538",
-  "duration_seconds": 32.683492,
+  "crawl_timestamp": "2026-09-30T20:06:08.624592",
+  "duration_seconds": 37.629463,
   "diff_stats": {
-    "total_active_scraped": 617,
-    "new_openings": 2,
-    "retained_active": 615,
-    "newly_closed": 5,
+    "total_active_scraped": 578,
+    "new_openings": 0,
+    "retained_active": 578,
+    "newly_closed": 0,
     "total_tracked_all_time": 1026
   },
   "top_matches": [
@@ -15,34 +15,6 @@
       "location": "New York, NY",
       "score": 100,
       "url": "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional/job/New-York-NY/Associate--Securities-Lending-Quantitative-Research-and-Algorithmic-Trading--BlackRock-Global-Markets--BGM-_R266542"
-    },
-    {
-      "firm": "Flow Traders",
-      "title": "Digital Assets Quantitative Researcher",
-      "location": "Amsterdam",
-      "score": 100,
-      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8207306"
-    },
-    {
-      "firm": "Flow Traders",
-      "title": "PhD Graduate Quantitative Researcher",
-      "location": "Hong Kong",
-      "score": 100,
-      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8213037"
-    },
-    {
-      "firm": "Flow Traders",
-      "title": "PhD Graduate Quantitative Researcher",
-      "location": "New York",
-      "score": 100,
-      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8156203"
-    },
-    {
-      "firm": "Flow Traders",
-      "title": "PhD Graduate Quantitative Researcher ",
-      "location": "Amsterdam",
-      "score": 100,
-      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/6492219"
     },
     {
       "firm": "Old Mission Capital",
@@ -78,6 +50,34 @@
       "location": "Dublin, Ireland",
       "score": 100,
       "url": "https://job-boards.greenhouse.io/virtu/jobs/4260204002"
+    },
+    {
+      "firm": "Virtu Financial",
+      "title": "Quantitative Trader ",
+      "location": "Chicago",
+      "score": 100,
+      "url": "https://job-boards.greenhouse.io/virtu/jobs/4326632002"
+    },
+    {
+      "firm": "Virtu Financial",
+      "title": "Quantitative Trader ",
+      "location": "Singapore",
+      "score": 100,
+      "url": "https://job-boards.greenhouse.io/virtu/jobs/4232867002"
+    },
+    {
+      "firm": "Virtu Financial",
+      "title": "Quantitative Trader (PhD)",
+      "location": "Austin, TX",
+      "score": 100,
+      "url": "https://job-boards.greenhouse.io/virtu/jobs/8817686002"
+    },
+    {
+      "firm": "Flow Traders",
+      "title": "Digital Assets Quantitative Researcher",
+      "location": "Amsterdam",
+      "score": 100,
+      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8207306"
     }
   ]
 }
