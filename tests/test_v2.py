@@ -214,6 +214,34 @@ class TestJobTrackerV2(unittest.TestCase):
                 self.assertTrue(bool(url), f"Firm '{fn}' has missing official_careers_url")
                 self.assertTrue(url.startswith("http"), f"Firm '{fn}' has invalid url: {url}")
 
+    def test_firm_crawlability_audit(self):
+        audit_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "firm_crawlability_audit.json")
+        self.assertTrue(os.path.exists(audit_path))
+        with open(audit_path, "r", encoding="utf-8") as f:
+            audit = json.load(f)
+        self.assertGreaterEqual(len(audit), 290)
+        
+        # Verify OpenAI
+        self.assertIn("OpenAI", audit)
+        self.assertEqual(audit["OpenAI"]["priority_tier"], "Tier A: Too Hard")
+        
+        # Verify uncrawlable reason present for portal only firms
+        portal_firms = [f for f in audit.values() if f.get("status") == "UNCRAWLABLE_PORTAL_ONLY"]
+        self.assertGreater(len(portal_firms), 50)
+        for pf in portal_firms:
+            self.assertTrue(bool(pf.get("reason")), f"Uncrawlable firm {pf.get('firm_name')} missing reason")
+
+    def test_ats_deep_inspector_known_profile(self):
+        from crawler.ats_deep_inspector import ATSDeepInspector
+        inspector = ATSDeepInspector()
+        res_js = inspector.inspect_firm({"firm_name": "Jane Street", "official_careers_url": "https://www.janestreet.com", "priority_tier": "Tier A: Too Hard"})
+        self.assertEqual(res_js["status"], "AUTOMATED_FEED")
+        self.assertEqual(res_js["method"], "Tailored Subagent")
+
+        res_hrt = inspector.inspect_firm({"firm_name": "Hudson River Trading (HRT)", "official_careers_url": "https://www.hudsonrivertrading.com", "priority_tier": "Tier A: Too Hard"})
+        self.assertEqual(res_hrt["status"], "UNCRAWLABLE_PORTAL_ONLY")
+        self.assertIn("Cloudflare", res_hrt["reason"])
+
 if __name__ == "__main__":
     unittest.main()
 

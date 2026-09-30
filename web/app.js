@@ -74,11 +74,17 @@ function updateStats() {
   const newlyDiscovered = allOpenings.filter(j => j.status === "NEW").length;
   const hiringFirms = new Set(allOpenings.filter(j => j.status !== "INACTIVE").map(j => j.firm_name)).size;
   const totalMonitoredFirms = (trackerMeta.firms_directory ? trackerMeta.firms_directory.length : (trackerMeta.stats ? trackerMeta.stats.total_monitored_firms : 296)) || 296;
+  const directory = trackerMeta.firms_directory || [];
+  const autoCount = directory.filter(f => f.crawl_status === "AUTOMATED_FEED").length;
+  const portalCount = directory.length > 0 ? (directory.length - autoCount) : 213;
 
   if (document.getElementById("stat-total")) document.getElementById("stat-total").innerText = activeCount;
   if (document.getElementById("stat-high")) document.getElementById("stat-high").innerText = high;
   if (document.getElementById("stat-new")) document.getElementById("stat-new").innerText = newlyDiscovered;
   if (document.getElementById("stat-firms")) document.getElementById("stat-firms").innerText = totalMonitoredFirms;
+  if (document.getElementById("stat-firms-sub") && autoCount > 0) {
+    document.getElementById("stat-firms-sub").innerText = `${autoCount} Live Feeds \u2022 ${portalCount} Direct Portals`;
+  }
   if (document.getElementById("stat-hiring-firms")) document.getElementById("stat-hiring-firms").innerText = hiringFirms;
 
   if (trackerMeta.last_updated && document.getElementById("last-updated-label")) {
@@ -190,6 +196,9 @@ function renderCards() {
         estimated_comp: f.estimated_comp || "$250,000 - $400,000+",
         comp_benchmark_delta: f.comp_benchmark_delta || "Significantly Above Benchmark",
         official_careers_url: f.official_careers_url || "",
+        crawl_status: f.crawl_status || "UNCRAWLABLE_PORTAL_ONLY",
+        crawl_method: f.crawl_method || "Direct Portal Monitored",
+        uncrawlable_reason: f.uncrawlable_reason || null,
         has_new: false,
         max_score: 0,
         latest_date: null,
@@ -216,6 +225,9 @@ function renderCards() {
         estimated_comp: job.estimated_comp || "$250,000 - $400,000+",
         comp_benchmark_delta: job.comp_benchmark_delta || "Significantly Above Benchmark",
         official_careers_url: job.official_careers_url || "",
+        crawl_status: "AUTOMATED_FEED",
+        crawl_method: "Automated Live Feed",
+        uncrawlable_reason: null,
         has_new: false,
         max_score: 0,
         latest_date: null,
@@ -225,6 +237,7 @@ function renderCards() {
 
     const group = companyMap.get(firm);
     group.jobs.push(job);
+    group.crawl_status = "AUTOMATED_FEED";
     if (job.official_careers_url && !group.official_careers_url) {
       group.official_careers_url = job.official_careers_url;
     }
@@ -240,7 +253,14 @@ function renderCards() {
 
   let companies = Array.from(companyMap.values());
 
-  // Apply filters to companies when in ALL_FIRMS mode
+  // Apply filters to companies
+  const crawlFilter = document.getElementById("filter-crawlability") ? document.getElementById("filter-crawlability").value : "ALL";
+  if (crawlFilter === "AUTOMATED") {
+    companies = companies.filter(c => c.crawl_status === "AUTOMATED_FEED");
+  } else if (crawlFilter === "PORTAL_ONLY") {
+    companies = companies.filter(c => c.crawl_status !== "AUTOMATED_FEED");
+  }
+
   if (tierFilter !== "ALL") {
     companies = companies.filter(c => (c.priority_tier || "").includes(tierFilter));
   }
@@ -397,6 +417,14 @@ function renderCards() {
       `;
     }).join("");
 
+    let crawlBadge = "";
+    if (comp.crawl_status === "AUTOMATED_FEED") {
+      crawlBadge = `<span class="badge-pill pill-crawl-auto" title="Automated live feed: ${escapeHtml(comp.crawl_method || 'ATS API')}"><i class="fa-solid fa-bolt"></i> Live Feed</span>`;
+    } else {
+      const reasonTitle = comp.uncrawlable_reason ? `Crawling restricted: ${comp.uncrawlable_reason}` : "Direct Portal Monitored";
+      crawlBadge = `<span class="badge-pill pill-crawl-portal" title="${escapeHtml(reasonTitle)}"><i class="fa-solid fa-lock"></i> Portal Monitored</span>`;
+    }
+
     return `
       <div class="company-card ${isExpanded ? 'expanded' : ''}" id="company-card-${firmKey}" data-firm-key="${firmKey}">
         <div class="company-header-row" onclick="toggleCompany('${firmKey}')">
@@ -409,6 +437,7 @@ function renderCards() {
               <div class="company-badges">
                 <span class="badge-pill ${tierBadgeClass}">${escapeHtml(pTier ? pTier.split(':')[0] : comp.priority_tag)}</span>
                 <span class="badge-pill pill-industry"><i class="fa-solid fa-building-columns"></i> ${escapeHtml(comp.industry_sector)}</span>
+                ${crawlBadge}
                 ${comp.has_new ? `<span class="badge-pill pill-status-new"><i class="fa-solid fa-sparkles"></i> NEW ROLES</span>` : ''}
                 ${comp.official_careers_url ? `
                   <a href="${escapeHtml(comp.official_careers_url)}" target="_blank" rel="noopener noreferrer" class="btn-official-career" onclick="event.stopPropagation()">
@@ -437,9 +466,9 @@ function renderCards() {
                 <span>${comp.jobs.length} ${comp.jobs.length === 1 ? 'Role' : 'Roles'}</span>
               </div>
             ` : `
-              <div class="openings-count-pill zero-roles" title="Monitored ATS Endpoints">
-                <i class="fa-solid fa-clock-rotate-left"></i>
-                <span>0 Active Roles Monitored</span>
+              <div class="openings-count-pill zero-roles" title="${comp.crawl_status === 'AUTOMATED_FEED' ? 'Automated Feeds Monitored' : (comp.uncrawlable_reason || 'Direct Portal Monitored')}">
+                <i class="${comp.crawl_status === 'AUTOMATED_FEED' ? 'fa-solid fa-clock-rotate-left' : 'fa-solid fa-shield-halved'}"></i>
+                <span>${comp.crawl_status === 'AUTOMATED_FEED' ? '0 Active Roles Monitored' : 'Direct Portal Monitored'}</span>
               </div>
             `}
 
@@ -458,11 +487,28 @@ function renderCards() {
             <div class="drawer-jobs-list">
               ${jobsHtml}
             </div>
+          ` : (comp.crawl_status !== "AUTOMATED_FEED" ? `
+            <div class="drawer-empty-msg drawer-uncrawlable-msg">
+              <div style="display: flex; align-items: center; justify-content: center; gap: 8px; color: #fbbf24; font-weight: 700; margin-bottom: 6px;">
+                <i class="fa-solid fa-shield-halved fa-lg"></i>
+                <span>Automated Public Crawling Restricted &bull; ${escapeHtml(comp.uncrawlable_reason || 'Enterprise Security / Custom Portal')}</span>
+              </div>
+              <p style="margin: 0 auto; font-size: 0.82rem; color: #cbd5e1; max-width: 640px; line-height: 1.5;">
+                This employer utilizes enterprise session security, internal Workday/Taleo authentication, or custom portal architecture that restricts automated public API scraping. Browse off-cycle and campus opportunities directly on their verified portal:
+              </p>
+              ${comp.official_careers_url ? `
+                <div style="margin-top: 14px;">
+                  <a href="${escapeHtml(comp.official_careers_url)}" target="_blank" rel="noopener noreferrer" class="btn-official-career" style="padding: 8px 18px; font-size: 0.85rem; font-weight: 700; background: #2563eb; color: #fff; border-color: #2563eb;">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Open ${escapeHtml(comp.firm_name)} Official Careers Portal
+                  </a>
+                </div>
+              ` : ''}
+            </div>
           ` : `
             <div class="drawer-empty-msg">
               <i class="fa-solid fa-radar fa-lg" style="color: #60a5fa; margin-bottom: 8px; display: block;"></i>
-              <strong>Currently Monitoring Public ATS & Web Feeds for ${escapeHtml(comp.firm_name)}</strong>
-              <p style="margin-top: 6px; font-size: 0.82rem;">No active full-time junior or new-grad quantitative roles currently detected on public boards. Check their official careers portal directly:</p>
+              <strong>Automated ATS & Web Feeds Active for ${escapeHtml(comp.firm_name)}</strong>
+              <p style="margin-top: 6px; font-size: 0.82rem;">Public ATS feed (${escapeHtml(comp.crawl_method || 'API')}) is actively monitored. Currently 0 entry-level or junior quantitative positions are listed. Check their portal directly for off-cycle updates:</p>
               ${comp.official_careers_url ? `
                 <div style="margin-top: 12px;">
                   <a href="${escapeHtml(comp.official_careers_url)}" target="_blank" rel="noopener noreferrer" class="btn-official-career">
@@ -471,7 +517,7 @@ function renderCards() {
                 </div>
               ` : ''}
             </div>
-          `}
+          `)}
         </div>
       </div>
     `;

@@ -1,5 +1,5 @@
 window.LIVE_OPENINGS_DATA = {
-  "last_updated": "2026-09-30T05:40:54.231987",
+  "last_updated": "2026-09-30T01:47:56.411458",
   "candidate": {
     "cohort": "Quantitative Finance Class of 2027",
     "target": "Full-Time QR / QT / Strats Quant Roles",
@@ -7,14 +7,16 @@ window.LIVE_OPENINGS_DATA = {
   },
   "stats": {
     "total_monitored_firms": 296,
-    "firms_with_active_openings": 38,
-    "total_live_openings": 335,
-    "active_openings": 322,
+    "firms_with_active_openings": 39,
+    "total_live_openings": 338,
+    "active_openings": 325,
     "inactive_openings": 13,
-    "new_openings_this_crawl": 0,
+    "new_openings_this_crawl": 3,
     "retained_active": 335,
     "closed_openings": 0,
-    "total_firms_evaluated": 40
+    "total_firms_evaluated": 41,
+    "crawlable_firms_count": 83,
+    "uncrawlable_firms_count": 213
   },
   "firms_directory": [
     {
@@ -26,7 +28,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.3iccapital.com/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (ConnectionError)"
     },
     {
       "firm_name": "AGAM Capital",
@@ -37,7 +42,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.agam.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "AQR Capital Management",
@@ -48,7 +56,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.aqr.com/Careers",
-      "active_roles_count": 4
+      "active_roles_count": 4,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "AXQ Capital",
@@ -59,7 +70,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.axqcap.com/",
-      "active_roles_count": 6
+      "active_roles_count": 6,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Accenture",
@@ -70,7 +84,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.accenture.com/us-en/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Enterprise Workday (Dynamic Session Required)"
     },
     {
       "firm_name": "Aegon-Industrial Fund Management",
@@ -81,7 +98,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.aegonindustrialfund.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (ConnectionError)"
     },
     {
       "firm_name": "Aigen Investment Management",
@@ -92,7 +112,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.aigeninvestments.com/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (ConnectionError)"
     },
     {
       "firm_name": "Akuna Capital",
@@ -103,7 +126,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://akunacapital.com/careers",
-      "active_roles_count": 7
+      "active_roles_count": 7,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Alger",
@@ -114,7 +140,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.alger.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "All Options Trading",
@@ -125,7 +154,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.alloptions.nl/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "AllianceBernstein",
@@ -136,7 +168,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.alliancebernstein.com/corporate/en/careers.html",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Enterprise Workday (Dynamic Session Required)"
     },
     {
       "firm_name": "Allspring Global Investments",
@@ -147,7 +182,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.allspringglobal.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "AlphaROC",
@@ -158,7 +196,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.alpharoc.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (SSLError)"
     },
     {
       "firm_name": "Amazon",
@@ -169,7 +210,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.amazon.jobs/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "American Century Investments",
@@ -180,7 +224,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.americancentury.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
     },
     {
       "firm_name": "American Express",
@@ -191,7 +238,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.americanexpress.com/en-us/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Analysis Group",
@@ -202,7 +252,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.analysis.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Anthropic",
@@ -213,7 +266,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Premier Top-of-Market Offer",
       "difficulty_rating": "5/5 (Extreme)",
       "official_careers_url": "https://www.anthropic.com/careers",
-      "active_roles_count": 9
+      "active_roles_count": 9,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Apple",
@@ -224,7 +280,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://jobs.apple.com/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Archeron Trading",
@@ -235,7 +294,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.archerontrading.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (ConnectionError)"
     },
     {
       "firm_name": "Arrowstreet Capital",
@@ -246,7 +308,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Premier Top-of-Market Offer",
       "difficulty_rating": "5/5 (Extreme)",
       "official_careers_url": "https://www.arrowstreet.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Astorg Partners",
@@ -257,7 +322,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.astorg.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Avis Budget Group",
@@ -268,7 +336,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.avisbudget.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "BMW US Capital",
@@ -279,7 +350,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.bmwus.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (ConnectionError)"
     },
     {
       "firm_name": "BNP Paribas",
@@ -290,7 +364,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://group.bnpparibas/en/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
     },
     {
       "firm_name": "BP Trading",
@@ -301,7 +378,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.bp.com/en/global/corporate/careers.html",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Enterprise Workday (Dynamic Session Required)"
     },
     {
       "firm_name": "Balbec Capital",
@@ -312,7 +392,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.balbec.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Bank of America",
@@ -323,7 +406,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://campus.bankofamerica.com/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Bank of New York Mellon (BNY Mellon)",
@@ -334,7 +420,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.bankofnewyorkmellon.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Barclays",
@@ -345,7 +434,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://home.barclays/careers/our-firm/early-careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Beacon Platform",
@@ -356,7 +448,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.beacon.io/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Belvedere Trading",
@@ -367,7 +462,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://belvederetrading.com/careers/",
-      "active_roles_count": 2
+      "active_roles_count": 2,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Lever API",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "BlackRock",
@@ -378,7 +476,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://careers.blackrock.com/early-careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Blackstone",
@@ -389,7 +490,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.blackstone.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
     },
     {
       "firm_name": "Block (Cash App)",
@@ -400,7 +504,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://block.xyz/careers",
-      "active_roles_count": 1
+      "active_roles_count": 1,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Bloomberg LP",
@@ -411,7 +518,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.bloomberg.com/company/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
     },
     {
       "firm_name": "Bopu Fund",
@@ -422,7 +532,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.bopufund.com/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Boston Consulting Group (BCG)",
@@ -433,7 +546,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://careers.bcg.com/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Brevan Howard",
@@ -444,7 +560,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.brevanhoward.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Brex",
@@ -455,7 +574,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.brex.com/careers",
-      "active_roles_count": 1
+      "active_roles_count": 1,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Bridgewater Associates",
@@ -466,7 +588,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.bridgewater.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Broad Institute of MIT and Harvard",
@@ -477,7 +602,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.broadinstituteofmitandharvard.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (ConnectionError)"
     },
     {
       "firm_name": "Brown Brothers Harriman",
@@ -488,7 +616,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.brownbrothersharriman.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (ConnectionError)"
     },
     {
       "firm_name": "CIBC Capital Markets",
@@ -499,7 +630,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.cibcmarkets.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (ConnectionError)"
     },
     {
       "firm_name": "CITIC Securities",
@@ -510,7 +644,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.citic.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "CVS Health",
@@ -521,7 +658,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.cvshealth.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Calamos Investments",
@@ -532,7 +672,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.calamos.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Canada Pension Plan Investment Board (CPPIB)",
@@ -543,7 +686,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.canadapensionplanboard.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (ConnectionError)"
     },
     {
       "firm_name": "Capital Four",
@@ -554,7 +700,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.four.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Capstone Investment Advisors",
@@ -565,7 +714,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://capstoneia.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Capula Investment Management",
@@ -576,7 +728,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.capula.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (SSLError)"
     },
     {
       "firm_name": "Caravela Energy Partners",
@@ -587,7 +742,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.caravelaenergy.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Castleton Commodities International (CCI)",
@@ -598,7 +756,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.cci.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Enterprise Workday (Dynamic Session Required)"
     },
     {
       "firm_name": "Cerberus Capital Management",
@@ -609,7 +770,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.cerberus.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Enterprise Workday (Dynamic Session Required)"
     },
     {
       "firm_name": "Charles Schwab",
@@ -620,7 +784,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.charlesschwab.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (ConnectionError)"
     },
     {
       "firm_name": "Chengqi Funds",
@@ -631,7 +798,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.chengqifunds.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (ConnectionError)"
     },
     {
       "firm_name": "Chicago Trading Company (CTC)",
@@ -642,7 +812,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.chicagotradingcompany.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (SSLError)"
     },
     {
       "firm_name": "Chime",
@@ -653,7 +826,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://careers.chime.com/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "China AMC",
@@ -664,7 +840,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.chinaamc.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "China Everbright Bank",
@@ -675,7 +854,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.chinaeverbrightbank.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "China Southern Asset Management",
@@ -686,7 +868,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.chinasouthern.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Cisco Systems",
@@ -697,7 +882,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://jobs.cisco.com/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Citadel",
@@ -708,7 +896,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Premier Top-of-Market Offer",
       "difficulty_rating": "5/5 (Extreme)",
       "official_careers_url": "https://www.citadel.com/careers/open-roles/",
-      "active_roles_count": 4
+      "active_roles_count": 4,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Tailored Subagent",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Citadel / Citadel Securities",
@@ -719,7 +910,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Premier Top-of-Market Offer",
       "difficulty_rating": "5/5 (Extreme)",
       "official_careers_url": "https://www.citadel.com/careers/open-roles/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
     },
     {
       "firm_name": "Citadel Securities",
@@ -730,7 +924,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Premier Top-of-Market Offer",
       "difficulty_rating": "5/5 (Extreme)",
       "official_careers_url": "https://www.citadelsecurities.com/careers/open-roles/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Tailored Subagent",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Citigroup",
@@ -741,7 +938,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://jobs.citi.com/university",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Enterprise Workday (Dynamic Session Required)"
     },
     {
       "firm_name": "Coinbase",
@@ -752,7 +952,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.coinbase.com/careers",
-      "active_roles_count": 2
+      "active_roles_count": 2,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Columbia Threadneedle",
@@ -763,7 +966,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.columbiathreadneedle.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Consolidated Trading",
@@ -774,7 +980,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.consolidatedtrading.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (SSLError)"
     },
     {
       "firm_name": "Conversion Capital",
@@ -785,7 +994,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://conversioncapital.com/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Corvid Capital",
@@ -796,7 +1008,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.corvid.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
     },
     {
       "firm_name": "Crimson Education",
@@ -807,7 +1022,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.crimsoneducation.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Cubist Systematic Strategies",
@@ -818,7 +1036,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Premier Top-of-Market Offer",
       "difficulty_rating": "5/5 (Extreme)",
       "official_careers_url": "https://point72.com/cubist-systematic-strategies/",
-      "active_roles_count": 37
+      "active_roles_count": 37,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Greenhouse API",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "D. E. Shaw & Co",
@@ -829,7 +1050,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.deshawco.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (ConnectionError)"
     },
     {
       "firm_name": "D.E. Shaw",
@@ -840,7 +1064,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Premier Top-of-Market Offer",
       "difficulty_rating": "5/5 (Extreme)",
       "official_careers_url": "https://www.deshaw.com/careers",
-      "active_roles_count": 1
+      "active_roles_count": 1,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Tailored Subagent",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "DC Investments",
@@ -851,7 +1078,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.google.com/search?q=DC+careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "DIA",
@@ -862,7 +1092,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.dia.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "DV Trading",
@@ -873,7 +1106,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://dvtrading.co/careers/",
-      "active_roles_count": 6
+      "active_roles_count": 6,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Dai-ichi Life Holdings",
@@ -884,7 +1120,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.daiichilifeholdings.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (ConnectionError)"
     },
     {
       "firm_name": "Databricks",
@@ -895,7 +1134,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.databricks.com/company/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Deleg8",
@@ -906,7 +1148,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.deleg8.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Delta Air Lines",
@@ -917,7 +1162,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.deltaairlines.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (ConnectionError)"
     },
     {
       "firm_name": "Department of Defense",
@@ -928,7 +1176,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.departmentofdefense.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Dimensional Fund Advisors (DFA)",
@@ -939,7 +1190,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.dimensionalfundadvisors.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Enterprise Workday (Dynamic Session Required)"
     },
     {
       "firm_name": "Dodge & Cox",
@@ -950,7 +1204,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.dodgecox.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "EFund Management",
@@ -961,7 +1218,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.efund.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Eisler Capital",
@@ -972,7 +1232,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.eisler.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Ellington Management Group",
@@ -983,7 +1246,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.ellington.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Enterprise Taleo / Oracle HCM Portal"
     },
     {
       "firm_name": "Engineers Gate",
@@ -994,7 +1260,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.eg-lp.com/careers/",
-      "active_roles_count": 2
+      "active_roles_count": 2,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Ernst & Young",
@@ -1005,7 +1274,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.ey.com/en_us/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (SSLError)"
     },
     {
       "firm_name": "Ernst & Young (EY)",
@@ -1016,7 +1288,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.ey.com/en_us/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Evercore",
@@ -1027,7 +1302,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.evercore.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "ExodusPoint Capital Management",
@@ -1038,7 +1316,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.exoduspoint.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Federal Reserve System",
@@ -1049,7 +1330,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.federalreserve.gov/careers.htm",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Enterprise Taleo / Oracle HCM Portal"
     },
     {
       "firm_name": "Federated Hermes",
@@ -1060,7 +1344,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.federatedhermes.com/us/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Ficc.ai",
@@ -1071,7 +1358,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.ficcai.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "FinTech Start Up",
@@ -1082,7 +1372,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.fintechstartup.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Finance Concepts",
@@ -1093,7 +1386,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.financeconcepts.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Fireworks AI",
@@ -1104,7 +1400,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://fireworks.ai/company/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Fitch Ratings",
@@ -1115,7 +1414,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.fitchratings.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Five Dimensions Energy LLC",
@@ -1126,7 +1428,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.fivedimensionsenergy.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Five Rings LLC",
@@ -1137,7 +1442,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Premier Top-of-Market Offer",
       "difficulty_rating": "5/5 (Extreme)",
       "official_careers_url": "https://fiverings.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 3,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Greenhouse API",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Flow Traders",
@@ -1148,7 +1456,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.flowtraders.com/careers",
-      "active_roles_count": 6
+      "active_roles_count": 6,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Foresight Fund",
@@ -1159,7 +1470,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://sig.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Forest Creek Capital",
@@ -1170,7 +1484,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.forestcreek.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Fortitude Re",
@@ -1181,7 +1498,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.fortitudere.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (ConnectionError)"
     },
     {
       "firm_name": "Fox Run Management",
@@ -1192,7 +1512,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.foxrun.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Freddie Mac",
@@ -1203,7 +1526,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.freddiemac.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Freestone Grove Partners",
@@ -1214,7 +1540,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.freestonegrove.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Fundstrat Global Advisors",
@@ -1225,7 +1554,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.fundstratglobaladvisors.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (ConnectionError)"
     },
     {
       "firm_name": "GF Securities",
@@ -1236,7 +1568,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.google.com/search?q=GF+careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "GIC (Government of Singapore Investment Corp)",
@@ -1247,7 +1582,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.gic.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "GMO",
@@ -1258,7 +1596,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.gmo.com/americas/careers/",
-      "active_roles_count": 1
+      "active_roles_count": 1,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Lever API",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "GRO Intelligence",
@@ -1269,7 +1610,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.grointelligence.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (SSLError)"
     },
     {
       "firm_name": "Genentech",
@@ -1280,7 +1624,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.genentech.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Geneva Trading",
@@ -1291,7 +1638,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://genevatrading.com/careers/",
-      "active_roles_count": 1
+      "active_roles_count": 1,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Glenmede",
@@ -1302,7 +1652,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.glenmede.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Global AI",
@@ -1313,7 +1666,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.globalai.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Goldman Sachs",
@@ -1324,7 +1680,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.goldmansachs.com/careers/students/",
-      "active_roles_count": 1
+      "active_roles_count": 1,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Tailored Subagent",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Google",
@@ -1335,7 +1694,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.google.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Google DeepMind",
@@ -1346,7 +1708,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Premier Top-of-Market Offer",
       "difficulty_rating": "5/5 (Extreme)",
       "official_careers_url": "https://deepmind.google/about/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "GrayScale",
@@ -1357,7 +1722,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://grayscale.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Greenhouse API",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Gridify",
@@ -1368,7 +1736,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.gridify.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
     },
     {
       "firm_name": "HAP Capital",
@@ -1379,7 +1750,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://hapcap.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (SSLError)"
     },
     {
       "firm_name": "HBK Capital Management",
@@ -1390,7 +1764,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.hbk.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Haitong International Securities",
@@ -1401,7 +1778,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.htisec.com/en-us/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Enterprise Workday (Dynamic Session Required)"
     },
     {
       "firm_name": "HedgeTech LLC",
@@ -1412,7 +1792,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.hedgetech.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Heima AI Robotics",
@@ -1423,7 +1806,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.heimaairobotics.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (ConnectionError)"
     },
     {
       "firm_name": "Hudson River Trading (HRT)",
@@ -1434,7 +1820,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Premier Top-of-Market Offer",
       "difficulty_rating": "5/5 (Extreme)",
       "official_careers_url": "https://www.hudsonrivertrading.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "IBM Corporation",
@@ -1445,7 +1834,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.ibmcorporation.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (SSLError)"
     },
     {
       "firm_name": "IMC Trading",
@@ -1456,7 +1848,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://careers.imctrading.com/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Iconiq Capital",
@@ -1467,7 +1862,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://iconiqcapital.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Instinet Incorporated",
@@ -1478,7 +1876,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.instinetincorporated.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (ConnectionError)"
     },
     {
       "firm_name": "Intel",
@@ -1489,7 +1890,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.intel.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
     },
     {
       "firm_name": "Intercontinental Exchange (ICE)",
@@ -1500,7 +1904,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.theice.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Invesco",
@@ -1511,7 +1918,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.invesco.com/corporate/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Enterprise Workday (Dynamic Session Required)"
     },
     {
       "firm_name": "Investcorp",
@@ -1522,7 +1932,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.investcorp.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Invisible Technologies",
@@ -1533,7 +1946,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.invisibletechnologies.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "J.P. Morgan Chase",
@@ -1544,7 +1960,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://careers.jpmorgan.com/us/en/students/programs",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Jane Street",
@@ -1555,7 +1974,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Premier Top-of-Market Offer",
       "difficulty_rating": "5/5 (Extreme)",
       "official_careers_url": "https://www.janestreet.com/join-jane-street/open-roles/",
-      "active_roles_count": 37
+      "active_roles_count": 37,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Tailored Subagent",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Japan Bank for International Cooperation (JBIC)",
@@ -1566,7 +1988,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.japanbankforinternationalcooperation.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (ConnectionError)"
     },
     {
       "firm_name": "Johnson & Johnson",
@@ -1577,7 +2002,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.johnsonjohnson.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (SSLError)"
     },
     {
       "firm_name": "Jump Trading",
@@ -1588,7 +2016,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Premier Top-of-Market Offer",
       "difficulty_rating": "5/5 (Extreme)",
       "official_careers_url": "https://www.jumptrading.com/careers/",
-      "active_roles_count": 15
+      "active_roles_count": 15,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "KPMG",
@@ -1599,7 +2030,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.kpmg.us/careers.html",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Kaiser Permanente",
@@ -1610,7 +2044,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.kaiserpermanente.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Enterprise Taleo / Oracle HCM Portal"
     },
     {
       "firm_name": "Kernal Trading Technologies",
@@ -1621,7 +2058,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.kernaltradingtechnologies.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (ConnectionError)"
     },
     {
       "firm_name": "KeyBank",
@@ -1632,7 +2072,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.key.com/about/careers/careers.jsp",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
     },
     {
       "firm_name": "Klarna",
@@ -1643,7 +2086,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.klarna.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Kyte",
@@ -1654,7 +2100,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.kyte.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (SSLError)"
     },
     {
       "firm_name": "Liangpai Investment",
@@ -1665,7 +2114,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.liangpai.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (SSLError)"
     },
     {
       "firm_name": "Lincoln Avenue Capital",
@@ -1676,7 +2128,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.lincolnavenue.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Lincoln Financial Group",
@@ -1687,7 +2142,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.lincolnfinancial.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "MIO Partners",
@@ -1698,7 +2156,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.miopartners.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Man Group (AHL / Numeric)",
@@ -1709,7 +2170,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.man.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "MassMutual",
@@ -1720,7 +2184,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.massmutual.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
     },
     {
       "firm_name": "Maven Securities",
@@ -1731,7 +2198,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.mavensecurities.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "McKinsey & Company",
@@ -1742,7 +2212,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.mckinsey.com/capabilities/quantumblack/how-we-work/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
     },
     {
       "firm_name": "McKinsey & Company (QuantumBlack)",
@@ -1753,7 +2226,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.mckinsey.com/capabilities/quantumblack/how-we-work/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
     },
     {
       "firm_name": "McKinsey (MIO Partners)",
@@ -1764,7 +2240,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.miopartners.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "MerQube",
@@ -1775,7 +2254,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://merqube.com/careers/",
-      "active_roles_count": 1
+      "active_roles_count": 1,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Mercuria Energy",
@@ -1786,7 +2268,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.mercuria.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (SSLError)"
     },
     {
       "firm_name": "Meta",
@@ -1797,7 +2282,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.metacareers.com/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Microsoft",
@@ -1808,7 +2296,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://careers.microsoft.com/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Millennium Advisors",
@@ -1819,7 +2310,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Premier Top-of-Market Offer",
       "difficulty_rating": "5/5 (Extreme)",
       "official_careers_url": "https://www.millenniumadvisors.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Millennium Management",
@@ -1830,7 +2324,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Premier Top-of-Market Offer",
       "difficulty_rating": "5/5 (Extreme)",
       "official_careers_url": "https://www.mlpm.com/careers/",
-      "active_roles_count": 2
+      "active_roles_count": 2,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Tailored Subagent",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Moelis & Company",
@@ -1841,7 +2338,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.moelis.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Enterprise Workday (Dynamic Session Required)"
     },
     {
       "firm_name": "Mojo Interactive",
@@ -1852,7 +2352,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.mojointeractive.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Moody's Investors Service",
@@ -1863,7 +2366,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://careers.moodys.com/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Munich Re",
@@ -1874,7 +2380,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.munichre.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Greenhouse API",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "NVIDIA",
@@ -1885,7 +2394,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.nvidia.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Netflix",
@@ -1896,7 +2408,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.netflix.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Neuberger Berman",
@@ -1907,7 +2422,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.nb.com/en/global/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Enterprise Workday (Dynamic Session Required)"
     },
     {
       "firm_name": "New York Mortgage Trust",
@@ -1918,7 +2436,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.newyorkmortgagetrust.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (ConnectionError)"
     },
     {
       "firm_name": "NextEra Energy",
@@ -1929,7 +2450,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.nexteraenergy.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Nipun Capital",
@@ -1940,7 +2464,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.nipun.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Nomura",
@@ -1951,7 +2478,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.nomuragroup.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Novartis Institute",
@@ -1962,7 +2492,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.novartisinstitute.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (ConnectionError)"
     },
     {
       "firm_name": "Numerix",
@@ -1973,7 +2506,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.numerix.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "OMNI Risk Management",
@@ -1984,7 +2520,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.omnirisk.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Old Mission Capital",
@@ -1995,7 +2534,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.oldmissioncapital.com/careers/",
-      "active_roles_count": 13
+      "active_roles_count": 13,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "One William Street Capital Management",
@@ -2006,7 +2548,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.onewilliamstreet.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "OpenAI",
@@ -2017,7 +2562,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Premier Top-of-Market Offer",
       "difficulty_rating": "5/5 (Extreme)",
       "official_careers_url": "https://openai.com/careers/",
-      "active_roles_count": 23
+      "active_roles_count": 23,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Options Clearing Corporation (OCC)",
@@ -2028,7 +2576,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.theocc.com/Careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
     },
     {
       "firm_name": "Optiver",
@@ -2039,7 +2590,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Premier Top-of-Market Offer",
       "difficulty_rating": "5/5 (Extreme)",
       "official_careers_url": "https://optiver.com/working-at-optiver/career-opportunities/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Oracle",
@@ -2050,7 +2604,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.oracle.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "PEAK6",
@@ -2061,7 +2618,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://peak6.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "PGIM",
@@ -2072,7 +2632,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.pgim.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "PIMCO",
@@ -2083,7 +2646,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.pimco.com/en-us/our-firm/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Pacific Gas & Electric (PG&E)",
@@ -2094,7 +2660,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.pacificgaselectric.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Palantir Technologies",
@@ -2105,7 +2674,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.palantir.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "PanAgora Asset Management",
@@ -2116,7 +2688,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.panagora.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Pearl River Capital",
@@ -2127,7 +2702,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.pearlriver.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "PenFed Credit Union",
@@ -2138,7 +2716,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.penfedcreditunion.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (SSLError)"
     },
     {
       "firm_name": "Penn Medicine",
@@ -2149,7 +2730,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.pennmedicine.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Perella Weinberg Partners",
@@ -2160,7 +2744,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.perellaweinberg.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (SSLError)"
     },
     {
       "firm_name": "Perplexity AI",
@@ -2171,7 +2758,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.perplexityai.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (ConnectionError)"
     },
     {
       "firm_name": "Point72",
@@ -2182,7 +2772,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Premier Top-of-Market Offer",
       "difficulty_rating": "5/5 (Extreme)",
       "official_careers_url": "https://point72.com/careers/",
-      "active_roles_count": 37
+      "active_roles_count": 37,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Greenhouse API",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Point72 / Cubist Systematic Strategies",
@@ -2193,7 +2786,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Premier Top-of-Market Offer",
       "difficulty_rating": "5/5 (Extreme)",
       "official_careers_url": "https://point72.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "PricewaterhouseCoopers (PwC)",
@@ -2204,7 +2800,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.pwc.com/us/en/careers.html",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
     },
     {
       "firm_name": "Prime Trading",
@@ -2215,7 +2814,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.primetrading.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Quant Z",
@@ -2226,7 +2828,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.quantz.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
     },
     {
       "firm_name": "Quantbot Technologies",
@@ -2237,7 +2842,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.quantbot.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Quantedge Capital",
@@ -2248,7 +2856,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.quantedge.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Quantinno Capital Management",
@@ -2259,7 +2870,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.quantinno.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Quantitative Brokers",
@@ -2270,7 +2884,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.quantitativebrokers.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Qube Research & Technologies (QRT)",
@@ -2281,7 +2898,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.qube-rt.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "RBC Capital Markets",
@@ -2292,7 +2912,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.rbccm.com/en/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Radix Trading",
@@ -2303,7 +2926,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Premier Top-of-Market Offer",
       "difficulty_rating": "5/5 (Extreme)",
       "official_careers_url": "https://www.radixtrading.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Ramp",
@@ -2314,7 +2940,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://ramp.com/careers",
-      "active_roles_count": 3
+      "active_roles_count": 3,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Ashby API",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Robinhood",
@@ -2325,7 +2954,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://careers.robinhood.com/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Rokos Capital Management",
@@ -2336,7 +2968,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.rokoscapital.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "S&P Global",
@@ -2347,7 +2982,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://careers.spglobal.com/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Enterprise Workday (Dynamic Session Required)"
     },
     {
       "firm_name": "SAI",
@@ -2358,7 +2996,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.sai.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "SESCO",
@@ -2369,7 +3010,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.sescoenterprises.com/careers",
-      "active_roles_count": 2
+      "active_roles_count": 2,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "SIG (Susquehanna International Group)",
@@ -2380,7 +3024,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://sig.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Scale AI",
@@ -2391,7 +3038,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://scale.com/careers",
-      "active_roles_count": 7
+      "active_roles_count": 7,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Schonfeld Strategic Advisors",
@@ -2402,7 +3052,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.schonfeld.com/careers/",
-      "active_roles_count": 11
+      "active_roles_count": 11,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Greenhouse API",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "SciFeCap",
@@ -2413,7 +3066,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.scifecap.com/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Secor Asset Management",
@@ -2424,7 +3080,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.secor-am.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Shanghai Yanfu Investments",
@@ -2435,7 +3094,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.yanfuinvestments.com/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Snowflake",
@@ -2446,7 +3108,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://careers.snowflake.com/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "SoFi",
@@ -2457,7 +3122,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.sofi.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Societe Generale",
@@ -2468,7 +3136,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://careers.societegenerale.com/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Enterprise Taleo / Oracle HCM Portal"
     },
     {
       "firm_name": "Soros Fund Management",
@@ -2479,7 +3150,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.sorosfund.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
     },
     {
       "firm_name": "Spotify",
@@ -2490,7 +3164,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.lifeatspotify.com/jobs",
-      "active_roles_count": 3
+      "active_roles_count": 3,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Squarepoint Capital",
@@ -2501,7 +3178,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.squarepoint-capital.com/careers",
-      "active_roles_count": 8
+      "active_roles_count": 8,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "State Street",
@@ -2512,7 +3192,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.statestreet.com/us/en/asset-management/about/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Stone Ridge Asset Management",
@@ -2523,7 +3206,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.stoneridge.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Enterprise Workday (Dynamic Session Required)"
     },
     {
       "firm_name": "Stripe",
@@ -2534,7 +3220,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://stripe.com/jobs",
-      "active_roles_count": 1
+      "active_roles_count": 1,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Sumitomo Mitsui Banking Corporation (SMBC)",
@@ -2545,7 +3234,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.sumitomomitsuibankingcorporation.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "TD Bank",
@@ -2556,7 +3248,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.tdbank.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Enterprise Workday (Dynamic Session Required)"
     },
     {
       "firm_name": "TD Securities",
@@ -2567,7 +3262,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.google.com/search?q=TD+careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "TGS Management",
@@ -2578,7 +3276,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.tgs.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "TIFIN",
@@ -2589,7 +3290,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://tifin.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Tanius Tech",
@@ -2600,7 +3304,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.taniustech.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Tesla",
@@ -2611,7 +3318,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.tesla.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
     },
     {
       "firm_name": "The Home Depot",
@@ -2622,7 +3332,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.thehomedepot.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (SSLError)"
     },
     {
       "firm_name": "The Voleon Group",
@@ -2633,7 +3346,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.thevoleon.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (ConnectionError)"
     },
     {
       "firm_name": "Tibra Capital",
@@ -2644,7 +3360,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.tibra.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
     },
     {
       "firm_name": "Tower Research Capital",
@@ -2655,7 +3374,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.tower-research.com/open-positions",
-      "active_roles_count": 25
+      "active_roles_count": 25,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Trafigura",
@@ -2666,7 +3388,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.trafigura.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Enterprise Workday (Dynamic Session Required)"
     },
     {
       "firm_name": "TransMarket Group",
@@ -2677,7 +3402,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.transmarketgroup.com/careers",
-      "active_roles_count": 2
+      "active_roles_count": 2,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Transmarket Group",
@@ -2688,7 +3416,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.transmarketgroup.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Trexquant Investment",
@@ -2699,7 +3430,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.trexquant.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Truist Financial",
@@ -2710,7 +3444,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://careers.truist.com/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Two Sigma",
@@ -2721,7 +3458,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Premier Top-of-Market Offer",
       "difficulty_rating": "5/5 (Extreme)",
       "official_careers_url": "https://www.twosigma.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Tailored Subagent",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "U.S. Securities and Exchange Commission (SEC)",
@@ -2732,7 +3472,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.sec.gov/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
     },
     {
       "firm_name": "UBS",
@@ -2743,7 +3486,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.ubs.com/global/en/careers.html",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
     },
     {
       "firm_name": "UNTL",
@@ -2754,7 +3500,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.untl.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Uber",
@@ -2765,7 +3514,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.uber.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Ultramarin GmbH",
@@ -2776,7 +3528,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.ultramaringmbh.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (ConnectionError)"
     },
     {
       "firm_name": "Upstart",
@@ -2787,7 +3542,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.upstart.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Valkyrie Trading",
@@ -2798,7 +3556,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://valkyrietrading.com/careers/",
-      "active_roles_count": 2
+      "active_roles_count": 2,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "VanEck",
@@ -2809,7 +3570,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.vaneck.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Vanguard",
@@ -2820,7 +3584,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.vanguardjobs.com/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Verition Fund Management",
@@ -2831,7 +3598,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://verition.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Viking Global Investors",
@@ -2842,7 +3612,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.vikingglobal.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Virtu Financial",
@@ -2853,7 +3626,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.virtu.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Vistra Corp",
@@ -2864,7 +3640,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.vistra.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Walleye Capital",
@@ -2875,7 +3654,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.walleye.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
     },
     {
       "firm_name": "Walmart Global Tech",
@@ -2886,7 +3668,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.walmartglobaltech.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (ConnectionError)"
     },
     {
       "firm_name": "Waymo",
@@ -2897,7 +3682,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://waymo.com/careers/",
-      "active_roles_count": 11
+      "active_roles_count": 11,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Wells Fargo",
@@ -2908,7 +3696,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.wellsfargojobs.com/university-programs",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Wolfe Research",
@@ -2919,7 +3710,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.wolferesearch.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "d1g1t Inc",
@@ -2930,7 +3724,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.d1g1t.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "DRW",
@@ -2941,7 +3738,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://drw.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Balyasny Asset Management",
@@ -2952,7 +3752,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Premier Top-of-Market Offer",
       "difficulty_rating": "5/5 (Extreme)",
       "official_careers_url": "https://www.bamfunds.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Plaid",
@@ -2963,7 +3766,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://plaid.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "WorldQuant",
@@ -2974,7 +3780,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Premier Top-of-Market Offer",
       "difficulty_rating": "5/5 (Extreme)",
       "official_careers_url": "https://www.worldquant.com/career/",
-      "active_roles_count": 19
+      "active_roles_count": 19,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Marshall Wace",
@@ -2985,7 +3794,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Premier Top-of-Market Offer",
       "difficulty_rating": "5/5 (Extreme)",
       "official_careers_url": "https://www.mwam.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "GTS",
@@ -2996,7 +3808,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Premier Top-of-Market Offer",
       "difficulty_rating": "5/5 (Extreme)",
       "official_careers_url": "https://gtsfx.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Alphadyne Asset Management",
@@ -3007,7 +3822,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.alphadyne.com/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Centiva Capital",
@@ -3018,7 +3836,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.centivacapital.com/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Ergoteles Capital",
@@ -3029,7 +3850,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.ergoteles.com/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Headlands Technologies",
@@ -3040,7 +3864,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.headlandstech.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "IF Quant",
@@ -3051,7 +3878,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.ifquant.com/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Access Restricted (ConnectionError)"
     },
     {
       "firm_name": "Moon Capital Management",
@@ -3062,7 +3892,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.mooncapital.com/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Seven Eight Capital",
@@ -3073,7 +3906,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://www.seveneightcapital.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Simplex Trading",
@@ -3084,7 +3920,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "difficulty_rating": "4.5/5 (High)",
       "official_careers_url": "https://simplextrading.com/careers/",
-      "active_roles_count": 2
+      "active_roles_count": 2,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Greenhouse API",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "BMO Capital Markets",
@@ -3095,7 +3934,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://capitalmarkets.bmo.com/en/about-us/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
     },
     {
       "firm_name": "China International Capital Corporation (CICC)",
@@ -3106,7 +3948,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.cicc.com/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Credit Agricole CIB",
@@ -3117,7 +3962,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.ca-cib.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Credit Suisse",
@@ -3128,7 +3976,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.credit-suisse.com/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
     },
     {
       "firm_name": "CME Group",
@@ -3139,7 +3990,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.cmegroup.com/careers.html",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Deutsche Bank",
@@ -3150,7 +4004,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://careers.db.com/students-graduates/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Jefferies",
@@ -3161,7 +4018,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.jefferies.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Morgan Stanley",
@@ -3172,7 +4032,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "4/5 (High)",
       "official_careers_url": "https://www.morganstanley.com/people-opportunities/students-graduates",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Sumridge Partners",
@@ -3183,7 +4046,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Above Benchmark",
       "difficulty_rating": "3.5/5 (Moderate-High)",
       "official_careers_url": "https://www.sumridge.com/careers/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Affirm",
@@ -3194,7 +4060,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.affirm.com/careers",
-      "active_roles_count": 4
+      "active_roles_count": 4,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "Fidelity Investments",
@@ -3205,7 +4074,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://jobs.fidelity.com/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "AUTOMATED_FEED",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": null
     },
     {
       "firm_name": "GAM Investments",
@@ -3216,7 +4088,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.gam.com/en/our-company/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Lazard Asset Management",
@@ -3227,7 +4102,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.lazardassetmanagement.com/us/en_us/about/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Oaktree Capital",
@@ -3238,7 +4116,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "On Par / Below Benchmark",
       "difficulty_rating": "3/5 (Moderate)",
       "official_careers_url": "https://www.oaktreecapital.com/about/careers",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "Grubhub",
@@ -3249,7 +4130,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://careers.grubhub.com/",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Enterprise Workday (Dynamic Session Required)"
     },
     {
       "firm_name": "Deloitte",
@@ -3260,7 +4144,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www2.deloitte.com/us/en/pages/careers/careers.html",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
     },
     {
       "firm_name": "US Bank",
@@ -3271,7 +4158,10 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Below Benchmark (Practice Only)",
       "difficulty_rating": "2/5 (Low)",
       "official_careers_url": "https://www.usbank.com/careers.html",
-      "active_roles_count": 0
+      "active_roles_count": 0,
+      "crawl_status": "UNCRAWLABLE_PORTAL_ONLY",
+      "crawl_method": "Direct Portal Monitored",
+      "uncrawlable_reason": "Enterprise Workday (Dynamic Session Required)"
     }
   ],
   "openings": [
@@ -3305,7 +4195,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Old Mission Capital::gh_oldmissioncapital_6309652003",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": "$175,000 - $250,000 / yr",
@@ -3342,7 +4232,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Old Mission Capital::gh_oldmissioncapital_7814534003",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": "$175,000 - $250,000 / yr",
@@ -3378,7 +4268,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Old Mission Capital::gh_oldmissioncapital_6088836003",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": "$150,000 - $200,000 / yr",
@@ -3414,7 +4304,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Flow Traders::gh_flowtraders_8207306",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -3451,7 +4341,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Flow Traders::gh_flowtraders_8156203",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -3488,7 +4378,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Flow Traders::gh_flowtraders_8213037",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -3525,7 +4415,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Flow Traders::gh_flowtraders_6492219",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -3563,7 +4453,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Tower Research Capital::gh_towerresearchcapital_7714667",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -3600,7 +4490,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Tower Research Capital::gh_towerresearchcapital_5733830",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -3637,12 +4527,12 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Tower Research Capital::gh_towerresearchcapital_7102180",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
       "official_careers_url": "https://www.tower-research.com/open-positions",
-      "url_status": 408
+      "url_status": 200
     },
     {
       "job_id": "gh_towerresearchcapital_6296510",
@@ -3674,7 +4564,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Tower Research Capital::gh_towerresearchcapital_6296510",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -3711,7 +4601,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Tower Research Capital::gh_towerresearchcapital_7080209",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -3748,7 +4638,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Tower Research Capital::gh_towerresearchcapital_6384976",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": "$150,000 - $200,000 / yr",
@@ -3785,12 +4675,12 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Tower Research Capital::gh_towerresearchcapital_7080219",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
       "official_careers_url": "https://www.tower-research.com/open-positions",
-      "url_status": 408
+      "url_status": 200
     },
     {
       "job_id": "gh_towerresearchcapital_6679938",
@@ -3821,7 +4711,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Tower Research Capital::gh_towerresearchcapital_6679938",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -3857,12 +4747,12 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Tower Research Capital::gh_towerresearchcapital_7989358",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": "$120,000 - $200,000 / yr",
       "official_careers_url": "https://www.tower-research.com/open-positions",
-      "url_status": 408
+      "url_status": 200
     },
     {
       "job_id": "gh_towerresearchcapital_4958633",
@@ -3893,7 +4783,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Tower Research Capital::gh_towerresearchcapital_4958633",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -3929,7 +4819,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Tower Research Capital::gh_towerresearchcapital_4986715",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -3965,7 +4855,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Tower Research Capital::gh_towerresearchcapital_16635",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": "$120,000 - $200,000 / yr",
@@ -4002,7 +4892,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Akuna Capital::gh_akunacapital_8016687",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -4040,7 +4930,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Akuna Capital::gh_akunacapital_8175994",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -4081,7 +4971,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Squarepoint Capital::gh_squarepointcapital_6069464",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -4114,7 +5004,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Schonfeld Strategic Advisors::gh_schonfeld_8236826",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -4151,7 +5041,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Schonfeld Strategic Advisors::gh_schonfeld_8020673",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -4168,7 +5058,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Jane Street Tailored Agent",
       "tier": "Tier A: Moonshots (Too Hard)",
       "description": "Full-time Quantitative Trader role starting in 2027 for graduating students in quantitative fields (economics, mathematics, statistics, computer science, financial engineering). New York office.",
-      "updated_at": "2026-09-30T05:40:35.918239",
+      "updated_at": "2026-09-30T01:47:49.979027",
       "suitability_score": 100,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -4187,7 +5077,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::jane_street_qt_fulltime_2027",
       "status": "INACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "official_careers_url": "https://www.janestreet.com/join-jane-street/open-roles/",
@@ -4205,7 +5095,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Citadel Tailored Agent",
       "tier": "Tier A: Moonshots (Too Hard)",
       "description": "Opportunity for Master's/PhD candidates graduating in 2026/2027 in quantitative finance, financial engineering, mathematics, physics, statistics, or CS to develop predictive alpha models.",
-      "updated_at": "2026-09-30T05:40:36.079775",
+      "updated_at": "2026-09-30T01:47:50.009079",
       "suitability_score": 100,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -4224,7 +5114,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Citadel::citadel_qr_2027_nyc",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://www.citadel.com/careers/open-roles/",
@@ -4241,7 +5131,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Citadel Tailored Agent",
       "tier": "Tier A: Moonshots (Too Hard)",
       "description": "Automated market making and algorithmic trading across equities, fixed income, FX, and commodities.",
-      "updated_at": "2026-09-30T05:40:36.079787",
+      "updated_at": "2026-09-30T01:47:50.009087",
       "suitability_score": 100,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -4260,7 +5150,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Citadel::citadel_sec_qt_2027_nyc",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://www.citadel.com/careers/open-roles/",
@@ -4277,7 +5167,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Two Sigma Tailored Agent",
       "tier": "Tier A: Moonshots (Too Hard)",
       "description": "Develop systematic investment strategies using statistical analysis, machine learning, and financial modeling.",
-      "updated_at": "2026-09-30T05:40:36.259711",
+      "updated_at": "2026-09-30T01:47:50.054053",
       "suitability_score": 100,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -4296,7 +5186,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Two Sigma::two_sigma_qr_campus_2027",
       "status": "INACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "official_careers_url": "https://www.twosigma.com/careers/",
@@ -4314,7 +5204,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;strong&gt;ROLE/RESPONSIBILITES&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Perform rigorous and innovative research to discover systematic anomalies in equity market&lt;/li&gt;\n&lt;li&gt;End-to-end development: alpha idea generation, data processing, strategy backtesting, optimization and production implementation&lt;/li&gt;\n&lt;li&gt;Identify and evaluate new datasets for stock return predictions&lt;/li&gt;\n&lt;li&gt;Maintain and improve the portfolio trading in production environment&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;REQUIREMENTS&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;MS or PhD in physics, engineering, statistics, applied math, quantitative finance or other quantitative fields with a strong foundation in statistics&lt;/li&gt;\n&lt;li&gt;1+ years of work experience in systematic alpha research in equities&lt;/li&gt;\n&lt;li&gt;Experience developing short term alpha signals (intraday or a few days) is a plus&lt;/li&gt;\n&lt;li&gt;Demonstrated proficiency in R or Python&lt;/li&gt;\n&lt;li&gt;Strong command of foundations of applied statistics, linear algebra, and time series models&lt;/li&gt;\n&lt;li&gt;Ability to quickly and efficiently scrub, format, and manipulate large, raw data sources&lt;/li&gt;\n&lt;li&gt;Strong knowledge of financial markets&lt;/li&gt;\n&lt;li&gt;Highly motivated, willing to take ownership of his/her work&lt;/li&gt;\n&lt;li&gt;Collaborative mindset with strong independent research ability&lt;strong&gt;&lt;/strong&gt;&lt;/li&gt;\n&lt;/ul&gt;",
-      "updated_at": "2026-09-30T05:40:36.469950",
+      "updated_at": "2026-09-30T01:47:50.152263",
       "suitability_score": 100,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -4332,7 +5222,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_7297561002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -4349,7 +5239,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;strong&gt;&lt;u&gt;JOB RESPONSIBILITIES:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;A highly collaborative, fast-growing team at Internal Alpha Capture (IAC), Point72 is developing AI-driven equity trading signals that leverage rigorous research, state-of-the-art machine learning methods, proprietary data sources, and unparalleled computing power.&lt;/p&gt;\n&lt;p&gt;We are looking for exceptional machine learning researchers to join our efforts. Researchers will work closely with our experienced team members and apply the full breadth of their machine learning knowledge to unique, proprietary datasets, and develop novel trading signals that have high impact. Prior experience in the financial industry is not required.&lt;/p&gt;\n&lt;p&gt;Key responsibilities may include:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Managing all aspects of the research process, including ideation, method selection, implementation, evaluation, and eventual application.&lt;/li&gt;\n&lt;li&gt;Identifying, adapting, and extending existing models in the broad field of machine learning; conducting novel research as needed, to develop new signals that can enhance portfolio returns, or predict other variables of interests.&lt;/li&gt;\n&lt;li&gt;Staying up to date on the advances in AI/ML and related technological innovations to provide recommendations on new models and tools and identify emerging opportunities.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;DESIRABLE CANDIDATES:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Master’s or PhD in machine learning, computer science, statistics, or related fields.&lt;/li&gt;\n&lt;li&gt;Knowledge and experience in any of the following areas are strongly preferred: modern sequence models, graph neutral nets, reinforcement learning, LLMs.&lt;/li&gt;\n&lt;li&gt;Prior research experience utilizing machine learning over large, possibly noisy, data sets.&lt;/li&gt;\n&lt;li&gt;Strong analytical and quantitative skills, and a detail-oriented mindset.&lt;/li&gt;\n&lt;li&gt;Strong proficiency in machine learning libraries such as Torch, JAX or TensorFlow.&lt;/li&gt;\n&lt;li&gt;Competence in Python, cluster environment, and general software engineering principles (source control, testing, collaborative workflow).&lt;/li&gt;\n&lt;li&gt;Excellent written and verbal communication skills, willing to proactively engage other team members in helping to foster a highly collaborative, team-oriented research environment.&lt;/li&gt;\n&lt;li&gt;Commitment to the highest ethical standards.&lt;/li&gt;\n&lt;/ul&gt;",
-      "updated_at": "2026-09-30T05:40:36.470246",
+      "updated_at": "2026-09-30T01:47:50.152404",
       "suitability_score": 100,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -4368,7 +5258,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_8023550002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -4385,7 +5275,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;strong&gt;&lt;u&gt;About Cubist&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Cubist Systematic Strategies, an affiliate of Point72, deploys systematic, computer-driven trading strategies across multiple liquid asset classes, including equities, futures and foreign exchange. The core of our effort is rigorous research into a wide range of market anomalies, fueled by our unparalleled access to a wide range of publicly available data sources.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;Role/Responsibilities:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We are seeking a quantitative researcher for the Cubist Machine Learning Research group with experience in machine learning, especially recent deep learning and natural language processing technology.&lt;/p&gt;\n&lt;p&gt;Researchers will use a rigorous scientific method to develop sophisticated trading models and shape our insights into how the markets will behave.&amp;nbsp; Successful researchers manage all aspects of the research process including data ingestion and processing, data analysis, methodology selection, implementation and testing, prototyping, and performance evaluation.&lt;/p&gt;\n&lt;p&gt;Researchers will be introduced to industry standard datasets, including understanding which data may be relevant to a certain model or financial problem; how to collect, parse, and clean the data; how to incorporate the data into innovative functional models; how to construct and develop features from raw data; and how to estimate effectiveness of such features.&lt;/p&gt;\n&lt;p&gt;Researchers will also be provided with the opportunity to implement the full breadth of their knowledge and training to actively participate in all stages of research &amp;amp; development of financial models through use of machine learning. Based on experience from working with existing industry-standard models and algorithms, researchers will learn how to construct their own models in order to solve complex financial problems and enhance data prediction capabilities within the financial services industry.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;Requirements: &lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;PhD or PhD candidate in machine learning, computer science, statistics, or a related field&lt;/li&gt;\n&lt;li&gt;Experience with sequential modeling and time series forecasting using deep learning&lt;/li&gt;\n&lt;li&gt;Experience with deep neural networks and representation learning&lt;/li&gt;\n&lt;li&gt;Prior experience working in a data driven research environment&lt;/li&gt;\n&lt;li&gt;Experience with translating mathematical models and algorithms into code&lt;/li&gt;\n&lt;li&gt;Proficient in programming languages such as Python and R&lt;/li&gt;\n&lt;li&gt;Experience with machine learning software libraries such as TensorFlow or PyTorch&lt;/li&gt;\n&lt;li&gt;Experience with natural language processing technology a strong plus&lt;/li&gt;\n&lt;li&gt;Excellent analytical skills, with strong attention to detail&lt;/li&gt;\n&lt;li&gt;Interest in applying machine learning to finance&lt;/li&gt;\n&lt;li&gt;Collaborative mindset with strong independent research ability&lt;/li&gt;\n&lt;li&gt;Strong written and verbal communication skills&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;We’re looking for exceptional colleagues with unparalleled passion. If you’d like your resume to stand out, tell us about your exceptional personal achievements, even if they have nothing to do with finance. Of course we love to hear more about specific engineering or data projects that you’ve worked outside of school, or as part of your curriculum. If you’re proud of the work you did we want to hear about it. In addition to exceptional statisticians and engineers, we work with talented musicians, writers, mathematicians, and founders of non-profits; we’d love to learn more about what excites you.&lt;/p&gt;",
-      "updated_at": "2026-09-30T05:40:36.470249",
+      "updated_at": "2026-09-30T01:47:50.152405",
       "suitability_score": 100,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -4404,7 +5294,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_7297513002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -4440,7 +5330,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jump Trading::gh_jumptrading_8050801",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -4476,7 +5366,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jump Trading::gh_jumptrading_7557793",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -4511,7 +5401,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jump Trading::gh_jumptrading_3115552",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -4546,7 +5436,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jump Trading::gh_jumptrading_5830344",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -4584,7 +5474,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::gh_janestreet_8576270002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -4619,7 +5509,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::gh_janestreet_8415898002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -4654,7 +5544,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::gh_janestreet_8573523002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -4686,7 +5576,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_7297561002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -4722,7 +5612,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_8023550002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -4758,7 +5648,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_7297513002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -4775,7 +5665,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "D.E. Shaw Tailored Agent",
       "tier": "Tier A: Moonshots (Too Hard)",
       "description": "Mathematical modeling and algorithmic strategy development across systematic global asset portfolios. Welcoming quantitative master's and PhD graduates.",
-      "updated_at": "2026-09-30T05:40:36.259862",
+      "updated_at": "2026-09-30T01:47:50.054155",
       "suitability_score": 98,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -4794,7 +5684,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "D.E. Shaw::d.e._shaw_qa_fulltime_2027",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://www.deshaw.com/careers",
@@ -4833,7 +5723,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Squarepoint Capital::gh_squarepointcapital_7918610",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -4866,7 +5756,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Old Mission Capital::gh_oldmissioncapital_7666119003",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": "$125,000 - $150,000 / yr",
@@ -4902,7 +5792,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Old Mission Capital::gh_oldmissioncapital_7796044003",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -4938,7 +5828,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Old Mission Capital::gh_oldmissioncapital_7796058003",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -4974,7 +5864,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Old Mission Capital::gh_oldmissioncapital_7796031003",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -5010,7 +5900,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Tower Research Capital::gh_towerresearchcapital_8024142",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": "$150,000 - $250,000 / yr",
@@ -5046,7 +5936,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Tower Research Capital::gh_towerresearchcapital_8037824",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -5081,7 +5971,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Schonfeld Strategic Advisors::gh_schonfeld_8020671",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -5098,7 +5988,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Jane Street Tailored Agent",
       "tier": "Tier A: Moonshots (Too Hard)",
       "description": "Full-time Quantitative Researcher solving hard mathematical modeling problems on global electronic markets.",
-      "updated_at": "2026-09-30T05:40:35.918257",
+      "updated_at": "2026-09-30T01:47:49.979035",
       "suitability_score": 95,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -5116,7 +6006,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::jane_street_qr_analyst_2027",
       "status": "INACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "official_careers_url": "https://www.janestreet.com/join-jane-street/open-roles/",
@@ -5134,7 +6024,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Citadel Tailored Agent",
       "tier": "Tier A: Moonshots (Too Hard)",
       "description": "Design mathematical models to forecast liquidity dynamics, order book imbalance, and microsecond price formation.",
-      "updated_at": "2026-09-30T05:40:36.079790",
+      "updated_at": "2026-09-30T01:47:50.009089",
       "suitability_score": 95,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -5152,7 +6042,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Citadel::citadel_sec_qr_2027_nyc",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://www.citadel.com/careers/open-roles/",
@@ -5169,7 +6059,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Millennium Tailored Agent",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "Multi-strategy quantitative research supporting systematic portfolio manager pods in New York.",
-      "updated_at": "2026-09-30T05:40:36.259903",
+      "updated_at": "2026-09-30T01:47:50.054187",
       "suitability_score": 95,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -5187,7 +6077,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Millennium Management::millennium_management_qr_assoc_2027",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://www.mlpm.com/careers/",
@@ -5225,7 +6115,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Five Rings::gh_fiveringsllc_5255334008",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -5260,7 +6150,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Five Rings::gh_fiveringsllc_5344213008",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -5295,7 +6185,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Five Rings::gh_fiveringsllc_5255367008",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -5327,7 +6217,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jump Trading::gh_jumptrading_8050796",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -5362,11 +6252,116 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jump Trading::gh_jumptrading_8209424",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
       "official_careers_url": "https://www.jumptrading.com/careers/",
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_fiveringsllc_5255334008",
+      "firm_name": "Five Rings LLC",
+      "title": "Campus Full Time 2027 - Quantitative Trader",
+      "location": "New York",
+      "department": "Quantitative Trading",
+      "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5255334008",
+      "source_ats": "Greenhouse",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p id=&quot;isPasted&quot;&gt;&lt;span style=&quot;font-family: verdana, geneva, sans-serif;&quot;&gt;&lt;strong&gt;About Five Rings&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p id=&quot;isPasted&quot;&gt;&lt;span style=&quot;font-family: verdana, geneva, sans-serif;&quot;&gt;Five Rings is a proprietary trading firm founded with a vision of combining strategy, innovation and technology to succeed in today’s global markets. With offices in New York, Boca Raton, London and Amsterdam, Five Rings trades in various domestic and international markets, both established and esoteric. Our team constantly seeks new opportunities, analyzes their risks and rewards, and creates strategies and tools to capitalize on them.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-family: verdana, geneva, sans-serif;&quot;&gt;We have an open culture and encourage the flow of knowledge and ideas between all areas of the firm.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;About the Role&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Traders manage their unique strategies in rapidly evolving live markets. They tune model parameters to reflect prevailing conditions, execute trades based on model recommendations, evaluate the real-time feedback provided by market participants’ reactions, and reincorporate this information into their models in a continuous feedback loop.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Five Rings gives people as much responsibility as quickly as it can be earned. From day one, as a new Quant Trader (QT), you will gain unrivaled experience both on the desk and in the classroom.&amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;New hires work closely with senior traders – analyzing risks and rewards, exploring new strategies, collaborating with quants and software developers to build and optimize trading models.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Quant Traders work independently and with others to develop ideas and analyses, and integrate them into our trading strategies and systems.&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;About You&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Graduating in winter of 2026 or spring/summer of 2027&lt;/li&gt;\n&lt;li&gt;Quantitatively-focused&lt;/li&gt;\n&lt;li&gt;Thrive in a highly collaborative and fast-paced environment&lt;/li&gt;\n&lt;li&gt;Quick learner&lt;/li&gt;\n&lt;li&gt;Intellectually curious&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Detail-oriented&lt;/li&gt;\n&lt;li&gt;Self-starter&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Annual Base Salary: $300,000.&amp;nbsp; Total compensation packages consist of base salary and a discretionary bonus.&lt;/p&gt;",
+      "updated_at": "2026-09-01T17:18:37-04:00",
+      "posted_pay_range": null,
+      "tier": "Tier A: Too Hard",
+      "suitability_score": 95,
+      "verdict": "HIGH PRIORITY (Direct Target)",
+      "recommendation": "Immediate Apply (Tailor quantitative resume)",
+      "matched_signals": [
+        "Title match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +45",
+        "Keyword match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +22",
+        "Firm Quality Boost: +20",
+        "Junior / Campus Quant Target: +8"
+      ],
+      "penalties": [],
+      "estimated_comp": "$400,000 - $700,000+",
+      "comp_benchmark_delta": "Premier Top-of-Market Offer",
+      "priority_tier": "Tier A: Too Hard",
+      "priority_tag": "Pinnacle Target",
+      "industry_sector": "Proprietary Trading & Market Making",
+      "official_careers_url": "https://fiverings.com/careers/",
+      "key": "Five Rings LLC::gh_fiveringsllc_5255334008",
+      "status": "NEW",
+      "first_seen": "2026-09-30T01:47:52.561350",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_fiveringsllc_5344213008",
+      "firm_name": "Five Rings LLC",
+      "title": "Campus Full Time 2027 - Quantitative Trader - Amsterdam",
+      "location": "Amsterdam",
+      "department": "Quantitative Trading",
+      "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5344213008",
+      "source_ats": "Greenhouse",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p id=&quot;isPasted&quot;&gt;&lt;span style=&quot;font-family: verdana, geneva, sans-serif;&quot;&gt;&lt;strong&gt;About Five Rings&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p id=&quot;isPasted&quot;&gt;&lt;span style=&quot;font-family: verdana, geneva, sans-serif;&quot;&gt;Five Rings is a proprietary trading firm founded with a vision of combining strategy, innovation and technology to succeed in today’s global markets. With offices in New York, Boca Raton, London and Amsterdam, Five Rings trades in various domestic and international markets, both established and esoteric. Our team constantly seeks new opportunities, analyzes their risks and rewards, and creates strategies and tools to capitalize on them.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-family: verdana, geneva, sans-serif;&quot;&gt;We have an open culture and encourage the flow of knowledge and ideas between all areas of the firm.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;About the Role&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Traders manage their unique strategies in rapidly evolving live markets. They tune model parameters to reflect prevailing conditions, execute trades based on model recommendations, evaluate the real-time feedback provided by market participants’ reactions, and reincorporate this information into their models in a continuous feedback loop.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Five Rings gives people as much responsibility as quickly as it can be earned. From day one, as a new Quant Trader (QT), you will gain unrivaled experience both on the desk and in the classroom.&amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;New hires work closely with senior traders – analyzing risks and rewards, exploring new strategies, collaborating with quants and software developers to build and optimize trading models.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Quant Traders work independently and with others to develop ideas and analyses, and integrate them into our trading strategies and systems.&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;About You&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Graduating in winter of 2026 or spring/summer of 2027&lt;/li&gt;\n&lt;li&gt;Quantitatively-focused&lt;/li&gt;\n&lt;li&gt;Thrive in a highly collaborative and fast-paced environment&lt;/li&gt;\n&lt;li&gt;Quick learner&lt;/li&gt;\n&lt;li&gt;Intellectually curious&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Detail-oriented&lt;/li&gt;\n&lt;li&gt;Self-starter&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+      "updated_at": "2026-09-01T17:18:37-04:00",
+      "posted_pay_range": null,
+      "tier": "Tier A: Too Hard",
+      "suitability_score": 95,
+      "verdict": "HIGH PRIORITY (Direct Target)",
+      "recommendation": "Immediate Apply (Tailor quantitative resume)",
+      "matched_signals": [
+        "Title match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +45",
+        "Keyword match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +22",
+        "Firm Quality Boost: +20",
+        "Junior / Campus Quant Target: +8"
+      ],
+      "penalties": [],
+      "estimated_comp": "$400,000 - $700,000+",
+      "comp_benchmark_delta": "Premier Top-of-Market Offer",
+      "priority_tier": "Tier A: Too Hard",
+      "priority_tag": "Pinnacle Target",
+      "industry_sector": "Proprietary Trading & Market Making",
+      "official_careers_url": "https://fiverings.com/careers/",
+      "key": "Five Rings LLC::gh_fiveringsllc_5344213008",
+      "status": "NEW",
+      "first_seen": "2026-09-30T01:47:52.561350",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_fiveringsllc_5255367008",
+      "firm_name": "Five Rings LLC",
+      "title": "Campus Full Time 2027 - Quantitative Trader - London",
+      "location": "London",
+      "department": "Quantitative Trading",
+      "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5255367008",
+      "source_ats": "Greenhouse",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p id=&quot;isPasted&quot;&gt;&lt;span style=&quot;font-family: verdana, geneva, sans-serif;&quot;&gt;&lt;strong&gt;About Five Rings&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p id=&quot;isPasted&quot;&gt;&lt;span style=&quot;font-family: verdana, geneva, sans-serif;&quot;&gt;Five Rings is a proprietary trading firm founded with a vision of combining strategy, innovation and technology to succeed in today’s global markets. With offices in New York, Boca Raton, London and Amsterdam, Five Rings trades in various domestic and international markets, both established and esoteric. Our team constantly seeks new opportunities, analyzes their risks and rewards, and creates strategies and tools to capitalize on them.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-family: verdana, geneva, sans-serif;&quot;&gt;We have an open culture and encourage the flow of knowledge and ideas between all areas of the firm.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;About the Role&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Traders manage their unique strategies in rapidly evolving live markets. They tune model parameters to reflect prevailing conditions, execute trades based on model recommendations, evaluate the real-time feedback provided by market participants’ reactions, and reincorporate this information into their models in a continuous feedback loop.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Five Rings gives people as much responsibility as quickly as it can be earned. From day one, as a new Quant Trader (QT), you will gain unrivaled experience both on the desk and in the classroom.&amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;New hires work closely with senior traders – analyzing risks and rewards, exploring new strategies, collaborating with quants and software developers to build and optimize trading models.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Quant Traders work independently and with others to develop ideas and analyses, and integrate them into our trading strategies and systems.&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;About You&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Graduating in winter of 2026 or spring/summer of 2027&lt;/li&gt;\n&lt;li&gt;Quantitatively-focused&lt;/li&gt;\n&lt;li&gt;Thrive in a highly collaborative and fast-paced environment&lt;/li&gt;\n&lt;li&gt;Quick learner&lt;/li&gt;\n&lt;li&gt;Intellectually curious&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Detail-oriented&lt;/li&gt;\n&lt;li&gt;Self-starter&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+      "updated_at": "2026-09-01T17:18:37-04:00",
+      "posted_pay_range": null,
+      "tier": "Tier A: Too Hard",
+      "suitability_score": 95,
+      "verdict": "HIGH PRIORITY (Direct Target)",
+      "recommendation": "Immediate Apply (Tailor quantitative resume)",
+      "matched_signals": [
+        "Title match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +45",
+        "Keyword match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +22",
+        "Firm Quality Boost: +20",
+        "Junior / Campus Quant Target: +8"
+      ],
+      "penalties": [],
+      "estimated_comp": "$400,000 - $700,000+",
+      "comp_benchmark_delta": "Premier Top-of-Market Offer",
+      "priority_tier": "Tier A: Too Hard",
+      "priority_tag": "Pinnacle Target",
+      "industry_sector": "Proprietary Trading & Market Making",
+      "official_careers_url": "https://fiverings.com/careers/",
+      "key": "Five Rings LLC::gh_fiveringsllc_5255367008",
+      "status": "NEW",
+      "first_seen": "2026-09-30T01:47:52.561350",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
       "url_status": 200
     },
     {
@@ -5402,7 +6397,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Waymo::gh_waymo_7488508",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 202
     },
@@ -5416,7 +6411,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;strong&gt;ABOUT CUBIST&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Cubist Systematic Strategies, an affiliate of Point72, deploys systematic, computer-driven trading strategies across multiple liquid asset classes, including equities, futures and foreign exchange. The core of our effort is rigorous research into a wide range of market anomalies, fueled by our unparalleled access to a wide range of publicly available data sources.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;ROLE&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;The candidate will be responsible for some or all of parts of the research pipeline—including data processing, feature design, model training, portfolio construction and management, back-testing, and performance analysis. Successful researchers combine statistical analysis, machine learning techniques, intense passion, and curiosity to decipher the market, and aspire to gain great intellectual understanding and financial outperformance.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;RESPONSIBILITIES&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Finding alphas in global equity markets by applying rigorous statistical analysis on technical data or alternative data sets. Performing hypotheses testing, feature design, and backtesting to improve on alpha ideas.&lt;/li&gt;\n&lt;li&gt;Maintaining and improving the research pipeline, including alpha generation, portfolio construction, back-testing, and monetization.&lt;/li&gt;\n&lt;li&gt;Maintaining and improving portfolio trading in production environments.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;REQUIREMENTS&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Bachelors degree or higher in mathematics, statistics, computer science, or other quantitative discipline.&lt;/li&gt;\n&lt;li&gt;2+ years of experience in quantitative research. Experience in medium frequency equity research is a plus.&lt;/li&gt;\n&lt;li&gt;Strong analytical and quantitative skills; solid knowledge in statistics, linear algebra, or machine learning.&lt;/li&gt;\n&lt;li&gt;Proficiency in Python. Familiarity with scientific toolkits, such as Numpy and Pandas.&lt;/li&gt;\n&lt;li&gt;Ability to work both independently and collaboratively within a team.&lt;/li&gt;\n&lt;li&gt;Commitment to the highest ethical standards.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
-      "updated_at": "2026-09-30T05:40:36.469888",
+      "updated_at": "2026-09-30T01:47:50.152236",
       "suitability_score": 93,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -5434,7 +6429,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_7666631002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -5451,7 +6446,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;strong&gt;&lt;u&gt;About the Team:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;A well-established quantitative portfolio management team at Point72 is looking for an experienced quantitative professional to develop and trade systematic macro strategies, with a focus on market microstructure. The candidate will be given the resources and support to drive the build out and expansion of the quantitative macro business.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;Role/Responsibilities:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Perform rigorous and innovative research to develop systematic signals for global macro (futures, FX, etc.) markets, with a focus on market microstructure signals&lt;/li&gt;\n&lt;li&gt;Perform feature engineering with order book tick data at intraday to daily horizons&lt;/li&gt;\n&lt;li&gt;Perform feature combination using various modeling techniques ranging from linear to machine learning models&lt;/li&gt;\n&lt;li&gt;Participate in the research pipeline end-to-end, including signal idea generation, data processing, modeling, strategy backtesting, and production implementation&lt;/li&gt;\n&lt;li&gt;Help drive the growth of the investment process and research capabilities of the team&lt;/li&gt;\n&lt;li&gt;Work in a team of highly qualified and motivated individuals with access to a cutting-edge research and trading infrastructure and clean datasets&lt;/li&gt;\n&lt;li&gt;Assist in building, maintenance, and continual improvement of production and trading environments&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;Requirements: &lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;MS or PhD in physics, engineering, statistics, applied math, quantitative finance, or other quantitative fields with a strong foundation in statistics&lt;/li&gt;\n&lt;li&gt;4+ years of experience in quantitative research, building statistical models for intraday to daily trading, as part of a successful proprietary trading team with a track record&lt;/li&gt;\n&lt;li&gt;Knowledge of market microstructure for futures and/or FX&lt;/li&gt;\n&lt;li&gt;Prior experience with tick data based feature generation, modelling, and monetization&lt;/li&gt;\n&lt;li&gt;Demonstrated proficiency in Python, R, or C/C++. Familiarly with data science toolkits, such as scikit-learn, Pandas&lt;/li&gt;\n&lt;li&gt;Collaborative mindset with strong independent research abilities&lt;/li&gt;\n&lt;li&gt;Commitment to the highest ethical standards&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
-      "updated_at": "2026-09-30T05:40:36.470096",
+      "updated_at": "2026-09-30T01:47:50.152327",
       "suitability_score": 93,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -5469,7 +6464,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_8384470002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -5486,7 +6481,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;/p&gt;\n&lt;h3&gt;Role&lt;/h3&gt;\n&lt;p&gt;Quantitative Researcher for a new team focused on systematic corporate bond and credit derivatives strategies.&lt;/p&gt;\n&lt;h3&gt;Responsibilities&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Independently conduct quantitative research, adopting a rigorous approach and using statistical and structural models&lt;/li&gt;\n&lt;li&gt;Contribute to all aspects of the research and production process, including implementation of fitting tools; data organization; generation of alphas, risk and TC models; P&amp;amp;L attribution, etc.&lt;/li&gt;\n&lt;li&gt;Proactively search for and prioritize new ideas and datasets for alpha potential&lt;/li&gt;\n&lt;li&gt;Contribute to continuous improvement of the investment process and infrastructure in collaboration with the portfolio managers, developers and traders on the team&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;Requirements&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;PhD or Master’s degree in Economics, Finance, Statistics, Mathematics, Physics, or other quantitative discipline&lt;/li&gt;\n&lt;li&gt;2+ years of experience developing statistical and fundamental alpha signals, risk factors for single name credit, equities, or options. Demonstrated ability to conduct research utilizing large data sets&lt;/li&gt;\n&lt;li&gt;Experience with FICC, credit or option pricing models is preferred&lt;/li&gt;\n&lt;li&gt;Experience with numerical optimization methods is a plus&lt;/li&gt;\n&lt;li&gt;Solid programming skills: understanding of the object-oriented programming and CI/CD framework. Proficiency in Python, including with packages used for data research, best practices of coding style, etc. ­&lt;/li&gt;\n&lt;li&gt;Strong communication skills&lt;/li&gt;\n&lt;li&gt;Willingness to take ownership of his/her work, working both independently and within a team&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;The annual base salary range for this role is $150,000-$200,000 (USD) , which does not include discretionary bonus compensation or our comprehensive benefits package. Actual compensation offered to the successful candidate may vary from posted hiring range based upon geographic location, work experience, education, and/or skill level, among other things.&lt;/p&gt;\n&lt;p&gt;&lt;br&gt;&lt;/p&gt;",
-      "updated_at": "2026-09-30T05:40:36.470255",
+      "updated_at": "2026-09-30T01:47:50.152409",
       "suitability_score": 93,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -5504,7 +6499,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_7297625002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -5539,7 +6534,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_7666631002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -5574,7 +6569,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_8384470002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -5609,7 +6604,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_7297625002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": "$150,000 - $200,000 / yr",
@@ -5647,7 +6642,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::gh_janestreet_8573726002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -5682,7 +6677,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::gh_janestreet_4808264002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -5717,7 +6712,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::gh_janestreet_7514485002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -5752,7 +6747,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::gh_janestreet_6302325002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -5787,7 +6782,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::gh_janestreet_8754684002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -5822,8 +6817,43 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::gh_janestreet_8600948002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_transmarketgroup_5151574007",
+      "firm_name": "TransMarket Group",
+      "title": "Junior Quantitative Trader",
+      "location": "Chicago, Illinois, United States",
+      "department": "Quantitative Trading",
+      "url": "https://job-boards.greenhouse.io/transmarketgroup/jobs/5151574007?gh_jid=5151574007",
+      "source_ats": "Greenhouse",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Who We Are&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Founded in 1980 as Aardvark Financial, TransMarket Group (TMG) is a privately held global markets proprietary trading firm in Chicago. We use next-generation technology to capture opportunities around the world and manage risk in financial markets. Our mission is to bless others through the services we provide and through the generous stewardship of the wealth we create.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;TMG is a well-established and profitable business as a respected member of the global financial system for over 40 years, but also is like a startup because the potential of our group is at least one order of magnitude greater than what we are currently producing. We have an entrepreneurial culture and collaboratively develop our business with patience and discipline; we work hard, learn constantly, and relentlessly improve our expertise.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Our Quantitative Traders are passionate about improving the global economy by facilitating risk transfer and restoring order to prices. At TransMarket Group, you will be called on to work with teammates to eliminate inefficiencies and manage risk in the world’s financial markets.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;As a Junior Trader, you will gain early exposure to real time trading in order to develop situational awareness and a deep understanding of the market. In collaboration with Senior Traders and development through our formalized education program, you will have the scope to utilize risk management and strategic thinking skills to guide trades and explore new trading opportunities. The ideal candidate is intellectually curious, strives for continual improvement, has a disciplined appetite for risk, and is dedicated to mastering their market.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Partner with Senior Traders to assist in and learn all facets of trading&lt;/li&gt;\n&lt;li&gt;Develop expertise in relative value market fundamentals, quantitative modeling, and risk management&lt;/li&gt;\n&lt;li&gt;Build and maintain quantitative model tools and analytics&lt;/li&gt;\n&lt;li&gt;Manage real-time execution of semi-automated trading system&lt;/li&gt;\n&lt;li&gt;Learn and analyze real-time trades&lt;/li&gt;\n&lt;li&gt;Research and improve upon trading strategies&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Requirements&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Bachelor’s, Master’s, or Doctorate degree in a technical or industry related field such as, but not limited to, mathematics, statistics or mathematical finance with a graduation date between December 2026 and Spring 2027&lt;/li&gt;\n&lt;li&gt;Required coursework: Differential Equations, Linear Algebra, Multivariable Calculus, Probability or Advanced Statistics&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Minimum major GPA of 3.5/4 or equivalent scale&lt;/li&gt;\n&lt;li&gt;Proficiency in Python required and some experience with C++ and other computer programming languages preferred&lt;/li&gt;\n&lt;li&gt;Demonstrated passion for markets, finance, and trading such as, but not limited to personal trading, participation in trading competitions, attendance at firm discover days, industry related student groups or clubs and/or prior internship experience preferred&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Deep understanding of finance, math, and statistics&lt;/li&gt;\n&lt;li&gt;Attention to detail and the ability to make sound judgments under pressure&lt;/li&gt;\n&lt;li&gt;Strong work ethic and willingness to do what it takes to get the job done&lt;/li&gt;\n&lt;li&gt;Ability to work in a fast paced and collaborative environment&lt;/li&gt;\n&lt;li&gt;This position requires physical presence and is onsite at our office in Chicago, IL&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;a href=&quot;https://www.transmarketgroup.com/quantitative-trading-interview-prep&quot;&gt;View our resources to help prepare for the interview process.&lt;/a&gt;&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;Benefits&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We offer one of the most generous profit sharing programs in the industry because we believe our employees should be able to take part in our rapid growth and success. We are proud to offer more world-class &lt;/span&gt;&lt;a href=&quot;https://www.transmarketgroup.com/benefits&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;benefits&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; for our full-time employees and their families.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;em&gt;TransMarket Group is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, gender, sexual orientation, gender identity or expression, religion, national origin, marital status, age, disability, veteran status, genetic information, or any other protected status.&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;",
+      "updated_at": "2026-06-03T11:15:53-04:00",
+      "tier": "Tier B: Main Focus",
+      "suitability_score": 90,
+      "verdict": "HIGH PRIORITY (Direct Target)",
+      "recommendation": "Immediate Apply (Tailor quantitative resume)",
+      "matched_signals": [
+        "Title match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +45",
+        "Keyword match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +22",
+        "Firm Quality Boost: +15",
+        "Junior / Campus Quant Target: +8"
+      ],
+      "penalties": [],
+      "estimated_comp": "$250,000 - $400,000+",
+      "comp_benchmark_delta": "Significantly Above Benchmark",
+      "priority_tier": "Tier B: Main Focus",
+      "priority_tag": "High Conviction",
+      "key": "TransMarket Group::gh_transmarketgroup_5151574007",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-25T15:49:59.455531",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "industry_sector": "Proprietary Trading & Market Making",
+      "posted_pay_range": null,
+      "official_careers_url": "https://www.transmarketgroup.com/careers",
       "url_status": 200
     },
     {
@@ -5854,7 +6884,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Flow Traders::gh_flowtraders_8173418",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -5889,46 +6919,11 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Flow Traders::gh_flowtraders_8094581",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
       "official_careers_url": "https://www.flowtraders.com/careers",
-      "url_status": 200
-    },
-    {
-      "job_id": "gh_transmarketgroup_5151574007",
-      "firm_name": "TransMarket Group",
-      "title": "Junior Quantitative Trader",
-      "location": "Chicago, Illinois, United States",
-      "department": "Quantitative Trading",
-      "url": "https://job-boards.greenhouse.io/transmarketgroup/jobs/5151574007?gh_jid=5151574007",
-      "source_ats": "Greenhouse",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Who We Are&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Founded in 1980 as Aardvark Financial, TransMarket Group (TMG) is a privately held global markets proprietary trading firm in Chicago. We use next-generation technology to capture opportunities around the world and manage risk in financial markets. Our mission is to bless others through the services we provide and through the generous stewardship of the wealth we create.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;TMG is a well-established and profitable business as a respected member of the global financial system for over 40 years, but also is like a startup because the potential of our group is at least one order of magnitude greater than what we are currently producing. We have an entrepreneurial culture and collaboratively develop our business with patience and discipline; we work hard, learn constantly, and relentlessly improve our expertise.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Our Quantitative Traders are passionate about improving the global economy by facilitating risk transfer and restoring order to prices. At TransMarket Group, you will be called on to work with teammates to eliminate inefficiencies and manage risk in the world’s financial markets.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;As a Junior Trader, you will gain early exposure to real time trading in order to develop situational awareness and a deep understanding of the market. In collaboration with Senior Traders and development through our formalized education program, you will have the scope to utilize risk management and strategic thinking skills to guide trades and explore new trading opportunities. The ideal candidate is intellectually curious, strives for continual improvement, has a disciplined appetite for risk, and is dedicated to mastering their market.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Partner with Senior Traders to assist in and learn all facets of trading&lt;/li&gt;\n&lt;li&gt;Develop expertise in relative value market fundamentals, quantitative modeling, and risk management&lt;/li&gt;\n&lt;li&gt;Build and maintain quantitative model tools and analytics&lt;/li&gt;\n&lt;li&gt;Manage real-time execution of semi-automated trading system&lt;/li&gt;\n&lt;li&gt;Learn and analyze real-time trades&lt;/li&gt;\n&lt;li&gt;Research and improve upon trading strategies&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Requirements&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Bachelor’s, Master’s, or Doctorate degree in a technical or industry related field such as, but not limited to, mathematics, statistics or mathematical finance with a graduation date between December 2026 and Spring 2027&lt;/li&gt;\n&lt;li&gt;Required coursework: Differential Equations, Linear Algebra, Multivariable Calculus, Probability or Advanced Statistics&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Minimum major GPA of 3.5/4 or equivalent scale&lt;/li&gt;\n&lt;li&gt;Proficiency in Python required and some experience with C++ and other computer programming languages preferred&lt;/li&gt;\n&lt;li&gt;Demonstrated passion for markets, finance, and trading such as, but not limited to personal trading, participation in trading competitions, attendance at firm discover days, industry related student groups or clubs and/or prior internship experience preferred&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Deep understanding of finance, math, and statistics&lt;/li&gt;\n&lt;li&gt;Attention to detail and the ability to make sound judgments under pressure&lt;/li&gt;\n&lt;li&gt;Strong work ethic and willingness to do what it takes to get the job done&lt;/li&gt;\n&lt;li&gt;Ability to work in a fast paced and collaborative environment&lt;/li&gt;\n&lt;li&gt;This position requires physical presence and is onsite at our office in Chicago, IL&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;a href=&quot;https://www.transmarketgroup.com/quantitative-trading-interview-prep&quot;&gt;View our resources to help prepare for the interview process.&lt;/a&gt;&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;Benefits&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We offer one of the most generous profit sharing programs in the industry because we believe our employees should be able to take part in our rapid growth and success. We are proud to offer more world-class &lt;/span&gt;&lt;a href=&quot;https://www.transmarketgroup.com/benefits&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;benefits&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; for our full-time employees and their families.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;em&gt;TransMarket Group is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, gender, sexual orientation, gender identity or expression, religion, national origin, marital status, age, disability, veteran status, genetic information, or any other protected status.&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;",
-      "updated_at": "2026-06-03T11:15:53-04:00",
-      "tier": "Tier B: Main Focus",
-      "suitability_score": 90,
-      "verdict": "HIGH PRIORITY (Direct Target)",
-      "recommendation": "Immediate Apply (Tailor quantitative resume)",
-      "matched_signals": [
-        "Title match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +45",
-        "Keyword match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +22",
-        "Firm Quality Boost: +15",
-        "Junior / Campus Quant Target: +8"
-      ],
-      "penalties": [],
-      "estimated_comp": "$250,000 - $400,000+",
-      "comp_benchmark_delta": "Significantly Above Benchmark",
-      "priority_tier": "Tier B: Main Focus",
-      "priority_tag": "High Conviction",
-      "key": "TransMarket Group::gh_transmarketgroup_5151574007",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "industry_sector": "Proprietary Trading & Market Making",
-      "posted_pay_range": null,
-      "official_careers_url": "https://www.transmarketgroup.com/careers",
       "url_status": 200
     },
     {
@@ -5962,7 +6957,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "DV Trading::gh_dvtrading_4736954005",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -5997,7 +6992,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "DV Trading::gh_dvtrading_4691298005",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -6032,7 +7027,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "DV Trading::gh_dvtrading_4719106005",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -6067,7 +7062,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "DV Trading::gh_dvtrading_4725689005",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -6099,7 +7094,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Akuna Capital::gh_akunacapital_8036541",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -6137,7 +7132,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Squarepoint Capital::gh_squarepointcapital_239376",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -6172,7 +7167,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Belvedere Trading::lever_belvederetrading_34369a5c-55c0-4e9f-9d2e-4f21b9418bee",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -6186,7 +7181,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;A Career with Point72’s Technology Team&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;As Point72 reimagines the future of investing, our Technology team is constantly evolving our firm’s IT infrastructure and engineering capabilities, positioning us at the forefront of a rapidly evolving technology landscape. We’re a team of experts who experiment and work to discover new ways to harness open-source solutions, modern cloud architectures, and sophisticated Artificial Intelligence (AI) solutions, while embracing enterprise agile methodologies. Our commitment to building and innovating in the AI space provides the framework intended to drive smarter decision making and enhance how we build and operate our platforms and applications.&lt;/p&gt;\n&lt;p&gt;As a member of Point72’s Technology team, we encourage and support your professional development from day one—helping you advance your technical skills, contribute innovative ideas, and satisfy your own intellectual curiosity—all while delivering real business impact for our multi-billion-dollar global business.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What you’ll do&lt;/strong&gt;&lt;br&gt;Develop and maintain scalable artificial intelligence/machine learning (AI/ML) architectures and systems.&lt;br&gt;Collaborate with data scientists, engineers, product teams, and Compliance to integrate AI/ML solutions into existing and new products.&lt;br&gt;Evaluate tools, technologies, and processes to ensure the highest quality and performance of AI/ML systems.&lt;br&gt;Stay abreast of the latest advancements in AI/ML technologies and methodologies.&lt;br&gt;Ensure compliance with industry standards and best practices in AI/ML.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What’s required&lt;/strong&gt;&lt;br&gt;Bachelor&#39;s or master&#39;s degree in computer science, engineering, or a related field.&lt;br&gt;3-7 years of experience in AI/ML engineering, with a proven track record of successful project delivery.&lt;br&gt;Strong expertise in machine learning frameworks and libraries, such as TensorFlow, PyTorch, and/or Scikit-learn.&lt;br&gt;Proficiency in programming languages such as Python, Java, or C++.&lt;br&gt;Excellent problem-solving skills with the ability to work independently and collaboratively.&lt;br&gt;Strong communication skills, with the ability to convey complex technical concepts to non-technical stakeholders.&lt;br&gt;Commitment to the highest ethical standards.&lt;/p&gt;\n&lt;p&gt;&lt;/p&gt;\n&lt;h3&gt;WE TAKE CARE OF OUR PEOPLE:&lt;/h3&gt;\n&lt;p&gt;We invest in our people, their careers, their health, and their well-being. When you work here, we provide:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Fully-paid health care benefits&lt;/li&gt;\n&lt;li&gt;Generous parental and family leave policies&lt;/li&gt;\n&lt;li&gt;Volunteer opportunities&lt;/li&gt;\n&lt;li&gt;Support for employee-led affinity groups representing women, people of color and the LGBT+ community&lt;/li&gt;\n&lt;li&gt;Mental and physical wellness programs&lt;/li&gt;\n&lt;li&gt;Tuition assistance&lt;/li&gt;\n&lt;li&gt;A 401(k) savings program with an employer match and more&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;h3&gt;ABOUT POINT72:&lt;/h3&gt;\n&lt;p&gt;Point72 is a leading global alternative investment firm led by Steven A. Cohen. Building on more than 30 years of investing experience, Point72 seeks to deliver superior returns for its investors through fundamental and systematic investing strategies across asset classes and geographies. We aim to attract and retain the industry’s brightest talent by cultivating an investor-led culture and committing to our people’s long-term growth. For more information, visit&amp;nbsp;&lt;a href=&quot;https://point72.com/&quot; target=&quot;_blank&quot;&gt;https://point72.com/&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;The annual base salary range for this role is $180,000-$300,000 (USD) , which does not include discretionary bonus compensation or our comprehensive benefits package. Actual compensation offered to the successful candidate may vary from posted hiring range based upon geographic location, work experience, education, and/or skill level, among other things.&lt;/p&gt;\n&lt;p&gt;&lt;/p&gt;\n&lt;p&gt;&lt;/p&gt;",
-      "updated_at": "2026-09-30T05:40:36.470049",
+      "updated_at": "2026-09-30T01:47:50.152305",
       "suitability_score": 90,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -6205,7 +7200,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_8651402002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -6244,7 +7239,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::gh_janestreet_8648474002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -6280,7 +7275,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::gh_janestreet_8611307002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -6316,7 +7311,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::gh_janestreet_4276720002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -6352,7 +7347,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::gh_janestreet_8576928002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -6388,7 +7383,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::gh_janestreet_8594416002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -6424,7 +7419,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::gh_janestreet_8576934002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -6460,7 +7455,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::gh_janestreet_8576931002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -6496,7 +7491,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::gh_janestreet_8384490002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -6532,7 +7527,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::gh_janestreet_7246309002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -6568,7 +7563,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::gh_janestreet_7246339002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -6601,7 +7596,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_8651402002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": "$180,000 - $300,000 / yr",
@@ -6641,7 +7636,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "OpenAI::ashby_openai_80f9f564-d789-47bc-91c3-3babf5a1a33d",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -6678,7 +7673,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "OpenAI::ashby_openai_5acf4854-1d42-40ca-bff8-4f6f04cdce68",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -6715,7 +7710,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "OpenAI::ashby_openai_1b268692-70d8-46c2-a347-2f7705b5c174",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -6752,7 +7747,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "OpenAI::ashby_openai_9d4d2727-27f3-4a63-857c-a96466130645",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -6784,7 +7779,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Old Mission Capital::gh_oldmissioncapital_4455441003",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -6819,7 +7814,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Akuna Capital::gh_akunacapital_6527972",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -6857,7 +7852,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Squarepoint Capital::gh_squarepointcapital_8209423",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -6889,7 +7884,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Schonfeld Strategic Advisors::gh_schonfeld_7624691",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -6906,7 +7901,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;About Cubist:&amp;nbsp;&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;Cubist Systematic Strategies, an affiliate of Point72, deploys systematic, computer-driven trading strategies across multiple liquid asset classes, including equities, futures and foreign exchange. The core of our effort is rigorous research into a wide range of market anomalies, fueled by our unparalleled access to a wide range of publicly available data sources.&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;About the team:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;The team is focused on systematic equity trading. &amp;nbsp;It is established, yet still pre-trade, offering an exciting opportunity to join at an early stage and be involved in a broad range of development areas. &amp;nbsp;The team members come from a mixture of quant analyst and development backgrounds, using the combination of skills to achieve a common goal. &amp;nbsp;All team members are based in the London office five days a week to maximize communication and interaction.&lt;/p&gt;\n&lt;p&gt;&lt;br&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;Role and Responsibilities:&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;An ideal growth role to suit a developer looking for additional responsibilities and independence. &amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Responsibilities may include:&amp;nbsp;&lt;br&gt;• &amp;nbsp; &amp;nbsp;Building components for all aspects of live trading and research environments.&lt;br&gt;• &amp;nbsp; &amp;nbsp;Driving automation and robustness of our processes.&lt;br&gt;• &amp;nbsp; &amp;nbsp;Developing robust data checking and handling procedures.&lt;br&gt;• &amp;nbsp; &amp;nbsp;Monitoring and troubleshooting any issues that should arise.&lt;br&gt;• &amp;nbsp; &amp;nbsp;Shared responsibility for timely and correct operation of trading systems.&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;Requirements:&amp;nbsp;&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;• &amp;nbsp; &amp;nbsp;Bachelor’s degree or equivalent in computer science or other STEM discipline&lt;br&gt;• &amp;nbsp; &amp;nbsp;2+ years commercial experience with Python and its data science libraries on Linux.&lt;br&gt;• &amp;nbsp; &amp;nbsp;Pragmatic balance between attention to detail and delivery focus.&lt;br&gt;• &amp;nbsp; &amp;nbsp;Ability to work with ambiguous requirements.&lt;br&gt;• &amp;nbsp; &amp;nbsp;Self-driven, owning problems while knowing when to seek advice.&lt;br&gt;• &amp;nbsp; &amp;nbsp;Knowledge of finance and trading systems a plus.&lt;br&gt;• &amp;nbsp; &amp;nbsp;Experience with a systems programming language (e.g. C++, Rust) a plus.&amp;nbsp;&lt;br&gt;• &amp;nbsp; &amp;nbsp;Commercial use of cloud compute and containers a plus.&amp;nbsp;&lt;br&gt;• &amp;nbsp; &amp;nbsp;Strong analytical skills and command of statistics a plus.&amp;nbsp;&lt;br&gt;• &amp;nbsp; &amp;nbsp;Be in the office five days a week.&amp;nbsp;&lt;br&gt;• &amp;nbsp; &amp;nbsp;Commitment to the highest ethical standards.&amp;nbsp;&lt;/p&gt;",
-      "updated_at": "2026-09-30T05:40:36.470212",
+      "updated_at": "2026-09-30T01:47:50.152392",
       "suitability_score": 88,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -6924,7 +7919,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_8191564002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -6959,7 +7954,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_8191564002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -6997,7 +7992,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "SESCO::gh_sesco_4280842009",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -7011,7 +8006,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;strong&gt;ABOUT CUBIST&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Cubist Systematic Strategies, an affiliate of Point72, deploys systematic, computer-driven trading strategies across multiple liquid asset classes, including equities, futures and foreign exchange. The core of our effort is rigorous research into a wide range of market anomalies, fueled by our unparalleled access to a wide range of publicly available data sources.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;ROLE&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Entry-Level Quantitative Researchers are responsible for conducting rigorous quantitative research with a focus on predictive models. You will be trained in all aspects of systematic trading from idea generation all the way to practical trading considerations. Successful hires will ultimately become thought leaders within our collaborative research group.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;RESPONSIBILITIES&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Conduct original quantitative alpha signal research&lt;/li&gt;\n&lt;li&gt;Follow, digest and analyze the latest academic research&lt;/li&gt;\n&lt;li&gt;Manage all aspects of the research process, including idea generation, data analysis, hypothesis development and testing, alpha discovery, trading strategy generation, backtesting and portfolio analysis&lt;/li&gt;\n&lt;li&gt;Build analytical tools to supplement our shared research framework&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;REQUIRMENTS&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;B.S., M.S. or PhD in finance, economics, mathematics, statistics, data science, computer science, or other quantitative discipline.&lt;/li&gt;\n&lt;li&gt;Programming in Python (or comparable language) and working knowledge of SQL&lt;/li&gt;\n&lt;li&gt;Strong analytical and quantitative skills.&lt;/li&gt;\n&lt;li&gt;Willingness to take ownership of his/her work.&lt;/li&gt;\n&lt;li&gt;Ability to work both independently and collaboratively within a team.&lt;/li&gt;\n&lt;li&gt;Strong desire to deliver high quality results in a timely fashion.&lt;/li&gt;\n&lt;li&gt;Detail-oriented.&lt;/li&gt;\n&lt;li&gt;Prior experience in the financial services industry is not required.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;A commitment to the highest ethical standards.&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
-      "updated_at": "2026-09-30T05:40:36.469875",
+      "updated_at": "2026-09-30T01:47:50.152230",
       "suitability_score": 87,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -7028,7 +8023,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_7045936002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -7045,7 +8040,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;ABOUT CUBIST&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Cubist Systematic Strategies, an affiliate of Point72, deploys systematic, computer-driven trading strategies across multiple liquid asset classes, including equities, futures and foreign exchange. The core of our effort is rigorous research into a wide range of market anomalies, fueled by our unparalleled access to a wide range of publicly available data sources.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;ROLE&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Entry-Level Quantitative Researchers are responsible for conducting rigorous quantitative research with a focus on predictive models. You will be trained in all aspects of systematic trading from idea generation all the way to practical trading considerations. Successful hires will ultimately become thought leaders within our collaborative research group.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;RESPONSIBILITIES&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Conduct original quantitative alpha signal research&lt;/li&gt;\n&lt;li&gt;Follow, digest and analyze the latest academic research&lt;/li&gt;\n&lt;li&gt;Manage all aspects of the research process, including idea generation, data analysis, hypothesis development and testing, alpha discovery, trading strategy generation, backtesting and portfolio analysis&lt;/li&gt;\n&lt;li&gt;Build analytical tools to supplement our shared research framework&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;REQUIRMENTS&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;B.S., M.S. or PhD in finance, economics, mathematics, statistics, data science, computer science, or other quantitative discipline.&lt;/li&gt;\n&lt;li&gt;Programming in Python (or comparable language) and working knowledge of SQL&lt;/li&gt;\n&lt;li&gt;Strong analytical and quantitative skills.&lt;/li&gt;\n&lt;li&gt;Willingness to take ownership of his/her work.&lt;/li&gt;\n&lt;li&gt;Ability to work both independently and collaboratively within a team.&lt;/li&gt;\n&lt;li&gt;Strong desire to deliver high quality results in a timely fashion.&lt;/li&gt;\n&lt;li&gt;Detail-oriented.&lt;/li&gt;\n&lt;li&gt;Prior experience in the financial services industry is not required.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;A commitment to the highest ethical standards.&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;/p&gt;",
-      "updated_at": "2026-09-30T05:40:36.469878",
+      "updated_at": "2026-09-30T01:47:50.152231",
       "suitability_score": 87,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -7062,7 +8057,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_7045980002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -7079,7 +8074,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;strong&gt;ABOUT CUBIST&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Cubist Systematic Strategies, an affiliate of Point72, deploys systematic, computer-driven trading strategies across multiple liquid asset classes, including equities, futures and foreign exchange. The core of our effort is rigorous research into a wide range of market anomalies, fueled by our unparalleled access to a wide range of publicly available data sources.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;JOB DESCRIPTION&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;/p&gt;\n&lt;p&gt;Researchers are responsible for independently conducting quantitative finance research with a focus on statistical and predictive models. Successful researchers manage all aspects of the research process including methodology selection, data collection and analysis, testing, prototyping, backtesting, and performance monitoring.&lt;/p&gt;\n&lt;p&gt;Some successful researchers have joined us from similar backgrounds at other firms. Others have joined from related fields or directly from academia and have thrived with hands on guidance from our large team of experienced portfolio managers and researchers. Our most exceptional team members combine strong technical skills and a passion for problem solving with an intense curiosity about financial markets and human behavior.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;DESIRABLE CANDIDATES&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;MS or PhD candidates in finance, computer science, mathematics, physics, or other quantitative discipline&lt;/li&gt;\n&lt;li&gt;3-7 years of experience in alpha driven quantitative research for equities, futures, fixed income, credit, and/or FX&lt;/li&gt;\n&lt;li&gt;Strong analytical and quantitative skills&lt;/li&gt;\n&lt;li&gt;Demonstrated ability to conduct independent research utilizing large data sets&lt;/li&gt;\n&lt;li&gt;Programming in any of the following: C++, Java, C#, MATLAB, R, Python, or Perl&lt;/li&gt;\n&lt;li&gt;Detail-oriented&lt;/li&gt;\n&lt;li&gt;Willing to take ownership of his/her work, working both independently and within a small team&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;We’re looking for exceptional colleagues with unparalleled passion. If you’d like your resume to stand out, tell us about your exceptional personal achievements, even if they have nothing to do with finance. Of course we love to hear more about specific engineering or data projects that you’ve worked outside of school, or as part of your curriculum. If you’re proud of the work you did we want to hear about it. In addition to exceptional statisticians and engineers, we work with talented musicians, writers, mathematicians, and founders of non-profits; we’d love to learn more about what excites you.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
-      "updated_at": "2026-09-30T05:40:36.469882",
+      "updated_at": "2026-09-30T01:47:50.152232",
       "suitability_score": 87,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -7096,7 +8091,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_7318012002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -7113,7 +8108,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;strong&gt;ABOUT CUBIST&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Cubist Systematic Strategies, an affiliate of Point72, deploys systematic, computer-driven trading strategies across multiple liquid asset classes, including equities, futures and foreign exchange. The core of our effort is rigorous research into a wide range of market anomalies, fueled by our unparalleled access to a wide range of publicly available data sources.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;JOB DESCRIPTION&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Researchers are responsible for independently conducting quantitative finance research with a focus on statistical and predictive models. Successful researchers manage all aspects of the research process including methodology selection, data collection and analysis, testing, prototyping, backtesting, and performance monitoring.&lt;/p&gt;\n&lt;p&gt;Some successful researchers have joined us from similar backgrounds at other firms. Others have joined from related fields or directly from academia and have thrived with hands on guidance from our large team of experienced portfolio managers and researchers. Our most exceptional team members combine strong technical skills and a passion for problem solving with an intense curiosity about financial markets and human behavior.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;DESIRABLE CANDIDATES&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;MS or PhD candidates in finance, computer science, mathematics, physics, or other quantitative discipline&lt;/li&gt;\n&lt;li&gt;3-7 years of experience in alpha driven quantitative research for equities, futures, fixed income, credit, and/or FX&lt;/li&gt;\n&lt;li&gt;Strong analytical and quantitative skills&lt;/li&gt;\n&lt;li&gt;Demonstrated ability to conduct independent research utilizing large data sets&lt;/li&gt;\n&lt;li&gt;Programming in any of the following: C++, Java, C#, MATLAB, R, Python, or Perl&lt;/li&gt;\n&lt;li&gt;Detail-oriented&lt;/li&gt;\n&lt;li&gt;Willing to take ownership of his/her work, working both independently and within a small team&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;We’re looking for exceptional colleagues with unparalleled passion. If you’d like your resume to stand out, tell us about your exceptional personal achievements, even if they have nothing to do with finance. Of course we love to hear more about specific engineering or data projects that you’ve worked outside of school, or as part of your curriculum. If you’re proud of the work you did we want to hear about it. In addition to exceptional statisticians and engineers, we work with talented musicians, writers, mathematicians, and founders of non-profits; we’d love to learn more about what excites you.&lt;/p&gt;",
-      "updated_at": "2026-09-30T05:40:36.469885",
+      "updated_at": "2026-09-30T01:47:50.152234",
       "suitability_score": 87,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -7130,7 +8125,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_7318005002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -7147,7 +8142,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;ABOUT CUBIST&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Cubist Systematic Strategies, an affiliate of Point72, deploys systematic, computer-driven trading strategies across multiple liquid asset classes, including equities, futures and foreign exchange. The core of our effort is rigorous research into a wide range of market anomalies, fueled by our unparalleled access to a wide range of publicly available data sources.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;ROLE&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Entry-Level Quantitative Researchers are responsible for conducting rigorous quantitative research with a focus on predictive models. You will be trained in all aspects of systematic trading from idea generation all the way to practical trading considerations. Successful hires will ultimately become thought leaders within our collaborative research group.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;RESPONSIBILITIES&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Conduct original quantitative alpha signal research&lt;/li&gt;\n&lt;li&gt;Follow, digest and analyze the latest academic research&lt;/li&gt;\n&lt;li&gt;Manage all aspects of the research process, including idea generation, data analysis, hypothesis development and testing, alpha discovery, trading strategy generation, backtesting and portfolio analysis&lt;/li&gt;\n&lt;li&gt;Build analytical tools to supplement our shared research framework&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;REQUIRMENTS&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;B.S., M.S. or PhD in finance, economics, mathematics, statistics, data science, computer science, or other quantitative discipline.&lt;/li&gt;\n&lt;li&gt;Programming in Python (or comparable language) and working knowledge of SQL&lt;/li&gt;\n&lt;li&gt;Strong analytical and quantitative skills.&lt;/li&gt;\n&lt;li&gt;Willingness to take ownership of his/her work.&lt;/li&gt;\n&lt;li&gt;Ability to work both independently and collaboratively within a team.&lt;/li&gt;\n&lt;li&gt;Strong desire to deliver high quality results in a timely fashion.&lt;/li&gt;\n&lt;li&gt;Detail-oriented.&lt;/li&gt;\n&lt;li&gt;Prior experience in the financial services industry is not required.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;A commitment to the highest ethical standards.&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
-      "updated_at": "2026-09-30T05:40:36.469891",
+      "updated_at": "2026-09-30T01:47:50.152238",
       "suitability_score": 87,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -7164,7 +8159,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_7045987002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -7181,7 +8176,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;u&gt;Role: &lt;/u&gt;&lt;/p&gt;\n&lt;p&gt;Point72 is looking for a Quantitative Researcher to join its Fund Flow Research team. The Fund Flow Group provides best in class flow and positioning indicators to help PMs, analysts, and traders across all investment functions understand their investment backdrop, better assess reward and risk, and identify alpha opportunities.&lt;/p&gt;\n&lt;p&gt;&lt;u&gt;Responsibilities&lt;/u&gt;:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Create systematic trading strategies for macro and equity markets using proprietary flow and positioning datasets&lt;/li&gt;\n&lt;li&gt;Conduct rigorous applied research to develop systematic signals for macro and equity markets, with a focus on investor flows and positioning&lt;/li&gt;\n&lt;li&gt;Contribute to all aspects of the research and production process, including idea generation, hypothesis testing, portfolio construction, risk and transaction cost models, and P&amp;amp;L attribution&lt;/li&gt;\n&lt;li&gt;Monitor, analyze and improve live trading P&amp;amp;L&lt;/li&gt;\n&lt;li&gt;Collaborate with analysts and strategists to improve PM-facing content&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;u&gt;Requirements:&lt;/u&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Undergraduate, Master’s or PhD candidates in a technical field&lt;/li&gt;\n&lt;li&gt;Demonstrated creativity and rigor in the research process&lt;/li&gt;\n&lt;li&gt;Technically comfortable handling large datasets stored in AWS using Python&lt;/li&gt;\n&lt;li&gt;Collaborative mindset&lt;/li&gt;\n&lt;li&gt;Passion for research and financial markets&lt;/li&gt;\n&lt;li&gt;Intellectual curiosity, exceptional attention to detail, and the ability to manage multiple projects and deadlines in a fast-paced environment&lt;/li&gt;\n&lt;li&gt;Commitment to the highest ethical standards&lt;/li&gt;\n&lt;/ul&gt;",
-      "updated_at": "2026-09-30T05:40:36.469971",
+      "updated_at": "2026-09-30T01:47:50.152272",
       "suitability_score": 87,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -7198,7 +8193,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_8389431002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -7215,7 +8210,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;strong&gt;&lt;u&gt;About the Team:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;A well-established quantitative portfolio management team at Point72 is looking for an experienced quantitative professional in the intraday to mid frequency systematic macro space. The candidate will be given the resources and support to drive the build out and expansion of the quantitative macro business.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;Role:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Perform rigorous and innovative research to develop systematic signals for global macro (futures, FX, etc.) markets&lt;/li&gt;\n&lt;li&gt;Work with price-volume and alternative data at intraday to multiday (up to 2-3 weeks) horizons in the mid-frequency space&lt;/li&gt;\n&lt;li&gt;Participate in the research pipeline end-to-end, including signal idea generation, data processing, modeling, strategy backtesting, and production implementation&lt;/li&gt;\n&lt;li&gt;Work in a team of highly qualified and motivated individuals with access to a cutting-edge research and trading infrastructure and clean datasets&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;Responsibilities:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Develop systematic trading models across global futures (equity indices, commodities and fixed income) and/or FX markets&lt;/li&gt;\n&lt;li&gt;Alpha idea generation, backtesting, and implementation&lt;/li&gt;\n&lt;li&gt;Evaluate new datasets for alpha potential&lt;/li&gt;\n&lt;li&gt;Contribute to and enhance portfolio optimization, allocation and risk management processes&lt;/li&gt;\n&lt;li&gt;Help drive the growth of the investment process and research capabilities of the team&lt;/li&gt;\n&lt;li&gt;Assist in building, maintenance, and continual improvement of production and trading environments&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;Requirements: &lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;MS or PhD in physics, engineering, statistics, applied math, quantitative finance, or other quantitative fields with a strong foundation in statistics&lt;/li&gt;\n&lt;li&gt;4+ years of signal research or portfolio management experience in futures markets and/or FX as part of a successful proprietary trading team with a track record&lt;/li&gt;\n&lt;li&gt;Prior professional experience with signal combination, portfolio optimization and risk management&lt;/li&gt;\n&lt;li&gt;Demonstrated proficiency in Python, R, or C/C++. Familiarly with data science toolkits, such as scikit-learn, Pandas&lt;/li&gt;\n&lt;li&gt;Collaborative mindset with strong independent research abilities&lt;/li&gt;\n&lt;li&gt;Commitment to the highest ethical standards&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
-      "updated_at": "2026-09-30T05:40:36.470074",
+      "updated_at": "2026-09-30T01:47:50.152317",
       "suitability_score": 87,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -7232,7 +8227,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_7302643002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -7249,7 +8244,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;strong&gt;Role&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We are looking for an experienced Macro Quant Researcher to join our team in Taipei.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Develop macro-focused systematic trading strategies in liquid secondary markets.&lt;/li&gt;\n&lt;li&gt;Conduct research to identify data-driven signals and market inefficiencies.&lt;/li&gt;\n&lt;li&gt;Collaborate with team members on research and development initiatives.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Requirements&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;B.S., M.S., or Ph.D. degree in economics, finance, computer science, physics, or other quantitative discipline.&lt;/li&gt;\n&lt;li&gt;2+ years of experience in quantitative research or systematic trading at a bank, hedge fund, or asset manager.&lt;/li&gt;\n&lt;li&gt;Experience with systematic trading strategies for any secondary market product (e.g., Taiwan index futures, BTC, etc.) using tools beyond Excel or MultiCharts.&lt;/li&gt;\n&lt;li&gt;Proficiency in Python or C++ and familiarity with database query languages (SQL or NoSQL).&lt;/li&gt;\n&lt;li&gt;Demonstrable ability to conduct independent research utilizing large datasets.&lt;/li&gt;\n&lt;li&gt;Detail-oriented, willingness to take ownership of his/her work, and ability to work both independently and within a small team.&lt;/li&gt;\n&lt;li&gt;Commitment to the highest ethical standards.&lt;/li&gt;\n&lt;/ul&gt;",
-      "updated_at": "2026-09-30T05:40:36.470077",
+      "updated_at": "2026-09-30T01:47:50.152318",
       "suitability_score": 87,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -7266,7 +8261,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_7864033002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -7283,7 +8278,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;strong&gt;&lt;u&gt;About Cubist&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Cubist Systematic Strategies, an affiliate of Point72, deploys systematic, computer-driven trading strategies across multiple liquid asset classes, including equities, futures and foreign exchange. The core of our effort is rigorous research into a wide range of market anomalies, fueled by our unparalleled access to a wide range of publicly available data sources.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;Role:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;A new Cubist portfolio management team specializing in the systematic trading of equities is looking for a Quant Researcher whose core focus will be working on mid-frequency alpha strategies. Joining the team will provide a unique opportunity to be involved with the early stages of a product launch and develop within a growing team.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;Responsibilities:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Perform rigorous and innovative research to discover systematic anomalies in the equities market&lt;/li&gt;\n&lt;li&gt;End-to-end development, including alpha idea generation, data processing, strategy backtesting, optimization, and production implementation&lt;/li&gt;\n&lt;li&gt;Identify and evaluate new datasets for stock return prediction&lt;/li&gt;\n&lt;li&gt;Maintain and improve portfolio trading in a production environment&lt;/li&gt;\n&lt;li&gt;Contribute to the analysis framework for scalable research&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;Requirements: &lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;MS or PhD in a quantitative discipline&lt;/li&gt;\n&lt;li&gt;0-2 years of professional work experience&lt;/li&gt;\n&lt;li&gt;A background in financial markets is not necessary, but an interest in the field is essential&lt;/li&gt;\n&lt;li&gt;Proven expertise in Python and handling large datasets&lt;/li&gt;\n&lt;li&gt;Fluency in data science practices, e.g., feature engineering. Experience with machine learning is a plus&lt;/li&gt;\n&lt;li&gt;Highly motivated, curious, and critical thinker&lt;/li&gt;\n&lt;li&gt;Collaborative mindset with strong independent research abilities&lt;/li&gt;\n&lt;li&gt;Commitment to the highest ethical standards&lt;/li&gt;\n&lt;/ul&gt;",
-      "updated_at": "2026-09-30T05:40:36.470235",
+      "updated_at": "2026-09-30T01:47:50.152400",
       "suitability_score": 87,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -7300,7 +8295,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_7752293002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -7317,7 +8312,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;h3&gt;About Cubist&lt;/h3&gt;\n&lt;p&gt;Cubist Systematic Strategies, an affiliate of Point72, deploys systematic, computer-driven trading strategies across multiple liquid asset classes, including equities, futures and foreign exchange. The core of our effort is rigorous research into a wide range of market anomalies, fueled by our unparalleled access to a wide range of publicly available data sources.&lt;/p&gt;\n&lt;h3&gt;Role&lt;/h3&gt;\n&lt;p&gt;Quantitative researcher to help build out a systematic macro (futures, FX, and vol) strategies. Core focus will be working on mid-frequency alpha strategies.&lt;/p&gt;\n&lt;h3&gt;Job Description&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Develop systematic trading models across FX, commodities, fixed income, and equity markets&lt;/li&gt;\n&lt;li&gt;Alpha idea generation, backtesting, and implementation&lt;/li&gt;\n&lt;li&gt;Assist in building, maintenance, and continual improvement of production and trading environments&lt;/li&gt;\n&lt;li&gt;Evaluate new datasets for alpha potential&lt;/li&gt;\n&lt;li&gt;Improve existing strategies and portfolio optimization&lt;/li&gt;\n&lt;li&gt;Execution monitoring&lt;/li&gt;\n&lt;li&gt;Be a core contributor to growing the investment process and research infrastructure of the team&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;Desirable Candidates&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Masters or PhD in mathematics, statistics, physics or other quantitative discipline. PhD in statistics or machine learning is a plus&lt;/li&gt;\n&lt;li&gt;Experience in quantitative trading, ideally in FX or futures&lt;/li&gt;\n&lt;li&gt;Experience with alpha research, portfolio construction and optimization&lt;/li&gt;\n&lt;li&gt;Experience building statistical/technical, fundamental, and data driven signals&lt;/li&gt;\n&lt;li&gt;Experience synthesizing predictive signals for both cross-sectional and time-series models&lt;/li&gt;\n&lt;li&gt;Strong experience with data exploration, dimension reduction, and feature engineering&lt;/li&gt;\n&lt;li&gt;Thorough understanding of and comfort using a variety of regression techniques—including OLS, MLS, Ridge, Lasso, and Bayesian inference—as well as techniques for dealing with errors that can occur, such as auto-correlation and heteroskedasticity&lt;/li&gt;\n&lt;li&gt;Experience managing and running risk is a strong plus&lt;/li&gt;\n&lt;li&gt;Proficiency in Python using the machine learning stack—numpy, pandas, scikit-learn, etc.&lt;/li&gt;\n&lt;li&gt;Creative mindset&lt;/li&gt;\n&lt;li&gt;Strong time management ability—the ability to manage multiple tasks and deadlines in a fast-paced environment&lt;/li&gt;\n&lt;li&gt;High degree of drive and energy—must be a self-starter&lt;/li&gt;\n&lt;li&gt;Ability to work cooperatively with all levels of staff and to thrive in a team-oriented environment&lt;/li&gt;\n&lt;li&gt;Commitment to the highest ethical standards and who act with professionalism and integrity at all times&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;br&gt;The annual base salary range for this role is $150,000-$200,000 (USD) , which does not include discretionary bonus compensation or our comprehensive benefits package. Actual compensation offered to the successful candidate may vary from posted hiring range based upon geographic location, work experience, education, and/or skill level, among other things.&lt;/p&gt;",
-      "updated_at": "2026-09-30T05:40:36.470252",
+      "updated_at": "2026-09-30T01:47:50.152408",
       "suitability_score": 87,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -7334,7 +8329,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_7297612002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -7351,7 +8346,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;h3&gt;Role/Responsibilities&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Research and develop in-house trading strategies, used by both discretionary and quantitative traders.&lt;/li&gt;\n&lt;li&gt;Conduct quantitative research on market microstructure, applying knowledge to improve trading algorithm and identify market anomalies.&lt;/li&gt;\n&lt;li&gt;Develop and maintain predictive models to optimize trade execution and minimize transaction costs, utilizing both linear and non-linear techniques.&lt;/li&gt;\n&lt;li&gt;Collaborate with cross-functional teams, including portfolio managers and researchers, to design and implement solutions for the trading strategies.&lt;/li&gt;\n&lt;li&gt;Stay current and report on changes in market microstructure.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;Requirements&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Master&#39;s degree or higher in a quantitative field such as Finance, Mathematics, Statistics, Computer Science, or a related discipline.&lt;/li&gt;\n&lt;li&gt;A minimum of 2 years of experience in quantitative research, building statistical models for intraday study.&lt;/li&gt;\n&lt;li&gt;Solid understanding of market impact.&lt;/li&gt;\n&lt;li&gt;Proficiency in programming languages such as Python and C++. Experience in AWS is preferred.&lt;/li&gt;\n&lt;li&gt;Strong knowledge in macro products, including FX and bonds, is a plus.&lt;/li&gt;\n&lt;li&gt;Commitment to the highest ethical standards.&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;The annual base salary range is $125,000-200,000 (USD). Actual compensation offered to candidate may vary from posted hiring range based upon geographic location, work experience, education, and/or skill level among other things. Details about eligibility for bonus compensation (if applicable) will be finalized at the time of offer.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
-      "updated_at": "2026-09-30T05:40:36.470258",
+      "updated_at": "2026-09-30T01:47:50.152410",
       "suitability_score": 87,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -7368,7 +8363,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_7297643002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -7385,7 +8380,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;strong&gt;Role:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;The Quant Researcher will report to a Stamford based Portfolio Manager and will focus on:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Building, running, and maintaining power dispatch model for ERCOT and other major US ISOs&lt;/li&gt;\n&lt;li&gt;Driving the model’s inputs and architecture to efficiently simulate power grid conditions and marginal pricing&lt;/li&gt;\n&lt;li&gt;Continuously testing and improving the model, ensuring it accurately replicates historical conditions and effectively analyzes forward scenarios&lt;/li&gt;\n&lt;li&gt;Communicating the model’s results and limitations to the wider investment team&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Formulate and build a power dispatch model using Python and a commercial solver&lt;/li&gt;\n&lt;li&gt;Collaborate with the PM to optimize model inputs and architecture&lt;/li&gt;\n&lt;li&gt;Ensure the model replicates grid operations from historical conditions&lt;/li&gt;\n&lt;li&gt;Suggest model improvements to decrease forecast error and improve scenario handling&lt;/li&gt;\n&lt;li&gt;Regularly run the model and maintain up-to-date outputs in an internal database&lt;/li&gt;\n&lt;li&gt;Communicate results and limitations to the wider investment team, including publishing results to team dashboards&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Master or PhD in operations research, electrical engineering, applied mathematics, or a related quantitative field&lt;/li&gt;\n&lt;li&gt;5+ years of direct experience building power dispatch models (SCUC/SCED) using optimization solvers (Gurobi, CPLEX, etc.)&lt;/li&gt;\n&lt;li&gt;Knowledge of power plant dispatch, grid operations (including capacity and AS obligations), and LMP pricing in US power markets&lt;/li&gt;\n&lt;li&gt;Experience using SQL and timeseries databases&lt;/li&gt;\n&lt;li&gt;Proficiency in Python and Git; additional experience with an OOP language a strong plus&lt;/li&gt;\n&lt;li&gt;Domain knowledge in ERCOT, PJM, or CAISO preferred&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;About Point72:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Point72 is a leading global alternative investment firm led by Steven A. Cohen. Building on more than 30 years of investing experience, Point72 seeks to deliver superior returns for its investors through fundamental and systematic investing strategies across asset classes and geographies. We aim to attract and retain the industry’s brightest talent by cultivating an investor-led culture and committing to our people’s long-term growth.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
-      "updated_at": "2026-09-30T05:40:36.470292",
+      "updated_at": "2026-09-30T01:47:50.152422",
       "suitability_score": 87,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -7402,7 +8397,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_8004302002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -7436,7 +8431,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jump Trading::gh_jumptrading_7457888",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -7470,7 +8465,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jump Trading::gh_jumptrading_5870589",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -7504,7 +8499,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jump Trading::gh_jumptrading_6098760",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -7538,317 +8533,11 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jump Trading::gh_jumptrading_5870604",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
       "official_careers_url": "https://www.jumptrading.com/careers/",
-      "url_status": 200
-    },
-    {
-      "job_id": "gh_janestreet_8623868002",
-      "firm_name": "Jane Street",
-      "title": "Quantitative Researcher",
-      "location": "Hong Kong, Hong Kong",
-      "department": "Quantitative Research",
-      "url": "https://www.janestreet.com/join-jane-street/apply/8623868002?gh_jid=8623868002",
-      "source_ats": "Greenhouse",
-      "description": "&lt;h3&gt;About the position&lt;/h3&gt;\n&lt;p&gt;Our goals are to give you a real sense of what it&#39;s like to work as a Quantitative Researcher at Jane Street while also providing a truly unparalleled educational experience. You&#39;ll work side by side with our experienced Quantitative Researchers to learn how we identify market signals, analyze large datasets, build and test models, and create new trading strategies.&lt;/p&gt;\n&lt;p&gt;At Jane Street, the lines between research, technology, and trading are intentionally blurry, and you’ll have access to petabytes of data, a computing cluster with hundreds of thousands of cores, and a growing GPU cluster containing tens of thousands of high-end GPUs. We don’t believe in “one-size-fits-all” modeling solutions; we are open to and excited about applying all different types of statistical and ML techniques, from linear models to deep learning, depending on what best fits a given problem.&lt;/p&gt;\n&lt;p&gt;You&#39;ll spend the bulk of your internship working closely with full-time researchers on projects drawn from their own work. You&#39;ll gain a better understanding of the diverse array of challenges we consider every day, learning how we think about experiment design, dataset generation, time series analysis, feature engineering, and model building for financial datasets. Your day-to-day project work will be complemented by classes on the broader fundamentals of markets and trading, lunch seminars, and activities designed to help you understand the entire process of creating a new trading strategy, from initial exploration to finding and productionizing a signal.&lt;/p&gt;\n&lt;h3&gt;About you&lt;/h3&gt;\n&lt;p&gt;If you&#39;ve never thought about a career in finance, you&#39;re in good company. Many of us were in the same position before working here. Most candidates will have experience with data science or machine learning, but ultimately, we&#39;re more interested in how you think and learn than what you currently know. You should be:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Able to apply logical and mathematical thinking to all kinds of problems&lt;/li&gt;\n&lt;li&gt;Intellectually curious; eager to ask questions, admit mistakes, and learn new things&lt;/li&gt;\n&lt;li&gt;A strong programmer who&#39;s comfortable with Python&lt;/li&gt;\n&lt;li&gt;An open-minded thinker and precise communicator who enjoys collaborating with colleagues from a wide range of backgrounds and areas of expertise&lt;/li&gt;\n&lt;li&gt;Fluent in English&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Most interns are current undergraduate or graduate students, but we also welcome applicants who have already graduated and are considering a new career in finance. Research experience is a plus.&lt;/p&gt;\n&lt;p&gt;If you&#39;d like to learn more, you can read about our &lt;a href=&quot;https://www.janestreet.com/join-jane-street/interviewing/#quantitative-research&quot;&gt;interview process&lt;/a&gt; and &lt;a href=&quot;https://www.janestreet.com/join-jane-street/get-to-know-us/&quot;&gt;meet some of the team&lt;/a&gt;. Learn more about Jane Street&#39;s internship program &lt;a href=&quot;https://www.janestreet.com/join-jane-street/internships/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;Please note: Jane Street will provide flights to and from Hong Kong as well as accommodation&amp;nbsp;throughout the entirety of the program.&lt;/p&gt;",
-      "updated_at": "2026-09-28T10:06:12-04:00",
-      "posted_pay_range": null,
-      "tier": "Tier A: Too Hard",
-      "suitability_score": 87,
-      "verdict": "HIGH PRIORITY (Direct Target)",
-      "recommendation": "Immediate Apply (Tailor quantitative resume)",
-      "matched_signals": [
-        "Title match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +45",
-        "Keyword match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +22",
-        "Firm Quality Boost: +20"
-      ],
-      "penalties": [],
-      "estimated_comp": "$400,000 - $700,000+",
-      "comp_benchmark_delta": "Premier Top-of-Market Offer",
-      "priority_tier": "Tier A: Too Hard",
-      "priority_tag": "Pinnacle Target",
-      "industry_sector": "Proprietary Trading & Market Making",
-      "official_careers_url": "https://www.janestreet.com/join-jane-street/open-roles/",
-      "key": "Jane Street::gh_janestreet_8623868002",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "url_status": 200
-    },
-    {
-      "job_id": "gh_janestreet_8498547002",
-      "firm_name": "Jane Street",
-      "title": "Quantitative Researcher",
-      "location": "New York, New York, United States",
-      "department": "Quantitative Research",
-      "url": "https://www.janestreet.com/join-jane-street/apply/8498547002?gh_jid=8498547002",
-      "source_ats": "Greenhouse",
-      "description": "&lt;h3&gt;About the Position&lt;/h3&gt;\n&lt;p&gt;Our goals are to give you a real sense of what it’s like to work as a Quantitative Researcher at Jane Street while also providing a truly unparalleled educational experience. You’ll work side by side with our experienced Quantitative Researchers to learn how we identify market signals, analyze large datasets, build and test models, and create new trading strategies.&lt;/p&gt;\n&lt;p&gt;At Jane Street, the lines between research, technology, and trading are intentionally blurry, and you&#39;ll have access to petabytes of data, a computing cluster with hundreds of thousands of cores, and a growing GPU cluster containing tens of thousands of high-end GPUs. We don’t believe in “one-size-fits-all” modeling solutions; we are open to and excited about applying all different types of statistical and ML techniques, from linear models to deep learning, depending on what best fits a given problem.&lt;/p&gt;\n&lt;p&gt;You’ll spend the bulk of your internship working closely with full-time researchers on projects drawn from their own work. You’ll gain a better understanding of the diverse array of challenges we consider every day, learning how we think about experiment design, dataset generation, time series analysis, feature engineering, and model building for financial datasets. Your day-to-day project work will be complemented by classes on the broader fundamentals of markets and trading, lunch seminars, and activities designed to help you understand the entire process of creating a new trading strategy, from initial exploration to finding and productionizing a signal.&lt;/p&gt;\n&lt;h3&gt;About you&lt;/h3&gt;\n&lt;p&gt;If you’ve never thought about a career in finance, you’re in good company. Many of us were in the same position before working here. Most candidates will have experience with data science or machine learning, but ultimately, we’re more interested in how you think and learn than what you currently know. You should be:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Able to apply logical and mathematical thinking to all kinds of problems&lt;/li&gt;\n&lt;li&gt;Intellectually curious; eager to ask questions, admit mistakes, and learn new things&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;A strong programmer who’s comfortable with Python&lt;/li&gt;\n&lt;li&gt;An open-minded thinker and precise communicator who enjoys collaborating with colleagues from a wide range of backgrounds and areas of expertise&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Most interns are current undergraduate or graduate students, but we also welcome applicants who have already graduated and are considering a new career in finance. Research experience is a plus.&lt;/p&gt;\n&lt;p&gt;If you’d like to learn more, you can read about our &lt;a href=&quot;https://www.janestreet.com/join-jane-street/interviewing/#quantitative-research&quot;&gt;interview process&lt;/a&gt; and &lt;a href=&quot;https://www.janestreet.com/join-jane-street/get-to-know-us/&quot;&gt;meet some of the team&lt;/a&gt;. Learn more about Jane Street’s &lt;a href=&quot;https://www.janestreet.com/join-jane-street/internships/&quot;&gt;internship program &lt;/a&gt;here.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;If you&#39;re a recruiting agency and want to partner with us, please reach out to agency-partnerships@janestreet.com.&lt;/em&gt;&lt;/p&gt;",
-      "updated_at": "2026-09-28T10:06:09-04:00",
-      "posted_pay_range": null,
-      "tier": "Tier A: Too Hard",
-      "suitability_score": 87,
-      "verdict": "HIGH PRIORITY (Direct Target)",
-      "recommendation": "Immediate Apply (Tailor quantitative resume)",
-      "matched_signals": [
-        "Title match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +45",
-        "Keyword match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +22",
-        "Firm Quality Boost: +20"
-      ],
-      "penalties": [],
-      "estimated_comp": "$400,000 - $700,000+",
-      "comp_benchmark_delta": "Premier Top-of-Market Offer",
-      "priority_tier": "Tier A: Too Hard",
-      "priority_tag": "Pinnacle Target",
-      "industry_sector": "Proprietary Trading & Market Making",
-      "official_careers_url": "https://www.janestreet.com/join-jane-street/open-roles/",
-      "key": "Jane Street::gh_janestreet_8498547002",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "url_status": 200
-    },
-    {
-      "job_id": "gh_janestreet_8474416002",
-      "firm_name": "Jane Street",
-      "title": "Quantitative Researcher",
-      "location": "London, England, United Kingdom",
-      "department": "Quantitative Research",
-      "url": "https://www.janestreet.com/join-jane-street/apply/8474416002?gh_jid=8474416002",
-      "source_ats": "Greenhouse",
-      "description": "&lt;h3&gt;About the Position&lt;/h3&gt;\n&lt;p&gt;Our goals are to give you a real sense of what it&#39;s like to work as a Quantitative Researcher at Jane Street while also providing a truly unparalleled educational experience. You&#39;ll work side by side with our experienced Quantitative Researchers to learn how we identify market signals, analyse large datasets, build and test models, and create new trading strategies.&lt;/p&gt;\n&lt;p&gt;At Jane Street, the lines between research, technology, and trading are intentionally blurry, and you’ll have access to petabytes of data, a computing cluster with hundreds of thousands of cores, and a growing GPU cluster containing tens of thousands of high-end GPUs. We don’t believe in “one-size-fits-all” modelling solutions; we are open to and excited about applying all different types of statistical and ML techniques, from linear models to deep learning, depending on what best fits a given problem.&lt;/p&gt;\n&lt;p&gt;You&#39;ll spend the bulk of your internship working closely with full-time researchers on projects drawn from their own work. You&#39;ll gain a better understanding of the diverse array of challenges we consider every day, learning how we think about experiment design, dataset generation, time series analysis, feature engineering, and model building for financial datasets. Your day-to-day project work will be complemented by classes on the broader fundamentals of markets and trading, lunch seminars, and activities designed to help you understand the entire process of creating a new trading strategy, from initial exploration to finding and productionizing a signal.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;h3&gt;About You&lt;/h3&gt;\n&lt;p&gt;If you&#39;ve never thought about a career in finance, you&#39;re in good company. Many of us were in the same position before working here. Most candidates will have experience with data science or machine learning, but ultimately, we&#39;re more interested in how you think and learn than what you currently know. You should be:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Able to apply logical and mathematical thinking to all kinds of problems&lt;/li&gt;\n&lt;li&gt;Intellectually curious; eager to ask questions, admit mistakes, and learn new things&lt;/li&gt;\n&lt;li&gt;A strong programmer who&#39;s comfortable with Python&lt;/li&gt;\n&lt;li&gt;An open-minded thinker and precise communicator who enjoys collaborating with colleagues from a wide range of backgrounds and areas of expertise&lt;/li&gt;\n&lt;li&gt;Fluent in English&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Most interns are current undergraduate or graduate students, but we also welcome applicants who have already graduated and are considering a new career in finance. Research experience is a plus.&lt;/p&gt;\n&lt;p&gt;If you&#39;d like to learn more, you can read about our &lt;a href=&quot;https://www.janestreet.com/join-jane-street/interviewing/#quantitative-research&quot;&gt;interview process&lt;/a&gt; and &lt;a href=&quot;https://www.janestreet.com/join-jane-street/get-to-know-us/&quot;&gt;meet some of the team&lt;/a&gt;. Learn more about Jane Street&#39;s internship program &lt;a href=&quot;https://www.janestreet.com/join-jane-street/internships/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;",
-      "updated_at": "2026-09-28T10:06:09-04:00",
-      "posted_pay_range": null,
-      "tier": "Tier A: Too Hard",
-      "suitability_score": 87,
-      "verdict": "HIGH PRIORITY (Direct Target)",
-      "recommendation": "Immediate Apply (Tailor quantitative resume)",
-      "matched_signals": [
-        "Title match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +45",
-        "Keyword match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +22",
-        "Firm Quality Boost: +20"
-      ],
-      "penalties": [],
-      "estimated_comp": "$400,000 - $700,000+",
-      "comp_benchmark_delta": "Premier Top-of-Market Offer",
-      "priority_tier": "Tier A: Too Hard",
-      "priority_tag": "Pinnacle Target",
-      "industry_sector": "Proprietary Trading & Market Making",
-      "official_careers_url": "https://www.janestreet.com/join-jane-street/open-roles/",
-      "key": "Jane Street::gh_janestreet_8474416002",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "url_status": 200
-    },
-    {
-      "job_id": "gh_janestreet_8617344002",
-      "firm_name": "Jane Street",
-      "title": "Quantitative Trader",
-      "location": "New York, New York, United States",
-      "department": "Quantitative Trading",
-      "url": "https://www.janestreet.com/join-jane-street/apply/8617344002?gh_jid=8617344002",
-      "source_ats": "Greenhouse",
-      "description": "&lt;h3&gt;About the Position&lt;/h3&gt;\n&lt;p&gt;Our goals are to give you a real sense of what it&#39;s like to work as a Quantitative Trader at Jane Street while also providing a truly unparalleled educational experience. You&#39;ll be paired with experienced quantitative traders who will teach you how to identify market signals, analyze and execute strategies, construct quantitative models, conduct statistical analysis, and build trading intuition.&lt;/p&gt;\n&lt;p&gt;At Jane Street, the lines between research, technology, and trading are intentionally blurry, and you’ll have access to petabytes of data, a computing cluster with hundreds of thousands of cores, and a growing GPU cluster containing tens of thousands of high-end GPUs. We don&#39;t believe in &quot;one-size-fits-all&quot; modeling solutions; we are open to and excited about applying all different types of statistical and ML techniques, from linear models to deep learning, depending on what best fits a given problem. You&#39;ll work closely with two different mentors on projects relating to their day-to-day work, giving you a sense of the variety of problems we solve every day. Past projects have included analyzing new or existing datasets, training predictive models, simulating potential new trading strategies, writing tools that we use in production, and even working to answer big-picture questions we haven&#39;t yet figured out.&lt;/p&gt;\n&lt;p&gt;During the internship, your work is reinforced with intensive classes, workshops, and team-based mock trading sessions. These will expose you to many of the dynamics we observe in real markets, illustrate the role that we play in making markets more efficient, and help build intuition for how we think about both trading and collaborating.&lt;/p&gt;\n&lt;p&gt;As a quantitative trading intern, you&#39;ll also have the opportunity to participate in one &quot;elective&quot; based on your interests. Electives consist of targeted classes and immersive activities, and are designed to give you a deeper and more nuanced look into one of the many aspects of what quantitative trading can look like at Jane Street:&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Machine Learning, Modeling, and Data Science&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;You&#39;ll learn how Jane Street applies advanced machine learning and statistical techniques to&amp;nbsp;make models and predictions using large datasets of both real and simulated market data. You&#39;ll learn how to train and use a variety of ML models, and gain an understanding of the differences between textbook machine learning and its application to noisy and complex financial data.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Algorithmic Trading and Market Microstructure&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;You&#39;ll learn the end-to-end process of developing an algorithmic trading strategy. You&#39;ll analyze market data to develop a tradable fair value and implement a trading strategy in Python. Your algorithmic strategy will connect directly to simulated markets with different market structures, and you will learn how to optimize your strategy given the unique attributes of each market. You will discover how various market dynamics affect strategy behavior and learn how real-world trading differs from simulation.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Trading Strategy and Scenarios&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;You’ll be introduced to a rotating set of new trading scenarios inspired by real events on a particular trading desk. You’ll work in teams on multiple mock trading sessions related to each scenario and use the time between sessions to refine your strategies, write recaps, and hear how the story played out in real life from our seasoned full-time traders who lived through it.&lt;/p&gt;\n&lt;h3&gt;About You&lt;/h3&gt;\n&lt;p&gt;If you’ve never thought about a career in finance, you’re in good company. Many of us were in the same position before working here. If you have a curious mind, a collaborative spirit, and a passion for solving interesting problems, we have a feeling you’ll fit right in. We’re more interested in how you think and learn than what you currently know. You should be:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;A strong quantitative thinker (no specific degree or major is required)&lt;/li&gt;\n&lt;li&gt;A clear and effective verbal and written communicator&lt;/li&gt;\n&lt;li&gt;Someone who enjoys working collaboratively on a team&lt;/li&gt;\n&lt;li&gt;Eager to ask questions, admit mistakes, and learn new things&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;A profitable trading strategy is only as strong as the technology it runs on, and we consider ourselves as much a technology company as a trading firm. General programming experience is a plus, but knowing a particular programming language is not required.&lt;/p&gt;\n&lt;p&gt;If you’d like to learn more, you can read about our &lt;a href=&quot;https://www.janestreet.com/join-jane-street/interviewing/#quantitative-trading&quot;&gt;interview process&lt;/a&gt; and &lt;a href=&quot;https://www.janestreet.com/join-jane-street/get-to-know-us/&quot;&gt;meet some of the team&lt;/a&gt;. Learn more about Jane Street’s &lt;a href=&quot;https://www.janestreet.com/join-jane-street/internships/&quot;&gt;internship program &lt;/a&gt;here.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;If you&#39;re a recruiting agency and want to partner with us, please reach out to agency-partnerships@janestreet.com.&lt;/em&gt;&lt;/p&gt;",
-      "updated_at": "2026-09-28T10:06:12-04:00",
-      "posted_pay_range": null,
-      "tier": "Tier A: Too Hard",
-      "suitability_score": 87,
-      "verdict": "HIGH PRIORITY (Direct Target)",
-      "recommendation": "Immediate Apply (Tailor quantitative resume)",
-      "matched_signals": [
-        "Title match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +45",
-        "Keyword match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +22",
-        "Firm Quality Boost: +20"
-      ],
-      "penalties": [],
-      "estimated_comp": "$400,000 - $700,000+",
-      "comp_benchmark_delta": "Premier Top-of-Market Offer",
-      "priority_tier": "Tier A: Too Hard",
-      "priority_tag": "Pinnacle Target",
-      "industry_sector": "Proprietary Trading & Market Making",
-      "official_careers_url": "https://www.janestreet.com/join-jane-street/open-roles/",
-      "key": "Jane Street::gh_janestreet_8617344002",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "url_status": 200
-    },
-    {
-      "job_id": "gh_janestreet_8623733002",
-      "firm_name": "Jane Street",
-      "title": "Quantitative Trader",
-      "location": "Hong Kong, Hong Kong",
-      "department": "Quantitative Trading",
-      "url": "https://www.janestreet.com/join-jane-street/apply/8623733002?gh_jid=8623733002",
-      "source_ats": "Greenhouse",
-      "description": "&lt;p&gt;&lt;strong&gt;About the position&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Our goals are to give you a real sense of what it&#39;s like to work as a Quantitative Trader at Jane Street while also providing a truly unparalleled educational experience. You&#39;ll be paired with experienced quantitative traders who will teach you how to identify market signals, analyze and execute strategies, construct quantitative models, conduct statistical analysis, and build trading intuition.&lt;/p&gt;\n&lt;p&gt;At Jane Street, the lines between research, technology, and trading are intentionally blurry, and you’ll have access to petabytes of data, a computing cluster with hundreds of thousands of cores, and a growing GPU cluster containing tens of thousands of high-end GPUs. We don&#39;t believe in &quot;one-size-fits-all&quot; modeling solutions; we are open to and excited about applying all different types of statistical and ML techniques, from linear models to deep learning, depending on what best fits a given problem. You&#39;ll work closely with two different mentors on projects relating to their day-to-day work, giving you a sense of the variety of problems we solve every day. Past projects have included analyzing new or existing datasets, training predictive models, simulating potential new trading strategies, writing tools that we use in production, and even working to answer big-picture questions we haven&#39;t yet figured out.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;During the internship, your work is reinforced with intensive classes, workshops, and team-based mock trading sessions. These will expose you to many of the dynamics we observe in real markets, illustrate the role that we play in making markets more efficient, and help build intuition for how we think about both trading and collaborating.&lt;/p&gt;\n&lt;p&gt;As a quantitative trading intern, you’ll also have the opportunity to participate in one &quot;elective&quot; based on your interests. Electives consist of targeted classes and immersive activities, and are designed to give you a deeper and more nuanced look into one of the many aspects of what quantitative trading can look like at Jane Street:&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Machine Learning, Modeling, and Data Science&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;You&#39;ll learn how Jane Street applies advanced machine learning and statistical techniques to make models and predictions using large datasets of both real and simulated market data. You&#39;ll learn how to train and use a variety of ML models, and gain an understanding of the differences between textbook machine learning and its application to noisy and complex financial data.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Algorithmic Trading and Market Microstructure&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;You&#39;ll learn the end-to-end process of developing an algorithmic trading strategy. You&#39;ll analyze market data to develop a tradable fair value and implement a trading strategy in Python. Your algorithmic strategy will connect directly to simulated markets with different market structures, and you will learn how to optimize your strategy given the unique attributes of each market. You will discover how various market dynamics affect strategy behavior and learn how real-world trading differs from simulation.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Trading Strategy and Scenarios&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;You&#39;ll be introduced to a rotating set of new trading scenarios inspired by real events on a particular trading desk. You&#39;ll work in teams on multiple mock trading sessions related to each scenario and use the time between sessions to refine your strategies, write recaps, and hear how the story played out in real life from our seasoned full-time traders who lived through it.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;About you&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;If you&#39;ve never thought about a career in finance, you&#39;re in good company. Many of us were in the same position before working here. If you have a curious mind, a collaborative spirit, and a passion for solving interesting problems, we have a feeling you&#39;ll fit right in. We&#39;re more interested in how you think and learn than what you currently know. You should be:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;A strong quantitative thinker (no specific degree or major is required)&lt;/li&gt;\n&lt;li&gt;A clear and effective verbal and written communicator&lt;/li&gt;\n&lt;li&gt;Someone who enjoys working collaboratively on a team&lt;/li&gt;\n&lt;li&gt;Eager to ask questions, admit mistakes, and learn new things&lt;/li&gt;\n&lt;li&gt;Fluent in English&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;A profitable trading strategy is only as strong as the technology it runs on, and we consider ourselves as much a technology company as a trading firm. General programming experience is a plus, but knowing a particular programming language is not required.&lt;/p&gt;\n&lt;p&gt;If you&#39;d like to learn more, you can read about our &lt;a href=&quot;https://www.janestreet.com/join-jane-street/interviewing/#quantitative-trading&quot;&gt;interview process&lt;/a&gt; and &lt;a href=&quot;https://www.janestreet.com/join-jane-street/get-to-know-us/&quot;&gt;meet some of the team&lt;/a&gt;. Learn more about Jane Street&#39;s internship program &lt;a href=&quot;https://www.janestreet.com/join-jane-street/internships/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;Please note: Jane Street will provide flights to and from Hong Kong as well as accommodation&amp;nbsp;throughout the entirety of the program.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
-      "updated_at": "2026-09-28T10:06:12-04:00",
-      "posted_pay_range": null,
-      "tier": "Tier A: Too Hard",
-      "suitability_score": 87,
-      "verdict": "HIGH PRIORITY (Direct Target)",
-      "recommendation": "Immediate Apply (Tailor quantitative resume)",
-      "matched_signals": [
-        "Title match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +45",
-        "Keyword match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +22",
-        "Firm Quality Boost: +20"
-      ],
-      "penalties": [],
-      "estimated_comp": "$400,000 - $700,000+",
-      "comp_benchmark_delta": "Premier Top-of-Market Offer",
-      "priority_tier": "Tier A: Too Hard",
-      "priority_tag": "Pinnacle Target",
-      "industry_sector": "Proprietary Trading & Market Making",
-      "official_careers_url": "https://www.janestreet.com/join-jane-street/open-roles/",
-      "key": "Jane Street::gh_janestreet_8623733002",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "url_status": 200
-    },
-    {
-      "job_id": "gh_janestreet_8474407002",
-      "firm_name": "Jane Street",
-      "title": "Quantitative Trader",
-      "location": "London, England, United Kingdom",
-      "department": "Quantitative Trading",
-      "url": "https://www.janestreet.com/join-jane-street/apply/8474407002?gh_jid=8474407002",
-      "source_ats": "Greenhouse",
-      "description": "&lt;h3&gt;About the Position&lt;/h3&gt;\n&lt;p&gt;Our goals are to give you a real sense of what it&#39;s like to work as a Quantitative Trader at Jane Street while also providing a truly unparalleled educational experience. You&#39;ll be paired with experienced quantitative traders who will teach you how to identify market signals, analyse and execute strategies, construct quantitative models, conduct statistical analysis, and build trading intuition.&lt;/p&gt;\n&lt;p&gt;At Jane Street, the lines between research, technology, and trading are intentionally blurry, and you’ll have access to petabytes of data, a computing cluster with hundreds of thousands of cores, and a growing GPU cluster containing tens of thousands of high-end GPUs. We don&#39;t believe in &quot;one-size-fits-all&quot; modelling solutions; we are open to and excited about applying all different types of statistical and ML techniques, from linear models to deep learning, depending on what best fits a given problem. You&#39;ll work closely with two different mentors on projects relating to their day-to-day work, giving you a sense of the variety of problems we solve every day. Past projects have included analysing new or existing datasets, training predictive models, simulating potential new trading strategies, writing tools that we use in production, and even working to answer big-picture questions we haven&#39;t yet figured out.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;During the internship, your work is reinforced with intensive classes, workshops, and team-based mock trading sessions. These will expose you to many of the dynamics we observe in real markets, illustrate the role that we play in making markets more efficient, and help build intuition for how we think about both trading and collaborating.&lt;/p&gt;\n&lt;p&gt;As a quantitative trading intern, you’ll also have the opportunity to participate in one &quot;elective&quot; based on your interests. Electives consist of targeted classes and immersive activities, and are designed to give you a deeper and more nuanced look into one of the many aspects of what quantitative trading can look like at Jane Street:&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Machine Learning, Modelling, and Data Science&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;You&#39;ll learn how Jane Street applies advanced machine learning and statistical techniques to make models and predictions using large datasets of both real and simulated market data. You&#39;ll learn how to train and use a variety of ML models, and gain an understanding of the differences between textbook machine learning and its application to noisy and complex financial data.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Algorithmic Trading and Market Microstructure&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;You&#39;ll learn the end-to-end process of developing an algorithmic trading strategy. You&#39;ll analyse market data to develop a tradable fair value and implement a trading strategy in Python. Your algorithmic strategy will connect directly to simulated markets with different market structures, and you will learn how to optimise your strategy given the unique attributes of each market. You will discover how various market dynamics affect strategy behaviour and learn how real-world trading differs from simulation.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Trading Strategy and Scenarios&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;You&#39;ll be introduced to a rotating set of new trading scenarios inspired by real events on a particular trading desk. You&#39;ll work in teams on multiple mock trading sessions related to each scenario and use the time between sessions to refine your strategies, write recaps, and hear how the story played out in real life from our seasoned full-time traders who lived through it.&lt;/p&gt;\n&lt;h3&gt;About you&lt;/h3&gt;\n&lt;p&gt;If you&#39;ve never thought about a career in finance, you&#39;re in good company. Many of us were in the same position before working here. If you have a curious mind, a collaborative spirit, and a passion for solving interesting problems, we have a feeling you&#39;ll fit right in. We&#39;re more interested in how you think and learn than what you currently know. You should be:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;A strong quantitative thinker (no specific degree or major is required)&lt;/li&gt;\n&lt;li&gt;A clear and effective verbal and written communicator&lt;/li&gt;\n&lt;li&gt;Someone who enjoys working collaboratively on a team&lt;/li&gt;\n&lt;li&gt;Eager to ask questions, admit mistakes, and learn new things&lt;/li&gt;\n&lt;li&gt;Fluent in English&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;A profitable trading strategy is only as strong as the technology it runs on, and we consider ourselves as much a technology company as a trading firm. General programming experience is a plus, but knowing a particular programming language is not required.&lt;/p&gt;\n&lt;p&gt;If you&#39;d like to learn more, you can read about our &lt;a href=&quot;https://www.janestreet.com/join-jane-street/interviewing/#quantitative-trading&quot;&gt;interview process&lt;/a&gt; and &lt;a href=&quot;https://www.janestreet.com/join-jane-street/get-to-know-us/&quot;&gt;meet some of the team&lt;/a&gt;. Learn more about Jane Street&#39;s internship program &lt;a href=&quot;https://www.janestreet.com/join-jane-street/internships/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;",
-      "updated_at": "2026-09-28T10:06:09-04:00",
-      "posted_pay_range": null,
-      "tier": "Tier A: Too Hard",
-      "suitability_score": 87,
-      "verdict": "HIGH PRIORITY (Direct Target)",
-      "recommendation": "Immediate Apply (Tailor quantitative resume)",
-      "matched_signals": [
-        "Title match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +45",
-        "Keyword match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +22",
-        "Firm Quality Boost: +20"
-      ],
-      "penalties": [],
-      "estimated_comp": "$400,000 - $700,000+",
-      "comp_benchmark_delta": "Premier Top-of-Market Offer",
-      "priority_tier": "Tier A: Too Hard",
-      "priority_tag": "Pinnacle Target",
-      "industry_sector": "Proprietary Trading & Market Making",
-      "official_careers_url": "https://www.janestreet.com/join-jane-street/open-roles/",
-      "key": "Jane Street::gh_janestreet_8474407002",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "url_status": 200
-    },
-    {
-      "job_id": "gh_janestreet_4839146002",
-      "firm_name": "Jane Street",
-      "title": "Quantitative Trader",
-      "location": "Hong Kong, Hong Kong",
-      "department": "Quantitative Trading",
-      "url": "https://www.janestreet.com/join-jane-street/apply/4839146002?gh_jid=4839146002",
-      "source_ats": "Greenhouse",
-      "description": "&lt;h3&gt;About the Position&lt;/h3&gt;\n&lt;p&gt;Our trading is based on our own proprietary models and on busy days we engage in over a million trades. Traders work in teams to seek out and trade on pricing inefficiencies, develop models, manage risk, investigate new products, and push into new business areas. Experienced Traders teach and oversee the less-experienced. New Traders serve as assistants while they learn the ropes, getting increasing responsibility as they demonstrate their ability to handle it.&lt;/p&gt;\n&lt;p&gt;Technology is at the core of how we approach trading, and we consider ourselves as much a technology company as a trading firm. We use OCaml, a statically-typed functional programming language, as our primary development language, and have the largest team of OCaml Engineers in any industrial setting.&lt;/p&gt;\n&lt;h3&gt;About You&lt;/h3&gt;\n&lt;p&gt;We are looking for people who have a strong quantitative mind and enjoy working collaboratively to solve challenging problems in a practical setting. Prior knowledge of finance or economics is not expected or required. Experience with particular programming languages is also not required, although generally being comfortable programming in your language of choice is a plus. Fluency in English required.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;If you&#39;re a recruiting agency and want to partner with us, please reach out to&amp;nbsp;&lt;/em&gt;&lt;a href=&quot;mailto:agency-partnerships@janestreet.com&quot;&gt;&lt;em&gt;agency-partnerships@janestreet.com&lt;/em&gt;&lt;/a&gt;&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;",
-      "updated_at": "2026-09-28T10:05:57-04:00",
-      "posted_pay_range": null,
-      "tier": "Tier A: Too Hard",
-      "suitability_score": 87,
-      "verdict": "HIGH PRIORITY (Direct Target)",
-      "recommendation": "Immediate Apply (Tailor quantitative resume)",
-      "matched_signals": [
-        "Title match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +45",
-        "Keyword match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +22",
-        "Firm Quality Boost: +20"
-      ],
-      "penalties": [],
-      "estimated_comp": "$400,000 - $700,000+",
-      "comp_benchmark_delta": "Premier Top-of-Market Offer",
-      "priority_tier": "Tier A: Too Hard",
-      "priority_tag": "Pinnacle Target",
-      "industry_sector": "Proprietary Trading & Market Making",
-      "official_careers_url": "https://www.janestreet.com/join-jane-street/open-roles/",
-      "key": "Jane Street::gh_janestreet_4839146002",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "url_status": 200
-    },
-    {
-      "job_id": "gh_janestreet_4794171002",
-      "firm_name": "Jane Street",
-      "title": "Quantitative Trader",
-      "location": "New York, New York, United States",
-      "department": "Quantitative Trading",
-      "url": "https://www.janestreet.com/join-jane-street/apply/4794171002?gh_jid=4794171002",
-      "source_ats": "Greenhouse",
-      "description": "&lt;h3&gt;About the Position&lt;/h3&gt;\n&lt;p&gt;Our trading is based on our own proprietary models and on busy days we engage in over a million trades.&amp;nbsp;Traders work in teams to seek out and trade on pricing inefficiencies, develop models, manage risk, investigate new products, and push into new business areas. Experienced traders teach and oversee the less-experienced. New traders serve as assistants while they learn the ropes, getting increasing responsibility as they demonstrate their ability to handle it.&lt;/p&gt;\n&lt;p&gt;Technology is at the core of how we approach trading, and we consider ourselves as much a technology company as a trading firm. We use OCaml, a statically-typed functional programming language, as our primary development language, and have the largest team of OCaml engineers in any industrial setting.&lt;/p&gt;\n&lt;h3&gt;About You&lt;/h3&gt;\n&lt;p&gt;We are looking for people who have a strong quantitative mind and enjoy working collaboratively to solve challenging problems in a practical setting. Prior knowledge of finance or economics is not expected or required. Experience with particular programming languages is also not required, although generally being comfortable programming in your language of choice is a plus.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;If you&#39;re a recruiting agency and want to partner with us, please reach out to&amp;nbsp;&lt;/em&gt;&lt;a href=&quot;mailto:agency-partnerships@janestreet.com&quot;&gt;&lt;em&gt;agency-partnerships@janestreet.com&lt;/em&gt;&lt;/a&gt;&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;",
-      "updated_at": "2026-09-28T10:05:57-04:00",
-      "posted_pay_range": null,
-      "tier": "Tier A: Too Hard",
-      "suitability_score": 87,
-      "verdict": "HIGH PRIORITY (Direct Target)",
-      "recommendation": "Immediate Apply (Tailor quantitative resume)",
-      "matched_signals": [
-        "Title match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +45",
-        "Keyword match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +22",
-        "Firm Quality Boost: +20"
-      ],
-      "penalties": [],
-      "estimated_comp": "$400,000 - $700,000+",
-      "comp_benchmark_delta": "Premier Top-of-Market Offer",
-      "priority_tier": "Tier A: Too Hard",
-      "priority_tag": "Pinnacle Target",
-      "industry_sector": "Proprietary Trading & Market Making",
-      "official_careers_url": "https://www.janestreet.com/join-jane-street/open-roles/",
-      "key": "Jane Street::gh_janestreet_4794171002",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "url_status": 200
-    },
-    {
-      "job_id": "gh_janestreet_4273643002",
-      "firm_name": "Jane Street",
-      "title": "Quantitative Trader",
-      "location": "London, England, United Kingdom",
-      "department": "Quantitative Trading",
-      "url": "https://www.janestreet.com/join-jane-street/apply/4273643002?gh_jid=4273643002",
-      "source_ats": "Greenhouse",
-      "description": "&lt;h3&gt;About the Position&lt;/h3&gt;\n&lt;p&gt;Our trading is based on our own proprietary models and on busy days we engage in over a million trades. Traders work in teams to seek out and trade on pricing inefficiencies, develop models, manage risk, investigate new products, and push into new business areas. Experienced Traders teach and oversee the less-experienced. New Traders serve as assistants while they learn the ropes, getting increasing responsibility as they demonstrate their ability to handle it.&lt;/p&gt;\n&lt;p&gt;Technology is at the core of how we approach trading, and we consider ourselves as much a technology company as a trading firm. We use OCaml, a statically-typed functional programming language, as our primary development language, and have the largest team of OCaml Engineers in any industrial setting.&lt;/p&gt;\n&lt;h3&gt;About You&lt;/h3&gt;\n&lt;p&gt;We are looking for people who have a strong quantitative mind and enjoy working collaboratively to solve challenging problems in a practical setting. Prior knowledge of finance or economics is not expected or required. Experience with particular programming languages is also not required, although generally being comfortable programming in your language of choice is a plus. Fluency in English required.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;If you&#39;re a recruiting agency and want to partner with us, please reach out to&amp;nbsp;&lt;/em&gt;&lt;em&gt;agency-partnerships@janestreet.com&lt;/em&gt;&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;",
-      "updated_at": "2026-09-28T10:05:56-04:00",
-      "posted_pay_range": null,
-      "tier": "Tier A: Too Hard",
-      "suitability_score": 87,
-      "verdict": "HIGH PRIORITY (Direct Target)",
-      "recommendation": "Immediate Apply (Tailor quantitative resume)",
-      "matched_signals": [
-        "Title match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +45",
-        "Keyword match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +22",
-        "Firm Quality Boost: +20"
-      ],
-      "penalties": [],
-      "estimated_comp": "$400,000 - $700,000+",
-      "comp_benchmark_delta": "Premier Top-of-Market Offer",
-      "priority_tier": "Tier A: Too Hard",
-      "priority_tag": "Pinnacle Target",
-      "industry_sector": "Proprietary Trading & Market Making",
-      "official_careers_url": "https://www.janestreet.com/join-jane-street/open-roles/",
-      "key": "Jane Street::gh_janestreet_4273643002",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
       "url_status": 200
     },
     {
@@ -7878,7 +8567,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "WorldQuant::gh_worldquant_4069484006",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -7912,7 +8601,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "WorldQuant::gh_worldquant_4069478006",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -7946,7 +8635,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "WorldQuant::gh_worldquant_4069466006",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -7980,7 +8669,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "WorldQuant::gh_worldquant_4069499006",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -8014,7 +8703,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "WorldQuant::gh_worldquant_4069492006",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -8048,7 +8737,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "WorldQuant::gh_worldquant_4673030006",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -8082,7 +8771,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "WorldQuant::gh_worldquant_4715001006",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -8116,11 +8805,317 @@ window.LIVE_OPENINGS_DATA = {
       "key": "WorldQuant::gh_worldquant_4372598006",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
       "official_careers_url": "https://www.worldquant.com/career/",
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_janestreet_8623868002",
+      "firm_name": "Jane Street",
+      "title": "Quantitative Researcher",
+      "location": "Hong Kong, Hong Kong",
+      "department": "Quantitative Research",
+      "url": "https://www.janestreet.com/join-jane-street/apply/8623868002?gh_jid=8623868002",
+      "source_ats": "Greenhouse",
+      "description": "&lt;h3&gt;About the position&lt;/h3&gt;\n&lt;p&gt;Our goals are to give you a real sense of what it&#39;s like to work as a Quantitative Researcher at Jane Street while also providing a truly unparalleled educational experience. You&#39;ll work side by side with our experienced Quantitative Researchers to learn how we identify market signals, analyze large datasets, build and test models, and create new trading strategies.&lt;/p&gt;\n&lt;p&gt;At Jane Street, the lines between research, technology, and trading are intentionally blurry, and you’ll have access to petabytes of data, a computing cluster with hundreds of thousands of cores, and a growing GPU cluster containing tens of thousands of high-end GPUs. We don’t believe in “one-size-fits-all” modeling solutions; we are open to and excited about applying all different types of statistical and ML techniques, from linear models to deep learning, depending on what best fits a given problem.&lt;/p&gt;\n&lt;p&gt;You&#39;ll spend the bulk of your internship working closely with full-time researchers on projects drawn from their own work. You&#39;ll gain a better understanding of the diverse array of challenges we consider every day, learning how we think about experiment design, dataset generation, time series analysis, feature engineering, and model building for financial datasets. Your day-to-day project work will be complemented by classes on the broader fundamentals of markets and trading, lunch seminars, and activities designed to help you understand the entire process of creating a new trading strategy, from initial exploration to finding and productionizing a signal.&lt;/p&gt;\n&lt;h3&gt;About you&lt;/h3&gt;\n&lt;p&gt;If you&#39;ve never thought about a career in finance, you&#39;re in good company. Many of us were in the same position before working here. Most candidates will have experience with data science or machine learning, but ultimately, we&#39;re more interested in how you think and learn than what you currently know. You should be:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Able to apply logical and mathematical thinking to all kinds of problems&lt;/li&gt;\n&lt;li&gt;Intellectually curious; eager to ask questions, admit mistakes, and learn new things&lt;/li&gt;\n&lt;li&gt;A strong programmer who&#39;s comfortable with Python&lt;/li&gt;\n&lt;li&gt;An open-minded thinker and precise communicator who enjoys collaborating with colleagues from a wide range of backgrounds and areas of expertise&lt;/li&gt;\n&lt;li&gt;Fluent in English&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Most interns are current undergraduate or graduate students, but we also welcome applicants who have already graduated and are considering a new career in finance. Research experience is a plus.&lt;/p&gt;\n&lt;p&gt;If you&#39;d like to learn more, you can read about our &lt;a href=&quot;https://www.janestreet.com/join-jane-street/interviewing/#quantitative-research&quot;&gt;interview process&lt;/a&gt; and &lt;a href=&quot;https://www.janestreet.com/join-jane-street/get-to-know-us/&quot;&gt;meet some of the team&lt;/a&gt;. Learn more about Jane Street&#39;s internship program &lt;a href=&quot;https://www.janestreet.com/join-jane-street/internships/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;Please note: Jane Street will provide flights to and from Hong Kong as well as accommodation&amp;nbsp;throughout the entirety of the program.&lt;/p&gt;",
+      "updated_at": "2026-09-28T10:06:12-04:00",
+      "posted_pay_range": null,
+      "tier": "Tier A: Too Hard",
+      "suitability_score": 87,
+      "verdict": "HIGH PRIORITY (Direct Target)",
+      "recommendation": "Immediate Apply (Tailor quantitative resume)",
+      "matched_signals": [
+        "Title match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +45",
+        "Keyword match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +22",
+        "Firm Quality Boost: +20"
+      ],
+      "penalties": [],
+      "estimated_comp": "$400,000 - $700,000+",
+      "comp_benchmark_delta": "Premier Top-of-Market Offer",
+      "priority_tier": "Tier A: Too Hard",
+      "priority_tag": "Pinnacle Target",
+      "industry_sector": "Proprietary Trading & Market Making",
+      "official_careers_url": "https://www.janestreet.com/join-jane-street/open-roles/",
+      "key": "Jane Street::gh_janestreet_8623868002",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-30T01:30:21.227795",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_janestreet_8498547002",
+      "firm_name": "Jane Street",
+      "title": "Quantitative Researcher",
+      "location": "New York, New York, United States",
+      "department": "Quantitative Research",
+      "url": "https://www.janestreet.com/join-jane-street/apply/8498547002?gh_jid=8498547002",
+      "source_ats": "Greenhouse",
+      "description": "&lt;h3&gt;About the Position&lt;/h3&gt;\n&lt;p&gt;Our goals are to give you a real sense of what it’s like to work as a Quantitative Researcher at Jane Street while also providing a truly unparalleled educational experience. You’ll work side by side with our experienced Quantitative Researchers to learn how we identify market signals, analyze large datasets, build and test models, and create new trading strategies.&lt;/p&gt;\n&lt;p&gt;At Jane Street, the lines between research, technology, and trading are intentionally blurry, and you&#39;ll have access to petabytes of data, a computing cluster with hundreds of thousands of cores, and a growing GPU cluster containing tens of thousands of high-end GPUs. We don’t believe in “one-size-fits-all” modeling solutions; we are open to and excited about applying all different types of statistical and ML techniques, from linear models to deep learning, depending on what best fits a given problem.&lt;/p&gt;\n&lt;p&gt;You’ll spend the bulk of your internship working closely with full-time researchers on projects drawn from their own work. You’ll gain a better understanding of the diverse array of challenges we consider every day, learning how we think about experiment design, dataset generation, time series analysis, feature engineering, and model building for financial datasets. Your day-to-day project work will be complemented by classes on the broader fundamentals of markets and trading, lunch seminars, and activities designed to help you understand the entire process of creating a new trading strategy, from initial exploration to finding and productionizing a signal.&lt;/p&gt;\n&lt;h3&gt;About you&lt;/h3&gt;\n&lt;p&gt;If you’ve never thought about a career in finance, you’re in good company. Many of us were in the same position before working here. Most candidates will have experience with data science or machine learning, but ultimately, we’re more interested in how you think and learn than what you currently know. You should be:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Able to apply logical and mathematical thinking to all kinds of problems&lt;/li&gt;\n&lt;li&gt;Intellectually curious; eager to ask questions, admit mistakes, and learn new things&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;A strong programmer who’s comfortable with Python&lt;/li&gt;\n&lt;li&gt;An open-minded thinker and precise communicator who enjoys collaborating with colleagues from a wide range of backgrounds and areas of expertise&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Most interns are current undergraduate or graduate students, but we also welcome applicants who have already graduated and are considering a new career in finance. Research experience is a plus.&lt;/p&gt;\n&lt;p&gt;If you’d like to learn more, you can read about our &lt;a href=&quot;https://www.janestreet.com/join-jane-street/interviewing/#quantitative-research&quot;&gt;interview process&lt;/a&gt; and &lt;a href=&quot;https://www.janestreet.com/join-jane-street/get-to-know-us/&quot;&gt;meet some of the team&lt;/a&gt;. Learn more about Jane Street’s &lt;a href=&quot;https://www.janestreet.com/join-jane-street/internships/&quot;&gt;internship program &lt;/a&gt;here.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;If you&#39;re a recruiting agency and want to partner with us, please reach out to agency-partnerships@janestreet.com.&lt;/em&gt;&lt;/p&gt;",
+      "updated_at": "2026-09-28T10:06:09-04:00",
+      "posted_pay_range": null,
+      "tier": "Tier A: Too Hard",
+      "suitability_score": 87,
+      "verdict": "HIGH PRIORITY (Direct Target)",
+      "recommendation": "Immediate Apply (Tailor quantitative resume)",
+      "matched_signals": [
+        "Title match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +45",
+        "Keyword match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +22",
+        "Firm Quality Boost: +20"
+      ],
+      "penalties": [],
+      "estimated_comp": "$400,000 - $700,000+",
+      "comp_benchmark_delta": "Premier Top-of-Market Offer",
+      "priority_tier": "Tier A: Too Hard",
+      "priority_tag": "Pinnacle Target",
+      "industry_sector": "Proprietary Trading & Market Making",
+      "official_careers_url": "https://www.janestreet.com/join-jane-street/open-roles/",
+      "key": "Jane Street::gh_janestreet_8498547002",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-30T01:30:21.227795",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_janestreet_8474416002",
+      "firm_name": "Jane Street",
+      "title": "Quantitative Researcher",
+      "location": "London, England, United Kingdom",
+      "department": "Quantitative Research",
+      "url": "https://www.janestreet.com/join-jane-street/apply/8474416002?gh_jid=8474416002",
+      "source_ats": "Greenhouse",
+      "description": "&lt;h3&gt;About the Position&lt;/h3&gt;\n&lt;p&gt;Our goals are to give you a real sense of what it&#39;s like to work as a Quantitative Researcher at Jane Street while also providing a truly unparalleled educational experience. You&#39;ll work side by side with our experienced Quantitative Researchers to learn how we identify market signals, analyse large datasets, build and test models, and create new trading strategies.&lt;/p&gt;\n&lt;p&gt;At Jane Street, the lines between research, technology, and trading are intentionally blurry, and you’ll have access to petabytes of data, a computing cluster with hundreds of thousands of cores, and a growing GPU cluster containing tens of thousands of high-end GPUs. We don’t believe in “one-size-fits-all” modelling solutions; we are open to and excited about applying all different types of statistical and ML techniques, from linear models to deep learning, depending on what best fits a given problem.&lt;/p&gt;\n&lt;p&gt;You&#39;ll spend the bulk of your internship working closely with full-time researchers on projects drawn from their own work. You&#39;ll gain a better understanding of the diverse array of challenges we consider every day, learning how we think about experiment design, dataset generation, time series analysis, feature engineering, and model building for financial datasets. Your day-to-day project work will be complemented by classes on the broader fundamentals of markets and trading, lunch seminars, and activities designed to help you understand the entire process of creating a new trading strategy, from initial exploration to finding and productionizing a signal.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;h3&gt;About You&lt;/h3&gt;\n&lt;p&gt;If you&#39;ve never thought about a career in finance, you&#39;re in good company. Many of us were in the same position before working here. Most candidates will have experience with data science or machine learning, but ultimately, we&#39;re more interested in how you think and learn than what you currently know. You should be:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Able to apply logical and mathematical thinking to all kinds of problems&lt;/li&gt;\n&lt;li&gt;Intellectually curious; eager to ask questions, admit mistakes, and learn new things&lt;/li&gt;\n&lt;li&gt;A strong programmer who&#39;s comfortable with Python&lt;/li&gt;\n&lt;li&gt;An open-minded thinker and precise communicator who enjoys collaborating with colleagues from a wide range of backgrounds and areas of expertise&lt;/li&gt;\n&lt;li&gt;Fluent in English&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Most interns are current undergraduate or graduate students, but we also welcome applicants who have already graduated and are considering a new career in finance. Research experience is a plus.&lt;/p&gt;\n&lt;p&gt;If you&#39;d like to learn more, you can read about our &lt;a href=&quot;https://www.janestreet.com/join-jane-street/interviewing/#quantitative-research&quot;&gt;interview process&lt;/a&gt; and &lt;a href=&quot;https://www.janestreet.com/join-jane-street/get-to-know-us/&quot;&gt;meet some of the team&lt;/a&gt;. Learn more about Jane Street&#39;s internship program &lt;a href=&quot;https://www.janestreet.com/join-jane-street/internships/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;",
+      "updated_at": "2026-09-28T10:06:09-04:00",
+      "posted_pay_range": null,
+      "tier": "Tier A: Too Hard",
+      "suitability_score": 87,
+      "verdict": "HIGH PRIORITY (Direct Target)",
+      "recommendation": "Immediate Apply (Tailor quantitative resume)",
+      "matched_signals": [
+        "Title match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +45",
+        "Keyword match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +22",
+        "Firm Quality Boost: +20"
+      ],
+      "penalties": [],
+      "estimated_comp": "$400,000 - $700,000+",
+      "comp_benchmark_delta": "Premier Top-of-Market Offer",
+      "priority_tier": "Tier A: Too Hard",
+      "priority_tag": "Pinnacle Target",
+      "industry_sector": "Proprietary Trading & Market Making",
+      "official_careers_url": "https://www.janestreet.com/join-jane-street/open-roles/",
+      "key": "Jane Street::gh_janestreet_8474416002",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-30T01:30:21.227795",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_janestreet_8617344002",
+      "firm_name": "Jane Street",
+      "title": "Quantitative Trader",
+      "location": "New York, New York, United States",
+      "department": "Quantitative Trading",
+      "url": "https://www.janestreet.com/join-jane-street/apply/8617344002?gh_jid=8617344002",
+      "source_ats": "Greenhouse",
+      "description": "&lt;h3&gt;About the Position&lt;/h3&gt;\n&lt;p&gt;Our goals are to give you a real sense of what it&#39;s like to work as a Quantitative Trader at Jane Street while also providing a truly unparalleled educational experience. You&#39;ll be paired with experienced quantitative traders who will teach you how to identify market signals, analyze and execute strategies, construct quantitative models, conduct statistical analysis, and build trading intuition.&lt;/p&gt;\n&lt;p&gt;At Jane Street, the lines between research, technology, and trading are intentionally blurry, and you’ll have access to petabytes of data, a computing cluster with hundreds of thousands of cores, and a growing GPU cluster containing tens of thousands of high-end GPUs. We don&#39;t believe in &quot;one-size-fits-all&quot; modeling solutions; we are open to and excited about applying all different types of statistical and ML techniques, from linear models to deep learning, depending on what best fits a given problem. You&#39;ll work closely with two different mentors on projects relating to their day-to-day work, giving you a sense of the variety of problems we solve every day. Past projects have included analyzing new or existing datasets, training predictive models, simulating potential new trading strategies, writing tools that we use in production, and even working to answer big-picture questions we haven&#39;t yet figured out.&lt;/p&gt;\n&lt;p&gt;During the internship, your work is reinforced with intensive classes, workshops, and team-based mock trading sessions. These will expose you to many of the dynamics we observe in real markets, illustrate the role that we play in making markets more efficient, and help build intuition for how we think about both trading and collaborating.&lt;/p&gt;\n&lt;p&gt;As a quantitative trading intern, you&#39;ll also have the opportunity to participate in one &quot;elective&quot; based on your interests. Electives consist of targeted classes and immersive activities, and are designed to give you a deeper and more nuanced look into one of the many aspects of what quantitative trading can look like at Jane Street:&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Machine Learning, Modeling, and Data Science&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;You&#39;ll learn how Jane Street applies advanced machine learning and statistical techniques to&amp;nbsp;make models and predictions using large datasets of both real and simulated market data. You&#39;ll learn how to train and use a variety of ML models, and gain an understanding of the differences between textbook machine learning and its application to noisy and complex financial data.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Algorithmic Trading and Market Microstructure&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;You&#39;ll learn the end-to-end process of developing an algorithmic trading strategy. You&#39;ll analyze market data to develop a tradable fair value and implement a trading strategy in Python. Your algorithmic strategy will connect directly to simulated markets with different market structures, and you will learn how to optimize your strategy given the unique attributes of each market. You will discover how various market dynamics affect strategy behavior and learn how real-world trading differs from simulation.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Trading Strategy and Scenarios&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;You’ll be introduced to a rotating set of new trading scenarios inspired by real events on a particular trading desk. You’ll work in teams on multiple mock trading sessions related to each scenario and use the time between sessions to refine your strategies, write recaps, and hear how the story played out in real life from our seasoned full-time traders who lived through it.&lt;/p&gt;\n&lt;h3&gt;About You&lt;/h3&gt;\n&lt;p&gt;If you’ve never thought about a career in finance, you’re in good company. Many of us were in the same position before working here. If you have a curious mind, a collaborative spirit, and a passion for solving interesting problems, we have a feeling you’ll fit right in. We’re more interested in how you think and learn than what you currently know. You should be:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;A strong quantitative thinker (no specific degree or major is required)&lt;/li&gt;\n&lt;li&gt;A clear and effective verbal and written communicator&lt;/li&gt;\n&lt;li&gt;Someone who enjoys working collaboratively on a team&lt;/li&gt;\n&lt;li&gt;Eager to ask questions, admit mistakes, and learn new things&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;A profitable trading strategy is only as strong as the technology it runs on, and we consider ourselves as much a technology company as a trading firm. General programming experience is a plus, but knowing a particular programming language is not required.&lt;/p&gt;\n&lt;p&gt;If you’d like to learn more, you can read about our &lt;a href=&quot;https://www.janestreet.com/join-jane-street/interviewing/#quantitative-trading&quot;&gt;interview process&lt;/a&gt; and &lt;a href=&quot;https://www.janestreet.com/join-jane-street/get-to-know-us/&quot;&gt;meet some of the team&lt;/a&gt;. Learn more about Jane Street’s &lt;a href=&quot;https://www.janestreet.com/join-jane-street/internships/&quot;&gt;internship program &lt;/a&gt;here.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;If you&#39;re a recruiting agency and want to partner with us, please reach out to agency-partnerships@janestreet.com.&lt;/em&gt;&lt;/p&gt;",
+      "updated_at": "2026-09-28T10:06:12-04:00",
+      "posted_pay_range": null,
+      "tier": "Tier A: Too Hard",
+      "suitability_score": 87,
+      "verdict": "HIGH PRIORITY (Direct Target)",
+      "recommendation": "Immediate Apply (Tailor quantitative resume)",
+      "matched_signals": [
+        "Title match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +45",
+        "Keyword match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +22",
+        "Firm Quality Boost: +20"
+      ],
+      "penalties": [],
+      "estimated_comp": "$400,000 - $700,000+",
+      "comp_benchmark_delta": "Premier Top-of-Market Offer",
+      "priority_tier": "Tier A: Too Hard",
+      "priority_tag": "Pinnacle Target",
+      "industry_sector": "Proprietary Trading & Market Making",
+      "official_careers_url": "https://www.janestreet.com/join-jane-street/open-roles/",
+      "key": "Jane Street::gh_janestreet_8617344002",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-30T01:30:21.227795",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_janestreet_8623733002",
+      "firm_name": "Jane Street",
+      "title": "Quantitative Trader",
+      "location": "Hong Kong, Hong Kong",
+      "department": "Quantitative Trading",
+      "url": "https://www.janestreet.com/join-jane-street/apply/8623733002?gh_jid=8623733002",
+      "source_ats": "Greenhouse",
+      "description": "&lt;p&gt;&lt;strong&gt;About the position&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Our goals are to give you a real sense of what it&#39;s like to work as a Quantitative Trader at Jane Street while also providing a truly unparalleled educational experience. You&#39;ll be paired with experienced quantitative traders who will teach you how to identify market signals, analyze and execute strategies, construct quantitative models, conduct statistical analysis, and build trading intuition.&lt;/p&gt;\n&lt;p&gt;At Jane Street, the lines between research, technology, and trading are intentionally blurry, and you’ll have access to petabytes of data, a computing cluster with hundreds of thousands of cores, and a growing GPU cluster containing tens of thousands of high-end GPUs. We don&#39;t believe in &quot;one-size-fits-all&quot; modeling solutions; we are open to and excited about applying all different types of statistical and ML techniques, from linear models to deep learning, depending on what best fits a given problem. You&#39;ll work closely with two different mentors on projects relating to their day-to-day work, giving you a sense of the variety of problems we solve every day. Past projects have included analyzing new or existing datasets, training predictive models, simulating potential new trading strategies, writing tools that we use in production, and even working to answer big-picture questions we haven&#39;t yet figured out.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;During the internship, your work is reinforced with intensive classes, workshops, and team-based mock trading sessions. These will expose you to many of the dynamics we observe in real markets, illustrate the role that we play in making markets more efficient, and help build intuition for how we think about both trading and collaborating.&lt;/p&gt;\n&lt;p&gt;As a quantitative trading intern, you’ll also have the opportunity to participate in one &quot;elective&quot; based on your interests. Electives consist of targeted classes and immersive activities, and are designed to give you a deeper and more nuanced look into one of the many aspects of what quantitative trading can look like at Jane Street:&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Machine Learning, Modeling, and Data Science&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;You&#39;ll learn how Jane Street applies advanced machine learning and statistical techniques to make models and predictions using large datasets of both real and simulated market data. You&#39;ll learn how to train and use a variety of ML models, and gain an understanding of the differences between textbook machine learning and its application to noisy and complex financial data.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Algorithmic Trading and Market Microstructure&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;You&#39;ll learn the end-to-end process of developing an algorithmic trading strategy. You&#39;ll analyze market data to develop a tradable fair value and implement a trading strategy in Python. Your algorithmic strategy will connect directly to simulated markets with different market structures, and you will learn how to optimize your strategy given the unique attributes of each market. You will discover how various market dynamics affect strategy behavior and learn how real-world trading differs from simulation.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Trading Strategy and Scenarios&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;You&#39;ll be introduced to a rotating set of new trading scenarios inspired by real events on a particular trading desk. You&#39;ll work in teams on multiple mock trading sessions related to each scenario and use the time between sessions to refine your strategies, write recaps, and hear how the story played out in real life from our seasoned full-time traders who lived through it.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;About you&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;If you&#39;ve never thought about a career in finance, you&#39;re in good company. Many of us were in the same position before working here. If you have a curious mind, a collaborative spirit, and a passion for solving interesting problems, we have a feeling you&#39;ll fit right in. We&#39;re more interested in how you think and learn than what you currently know. You should be:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;A strong quantitative thinker (no specific degree or major is required)&lt;/li&gt;\n&lt;li&gt;A clear and effective verbal and written communicator&lt;/li&gt;\n&lt;li&gt;Someone who enjoys working collaboratively on a team&lt;/li&gt;\n&lt;li&gt;Eager to ask questions, admit mistakes, and learn new things&lt;/li&gt;\n&lt;li&gt;Fluent in English&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;A profitable trading strategy is only as strong as the technology it runs on, and we consider ourselves as much a technology company as a trading firm. General programming experience is a plus, but knowing a particular programming language is not required.&lt;/p&gt;\n&lt;p&gt;If you&#39;d like to learn more, you can read about our &lt;a href=&quot;https://www.janestreet.com/join-jane-street/interviewing/#quantitative-trading&quot;&gt;interview process&lt;/a&gt; and &lt;a href=&quot;https://www.janestreet.com/join-jane-street/get-to-know-us/&quot;&gt;meet some of the team&lt;/a&gt;. Learn more about Jane Street&#39;s internship program &lt;a href=&quot;https://www.janestreet.com/join-jane-street/internships/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;Please note: Jane Street will provide flights to and from Hong Kong as well as accommodation&amp;nbsp;throughout the entirety of the program.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+      "updated_at": "2026-09-28T10:06:12-04:00",
+      "posted_pay_range": null,
+      "tier": "Tier A: Too Hard",
+      "suitability_score": 87,
+      "verdict": "HIGH PRIORITY (Direct Target)",
+      "recommendation": "Immediate Apply (Tailor quantitative resume)",
+      "matched_signals": [
+        "Title match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +45",
+        "Keyword match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +22",
+        "Firm Quality Boost: +20"
+      ],
+      "penalties": [],
+      "estimated_comp": "$400,000 - $700,000+",
+      "comp_benchmark_delta": "Premier Top-of-Market Offer",
+      "priority_tier": "Tier A: Too Hard",
+      "priority_tag": "Pinnacle Target",
+      "industry_sector": "Proprietary Trading & Market Making",
+      "official_careers_url": "https://www.janestreet.com/join-jane-street/open-roles/",
+      "key": "Jane Street::gh_janestreet_8623733002",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-30T01:30:21.227795",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_janestreet_8474407002",
+      "firm_name": "Jane Street",
+      "title": "Quantitative Trader",
+      "location": "London, England, United Kingdom",
+      "department": "Quantitative Trading",
+      "url": "https://www.janestreet.com/join-jane-street/apply/8474407002?gh_jid=8474407002",
+      "source_ats": "Greenhouse",
+      "description": "&lt;h3&gt;About the Position&lt;/h3&gt;\n&lt;p&gt;Our goals are to give you a real sense of what it&#39;s like to work as a Quantitative Trader at Jane Street while also providing a truly unparalleled educational experience. You&#39;ll be paired with experienced quantitative traders who will teach you how to identify market signals, analyse and execute strategies, construct quantitative models, conduct statistical analysis, and build trading intuition.&lt;/p&gt;\n&lt;p&gt;At Jane Street, the lines between research, technology, and trading are intentionally blurry, and you’ll have access to petabytes of data, a computing cluster with hundreds of thousands of cores, and a growing GPU cluster containing tens of thousands of high-end GPUs. We don&#39;t believe in &quot;one-size-fits-all&quot; modelling solutions; we are open to and excited about applying all different types of statistical and ML techniques, from linear models to deep learning, depending on what best fits a given problem. You&#39;ll work closely with two different mentors on projects relating to their day-to-day work, giving you a sense of the variety of problems we solve every day. Past projects have included analysing new or existing datasets, training predictive models, simulating potential new trading strategies, writing tools that we use in production, and even working to answer big-picture questions we haven&#39;t yet figured out.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;During the internship, your work is reinforced with intensive classes, workshops, and team-based mock trading sessions. These will expose you to many of the dynamics we observe in real markets, illustrate the role that we play in making markets more efficient, and help build intuition for how we think about both trading and collaborating.&lt;/p&gt;\n&lt;p&gt;As a quantitative trading intern, you’ll also have the opportunity to participate in one &quot;elective&quot; based on your interests. Electives consist of targeted classes and immersive activities, and are designed to give you a deeper and more nuanced look into one of the many aspects of what quantitative trading can look like at Jane Street:&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Machine Learning, Modelling, and Data Science&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;You&#39;ll learn how Jane Street applies advanced machine learning and statistical techniques to make models and predictions using large datasets of both real and simulated market data. You&#39;ll learn how to train and use a variety of ML models, and gain an understanding of the differences between textbook machine learning and its application to noisy and complex financial data.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Algorithmic Trading and Market Microstructure&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;You&#39;ll learn the end-to-end process of developing an algorithmic trading strategy. You&#39;ll analyse market data to develop a tradable fair value and implement a trading strategy in Python. Your algorithmic strategy will connect directly to simulated markets with different market structures, and you will learn how to optimise your strategy given the unique attributes of each market. You will discover how various market dynamics affect strategy behaviour and learn how real-world trading differs from simulation.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Trading Strategy and Scenarios&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;You&#39;ll be introduced to a rotating set of new trading scenarios inspired by real events on a particular trading desk. You&#39;ll work in teams on multiple mock trading sessions related to each scenario and use the time between sessions to refine your strategies, write recaps, and hear how the story played out in real life from our seasoned full-time traders who lived through it.&lt;/p&gt;\n&lt;h3&gt;About you&lt;/h3&gt;\n&lt;p&gt;If you&#39;ve never thought about a career in finance, you&#39;re in good company. Many of us were in the same position before working here. If you have a curious mind, a collaborative spirit, and a passion for solving interesting problems, we have a feeling you&#39;ll fit right in. We&#39;re more interested in how you think and learn than what you currently know. You should be:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;A strong quantitative thinker (no specific degree or major is required)&lt;/li&gt;\n&lt;li&gt;A clear and effective verbal and written communicator&lt;/li&gt;\n&lt;li&gt;Someone who enjoys working collaboratively on a team&lt;/li&gt;\n&lt;li&gt;Eager to ask questions, admit mistakes, and learn new things&lt;/li&gt;\n&lt;li&gt;Fluent in English&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;A profitable trading strategy is only as strong as the technology it runs on, and we consider ourselves as much a technology company as a trading firm. General programming experience is a plus, but knowing a particular programming language is not required.&lt;/p&gt;\n&lt;p&gt;If you&#39;d like to learn more, you can read about our &lt;a href=&quot;https://www.janestreet.com/join-jane-street/interviewing/#quantitative-trading&quot;&gt;interview process&lt;/a&gt; and &lt;a href=&quot;https://www.janestreet.com/join-jane-street/get-to-know-us/&quot;&gt;meet some of the team&lt;/a&gt;. Learn more about Jane Street&#39;s internship program &lt;a href=&quot;https://www.janestreet.com/join-jane-street/internships/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;",
+      "updated_at": "2026-09-28T10:06:09-04:00",
+      "posted_pay_range": null,
+      "tier": "Tier A: Too Hard",
+      "suitability_score": 87,
+      "verdict": "HIGH PRIORITY (Direct Target)",
+      "recommendation": "Immediate Apply (Tailor quantitative resume)",
+      "matched_signals": [
+        "Title match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +45",
+        "Keyword match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +22",
+        "Firm Quality Boost: +20"
+      ],
+      "penalties": [],
+      "estimated_comp": "$400,000 - $700,000+",
+      "comp_benchmark_delta": "Premier Top-of-Market Offer",
+      "priority_tier": "Tier A: Too Hard",
+      "priority_tag": "Pinnacle Target",
+      "industry_sector": "Proprietary Trading & Market Making",
+      "official_careers_url": "https://www.janestreet.com/join-jane-street/open-roles/",
+      "key": "Jane Street::gh_janestreet_8474407002",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-30T01:30:21.227795",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_janestreet_4839146002",
+      "firm_name": "Jane Street",
+      "title": "Quantitative Trader",
+      "location": "Hong Kong, Hong Kong",
+      "department": "Quantitative Trading",
+      "url": "https://www.janestreet.com/join-jane-street/apply/4839146002?gh_jid=4839146002",
+      "source_ats": "Greenhouse",
+      "description": "&lt;h3&gt;About the Position&lt;/h3&gt;\n&lt;p&gt;Our trading is based on our own proprietary models and on busy days we engage in over a million trades. Traders work in teams to seek out and trade on pricing inefficiencies, develop models, manage risk, investigate new products, and push into new business areas. Experienced Traders teach and oversee the less-experienced. New Traders serve as assistants while they learn the ropes, getting increasing responsibility as they demonstrate their ability to handle it.&lt;/p&gt;\n&lt;p&gt;Technology is at the core of how we approach trading, and we consider ourselves as much a technology company as a trading firm. We use OCaml, a statically-typed functional programming language, as our primary development language, and have the largest team of OCaml Engineers in any industrial setting.&lt;/p&gt;\n&lt;h3&gt;About You&lt;/h3&gt;\n&lt;p&gt;We are looking for people who have a strong quantitative mind and enjoy working collaboratively to solve challenging problems in a practical setting. Prior knowledge of finance or economics is not expected or required. Experience with particular programming languages is also not required, although generally being comfortable programming in your language of choice is a plus. Fluency in English required.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;If you&#39;re a recruiting agency and want to partner with us, please reach out to&amp;nbsp;&lt;/em&gt;&lt;a href=&quot;mailto:agency-partnerships@janestreet.com&quot;&gt;&lt;em&gt;agency-partnerships@janestreet.com&lt;/em&gt;&lt;/a&gt;&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;",
+      "updated_at": "2026-09-28T10:05:57-04:00",
+      "posted_pay_range": null,
+      "tier": "Tier A: Too Hard",
+      "suitability_score": 87,
+      "verdict": "HIGH PRIORITY (Direct Target)",
+      "recommendation": "Immediate Apply (Tailor quantitative resume)",
+      "matched_signals": [
+        "Title match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +45",
+        "Keyword match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +22",
+        "Firm Quality Boost: +20"
+      ],
+      "penalties": [],
+      "estimated_comp": "$400,000 - $700,000+",
+      "comp_benchmark_delta": "Premier Top-of-Market Offer",
+      "priority_tier": "Tier A: Too Hard",
+      "priority_tag": "Pinnacle Target",
+      "industry_sector": "Proprietary Trading & Market Making",
+      "official_careers_url": "https://www.janestreet.com/join-jane-street/open-roles/",
+      "key": "Jane Street::gh_janestreet_4839146002",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-30T01:30:21.227795",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_janestreet_4794171002",
+      "firm_name": "Jane Street",
+      "title": "Quantitative Trader",
+      "location": "New York, New York, United States",
+      "department": "Quantitative Trading",
+      "url": "https://www.janestreet.com/join-jane-street/apply/4794171002?gh_jid=4794171002",
+      "source_ats": "Greenhouse",
+      "description": "&lt;h3&gt;About the Position&lt;/h3&gt;\n&lt;p&gt;Our trading is based on our own proprietary models and on busy days we engage in over a million trades.&amp;nbsp;Traders work in teams to seek out and trade on pricing inefficiencies, develop models, manage risk, investigate new products, and push into new business areas. Experienced traders teach and oversee the less-experienced. New traders serve as assistants while they learn the ropes, getting increasing responsibility as they demonstrate their ability to handle it.&lt;/p&gt;\n&lt;p&gt;Technology is at the core of how we approach trading, and we consider ourselves as much a technology company as a trading firm. We use OCaml, a statically-typed functional programming language, as our primary development language, and have the largest team of OCaml engineers in any industrial setting.&lt;/p&gt;\n&lt;h3&gt;About You&lt;/h3&gt;\n&lt;p&gt;We are looking for people who have a strong quantitative mind and enjoy working collaboratively to solve challenging problems in a practical setting. Prior knowledge of finance or economics is not expected or required. Experience with particular programming languages is also not required, although generally being comfortable programming in your language of choice is a plus.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;If you&#39;re a recruiting agency and want to partner with us, please reach out to&amp;nbsp;&lt;/em&gt;&lt;a href=&quot;mailto:agency-partnerships@janestreet.com&quot;&gt;&lt;em&gt;agency-partnerships@janestreet.com&lt;/em&gt;&lt;/a&gt;&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;",
+      "updated_at": "2026-09-28T10:05:57-04:00",
+      "posted_pay_range": null,
+      "tier": "Tier A: Too Hard",
+      "suitability_score": 87,
+      "verdict": "HIGH PRIORITY (Direct Target)",
+      "recommendation": "Immediate Apply (Tailor quantitative resume)",
+      "matched_signals": [
+        "Title match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +45",
+        "Keyword match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +22",
+        "Firm Quality Boost: +20"
+      ],
+      "penalties": [],
+      "estimated_comp": "$400,000 - $700,000+",
+      "comp_benchmark_delta": "Premier Top-of-Market Offer",
+      "priority_tier": "Tier A: Too Hard",
+      "priority_tag": "Pinnacle Target",
+      "industry_sector": "Proprietary Trading & Market Making",
+      "official_careers_url": "https://www.janestreet.com/join-jane-street/open-roles/",
+      "key": "Jane Street::gh_janestreet_4794171002",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-30T01:30:21.227795",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_janestreet_4273643002",
+      "firm_name": "Jane Street",
+      "title": "Quantitative Trader",
+      "location": "London, England, United Kingdom",
+      "department": "Quantitative Trading",
+      "url": "https://www.janestreet.com/join-jane-street/apply/4273643002?gh_jid=4273643002",
+      "source_ats": "Greenhouse",
+      "description": "&lt;h3&gt;About the Position&lt;/h3&gt;\n&lt;p&gt;Our trading is based on our own proprietary models and on busy days we engage in over a million trades. Traders work in teams to seek out and trade on pricing inefficiencies, develop models, manage risk, investigate new products, and push into new business areas. Experienced Traders teach and oversee the less-experienced. New Traders serve as assistants while they learn the ropes, getting increasing responsibility as they demonstrate their ability to handle it.&lt;/p&gt;\n&lt;p&gt;Technology is at the core of how we approach trading, and we consider ourselves as much a technology company as a trading firm. We use OCaml, a statically-typed functional programming language, as our primary development language, and have the largest team of OCaml Engineers in any industrial setting.&lt;/p&gt;\n&lt;h3&gt;About You&lt;/h3&gt;\n&lt;p&gt;We are looking for people who have a strong quantitative mind and enjoy working collaboratively to solve challenging problems in a practical setting. Prior knowledge of finance or economics is not expected or required. Experience with particular programming languages is also not required, although generally being comfortable programming in your language of choice is a plus. Fluency in English required.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;If you&#39;re a recruiting agency and want to partner with us, please reach out to&amp;nbsp;&lt;/em&gt;&lt;em&gt;agency-partnerships@janestreet.com&lt;/em&gt;&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;",
+      "updated_at": "2026-09-28T10:05:56-04:00",
+      "posted_pay_range": null,
+      "tier": "Tier A: Too Hard",
+      "suitability_score": 87,
+      "verdict": "HIGH PRIORITY (Direct Target)",
+      "recommendation": "Immediate Apply (Tailor quantitative resume)",
+      "matched_signals": [
+        "Title match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +45",
+        "Keyword match '\\bquant(?:itative)?\\s+trad(?:er|ing)\\b': +22",
+        "Firm Quality Boost: +20"
+      ],
+      "penalties": [],
+      "estimated_comp": "$400,000 - $700,000+",
+      "comp_benchmark_delta": "Premier Top-of-Market Offer",
+      "priority_tier": "Tier A: Too Hard",
+      "priority_tag": "Pinnacle Target",
+      "industry_sector": "Proprietary Trading & Market Making",
+      "official_careers_url": "https://www.janestreet.com/join-jane-street/open-roles/",
+      "key": "Jane Street::gh_janestreet_4273643002",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-30T01:30:21.227795",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
       "url_status": 200
     },
     {
@@ -8150,7 +9145,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_7045936002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -8184,7 +9179,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_7045980002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -8218,7 +9213,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_7318012002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -8252,7 +9247,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_7318005002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -8286,7 +9281,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_7045987002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -8320,7 +9315,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_8389431002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -8354,7 +9349,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_7302643002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -8388,7 +9383,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_7864033002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -8422,7 +9417,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_7752293002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -8456,7 +9451,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_7297612002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": "$150,000 - $200,000 / yr",
@@ -8490,7 +9485,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_7297643002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": "$125,000 - 200,000 / yr",
@@ -8524,7 +9519,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_8004302002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -8562,7 +9557,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "AXQ Capital::gh_axq_6010042004",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -8576,7 +9571,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Goldman Sachs Tailored Agent",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "Front-office pricing models, automated market making, structured derivatives risk and electronic execution.",
-      "updated_at": "2026-09-30T05:40:36.470919",
+      "updated_at": "2026-09-30T01:47:50.152808",
       "suitability_score": 85,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -8595,7 +9590,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Goldman Sachs::goldman_sachs_strats_assoc_2027_nyc",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Bulge Bracket & Global Investment Banks",
       "official_careers_url": "https://www.goldmansachs.com/careers/students/",
@@ -8631,7 +9626,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Coinbase::gh_coinbase_7985187",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "FinTech & Elite Tech",
       "posted_pay_range": null,
@@ -8667,7 +9662,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Coinbase::gh_coinbase_8031260",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "FinTech & Elite Tech",
       "posted_pay_range": null,
@@ -8706,7 +9701,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Scale AI::gh_scaleai_4711544005",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -8742,297 +9737,9 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Scale AI::gh_scaleai_4631848005",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
-    },
-    {
-      "job_id": "gh_waymo_7309064",
-      "firm_name": "Waymo",
-      "title": "Machine Learning Engineer / Applied Scientist, Prediction & Planning ",
-      "location": "Mountain View, CA USA; San Francisco, CA USA",
-      "department": "Planner (7LU)",
-      "url": "https://careers.withwaymo.com/jobs?gh_jid=7309064",
-      "source_ats": "Greenhouse",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Waymo is an autonomous driving technology company with the mission to be the world&#39;s most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World&#39;s Most Experienced Driver™—to improve access to mobility while saving thousands of lives now lost to traffic crashes. The Waymo Driver powers Waymo’s fully autonomous ride-hail service and can also be applied to a range of vehicle platforms and product use cases. The Waymo Driver has provided over ten million rider-only trips, enabled by its experience autonomously driving over 100 million miles on public roads and tens of billions in simulation across 15+ U.S. states.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;The Predictive Planning team (PrePlan) develops and deploys state-of-the-art machine learning solutions that predict the future state of the world and plan the Waymo Driver’s behavior. Our mission is to transform Waymo&#39;s unprecedented scale of driving data into robust, generalizable, and performant deep neural networks. These models enable the autonomous vehicle to navigate complex environments safely and efficiently.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;You will:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Design, implement, and evaluate state-of-the-art generative models for autonomous vehicle planning and prediction&lt;/li&gt;\n&lt;li&gt;Develop next-generation, ML-powered systems that enhance the capabilities of the ML driver and accelerate the rapid scaling of Waymo’s business&lt;/li&gt;\n&lt;li&gt;Translate open-ended, real-world driving challenges into well-defined machine learning problems, applying cutting-edge techniques, including foundation models and reinforcement learning&lt;/li&gt;\n&lt;li&gt;Write high-quality, scalable, and thoroughly tested code to bring cutting-edge research into production&lt;/li&gt;\n&lt;li&gt;Partner with world-class researchers, engineers, and product managers to deliver safe and smooth planning behaviors, and publish findings at top-tier academic venues&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;You have:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;PhD in Computer Science, Machine Learning, Robotics, a related technical field, or equivalent practical experience&lt;/li&gt;\n&lt;li&gt;A proven track record of publications in top-tier conferences (e.g., NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, ICRA,&amp;nbsp; IROS, RSS, CoRL, ACL, or EMNLP)&lt;/li&gt;\n&lt;li&gt;Demonstrated impact on the broader ML community through influential research, widely adopted open-source projects, or significant industry contributions&lt;/li&gt;\n&lt;li&gt;Hands-on expertise with modern deep learning frameworks, for example JAX or PyTorch&lt;/li&gt;\n&lt;li&gt;Proficient programming skills in Python and/or C++, coupled with strong analytical and debugging abilities&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;We prefer:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Specialized research experience in deep learning, reinforcement learning, causal reasoning, or foundation models&lt;/li&gt;\n&lt;li&gt;Prior industry experience (e.g. internships) in applied ML research or software development&lt;/li&gt;\n&lt;li&gt;Domain expertise in solving motion planning, prediction, or related robotics problems&lt;/li&gt;\n&lt;li&gt;Hands-on experience deploying, evaluating, and maintaining ML-based systems in real-world, production environments&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;#LI-Hybrid&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The expected base salary range for this full-time position across US locations is listed below. Actual starting pay will be based on job-related factors, including exact work location, experience, relevant training and education, and skill level. Your recruiter can share more about the specific salary range for the role location or, if the role can be performed remote, the specific salary range for your preferred location, during the hiring process.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Waymo employees are also eligible to participate in Waymo’s discretionary annual bonus program, equity incentive plan, and generous Company benefits program, subject to eligibility requirements.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$175,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$215,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
-      "updated_at": "2026-09-21T17:51:40-04:00",
-      "posted_pay_range": null,
-      "tier": "Tier B: Main Focus",
-      "suitability_score": 85,
-      "verdict": "HIGH PRIORITY (Direct Target)",
-      "recommendation": "Immediate Apply (Tailor quantitative resume)",
-      "matched_signals": [
-        "Title match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +35",
-        "Title match '\\bmachine\\s+learning\\b': +12",
-        "Keyword match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +17",
-        "Keyword match '\\bmachine\\s+learning\\b': +6",
-        "Firm Quality Boost: +15"
-      ],
-      "penalties": [],
-      "estimated_comp": "$250,000 - $400,000+",
-      "comp_benchmark_delta": "Significantly Above Benchmark",
-      "priority_tier": "Tier B: Main Focus",
-      "priority_tag": "High Conviction",
-      "industry_sector": "FinTech & Elite Tech",
-      "official_careers_url": "https://waymo.com/careers/",
-      "key": "Waymo::gh_waymo_7309064",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "url_status": 200
-    },
-    {
-      "job_id": "gh_waymo_7905643",
-      "firm_name": "Waymo",
-      "title": "Machine Learning Engineer, Marketplace Pricing",
-      "location": "MountainView, CA, United States  ",
-      "department": "CSI (7LV)",
-      "url": "https://careers.withwaymo.com/jobs?gh_jid=7905643",
-      "source_ats": "Greenhouse",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Waymo is an autonomous driving technology company with the mission to be the world&#39;s most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World&#39;s Most Experienced Driver™—to improve access to mobility while saving thousands of lives now lost to traffic crashes. The Waymo Driver powers Waymo’s fully autonomous ride-hail service and can also be applied to a range of vehicle platforms and product use cases. The Waymo Driver has provided over ten million rider-only trips, enabled by its experience autonomously driving over 100 million miles on public roads and tens of billions in simulation across 15+ U.S. states.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;TaaS (Transportation as a Service) is responsible for building an amazing user experience and business around the Waymo Driver. We are responsible collectively for Growth, Territory Expansion, Service Quality (including pickup, dropoff and routing), Marketplace (pricing, positioning, matching), and Partnerships / B2B(2C) monetization.&lt;/p&gt;\n&lt;p&gt;The Marketplace team builds the core decision systems that keep Waymo running smoothly. They design the algorithms that match riders to vehicles, optimize routing, balance supply and demand, forecast rider demand, and power dynamic pricing. Their work ensures the fleet stays efficient, riders get fast pickups, and the AV network operates safely and profitably across cities.&lt;/p&gt;\n&lt;p&gt;The Pricing team drives Waymo&#39;s revenue and business strategy by developing dynamic pricing algorithms that balance supply and demand in real-time. They build sophisticated models to set pricing, ensuring the service remains competitive and attractive to riders while maximizing fleet utilization and profitability across all operating markets. Their work is critical to navigating the complexities of ride-hailing dynamics, balancing user price sensitivity with operational efficiency.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;You will:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Implement and scale Waymo&#39;s core dynamic pricing engine to drive revenue and business strategy across all operating markets.&lt;/li&gt;\n&lt;li&gt;Develop and deploy sophisticated ML models and optimization algorithms to set real-time pricing that balances supply, demand, and user price sensitivity.&lt;/li&gt;\n&lt;li&gt;Build and maintain infrastructure for pricing experimentation, monitoring, and analysis to ensure service competitiveness and fleet profitability.&lt;/li&gt;\n&lt;li&gt;Partner with product data scientists to productionize innovative pricing models, such as route-specific and session-based pricing solutions.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;You have:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;BS degree in Computer Science or equivalent practical experience&lt;/li&gt;\n&lt;li&gt;4+ years of experience programming in backend coding languages&lt;/li&gt;\n&lt;li&gt;Experience in building backend distributed system&lt;/li&gt;\n&lt;li&gt;Experience in developing &lt;em&gt;machine learning&lt;/em&gt;/optimization infrastructure and pipelines&lt;/li&gt;\n&lt;li&gt;Prior experience building and deploying ML / Optimization models into production environments&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;We prefer:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience in C++&lt;/li&gt;\n&lt;li&gt;MS in Computer Science, or equivalent practical experience&lt;/li&gt;\n&lt;li&gt;Experience in developing low latency, large-scale, user facing distributed systems&lt;/li&gt;\n&lt;li&gt;Experience at another Ride hailing or Marketplace company&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The expected base salary range for this full-time position across US locations is listed below. Actual starting pay will be based on job-related factors, including exact work location, experience, relevant training and education, and skill level. Your recruiter can share more about the specific salary range for the role location or, if the role can be performed remote, the specific salary range for your preferred location, during the hiring process.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Waymo employees are also eligible to participate in Waymo’s discretionary annual bonus program, equity incentive plan, and generous Company benefits program, subject to eligibility requirements.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$175,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$215,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
-      "updated_at": "2026-09-21T17:51:42-04:00",
-      "posted_pay_range": null,
-      "tier": "Tier B: Main Focus",
-      "suitability_score": 85,
-      "verdict": "HIGH PRIORITY (Direct Target)",
-      "recommendation": "Immediate Apply (Tailor quantitative resume)",
-      "matched_signals": [
-        "Title match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +35",
-        "Title match '\\bmachine\\s+learning\\b': +12",
-        "Keyword match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +17",
-        "Keyword match '\\bmachine\\s+learning\\b': +6",
-        "Firm Quality Boost: +15"
-      ],
-      "penalties": [],
-      "estimated_comp": "$250,000 - $400,000+",
-      "comp_benchmark_delta": "Significantly Above Benchmark",
-      "priority_tier": "Tier B: Main Focus",
-      "priority_tag": "High Conviction",
-      "industry_sector": "FinTech & Elite Tech",
-      "official_careers_url": "https://waymo.com/careers/",
-      "key": "Waymo::gh_waymo_7905643",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "url_status": 202
-    },
-    {
-      "job_id": "gh_waymo_8212478",
-      "firm_name": "Waymo",
-      "title": "Machine Learning Engineer, Perception",
-      "location": "Mountain View, CA, USA; San Francisco, CA, USA",
-      "department": "Perception (7LT)",
-      "url": "https://careers.withwaymo.com/jobs?gh_jid=8212478",
-      "source_ats": "Greenhouse",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Waymo is an autonomous driving technology company with the mission to be the world&#39;s most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World&#39;s Most Experienced Driver™—to improve access to mobility while saving thousands of lives now lost to traffic crashes. The Waymo Driver powers Waymo’s fully autonomous ride-hail service and can also be applied to a range of vehicle platforms and product use cases. The Waymo Driver has provided over ten million rider-only trips, enabled by its experience autonomously driving over 100 million miles on public roads and tens of billions in simulation across 15+ U.S. states.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;Waymo is an autonomous driving technology company with the mission to be the world&#39;s most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World&#39;s Most Experienced Driver™— to improve access to mobility while saving thousands of lives now lost to traffic crashes. The Waymo Driver powers Waymo’s fully autonomous ride-hail service and can also be applied to a range of vehicle platforms and product use cases. The Waymo Driver has provided over ten million rider-only trips, enabled by its experience autonomously driving over 100 million miles on public roads and tens of billions in simulation across 15+ U.S. states.&lt;/p&gt;\n&lt;p&gt;Our goal is to improve the Waymo Driver performance by owning the end-to-end driving behavior for various onroad problems clusters. We work with upstream and the downstream teams on developing the ML models and integrating into the Waymo Driver. We have access to millions of miles of driving data from a diverse set of sensors, enabling engineers like you to (1) develop methods for efficiently and continuously learning from large scale real-world data, to (2) develop models and model training at scale, to (3) analyze real-world behavior and develop systems for handling the complexities of interacting with the real-world, and (4) optimize models for our onboard and offboard hardware.&lt;/p&gt;\n&lt;p&gt;In this hybrid role, you will report to a Technical Lead Manager.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;You will:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Own tasks in the ML Driver, take responsibility for task performance, create ML methods and recipes to scale and improve tasks.&lt;/li&gt;\n&lt;li&gt;Analyze behavior of ML systems in real-world application, identify issues and root causes, advise or develop short- and long-term solutions.&lt;/li&gt;\n&lt;li&gt;Develop methods and recipes for distributed fine-tuning enabling multiple developers to simultaneously improve the model, develop methods and recipes to avoid regression against a production system.&lt;/li&gt;\n&lt;li&gt;Monitor ML systems in production, develop methods for automatically detecting issues or regressions, develop AI-aided analysis and debugging tooling.&lt;/li&gt;\n&lt;li&gt;Develop and maintain model evaluation recipes and metrics for measuring and improving performance of pre-trained and fine-tuned models&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;You have:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Bachelors in Computer Science or a similar discipline, or an equivalent amount of deep learning experience&lt;/li&gt;\n&lt;li&gt;3+ years experience in Machine Learning and/or Computer Vision&lt;/li&gt;\n&lt;li&gt;Experience with Python or C++&lt;/li&gt;\n&lt;li&gt;Experience with ML frameworks like PyTorch or JAX&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;We prefer:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;MS or PhD Degree in Machine Learning, Robotics, Computer Science or a similar discipline&lt;/li&gt;\n&lt;li&gt;Publications at top-tier conferences like CVPR, ICCV, ECCV, ICLR, ICML, ICRA, IROS, RSS, NeurIPS, AAAI, IJCV, PAMI&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The expected base salary range for this full-time position across US locations is listed below. Actual starting pay will be based on job-related factors, including exact work location, experience, relevant training and education, and skill level. Your recruiter can share more about the specific salary range for the role location or, if the role can be performed remote, the specific salary range for your preferred location, during the hiring process.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Waymo employees are also eligible to participate in Waymo’s discretionary annual bonus program, equity incentive plan, and generous Company benefits program, subject to eligibility requirements.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$175,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$215,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
-      "updated_at": "2026-09-21T17:51:45-04:00",
-      "posted_pay_range": null,
-      "tier": "Tier B: Main Focus",
-      "suitability_score": 85,
-      "verdict": "HIGH PRIORITY (Direct Target)",
-      "recommendation": "Immediate Apply (Tailor quantitative resume)",
-      "matched_signals": [
-        "Title match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +35",
-        "Title match '\\bmachine\\s+learning\\b': +12",
-        "Keyword match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +17",
-        "Keyword match '\\bmachine\\s+learning\\b': +6",
-        "Firm Quality Boost: +15"
-      ],
-      "penalties": [],
-      "estimated_comp": "$250,000 - $400,000+",
-      "comp_benchmark_delta": "Significantly Above Benchmark",
-      "priority_tier": "Tier B: Main Focus",
-      "priority_tag": "High Conviction",
-      "industry_sector": "FinTech & Elite Tech",
-      "official_careers_url": "https://waymo.com/careers/",
-      "key": "Waymo::gh_waymo_8212478",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "url_status": 202
-    },
-    {
-      "job_id": "gh_waymo_6506689",
-      "firm_name": "Waymo",
-      "title": "Machine Learning Engineer, Prediction & Planning",
-      "location": "Mountain View, CA, USA; San Francisco, CA, USA",
-      "department": "Planner (7LU)",
-      "url": "https://careers.withwaymo.com/jobs?gh_jid=6506689",
-      "source_ats": "Greenhouse",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Waymo is an autonomous driving technology company with the mission to be the world&#39;s most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World&#39;s Most Experienced Driver™—to improve access to mobility while saving thousands of lives now lost to traffic crashes. The Waymo Driver powers Waymo’s fully autonomous ride-hail service and can also be applied to a range of vehicle platforms and product use cases. The Waymo Driver has provided over ten million rider-only trips, enabled by its experience autonomously driving over 100 million miles on public roads and tens of billions in simulation across 15+ U.S. states.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;The Predictive Planning team (PrePlan) develops and deploys state-of-the-art machine learning solutions that predict the future state of the world and plan the Waymo Driver’s behavior. Our mission is to transform Waymo&#39;s unprecedented scale of driving data into robust, generalizable, and performant deep neural networks. These models enable the autonomous vehicle to navigate complex environments safely and efficiently.&lt;/p&gt;\n&lt;p&gt;In this hybrid role, you will report to a manager on our PrePlan team. Team matching happens after you&#39;ve completed your onsite interviews.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;You will:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Develop the next-generation ML-powered prediction and planning system to enhance the performance and capabilities of the ML driver and support the rapid scaling of Waymo’s business.&lt;/li&gt;\n&lt;li&gt;Frame open-ended, real-world challenges as well-defined ML problems; research, develop, and apply cutting-edge ML techniques, including foundation models and reinforcement learning, for the planning and prediction tasks of autonomous vehicles.&lt;/li&gt;\n&lt;li&gt;Collaborate with world-class researchers, engineers and product owners to create safe, smooth planning behaviors for all road users and to meet product requirements.&lt;/li&gt;\n&lt;li&gt;Develop and evaluate large models, and integrate them into Waymo’s production planning software for real-world applications through close partnership with the Planner and Research teams.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;You have:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;BS in Computer Science, ML, Robotics, similar technical field of study&lt;/li&gt;\n&lt;li&gt;2+ years of experience in Machine Learning modeling and/or Autonomous Vehicles&lt;/li&gt;\n&lt;li&gt;Demonstrated contributions to the ML community through publications, open-source projects, or significant industry impact&lt;/li&gt;\n&lt;li&gt;Hands-on experience with modern deep learning libraries (eg: TensorFlow, JAX, Pytorch)&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Proficient programming skills (eg: Python, C/C++)&lt;/li&gt;\n&lt;li&gt;Strong analytical and debugging skills&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;We prefer:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;MS or PhD in Computer Science, Machine Learning, Robotics, or a related field&lt;/li&gt;\n&lt;li&gt;Publications in top-tier conferences such as ICML, NeurIPS,&amp;nbsp; CVPR, ICCV, ECCV, ICLR, IROS, CoRL, ACL, or EMNLP&lt;/li&gt;\n&lt;li&gt;General software engineering experience solving motion planning or related robotics problems&lt;/li&gt;\n&lt;li&gt;Experience applying or evaluating ML-based systems in production environments&lt;/li&gt;\n&lt;li&gt;Experience with performance optimization of deep models, including with respect to specific hardware architectures&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;#LI-Hybrid&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The expected base salary range for this full-time position across US locations is listed below. Actual starting pay will be based on job-related factors, including exact work location, experience, relevant training and education, and skill level. Your recruiter can share more about the specific salary range for the role location or, if the role can be performed remote, the specific salary range for your preferred location, during the hiring process.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Waymo employees are also eligible to participate in Waymo’s discretionary annual bonus program, equity incentive plan, and generous Company benefits program, subject to eligibility requirements.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$175,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$215,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
-      "updated_at": "2026-09-21T17:51:40-04:00",
-      "posted_pay_range": null,
-      "tier": "Tier B: Main Focus",
-      "suitability_score": 85,
-      "verdict": "HIGH PRIORITY (Direct Target)",
-      "recommendation": "Immediate Apply (Tailor quantitative resume)",
-      "matched_signals": [
-        "Title match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +35",
-        "Title match '\\bmachine\\s+learning\\b': +12",
-        "Keyword match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +17",
-        "Keyword match '\\bmachine\\s+learning\\b': +6",
-        "Firm Quality Boost: +15"
-      ],
-      "penalties": [],
-      "estimated_comp": "$250,000 - $400,000+",
-      "comp_benchmark_delta": "Significantly Above Benchmark",
-      "priority_tier": "Tier B: Main Focus",
-      "priority_tag": "High Conviction",
-      "industry_sector": "FinTech & Elite Tech",
-      "official_careers_url": "https://waymo.com/careers/",
-      "key": "Waymo::gh_waymo_6506689",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "url_status": 202
-    },
-    {
-      "job_id": "gh_waymo_6499165",
-      "firm_name": "Waymo",
-      "title": "Machine Learning Engineer, Simulation Realism",
-      "location": "Mountain View, CA, USA",
-      "department": "Simulation (7XW)",
-      "url": "https://careers.withwaymo.com/jobs?gh_jid=6499165",
-      "source_ats": "Greenhouse",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Waymo is an autonomous driving technology company with the mission to be the world&#39;s most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World&#39;s Most Experienced Driver™—to improve access to mobility while saving thousands of lives now lost to traffic crashes. The Waymo Driver powers Waymo’s fully autonomous ride-hail service and can also be applied to a range of vehicle platforms and product use cases. The Waymo Driver has provided over ten million rider-only trips, enabled by its experience autonomously driving over 100 million miles on public roads and tens of billions in simulation across 15+ U.S. states.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;The &lt;strong&gt;Simulator Team&lt;/strong&gt; at Waymo builds state-of-the-art simulations of realistic environments for testing and training the Waymo Driver. Our team is a diverse,, and collaborative group of software engineers, machine learning (ML) engineers, and data scientists. We develop industry-leading simulation solutions using advanced ML algorithms that measure and enhance the performance of the Waymo Driver. By applying machine learning, we model the real world, including realistic agents (vehicles, pedestrians, cyclists, motorcyclists), roads, traffic control systems, and weather conditions.&lt;/p&gt;\n&lt;p&gt;To increase the fidelity and steerability of our simulations, we employ the latest ML technologies such as large foundation models trained on our datasets and diffusion technology. We also invest in capable infrastructure that allows us to quickly set up and roll out multiple scenarios to rigorously test our autonomous driving systems.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;In this hybrid role, you will report to a Senior Engineering Manager&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;You will:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Be part of a world-class applied ML team dedicated to advancing ultra-realistic autonomous vehicle (AV) simulations by leveraging Generative AI technologies.&lt;/li&gt;\n&lt;li&gt;Apply deep domain expertise in ML, especially GenAI, to push the boundaries of simulation realism and autonomous driving capabilities.&lt;/li&gt;\n&lt;li&gt;Independently manage the entire lifecycle of product innovations, from prototyping to productization, scaling simulations and data processing systems.&lt;/li&gt;\n&lt;li&gt;Work within a collaborative applied ML engineering team that transforms research ideas into production-ready solutions.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;You have:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;7+ years experience in applied Deep Learning&lt;/li&gt;\n&lt;li&gt;7+ years coding and design skills&lt;/li&gt;\n&lt;li&gt;7+ years of experience solving complex production problems using state-of-the-art ML techniques&lt;/li&gt;\n&lt;li&gt;7+ years of experience taking research to production&lt;/li&gt;\n&lt;li&gt;Expertise in Data Analysis or Data Science&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;We prefer:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;PhD degree in Computer Science or a similar discipline&lt;/li&gt;\n&lt;li&gt;Direct experience in Generative AI, including multi-modal foundation models and Diffusion models.&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The expected base salary range for this full-time position across US locations is listed below. Actual starting pay will be based on job-related factors, including exact work location, experience, relevant training and education, and skill level. Your recruiter can share more about the specific salary range for the role location or, if the role can be performed remote, the specific salary range for your preferred location, during the hiring process.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Waymo employees are also eligible to participate in Waymo’s discretionary annual bonus program, equity incentive plan, and generous Company benefits program, subject to eligibility requirements.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$213,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$263,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
-      "updated_at": "2026-09-21T17:51:40-04:00",
-      "posted_pay_range": null,
-      "tier": "Tier B: Main Focus",
-      "suitability_score": 85,
-      "verdict": "HIGH PRIORITY (Direct Target)",
-      "recommendation": "Immediate Apply (Tailor quantitative resume)",
-      "matched_signals": [
-        "Title match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +35",
-        "Title match '\\bmachine\\s+learning\\b': +12",
-        "Keyword match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +17",
-        "Keyword match '\\bmachine\\s+learning\\b': +6",
-        "Firm Quality Boost: +15"
-      ],
-      "penalties": [],
-      "estimated_comp": "$250,000 - $400,000+",
-      "comp_benchmark_delta": "Significantly Above Benchmark",
-      "priority_tier": "Tier B: Main Focus",
-      "priority_tag": "High Conviction",
-      "industry_sector": "FinTech & Elite Tech",
-      "official_careers_url": "https://waymo.com/careers/",
-      "key": "Waymo::gh_waymo_6499165",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "url_status": 202
-    },
-    {
-      "job_id": "gh_waymo_6688617",
-      "firm_name": "Waymo",
-      "title": "Machine Learning Engineer, Simulation Realism ",
-      "location": "Mountain View, CA, USA",
-      "department": "Simulation (7XW)",
-      "url": "https://careers.withwaymo.com/jobs?gh_jid=6688617",
-      "source_ats": "Greenhouse",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Waymo is an autonomous driving technology company with the mission to be the world&#39;s most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World&#39;s Most Experienced Driver™—to improve access to mobility while saving thousands of lives now lost to traffic crashes. The Waymo Driver powers Waymo’s fully autonomous ride-hail service and can also be applied to a range of vehicle platforms and product use cases. The Waymo Driver has provided over ten million rider-only trips, enabled by its experience autonomously driving over 100 million miles on public roads and tens of billions in simulation across 15+ U.S. states.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;The Simulator Team at Waymo builds state-of-the-art simulations of realistic environments for testing and training the Waymo Driver. Our team is a diverse and collaborative group of software engineers, machine learning (ML) engineers, and data scientists. We develop industry-leading simulation solutions using advanced ML algorithms that measure and enhance the performance of the Waymo Driver. By applying machine learning, we model the real world, including realistic agents (vehicles, pedestrians, cyclists, motorcyclists), roads, traffic control systems, and weather conditions.&lt;/p&gt;\n&lt;p&gt;To increase the fidelity and steerability of our simulations, we employ the latest ML technologies such as large foundational World Model trained on our datasets, world understanding and reasoning capabilities for tail cases, and reinforcement learning for long term credit assignment. We also invest in capable infrastructure that allows us to quickly set up and roll out multiple counterfactual scenarios to rigorously test our autonomous driving systems.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;In this hybrid role, you will report to a Senior Staff Tech Lead Manager&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;You will:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Drive innovation in ultra-realistic world simulation for autonomous vehicles. You will develop the latest simulation technologies using foundation models for embodied agents.&lt;/li&gt;\n&lt;li&gt;Apply your deep Machine Learning (ML) expertise, in Generative AI (GenAI), to push the boundaries of simulation realism and directly influence the advancement of autonomous driving technology.&lt;/li&gt;\n&lt;li&gt;Work with Waymo&#39;s foundational AI research team to transfer research into scalable and production-ready solutions.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;You have:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;5+ years of experience with ML software engineering&lt;/li&gt;\n&lt;li&gt;5+ years of experience with Python&lt;/li&gt;\n&lt;li&gt;5+ years of ML software experience with machine learning framework including Pytorch, Tensorflow, Jax/Flax ,&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;We prefer:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience working with, creating and/or developing ML models for robotics and/or self driving vehicles&lt;/li&gt;\n&lt;li&gt;Strong C++ in production setting, with experience in integrating ML models in production system&lt;/li&gt;\n&lt;li&gt;Experience in training large scale models on GPU/TPU clusters are strongly preferred&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;#LI-Hybrid&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The expected base salary range for this full-time position across US locations is listed below. Actual starting pay will be based on job-related factors, including exact work location, experience, relevant training and education, and skill level. Your recruiter can share more about the specific salary range for the role location or, if the role can be performed remote, the specific salary range for your preferred location, during the hiring process.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Waymo employees are also eligible to participate in Waymo’s discretionary annual bonus program, equity incentive plan, and generous Company benefits program, subject to eligibility requirements.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$213,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$263,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
-      "updated_at": "2026-09-21T17:51:41-04:00",
-      "posted_pay_range": null,
-      "tier": "Tier B: Main Focus",
-      "suitability_score": 85,
-      "verdict": "HIGH PRIORITY (Direct Target)",
-      "recommendation": "Immediate Apply (Tailor quantitative resume)",
-      "matched_signals": [
-        "Title match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +35",
-        "Title match '\\bmachine\\s+learning\\b': +12",
-        "Keyword match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +17",
-        "Keyword match '\\bmachine\\s+learning\\b': +6",
-        "Firm Quality Boost: +15"
-      ],
-      "penalties": [],
-      "estimated_comp": "$250,000 - $400,000+",
-      "comp_benchmark_delta": "Significantly Above Benchmark",
-      "priority_tier": "Tier B: Main Focus",
-      "priority_tag": "High Conviction",
-      "industry_sector": "FinTech & Elite Tech",
-      "official_careers_url": "https://waymo.com/careers/",
-      "key": "Waymo::gh_waymo_6688617",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "url_status": 200
-    },
-    {
-      "job_id": "gh_waymo_7446279",
-      "firm_name": "Waymo",
-      "title": "Perception Machine Learning Engineer",
-      "location": "Mountain View, CA, USA; San Francisco, CA, USA",
-      "department": "Perception (7LT)",
-      "url": "https://careers.withwaymo.com/jobs?gh_jid=7446279",
-      "source_ats": "Greenhouse",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Waymo is an autonomous driving technology company with the mission to be the world&#39;s most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World&#39;s Most Experienced Driver™—to improve access to mobility while saving thousands of lives now lost to traffic crashes. The Waymo Driver powers Waymo’s fully autonomous ride-hail service and can also be applied to a range of vehicle platforms and product use cases. The Waymo Driver has provided over ten million rider-only trips, enabled by its experience autonomously driving over 100 million miles on public roads and tens of billions in simulation across 15+ U.S. states.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;The Perception team builds the system which learns the spatial-temporal representation and their semantic meanings of the surrounding environment of the autonomously driving vehicle (ADV), i.e., the system that “perceives” the world around the car. We work jointly with downstream teams on the optimization and integration into the Waymo Driver. We conduct our own research to address real-world problems and collaborate with research teams at Alphabet. We have access to millions of miles of driving data from a diverse set of sensors, enabling engineers like you to (1) develop methods for efficiently and continuously learning from large scale real-world data, to (2) develop models and model training at scale, to (3) analyze real-world behavior and develop systems for handling the complexities of interacting with the real-world, and (4) optimize models for our onboard and offboard hardware.&lt;/p&gt;\n&lt;p&gt;In this hybrid role you will report to a Technical Lead Manager.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;You will:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Apply machine learning techniques to build multi-modal sensor fusion architectures and spatial-temporal representation learners for object detection and tracking, occupancy and semantic segmentation, road understanding, etc.&lt;/li&gt;\n&lt;li&gt;Develop scalable recipes for large data, large model training running on Alphabet’s compute infrastructure, create methods and recipes for pre-training and post-training.&lt;/li&gt;\n&lt;li&gt;Develop methods and recipes for distributed fine-tuning enabling multiple developers to simultaneously improve the model, develop methods and recipes to avoid regression against a production system.&lt;/li&gt;\n&lt;li&gt;Develop and maintain model evaluation recipes and metrics for measuring and improving performance of pre-trained and fine-tuned models&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;You have:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Bachelors in Computer Science or a similar discipline, or an equivalent amount of deep learning experience&lt;/li&gt;\n&lt;li&gt;3+ years experience in Machine Learning and/or Computer Vision&lt;/li&gt;\n&lt;li&gt;Experience with Python&lt;/li&gt;\n&lt;li&gt;Experience with ML frameworks like PyTorch or JAX&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;We prefer:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;MS or PhD Degree in Machine Learning, Robotics, Computer Science or a similar discipline&lt;/li&gt;\n&lt;li&gt;Publications at top-tier conferences like CVPR, ICCV, ECCV, ICLR, ICML, ICRA, IROS, RSS, NeurIPS, AAAI, IJCV, PAMI&lt;/li&gt;\n&lt;li&gt;Experience with C++&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The expected base salary range for this full-time position across US locations is listed below. Actual starting pay will be based on job-related factors, including exact work location, experience, relevant training and education, and skill level. Your recruiter can share more about the specific salary range for the role location or, if the role can be performed remote, the specific salary range for your preferred location, during the hiring process.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Waymo employees are also eligible to participate in Waymo’s discretionary annual bonus program, equity incentive plan, and generous Company benefits program, subject to eligibility requirements.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$170,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$216,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
-      "updated_at": "2026-09-21T17:51:41-04:00",
-      "posted_pay_range": null,
-      "tier": "Tier B: Main Focus",
-      "suitability_score": 85,
-      "verdict": "HIGH PRIORITY (Direct Target)",
-      "recommendation": "Immediate Apply (Tailor quantitative resume)",
-      "matched_signals": [
-        "Title match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +35",
-        "Title match '\\bmachine\\s+learning\\b': +12",
-        "Keyword match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +17",
-        "Keyword match '\\bmachine\\s+learning\\b': +6",
-        "Firm Quality Boost: +15"
-      ],
-      "penalties": [],
-      "estimated_comp": "$250,000 - $400,000+",
-      "comp_benchmark_delta": "Significantly Above Benchmark",
-      "priority_tier": "Tier B: Main Focus",
-      "priority_tag": "High Conviction",
-      "industry_sector": "FinTech & Elite Tech",
-      "official_careers_url": "https://waymo.com/careers/",
-      "key": "Waymo::gh_waymo_7446279",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "url_status": 200
-    },
-    {
-      "job_id": "gh_waymo_8127006",
-      "firm_name": "Waymo",
-      "title": "Perception Machine Learning Engineer - Continuous Learning",
-      "location": "Mountain View, CA, USA; San Francisco, CA, USA",
-      "department": "Perception (7LT)",
-      "url": "https://careers.withwaymo.com/jobs?gh_jid=8127006",
-      "source_ats": "Greenhouse",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Waymo is an autonomous driving technology company with the mission to be the world&#39;s most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World&#39;s Most Experienced Driver™—to improve access to mobility while saving thousands of lives now lost to traffic crashes. The Waymo Driver powers Waymo’s fully autonomous ride-hail service and can also be applied to a range of vehicle platforms and product use cases. The Waymo Driver has provided over ten million rider-only trips, enabled by its experience autonomously driving over 100 million miles on public roads and tens of billions in simulation across 15+ U.S. states.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;As a Perception Machine Learning Engineer, you will build the intelligent systems that &quot;see&quot; the world, directly shaping the future of autonomous travel.&lt;/p&gt;\n&lt;p&gt;Within the Perception team, we are tackling some of the most complex, open-ended challenges in autonomous driving. Our models must constantly adapt and improve as our fleet encounters the vast, unpredictable realities of public roads. We are looking for a Machine Learning Engineer to help design and build the automated, closed-loop systems that drive this continuous improvement.&lt;/p&gt;\n&lt;p&gt;In this role, you will be the bridge between model architecture and large-scale data infrastructure. You will leverage active learning and sophisticated data curation strategies to ensure our perception models are always learning from the most informative examples. Crucially, this means managing the entire lifecycle of our data: intelligently selecting novel scenarios from the fleet while continuously pruning our existing corpus to maximize training efficiency.&lt;/p&gt;\n&lt;p&gt;In this hybrid role you will report to a Technical Lead Manager.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;You will:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Architect Infrastructure:&lt;/strong&gt; Design and scale the data pipelines needed to mine, ingest, and manage massive volumes of sensor data from our fleet.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Drive Model Improvement:&lt;/strong&gt; Deploy active learning algorithms to continuously identify and select the most impactful data for training, ensuring our large models continuously adapt to new environments with incremental updates.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Ensure Model Quality: &lt;/strong&gt;Develop methods and recipes for evaluating real-world performance of our models, and detecting regressions in model updates.&amp;nbsp; Develop and maintain ground-truth free performance metrics.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Optimize Data Efficiency:&lt;/strong&gt; Conduct large-scale experiments focused on data balancing, subset selection, and label quality optimization. Lead automated curation strategies—including smart pruning and downsampling—to minimize dataset bloat and maximize compute efficiency.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Solve Long-Tail Challenges:&lt;/strong&gt; Develop robust mining, training and evaluation pipelines for rare, safety-critical real-world scenarios.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Innovate with Model Signals:&lt;/strong&gt; Utilize uncertainty estimation, confidence scores, and embedding space analysis to uncover model blind spots and guide automated data acquisition.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Collaborate Cross-Functionally:&lt;/strong&gt; Work closely with researchers and operations teams to iterate on the end-to-end model development lifecycle.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;You Have:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;A bachelor’s degree in Machine Learning, Robotics, or Computer Science.&lt;br&gt;3+ years of professional experience in Machine Learning and/or Computer Vision.&lt;/li&gt;\n&lt;li&gt;Proven, hands-on experience applying &lt;strong&gt;active learning&lt;/strong&gt; in production environments.&lt;/li&gt;\n&lt;li&gt;Strong expertise in building large-scale ML data pipelines (mining, extraction, auto-labeling, ingestion).&lt;/li&gt;\n&lt;li&gt;Deep understanding of data curation—balancing, core set selection, and sampling—to optimize model performance.&lt;/li&gt;\n&lt;li&gt;Proficiency in Python and deep learning frameworks (PyTorch or JAX).&lt;/li&gt;\n&lt;li&gt;Strong software engineering skills for writing robust, production-ready code.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;We Prefer:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;An advanced degree (MS or PhD) in Machine Learning, Robotics, or Computer Science.&lt;/li&gt;\n&lt;li&gt;A record of publications at top-tier conferences (e.g., CVPR, ICCV, ECCV, ICML, ICLR, NeurIPS, IROS, RSS, AAAI, IJCV, PAMI).&lt;/li&gt;\n&lt;li&gt;Experience with C++&lt;/li&gt;\n&lt;li&gt;Experience building data-centric infrastructure from the ground up to accelerate model iteration cycles.&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The expected base salary range for this full-time position across US locations is listed below. Actual starting pay will be based on job-related factors, including exact work location, experience, relevant training and education, and skill level. Your recruiter can share more about the specific salary range for the role location or, if the role can be performed remote, the specific salary range for your preferred location, during the hiring process.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Waymo employees are also eligible to participate in Waymo’s discretionary annual bonus program, equity incentive plan, and generous Company benefits program, subject to eligibility requirements.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$175,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$215,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
-      "updated_at": "2026-09-21T17:51:44-04:00",
-      "posted_pay_range": null,
-      "tier": "Tier B: Main Focus",
-      "suitability_score": 85,
-      "verdict": "HIGH PRIORITY (Direct Target)",
-      "recommendation": "Immediate Apply (Tailor quantitative resume)",
-      "matched_signals": [
-        "Title match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +35",
-        "Title match '\\bmachine\\s+learning\\b': +12",
-        "Keyword match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +17",
-        "Keyword match '\\bmachine\\s+learning\\b': +6",
-        "Firm Quality Boost: +15"
-      ],
-      "penalties": [],
-      "estimated_comp": "$250,000 - $400,000+",
-      "comp_benchmark_delta": "Significantly Above Benchmark",
-      "priority_tier": "Tier B: Main Focus",
-      "priority_tag": "High Conviction",
-      "industry_sector": "FinTech & Elite Tech",
-      "official_careers_url": "https://waymo.com/careers/",
-      "key": "Waymo::gh_waymo_8127006",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "url_status": 202
     },
     {
       "job_id": "gh_stripe_8014859",
@@ -9063,7 +9770,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Stripe::gh_stripe_8014859",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "FinTech & Elite Tech",
       "posted_pay_range": null,
@@ -9099,7 +9806,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Stripe::gh_stripe_8224915",
       "status": "INACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "FinTech & Elite Tech",
       "posted_pay_range": null,
@@ -9136,13 +9843,301 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Stripe::gh_stripe_8197886",
       "status": "INACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "FinTech & Elite Tech",
       "posted_pay_range": null,
       "official_careers_url": "https://stripe.com/jobs",
       "url_status": 200,
       "inactive_reason": "Redirected to homepage/portal (https://stripe.com/careers/listing/machine-learning-engineer-link/8197886?gh_jid=8197886)"
+    },
+    {
+      "job_id": "gh_waymo_7309064",
+      "firm_name": "Waymo",
+      "title": "Machine Learning Engineer / Applied Scientist, Prediction & Planning ",
+      "location": "Mountain View, CA USA; San Francisco, CA USA",
+      "department": "Planner (7LU)",
+      "url": "https://careers.withwaymo.com/jobs?gh_jid=7309064",
+      "source_ats": "Greenhouse",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Waymo is an autonomous driving technology company with the mission to be the world&#39;s most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World&#39;s Most Experienced Driver™—to improve access to mobility while saving thousands of lives now lost to traffic crashes. The Waymo Driver powers Waymo’s fully autonomous ride-hail service and can also be applied to a range of vehicle platforms and product use cases. The Waymo Driver has provided over ten million rider-only trips, enabled by its experience autonomously driving over 100 million miles on public roads and tens of billions in simulation across 15+ U.S. states.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;The Predictive Planning team (PrePlan) develops and deploys state-of-the-art machine learning solutions that predict the future state of the world and plan the Waymo Driver’s behavior. Our mission is to transform Waymo&#39;s unprecedented scale of driving data into robust, generalizable, and performant deep neural networks. These models enable the autonomous vehicle to navigate complex environments safely and efficiently.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;You will:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Design, implement, and evaluate state-of-the-art generative models for autonomous vehicle planning and prediction&lt;/li&gt;\n&lt;li&gt;Develop next-generation, ML-powered systems that enhance the capabilities of the ML driver and accelerate the rapid scaling of Waymo’s business&lt;/li&gt;\n&lt;li&gt;Translate open-ended, real-world driving challenges into well-defined machine learning problems, applying cutting-edge techniques, including foundation models and reinforcement learning&lt;/li&gt;\n&lt;li&gt;Write high-quality, scalable, and thoroughly tested code to bring cutting-edge research into production&lt;/li&gt;\n&lt;li&gt;Partner with world-class researchers, engineers, and product managers to deliver safe and smooth planning behaviors, and publish findings at top-tier academic venues&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;You have:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;PhD in Computer Science, Machine Learning, Robotics, a related technical field, or equivalent practical experience&lt;/li&gt;\n&lt;li&gt;A proven track record of publications in top-tier conferences (e.g., NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, ICRA,&amp;nbsp; IROS, RSS, CoRL, ACL, or EMNLP)&lt;/li&gt;\n&lt;li&gt;Demonstrated impact on the broader ML community through influential research, widely adopted open-source projects, or significant industry contributions&lt;/li&gt;\n&lt;li&gt;Hands-on expertise with modern deep learning frameworks, for example JAX or PyTorch&lt;/li&gt;\n&lt;li&gt;Proficient programming skills in Python and/or C++, coupled with strong analytical and debugging abilities&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;We prefer:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Specialized research experience in deep learning, reinforcement learning, causal reasoning, or foundation models&lt;/li&gt;\n&lt;li&gt;Prior industry experience (e.g. internships) in applied ML research or software development&lt;/li&gt;\n&lt;li&gt;Domain expertise in solving motion planning, prediction, or related robotics problems&lt;/li&gt;\n&lt;li&gt;Hands-on experience deploying, evaluating, and maintaining ML-based systems in real-world, production environments&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;#LI-Hybrid&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The expected base salary range for this full-time position across US locations is listed below. Actual starting pay will be based on job-related factors, including exact work location, experience, relevant training and education, and skill level. Your recruiter can share more about the specific salary range for the role location or, if the role can be performed remote, the specific salary range for your preferred location, during the hiring process.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Waymo employees are also eligible to participate in Waymo’s discretionary annual bonus program, equity incentive plan, and generous Company benefits program, subject to eligibility requirements.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$175,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$215,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+      "updated_at": "2026-09-21T17:51:40-04:00",
+      "posted_pay_range": null,
+      "tier": "Tier B: Main Focus",
+      "suitability_score": 85,
+      "verdict": "HIGH PRIORITY (Direct Target)",
+      "recommendation": "Immediate Apply (Tailor quantitative resume)",
+      "matched_signals": [
+        "Title match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +35",
+        "Title match '\\bmachine\\s+learning\\b': +12",
+        "Keyword match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +17",
+        "Keyword match '\\bmachine\\s+learning\\b': +6",
+        "Firm Quality Boost: +15"
+      ],
+      "penalties": [],
+      "estimated_comp": "$250,000 - $400,000+",
+      "comp_benchmark_delta": "Significantly Above Benchmark",
+      "priority_tier": "Tier B: Main Focus",
+      "priority_tag": "High Conviction",
+      "industry_sector": "FinTech & Elite Tech",
+      "official_careers_url": "https://waymo.com/careers/",
+      "key": "Waymo::gh_waymo_7309064",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-30T01:30:21.227795",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "url_status": 202
+    },
+    {
+      "job_id": "gh_waymo_7905643",
+      "firm_name": "Waymo",
+      "title": "Machine Learning Engineer, Marketplace Pricing",
+      "location": "MountainView, CA, United States  ",
+      "department": "CSI (7LV)",
+      "url": "https://careers.withwaymo.com/jobs?gh_jid=7905643",
+      "source_ats": "Greenhouse",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Waymo is an autonomous driving technology company with the mission to be the world&#39;s most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World&#39;s Most Experienced Driver™—to improve access to mobility while saving thousands of lives now lost to traffic crashes. The Waymo Driver powers Waymo’s fully autonomous ride-hail service and can also be applied to a range of vehicle platforms and product use cases. The Waymo Driver has provided over ten million rider-only trips, enabled by its experience autonomously driving over 100 million miles on public roads and tens of billions in simulation across 15+ U.S. states.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;TaaS (Transportation as a Service) is responsible for building an amazing user experience and business around the Waymo Driver. We are responsible collectively for Growth, Territory Expansion, Service Quality (including pickup, dropoff and routing), Marketplace (pricing, positioning, matching), and Partnerships / B2B(2C) monetization.&lt;/p&gt;\n&lt;p&gt;The Marketplace team builds the core decision systems that keep Waymo running smoothly. They design the algorithms that match riders to vehicles, optimize routing, balance supply and demand, forecast rider demand, and power dynamic pricing. Their work ensures the fleet stays efficient, riders get fast pickups, and the AV network operates safely and profitably across cities.&lt;/p&gt;\n&lt;p&gt;The Pricing team drives Waymo&#39;s revenue and business strategy by developing dynamic pricing algorithms that balance supply and demand in real-time. They build sophisticated models to set pricing, ensuring the service remains competitive and attractive to riders while maximizing fleet utilization and profitability across all operating markets. Their work is critical to navigating the complexities of ride-hailing dynamics, balancing user price sensitivity with operational efficiency.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;You will:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Implement and scale Waymo&#39;s core dynamic pricing engine to drive revenue and business strategy across all operating markets.&lt;/li&gt;\n&lt;li&gt;Develop and deploy sophisticated ML models and optimization algorithms to set real-time pricing that balances supply, demand, and user price sensitivity.&lt;/li&gt;\n&lt;li&gt;Build and maintain infrastructure for pricing experimentation, monitoring, and analysis to ensure service competitiveness and fleet profitability.&lt;/li&gt;\n&lt;li&gt;Partner with product data scientists to productionize innovative pricing models, such as route-specific and session-based pricing solutions.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;You have:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;BS degree in Computer Science or equivalent practical experience&lt;/li&gt;\n&lt;li&gt;4+ years of experience programming in backend coding languages&lt;/li&gt;\n&lt;li&gt;Experience in building backend distributed system&lt;/li&gt;\n&lt;li&gt;Experience in developing &lt;em&gt;machine learning&lt;/em&gt;/optimization infrastructure and pipelines&lt;/li&gt;\n&lt;li&gt;Prior experience building and deploying ML / Optimization models into production environments&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;We prefer:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience in C++&lt;/li&gt;\n&lt;li&gt;MS in Computer Science, or equivalent practical experience&lt;/li&gt;\n&lt;li&gt;Experience in developing low latency, large-scale, user facing distributed systems&lt;/li&gt;\n&lt;li&gt;Experience at another Ride hailing or Marketplace company&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The expected base salary range for this full-time position across US locations is listed below. Actual starting pay will be based on job-related factors, including exact work location, experience, relevant training and education, and skill level. Your recruiter can share more about the specific salary range for the role location or, if the role can be performed remote, the specific salary range for your preferred location, during the hiring process.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Waymo employees are also eligible to participate in Waymo’s discretionary annual bonus program, equity incentive plan, and generous Company benefits program, subject to eligibility requirements.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$175,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$215,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+      "updated_at": "2026-09-21T17:51:42-04:00",
+      "posted_pay_range": null,
+      "tier": "Tier B: Main Focus",
+      "suitability_score": 85,
+      "verdict": "HIGH PRIORITY (Direct Target)",
+      "recommendation": "Immediate Apply (Tailor quantitative resume)",
+      "matched_signals": [
+        "Title match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +35",
+        "Title match '\\bmachine\\s+learning\\b': +12",
+        "Keyword match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +17",
+        "Keyword match '\\bmachine\\s+learning\\b': +6",
+        "Firm Quality Boost: +15"
+      ],
+      "penalties": [],
+      "estimated_comp": "$250,000 - $400,000+",
+      "comp_benchmark_delta": "Significantly Above Benchmark",
+      "priority_tier": "Tier B: Main Focus",
+      "priority_tag": "High Conviction",
+      "industry_sector": "FinTech & Elite Tech",
+      "official_careers_url": "https://waymo.com/careers/",
+      "key": "Waymo::gh_waymo_7905643",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-30T01:30:21.227795",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "url_status": 202
+    },
+    {
+      "job_id": "gh_waymo_8212478",
+      "firm_name": "Waymo",
+      "title": "Machine Learning Engineer, Perception",
+      "location": "Mountain View, CA, USA; San Francisco, CA, USA",
+      "department": "Perception (7LT)",
+      "url": "https://careers.withwaymo.com/jobs?gh_jid=8212478",
+      "source_ats": "Greenhouse",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Waymo is an autonomous driving technology company with the mission to be the world&#39;s most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World&#39;s Most Experienced Driver™—to improve access to mobility while saving thousands of lives now lost to traffic crashes. The Waymo Driver powers Waymo’s fully autonomous ride-hail service and can also be applied to a range of vehicle platforms and product use cases. The Waymo Driver has provided over ten million rider-only trips, enabled by its experience autonomously driving over 100 million miles on public roads and tens of billions in simulation across 15+ U.S. states.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;Waymo is an autonomous driving technology company with the mission to be the world&#39;s most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World&#39;s Most Experienced Driver™— to improve access to mobility while saving thousands of lives now lost to traffic crashes. The Waymo Driver powers Waymo’s fully autonomous ride-hail service and can also be applied to a range of vehicle platforms and product use cases. The Waymo Driver has provided over ten million rider-only trips, enabled by its experience autonomously driving over 100 million miles on public roads and tens of billions in simulation across 15+ U.S. states.&lt;/p&gt;\n&lt;p&gt;Our goal is to improve the Waymo Driver performance by owning the end-to-end driving behavior for various onroad problems clusters. We work with upstream and the downstream teams on developing the ML models and integrating into the Waymo Driver. We have access to millions of miles of driving data from a diverse set of sensors, enabling engineers like you to (1) develop methods for efficiently and continuously learning from large scale real-world data, to (2) develop models and model training at scale, to (3) analyze real-world behavior and develop systems for handling the complexities of interacting with the real-world, and (4) optimize models for our onboard and offboard hardware.&lt;/p&gt;\n&lt;p&gt;In this hybrid role, you will report to a Technical Lead Manager.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;You will:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Own tasks in the ML Driver, take responsibility for task performance, create ML methods and recipes to scale and improve tasks.&lt;/li&gt;\n&lt;li&gt;Analyze behavior of ML systems in real-world application, identify issues and root causes, advise or develop short- and long-term solutions.&lt;/li&gt;\n&lt;li&gt;Develop methods and recipes for distributed fine-tuning enabling multiple developers to simultaneously improve the model, develop methods and recipes to avoid regression against a production system.&lt;/li&gt;\n&lt;li&gt;Monitor ML systems in production, develop methods for automatically detecting issues or regressions, develop AI-aided analysis and debugging tooling.&lt;/li&gt;\n&lt;li&gt;Develop and maintain model evaluation recipes and metrics for measuring and improving performance of pre-trained and fine-tuned models&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;You have:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Bachelors in Computer Science or a similar discipline, or an equivalent amount of deep learning experience&lt;/li&gt;\n&lt;li&gt;3+ years experience in Machine Learning and/or Computer Vision&lt;/li&gt;\n&lt;li&gt;Experience with Python or C++&lt;/li&gt;\n&lt;li&gt;Experience with ML frameworks like PyTorch or JAX&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;We prefer:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;MS or PhD Degree in Machine Learning, Robotics, Computer Science or a similar discipline&lt;/li&gt;\n&lt;li&gt;Publications at top-tier conferences like CVPR, ICCV, ECCV, ICLR, ICML, ICRA, IROS, RSS, NeurIPS, AAAI, IJCV, PAMI&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The expected base salary range for this full-time position across US locations is listed below. Actual starting pay will be based on job-related factors, including exact work location, experience, relevant training and education, and skill level. Your recruiter can share more about the specific salary range for the role location or, if the role can be performed remote, the specific salary range for your preferred location, during the hiring process.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Waymo employees are also eligible to participate in Waymo’s discretionary annual bonus program, equity incentive plan, and generous Company benefits program, subject to eligibility requirements.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$175,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$215,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+      "updated_at": "2026-09-21T17:51:45-04:00",
+      "posted_pay_range": null,
+      "tier": "Tier B: Main Focus",
+      "suitability_score": 85,
+      "verdict": "HIGH PRIORITY (Direct Target)",
+      "recommendation": "Immediate Apply (Tailor quantitative resume)",
+      "matched_signals": [
+        "Title match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +35",
+        "Title match '\\bmachine\\s+learning\\b': +12",
+        "Keyword match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +17",
+        "Keyword match '\\bmachine\\s+learning\\b': +6",
+        "Firm Quality Boost: +15"
+      ],
+      "penalties": [],
+      "estimated_comp": "$250,000 - $400,000+",
+      "comp_benchmark_delta": "Significantly Above Benchmark",
+      "priority_tier": "Tier B: Main Focus",
+      "priority_tag": "High Conviction",
+      "industry_sector": "FinTech & Elite Tech",
+      "official_careers_url": "https://waymo.com/careers/",
+      "key": "Waymo::gh_waymo_8212478",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-30T01:30:21.227795",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "url_status": 202
+    },
+    {
+      "job_id": "gh_waymo_6506689",
+      "firm_name": "Waymo",
+      "title": "Machine Learning Engineer, Prediction & Planning",
+      "location": "Mountain View, CA, USA; San Francisco, CA, USA",
+      "department": "Planner (7LU)",
+      "url": "https://careers.withwaymo.com/jobs?gh_jid=6506689",
+      "source_ats": "Greenhouse",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Waymo is an autonomous driving technology company with the mission to be the world&#39;s most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World&#39;s Most Experienced Driver™—to improve access to mobility while saving thousands of lives now lost to traffic crashes. The Waymo Driver powers Waymo’s fully autonomous ride-hail service and can also be applied to a range of vehicle platforms and product use cases. The Waymo Driver has provided over ten million rider-only trips, enabled by its experience autonomously driving over 100 million miles on public roads and tens of billions in simulation across 15+ U.S. states.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;The Predictive Planning team (PrePlan) develops and deploys state-of-the-art machine learning solutions that predict the future state of the world and plan the Waymo Driver’s behavior. Our mission is to transform Waymo&#39;s unprecedented scale of driving data into robust, generalizable, and performant deep neural networks. These models enable the autonomous vehicle to navigate complex environments safely and efficiently.&lt;/p&gt;\n&lt;p&gt;In this hybrid role, you will report to a manager on our PrePlan team. Team matching happens after you&#39;ve completed your onsite interviews.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;You will:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Develop the next-generation ML-powered prediction and planning system to enhance the performance and capabilities of the ML driver and support the rapid scaling of Waymo’s business.&lt;/li&gt;\n&lt;li&gt;Frame open-ended, real-world challenges as well-defined ML problems; research, develop, and apply cutting-edge ML techniques, including foundation models and reinforcement learning, for the planning and prediction tasks of autonomous vehicles.&lt;/li&gt;\n&lt;li&gt;Collaborate with world-class researchers, engineers and product owners to create safe, smooth planning behaviors for all road users and to meet product requirements.&lt;/li&gt;\n&lt;li&gt;Develop and evaluate large models, and integrate them into Waymo’s production planning software for real-world applications through close partnership with the Planner and Research teams.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;You have:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;BS in Computer Science, ML, Robotics, similar technical field of study&lt;/li&gt;\n&lt;li&gt;2+ years of experience in Machine Learning modeling and/or Autonomous Vehicles&lt;/li&gt;\n&lt;li&gt;Demonstrated contributions to the ML community through publications, open-source projects, or significant industry impact&lt;/li&gt;\n&lt;li&gt;Hands-on experience with modern deep learning libraries (eg: TensorFlow, JAX, Pytorch)&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Proficient programming skills (eg: Python, C/C++)&lt;/li&gt;\n&lt;li&gt;Strong analytical and debugging skills&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;We prefer:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;MS or PhD in Computer Science, Machine Learning, Robotics, or a related field&lt;/li&gt;\n&lt;li&gt;Publications in top-tier conferences such as ICML, NeurIPS,&amp;nbsp; CVPR, ICCV, ECCV, ICLR, IROS, CoRL, ACL, or EMNLP&lt;/li&gt;\n&lt;li&gt;General software engineering experience solving motion planning or related robotics problems&lt;/li&gt;\n&lt;li&gt;Experience applying or evaluating ML-based systems in production environments&lt;/li&gt;\n&lt;li&gt;Experience with performance optimization of deep models, including with respect to specific hardware architectures&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;#LI-Hybrid&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The expected base salary range for this full-time position across US locations is listed below. Actual starting pay will be based on job-related factors, including exact work location, experience, relevant training and education, and skill level. Your recruiter can share more about the specific salary range for the role location or, if the role can be performed remote, the specific salary range for your preferred location, during the hiring process.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Waymo employees are also eligible to participate in Waymo’s discretionary annual bonus program, equity incentive plan, and generous Company benefits program, subject to eligibility requirements.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$175,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$215,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+      "updated_at": "2026-09-21T17:51:40-04:00",
+      "posted_pay_range": null,
+      "tier": "Tier B: Main Focus",
+      "suitability_score": 85,
+      "verdict": "HIGH PRIORITY (Direct Target)",
+      "recommendation": "Immediate Apply (Tailor quantitative resume)",
+      "matched_signals": [
+        "Title match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +35",
+        "Title match '\\bmachine\\s+learning\\b': +12",
+        "Keyword match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +17",
+        "Keyword match '\\bmachine\\s+learning\\b': +6",
+        "Firm Quality Boost: +15"
+      ],
+      "penalties": [],
+      "estimated_comp": "$250,000 - $400,000+",
+      "comp_benchmark_delta": "Significantly Above Benchmark",
+      "priority_tier": "Tier B: Main Focus",
+      "priority_tag": "High Conviction",
+      "industry_sector": "FinTech & Elite Tech",
+      "official_careers_url": "https://waymo.com/careers/",
+      "key": "Waymo::gh_waymo_6506689",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-30T01:30:21.227795",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_waymo_6499165",
+      "firm_name": "Waymo",
+      "title": "Machine Learning Engineer, Simulation Realism",
+      "location": "Mountain View, CA, USA",
+      "department": "Simulation (7XW)",
+      "url": "https://careers.withwaymo.com/jobs?gh_jid=6499165",
+      "source_ats": "Greenhouse",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Waymo is an autonomous driving technology company with the mission to be the world&#39;s most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World&#39;s Most Experienced Driver™—to improve access to mobility while saving thousands of lives now lost to traffic crashes. The Waymo Driver powers Waymo’s fully autonomous ride-hail service and can also be applied to a range of vehicle platforms and product use cases. The Waymo Driver has provided over ten million rider-only trips, enabled by its experience autonomously driving over 100 million miles on public roads and tens of billions in simulation across 15+ U.S. states.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;The &lt;strong&gt;Simulator Team&lt;/strong&gt; at Waymo builds state-of-the-art simulations of realistic environments for testing and training the Waymo Driver. Our team is a diverse,, and collaborative group of software engineers, machine learning (ML) engineers, and data scientists. We develop industry-leading simulation solutions using advanced ML algorithms that measure and enhance the performance of the Waymo Driver. By applying machine learning, we model the real world, including realistic agents (vehicles, pedestrians, cyclists, motorcyclists), roads, traffic control systems, and weather conditions.&lt;/p&gt;\n&lt;p&gt;To increase the fidelity and steerability of our simulations, we employ the latest ML technologies such as large foundation models trained on our datasets and diffusion technology. We also invest in capable infrastructure that allows us to quickly set up and roll out multiple scenarios to rigorously test our autonomous driving systems.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;In this hybrid role, you will report to a Senior Engineering Manager&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;You will:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Be part of a world-class applied ML team dedicated to advancing ultra-realistic autonomous vehicle (AV) simulations by leveraging Generative AI technologies.&lt;/li&gt;\n&lt;li&gt;Apply deep domain expertise in ML, especially GenAI, to push the boundaries of simulation realism and autonomous driving capabilities.&lt;/li&gt;\n&lt;li&gt;Independently manage the entire lifecycle of product innovations, from prototyping to productization, scaling simulations and data processing systems.&lt;/li&gt;\n&lt;li&gt;Work within a collaborative applied ML engineering team that transforms research ideas into production-ready solutions.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;You have:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;7+ years experience in applied Deep Learning&lt;/li&gt;\n&lt;li&gt;7+ years coding and design skills&lt;/li&gt;\n&lt;li&gt;7+ years of experience solving complex production problems using state-of-the-art ML techniques&lt;/li&gt;\n&lt;li&gt;7+ years of experience taking research to production&lt;/li&gt;\n&lt;li&gt;Expertise in Data Analysis or Data Science&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;We prefer:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;PhD degree in Computer Science or a similar discipline&lt;/li&gt;\n&lt;li&gt;Direct experience in Generative AI, including multi-modal foundation models and Diffusion models.&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The expected base salary range for this full-time position across US locations is listed below. Actual starting pay will be based on job-related factors, including exact work location, experience, relevant training and education, and skill level. Your recruiter can share more about the specific salary range for the role location or, if the role can be performed remote, the specific salary range for your preferred location, during the hiring process.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Waymo employees are also eligible to participate in Waymo’s discretionary annual bonus program, equity incentive plan, and generous Company benefits program, subject to eligibility requirements.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$213,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$263,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+      "updated_at": "2026-09-21T17:51:40-04:00",
+      "posted_pay_range": null,
+      "tier": "Tier B: Main Focus",
+      "suitability_score": 85,
+      "verdict": "HIGH PRIORITY (Direct Target)",
+      "recommendation": "Immediate Apply (Tailor quantitative resume)",
+      "matched_signals": [
+        "Title match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +35",
+        "Title match '\\bmachine\\s+learning\\b': +12",
+        "Keyword match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +17",
+        "Keyword match '\\bmachine\\s+learning\\b': +6",
+        "Firm Quality Boost: +15"
+      ],
+      "penalties": [],
+      "estimated_comp": "$250,000 - $400,000+",
+      "comp_benchmark_delta": "Significantly Above Benchmark",
+      "priority_tier": "Tier B: Main Focus",
+      "priority_tag": "High Conviction",
+      "industry_sector": "FinTech & Elite Tech",
+      "official_careers_url": "https://waymo.com/careers/",
+      "key": "Waymo::gh_waymo_6499165",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-30T01:30:21.227795",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "url_status": 202
+    },
+    {
+      "job_id": "gh_waymo_6688617",
+      "firm_name": "Waymo",
+      "title": "Machine Learning Engineer, Simulation Realism ",
+      "location": "Mountain View, CA, USA",
+      "department": "Simulation (7XW)",
+      "url": "https://careers.withwaymo.com/jobs?gh_jid=6688617",
+      "source_ats": "Greenhouse",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Waymo is an autonomous driving technology company with the mission to be the world&#39;s most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World&#39;s Most Experienced Driver™—to improve access to mobility while saving thousands of lives now lost to traffic crashes. The Waymo Driver powers Waymo’s fully autonomous ride-hail service and can also be applied to a range of vehicle platforms and product use cases. The Waymo Driver has provided over ten million rider-only trips, enabled by its experience autonomously driving over 100 million miles on public roads and tens of billions in simulation across 15+ U.S. states.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;The Simulator Team at Waymo builds state-of-the-art simulations of realistic environments for testing and training the Waymo Driver. Our team is a diverse and collaborative group of software engineers, machine learning (ML) engineers, and data scientists. We develop industry-leading simulation solutions using advanced ML algorithms that measure and enhance the performance of the Waymo Driver. By applying machine learning, we model the real world, including realistic agents (vehicles, pedestrians, cyclists, motorcyclists), roads, traffic control systems, and weather conditions.&lt;/p&gt;\n&lt;p&gt;To increase the fidelity and steerability of our simulations, we employ the latest ML technologies such as large foundational World Model trained on our datasets, world understanding and reasoning capabilities for tail cases, and reinforcement learning for long term credit assignment. We also invest in capable infrastructure that allows us to quickly set up and roll out multiple counterfactual scenarios to rigorously test our autonomous driving systems.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;In this hybrid role, you will report to a Senior Staff Tech Lead Manager&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;You will:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Drive innovation in ultra-realistic world simulation for autonomous vehicles. You will develop the latest simulation technologies using foundation models for embodied agents.&lt;/li&gt;\n&lt;li&gt;Apply your deep Machine Learning (ML) expertise, in Generative AI (GenAI), to push the boundaries of simulation realism and directly influence the advancement of autonomous driving technology.&lt;/li&gt;\n&lt;li&gt;Work with Waymo&#39;s foundational AI research team to transfer research into scalable and production-ready solutions.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;You have:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;5+ years of experience with ML software engineering&lt;/li&gt;\n&lt;li&gt;5+ years of experience with Python&lt;/li&gt;\n&lt;li&gt;5+ years of ML software experience with machine learning framework including Pytorch, Tensorflow, Jax/Flax ,&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;We prefer:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience working with, creating and/or developing ML models for robotics and/or self driving vehicles&lt;/li&gt;\n&lt;li&gt;Strong C++ in production setting, with experience in integrating ML models in production system&lt;/li&gt;\n&lt;li&gt;Experience in training large scale models on GPU/TPU clusters are strongly preferred&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;#LI-Hybrid&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The expected base salary range for this full-time position across US locations is listed below. Actual starting pay will be based on job-related factors, including exact work location, experience, relevant training and education, and skill level. Your recruiter can share more about the specific salary range for the role location or, if the role can be performed remote, the specific salary range for your preferred location, during the hiring process.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Waymo employees are also eligible to participate in Waymo’s discretionary annual bonus program, equity incentive plan, and generous Company benefits program, subject to eligibility requirements.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$213,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$263,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+      "updated_at": "2026-09-21T17:51:41-04:00",
+      "posted_pay_range": null,
+      "tier": "Tier B: Main Focus",
+      "suitability_score": 85,
+      "verdict": "HIGH PRIORITY (Direct Target)",
+      "recommendation": "Immediate Apply (Tailor quantitative resume)",
+      "matched_signals": [
+        "Title match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +35",
+        "Title match '\\bmachine\\s+learning\\b': +12",
+        "Keyword match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +17",
+        "Keyword match '\\bmachine\\s+learning\\b': +6",
+        "Firm Quality Boost: +15"
+      ],
+      "penalties": [],
+      "estimated_comp": "$250,000 - $400,000+",
+      "comp_benchmark_delta": "Significantly Above Benchmark",
+      "priority_tier": "Tier B: Main Focus",
+      "priority_tag": "High Conviction",
+      "industry_sector": "FinTech & Elite Tech",
+      "official_careers_url": "https://waymo.com/careers/",
+      "key": "Waymo::gh_waymo_6688617",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-30T01:30:21.227795",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "url_status": 202
+    },
+    {
+      "job_id": "gh_waymo_7446279",
+      "firm_name": "Waymo",
+      "title": "Perception Machine Learning Engineer",
+      "location": "Mountain View, CA, USA; San Francisco, CA, USA",
+      "department": "Perception (7LT)",
+      "url": "https://careers.withwaymo.com/jobs?gh_jid=7446279",
+      "source_ats": "Greenhouse",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Waymo is an autonomous driving technology company with the mission to be the world&#39;s most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World&#39;s Most Experienced Driver™—to improve access to mobility while saving thousands of lives now lost to traffic crashes. The Waymo Driver powers Waymo’s fully autonomous ride-hail service and can also be applied to a range of vehicle platforms and product use cases. The Waymo Driver has provided over ten million rider-only trips, enabled by its experience autonomously driving over 100 million miles on public roads and tens of billions in simulation across 15+ U.S. states.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;The Perception team builds the system which learns the spatial-temporal representation and their semantic meanings of the surrounding environment of the autonomously driving vehicle (ADV), i.e., the system that “perceives” the world around the car. We work jointly with downstream teams on the optimization and integration into the Waymo Driver. We conduct our own research to address real-world problems and collaborate with research teams at Alphabet. We have access to millions of miles of driving data from a diverse set of sensors, enabling engineers like you to (1) develop methods for efficiently and continuously learning from large scale real-world data, to (2) develop models and model training at scale, to (3) analyze real-world behavior and develop systems for handling the complexities of interacting with the real-world, and (4) optimize models for our onboard and offboard hardware.&lt;/p&gt;\n&lt;p&gt;In this hybrid role you will report to a Technical Lead Manager.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;You will:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Apply machine learning techniques to build multi-modal sensor fusion architectures and spatial-temporal representation learners for object detection and tracking, occupancy and semantic segmentation, road understanding, etc.&lt;/li&gt;\n&lt;li&gt;Develop scalable recipes for large data, large model training running on Alphabet’s compute infrastructure, create methods and recipes for pre-training and post-training.&lt;/li&gt;\n&lt;li&gt;Develop methods and recipes for distributed fine-tuning enabling multiple developers to simultaneously improve the model, develop methods and recipes to avoid regression against a production system.&lt;/li&gt;\n&lt;li&gt;Develop and maintain model evaluation recipes and metrics for measuring and improving performance of pre-trained and fine-tuned models&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;You have:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Bachelors in Computer Science or a similar discipline, or an equivalent amount of deep learning experience&lt;/li&gt;\n&lt;li&gt;3+ years experience in Machine Learning and/or Computer Vision&lt;/li&gt;\n&lt;li&gt;Experience with Python&lt;/li&gt;\n&lt;li&gt;Experience with ML frameworks like PyTorch or JAX&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;We prefer:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;MS or PhD Degree in Machine Learning, Robotics, Computer Science or a similar discipline&lt;/li&gt;\n&lt;li&gt;Publications at top-tier conferences like CVPR, ICCV, ECCV, ICLR, ICML, ICRA, IROS, RSS, NeurIPS, AAAI, IJCV, PAMI&lt;/li&gt;\n&lt;li&gt;Experience with C++&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The expected base salary range for this full-time position across US locations is listed below. Actual starting pay will be based on job-related factors, including exact work location, experience, relevant training and education, and skill level. Your recruiter can share more about the specific salary range for the role location or, if the role can be performed remote, the specific salary range for your preferred location, during the hiring process.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Waymo employees are also eligible to participate in Waymo’s discretionary annual bonus program, equity incentive plan, and generous Company benefits program, subject to eligibility requirements.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$170,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$216,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+      "updated_at": "2026-09-21T17:51:41-04:00",
+      "posted_pay_range": null,
+      "tier": "Tier B: Main Focus",
+      "suitability_score": 85,
+      "verdict": "HIGH PRIORITY (Direct Target)",
+      "recommendation": "Immediate Apply (Tailor quantitative resume)",
+      "matched_signals": [
+        "Title match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +35",
+        "Title match '\\bmachine\\s+learning\\b': +12",
+        "Keyword match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +17",
+        "Keyword match '\\bmachine\\s+learning\\b': +6",
+        "Firm Quality Boost: +15"
+      ],
+      "penalties": [],
+      "estimated_comp": "$250,000 - $400,000+",
+      "comp_benchmark_delta": "Significantly Above Benchmark",
+      "priority_tier": "Tier B: Main Focus",
+      "priority_tag": "High Conviction",
+      "industry_sector": "FinTech & Elite Tech",
+      "official_careers_url": "https://waymo.com/careers/",
+      "key": "Waymo::gh_waymo_7446279",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-30T01:30:21.227795",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "url_status": 202
+    },
+    {
+      "job_id": "gh_waymo_8127006",
+      "firm_name": "Waymo",
+      "title": "Perception Machine Learning Engineer - Continuous Learning",
+      "location": "Mountain View, CA, USA; San Francisco, CA, USA",
+      "department": "Perception (7LT)",
+      "url": "https://careers.withwaymo.com/jobs?gh_jid=8127006",
+      "source_ats": "Greenhouse",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Waymo is an autonomous driving technology company with the mission to be the world&#39;s most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World&#39;s Most Experienced Driver™—to improve access to mobility while saving thousands of lives now lost to traffic crashes. The Waymo Driver powers Waymo’s fully autonomous ride-hail service and can also be applied to a range of vehicle platforms and product use cases. The Waymo Driver has provided over ten million rider-only trips, enabled by its experience autonomously driving over 100 million miles on public roads and tens of billions in simulation across 15+ U.S. states.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;As a Perception Machine Learning Engineer, you will build the intelligent systems that &quot;see&quot; the world, directly shaping the future of autonomous travel.&lt;/p&gt;\n&lt;p&gt;Within the Perception team, we are tackling some of the most complex, open-ended challenges in autonomous driving. Our models must constantly adapt and improve as our fleet encounters the vast, unpredictable realities of public roads. We are looking for a Machine Learning Engineer to help design and build the automated, closed-loop systems that drive this continuous improvement.&lt;/p&gt;\n&lt;p&gt;In this role, you will be the bridge between model architecture and large-scale data infrastructure. You will leverage active learning and sophisticated data curation strategies to ensure our perception models are always learning from the most informative examples. Crucially, this means managing the entire lifecycle of our data: intelligently selecting novel scenarios from the fleet while continuously pruning our existing corpus to maximize training efficiency.&lt;/p&gt;\n&lt;p&gt;In this hybrid role you will report to a Technical Lead Manager.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;You will:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Architect Infrastructure:&lt;/strong&gt; Design and scale the data pipelines needed to mine, ingest, and manage massive volumes of sensor data from our fleet.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Drive Model Improvement:&lt;/strong&gt; Deploy active learning algorithms to continuously identify and select the most impactful data for training, ensuring our large models continuously adapt to new environments with incremental updates.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Ensure Model Quality: &lt;/strong&gt;Develop methods and recipes for evaluating real-world performance of our models, and detecting regressions in model updates.&amp;nbsp; Develop and maintain ground-truth free performance metrics.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Optimize Data Efficiency:&lt;/strong&gt; Conduct large-scale experiments focused on data balancing, subset selection, and label quality optimization. Lead automated curation strategies—including smart pruning and downsampling—to minimize dataset bloat and maximize compute efficiency.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Solve Long-Tail Challenges:&lt;/strong&gt; Develop robust mining, training and evaluation pipelines for rare, safety-critical real-world scenarios.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Innovate with Model Signals:&lt;/strong&gt; Utilize uncertainty estimation, confidence scores, and embedding space analysis to uncover model blind spots and guide automated data acquisition.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Collaborate Cross-Functionally:&lt;/strong&gt; Work closely with researchers and operations teams to iterate on the end-to-end model development lifecycle.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;You Have:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;A bachelor’s degree in Machine Learning, Robotics, or Computer Science.&lt;br&gt;3+ years of professional experience in Machine Learning and/or Computer Vision.&lt;/li&gt;\n&lt;li&gt;Proven, hands-on experience applying &lt;strong&gt;active learning&lt;/strong&gt; in production environments.&lt;/li&gt;\n&lt;li&gt;Strong expertise in building large-scale ML data pipelines (mining, extraction, auto-labeling, ingestion).&lt;/li&gt;\n&lt;li&gt;Deep understanding of data curation—balancing, core set selection, and sampling—to optimize model performance.&lt;/li&gt;\n&lt;li&gt;Proficiency in Python and deep learning frameworks (PyTorch or JAX).&lt;/li&gt;\n&lt;li&gt;Strong software engineering skills for writing robust, production-ready code.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;We Prefer:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;An advanced degree (MS or PhD) in Machine Learning, Robotics, or Computer Science.&lt;/li&gt;\n&lt;li&gt;A record of publications at top-tier conferences (e.g., CVPR, ICCV, ECCV, ICML, ICLR, NeurIPS, IROS, RSS, AAAI, IJCV, PAMI).&lt;/li&gt;\n&lt;li&gt;Experience with C++&lt;/li&gt;\n&lt;li&gt;Experience building data-centric infrastructure from the ground up to accelerate model iteration cycles.&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The expected base salary range for this full-time position across US locations is listed below. Actual starting pay will be based on job-related factors, including exact work location, experience, relevant training and education, and skill level. Your recruiter can share more about the specific salary range for the role location or, if the role can be performed remote, the specific salary range for your preferred location, during the hiring process.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Waymo employees are also eligible to participate in Waymo’s discretionary annual bonus program, equity incentive plan, and generous Company benefits program, subject to eligibility requirements.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$175,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$215,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+      "updated_at": "2026-09-21T17:51:44-04:00",
+      "posted_pay_range": null,
+      "tier": "Tier B: Main Focus",
+      "suitability_score": 85,
+      "verdict": "HIGH PRIORITY (Direct Target)",
+      "recommendation": "Immediate Apply (Tailor quantitative resume)",
+      "matched_signals": [
+        "Title match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +35",
+        "Title match '\\bmachine\\s+learning\\b': +12",
+        "Keyword match '\\bmachine\\s+learning\\s+(?:quant|researcher|scientist|engineer)\\b': +17",
+        "Keyword match '\\bmachine\\s+learning\\b': +6",
+        "Firm Quality Boost: +15"
+      ],
+      "penalties": [],
+      "estimated_comp": "$250,000 - $400,000+",
+      "comp_benchmark_delta": "Significantly Above Benchmark",
+      "priority_tier": "Tier B: Main Focus",
+      "priority_tag": "High Conviction",
+      "industry_sector": "FinTech & Elite Tech",
+      "official_careers_url": "https://waymo.com/careers/",
+      "key": "Waymo::gh_waymo_8127006",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-30T01:30:21.227795",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "url_status": 202
     },
     {
       "job_id": "gh_transmarketgroup_5151575007",
@@ -9172,7 +10167,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "TransMarket Group::gh_transmarketgroup_5151575007",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -9206,7 +10201,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Old Mission Capital::gh_oldmissioncapital_4461365003",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": "$170,000 - $300,000 / yr",
@@ -9240,7 +10235,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Old Mission Capital::gh_oldmissioncapital_6220800003",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": "$170,000 - $300,000 / yr",
@@ -9274,7 +10269,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Old Mission Capital::gh_oldmissioncapital_6519353003",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": "$175,000 - $250,000 / yr",
@@ -9308,7 +10303,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Old Mission Capital::gh_oldmissioncapital_7608814003",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": "$200,000 - $350,000 / yr",
@@ -9342,7 +10337,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Old Mission Capital::gh_oldmissioncapital_5022967003",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": "$170,000 - $225,000 / yr",
@@ -9379,7 +10374,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "DV Trading::gh_dvtrading_4718028005",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -9413,143 +10408,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "DV Trading::gh_dvtrading_4719984005",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "url_status": 200
-    },
-    {
-      "job_id": "gh_aqr_8112238",
-      "firm_name": "AQR Capital Management",
-      "title": "Engineering - Quant Research Development - GSS - Analyst",
-      "location": "Bengaluru",
-      "department": "Engineering",
-      "url": "https://careers.aqr.com/jobs?gh_jid=8112238&gh_jid=8112238",
-      "source_ats": "Greenhouse",
-      "description": "&lt;p&gt;&lt;strong&gt;About AQR Capital Management&amp;nbsp;&lt;/strong&gt;&lt;br&gt;AQR is a global investment management firm built at the intersection of financial theory and practical application. We strive to deliver superior, long-term results for our clients by seeking to filter out market noise to identify and isolate what matters most, and by developing ideas that stand up to rigorous testing. Underpinning this philosophy is an unrelenting commitment to excellence in technology —&amp;nbsp;powering our insights and analysis. This unique combination has made us leaders in alternative and&amp;nbsp;&lt;br&gt;traditional strategies since 1998. AQR takes a systematic, research-driven approach, applying quantitative tools to process fundamental information and manage risk. Our clients include institutional investors, such as pension funds, insurance companies, endowments, foundations, and sovereign wealth funds, as well as financial advisors.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;br&gt;&lt;strong&gt;Job description:&amp;nbsp;&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;The Team&amp;nbsp;&lt;/strong&gt;&lt;br&gt;Technology has long been essential ingredient to our success, and as a Quant Research Engineer you will be knee-deep in mission critical challenges that make our investment ideas a reality. Collaborating side by side with researchers and portfolio analysts, you will be responsible for designing and implementing proprietary systems and tools that drive the quantitative strategy research and systematic investing that powers AQR.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;br&gt;&lt;strong&gt;Your Role&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;As a Quant Research Engineer, you will build or extend our:&amp;nbsp;&lt;br&gt;• Global asset signal, data and risk estimation infrastructure incorporating millions of data points&amp;nbsp;&lt;br&gt;• Intuitive research APIs leveraging cloud computing and cutting-edge visualizations&amp;nbsp;&lt;br&gt;• High-performance historical simulation/back testing engine for vetting new alpha strategies&amp;nbsp;&lt;br&gt;• Bespoke technology solutions that satisfy the needs of specific asset classes and research needs&amp;nbsp;&lt;br&gt;• Partner with not only local but also global team of research engineers for successful product delivery&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;br&gt;&lt;strong&gt;What You’ll Bring &lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;• &amp;nbsp;BS/MS in Computer Science, Computational Finance, Data Science, or related discipline&amp;nbsp;&lt;br&gt;• 3+ years of experience as a programmer with expertise in python&lt;br&gt;• Experience with database is required&lt;br&gt;• Ability to design elegant solutions and the ability to translate design into high quality code&amp;nbsp;&lt;br&gt;• Good analytical and problem-solving skills&amp;nbsp;&lt;br&gt;• Good communication skills&amp;nbsp;&lt;br&gt;• An interest in quantitative finance (no finance / trading experience required)&amp;nbsp;&lt;br&gt;• Experience with NumPy / pandas or similar quantitative stack is a plus&amp;nbsp;&lt;br&gt;• Experience with cloud (e.g. AWS) is a plus&lt;br&gt;• Demonstrated contributions to open-source software is also a plus&amp;nbsp;&lt;br&gt;• An aptitude for mathematics, finance and econometrics is desired&lt;/p&gt;\n&lt;p&gt;&lt;br&gt;&lt;strong&gt;Who You Are&lt;/strong&gt;&amp;nbsp;&lt;br&gt;• Mature, thoughtful, and a natural fit for a collaborative, team-oriented culture&amp;nbsp;&lt;br&gt;• Hard-working and eager to learn in a fast-paced, innovative environment&amp;nbsp;&lt;br&gt;• Committed to intellectual integrity, transparency, and openness&amp;nbsp;&lt;br&gt;• Motivated by the transformational effects of technology-at-scale&lt;/p&gt;",
-      "updated_at": "2026-09-21T02:46:06-04:00",
-      "posted_pay_range": null,
-      "tier": "Tier B: Main Focus",
-      "suitability_score": 82,
-      "verdict": "HIGH PRIORITY (Direct Target)",
-      "recommendation": "Immediate Apply (Tailor quantitative resume)",
-      "matched_signals": [
-        "Title match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +45",
-        "Keyword match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +22",
-        "Firm Quality Boost: +15"
-      ],
-      "penalties": [],
-      "estimated_comp": "$250,000 - $400,000+",
-      "comp_benchmark_delta": "Significantly Above Benchmark",
-      "priority_tier": "Tier B: Main Focus",
-      "priority_tag": "High Conviction",
-      "industry_sector": "Quantitative Hedge Funds",
-      "official_careers_url": "https://www.aqr.com/Careers",
-      "key": "AQR Capital Management::gh_aqr_8112238",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "url_status": 200
-    },
-    {
-      "job_id": "gh_aqr_7493464",
-      "firm_name": "AQR Capital Management",
-      "title": "Engineering - Quant Research Development - GSS - Associate",
-      "location": "Bengaluru",
-      "department": "Engineering",
-      "url": "https://careers.aqr.com/jobs?gh_jid=7493464&gh_jid=7493464",
-      "source_ats": "Greenhouse",
-      "description": "&lt;p&gt;AQR is a global investment management firm built at the intersection of financial theory and practical application. We strive to deliver superior, long-term results for our clients by seeking to filter out market noise to identify and isolate what matters most, and by developing ideas that stand up to rigorous testing. Underpinning this philosophy is an unrelenting commitment to excellence in technology — powering our insights and analysis. This unique combination has made us leaders in alternative and traditional strategies since 1998.&lt;/p&gt;\n&lt;p&gt;&lt;br&gt;AQR takes a systematic, research-driven approach, applying quantitative tools to process fundamental information and manage risk. Our clients include institutional investors, such as pension funds, insurance companies, endowments, foundations, and sovereign wealth funds, as well as financial advisors.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;br&gt;&lt;strong&gt;The Team&lt;/strong&gt;&lt;br&gt;Technology has long been essential ingredient to our success, and as an associate in quantitative research development team, you will be knee-deep in mission critical challenges that make our investment ideas a reality. Collaborating side by side with researchers and portfolio analysts, you will be responsible for designing and implementing proprietary systems and tools that drive the quantitative strategy research and systematic investing that powers AQR.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Your Role:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;br&gt;•As an associate in quantitative research development team, you will build or extend our&lt;/p&gt;\n&lt;p&gt;•Global asset signal, data and risk estimation infrastructure incorporating millions of data points.&lt;/p&gt;\n&lt;p&gt;•Intuitive research APIs leveraging cloud computing and cutting-edge visualizations.&lt;/p&gt;\n&lt;p&gt;•High-performance historical simulation/back testing engine for vetting new alpha strategies.&lt;/p&gt;\n&lt;p&gt;•Bespoke technology solutions that satisfy the needs of specific asset classes and research needs&lt;/p&gt;\n&lt;p&gt;•Partner with not only local but also global team of research engineers for successful product delivery&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What You’ll Bring:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;•BS/MS/PhD in Computer Science, Computational Finance, Data Science, or related discipline&lt;br&gt;•At least 5+ years of experience as a quantitative developer, preferably in the financial services industry.&lt;br&gt;•Outstanding communication, coding, debugging, and analytical skills.&lt;br&gt;•Strength in pragmatic design and deploying applications using Linux/Docker/Python.&lt;br&gt;•An interest in quantitative finance (no finance / trading experience required).&lt;/p&gt;",
-      "updated_at": "2026-09-21T02:46:06-04:00",
-      "posted_pay_range": null,
-      "tier": "Tier B: Main Focus",
-      "suitability_score": 82,
-      "verdict": "HIGH PRIORITY (Direct Target)",
-      "recommendation": "Immediate Apply (Tailor quantitative resume)",
-      "matched_signals": [
-        "Title match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +45",
-        "Keyword match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +22",
-        "Firm Quality Boost: +15"
-      ],
-      "penalties": [],
-      "estimated_comp": "$250,000 - $400,000+",
-      "comp_benchmark_delta": "Significantly Above Benchmark",
-      "priority_tier": "Tier B: Main Focus",
-      "priority_tag": "High Conviction",
-      "industry_sector": "Quantitative Hedge Funds",
-      "official_careers_url": "https://www.aqr.com/Careers",
-      "key": "AQR Capital Management::gh_aqr_7493464",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "url_status": 200
-    },
-    {
-      "job_id": "gh_aqr_8018219",
-      "firm_name": "AQR Capital Management",
-      "title": "Quantitative Research – Prediction Markets Analyst",
-      "location": "Greenwich, CT",
-      "department": "Research",
-      "url": "https://careers.aqr.com/jobs?gh_jid=8018219&gh_jid=8018219",
-      "source_ats": "Greenhouse",
-      "description": "&lt;p&gt;&lt;strong&gt;About AQR Capital Management&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;AQR is a global investment management firm built at the intersection of financial theory and practical application. We strive to deliver superior, long-term results for our clients by looking past market noise to identify and isolate what matters most, and by developing ideas that stand up to rigorous testing. Our focus on practical insights and analysis has made us leaders in alternative and traditional strategies since 1998.&lt;/p&gt;\n&lt;p&gt;At AQR, our employees share a common spirit of academic excellence, intellectual honesty and an unwavering commitment to seeking the truth. We’re determined to know what makes financial markets tick – and we’ll ask every question and challenge every assumption. We recognize and respect the power of collaboration, and we believe transparency and openness to new ideas leads to innovation.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Your Role:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;AQR Capital Management is looking for an exceptionally talented individual to join our Quantitative Research team focused on Prediction Markets. This team will focus on building quantitative models to trade around professional sports.&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Conduct rigorous statistical and economic research using alternative and traditional data sources to develop new alpha signals&lt;/li&gt;\n&lt;li&gt;Assist in the end-to-end research process in close collaboration with the supervising Portfolio Manager, including data ingestion and processing, exploratory analysis, methodology selection, implementation and testing, prototyping, and performance evaluation&lt;/li&gt;\n&lt;li&gt;Enhance and extend AQR’s proprietary research platform to support and implement new research ideas&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What You’ll Bring: &lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;B.S. degree or advanced degree from a top institution in data science, computer science, mathematics, statistics, operations research or another quantitative discipline.&lt;/li&gt;\n&lt;li&gt;Internship or academic experience working in a data driven research environment with a focus on model development and forecasting&lt;/li&gt;\n&lt;li&gt;Strong coding and data analytics skills&lt;/li&gt;\n&lt;li&gt;Experience in finance, especially with systematic macro strategies preferred&lt;/li&gt;\n&lt;li&gt;Awareness or experience in trading prediction markets is a plus&lt;/li&gt;\n&lt;li&gt;Familiarity with the basic rules of major sports (MLB, NBA, NFL, NHL + more) and associated analytics, experience working in sports data professionally is a plus&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;AQR is an Equal Opportunity Employer. EEO/VET/DISABILITY&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;/p&gt;\n&lt;p&gt;he salary range for this role is expected to be $200,000 to $230,000.&amp;nbsp; This is the range that we in good faith believe is accurate for this role at the time of this posting.&amp;nbsp; We may ultimately pay more or less than the posted range, depending upon factors such as skills, experience, location, or other business and organizational needs.&amp;nbsp; This wage range may also be modified in the future.&lt;/p&gt;\n&lt;p&gt;This job is also eligible for an annual discretionary bonus.&lt;/p&gt;\n&lt;p&gt;We offer comprehensive package of benefits including paid time off, medical/dental/vision insurance, 401(k), and any other benefits to eligible employees.&lt;/p&gt;\n&lt;p&gt;Note: No amount of pay is considered to be wages or compensation until such amount is earned, vested, and determinable. The amount and availability of any bonus, commission, benefits, or any other form of compensation and benefits that are allocable to a particular employee remains in the Company&#39;s sole discretion unless and until paid and may be modified at the Company’s sole discretion, consistent with the law.&lt;/p&gt;\n&lt;p&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
-      "updated_at": "2026-09-21T02:46:06-04:00",
-      "posted_pay_range": "$200,000 to $230,000 / yr",
-      "tier": "Tier B: Main Focus",
-      "suitability_score": 82,
-      "verdict": "HIGH PRIORITY (Direct Target)",
-      "recommendation": "Immediate Apply (Tailor quantitative resume)",
-      "matched_signals": [
-        "Title match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +45",
-        "Keyword match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +22",
-        "Firm Quality Boost: +15"
-      ],
-      "penalties": [],
-      "estimated_comp": "$250,000 - $400,000+",
-      "comp_benchmark_delta": "Significantly Above Benchmark",
-      "priority_tier": "Tier B: Main Focus",
-      "priority_tag": "High Conviction",
-      "industry_sector": "Quantitative Hedge Funds",
-      "official_careers_url": "https://www.aqr.com/Careers",
-      "key": "AQR Capital Management::gh_aqr_8018219",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "url_status": 200
-    },
-    {
-      "job_id": "gh_engineersgate_7946534",
-      "firm_name": "Engineers Gate",
-      "title": "Quantitative Researcher",
-      "location": "Hong Kong",
-      "department": "XUYU",
-      "url": "https://job-boards.greenhouse.io/engineersgate/jobs/7946534",
-      "source_ats": "Greenhouse",
-      "description": "&lt;h4&gt;About EG&lt;/h4&gt;\n&lt;p&gt;Engineers Gate (EG) is a leading investment manager founded in 2014 as a quantitative, computer-driven trading firm.&amp;nbsp;Today, EG operates as a diversified, multi-strategy investment platform that combines systematic research with&amp;nbsp;selective discretionary approaches.&lt;br&gt;&lt;br&gt;EG&#39;s multi-manager platform allows independent investment teams to pursue distinct strategies while benefiting from&amp;nbsp;shared infrastructure, risk management, and operational support. The firm’s collaborative groups of researchers,&amp;nbsp;engineers, and investment professionals deploy sophisticated statistical models, proprietary technology, and a&amp;nbsp;centralized data platform to isolate and solve challenging problem sets in the global financial markets.&amp;nbsp; &amp;nbsp;&lt;/p&gt;\n&lt;h4&gt;About The Role&lt;/h4&gt;\n&lt;p&gt;We are seeking a motivated Quantitative Researcher to join one of our systematic equity trading teams. In this role, you will leverage the team’s existing research and trading infrastructure to research, develop, and support systematic equity strategies across the full trading lifecycle, from alpha research and signal generation to portfolio construction, execution, and ongoing risk management.&lt;/p&gt;\n&lt;p&gt;The ideal candidate has a strong quantitative foundation, hands-on experience with systematic equity strategies, and an interest in translating research into live trading. This individual will work closely with the Portfolio Manager within a collaborative, fast-paced environment.&lt;/p&gt;\n&lt;h4&gt;Key Responsibilities&lt;/h4&gt;\n&lt;ul&gt;\n&lt;li&gt;Clean, validate, and analyze large-scale raw datasets to build a reliable foundation for US and China equities alpha research&lt;/li&gt;\n&lt;li&gt;Assist Portfolio Managers in developing tools to analyze, optimize, and monitor portfolio performance&lt;/li&gt;\n&lt;li&gt;Apply statistical and machine learning techniques, including deep learning models where appropriate, to enhance signal generation and forecasting&lt;/li&gt;\n&lt;li&gt;Contribute across the full trading lifecycle: ideation, research, backtesting, optimization, deployment, and live performance monitoring&lt;/li&gt;\n&lt;li&gt;Stay informed on equity market structure, short-horizon dynamics, emerging data sources, and relevant technological advancements across both US and China markets&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h4&gt;Qualifications&lt;/h4&gt;\n&lt;ul&gt;\n&lt;li&gt;MS or PhD in a quantitative field (e.g., mathematics, statistics, computer science, physics, engineering) is a plus.&lt;/li&gt;\n&lt;li&gt;1–5 years of experience in systematic equity research or quantitative trading.&lt;/li&gt;\n&lt;li&gt;Strong quantitative, mathematical, and programming skills; Python required&lt;/li&gt;\n&lt;li&gt;Working knowledge and practical experience applying machine learning models; experience with deep learning is a plus.&lt;/li&gt;\n&lt;li&gt;Familiarity with China equity markets or cross-border trading dynamics is a plus&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Please review the applicable candidate privacy notice (the “&lt;strong&gt;Notice&lt;/strong&gt;”) available at &lt;span&gt;&lt;a href=&quot;https://www.eglp.com/legal-and-privacy-notices&quot; target=&quot;_blank&quot;&gt;https://www.eglp.com/legal-and-privacy-notices&lt;/a&gt;&lt;/span&gt;. By seeking employment with Engineers Gate HK Limited or EG SG Pte. Ltd., as applicable (“&lt;strong&gt;EG&lt;/strong&gt;”) or submitting your application and/or personal data to EG, you acknowledge that you have read and understood the Notice and have agreed and consented to EG&#39;s collecting, using, disclosing, processing and/or transferring your personal data in accordance with the Notice.&lt;/p&gt;",
-      "updated_at": "2026-08-12T14:57:01-04:00",
-      "posted_pay_range": null,
-      "tier": "Tier B: Main Focus",
-      "suitability_score": 82,
-      "verdict": "HIGH PRIORITY (Direct Target)",
-      "recommendation": "Immediate Apply (Tailor quantitative resume)",
-      "matched_signals": [
-        "Title match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +45",
-        "Keyword match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +22",
-        "Firm Quality Boost: +15"
-      ],
-      "penalties": [],
-      "estimated_comp": "$250,000 - $400,000+",
-      "comp_benchmark_delta": "Significantly Above Benchmark",
-      "priority_tier": "Tier B: Main Focus",
-      "priority_tag": "High Conviction",
-      "industry_sector": "Quantitative Hedge Funds",
-      "official_careers_url": "https://www.eg-lp.com/careers/",
-      "key": "Engineers Gate::gh_engineersgate_7946534",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -9580,7 +10439,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Akuna Capital::gh_akunacapital_7496416",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -9614,11 +10473,147 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Akuna Capital::gh_akunacapital_7846695",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
       "official_careers_url": "https://akunacapital.com/careers",
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_engineersgate_7946534",
+      "firm_name": "Engineers Gate",
+      "title": "Quantitative Researcher",
+      "location": "Hong Kong",
+      "department": "XUYU",
+      "url": "https://job-boards.greenhouse.io/engineersgate/jobs/7946534",
+      "source_ats": "Greenhouse",
+      "description": "&lt;h4&gt;About EG&lt;/h4&gt;\n&lt;p&gt;Engineers Gate (EG) is a leading investment manager founded in 2014 as a quantitative, computer-driven trading firm.&amp;nbsp;Today, EG operates as a diversified, multi-strategy investment platform that combines systematic research with&amp;nbsp;selective discretionary approaches.&lt;br&gt;&lt;br&gt;EG&#39;s multi-manager platform allows independent investment teams to pursue distinct strategies while benefiting from&amp;nbsp;shared infrastructure, risk management, and operational support. The firm’s collaborative groups of researchers,&amp;nbsp;engineers, and investment professionals deploy sophisticated statistical models, proprietary technology, and a&amp;nbsp;centralized data platform to isolate and solve challenging problem sets in the global financial markets.&amp;nbsp; &amp;nbsp;&lt;/p&gt;\n&lt;h4&gt;About The Role&lt;/h4&gt;\n&lt;p&gt;We are seeking a motivated Quantitative Researcher to join one of our systematic equity trading teams. In this role, you will leverage the team’s existing research and trading infrastructure to research, develop, and support systematic equity strategies across the full trading lifecycle, from alpha research and signal generation to portfolio construction, execution, and ongoing risk management.&lt;/p&gt;\n&lt;p&gt;The ideal candidate has a strong quantitative foundation, hands-on experience with systematic equity strategies, and an interest in translating research into live trading. This individual will work closely with the Portfolio Manager within a collaborative, fast-paced environment.&lt;/p&gt;\n&lt;h4&gt;Key Responsibilities&lt;/h4&gt;\n&lt;ul&gt;\n&lt;li&gt;Clean, validate, and analyze large-scale raw datasets to build a reliable foundation for US and China equities alpha research&lt;/li&gt;\n&lt;li&gt;Assist Portfolio Managers in developing tools to analyze, optimize, and monitor portfolio performance&lt;/li&gt;\n&lt;li&gt;Apply statistical and machine learning techniques, including deep learning models where appropriate, to enhance signal generation and forecasting&lt;/li&gt;\n&lt;li&gt;Contribute across the full trading lifecycle: ideation, research, backtesting, optimization, deployment, and live performance monitoring&lt;/li&gt;\n&lt;li&gt;Stay informed on equity market structure, short-horizon dynamics, emerging data sources, and relevant technological advancements across both US and China markets&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h4&gt;Qualifications&lt;/h4&gt;\n&lt;ul&gt;\n&lt;li&gt;MS or PhD in a quantitative field (e.g., mathematics, statistics, computer science, physics, engineering) is a plus.&lt;/li&gt;\n&lt;li&gt;1–5 years of experience in systematic equity research or quantitative trading.&lt;/li&gt;\n&lt;li&gt;Strong quantitative, mathematical, and programming skills; Python required&lt;/li&gt;\n&lt;li&gt;Working knowledge and practical experience applying machine learning models; experience with deep learning is a plus.&lt;/li&gt;\n&lt;li&gt;Familiarity with China equity markets or cross-border trading dynamics is a plus&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Please review the applicable candidate privacy notice (the “&lt;strong&gt;Notice&lt;/strong&gt;”) available at &lt;span&gt;&lt;a href=&quot;https://www.eglp.com/legal-and-privacy-notices&quot; target=&quot;_blank&quot;&gt;https://www.eglp.com/legal-and-privacy-notices&lt;/a&gt;&lt;/span&gt;. By seeking employment with Engineers Gate HK Limited or EG SG Pte. Ltd., as applicable (“&lt;strong&gt;EG&lt;/strong&gt;”) or submitting your application and/or personal data to EG, you acknowledge that you have read and understood the Notice and have agreed and consented to EG&#39;s collecting, using, disclosing, processing and/or transferring your personal data in accordance with the Notice.&lt;/p&gt;",
+      "updated_at": "2026-08-12T14:57:01-04:00",
+      "posted_pay_range": null,
+      "tier": "Tier B: Main Focus",
+      "suitability_score": 82,
+      "verdict": "HIGH PRIORITY (Direct Target)",
+      "recommendation": "Immediate Apply (Tailor quantitative resume)",
+      "matched_signals": [
+        "Title match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +45",
+        "Keyword match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +22",
+        "Firm Quality Boost: +15"
+      ],
+      "penalties": [],
+      "estimated_comp": "$250,000 - $400,000+",
+      "comp_benchmark_delta": "Significantly Above Benchmark",
+      "priority_tier": "Tier B: Main Focus",
+      "priority_tag": "High Conviction",
+      "industry_sector": "Quantitative Hedge Funds",
+      "official_careers_url": "https://www.eg-lp.com/careers/",
+      "key": "Engineers Gate::gh_engineersgate_7946534",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-30T01:30:21.227795",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_aqr_8112238",
+      "firm_name": "AQR Capital Management",
+      "title": "Engineering - Quant Research Development - GSS - Analyst",
+      "location": "Bengaluru",
+      "department": "Engineering",
+      "url": "https://careers.aqr.com/jobs?gh_jid=8112238&gh_jid=8112238",
+      "source_ats": "Greenhouse",
+      "description": "&lt;p&gt;&lt;strong&gt;About AQR Capital Management&amp;nbsp;&lt;/strong&gt;&lt;br&gt;AQR is a global investment management firm built at the intersection of financial theory and practical application. We strive to deliver superior, long-term results for our clients by seeking to filter out market noise to identify and isolate what matters most, and by developing ideas that stand up to rigorous testing. Underpinning this philosophy is an unrelenting commitment to excellence in technology —&amp;nbsp;powering our insights and analysis. This unique combination has made us leaders in alternative and&amp;nbsp;&lt;br&gt;traditional strategies since 1998. AQR takes a systematic, research-driven approach, applying quantitative tools to process fundamental information and manage risk. Our clients include institutional investors, such as pension funds, insurance companies, endowments, foundations, and sovereign wealth funds, as well as financial advisors.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;br&gt;&lt;strong&gt;Job description:&amp;nbsp;&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;The Team&amp;nbsp;&lt;/strong&gt;&lt;br&gt;Technology has long been essential ingredient to our success, and as a Quant Research Engineer you will be knee-deep in mission critical challenges that make our investment ideas a reality. Collaborating side by side with researchers and portfolio analysts, you will be responsible for designing and implementing proprietary systems and tools that drive the quantitative strategy research and systematic investing that powers AQR.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;br&gt;&lt;strong&gt;Your Role&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;As a Quant Research Engineer, you will build or extend our:&amp;nbsp;&lt;br&gt;• Global asset signal, data and risk estimation infrastructure incorporating millions of data points&amp;nbsp;&lt;br&gt;• Intuitive research APIs leveraging cloud computing and cutting-edge visualizations&amp;nbsp;&lt;br&gt;• High-performance historical simulation/back testing engine for vetting new alpha strategies&amp;nbsp;&lt;br&gt;• Bespoke technology solutions that satisfy the needs of specific asset classes and research needs&amp;nbsp;&lt;br&gt;• Partner with not only local but also global team of research engineers for successful product delivery&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;br&gt;&lt;strong&gt;What You’ll Bring &lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;• &amp;nbsp;BS/MS in Computer Science, Computational Finance, Data Science, or related discipline&amp;nbsp;&lt;br&gt;• 3+ years of experience as a programmer with expertise in python&lt;br&gt;• Experience with database is required&lt;br&gt;• Ability to design elegant solutions and the ability to translate design into high quality code&amp;nbsp;&lt;br&gt;• Good analytical and problem-solving skills&amp;nbsp;&lt;br&gt;• Good communication skills&amp;nbsp;&lt;br&gt;• An interest in quantitative finance (no finance / trading experience required)&amp;nbsp;&lt;br&gt;• Experience with NumPy / pandas or similar quantitative stack is a plus&amp;nbsp;&lt;br&gt;• Experience with cloud (e.g. AWS) is a plus&lt;br&gt;• Demonstrated contributions to open-source software is also a plus&amp;nbsp;&lt;br&gt;• An aptitude for mathematics, finance and econometrics is desired&lt;/p&gt;\n&lt;p&gt;&lt;br&gt;&lt;strong&gt;Who You Are&lt;/strong&gt;&amp;nbsp;&lt;br&gt;• Mature, thoughtful, and a natural fit for a collaborative, team-oriented culture&amp;nbsp;&lt;br&gt;• Hard-working and eager to learn in a fast-paced, innovative environment&amp;nbsp;&lt;br&gt;• Committed to intellectual integrity, transparency, and openness&amp;nbsp;&lt;br&gt;• Motivated by the transformational effects of technology-at-scale&lt;/p&gt;",
+      "updated_at": "2026-09-21T02:46:06-04:00",
+      "posted_pay_range": null,
+      "tier": "Tier B: Main Focus",
+      "suitability_score": 82,
+      "verdict": "HIGH PRIORITY (Direct Target)",
+      "recommendation": "Immediate Apply (Tailor quantitative resume)",
+      "matched_signals": [
+        "Title match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +45",
+        "Keyword match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +22",
+        "Firm Quality Boost: +15"
+      ],
+      "penalties": [],
+      "estimated_comp": "$250,000 - $400,000+",
+      "comp_benchmark_delta": "Significantly Above Benchmark",
+      "priority_tier": "Tier B: Main Focus",
+      "priority_tag": "High Conviction",
+      "industry_sector": "Quantitative Hedge Funds",
+      "official_careers_url": "https://www.aqr.com/Careers",
+      "key": "AQR Capital Management::gh_aqr_8112238",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-30T01:30:21.227795",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_aqr_7493464",
+      "firm_name": "AQR Capital Management",
+      "title": "Engineering - Quant Research Development - GSS - Associate",
+      "location": "Bengaluru",
+      "department": "Engineering",
+      "url": "https://careers.aqr.com/jobs?gh_jid=7493464&gh_jid=7493464",
+      "source_ats": "Greenhouse",
+      "description": "&lt;p&gt;AQR is a global investment management firm built at the intersection of financial theory and practical application. We strive to deliver superior, long-term results for our clients by seeking to filter out market noise to identify and isolate what matters most, and by developing ideas that stand up to rigorous testing. Underpinning this philosophy is an unrelenting commitment to excellence in technology — powering our insights and analysis. This unique combination has made us leaders in alternative and traditional strategies since 1998.&lt;/p&gt;\n&lt;p&gt;&lt;br&gt;AQR takes a systematic, research-driven approach, applying quantitative tools to process fundamental information and manage risk. Our clients include institutional investors, such as pension funds, insurance companies, endowments, foundations, and sovereign wealth funds, as well as financial advisors.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;br&gt;&lt;strong&gt;The Team&lt;/strong&gt;&lt;br&gt;Technology has long been essential ingredient to our success, and as an associate in quantitative research development team, you will be knee-deep in mission critical challenges that make our investment ideas a reality. Collaborating side by side with researchers and portfolio analysts, you will be responsible for designing and implementing proprietary systems and tools that drive the quantitative strategy research and systematic investing that powers AQR.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Your Role:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;br&gt;•As an associate in quantitative research development team, you will build or extend our&lt;/p&gt;\n&lt;p&gt;•Global asset signal, data and risk estimation infrastructure incorporating millions of data points.&lt;/p&gt;\n&lt;p&gt;•Intuitive research APIs leveraging cloud computing and cutting-edge visualizations.&lt;/p&gt;\n&lt;p&gt;•High-performance historical simulation/back testing engine for vetting new alpha strategies.&lt;/p&gt;\n&lt;p&gt;•Bespoke technology solutions that satisfy the needs of specific asset classes and research needs&lt;/p&gt;\n&lt;p&gt;•Partner with not only local but also global team of research engineers for successful product delivery&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What You’ll Bring:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;•BS/MS/PhD in Computer Science, Computational Finance, Data Science, or related discipline&lt;br&gt;•At least 5+ years of experience as a quantitative developer, preferably in the financial services industry.&lt;br&gt;•Outstanding communication, coding, debugging, and analytical skills.&lt;br&gt;•Strength in pragmatic design and deploying applications using Linux/Docker/Python.&lt;br&gt;•An interest in quantitative finance (no finance / trading experience required).&lt;/p&gt;",
+      "updated_at": "2026-09-21T02:46:06-04:00",
+      "posted_pay_range": null,
+      "tier": "Tier B: Main Focus",
+      "suitability_score": 82,
+      "verdict": "HIGH PRIORITY (Direct Target)",
+      "recommendation": "Immediate Apply (Tailor quantitative resume)",
+      "matched_signals": [
+        "Title match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +45",
+        "Keyword match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +22",
+        "Firm Quality Boost: +15"
+      ],
+      "penalties": [],
+      "estimated_comp": "$250,000 - $400,000+",
+      "comp_benchmark_delta": "Significantly Above Benchmark",
+      "priority_tier": "Tier B: Main Focus",
+      "priority_tag": "High Conviction",
+      "industry_sector": "Quantitative Hedge Funds",
+      "official_careers_url": "https://www.aqr.com/Careers",
+      "key": "AQR Capital Management::gh_aqr_7493464",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-30T01:30:21.227795",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_aqr_8018219",
+      "firm_name": "AQR Capital Management",
+      "title": "Quantitative Research – Prediction Markets Analyst",
+      "location": "Greenwich, CT",
+      "department": "Research",
+      "url": "https://careers.aqr.com/jobs?gh_jid=8018219&gh_jid=8018219",
+      "source_ats": "Greenhouse",
+      "description": "&lt;p&gt;&lt;strong&gt;About AQR Capital Management&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;AQR is a global investment management firm built at the intersection of financial theory and practical application. We strive to deliver superior, long-term results for our clients by looking past market noise to identify and isolate what matters most, and by developing ideas that stand up to rigorous testing. Our focus on practical insights and analysis has made us leaders in alternative and traditional strategies since 1998.&lt;/p&gt;\n&lt;p&gt;At AQR, our employees share a common spirit of academic excellence, intellectual honesty and an unwavering commitment to seeking the truth. We’re determined to know what makes financial markets tick – and we’ll ask every question and challenge every assumption. We recognize and respect the power of collaboration, and we believe transparency and openness to new ideas leads to innovation.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Your Role:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;AQR Capital Management is looking for an exceptionally talented individual to join our Quantitative Research team focused on Prediction Markets. This team will focus on building quantitative models to trade around professional sports.&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Conduct rigorous statistical and economic research using alternative and traditional data sources to develop new alpha signals&lt;/li&gt;\n&lt;li&gt;Assist in the end-to-end research process in close collaboration with the supervising Portfolio Manager, including data ingestion and processing, exploratory analysis, methodology selection, implementation and testing, prototyping, and performance evaluation&lt;/li&gt;\n&lt;li&gt;Enhance and extend AQR’s proprietary research platform to support and implement new research ideas&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What You’ll Bring: &lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;B.S. degree or advanced degree from a top institution in data science, computer science, mathematics, statistics, operations research or another quantitative discipline.&lt;/li&gt;\n&lt;li&gt;Internship or academic experience working in a data driven research environment with a focus on model development and forecasting&lt;/li&gt;\n&lt;li&gt;Strong coding and data analytics skills&lt;/li&gt;\n&lt;li&gt;Experience in finance, especially with systematic macro strategies preferred&lt;/li&gt;\n&lt;li&gt;Awareness or experience in trading prediction markets is a plus&lt;/li&gt;\n&lt;li&gt;Familiarity with the basic rules of major sports (MLB, NBA, NFL, NHL + more) and associated analytics, experience working in sports data professionally is a plus&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;AQR is an Equal Opportunity Employer. EEO/VET/DISABILITY&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;/p&gt;\n&lt;p&gt;he salary range for this role is expected to be $200,000 to $230,000.&amp;nbsp; This is the range that we in good faith believe is accurate for this role at the time of this posting.&amp;nbsp; We may ultimately pay more or less than the posted range, depending upon factors such as skills, experience, location, or other business and organizational needs.&amp;nbsp; This wage range may also be modified in the future.&lt;/p&gt;\n&lt;p&gt;This job is also eligible for an annual discretionary bonus.&lt;/p&gt;\n&lt;p&gt;We offer comprehensive package of benefits including paid time off, medical/dental/vision insurance, 401(k), and any other benefits to eligible employees.&lt;/p&gt;\n&lt;p&gt;Note: No amount of pay is considered to be wages or compensation until such amount is earned, vested, and determinable. The amount and availability of any bonus, commission, benefits, or any other form of compensation and benefits that are allocable to a particular employee remains in the Company&#39;s sole discretion unless and until paid and may be modified at the Company’s sole discretion, consistent with the law.&lt;/p&gt;\n&lt;p&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+      "updated_at": "2026-09-21T02:46:06-04:00",
+      "posted_pay_range": "$200,000 to $230,000 / yr",
+      "tier": "Tier B: Main Focus",
+      "suitability_score": 82,
+      "verdict": "HIGH PRIORITY (Direct Target)",
+      "recommendation": "Immediate Apply (Tailor quantitative resume)",
+      "matched_signals": [
+        "Title match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +45",
+        "Keyword match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +22",
+        "Firm Quality Boost: +15"
+      ],
+      "penalties": [],
+      "estimated_comp": "$250,000 - $400,000+",
+      "comp_benchmark_delta": "Significantly Above Benchmark",
+      "priority_tier": "Tier B: Main Focus",
+      "priority_tag": "High Conviction",
+      "industry_sector": "Quantitative Hedge Funds",
+      "official_careers_url": "https://www.aqr.com/Careers",
+      "key": "AQR Capital Management::gh_aqr_8018219",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-30T01:30:21.227795",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
       "url_status": 200
     },
     {
@@ -9648,7 +10643,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Schonfeld Strategic Advisors::gh_schonfeld_5460823",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -9687,7 +10682,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "MerQube::gh_merqube_4693886006",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -9701,7 +10696,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Citadel Tailored Agent",
       "tier": "Tier A: Moonshots (Too Hard)",
       "description": "High performance low latency C++ algorithmic execution platforms.",
-      "updated_at": "2026-09-30T05:40:36.079792",
+      "updated_at": "2026-09-30T01:47:50.009090",
       "suitability_score": 80,
       "verdict": "HIGH PRIORITY (Direct Target)",
       "recommendation": "Immediate Apply (Tailor quantitative resume)",
@@ -9719,7 +10714,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Citadel::citadel_sec_qd_2027_nyc",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://www.citadel.com/careers/open-roles/",
@@ -9753,7 +10748,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Akuna Capital::gh_akunacapital_6812905",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -9789,7 +10784,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Tower Research Capital::gh_towerresearchcapital_8230413",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -9829,7 +10824,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "OpenAI::ashby_openai_898a87fb-4cb8-450e-9840-ee5dc710a57d",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -9864,7 +10859,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Squarepoint Capital::gh_squarepointcapital_6034466",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -9898,7 +10893,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Simplex Trading::gh_simplextrading_4181846008",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -9934,7 +10929,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Affirm::gh_affirm_7822389003",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -9970,7 +10965,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Affirm::gh_affirm_7822387003",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -9984,7 +10979,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;strong&gt;Quant/Developer Analyst for a Discretionary Macro Investment Team focused on Structured Products&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;A Career with Point72’s Macro Team&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Point72’s Global Macro business is a scaled, global investment platform with more than two decades of experience trading across rates, FX, credit, volatility, and emerging markets. Operating across 10 offices worldwide, we have doubled our capital allocation and grown our number of teams fivefold since 2020. We combine deep asset-class expertise with a highly collaborative culture across macro, fundamental equities, and systematic strategies to drive differentiated investment performance and support long-term career growth for our talent.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What you’ll do&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Help architect and maintain the infrastructure for Structured Products investing.&lt;/li&gt;\n&lt;li&gt;Leverage internal and external partners to help with data infrastructure builds.&lt;/li&gt;\n&lt;li&gt;Integrate alternative and traditional data sets to help streamline our analytic processes.&lt;/li&gt;\n&lt;li&gt;Use Artificial Intelligence (AI) to enhance and optimize processes.&lt;/li&gt;\n&lt;li&gt;Work with risk parameters based on High Yield Equivalent and quantitative processes within market-standard analytics platforms such as Bloomberg.&lt;/li&gt;\n&lt;li&gt;Manage and assist in special projects within the CLO market.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What’s required&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;3+ years at a sell-side firm in a trading or quantitative research role, or as a quant at a buy-side credit or mortgage-focused fund.&lt;/li&gt;\n&lt;li&gt;Undergraduate degree or higher in computer science, economics, engineering, mathematics, physics, or statistics.&lt;/li&gt;\n&lt;li&gt;Advanced knowledge of a programming language such as Python, C++, or SQL.&lt;/li&gt;\n&lt;li&gt;Advanced skills in Excel and cashflow modeling.&lt;/li&gt;\n&lt;li&gt;Extensive experience with third-party structured credit cashflow engines (e.g., INTEX) and API.&lt;/li&gt;\n&lt;li&gt;Commitment to the highest ethical standards.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;We take care of our people&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We invest in our people, their careers, their health, and their well-being. When you work here, we provide:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Fully-paid health care benefits&lt;/li&gt;\n&lt;li&gt;Generous parental and family leave policies&lt;/li&gt;\n&lt;li&gt;Volunteer opportunities&lt;/li&gt;\n&lt;li&gt;Support for employee-led affinity groups representing women, people of color and the LGBT+ community&lt;/li&gt;\n&lt;li&gt;Mental and physical wellness programs&lt;/li&gt;\n&lt;li&gt;Tuition assistance&lt;/li&gt;\n&lt;li&gt;A 401(k) savings program with an employer match and more&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;About point72&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Point72 is a leading global alternative investment firm led by Steven A. Cohen. Building on more than 30 years of investing experience, Point72 seeks to deliver superior returns for its investors through fundamental and systematic investing strategies across asset classes and geographies. We aim to attract and retain the industry’s brightest talent by cultivating an investor-led culture and committing to our people’s long-term growth. For more information, visit&amp;nbsp;&lt;a href=&quot;https://point72.com/&quot;&gt;https://point72.com/&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
-      "updated_at": "2026-09-30T05:40:36.470209",
+      "updated_at": "2026-09-30T01:47:50.152390",
       "suitability_score": 74,
       "verdict": "STRONG FIT (Competitive)",
       "recommendation": "Apply (Standard quant package)",
@@ -10002,7 +10997,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_8745810002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -10019,7 +11014,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;strong&gt;Summary&lt;br&gt;&lt;/strong&gt;We are seeking a highly motivated and detail-oriented Trader/Quant Analyst with a strong background in trading and data analysis to join our investment team. The ideal candidate will have at least 3 years of experience in convertible securities (or equity/FX/rates derivatives), relative value trading strategies, and quant data analysis. The role will combine active trading and risk management and quantitative analysis to identify and execute profitable opportunities in the convertible space.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;Role/Responsibilities:&lt;/u&gt;&lt;/strong&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Identify relative value opportunities between convertible bonds, the underlying equity, and credit derivatives.&lt;/li&gt;\n&lt;li&gt;Execute trades in convertible securities, related equities, and hedges in alignment with investment theses and risk parameters.&lt;/li&gt;\n&lt;li&gt;Manage existing positions proactively, assessing changes in valuation, liquidity, and market sentiment.&lt;/li&gt;\n&lt;li&gt;Conduct in-depth quant data analysis on the convertible bond universe, including historical pricing and valuation.&lt;/li&gt;\n&lt;li&gt;Model and evaluate convertible securities across multiple scenarios, analyzing risks related to credit, interest rates, volatility, and equity sensitivity.&lt;/li&gt;\n&lt;li&gt;Build front-office tools to analyze convert universe data for idea generation, trade optimization, and risk management.&lt;/li&gt;\n&lt;li&gt;Coordinate with the portfolio manager and risk team to size positions appropriately and adhere to pre-defined risk limits.&lt;/li&gt;\n&lt;li&gt;Track and analyze P&amp;amp;L drivers on a daily basis and provide attribution reports.&lt;/li&gt;\n&lt;li&gt;Hedge exposures dynamically using equity, credit, and derivative instruments.&lt;/li&gt;\n&lt;li&gt;Work closely with other analysts, traders, and portfolio managers across strategies to share insights and generate synergies.&lt;/li&gt;\n&lt;li&gt;Maintain strong relationships with sell-side counterparties and market participants to source information and enhance trade execution.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;Requirements&lt;/u&gt;&lt;/strong&gt;&lt;strong&gt;:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Bachelor’s degree in finance, economics, mathematics, engineering, or related field; advanced degree or CFA preferred.&lt;/li&gt;\n&lt;li&gt;3+ years of experience in convertible bond trading with a quant/programming skillset.&lt;/li&gt;\n&lt;li&gt;Strong understanding of credit markets, bond math, equity derivatives, and volatility analysis.&lt;/li&gt;\n&lt;li&gt;Proficiency in modeling convertible securities and scenario analysis.&lt;/li&gt;\n&lt;li&gt;Familiarity with risk management systems and trading platforms (e.g., Bloomberg, Tradeweb).&lt;/li&gt;\n&lt;li&gt;Strong analytical and quantitative data skills; proficiency in Excel and at least one programming language (Python, R, VBA) is required.&lt;/li&gt;\n&lt;li&gt;Excellent communication skills and ability to work in a fast-paced, team-oriented environment.&lt;/li&gt;\n&lt;li&gt;Commitment to the highest ethical standards.&lt;/li&gt;\n&lt;/ul&gt;",
-      "updated_at": "2026-09-30T05:40:36.470478",
+      "updated_at": "2026-09-30T01:47:50.152490",
       "suitability_score": 74,
       "verdict": "STRONG FIT (Competitive)",
       "recommendation": "Apply (Standard quant package)",
@@ -10037,7 +11032,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_8375066002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -10072,7 +11067,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_8745810002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -10107,7 +11102,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_8375066002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -10145,7 +11140,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Engineers Gate::gh_engineersgate_8233715",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -10159,7 +11154,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Millennium Tailored Agent",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "Architect high-throughput backtesting infrastructure and low-latency execution interfaces.",
-      "updated_at": "2026-09-30T05:40:36.259910",
+      "updated_at": "2026-09-30T01:47:50.054188",
       "suitability_score": 72,
       "verdict": "STRONG FIT (Competitive)",
       "recommendation": "Apply (Standard quant package)",
@@ -10176,7 +11171,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Millennium Management::millennium_management_quant_developer_2027",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://www.mlpm.com/careers/",
@@ -10193,7 +11188,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;u&gt;Role: &lt;/u&gt;&lt;/p&gt;\n&lt;p&gt;Point72 is looking for a Quantitative Developer to join its Fund Flow Research team. The Fund Flow Group provides best in class flow and positioning indicators to help PMs, analysts, and traders across all investment functions understand their investment backdrop, better assess reward and risk, and identify alpha opportunities.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;u&gt;Responsibilities&lt;/u&gt;:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Partner with researchers to release high-quality production code&lt;/li&gt;\n&lt;li&gt;Integrate AI into written content creation, internal client service, and team operations&lt;/li&gt;\n&lt;li&gt;Develop generic frameworks to build flow datasets across equities, credit, and macro&lt;/li&gt;\n&lt;li&gt;Troubleshoot and resolve production issues&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;u&gt;Requirements:&lt;/u&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Undergraduate degree or higher in a technical field&lt;/li&gt;\n&lt;li&gt;Strong programming skills in Python&lt;/li&gt;\n&lt;li&gt;Strong orientation towards team success and desire to mentor teammates&lt;/li&gt;\n&lt;li&gt;Passion for technology and markets&lt;/li&gt;\n&lt;li&gt;Strong written and verbal communication skills&lt;/li&gt;\n&lt;li&gt;Intellectual curiosity, exceptional attention to detail, and the ability to manage multiple projects and deadlines in a fast-paced environment&lt;/li&gt;\n&lt;li&gt;Commitment to the highest ethical standards&lt;/li&gt;\n&lt;/ul&gt;",
-      "updated_at": "2026-09-30T05:40:36.469968",
+      "updated_at": "2026-09-30T01:47:50.152271",
       "suitability_score": 72,
       "verdict": "STRONG FIT (Competitive)",
       "recommendation": "Apply (Standard quant package)",
@@ -10210,7 +11205,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_8389369002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -10227,7 +11222,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;div class=&quot;slds-p-around_small slds-col slds-size_12-of-12&quot; data-aura-rendered-by=&quot;555:603;a&quot;&gt;\n&lt;div class=&quot;slds-form-element__control&quot;&gt;Point72 is seeking a Quantitative Developer to join its Portfolio Construction and Analysis (PCA) team within the CIO office.&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=&quot;slds-p-around_small slds-col slds-size_12-of-12&quot; data-aura-rendered-by=&quot;563:603;a&quot;&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div class=&quot;slds-p-around_small slds-col slds-size_12-of-12&quot; data-aura-rendered-by=&quot;563:603;a&quot;&gt;&lt;strong&gt;ROLE&lt;/strong&gt;\n&lt;div class=&quot;slds-form-element__control&quot;&gt;\n&lt;p&gt;Point72 is seeking a Quantitative Developer to join its Portfolio Construction and Analysis (PCA) team within the CIO office.&lt;/p&gt;\n&lt;p&gt;The PCA team plays a vital role in the Equity L/S business at the firm, collaborating with investment teams to improve net revenue and risk adjusted returns. The Quantitative Developer will build, refine, and maintain an efficient technology infrastructure to enable and support the team’s quantitative research and analytical efforts.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;The ideal candidate is a smart, self-driven, and creative problem solver with strong technical and quantitative skills.&lt;/p&gt;\n&lt;br&gt;&lt;strong&gt;RESPONSIBILITIES&lt;/strong&gt;\n&lt;ul&gt;\n&lt;li&gt;Architect, build, refine, and increase automation and robustness of the research infrastructure, including data access, risk modeling, and backtesting components&lt;/li&gt;\n&lt;li&gt;Collaborate with quant researchers to implement framework for automating and presenting analytics, reports, and monitors&lt;/li&gt;\n&lt;li&gt;Collaborate with firm-wide technology teams to deliver analytics and tools to users across the firm&lt;/li&gt;\n&lt;/ul&gt;\n&lt;br&gt;&lt;strong&gt;DESIREABLE CANDIDATES&lt;/strong&gt;\n&lt;ul&gt;\n&lt;li&gt;Undergraduate, Masters, or PhD in Computer Science or other quantitative discipline&lt;/li&gt;\n&lt;li&gt;3+ years of professional experience developing infrastructure to support an investment team&lt;/li&gt;\n&lt;li&gt;Strong programming skills in Python and SQL&lt;/li&gt;\n&lt;li&gt;Solid background in math/statistics/finance and familiarity with quantitative research methodologies and machine learning algorithms&lt;/li&gt;\n&lt;li&gt;Understanding of and experience with the data ingestion process&lt;/li&gt;\n&lt;li&gt;Ability to contribute to the analytics, quant research, and development process&lt;/li&gt;\n&lt;li&gt;Understanding of portfolio construction is a plus&lt;/li&gt;\n&lt;li&gt;Knowledge of equities is a plus&lt;/li&gt;\n&lt;li&gt;High-energy personality and the ability to manage multiple tasks and deadlines in a fast-paced environment&lt;/li&gt;\n&lt;li&gt;High degree of drive – must be a self-starter&lt;/li&gt;\n&lt;li&gt;Ability to recognize and seize opportunities&lt;/li&gt;\n&lt;li&gt;Depth of skills enabling him/her to perform ad hoc projects and tasks with fast turnover&lt;/li&gt;\n&lt;li&gt;Ability to communicate clearly and concisely&lt;/li&gt;\n&lt;li&gt;Ability to work cooperatively with all levels of staff and to thrive in a team-oriented environment&lt;/li&gt;\n&lt;li&gt;A commitment to the highest ethical standards and to act with professionalism and integrity&lt;/li&gt;\n&lt;/ul&gt;\nThe annual base salary range is $175000.00-$300000.00 (USD) . Actual compensation offered to candidate may vary from posted hiring range based upon geographic location, work experience, education, and/or skill level among other things. Details about eligibility for bonus compensation (if applicable) will be finalized at the time of offer.&lt;/div&gt;\n&lt;div class=&quot;slds-form-element__control&quot;&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div class=&quot;slds-form-element__control&quot;&gt;\n&lt;p&gt;Point72 is a leading global alternative investment firm led by Steven A. Cohen. Building on more than 30 years of investing experience, Point72 seeks to deliver superior returns for its investors through fundamental and systematic investing strategies across asset classes and geographies. We aim to attract and retain the industry’s brightest talent by cultivating an investor-led culture and committing to our people’s long-term growth.&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;",
-      "updated_at": "2026-09-30T05:40:36.470218",
+      "updated_at": "2026-09-30T01:47:50.152395",
       "suitability_score": 72,
       "verdict": "STRONG FIT (Competitive)",
       "recommendation": "Apply (Standard quant package)",
@@ -10244,7 +11239,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_7297653002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -10261,7 +11256,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;A Career with Point72&#39;s Trading Research Team&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;WHAT YOU&#39;LL DO&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Build and scale the research-to-trading platform that enables to support the design, testing, and deployment of quantitative strategies from prototype to production&lt;/li&gt;\n&lt;li&gt;Design and implement high-performance analytics and pricing libraries in C++ and Python to support back testing, simulation, and real-time decision making&lt;/li&gt;\n&lt;li&gt;Partner with investment professionals across the global business to translate ideas into robust, production-grade code and reproducible experiments&lt;/li&gt;\n&lt;li&gt;Develop and maintain data pipelines and storage solutions that ingest, validate, and serve large historical and real-time market datasets&lt;/li&gt;\n&lt;li&gt;Deploy, monitor, and operate production services, including automated testing, release processes, and incident response&lt;/li&gt;\n&lt;li&gt;Drive performance and latency optimizations across code paths and infrastructure using profiling and benchmarking techniques&lt;/li&gt;\n&lt;li&gt;Create tooling for experiment management, post-trade analysis, and model validation to measure strategy behavior and market impact&lt;/li&gt;\n&lt;li&gt;Lead and contribute to the technical roadmap, increasing automation, resilience, and scalability of the research infrastructure&lt;/li&gt;\n&lt;li&gt;Mentor junior developers, share best practices for software engineering, and promote a culture of continuous improvement and technical excellence&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;WHAT&#39;S REQUIRED&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Bachelor’s degree or higher in computer science, engineering, mathematics, physics, or a related quantitative discipline&lt;/li&gt;\n&lt;li&gt;3+ years of professional software engineering experience building production systems in a collaborative environment&lt;/li&gt;\n&lt;li&gt;Strong proficiency in Python for data analysis and tooling and fluency in modern C++ for performance-sensitive components&lt;/li&gt;\n&lt;li&gt;Practical experience building and querying relational databases or columnar data stores using SQL and hands-on experience with Linux development&lt;/li&gt;\n&lt;li&gt;Proven experience designing and operating production services, including testing, deployment, and monitoring practices&lt;/li&gt;\n&lt;li&gt;Demonstrated ability to profile, debug, and optimize code and system performance for low-latency or high-throughput workloads&lt;/li&gt;\n&lt;li&gt;Working knowledge of financial markets and instruments across equities, futures, or foreign exchange, and how market data is used in research&lt;/li&gt;\n&lt;li&gt;Strong analytical problem-solving skills and attention to detail when validating models and calculations and excellent communication with experience working directly with researchers and portfolio managers&lt;/li&gt;\n&lt;li&gt;Commitment to the highest ethical standards&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;WE TAKE CARE OF OUR PEOPLE&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We invest in our people, their careers, their health, and their well-being. When you work here, we provide:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Sports card&lt;/li&gt;\n&lt;li&gt;Private life insurance&lt;/li&gt;\n&lt;li&gt;Private medical and dental care, with vision allowance&lt;/li&gt;\n&lt;li&gt;Private pension scheme&lt;/li&gt;\n&lt;li&gt;Volunteer opportunities&lt;/li&gt;\n&lt;li&gt;Support for employee-led affinity groups representing women, people of color and the LGBT+ community&lt;/li&gt;\n&lt;li&gt;Business travel accident insurance&lt;/li&gt;\n&lt;li&gt;Employee assistance program&lt;/li&gt;\n&lt;li&gt;Educational assistance reimbursement&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;ABOUT POINT72&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Point72 is a leading global alternative investment firm led by Steven A. Cohen. Building on more than 30 years of investing experience, Point72 seeks to deliver superior returns for its investors through fundamental and systematic investing strategies across asset classes and geographies. We aim to attract and retain the industry&#39;s brightest talent by cultivating an investor-led culture and committing to our people&#39;s long-term growth. For more information, visit https://point72.com/.&lt;/p&gt;\n&lt;p&gt;Our Warsaw office gives us access to world-class talent with a reputation for excellence and innovation. We&#39;re looking to build an office of subject-matter experts whose fresh perspectives will help evolve our infrastructure and advance the capabilities of our teams. Learn more at &lt;a href=&quot;https://point72.com/Warsaw&quot;&gt;https://point72.com/Warsaw&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
-      "updated_at": "2026-09-30T05:40:36.470224",
+      "updated_at": "2026-09-30T01:47:50.152396",
       "suitability_score": 72,
       "verdict": "STRONG FIT (Competitive)",
       "recommendation": "Apply (Standard quant package)",
@@ -10278,7 +11273,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_8561446002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -10312,7 +11307,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jump Trading::gh_jumptrading_7822791",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -10346,7 +11341,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jump Trading::gh_jumptrading_6172858",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -10380,7 +11375,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jump Trading::gh_jumptrading_6190021",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -10414,7 +11409,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jump Trading::gh_jumptrading_8105914",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -10448,7 +11443,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "WorldQuant::gh_worldquant_4648089006",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -10482,7 +11477,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "WorldQuant::gh_worldquant_4649674006",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -10516,7 +11511,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "WorldQuant::gh_worldquant_4435904006",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -10550,7 +11545,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "WorldQuant::gh_worldquant_4659364006",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -10584,7 +11579,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "WorldQuant::gh_worldquant_4703213006",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -10618,7 +11613,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "WorldQuant::gh_worldquant_4700347006",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": "$125,000 to $175,000 / yr",
@@ -10652,7 +11647,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "WorldQuant::gh_worldquant_4686743006",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -10686,7 +11681,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "WorldQuant::gh_worldquant_4649227006",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -10720,7 +11715,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_8389369002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -10754,7 +11749,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_7297653002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -10788,7 +11783,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_8561446002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -10825,7 +11820,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "AXQ Capital::gh_axq_5613867004",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -10859,7 +11854,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "AXQ Capital::gh_axq_5635911004",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -10893,41 +11888,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "AXQ Capital::gh_axq_6149705004",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "url_status": 200
-    },
-    {
-      "job_id": "lever_gmo_69fd389b-eb62-4d1c-a392-28a89c36b2cf",
-      "firm_name": "GMO",
-      "title": "Quantitative Research Analyst, Investment Risk and Capital Markets Research (Grantham, Mayo, van Otterloo & Co. LLC)",
-      "location": "Boston, MA",
-      "department": "Investments",
-      "url": "https://jobs.lever.co/gmo/69fd389b-eb62-4d1c-a392-28a89c36b2cf",
-      "source_ats": "Lever",
-      "description": "Company Profile\n \nFounded in 1977, GMO is a global investment manager committed to delivering superior long-term investment performance and advice to our clients. We offer investment strategies and solutions where we believe we are positioned to add the greatest value for our investors. These include multi-asset class, equity, fixed income and alternative offerings.\n \nWe manage approximately $80bn for a client base that includes many of the world’s most sophisticated institutions, financial intermediaries, and private clients. Industry-wide, we are well known for our focus on valuation-based investing, willingness to take bold positions when conditions warrant, and candid and academically rigorous thought leadership. Jeremy Grantham, GMO’s Co-Founder and Long-Term Investment Strategist, is renowned as an expert in identifying speculative investment bubbles and also as a leading climate investor and advocate.\n \nGMO is privately owned and employs over 430 people worldwide. We are headquartered in Boston, with additional offices in Europe, Asia and Australia. Our company-wide culture emphasizes commitment to clients, intellectual curiosity, and open debate. We celebrate and respect our differences, while embracing and valuing what each of us brings to work, as we know that diverse teams in an inclusive, caring environment achieve higher engagement and better client results.\n \nPlease follow the prompts included in this job posting to apply. The application window for this role is anticipated to remain open until the job is filled, or as otherwise determined by GMO.\n \n\n\nUsing deep understanding of GMO’s forecast models, contribute to monthly model reviews and assist with the implementation of infrastructure improvements to streamline processes, enhance efficiency, and support more accurate and timely updates to investment forecasts;\nConduct research projects to enhance GMO forecast components, including refining methodologies and the investment universe, integrating new data sources, and adjusting model parameters to improve the accuracy, reliability, and predictability of our forecasting framework;\nUpdate and maintain forecast-related client materials and analytics across the asset allocation landscape, including equities, fixed income, credit, and FX markets. Provide actionable quantitative insights that address client inquiries regarding asset class views and forecasts to assist Asset Allocation strategists and the GCR team;\nMigrate portfolio analytics tool across fund strategies to a user-interactive Python-based dashboard, improving the accessibility of key analytics for multiple functions within the investment teams;\nGuide the GMO Asset Class Forecast and Capital Market Assumptions monthly update process to recommend investment decisions to the Asset Allocation team and facilitate strategic, solutions-oriented conversations with clients. Co-host Quarterly Forecast Review forums to discuss the attractiveness of asset classes and provide insights into the key drivers influencing asset class returns;\nTransition forecast models to a new Python-based code platform, enabling downstream applications for forecast analytics and improving the accessibility of key forecast-related insights for strategists, portfolio managers, and clients;\nConduct research on topics that can be leveraged to enhance investment risk management strategies and improve the risk monitoring process in partnership with the Investment Risk team.\nMay telecommute part of the week from commuting distance to Boston, MA in accordance with the company’s flexible working policy.\nMinimum Requirements: \nA Master’s degree (or foreign equivalent) in Mathematics, Economics, Finance, Statistics, or a related quantitative discipline plus 3 years of experience in a quantitative research analyst- or financial analyst-related occupation.\nExperience must include the following, which may have been gained concurrently:\n1) 3 years of experience developing, maintaining, and refining quantitative financial models for capital market assumptions and asset class return projections, including applying valuation techniques, calibrating model parameters, refining methodologies, and integrating new data sources to support investment decision-making;\n2) 3 years of experience conducting quantitative research and analytics across multiple asset classes, including equities, fixed income, credit, and foreign exchange (FX) markets;\n3) 3 years of experience supporting portfolio construction and asset allocation activities;\n4) 3 years of experience using Python for quantitative financial modeling, data analysis, and analytical tools and applications development;\n5) 3 years of experience applying statistical and econometric methods, including time-series analysis and regression techniques, to financial data for quantitative research and capital market assumptions modeling purposes;\n6) 3 years of experience using MATLAB for quantitative analysis and computational modeling;\n7) 3 years of experience using SQL for querying and extracting data from relational databases;\n8) 3 years of experience using Microsoft Office suite (including Excel, PowerPoint, and Word) for financial data analysis, model prototyping, and preparation of quantitative research materials and client-facing deliverables.\nJob site: 53 State St., Boston, MA, 02109. Full-time. Salary: $170,000 - $185,000.\nJOB OPPORTUNITY QUALIFIES FOR EMPLOYEE INCENTIVE REFERRAL PROGRAM\n#LI-DNI\n",
-      "updated_at": 1789390715402,
-      "posted_pay_range": "$170,000 - $185,000 / yr",
-      "tier": "Tier B: Main Focus",
-      "suitability_score": 71,
-      "verdict": "STRONG FIT (Competitive)",
-      "recommendation": "Apply (Standard quant package)",
-      "matched_signals": [
-        "Title match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +45",
-        "Keyword match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +22",
-        "Firm Quality Boost: +4"
-      ],
-      "penalties": [],
-      "estimated_comp": "$130,000 - $180,000",
-      "comp_benchmark_delta": "On Par / Below Benchmark",
-      "priority_tier": "Tier C2: Same or Below Benchmark",
-      "priority_tag": "Secondary Target",
-      "industry_sector": "Systematic Asset Management & Allocators",
-      "official_careers_url": "https://www.gmo.com/americas/careers/",
-      "key": "GMO::lever_gmo_69fd389b-eb62-4d1c-a392-28a89c36b2cf",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -10961,7 +11922,41 @@ window.LIVE_OPENINGS_DATA = {
       "key": "SESCO::gh_sesco_4280845009",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "url_status": 200
+    },
+    {
+      "job_id": "lever_gmo_69fd389b-eb62-4d1c-a392-28a89c36b2cf",
+      "firm_name": "GMO",
+      "title": "Quantitative Research Analyst, Investment Risk and Capital Markets Research (Grantham, Mayo, van Otterloo & Co. LLC)",
+      "location": "Boston, MA",
+      "department": "Investments",
+      "url": "https://jobs.lever.co/gmo/69fd389b-eb62-4d1c-a392-28a89c36b2cf",
+      "source_ats": "Lever",
+      "description": "Company Profile\n \nFounded in 1977, GMO is a global investment manager committed to delivering superior long-term investment performance and advice to our clients. We offer investment strategies and solutions where we believe we are positioned to add the greatest value for our investors. These include multi-asset class, equity, fixed income and alternative offerings.\n \nWe manage approximately $80bn for a client base that includes many of the world’s most sophisticated institutions, financial intermediaries, and private clients. Industry-wide, we are well known for our focus on valuation-based investing, willingness to take bold positions when conditions warrant, and candid and academically rigorous thought leadership. Jeremy Grantham, GMO’s Co-Founder and Long-Term Investment Strategist, is renowned as an expert in identifying speculative investment bubbles and also as a leading climate investor and advocate.\n \nGMO is privately owned and employs over 430 people worldwide. We are headquartered in Boston, with additional offices in Europe, Asia and Australia. Our company-wide culture emphasizes commitment to clients, intellectual curiosity, and open debate. We celebrate and respect our differences, while embracing and valuing what each of us brings to work, as we know that diverse teams in an inclusive, caring environment achieve higher engagement and better client results.\n \nPlease follow the prompts included in this job posting to apply. The application window for this role is anticipated to remain open until the job is filled, or as otherwise determined by GMO.\n \n\n\nUsing deep understanding of GMO’s forecast models, contribute to monthly model reviews and assist with the implementation of infrastructure improvements to streamline processes, enhance efficiency, and support more accurate and timely updates to investment forecasts;\nConduct research projects to enhance GMO forecast components, including refining methodologies and the investment universe, integrating new data sources, and adjusting model parameters to improve the accuracy, reliability, and predictability of our forecasting framework;\nUpdate and maintain forecast-related client materials and analytics across the asset allocation landscape, including equities, fixed income, credit, and FX markets. Provide actionable quantitative insights that address client inquiries regarding asset class views and forecasts to assist Asset Allocation strategists and the GCR team;\nMigrate portfolio analytics tool across fund strategies to a user-interactive Python-based dashboard, improving the accessibility of key analytics for multiple functions within the investment teams;\nGuide the GMO Asset Class Forecast and Capital Market Assumptions monthly update process to recommend investment decisions to the Asset Allocation team and facilitate strategic, solutions-oriented conversations with clients. Co-host Quarterly Forecast Review forums to discuss the attractiveness of asset classes and provide insights into the key drivers influencing asset class returns;\nTransition forecast models to a new Python-based code platform, enabling downstream applications for forecast analytics and improving the accessibility of key forecast-related insights for strategists, portfolio managers, and clients;\nConduct research on topics that can be leveraged to enhance investment risk management strategies and improve the risk monitoring process in partnership with the Investment Risk team.\nMay telecommute part of the week from commuting distance to Boston, MA in accordance with the company’s flexible working policy.\nMinimum Requirements: \nA Master’s degree (or foreign equivalent) in Mathematics, Economics, Finance, Statistics, or a related quantitative discipline plus 3 years of experience in a quantitative research analyst- or financial analyst-related occupation.\nExperience must include the following, which may have been gained concurrently:\n1) 3 years of experience developing, maintaining, and refining quantitative financial models for capital market assumptions and asset class return projections, including applying valuation techniques, calibrating model parameters, refining methodologies, and integrating new data sources to support investment decision-making;\n2) 3 years of experience conducting quantitative research and analytics across multiple asset classes, including equities, fixed income, credit, and foreign exchange (FX) markets;\n3) 3 years of experience supporting portfolio construction and asset allocation activities;\n4) 3 years of experience using Python for quantitative financial modeling, data analysis, and analytical tools and applications development;\n5) 3 years of experience applying statistical and econometric methods, including time-series analysis and regression techniques, to financial data for quantitative research and capital market assumptions modeling purposes;\n6) 3 years of experience using MATLAB for quantitative analysis and computational modeling;\n7) 3 years of experience using SQL for querying and extracting data from relational databases;\n8) 3 years of experience using Microsoft Office suite (including Excel, PowerPoint, and Word) for financial data analysis, model prototyping, and preparation of quantitative research materials and client-facing deliverables.\nJob site: 53 State St., Boston, MA, 02109. Full-time. Salary: $170,000 - $185,000.\nJOB OPPORTUNITY QUALIFIES FOR EMPLOYEE INCENTIVE REFERRAL PROGRAM\n#LI-DNI\n",
+      "updated_at": 1789390715402,
+      "posted_pay_range": "$170,000 - $185,000 / yr",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "suitability_score": 71,
+      "verdict": "STRONG FIT (Competitive)",
+      "recommendation": "Apply (Standard quant package)",
+      "matched_signals": [
+        "Title match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +45",
+        "Keyword match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +22",
+        "Firm Quality Boost: +4"
+      ],
+      "penalties": [],
+      "estimated_comp": "$130,000 - $180,000",
+      "comp_benchmark_delta": "On Par / Below Benchmark",
+      "priority_tier": "Tier C2: Same or Below Benchmark",
+      "priority_tag": "Secondary Target",
+      "industry_sector": "Systematic Asset Management & Allocators",
+      "official_careers_url": "https://www.gmo.com/americas/careers/",
+      "key": "GMO::lever_gmo_69fd389b-eb62-4d1c-a392-28a89c36b2cf",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-30T01:30:21.227795",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -10975,7 +11970,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Jane Street Tailored Agent",
       "tier": "Tier A: Moonshots (Too Hard)",
       "description": "Build ultra-low latency infrastructure and scalable data pipelines in OCaml/C++ for global quantitative trading.",
-      "updated_at": "2026-09-30T05:40:35.918265",
+      "updated_at": "2026-09-30T01:47:49.979038",
       "suitability_score": 68,
       "verdict": "STRONG FIT (Competitive)",
       "recommendation": "Apply (Standard quant package)",
@@ -10994,7 +11989,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::jane_street_swe_ml_2027",
       "status": "INACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "official_careers_url": "https://www.janestreet.com/join-jane-street/open-roles/",
@@ -11012,7 +12007,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;strong&gt;JOB DESCRIPTION&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Point72 Asset Management is seeking a Quantitative Analyst to join its Portfolio Construction &amp;amp; Analytics Team (PCAT) in the Office of the CIO.&lt;/p&gt;\n&lt;p&gt;PCAT’s mandate is to study all drivers of success for Long/Short Equities investment professionals using data, analytics, and models of investor behavior and the market. These analyses are shared with portfolio managers to improve their strategies and with senior management to better allocate capital across investment teams.&lt;/p&gt;\n&lt;p&gt;The ideal candidate is a highly analytical and creative problem-solver who can conduct independent research, work effectively as part of a team, and effectively summarize and communicate findings.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;RESPONSIBILITES&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Conduct bottoms-up analysis on the firm’s portfolios to identify strengths and weaknesses in idea generation, trading, and construction&lt;/li&gt;\n&lt;li&gt;Form top-down views on which strategies offer the best risk/reward for the firm&lt;/li&gt;\n&lt;li&gt;Invent new analytics to quantify skill and frameworks to support trade-offs between different sources of skill and risk&lt;/li&gt;\n&lt;li&gt;Quantify market drivers to support pre-trade risk taking and decision making&lt;/li&gt;\n&lt;li&gt;Communicate key findings to the team, PMs, and Co-CIOs&lt;/li&gt;\n&lt;li&gt;Learn to develop in and contribute back to shared code base, reports, and research tools&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;DESIRABLE CANDIDATES&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;2 or more years of experience in a quantitative research, portfolio management, or risk management role dealing with equities or equities investments&lt;/li&gt;\n&lt;li&gt;Undergraduate, MS or Ph.D. in Finance, Computer Science, Mathematics, Engineering, or Physics, or other quantitative discipline&lt;/li&gt;\n&lt;li&gt;Experience with statistical models and essential methods of quantitative finance&lt;/li&gt;\n&lt;li&gt;Some level of proficiency in quantitative programming (Python preferred)&lt;/li&gt;\n&lt;li&gt;Highly analytical&lt;/li&gt;\n&lt;li&gt;Good interpersonal skills&lt;/li&gt;\n&lt;li&gt;Detail-oriented&lt;/li&gt;\n&lt;li&gt;Self-starter&lt;/li&gt;\n&lt;li&gt;Ability to work cooperatively in a team-oriented, fast-paced environment&lt;/li&gt;\n&lt;li&gt;A commitment to the highest ethical standards and to act with professionalism and integrity&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Point72 is a leading global alternative investment firm led by Steven A. Cohen. Building on more than 30 years of investing experience, Point72 seeks to deliver superior returns for its investors through fundamental and systematic investing strategies across asset classes and geographies. We aim to attract and retain the industry’s brightest talent by cultivating an investor-led culture and committing to our people’s long-term growth.&lt;/p&gt;",
-      "updated_at": "2026-09-30T05:40:36.470204",
+      "updated_at": "2026-09-30T01:47:50.152388",
       "suitability_score": 68,
       "verdict": "STRONG FIT (Competitive)",
       "recommendation": "Apply (Standard quant package)",
@@ -11029,7 +12024,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_7297616002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -11046,7 +12041,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;em&gt;Please send CVs to &lt;/em&gt;&lt;a href=&quot;mailto:kepl-talent@cubistsystematic.com&quot;&gt;&lt;em&gt;kepl-talent@cubistsystematic.com&lt;/em&gt;&lt;/a&gt;&lt;em&gt; with &lt;strong&gt;“202&lt;/strong&gt;&lt;/em&gt;&lt;strong&gt;&lt;em&gt;7 KEPL Application” &lt;/em&gt;&lt;/strong&gt;&lt;em&gt;in the subject line.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;About Cubist:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Cubist Systematic Strategies, an affiliate of Point72, deploys systematic, computer-driven trading strategies across multiple liquid asset classes, including equities, futures and foreign exchange. The core of our effort is rigorous research into a wide range of market anomalies, fueled by our unparalleled access to a wide range of publicly available data sources.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;About Our Team:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;KEPL is a fast-growing team at Cubist Systematic Strategies. We specialize in trading medium-frequency statistical arbitrage strategies with high Sharpe. The team is made up of people from top universities and top tier trading and tech firms. We have an open and collaborative culture, and we value rigorous research and innovative technologies. We are actively expanding into new markets and assets classes.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;Role:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We are looking for full-time quantitative research analysts and software developers to join our fast-growing team and contribute to multiple new initiatives that aim to expand our business. The candidate should have a passion for innovation to solve research and trading problems.&amp;nbsp; In this team, the candidate will gain full-stack exposure and build expertise in multiple aspects of quantitative research and trading. The candidate will play an essential role for the team’s successful expansion. The candidate will also collaborate with other team members to innovate our research infrastructure which will take our research and trading capability to the next level.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;Responsibilities:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Conduct quantitative research to support the team’s investment process.&lt;/li&gt;\n&lt;li&gt;Build technologies that bolster research &amp;amp; trading productivity.&lt;/li&gt;\n&lt;li&gt;Develop, maintain, and improve the production trading capacity.&lt;/li&gt;\n&lt;li&gt;Expand the system to new markets and asset classes.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;Requirements:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Master or PhD degree in math, physics, computer science, engineering, or other related discipline.&lt;/li&gt;\n&lt;li&gt;1-3 years of professional experience in software development or quantitative research.&lt;/li&gt;\n&lt;li&gt;Strong combination of quantitative skills and programming skills.&lt;/li&gt;\n&lt;li&gt;Proficiency in Python 3 and either C++ or Java.&lt;/li&gt;\n&lt;li&gt;Familiarity with the Linux environment.&lt;/li&gt;\n&lt;/ul&gt;",
-      "updated_at": "2026-09-30T05:40:36.470207",
+      "updated_at": "2026-09-30T01:47:50.152389",
       "suitability_score": 68,
       "verdict": "STRONG FIT (Competitive)",
       "recommendation": "Apply (Standard quant package)",
@@ -11063,7 +12058,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_7297622002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -11097,7 +12092,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_7297616002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -11131,7 +12126,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_7297622002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -11168,7 +12163,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Squarepoint Capital::gh_squarepointcapital_3277003",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -11202,7 +12197,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Squarepoint Capital::gh_squarepointcapital_1433622",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -11233,7 +12228,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Schonfeld Strategic Advisors::gh_schonfeld_6772399",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -11267,7 +12262,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Schonfeld Strategic Advisors::gh_schonfeld_7957690",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -11302,7 +12297,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Tower Research Capital::gh_towerresearchcapital_7583213",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": "$120,000 - $200,000 / yr",
@@ -11337,7 +12332,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Tower Research Capital::gh_towerresearchcapital_7816571",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -11372,7 +12367,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Tower Research Capital::gh_towerresearchcapital_6071865",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": "$120,000 - 200,000 / yr",
@@ -11407,7 +12402,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Tower Research Capital::gh_towerresearchcapital_8113102",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": "$120,000 - $200,000 / yr",
@@ -11442,12 +12437,12 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Tower Research Capital::gh_towerresearchcapital_8198271",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": "$120,000 - $200,000 / yr",
       "official_careers_url": "https://www.tower-research.com/open-positions",
-      "url_status": 408
+      "url_status": 200
     },
     {
       "job_id": "gh_towerresearchcapital_8004023",
@@ -11477,12 +12472,12 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Tower Research Capital::gh_towerresearchcapital_8004023",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
       "official_careers_url": "https://www.tower-research.com/open-positions",
-      "url_status": 408
+      "url_status": 200
     },
     {
       "job_id": "gh_towerresearchcapital_8129569",
@@ -11512,12 +12507,12 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Tower Research Capital::gh_towerresearchcapital_8129569",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
       "official_careers_url": "https://www.tower-research.com/open-positions",
-      "url_status": 408
+      "url_status": 200
     },
     {
       "job_id": "gh_aqr_8088184",
@@ -11551,7 +12546,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "AQR Capital Management::gh_aqr_8088184",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -11585,7 +12580,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Squarepoint Capital::gh_squarepointcapital_2546549",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -11619,7 +12614,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Belvedere Trading::lever_belvederetrading_756ab68b-5141-4e12-894c-57d75fa0659e",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -11633,7 +12628,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;strong&gt;A Career with Point72&#39;s Technology Team&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;As Point72 reimagines the future of investing, our Technology group is constantly improving our company’s IT infrastructure, positioning us at the forefront of a rapidly evolving technology landscape. We’re a team of experts experimenting, discovering new ways to harness the power of open source solutions, and embracing enterprise agile methodology. We encourage professional development to ensure you bring innovative ideas to our products while satisfying your own intellectual curiosity.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What you&#39;ll do&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Lead the design, development, and operation of scalable, enterprise-grade AI/ML architectures and systems with a strong emphasis on reliability, availability, and performance.&lt;/li&gt;\n&lt;li&gt;Lead and mentor a team of engineers, driving technical direction, code quality, and iterative delivery of large-scale solutions.&lt;/li&gt;\n&lt;li&gt;Partner closely with data scientists, engineers, product teams, and compliance to integrate AI/ML solutions into existing and new products.&lt;/li&gt;\n&lt;li&gt;Own the end-to-end lifecycle of GenAI services, including LLM inference, model serving, and proxy/gateway layers that support multiple downstream applications.&lt;/li&gt;\n&lt;li&gt;Define and uphold engineering best practices around observability, scalability, security, and cost efficiency for AI/ML platforms.&lt;/li&gt;\n&lt;li&gt;Evaluate tools, technologies, and processes to ensure the highest quality and performance of AI/ML systems.&lt;/li&gt;\n&lt;li&gt;Stay abreast of the latest advancements in AI/ML technologies and methodologies, and translate them into pragmatic solutions for the business.&lt;/li&gt;\n&lt;li&gt;Ensure compliance with industry standards and best practices in AI/ML.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What&#39;s required&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Bachelor&#39;s or Master&#39;s degree in Computer Science, Engineering, or a related field.&lt;/li&gt;\n&lt;li&gt;10+ years of experience in software/AI/ML engineering, with a proven track record of successful delivery of complex, production-grade systems.&lt;/li&gt;\n&lt;li&gt;Demonstrated experience building large-scale enterprise-grade services with high reliability, availability, and observability (SLO/SLA-driven environments).&lt;/li&gt;\n&lt;li&gt;Experience leading other engineers in delivering large-scale solutions iteratively, including setting technical vision, reviewing designs, and growing team capabilities.&lt;/li&gt;\n&lt;li&gt;Proficiency in programming languages such as Python, Java, or C++.&lt;/li&gt;\n&lt;li&gt;Strong understanding of distributed systems, cloud platforms (AWS/Azure/GCP), containerization (Docker/Kubernetes), and modern CI/CD practices.&lt;/li&gt;\n&lt;li&gt;Excellent problem-solving skills and the ability to work independently and collaboratively.&lt;/li&gt;\n&lt;li&gt;Strong communication skills, with the ability to convey complex technical concepts to non-technical stakeholders and influence across teams.&lt;/li&gt;\n&lt;li&gt;Commitment to highest ethical standards.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;About Point72&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;br&gt;Point72 is a leading global alternative investment firm led by Steven A. Cohen. Building on more than 30 years of investing experience, Point72 seeks to deliver superior returns for its investors through fundamental and systematic investing strategies across asset classes and geographies. We aim to attract and retain the industry’s brightest talent by cultivating an investor-led culture and committing to our people’s long-term growth. For more information, visit&amp;nbsp;&lt;a href=&quot;http://www.point72.com/about&quot; target=&quot;_blank&quot;&gt;www.Point72.com/about&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
-      "updated_at": "2026-09-30T05:40:36.470045",
+      "updated_at": "2026-09-30T01:47:50.152303",
       "suitability_score": 60,
       "verdict": "STRONG FIT (Competitive)",
       "recommendation": "Apply (Standard quant package)",
@@ -11654,7 +12649,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_8487494002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -11692,7 +12687,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_8487494002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -11726,7 +12721,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Tower Research Capital::gh_towerresearchcapital_7353113",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": "$175,000 - $250,000 / yr",
@@ -11743,7 +12738,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;strong&gt;ABOUT CUBIST&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Cubist Systematic Strategies, an affiliate of Point72, deploys systematic, computer-driven trading strategies across multiple liquid asset classes, including equities, futures and foreign exchange. The core of our effort is rigorous research into a wide range of market anomalies, fueled by our unparalleled access to a wide range of publicly available data sources.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;WHAT YOU&#39;LL DO&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;The Quant Developer will be responsible for building and maintaining the research infrastructure and backtesting frameworks that support quantitative research, working closely with researchers to translate research ideas into robust, scalable, and maintainable research systems. The role spans multiple areas, including system design, data pipeline development, and the development of research and backtesting frameworks.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;WHAT&#39;S REQUIRED&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Background in Electrical Engineering, Computer Science, or a related field, with 3+ years of software development experience as a software engineer.&lt;/li&gt;\n&lt;li&gt;Strong programming ability in C++ and Python.&lt;/li&gt;\n&lt;li&gt;Solid command of CI/CD practices and tooling, with the ability to design and maintain automated testing and build pipelines for research and backtesting environments.&lt;/li&gt;\n&lt;li&gt;Practical knowledge and hands-on experience with distributed computing and distributed job scheduling / task assignment.&lt;/li&gt;\n&lt;li&gt;Excellent analytical and engineering problem-solving skills.&lt;/li&gt;\n&lt;li&gt;Demonstrated ability to work independently on large datasets and large codebases.&lt;/li&gt;\n&lt;li&gt;A strong team player who works closely with researchers to translate research ideas into stable, maintainable research systems.&lt;/li&gt;\n&lt;li&gt;Willingness to take ownership of your work, able to operate both independently and within a small team, while remaining careful, detail-oriented, and capable of performing well under pressure.&lt;/li&gt;\n&lt;li&gt;Strong English communication skills.&lt;/li&gt;\n&lt;li&gt;Commitment to the highest ethical standards.&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;We take care of our people&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We invest in our people, their careers, their health, and their well-being. When you work here, we provide:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Health care benefits&lt;/li&gt;\n&lt;li&gt;Generous parental and family leave policies&lt;/li&gt;\n&lt;li&gt;Mental and physical wellness program&lt;/li&gt;\n&lt;li&gt;Volunteer opportunities&lt;/li&gt;\n&lt;li&gt;Non-profit matching gift program&lt;/li&gt;\n&lt;li&gt;Support for employee-led affinity groups representing women, minorities and the LGBT+ community&lt;/li&gt;\n&lt;li&gt;Tuition assistance&lt;/li&gt;\n&lt;/ul&gt;",
-      "updated_at": "2026-09-30T05:40:36.470272",
+      "updated_at": "2026-09-30T01:47:50.152415",
       "suitability_score": 59,
       "verdict": "POSSIBLE FIT (Calibration)",
       "recommendation": "Secondary / Calibration apply",
@@ -11763,7 +12758,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_8604288002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -11777,7 +12772,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;strong&gt;&lt;u&gt;About Cubist:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Cubist Systematic Strategies, an affiliate of Point72, deploys systematic, computer-driven trading strategies across multiple liquid asset classes, including equities, futures and foreign exchange. The core of our effort is rigorous research into a wide range of market anomalies, fueled by our unparalleled access to a wide range of publicly available data sources.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;Role:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Cubist is looking for a support engineer/quantitative developer who will work on a growing L2/L3 support team for quantitative trading systems, high‑frequency trading infrastructure,&lt;strong&gt;&lt;em&gt; &lt;/em&gt;&lt;/strong&gt;real time analytics, and research infrastructure. This role will require close collaboration with multiple teams at Cubist, including multiple Portfolio Manager (PM) teams, Central Research Technology, and Execution Services. The role offers career growth through the opportunity to work on the development of the underlying systems.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;Role/Responsibilities:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Troubleshooting/resolution of quantitative trading systems and other live analytics processes&lt;/li&gt;\n&lt;li&gt;System monitoring, including development of better processes and tools&lt;/li&gt;\n&lt;li&gt;New feature development in Python/C++&lt;/li&gt;\n&lt;li&gt;Configuration and change management&lt;/li&gt;\n&lt;li&gt;Onboarding assistance&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;Requirements: &lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;2+ years of professional support and/or software engineering experience&lt;/li&gt;\n&lt;li&gt;Experience with trading systems support (co-located low-latency systems a strong plus)&lt;/li&gt;\n&lt;li&gt;Fluency with C++, Python and SQL&lt;/li&gt;\n&lt;li&gt;Familiarity with software delivery lifecycle and production deployment&lt;/li&gt;\n&lt;li&gt;Cloud experience is a strong plus&lt;/li&gt;\n&lt;li&gt;Team player and strong communicator&lt;/li&gt;\n&lt;/ul&gt;",
-      "updated_at": "2026-09-30T05:40:36.470309",
+      "updated_at": "2026-09-30T01:47:50.152430",
       "suitability_score": 59,
       "verdict": "POSSIBLE FIT (Calibration)",
       "recommendation": "Secondary / Calibration apply",
@@ -11797,7 +12792,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_8475957002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -11831,7 +12826,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_8604288002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -11865,7 +12860,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_8475957002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -11879,7 +12874,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Two Sigma Tailored Agent",
       "tier": "Tier A: Moonshots (Too Hard)",
       "description": "Extract actionable market signals from massive structured and unstructured financial data.",
-      "updated_at": "2026-09-30T05:40:36.259724",
+      "updated_at": "2026-09-30T01:47:50.054064",
       "suitability_score": 58,
       "verdict": "POSSIBLE FIT (Calibration)",
       "recommendation": "Secondary / Calibration apply",
@@ -11897,7 +12892,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Two Sigma::two_sigma_quant_data_sci_2027",
       "status": "INACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "official_careers_url": "https://www.twosigma.com/careers/",
@@ -11935,7 +12930,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "AXQ Capital::gh_axq_5575451004",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -11969,7 +12964,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "AXQ Capital::gh_axq_5636566004",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -11983,7 +12978,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;strong&gt;ROLE&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We are passionate about data. We collaborate to build elegant, effective, scalable and highly reliable solutions to empower predictive modelling in finance.&lt;/p&gt;\n&lt;p&gt;Cubist’s Data Services (CDS) group is looking&amp;nbsp;for an AI Data Scientist to join our dedicated data team. Our group is responsible for the timely delivery of comprehensive and error-free data to&amp;nbsp;some of the most demanding and successful systematic Portfolio Managers in the world.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;RESPONSIBILITIES&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Build AI-powered data products using machine learning models, large language models, and modern AI tools.&lt;/li&gt;\n&lt;li&gt;Design, train, fine-tune, evaluate, and deploy in-house AI/ML models using proprietary and external datasets.&lt;/li&gt;\n&lt;li&gt;Develop end-to-end model pipelines covering data preparation, feature engineering, training, validation, deployment, and monitoring.&lt;/li&gt;\n&lt;li&gt;Apply generative AI and LLM techniques to use cases such as summarization, classification, knowledge extraction, semantic search, and workflow automation.&lt;/li&gt;\n&lt;li&gt;Work with product, engineering, and business teams to translate business problems into scalable AI solutions.&lt;/li&gt;\n&lt;li&gt;Evaluate and integrate third-party AI tools, APIs, open-source models, and internal models where appropriate.&lt;/li&gt;\n&lt;li&gt;Build data pipelines and model workflows for structured and unstructured data.&lt;/li&gt;\n&lt;li&gt;Define model performance metrics, run experiments, conduct error analysis, and continuously improve model quality.&lt;/li&gt;\n&lt;li&gt;Support production deployment of AI models, ensuring reliability, scalability, governance, and responsible AI usage.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;REQUIREMENTS&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;PhD in Computer Science, with a specialization in AI or machine learning related domains&lt;/li&gt;\n&lt;li&gt;Strong programming skills in Python and SQL&lt;/li&gt;\n&lt;li&gt;Strong publication record in top tier machine learning conferences&lt;/li&gt;\n&lt;li&gt;3+ years of experience as a Data Scientist or similar role&lt;/li&gt;\n&lt;li&gt;Experience working with large data sets including predictive modeling&lt;/li&gt;\n&lt;li&gt;Financial industry experience preferred but not required&lt;/li&gt;\n&lt;li&gt;Strong organization, communication and interpersonal skills&lt;/li&gt;\n&lt;li&gt;Intellectual curiosity and enthusiasm for learning&lt;/li&gt;\n&lt;li&gt;Attention to detail and a love of processes&lt;/li&gt;\n&lt;li&gt;Strong oral&amp;nbsp;and written&amp;nbsp;communication skills&lt;/li&gt;\n&lt;li&gt;Ability to multitask and prioritize assignments&lt;/li&gt;\n&lt;li&gt;Commitment to the highest ethical standards&lt;/li&gt;\n&lt;/ul&gt;",
-      "updated_at": "2026-09-30T05:40:36.469774",
+      "updated_at": "2026-09-30T01:47:50.152185",
       "suitability_score": 56,
       "verdict": "POSSIBLE FIT (Calibration)",
       "recommendation": "Secondary / Calibration apply",
@@ -12001,7 +12996,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_8658618002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -12036,7 +13031,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_8658618002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -12075,7 +13070,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "OpenAI::ashby_openai_4948533f-1df6-49f7-af9e-a2da0e02ebca",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -12107,7 +13102,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Tower Research Capital::gh_towerresearchcapital_8095924",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": "$200,000 - $300,000 / yr",
@@ -12142,12 +13137,12 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Tower Research Capital::gh_towerresearchcapital_8095921",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": "$200,000 - $300,000 / yr",
       "official_careers_url": "https://www.tower-research.com/open-positions",
-      "url_status": 408
+      "url_status": 200
     },
     {
       "job_id": "ashby_ramp_2888b101-b1da-4e53-a02e-1bb9b1b5a951",
@@ -12184,7 +13179,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Ramp::ashby_ramp_2888b101-b1da-4e53-a02e-1bb9b1b5a951",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -12217,7 +13212,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Schonfeld Strategic Advisors::gh_schonfeld_7517021",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -12252,7 +13247,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Stripe::gh_stripe_5895430",
       "status": "INACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "FinTech & Elite Tech",
       "posted_pay_range": null,
@@ -12270,7 +13265,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;strong&gt;ROLE&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We are passionate about data. We collaborate to build elegant, effective, scalable and highly reliable solutions to empower predictive modelling in finance.&lt;/p&gt;\n&lt;p&gt;Cubist’s Data Services (CDS) group is looking&amp;nbsp;for a&amp;nbsp;Data Scientist to join our dedicated data team. Our group is responsible for the timely delivery of comprehensive and error-free data to&amp;nbsp;some of the most demanding and successful systematic Portfolio Managers in the world.&lt;/p&gt;\n&lt;p&gt;As a Data Scientist in the team, this individual will play a vital role in ensuring the smooth day-to-day&amp;nbsp;implementation of a large research infrastructure, and the live production trading&amp;nbsp;of billions of dollars of capital across global capital markets, including equities, futures, options and other financial instruments.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;RESPONSIBILITIES&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Onboarding novel datasets from a huge variety of sources into our platform&lt;/li&gt;\n&lt;li&gt;Develop, test and deploy data pipelines, applications and services&lt;/li&gt;\n&lt;li&gt;Re-shaping, aggregating, enhancing and creating features from datasets&lt;/li&gt;\n&lt;li&gt;Engaging with vendors and internal stakeholders to understand characteristics of datasets&lt;/li&gt;\n&lt;li&gt;Defining and automating qualitative data alerts and reports&lt;/li&gt;\n&lt;li&gt;Partnering closely with investment teams to ensure their data requirements are met&lt;/li&gt;\n&lt;li&gt;Perform preliminary analysis and research to be shared with investment teams&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;REQUIREMENTS&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Masters in Financial Engineering, Statistics, Computer Science or other disciplines involving rigorous quantitative analysis&lt;/li&gt;\n&lt;li&gt;Strong programming skills in Python and SQL&lt;/li&gt;\n&lt;li&gt;Experience working with AWS, Linux and Airflow preferred but not required&lt;/li&gt;\n&lt;li&gt;Financial industry experience preferred but not required&lt;/li&gt;\n&lt;li&gt;Strong organization, communication and interpersonal skills&lt;/li&gt;\n&lt;li&gt;Attention to detail and a love of processes&lt;/li&gt;\n&lt;li&gt;Strong oral&amp;nbsp;and written&amp;nbsp;communication skills&lt;/li&gt;\n&lt;li&gt;Ability to exercise sound judgment in assessing and determining how to handle queries, calls and issues&lt;/li&gt;\n&lt;li&gt;Ability to multitask and prioritize assignments&lt;/li&gt;\n&lt;li&gt;Commitment to the highest ethical standards&lt;/li&gt;\n&lt;/ul&gt;",
-      "updated_at": "2026-09-30T05:40:36.469854",
+      "updated_at": "2026-09-30T01:47:50.152222",
       "suitability_score": 50,
       "verdict": "POSSIBLE FIT (Calibration)",
       "recommendation": "Secondary / Calibration apply",
@@ -12287,7 +13282,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_7001158002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -12304,7 +13299,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;strong&gt;ROLE&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We are passionate about data. We collaborate to build elegant, effective, scalable and highly reliable solutions to empower predictive modelling in finance.&lt;/p&gt;\n&lt;p&gt;Cubist’s Data Services (CDS) group is looking&amp;nbsp;for a&amp;nbsp;Data Scientist to join our dedicated data team. Our group is responsible for the timely delivery of comprehensive and error-free data to&amp;nbsp;some of the most demanding and successful systematic Portfolio Managers in the world.&lt;/p&gt;\n&lt;p&gt;As a Data Scientist in the team, this individual will play a vital role in ensuring the smooth day-to-day&amp;nbsp;implementation of a large research infrastructure, and the live production trading&amp;nbsp;of billions of dollars of capital across global capital markets, including equities, futures, options and other financial instruments.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;RESPONSIBILITIES&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Onboarding novel datasets from a huge variety of sources into our platform&lt;/li&gt;\n&lt;li&gt;Develop, test and deploy data pipelines, applications and services&lt;/li&gt;\n&lt;li&gt;Re-shaping, aggregating, enhancing and creating features from datasets&lt;/li&gt;\n&lt;li&gt;Engaging with vendors and internal stakeholders to understand characteristics of datasets&lt;/li&gt;\n&lt;li&gt;Defining and automating qualitative data alerts and reports&lt;/li&gt;\n&lt;li&gt;Partnering closely with investment teams to ensure their data requirements are met&lt;/li&gt;\n&lt;li&gt;Perform preliminary analysis and research to be shared with investment teams&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;REQUIREMENTS&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Masters in Financial Engineering, Statistics, Computer Science or other disciplines involving rigorous quantitative analysis&lt;/li&gt;\n&lt;li&gt;Strong programming skills in Python and SQL&lt;/li&gt;\n&lt;li&gt;Experience working with AWS, Linux and Airflow preferred but not required&lt;/li&gt;\n&lt;li&gt;Financial industry experience preferred but not required&lt;/li&gt;\n&lt;li&gt;Strong organization, communication and interpersonal skills&lt;/li&gt;\n&lt;li&gt;Attention to detail and a love of processes&lt;/li&gt;\n&lt;li&gt;Strong oral&amp;nbsp;and written&amp;nbsp;communication skills&lt;/li&gt;\n&lt;li&gt;Ability to exercise sound judgment in assessing and determining how to handle queries, calls and issues&lt;/li&gt;\n&lt;li&gt;Ability to multitask and prioritize assignments&lt;/li&gt;\n&lt;li&gt;Commitment to the highest ethical standards&lt;/li&gt;\n&lt;/ul&gt;",
-      "updated_at": "2026-09-30T05:40:36.469863",
+      "updated_at": "2026-09-30T01:47:50.152223",
       "suitability_score": 50,
       "verdict": "POSSIBLE FIT (Calibration)",
       "recommendation": "Secondary / Calibration apply",
@@ -12321,7 +13316,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_7045938002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -12338,7 +13333,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;strong&gt;ABOUT PROPRIETARY RESEARCH&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;On our proprietary research team—Market Intelligence—you’ll partner with our investment professionals and Compliance team to uncover insights about companies, industries, and the broader economy through deep fundamental research and applying data science and engineering techniques to alternative data sets. You’ll work alongside a talented team with diverse skills, backgrounds, and perspectives. Our researchers, product managers, and data scientists and engineers work together to build compliant research products that answer the questions posed by our investment professionals. We look for other bright, motivated, and collaborative people to join our team and grow with us—more than 90% of the leaders in our group were promoted from within.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;ROLE SUMMARY&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Our Data Scientists conduct research through data mining and statistical modeling to discover insights from big data that are used by our investment professionals to make investment decisions. You will have the opportunity to work in a highly collegial environment that emphasizes teaching and learning as a team. In this role, you will:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Tackle the challenges of featuring and modeling large unstructured data using machine learning and statistical techniques&lt;/li&gt;\n&lt;li&gt;Manage all aspects of the research and analysis process including methodology selection, data collection and quality, modeling and analysis, and performance monitoring&lt;/li&gt;\n&lt;li&gt;Deliver research findings to investment teams, portfolio managers, and other internal clients&lt;/li&gt;\n&lt;li&gt;Work within a team to help drive technical innovation through a collaborative R&amp;amp;D process&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;WHAT EXCITES YOU&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Staying current on the evolving alternative data market and its role in discretionary investing&lt;/li&gt;\n&lt;li&gt;Speaking with experts both inside and outside the Firm to understand data needs and offerings&lt;/li&gt;\n&lt;li&gt;Multi-tasking and switching gears frequently to address the needs of the business&lt;/li&gt;\n&lt;li&gt;Analytical thinking and ability to sift through large unstructured data sets&lt;/li&gt;\n&lt;li&gt;Working in a fast-paced, dynamic environment&lt;/li&gt;\n&lt;li&gt;Working as part of a cross-functional team made up of investment, research, and compliance professionals&lt;/li&gt;\n&lt;li&gt;Experiment-based approach with freedom to innovate&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;WHAT EXCITES US&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Excellent attention to detail, organization, and project management skills&lt;/li&gt;\n&lt;li&gt;Strong verbal and written communication skills&lt;/li&gt;\n&lt;li&gt;Superb business intuition and a solution orientated, methodological approach to problem solving&lt;/li&gt;\n&lt;li&gt;Ability to collaborate and build relationships across business units within the Firm&lt;/li&gt;\n&lt;li&gt;People who “elevate the room” through their work ethic, curiosity, and solution-orientated attitude&lt;/li&gt;\n&lt;li&gt;Adherence to the highest ethical standards working closely with the Firm’s Compliance team&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;WHAT’S REQUIRED &lt;/strong&gt;&amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Demonstrated interest in machine learning, statistical models, and data mining tools&lt;/li&gt;\n&lt;li&gt;Masters/PhD in a quantitative discipline w/ 1+ year of professional experience&lt;/li&gt;\n&lt;li&gt;Strong programming skills in Python (preferred), R, Spark, SQL&lt;/li&gt;\n&lt;li&gt;Exceptional understanding of statistics and advanced modeling techniques&lt;/li&gt;\n&lt;li&gt;Ability to communicate complex analyses and results clearly&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;WHAT SUCCESS LOOKS LIKE&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Integrity – You demonstrate 100% commitment to the highest ethical standards&lt;/li&gt;\n&lt;li&gt;Ownership – You take charge of your work, uphold your commitments, and always do your best&lt;/li&gt;\n&lt;li&gt;Commerciality – You focus on what matters, ask necessary questions, and are diligent about not wasting time&lt;/li&gt;\n&lt;li&gt;Humility – You welcome and are receptive to feedback and learn from past mistakes&lt;/li&gt;\n&lt;li&gt;Adaptability – You can triage business needs and context switch quickly and efficiently&lt;/li&gt;\n&lt;li&gt;Admirability – You elevate the room through your work ethic, domain knowledge, and work product&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;WE TAKE CARE OF OUR PEOPLE&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We invest in our people, their careers, their health, and their well-being. When you work here, we provide:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Fully paid health care benefits&lt;/li&gt;\n&lt;li&gt;Generous parental and family leave policies&lt;/li&gt;\n&lt;li&gt;Mental and physical wellness programs&lt;/li&gt;\n&lt;li&gt;Volunteer opportunities&lt;/li&gt;\n&lt;li&gt;Non-profit matching gift program&lt;/li&gt;\n&lt;li&gt;Support for employee-led affinity groups representing women, minorities and the LGBTQ+ community&lt;/li&gt;\n&lt;li&gt;Tuition assistance&lt;/li&gt;\n&lt;li&gt;A 401(k) savings program with an employer match and more&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;ABOUT POINT72&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Point72 is a leading global alternative investment firm led by Steven A. Cohen. Building on more than 30 years of investing experience, Point72 seeks to deliver superior returns for its investors through fundamental and systematic investing strategies across asset classes and geographies. We aim to attract and retain the industry’s brightest talent by cultivating an investor-led culture and committing to our people’s long-term growth. For more information, visit&amp;nbsp;&lt;a href=&quot;https://www.point72.com/about&quot;&gt;www.Point72.com/about&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;The annual base salary range for this role is $125,000 - $150,000, which does not include discretionary bonus compensation or our comprehensive benefits package. Actual compensation offered to the successful candidate may vary from posted hiring range based upon geographic location, work experience, education, and/or skill level, among other things.&amp;nbsp;&amp;nbsp;&lt;/p&gt;",
-      "updated_at": "2026-09-30T05:40:36.469929",
+      "updated_at": "2026-09-30T01:47:50.152253",
       "suitability_score": 50,
       "verdict": "POSSIBLE FIT (Calibration)",
       "recommendation": "Secondary / Calibration apply",
@@ -12355,7 +13350,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_7695570002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -12389,7 +13384,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jump Trading::gh_jumptrading_7483202",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -12423,7 +13418,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "WorldQuant::gh_worldquant_4069485006",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -12457,7 +13452,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "WorldQuant::gh_worldquant_4069487006",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -12491,7 +13486,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "WorldQuant::gh_worldquant_4703128006",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -12525,7 +13520,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_7001158002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -12559,7 +13554,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_7045938002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -12593,147 +13588,11 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_7695570002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": "$125,000 - $150,000 / yr",
       "official_careers_url": "https://point72.com/cubist-systematic-strategies/",
-      "url_status": 200
-    },
-    {
-      "job_id": "gh_anthropic_5196852008",
-      "firm_name": "Anthropic",
-      "title": "Data Scientist, GTM",
-      "location": "New York City, NY; San Francisco, CA | New York City, NY",
-      "department": "Data Science & Analytics",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5196852008",
-      "source_ats": "Greenhouse",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;h2 class=&quot;text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold&quot;&gt;About the role&lt;/h2&gt;\n&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;As part of our growing Data Science &amp;amp; Analytics team, you will play an instrumental role in Anthropic&#39;s mission of building safe and beneficial AI — this time by driving data-informed decisions across the commercial customer lifecycle. This role sits at the intersection of fast-moving sales operations and rigorous statistical analysis. You will work across multiple segments and products, partnering with analytics engineers, fellow data scientists, and go-to-market leadership to turn complex commercial data into actionable strategy.&lt;/p&gt;\n&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;You will own measurement and analysis for new logo acquisition through activation, expansion, and retention for a rapidly scaling, consumption-based AI platform. You&#39;ve worked in cultures of analytical rigor before, and you&#39;re eager to help shape the norms and best practices of a growing data science function at a pivotal moment in the company&#39;s growth.&lt;/p&gt;\n&lt;h2 class=&quot;text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold&quot;&gt;Key responsibilities&lt;/h2&gt;\n&lt;ul class=&quot;[li_&amp;amp;]:mb-0 [li_&amp;amp;]:mt-1 [li_&amp;amp;]:gap-1 [&amp;amp;:not(:last-child)_ul]:pb-1 [&amp;amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3&quot;&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Define key metrics, build measurement frameworks, and maintain core reporting to evaluate GTM success across segments and products&lt;/li&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Analyze commercial and user data to surface actionable insights, size opportunities, and influence roadmaps and go-to-market strategy&lt;/li&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Develop hypotheses and apply rigorous causal inference methods — controlled experiments, synthetic controls — to make clear, actionable recommendations&lt;/li&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Investigate anomalies, conduct root cause analyses, and provide data-driven guidance on priorities and decisions&lt;/li&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Build statistical models, optimization frameworks, and simulations to support and automate commercial decision-making processes&lt;/li&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Present analyses and recommendations to both technical and non-technical stakeholders, including GTM leadership&lt;/li&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Establish foundational data practices and help scale analytics infrastructure to support rapid product and commercial iteration&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2 class=&quot;text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold&quot;&gt;Minimum qualifications&lt;/h2&gt;\n&lt;ul class=&quot;[li_&amp;amp;]:mb-0 [li_&amp;amp;]:mt-1 [li_&amp;amp;]:gap-1 [&amp;amp;:not(:last-child)_ul]:pb-1 [&amp;amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3&quot;&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Proficiency in Python, SQL, and data visualization tools&lt;/li&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Expertise in experimental design, causal inference, statistical modeling, and A/B testing, particularly in high-scale technical environments&lt;/li&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Demonstrated ability to translate complex data into clear, actionable insights for both technical and business audiences&lt;/li&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Strong written communication and presentation skills&lt;/li&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Ability to work effectively in fast-moving, ambiguous environments — comfortable creating structure and driving progress where neither yet exists&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2 class=&quot;text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold&quot;&gt;Preferred qualifications&lt;/h2&gt;\n&lt;ul class=&quot;[li_&amp;amp;]:mb-0 [li_&amp;amp;]:mt-1 [li_&amp;amp;]:gap-1 [&amp;amp;:not(:last-child)_ul]:pb-1 [&amp;amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3&quot;&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;5+ years of experience in data science or analytics roles&lt;/li&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;A strong track record in multi-segment, multi-product B2B sales or commercial analytics, especially with consumption-based revenue models&lt;/li&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Experience with AI/ML products, large language models, or developer tools in the AI/ML ecosystem&lt;/li&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Genuine interest in Anthropic&#39;s mission of developing safe and beneficial AI&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;The annual compensation range for this role is listed below.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;For sales roles, the range provided is the role’s On Target Earnings (&quot;OTE&quot;) range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Annual Salary:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$285,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$380,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;&lt;strong&gt;Minimum education: &lt;/strong&gt;Bachelor’s degree or an equivalent combination of education, training, and/or experience&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Required field of study:&amp;nbsp;&lt;/strong&gt;A field relevant to the role as demonstrated through coursework, training, or professional experience&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Minimum years of experience: &lt;/strong&gt;Years of experience required will correlate with the internal job level requirements for the position&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Location-based hybrid policy:&lt;/strong&gt; Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.&lt;/p&gt;\n&lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Visa sponsorship:&lt;/strong&gt;&amp;nbsp;We do sponsor visas! However, we aren&#39;t able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed.&amp;nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Your safety matters to us.&lt;/strong&gt; To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&amp;nbsp;@anthropic.com&amp;nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you&#39;re ever unsure about a communication, don&#39;t click any links—visit&amp;nbsp;&lt;u data-stringify-type=&quot;underline&quot;&gt;&lt;a class=&quot;c-link c-link--underline&quot; href=&quot;http://anthropic.com/careers&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://anthropic.com/careers&quot; data-sk=&quot;tooltip_parent&quot; data-remove-tab-index=&quot;true&quot;&gt;anthropic.com/careers&lt;/a&gt;&lt;/u&gt;&amp;nbsp;directly for confirmed position openings.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;How we&#39;re different&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact — advancing our long-term goals of steerable, trustworthy AI — rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We&#39;re an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.&lt;/p&gt;\n&lt;p&gt;The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp;amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;Come work with us!&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. &lt;strong data-stringify-type=&quot;bold&quot;&gt;Guidance on Candidates&#39; AI Usage:&lt;/strong&gt;&amp;nbsp;Learn about&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; data-sk=&quot;tooltip_parent&quot;&gt;our policy&lt;/a&gt; for using AI in our application process.&lt;/p&gt;&lt;/div&gt;",
-      "updated_at": "2026-08-21T12:50:08-04:00",
-      "tier": "Tier A: Too Hard",
-      "suitability_score": 50,
-      "verdict": "POSSIBLE FIT (Calibration)",
-      "recommendation": "Secondary / Calibration apply",
-      "matched_signals": [
-        "Title match '\\bdata\\s+scientist\\b': +20",
-        "Keyword match '\\bdata\\s+scientist\\b': +10",
-        "Firm Quality Boost: +20"
-      ],
-      "penalties": [],
-      "estimated_comp": "$400,000 - $700,000+",
-      "comp_benchmark_delta": "Premier Top-of-Market Offer",
-      "priority_tier": "Tier A: Too Hard",
-      "priority_tag": "Pinnacle Target",
-      "key": "Anthropic::gh_anthropic_5196852008",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "industry_sector": "FinTech & Elite Tech",
-      "posted_pay_range": null,
-      "official_careers_url": "https://www.anthropic.com/careers",
-      "url_status": 200
-    },
-    {
-      "job_id": "gh_anthropic_5232055008",
-      "firm_name": "Anthropic",
-      "title": "Data Scientist, Policy",
-      "location": "New York City, NY; San Francisco, CA | New York City, NY; Washington, DC",
-      "department": "Data Science & Analytics",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5232055008",
-      "source_ats": "Greenhouse",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;h2 class=&quot;heading&quot;&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;As one of our first Data Scientists dedicated to policy work, you will play a key role in ensuring Anthropic&#39;s work is understood by policymakers around the world. You&#39;ll sit at the intersection of data science and public affairs, transforming internal product usage and survey data into clear, accurate, and consistent evidence the Policy team can use to inform its positions, demonstrate Anthropic’s relevance to policymakers, and measure the impact of its work.&lt;/p&gt;\n&lt;p&gt;Your analyses will directly inform how legislators, regulators, and the public understand Anthropic&#39;s footprint and contribution. This is a highly cross-functional role that is foundational to Anthropic&#39;s mission of bringing powerful AI to the world in a way that benefits humanity.&lt;/p&gt;\n&lt;h2 class=&quot;heading&quot;&gt;&lt;strong&gt;Key responsibilities&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Partner with product and business teams across the company to produce supporting analyses and data collateral for specific policy position papers and partnership conversations&lt;/li&gt;\n&lt;li&gt;Determine which metrics faithfully represent our company to legislators, regulators, and the public&lt;/li&gt;\n&lt;li&gt;Own the dashboards and pipelines that keep externally-shared numbers consistent, so the Policy team can move quickly without creating discrepancies&lt;/li&gt;\n&lt;li&gt;Use AI tools to aggregate news, policy developments, and other public data sources to track trends and provide a clear picture of the evolving regulatory landscape&lt;/li&gt;\n&lt;li&gt;Develop measurement frameworks for policy communications, paid media, and public-affairs campaigns&lt;/li&gt;\n&lt;li&gt;Design and implement policy analyses to support internal position development or measure the impact of policy implementation for external audiences&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2 class=&quot;heading&quot;&gt;&lt;strong&gt;Minimum qualifications&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Proficiency in Python, SQL, and data analysis tools, with experience working with external and public data sources&lt;/li&gt;\n&lt;li&gt;Experience producing analysis that reaches external audiences such as policy, communications, investor relations, public affairs, or published research&lt;/li&gt;\n&lt;li&gt;Applied causal inference using quasi-experimental designs (e.g., difference-in-differences, regression discontinuity, synthetic control, instrumental variables, or matching) to measure policy or program impact from observational data&lt;/li&gt;\n&lt;li&gt;Demonstrated ability to translate complex analyses into clear, actionable recommendations for audiences with differing levels of technical fluency&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2 class=&quot;heading&quot;&gt;&lt;strong&gt;Preferred qualifications&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;6+ years of hands-on data science experience&lt;/li&gt;\n&lt;li&gt;Direct experience supporting a policy, government affairs, or regulatory team with data and analysis&lt;/li&gt;\n&lt;li&gt;Familiarity with investor-relations or financial-disclosure data standards and the consistency requirements they entail&lt;/li&gt;\n&lt;li&gt;Comfort operating in ambiguous, fast-moving environments where creating clarity and driving progress is part of the role&lt;/li&gt;\n&lt;li&gt;A genuine interest in Anthropic&#39;s mission of building safe and beneficial AI&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Deadline to apply:&lt;/strong&gt; None. Applications will be accepted on a rolling basis.&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;The annual compensation range for this role is listed below.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;For sales roles, the range provided is the role’s On Target Earnings (&quot;OTE&quot;) range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Annual Salary:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$285,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$380,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;&lt;strong&gt;Minimum education: &lt;/strong&gt;Bachelor’s degree or an equivalent combination of education, training, and/or experience&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Required field of study:&amp;nbsp;&lt;/strong&gt;A field relevant to the role as demonstrated through coursework, training, or professional experience&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Minimum years of experience: &lt;/strong&gt;Years of experience required will correlate with the internal job level requirements for the position&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Location-based hybrid policy:&lt;/strong&gt; Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.&lt;/p&gt;\n&lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Visa sponsorship:&lt;/strong&gt;&amp;nbsp;We do sponsor visas! However, we aren&#39;t able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed.&amp;nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Your safety matters to us.&lt;/strong&gt; To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&amp;nbsp;@anthropic.com&amp;nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you&#39;re ever unsure about a communication, don&#39;t click any links—visit&amp;nbsp;&lt;u data-stringify-type=&quot;underline&quot;&gt;&lt;a class=&quot;c-link c-link--underline&quot; href=&quot;http://anthropic.com/careers&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://anthropic.com/careers&quot; data-sk=&quot;tooltip_parent&quot; data-remove-tab-index=&quot;true&quot;&gt;anthropic.com/careers&lt;/a&gt;&lt;/u&gt;&amp;nbsp;directly for confirmed position openings.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;How we&#39;re different&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact — advancing our long-term goals of steerable, trustworthy AI — rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We&#39;re an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.&lt;/p&gt;\n&lt;p&gt;The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp;amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;Come work with us!&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. &lt;strong data-stringify-type=&quot;bold&quot;&gt;Guidance on Candidates&#39; AI Usage:&lt;/strong&gt;&amp;nbsp;Learn about&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; data-sk=&quot;tooltip_parent&quot;&gt;our policy&lt;/a&gt; for using AI in our application process.&lt;/p&gt;&lt;/div&gt;",
-      "updated_at": "2026-08-21T12:50:18-04:00",
-      "tier": "Tier A: Too Hard",
-      "suitability_score": 50,
-      "verdict": "POSSIBLE FIT (Calibration)",
-      "recommendation": "Secondary / Calibration apply",
-      "matched_signals": [
-        "Title match '\\bdata\\s+scientist\\b': +20",
-        "Keyword match '\\bdata\\s+scientist\\b': +10",
-        "Firm Quality Boost: +20"
-      ],
-      "penalties": [],
-      "estimated_comp": "$400,000 - $700,000+",
-      "comp_benchmark_delta": "Premier Top-of-Market Offer",
-      "priority_tier": "Tier A: Too Hard",
-      "priority_tag": "Pinnacle Target",
-      "key": "Anthropic::gh_anthropic_5232055008",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "industry_sector": "FinTech & Elite Tech",
-      "posted_pay_range": null,
-      "official_careers_url": "https://www.anthropic.com/careers",
-      "url_status": 200
-    },
-    {
-      "job_id": "gh_anthropic_5182605008",
-      "firm_name": "Anthropic",
-      "title": "Data Scientist, Product",
-      "location": "New York City, NY; San Francisco, CA; Seattle, WA",
-      "department": "Data Science & Analytics",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5182605008",
-      "source_ats": "Greenhouse",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;As part of our growing Data Science and Analytics team, you will play an instrumental role in our company’s mission of building safe and beneficial artificial intelligence by driving data-informed decision making across our organization. You’ve worked in cultures of excellence in the past, and are eager to apply that experience to help shape the cultural norms and best practices of a growing data science team as Anthropic continues to scale. In this unique company, technology, and moment in history, your work will be critical to informing our strategy as we deploy safe, frontier AI at scale to the world.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Deep dive into product and user data to derive actionable insights and size opportunities to improve products, strategy and operations, influencing roadmaps through your insights and recommendations&lt;/li&gt;\n&lt;li&gt;Develop hypotheses, apply rigorous causal inference methods – controlled experiments, synthetic controls –&amp;nbsp; and analyze the results in order make actionable recommendations&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Investigate anomalies, conduct root cause analyses, and provide data-driven insights to guide priorities and inform decisions&lt;/li&gt;\n&lt;li&gt;Define core metrics, build measurement frameworks, and maintain core reporting to evaluate success&lt;/li&gt;\n&lt;li&gt;Build statistical models, optimization frameworks, and simulations to automate decision-making and operational processes&lt;/li&gt;\n&lt;li&gt;Present complex technical analyses and recommendations to both technical and non-technical stakeholders&lt;/li&gt;\n&lt;li&gt;Establish foundational data practices and help scale our analytics infrastructure to support rapid iteration and decision-making as our products grow&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;You may be a good fit if you have:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;7+ years of experience in data science or analytics roles&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Deep expertise with Python, SQL, and data visualization tools&lt;/li&gt;\n&lt;li&gt;Expertise with experimental design, causal inference, statistical modeling, and A/B testing frameworks, particularly in high-scale technical environments&lt;/li&gt;\n&lt;li&gt;Highly effective written communication and presentation skills&lt;/li&gt;\n&lt;li&gt;A track record of translating complex data into clear, actionable insights for both technical and business stakeholders&lt;/li&gt;\n&lt;li&gt;A bias for action and ability to thrive in ambiguous, fast-moving environments where you must create clarity and drive forward progress&lt;/li&gt;\n&lt;li&gt;A passion for the company’s mission of building helpful, honest, and harmless AI&lt;/li&gt;\n&lt;li&gt;Some experience with AI/ML products, large language models, or developer tools in the AI/ML ecosystem&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;The annual compensation range for this role is listed below.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;For sales roles, the range provided is the role’s On Target Earnings (&quot;OTE&quot;) range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Annual Salary:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$285,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$380,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;&lt;strong&gt;Minimum education: &lt;/strong&gt;Bachelor’s degree or an equivalent combination of education, training, and/or experience&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Required field of study:&amp;nbsp;&lt;/strong&gt;A field relevant to the role as demonstrated through coursework, training, or professional experience&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Minimum years of experience: &lt;/strong&gt;Years of experience required will correlate with the internal job level requirements for the position&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Location-based hybrid policy:&lt;/strong&gt; Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.&lt;/p&gt;\n&lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Visa sponsorship:&lt;/strong&gt;&amp;nbsp;We do sponsor visas! However, we aren&#39;t able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed.&amp;nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Your safety matters to us.&lt;/strong&gt; To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&amp;nbsp;@anthropic.com&amp;nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you&#39;re ever unsure about a communication, don&#39;t click any links—visit&amp;nbsp;&lt;u data-stringify-type=&quot;underline&quot;&gt;&lt;a class=&quot;c-link c-link--underline&quot; href=&quot;http://anthropic.com/careers&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://anthropic.com/careers&quot; data-sk=&quot;tooltip_parent&quot; data-remove-tab-index=&quot;true&quot;&gt;anthropic.com/careers&lt;/a&gt;&lt;/u&gt;&amp;nbsp;directly for confirmed position openings.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;How we&#39;re different&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact — advancing our long-term goals of steerable, trustworthy AI — rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We&#39;re an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.&lt;/p&gt;\n&lt;p&gt;The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp;amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;Come work with us!&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. &lt;strong data-stringify-type=&quot;bold&quot;&gt;Guidance on Candidates&#39; AI Usage:&lt;/strong&gt;&amp;nbsp;Learn about&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; data-sk=&quot;tooltip_parent&quot;&gt;our policy&lt;/a&gt; for using AI in our application process.&lt;/p&gt;&lt;/div&gt;",
-      "updated_at": "2026-08-24T19:19:04-04:00",
-      "tier": "Tier A: Too Hard",
-      "suitability_score": 50,
-      "verdict": "POSSIBLE FIT (Calibration)",
-      "recommendation": "Secondary / Calibration apply",
-      "matched_signals": [
-        "Title match '\\bdata\\s+scientist\\b': +20",
-        "Keyword match '\\bdata\\s+scientist\\b': +10",
-        "Firm Quality Boost: +20"
-      ],
-      "penalties": [],
-      "estimated_comp": "$400,000 - $700,000+",
-      "comp_benchmark_delta": "Premier Top-of-Market Offer",
-      "priority_tier": "Tier A: Too Hard",
-      "priority_tag": "Pinnacle Target",
-      "key": "Anthropic::gh_anthropic_5182605008",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "industry_sector": "FinTech & Elite Tech",
-      "posted_pay_range": null,
-      "official_careers_url": "https://www.anthropic.com/careers",
-      "url_status": 200
-    },
-    {
-      "job_id": "gh_anthropic_5209196008",
-      "firm_name": "Anthropic",
-      "title": "Data Scientist, Safeguards",
-      "location": "New York City, NY; San Francisco, CA; Seattle, WA",
-      "department": "Data Science & Analytics",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5209196008",
-      "source_ats": "Greenhouse",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;As an early member of our Safeguards Data Science and Analytics team, you will play an instrumental role in our company’s mission of building safe and beneficial artificial intelligence by building and scaling a data driven culture from the ground up. In this unique company, technology, and moment in history, your work will be critical to informing our product and commercial strategy as we deploy safe, frontier AI at scale to the world.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;You will work closely with product, engineering, policy &amp;amp; enforcement to define and measure key company success metrics, analyze user behavior to identify new enforcement opportunities and build a culture of developing and testing hypotheses through experimentation. You’ve worked in cultures of excellence in the past, and are eager to apply that experience to building robust and scalable systems and processes as our company goes through a phase of rapid growth.&lt;/p&gt;\n&lt;h2&gt;Key responsibilities&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Deep dive into user behavior data to provide insights on safety concerns&lt;/li&gt;\n&lt;li&gt;Define core metrics that measure the team&#39;s success. Set goals, build forecasts, monitor performance, and develop actionable reporting&lt;/li&gt;\n&lt;li&gt;Identify and size opportunities to improve the product, influencing product roadmap through your insights and recommendations&lt;/li&gt;\n&lt;li&gt;Develop hypotheses on product changes, design controlled experiments, analyze the results, and make recommendations based on impact to key metrics&lt;/li&gt;\n&lt;li&gt;Build a data driven culture from the ground up by establishing foundational data best practices and making data more accessible across the company&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Minimum qualifications&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Expertise in Python, SQL, and data visualization tools.&lt;/li&gt;\n&lt;li&gt;A bias for action and urgency, not letting perfect be the enemy of the effective.&lt;/li&gt;\n&lt;li&gt;A strong disposition to thrive in ambiguity, taking initiative to create clarity and forward progress.&lt;/li&gt;\n&lt;li&gt;A deep curiosity and energy for pulling the thread on hard questions.&lt;/li&gt;\n&lt;li&gt;Experience in turning open questions and data into concise and insightful analysis.&lt;/li&gt;\n&lt;li&gt;Highly effective written communication and presentation skills.&lt;/li&gt;\n&lt;li&gt;A passion for the company&#39;s mission of building helpful, honest, and harmless AI.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Preferred qualifications&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;8+ years of experience in data science or analytics roles, preferably in an infrastructure or operations context.&lt;/li&gt;\n&lt;li&gt;3+ years of experience deeply embedding in Product teams.&lt;/li&gt;\n&lt;li&gt;Experience working on safety, anti-abuse, integrity shaped problems.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Deadline to apply:&amp;nbsp;&lt;/strong&gt;None. Applications will be reviewed on a rolling basis.&amp;nbsp;&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;The annual compensation range for this role is listed below.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;For sales roles, the range provided is the role’s On Target Earnings (&quot;OTE&quot;) range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Annual Salary:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$285,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$380,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;&lt;strong&gt;Minimum education: &lt;/strong&gt;Bachelor’s degree or an equivalent combination of education, training, and/or experience&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Required field of study:&amp;nbsp;&lt;/strong&gt;A field relevant to the role as demonstrated through coursework, training, or professional experience&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Minimum years of experience: &lt;/strong&gt;Years of experience required will correlate with the internal job level requirements for the position&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Location-based hybrid policy:&lt;/strong&gt; Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.&lt;/p&gt;\n&lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Visa sponsorship:&lt;/strong&gt;&amp;nbsp;We do sponsor visas! However, we aren&#39;t able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed.&amp;nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Your safety matters to us.&lt;/strong&gt; To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&amp;nbsp;@anthropic.com&amp;nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you&#39;re ever unsure about a communication, don&#39;t click any links—visit&amp;nbsp;&lt;u data-stringify-type=&quot;underline&quot;&gt;&lt;a class=&quot;c-link c-link--underline&quot; href=&quot;http://anthropic.com/careers&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://anthropic.com/careers&quot; data-sk=&quot;tooltip_parent&quot; data-remove-tab-index=&quot;true&quot;&gt;anthropic.com/careers&lt;/a&gt;&lt;/u&gt;&amp;nbsp;directly for confirmed position openings.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;How we&#39;re different&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact — advancing our long-term goals of steerable, trustworthy AI — rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We&#39;re an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.&lt;/p&gt;\n&lt;p&gt;The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp;amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;Come work with us!&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. &lt;strong data-stringify-type=&quot;bold&quot;&gt;Guidance on Candidates&#39; AI Usage:&lt;/strong&gt;&amp;nbsp;Learn about&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; data-sk=&quot;tooltip_parent&quot;&gt;our policy&lt;/a&gt; for using AI in our application process.&lt;/p&gt;&lt;/div&gt;",
-      "updated_at": "2026-08-21T12:50:12-04:00",
-      "tier": "Tier A: Too Hard",
-      "suitability_score": 50,
-      "verdict": "POSSIBLE FIT (Calibration)",
-      "recommendation": "Secondary / Calibration apply",
-      "matched_signals": [
-        "Title match '\\bdata\\s+scientist\\b': +20",
-        "Keyword match '\\bdata\\s+scientist\\b': +10",
-        "Firm Quality Boost: +20"
-      ],
-      "penalties": [],
-      "estimated_comp": "$400,000 - $700,000+",
-      "comp_benchmark_delta": "Premier Top-of-Market Offer",
-      "priority_tier": "Tier A: Too Hard",
-      "priority_tag": "Pinnacle Target",
-      "key": "Anthropic::gh_anthropic_5209196008",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "industry_sector": "FinTech & Elite Tech",
-      "posted_pay_range": null,
-      "official_careers_url": "https://www.anthropic.com/careers",
       "url_status": 200
     },
     {
@@ -12767,7 +13626,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "OpenAI::ashby_openai_579e2994-ec43-4869-8ad1-8cda8088f74b",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -12802,7 +13661,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "OpenAI::ashby_openai_e71cf565-4b21-4b0d-bf45-b22e58ca95eb",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -12837,7 +13696,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "OpenAI::ashby_openai_994bf78e-55ec-4c02-9326-6f90c08bcebe",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -12872,7 +13731,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "OpenAI::ashby_openai_f1567543-4de1-468e-9054-bc5fd21a55e2",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -12907,7 +13766,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "OpenAI::ashby_openai_fc72784d-f925-4f8d-aebc-eee72e7bf55c",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -12942,7 +13801,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "OpenAI::ashby_openai_efcc3430-14c8-4022-8350-8146ffb867ab",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -12977,7 +13836,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "OpenAI::ashby_openai_90c711dc-5f50-46e3-a5ab-82359a56d683",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -13012,7 +13871,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "OpenAI::ashby_openai_cadb7c24-2aea-4b98-a793-65ae9388b5d6",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -13047,7 +13906,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "OpenAI::ashby_openai_1eb32675-b1a0-4c0a-9b57-19ceab07e9e0",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -13082,7 +13941,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "OpenAI::ashby_openai_894ce80d-c587-4ef0-92d2-b16deb9a06b9",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -13117,8 +13976,144 @@ window.LIVE_OPENINGS_DATA = {
       "key": "OpenAI::ashby_openai_756d8c20-649a-47f2-8012-553b5f6cb0c5",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_anthropic_5196852008",
+      "firm_name": "Anthropic",
+      "title": "Data Scientist, GTM",
+      "location": "New York City, NY; San Francisco, CA | New York City, NY",
+      "department": "Data Science & Analytics",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5196852008",
+      "source_ats": "Greenhouse",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;h2 class=&quot;text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold&quot;&gt;About the role&lt;/h2&gt;\n&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;As part of our growing Data Science &amp;amp; Analytics team, you will play an instrumental role in Anthropic&#39;s mission of building safe and beneficial AI — this time by driving data-informed decisions across the commercial customer lifecycle. This role sits at the intersection of fast-moving sales operations and rigorous statistical analysis. You will work across multiple segments and products, partnering with analytics engineers, fellow data scientists, and go-to-market leadership to turn complex commercial data into actionable strategy.&lt;/p&gt;\n&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;You will own measurement and analysis for new logo acquisition through activation, expansion, and retention for a rapidly scaling, consumption-based AI platform. You&#39;ve worked in cultures of analytical rigor before, and you&#39;re eager to help shape the norms and best practices of a growing data science function at a pivotal moment in the company&#39;s growth.&lt;/p&gt;\n&lt;h2 class=&quot;text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold&quot;&gt;Key responsibilities&lt;/h2&gt;\n&lt;ul class=&quot;[li_&amp;amp;]:mb-0 [li_&amp;amp;]:mt-1 [li_&amp;amp;]:gap-1 [&amp;amp;:not(:last-child)_ul]:pb-1 [&amp;amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3&quot;&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Define key metrics, build measurement frameworks, and maintain core reporting to evaluate GTM success across segments and products&lt;/li&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Analyze commercial and user data to surface actionable insights, size opportunities, and influence roadmaps and go-to-market strategy&lt;/li&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Develop hypotheses and apply rigorous causal inference methods — controlled experiments, synthetic controls — to make clear, actionable recommendations&lt;/li&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Investigate anomalies, conduct root cause analyses, and provide data-driven guidance on priorities and decisions&lt;/li&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Build statistical models, optimization frameworks, and simulations to support and automate commercial decision-making processes&lt;/li&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Present analyses and recommendations to both technical and non-technical stakeholders, including GTM leadership&lt;/li&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Establish foundational data practices and help scale analytics infrastructure to support rapid product and commercial iteration&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2 class=&quot;text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold&quot;&gt;Minimum qualifications&lt;/h2&gt;\n&lt;ul class=&quot;[li_&amp;amp;]:mb-0 [li_&amp;amp;]:mt-1 [li_&amp;amp;]:gap-1 [&amp;amp;:not(:last-child)_ul]:pb-1 [&amp;amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3&quot;&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Proficiency in Python, SQL, and data visualization tools&lt;/li&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Expertise in experimental design, causal inference, statistical modeling, and A/B testing, particularly in high-scale technical environments&lt;/li&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Demonstrated ability to translate complex data into clear, actionable insights for both technical and business audiences&lt;/li&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Strong written communication and presentation skills&lt;/li&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Ability to work effectively in fast-moving, ambiguous environments — comfortable creating structure and driving progress where neither yet exists&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2 class=&quot;text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold&quot;&gt;Preferred qualifications&lt;/h2&gt;\n&lt;ul class=&quot;[li_&amp;amp;]:mb-0 [li_&amp;amp;]:mt-1 [li_&amp;amp;]:gap-1 [&amp;amp;:not(:last-child)_ul]:pb-1 [&amp;amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3&quot;&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;5+ years of experience in data science or analytics roles&lt;/li&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;A strong track record in multi-segment, multi-product B2B sales or commercial analytics, especially with consumption-based revenue models&lt;/li&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Experience with AI/ML products, large language models, or developer tools in the AI/ML ecosystem&lt;/li&gt;\n&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Genuine interest in Anthropic&#39;s mission of developing safe and beneficial AI&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;The annual compensation range for this role is listed below.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;For sales roles, the range provided is the role’s On Target Earnings (&quot;OTE&quot;) range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Annual Salary:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$285,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$380,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;&lt;strong&gt;Minimum education: &lt;/strong&gt;Bachelor’s degree or an equivalent combination of education, training, and/or experience&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Required field of study:&amp;nbsp;&lt;/strong&gt;A field relevant to the role as demonstrated through coursework, training, or professional experience&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Minimum years of experience: &lt;/strong&gt;Years of experience required will correlate with the internal job level requirements for the position&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Location-based hybrid policy:&lt;/strong&gt; Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.&lt;/p&gt;\n&lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Visa sponsorship:&lt;/strong&gt;&amp;nbsp;We do sponsor visas! However, we aren&#39;t able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed.&amp;nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Your safety matters to us.&lt;/strong&gt; To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&amp;nbsp;@anthropic.com&amp;nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you&#39;re ever unsure about a communication, don&#39;t click any links—visit&amp;nbsp;&lt;u data-stringify-type=&quot;underline&quot;&gt;&lt;a class=&quot;c-link c-link--underline&quot; href=&quot;http://anthropic.com/careers&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://anthropic.com/careers&quot; data-sk=&quot;tooltip_parent&quot; data-remove-tab-index=&quot;true&quot;&gt;anthropic.com/careers&lt;/a&gt;&lt;/u&gt;&amp;nbsp;directly for confirmed position openings.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;How we&#39;re different&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact — advancing our long-term goals of steerable, trustworthy AI — rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We&#39;re an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.&lt;/p&gt;\n&lt;p&gt;The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp;amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;Come work with us!&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. &lt;strong data-stringify-type=&quot;bold&quot;&gt;Guidance on Candidates&#39; AI Usage:&lt;/strong&gt;&amp;nbsp;Learn about&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; data-sk=&quot;tooltip_parent&quot;&gt;our policy&lt;/a&gt; for using AI in our application process.&lt;/p&gt;&lt;/div&gt;",
+      "updated_at": "2026-08-21T12:50:08-04:00",
+      "tier": "Tier A: Too Hard",
+      "suitability_score": 50,
+      "verdict": "POSSIBLE FIT (Calibration)",
+      "recommendation": "Secondary / Calibration apply",
+      "matched_signals": [
+        "Title match '\\bdata\\s+scientist\\b': +20",
+        "Keyword match '\\bdata\\s+scientist\\b': +10",
+        "Firm Quality Boost: +20"
+      ],
+      "penalties": [],
+      "estimated_comp": "$400,000 - $700,000+",
+      "comp_benchmark_delta": "Premier Top-of-Market Offer",
+      "priority_tier": "Tier A: Too Hard",
+      "priority_tag": "Pinnacle Target",
+      "key": "Anthropic::gh_anthropic_5196852008",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-25T15:49:59.455531",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "industry_sector": "FinTech & Elite Tech",
+      "posted_pay_range": null,
+      "official_careers_url": "https://www.anthropic.com/careers",
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_anthropic_5232055008",
+      "firm_name": "Anthropic",
+      "title": "Data Scientist, Policy",
+      "location": "New York City, NY; San Francisco, CA | New York City, NY; Washington, DC",
+      "department": "Data Science & Analytics",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5232055008",
+      "source_ats": "Greenhouse",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;h2 class=&quot;heading&quot;&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;As one of our first Data Scientists dedicated to policy work, you will play a key role in ensuring Anthropic&#39;s work is understood by policymakers around the world. You&#39;ll sit at the intersection of data science and public affairs, transforming internal product usage and survey data into clear, accurate, and consistent evidence the Policy team can use to inform its positions, demonstrate Anthropic’s relevance to policymakers, and measure the impact of its work.&lt;/p&gt;\n&lt;p&gt;Your analyses will directly inform how legislators, regulators, and the public understand Anthropic&#39;s footprint and contribution. This is a highly cross-functional role that is foundational to Anthropic&#39;s mission of bringing powerful AI to the world in a way that benefits humanity.&lt;/p&gt;\n&lt;h2 class=&quot;heading&quot;&gt;&lt;strong&gt;Key responsibilities&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Partner with product and business teams across the company to produce supporting analyses and data collateral for specific policy position papers and partnership conversations&lt;/li&gt;\n&lt;li&gt;Determine which metrics faithfully represent our company to legislators, regulators, and the public&lt;/li&gt;\n&lt;li&gt;Own the dashboards and pipelines that keep externally-shared numbers consistent, so the Policy team can move quickly without creating discrepancies&lt;/li&gt;\n&lt;li&gt;Use AI tools to aggregate news, policy developments, and other public data sources to track trends and provide a clear picture of the evolving regulatory landscape&lt;/li&gt;\n&lt;li&gt;Develop measurement frameworks for policy communications, paid media, and public-affairs campaigns&lt;/li&gt;\n&lt;li&gt;Design and implement policy analyses to support internal position development or measure the impact of policy implementation for external audiences&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2 class=&quot;heading&quot;&gt;&lt;strong&gt;Minimum qualifications&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Proficiency in Python, SQL, and data analysis tools, with experience working with external and public data sources&lt;/li&gt;\n&lt;li&gt;Experience producing analysis that reaches external audiences such as policy, communications, investor relations, public affairs, or published research&lt;/li&gt;\n&lt;li&gt;Applied causal inference using quasi-experimental designs (e.g., difference-in-differences, regression discontinuity, synthetic control, instrumental variables, or matching) to measure policy or program impact from observational data&lt;/li&gt;\n&lt;li&gt;Demonstrated ability to translate complex analyses into clear, actionable recommendations for audiences with differing levels of technical fluency&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2 class=&quot;heading&quot;&gt;&lt;strong&gt;Preferred qualifications&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;6+ years of hands-on data science experience&lt;/li&gt;\n&lt;li&gt;Direct experience supporting a policy, government affairs, or regulatory team with data and analysis&lt;/li&gt;\n&lt;li&gt;Familiarity with investor-relations or financial-disclosure data standards and the consistency requirements they entail&lt;/li&gt;\n&lt;li&gt;Comfort operating in ambiguous, fast-moving environments where creating clarity and driving progress is part of the role&lt;/li&gt;\n&lt;li&gt;A genuine interest in Anthropic&#39;s mission of building safe and beneficial AI&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Deadline to apply:&lt;/strong&gt; None. Applications will be accepted on a rolling basis.&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;The annual compensation range for this role is listed below.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;For sales roles, the range provided is the role’s On Target Earnings (&quot;OTE&quot;) range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Annual Salary:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$285,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$380,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;&lt;strong&gt;Minimum education: &lt;/strong&gt;Bachelor’s degree or an equivalent combination of education, training, and/or experience&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Required field of study:&amp;nbsp;&lt;/strong&gt;A field relevant to the role as demonstrated through coursework, training, or professional experience&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Minimum years of experience: &lt;/strong&gt;Years of experience required will correlate with the internal job level requirements for the position&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Location-based hybrid policy:&lt;/strong&gt; Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.&lt;/p&gt;\n&lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Visa sponsorship:&lt;/strong&gt;&amp;nbsp;We do sponsor visas! However, we aren&#39;t able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed.&amp;nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Your safety matters to us.&lt;/strong&gt; To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&amp;nbsp;@anthropic.com&amp;nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you&#39;re ever unsure about a communication, don&#39;t click any links—visit&amp;nbsp;&lt;u data-stringify-type=&quot;underline&quot;&gt;&lt;a class=&quot;c-link c-link--underline&quot; href=&quot;http://anthropic.com/careers&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://anthropic.com/careers&quot; data-sk=&quot;tooltip_parent&quot; data-remove-tab-index=&quot;true&quot;&gt;anthropic.com/careers&lt;/a&gt;&lt;/u&gt;&amp;nbsp;directly for confirmed position openings.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;How we&#39;re different&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact — advancing our long-term goals of steerable, trustworthy AI — rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We&#39;re an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.&lt;/p&gt;\n&lt;p&gt;The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp;amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;Come work with us!&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. &lt;strong data-stringify-type=&quot;bold&quot;&gt;Guidance on Candidates&#39; AI Usage:&lt;/strong&gt;&amp;nbsp;Learn about&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; data-sk=&quot;tooltip_parent&quot;&gt;our policy&lt;/a&gt; for using AI in our application process.&lt;/p&gt;&lt;/div&gt;",
+      "updated_at": "2026-08-21T12:50:18-04:00",
+      "tier": "Tier A: Too Hard",
+      "suitability_score": 50,
+      "verdict": "POSSIBLE FIT (Calibration)",
+      "recommendation": "Secondary / Calibration apply",
+      "matched_signals": [
+        "Title match '\\bdata\\s+scientist\\b': +20",
+        "Keyword match '\\bdata\\s+scientist\\b': +10",
+        "Firm Quality Boost: +20"
+      ],
+      "penalties": [],
+      "estimated_comp": "$400,000 - $700,000+",
+      "comp_benchmark_delta": "Premier Top-of-Market Offer",
+      "priority_tier": "Tier A: Too Hard",
+      "priority_tag": "Pinnacle Target",
+      "key": "Anthropic::gh_anthropic_5232055008",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-25T15:49:59.455531",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "industry_sector": "FinTech & Elite Tech",
+      "posted_pay_range": null,
+      "official_careers_url": "https://www.anthropic.com/careers",
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_anthropic_5182605008",
+      "firm_name": "Anthropic",
+      "title": "Data Scientist, Product",
+      "location": "New York City, NY; San Francisco, CA; Seattle, WA",
+      "department": "Data Science & Analytics",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5182605008",
+      "source_ats": "Greenhouse",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;As part of our growing Data Science and Analytics team, you will play an instrumental role in our company’s mission of building safe and beneficial artificial intelligence by driving data-informed decision making across our organization. You’ve worked in cultures of excellence in the past, and are eager to apply that experience to help shape the cultural norms and best practices of a growing data science team as Anthropic continues to scale. In this unique company, technology, and moment in history, your work will be critical to informing our strategy as we deploy safe, frontier AI at scale to the world.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Deep dive into product and user data to derive actionable insights and size opportunities to improve products, strategy and operations, influencing roadmaps through your insights and recommendations&lt;/li&gt;\n&lt;li&gt;Develop hypotheses, apply rigorous causal inference methods – controlled experiments, synthetic controls –&amp;nbsp; and analyze the results in order make actionable recommendations&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Investigate anomalies, conduct root cause analyses, and provide data-driven insights to guide priorities and inform decisions&lt;/li&gt;\n&lt;li&gt;Define core metrics, build measurement frameworks, and maintain core reporting to evaluate success&lt;/li&gt;\n&lt;li&gt;Build statistical models, optimization frameworks, and simulations to automate decision-making and operational processes&lt;/li&gt;\n&lt;li&gt;Present complex technical analyses and recommendations to both technical and non-technical stakeholders&lt;/li&gt;\n&lt;li&gt;Establish foundational data practices and help scale our analytics infrastructure to support rapid iteration and decision-making as our products grow&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;You may be a good fit if you have:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;7+ years of experience in data science or analytics roles&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Deep expertise with Python, SQL, and data visualization tools&lt;/li&gt;\n&lt;li&gt;Expertise with experimental design, causal inference, statistical modeling, and A/B testing frameworks, particularly in high-scale technical environments&lt;/li&gt;\n&lt;li&gt;Highly effective written communication and presentation skills&lt;/li&gt;\n&lt;li&gt;A track record of translating complex data into clear, actionable insights for both technical and business stakeholders&lt;/li&gt;\n&lt;li&gt;A bias for action and ability to thrive in ambiguous, fast-moving environments where you must create clarity and drive forward progress&lt;/li&gt;\n&lt;li&gt;A passion for the company’s mission of building helpful, honest, and harmless AI&lt;/li&gt;\n&lt;li&gt;Some experience with AI/ML products, large language models, or developer tools in the AI/ML ecosystem&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;The annual compensation range for this role is listed below.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;For sales roles, the range provided is the role’s On Target Earnings (&quot;OTE&quot;) range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Annual Salary:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$285,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$380,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;&lt;strong&gt;Minimum education: &lt;/strong&gt;Bachelor’s degree or an equivalent combination of education, training, and/or experience&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Required field of study:&amp;nbsp;&lt;/strong&gt;A field relevant to the role as demonstrated through coursework, training, or professional experience&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Minimum years of experience: &lt;/strong&gt;Years of experience required will correlate with the internal job level requirements for the position&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Location-based hybrid policy:&lt;/strong&gt; Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.&lt;/p&gt;\n&lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Visa sponsorship:&lt;/strong&gt;&amp;nbsp;We do sponsor visas! However, we aren&#39;t able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed.&amp;nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Your safety matters to us.&lt;/strong&gt; To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&amp;nbsp;@anthropic.com&amp;nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you&#39;re ever unsure about a communication, don&#39;t click any links—visit&amp;nbsp;&lt;u data-stringify-type=&quot;underline&quot;&gt;&lt;a class=&quot;c-link c-link--underline&quot; href=&quot;http://anthropic.com/careers&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://anthropic.com/careers&quot; data-sk=&quot;tooltip_parent&quot; data-remove-tab-index=&quot;true&quot;&gt;anthropic.com/careers&lt;/a&gt;&lt;/u&gt;&amp;nbsp;directly for confirmed position openings.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;How we&#39;re different&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact — advancing our long-term goals of steerable, trustworthy AI — rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We&#39;re an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.&lt;/p&gt;\n&lt;p&gt;The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp;amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;Come work with us!&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. &lt;strong data-stringify-type=&quot;bold&quot;&gt;Guidance on Candidates&#39; AI Usage:&lt;/strong&gt;&amp;nbsp;Learn about&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; data-sk=&quot;tooltip_parent&quot;&gt;our policy&lt;/a&gt; for using AI in our application process.&lt;/p&gt;&lt;/div&gt;",
+      "updated_at": "2026-08-24T19:19:04-04:00",
+      "tier": "Tier A: Too Hard",
+      "suitability_score": 50,
+      "verdict": "POSSIBLE FIT (Calibration)",
+      "recommendation": "Secondary / Calibration apply",
+      "matched_signals": [
+        "Title match '\\bdata\\s+scientist\\b': +20",
+        "Keyword match '\\bdata\\s+scientist\\b': +10",
+        "Firm Quality Boost: +20"
+      ],
+      "penalties": [],
+      "estimated_comp": "$400,000 - $700,000+",
+      "comp_benchmark_delta": "Premier Top-of-Market Offer",
+      "priority_tier": "Tier A: Too Hard",
+      "priority_tag": "Pinnacle Target",
+      "key": "Anthropic::gh_anthropic_5182605008",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-25T15:49:59.455531",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "industry_sector": "FinTech & Elite Tech",
+      "posted_pay_range": null,
+      "official_careers_url": "https://www.anthropic.com/careers",
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_anthropic_5209196008",
+      "firm_name": "Anthropic",
+      "title": "Data Scientist, Safeguards",
+      "location": "New York City, NY; San Francisco, CA; Seattle, WA",
+      "department": "Data Science & Analytics",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5209196008",
+      "source_ats": "Greenhouse",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;As an early member of our Safeguards Data Science and Analytics team, you will play an instrumental role in our company’s mission of building safe and beneficial artificial intelligence by building and scaling a data driven culture from the ground up. In this unique company, technology, and moment in history, your work will be critical to informing our product and commercial strategy as we deploy safe, frontier AI at scale to the world.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;You will work closely with product, engineering, policy &amp;amp; enforcement to define and measure key company success metrics, analyze user behavior to identify new enforcement opportunities and build a culture of developing and testing hypotheses through experimentation. You’ve worked in cultures of excellence in the past, and are eager to apply that experience to building robust and scalable systems and processes as our company goes through a phase of rapid growth.&lt;/p&gt;\n&lt;h2&gt;Key responsibilities&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Deep dive into user behavior data to provide insights on safety concerns&lt;/li&gt;\n&lt;li&gt;Define core metrics that measure the team&#39;s success. Set goals, build forecasts, monitor performance, and develop actionable reporting&lt;/li&gt;\n&lt;li&gt;Identify and size opportunities to improve the product, influencing product roadmap through your insights and recommendations&lt;/li&gt;\n&lt;li&gt;Develop hypotheses on product changes, design controlled experiments, analyze the results, and make recommendations based on impact to key metrics&lt;/li&gt;\n&lt;li&gt;Build a data driven culture from the ground up by establishing foundational data best practices and making data more accessible across the company&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Minimum qualifications&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Expertise in Python, SQL, and data visualization tools.&lt;/li&gt;\n&lt;li&gt;A bias for action and urgency, not letting perfect be the enemy of the effective.&lt;/li&gt;\n&lt;li&gt;A strong disposition to thrive in ambiguity, taking initiative to create clarity and forward progress.&lt;/li&gt;\n&lt;li&gt;A deep curiosity and energy for pulling the thread on hard questions.&lt;/li&gt;\n&lt;li&gt;Experience in turning open questions and data into concise and insightful analysis.&lt;/li&gt;\n&lt;li&gt;Highly effective written communication and presentation skills.&lt;/li&gt;\n&lt;li&gt;A passion for the company&#39;s mission of building helpful, honest, and harmless AI.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Preferred qualifications&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;8+ years of experience in data science or analytics roles, preferably in an infrastructure or operations context.&lt;/li&gt;\n&lt;li&gt;3+ years of experience deeply embedding in Product teams.&lt;/li&gt;\n&lt;li&gt;Experience working on safety, anti-abuse, integrity shaped problems.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Deadline to apply:&amp;nbsp;&lt;/strong&gt;None. Applications will be reviewed on a rolling basis.&amp;nbsp;&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;The annual compensation range for this role is listed below.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;For sales roles, the range provided is the role’s On Target Earnings (&quot;OTE&quot;) range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Annual Salary:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$285,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$380,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;&lt;strong&gt;Minimum education: &lt;/strong&gt;Bachelor’s degree or an equivalent combination of education, training, and/or experience&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Required field of study:&amp;nbsp;&lt;/strong&gt;A field relevant to the role as demonstrated through coursework, training, or professional experience&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Minimum years of experience: &lt;/strong&gt;Years of experience required will correlate with the internal job level requirements for the position&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Location-based hybrid policy:&lt;/strong&gt; Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.&lt;/p&gt;\n&lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Visa sponsorship:&lt;/strong&gt;&amp;nbsp;We do sponsor visas! However, we aren&#39;t able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed.&amp;nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Your safety matters to us.&lt;/strong&gt; To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&amp;nbsp;@anthropic.com&amp;nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you&#39;re ever unsure about a communication, don&#39;t click any links—visit&amp;nbsp;&lt;u data-stringify-type=&quot;underline&quot;&gt;&lt;a class=&quot;c-link c-link--underline&quot; href=&quot;http://anthropic.com/careers&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://anthropic.com/careers&quot; data-sk=&quot;tooltip_parent&quot; data-remove-tab-index=&quot;true&quot;&gt;anthropic.com/careers&lt;/a&gt;&lt;/u&gt;&amp;nbsp;directly for confirmed position openings.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;How we&#39;re different&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact — advancing our long-term goals of steerable, trustworthy AI — rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We&#39;re an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.&lt;/p&gt;\n&lt;p&gt;The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp;amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;Come work with us!&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. &lt;strong data-stringify-type=&quot;bold&quot;&gt;Guidance on Candidates&#39; AI Usage:&lt;/strong&gt;&amp;nbsp;Learn about&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; data-sk=&quot;tooltip_parent&quot;&gt;our policy&lt;/a&gt; for using AI in our application process.&lt;/p&gt;&lt;/div&gt;",
+      "updated_at": "2026-08-21T12:50:12-04:00",
+      "tier": "Tier A: Too Hard",
+      "suitability_score": 50,
+      "verdict": "POSSIBLE FIT (Calibration)",
+      "recommendation": "Secondary / Calibration apply",
+      "matched_signals": [
+        "Title match '\\bdata\\s+scientist\\b': +20",
+        "Keyword match '\\bdata\\s+scientist\\b': +10",
+        "Firm Quality Boost: +20"
+      ],
+      "penalties": [],
+      "estimated_comp": "$400,000 - $700,000+",
+      "comp_benchmark_delta": "Premier Top-of-Market Offer",
+      "priority_tier": "Tier A: Too Hard",
+      "priority_tag": "Pinnacle Target",
+      "key": "Anthropic::gh_anthropic_5209196008",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-25T15:49:59.455531",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "industry_sector": "FinTech & Elite Tech",
+      "posted_pay_range": null,
+      "official_careers_url": "https://www.anthropic.com/careers",
       "url_status": 200
     },
     {
@@ -13152,7 +14147,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Schonfeld Strategic Advisors::gh_schonfeld_7541293",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -13187,7 +14182,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Schonfeld Strategic Advisors::gh_schonfeld_8119128",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -13201,7 +14196,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;strong&gt;&lt;u&gt;Role/Responsibilities:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We are seeking a quantitative researcher to join an NLP quant team within Point72. We believe the significant advances in NLP methods show promise for finance. We develop and launch end-to-end signals, from data processing to performance testing.&lt;/p&gt;\n&lt;p&gt;The ideal candidate will have strong machine learning, data science and software engineering skills, some experience with modern NLP, and a curiosity about finance and trading.&lt;/p&gt;\n&lt;p&gt;Responsibilities may include:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Using NLP to construct features from varied datasets&lt;/li&gt;\n&lt;li&gt;Formulating research hypotheses to derive alpha&lt;/li&gt;\n&lt;li&gt;Building and testing the performance of trading signals based on NLP and financial features&lt;/li&gt;\n&lt;li&gt;Launching identified signals into production&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;Requirements: &lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Bachelor’s, Master’s or PhD degree in computer science or other quantitative discipline&lt;/li&gt;\n&lt;li&gt;Proficient in Python and general software engineering principles (github, testing, dev workflow)&lt;/li&gt;\n&lt;li&gt;Strong understanding of machine learning and statistics&lt;/li&gt;\n&lt;li&gt;Prior research experience preferred&lt;/li&gt;\n&lt;li&gt;Experience with deep learning, specifically NLP (PyTorch, HuggingFace, LLMs, etc.) preferred&lt;/li&gt;\n&lt;li&gt;Data science stack familiarity preferred&lt;/li&gt;\n&lt;li&gt;An interest in financial markets&lt;/li&gt;\n&lt;li&gt;Great attitude&lt;/li&gt;\n&lt;li&gt;A collaborative mindset&lt;/li&gt;\n&lt;li&gt;Commitment to the highest ethical standards&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;About Point72:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Point72 Asset Management is a global firm led by Steven Cohen that invests in multiple asset classes and strategies worldwide. Resting on more than a quarter-century of investing experience, we seek to be the industry’s premier asset manager through delivering superior risk-adjusted returns, adhering to the highest ethical standards, and offering the greatest opportunities to the industry’s brightest talent.&amp;nbsp;&amp;nbsp;We’re inventing the future of finance by revolutionizing how we develop our people and how we use data to shape our thinking. For more information, visit&amp;nbsp;www.Point72.com/working-here.&lt;/p&gt;",
-      "updated_at": "2026-09-30T05:40:36.470129",
+      "updated_at": "2026-09-30T01:47:50.152346",
       "suitability_score": 48,
       "verdict": "POSSIBLE FIT (Calibration)",
       "recommendation": "Secondary / Calibration apply",
@@ -13218,7 +14213,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_7661997002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -13255,7 +14250,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::gh_janestreet_8497319002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -13289,7 +14284,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::gh_janestreet_8443094002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -13320,7 +14315,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_7661997002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -13358,7 +14353,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "OpenAI::ashby_openai_4ef5bf23-cf0e-4b97-a639-11f963c99b88",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -13393,7 +14388,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "OpenAI::ashby_openai_0f4da2b4-df8a-4560-809d-d0a6ac1ad9bc",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -13424,7 +14419,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Schonfeld Strategic Advisors::gh_schonfeld_7589451",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -13458,7 +14453,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Brex::gh_brex_8735070002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "FinTech & Elite Tech",
       "posted_pay_range": null,
@@ -13496,7 +14491,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Ramp::ashby_ramp_aa5512b1-d973-4d74-9d10-d56446ecf803",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -13530,43 +14525,9 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Block (Cash App)::gh_block_5214784008",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
-    },
-    {
-      "job_id": "gh_waymo_7455592",
-      "firm_name": "Waymo",
-      "title": "Data Scientist",
-      "location": "Mountain View, California, USA; San Francisco, California, USA",
-      "department": "Data Science (7ZZ)",
-      "url": "https://careers.withwaymo.com/jobs?gh_jid=7455592",
-      "source_ats": "Greenhouse",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Waymo is an autonomous driving technology company with the mission to be the world&#39;s most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World&#39;s Most Experienced Driver™—to improve access to mobility while saving thousands of lives now lost to traffic crashes. The Waymo Driver powers Waymo’s fully autonomous ride-hail service and can also be applied to a range of vehicle platforms and product use cases. The Waymo Driver has provided over ten million rider-only trips, enabled by its experience autonomously driving over 100 million miles on public roads and tens of billions in simulation across 15+ U.S. states.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;Rigorous performance evaluation of the Waymo Driver is a critical part of scaling our ride hailing service and achieving Waymo’s audacious goals. Waymo data scientists work hand-in-hand with engineering teams at each stage of the software development cycle, employing statistical models and developing metrics and measurement frameworks to ensure that the Waymo Driver meets our strict standards for safety, compliance, and driving and service quality. Autonomous driving presents a new paradigm in data science: in addition to leveraging data collected on-road, we generate our own data using state-of-the-art simulation technology—resulting in denser signals and challenging new problems in estimation and experimental design.&lt;/p&gt;\n&lt;p&gt;In this hybrid role you will report to a Data Science Manager.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;You will:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Develop evaluation frameworks for autonomous vehicle performance, for large-scale ML models, and for the quality of simulation.&lt;/li&gt;\n&lt;li&gt;Develop new metrics, interpret trends, and investigate anomalies in data from simulation and on-road driving.&lt;/li&gt;\n&lt;li&gt;Develop novel statistical methods to handle unique aspects of AV data; e.g. rate estimation with rare events, combining real and synthetic data, etc.&lt;/li&gt;\n&lt;li&gt;Frame and solve ambiguous problems, derive data-driven conclusions, and communicate findings to senior stakeholders.&lt;/li&gt;\n&lt;li&gt;Collaborate with Product and Engineering partners developing the Waymo Driver and Waymo’s simulation software; facilitate deployment readiness decisions for both products.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;You have:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Degree in a quantitative field (e.g. Statistics, Mathematics, Physics)&lt;/li&gt;\n&lt;li&gt;3+ years of industry experience solving data science problems or a PhD in a quantitative field&lt;/li&gt;\n&lt;li&gt;Expertise using advanced statistical methods in an applied setting; familiarity with ML systems/models&lt;/li&gt;\n&lt;li&gt;Demonstrated knowledge of Python/SQL/R data analysis libraries and packages&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;We prefer:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;PhD in a quantitative field&lt;/li&gt;\n&lt;li&gt;Experience solving problems related to Autonomous Driving or Ride Hailing&lt;/li&gt;\n&lt;li&gt;Experience in adjacent relevant areas like Advanced Machine Learning (Deep Learning and Diffusion models), Traffic Modeling, Safety Evaluation or Prediction&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The expected base salary range for this full-time position across US locations is listed below. Actual starting pay will be based on job-related factors, including exact work location, experience, relevant training and education, and skill level. Your recruiter can share more about the specific salary range for the role location or, if the role can be performed remote, the specific salary range for your preferred location, during the hiring process.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Waymo employees are also eligible to participate in Waymo’s discretionary annual bonus program, equity incentive plan, and generous Company benefits program, subject to eligibility requirements.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$170,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$216,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
-      "updated_at": "2026-09-21T17:51:41-04:00",
-      "posted_pay_range": null,
-      "tier": "Tier B: Main Focus",
-      "suitability_score": 45,
-      "verdict": "POSSIBLE FIT (Calibration)",
-      "recommendation": "Secondary / Calibration apply",
-      "matched_signals": [
-        "Title match '\\bdata\\s+scientist\\b': +20",
-        "Keyword match '\\bdata\\s+scientist\\b': +10",
-        "Firm Quality Boost: +15"
-      ],
-      "penalties": [],
-      "estimated_comp": "$250,000 - $400,000+",
-      "comp_benchmark_delta": "Significantly Above Benchmark",
-      "priority_tier": "Tier B: Main Focus",
-      "priority_tag": "High Conviction",
-      "industry_sector": "FinTech & Elite Tech",
-      "official_careers_url": "https://waymo.com/careers/",
-      "key": "Waymo::gh_waymo_7455592",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "url_status": 202
     },
     {
       "job_id": "gh_stripe_8222149",
@@ -13595,7 +14556,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Stripe::gh_stripe_8222149",
       "status": "INACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "FinTech & Elite Tech",
       "posted_pay_range": "$193,232 - 288,000/yr",
@@ -13630,7 +14591,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Stripe::gh_stripe_8080614",
       "status": "INACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "FinTech & Elite Tech",
       "posted_pay_range": null,
@@ -13665,7 +14626,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Stripe::gh_stripe_8043052",
       "status": "INACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "FinTech & Elite Tech",
       "posted_pay_range": null,
@@ -13700,13 +14661,47 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Stripe::gh_stripe_8018297",
       "status": "INACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "FinTech & Elite Tech",
       "posted_pay_range": null,
       "official_careers_url": "https://stripe.com/jobs",
       "url_status": 200,
       "inactive_reason": "Redirected to homepage/portal (https://stripe.com/careers/listing/data-scientist-payments/8018297?gh_jid=8018297)"
+    },
+    {
+      "job_id": "gh_waymo_7455592",
+      "firm_name": "Waymo",
+      "title": "Data Scientist",
+      "location": "Mountain View, California, USA; San Francisco, California, USA",
+      "department": "Data Science (7ZZ)",
+      "url": "https://careers.withwaymo.com/jobs?gh_jid=7455592",
+      "source_ats": "Greenhouse",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Waymo is an autonomous driving technology company with the mission to be the world&#39;s most trusted driver. Since its start as the Google Self-Driving Car Project in 2009, Waymo has focused on building the Waymo Driver—The World&#39;s Most Experienced Driver™—to improve access to mobility while saving thousands of lives now lost to traffic crashes. The Waymo Driver powers Waymo’s fully autonomous ride-hail service and can also be applied to a range of vehicle platforms and product use cases. The Waymo Driver has provided over ten million rider-only trips, enabled by its experience autonomously driving over 100 million miles on public roads and tens of billions in simulation across 15+ U.S. states.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;Rigorous performance evaluation of the Waymo Driver is a critical part of scaling our ride hailing service and achieving Waymo’s audacious goals. Waymo data scientists work hand-in-hand with engineering teams at each stage of the software development cycle, employing statistical models and developing metrics and measurement frameworks to ensure that the Waymo Driver meets our strict standards for safety, compliance, and driving and service quality. Autonomous driving presents a new paradigm in data science: in addition to leveraging data collected on-road, we generate our own data using state-of-the-art simulation technology—resulting in denser signals and challenging new problems in estimation and experimental design.&lt;/p&gt;\n&lt;p&gt;In this hybrid role you will report to a Data Science Manager.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;You will:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Develop evaluation frameworks for autonomous vehicle performance, for large-scale ML models, and for the quality of simulation.&lt;/li&gt;\n&lt;li&gt;Develop new metrics, interpret trends, and investigate anomalies in data from simulation and on-road driving.&lt;/li&gt;\n&lt;li&gt;Develop novel statistical methods to handle unique aspects of AV data; e.g. rate estimation with rare events, combining real and synthetic data, etc.&lt;/li&gt;\n&lt;li&gt;Frame and solve ambiguous problems, derive data-driven conclusions, and communicate findings to senior stakeholders.&lt;/li&gt;\n&lt;li&gt;Collaborate with Product and Engineering partners developing the Waymo Driver and Waymo’s simulation software; facilitate deployment readiness decisions for both products.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;You have:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Degree in a quantitative field (e.g. Statistics, Mathematics, Physics)&lt;/li&gt;\n&lt;li&gt;3+ years of industry experience solving data science problems or a PhD in a quantitative field&lt;/li&gt;\n&lt;li&gt;Expertise using advanced statistical methods in an applied setting; familiarity with ML systems/models&lt;/li&gt;\n&lt;li&gt;Demonstrated knowledge of Python/SQL/R data analysis libraries and packages&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;We prefer:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;PhD in a quantitative field&lt;/li&gt;\n&lt;li&gt;Experience solving problems related to Autonomous Driving or Ride Hailing&lt;/li&gt;\n&lt;li&gt;Experience in adjacent relevant areas like Advanced Machine Learning (Deep Learning and Diffusion models), Traffic Modeling, Safety Evaluation or Prediction&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The expected base salary range for this full-time position across US locations is listed below. Actual starting pay will be based on job-related factors, including exact work location, experience, relevant training and education, and skill level. Your recruiter can share more about the specific salary range for the role location or, if the role can be performed remote, the specific salary range for your preferred location, during the hiring process.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Waymo employees are also eligible to participate in Waymo’s discretionary annual bonus program, equity incentive plan, and generous Company benefits program, subject to eligibility requirements.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$170,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$216,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+      "updated_at": "2026-09-21T17:51:41-04:00",
+      "posted_pay_range": null,
+      "tier": "Tier B: Main Focus",
+      "suitability_score": 45,
+      "verdict": "POSSIBLE FIT (Calibration)",
+      "recommendation": "Secondary / Calibration apply",
+      "matched_signals": [
+        "Title match '\\bdata\\s+scientist\\b': +20",
+        "Keyword match '\\bdata\\s+scientist\\b': +10",
+        "Firm Quality Boost: +15"
+      ],
+      "penalties": [],
+      "estimated_comp": "$250,000 - $400,000+",
+      "comp_benchmark_delta": "Significantly Above Benchmark",
+      "priority_tier": "Tier B: Main Focus",
+      "priority_tag": "High Conviction",
+      "industry_sector": "FinTech & Elite Tech",
+      "official_careers_url": "https://waymo.com/careers/",
+      "key": "Waymo::gh_waymo_7455592",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-30T01:30:21.227795",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "url_status": 202
     },
     {
       "job_id": "lever_spotify_56ea6f2e-f20b-4e46-ab94-d3eb0a89482d",
@@ -13738,7 +14733,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Spotify::lever_spotify_56ea6f2e-f20b-4e46-ab94-d3eb0a89482d",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -13772,7 +14767,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Spotify::lever_spotify_8a9cc53c-48c0-4d43-8287-d81ab09e74fa",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -13805,7 +14800,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Geneva Trading::gh_genevatrading_5084210007",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Proprietary Trading & Market Making",
       "posted_pay_range": null,
@@ -13822,7 +14817,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;strong&gt;&lt;u&gt;About Cubist:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Cubist Systematic Strategies, an affiliate of Point72, deploys systematic, computer-driven trading strategies across multiple liquid asset classes, including equities, futures and foreign exchange. The core of our effort is rigorous research into a wide range of market anomalies, fueled by our unparalleled access to a wide range of publicly available data sources.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;Role:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Quantitative Developer for a PM team focused on systematic credit and related asset classes. This is a unique opportunity to collaborate, learn, and lead technology projects with high business impact.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;Responsibilities:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Design and develop software for strategy research and trading.&lt;/li&gt;\n&lt;li&gt;Build and improve tools for data acquisition, processing, and visualization.&lt;/li&gt;\n&lt;li&gt;Work on the execution/order management system, live dashboards, and P&amp;amp;L reconciliation tools.&lt;/li&gt;\n&lt;li&gt;Manage the team’s CI/CD pipeline, job running infrastructure, and other tech components.&lt;/li&gt;\n&lt;li&gt;Ensure robustness and efficiency of the team’s systems. Be ready to troubleshoot and correct any issues.&lt;/li&gt;\n&lt;li&gt;Collaborate with the portfolio manager, quant researchers, and traders.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;Requirements:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Undergraduate or graduate degree in Computer Science.&lt;/li&gt;\n&lt;li&gt;2+ years of experience developing research and trading infrastructure at a financial institution, or demonstrated excellent skills required for the role.&lt;/li&gt;\n&lt;li&gt;Prior experience with execution/order management systems, real-time data servers, and visualization is a plus.&lt;/li&gt;\n&lt;li&gt;Solid understanding of Linux OS—system components, process management, shell scripting.&lt;/li&gt;\n&lt;li&gt;Proficiency in Python, including in the object-oriented design, unit/reg testing, conda environment management.&lt;/li&gt;\n&lt;li&gt;Knowledge of SQL, JavaScript, Apache airflow.&lt;/li&gt;\n&lt;li&gt;Strong communication skills.&lt;/li&gt;\n&lt;li&gt;Willingness to take ownership of his/her work.&lt;/li&gt;\n&lt;li&gt;Commitment to the highest ethical standards.&lt;/li&gt;\n&lt;/ul&gt;",
-      "updated_at": "2026-09-30T05:40:36.470215",
+      "updated_at": "2026-09-30T01:47:50.152393",
       "suitability_score": 42,
       "verdict": "POSSIBLE FIT (Calibration)",
       "recommendation": "Secondary / Calibration apply",
@@ -13841,7 +14836,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_7297511002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -13877,7 +14872,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_7297511002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": null,
@@ -13915,7 +14910,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Valkyrie Trading::lever_valkyrietrading_1a6e6202-5fdd-4051-9a23-c6518cf4fdad",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -13929,7 +14924,7 @@ window.LIVE_OPENINGS_DATA = {
       "source_ats": "Point72 Greenhouse API",
       "tier": "Tier B: Main Focus / High Conviction",
       "description": "&lt;p&gt;&lt;strong&gt;A Career with Point72&#39;s Technology Team&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;As Point72 reimagines the future of investing, our Technology team is constantly evolving our firm’s IT infrastructure and engineering capabilities, positioning us at the forefront of a rapidly evolving technology landscape. We’re a team of experts who experiment and work to discover new ways to harness open-source solutions, modern cloud architectures, and sophisticated Artificial Intelligence (AI) solutions, while embracing enterprise agile methodologies. Our commitment to building and innovating in the AI space provides the framework intended to drive smarter decision making and enhance how we build and operate our platforms and applications.&lt;/p&gt;\n&lt;p&gt;As a member of Point72’s Technology team, we encourage and support your professional development from day one—helping you advance your technical skills, contribute innovative ideas, and satisfy your own intellectual curiosity—all while delivering real business impact for our multi-billion-dollar global business.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;WHAT YOU&#39;LL DO&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Design and implement high-performance infrastructure to support large-scale generative AI and machine learning workloads, enabling faster model iteration and real business impact&lt;/li&gt;\n&lt;li&gt;Design and operate distributed systems for model training, hyperparameter tuning, inference, and data preprocessing pipelines to deliver reliable end-to-end machine learning (ML) workflows&lt;/li&gt;\n&lt;li&gt;Collaborate with ML researchers and engineers to produce models, optimizing compute utilization, training throughput, and inference latency&lt;/li&gt;\n&lt;li&gt;Develop and automate deployment, orchestration, and CI/CD pipelines for models and data workflows using container orchestration and infrastructure-as-code (IaC)&lt;/li&gt;\n&lt;li&gt;Implement observability, monitoring, and cost-management strategies for GPU and accelerator compute environments to maintain predictable performance and spend&lt;/li&gt;\n&lt;li&gt;Evaluate, integrate, and benchmark emerging hardware and software technologies across cloud and on-prem environments to improve scalability and throughput&lt;/li&gt;\n&lt;li&gt;Drive security, compliance, and operational runbooks for GenAI infrastructure including access controls, secrets management, and incident response procedures&lt;/li&gt;\n&lt;li&gt;Troubleshoot, profile, and optimize performance across GPU and CPU compute stacks to remove bottlenecks and increase reliability&lt;/li&gt;\n&lt;li&gt;Document architecture, operational practices, and mentor engineers to expand team capability and accelerate adoption of production-ready GenAI infrastructure&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;WHAT&#39;S REQUIRED&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Bachelor&#39;s or master&#39;s degree in computer science, electrical engineering, or a related technical field&lt;/li&gt;\n&lt;li&gt;3–7 years of experience building and maintaining scalable compute or machine learning infrastructure systems&lt;/li&gt;\n&lt;li&gt;Deep understanding of distributed systems, container orchestration (Kubernetes), and public cloud platforms such as AWS, Google Cloud Platform, or Azure&lt;/li&gt;\n&lt;li&gt;Hands-on experience with machine learning operations and infrastructure tools such as MLflow, Ray, Airflow, Kubeflow, and Terraform&lt;/li&gt;\n&lt;li&gt;Strong understanding of reinforcement learning concepts and their infrastructure implications&lt;/li&gt;\n&lt;li&gt;Proficiency in Python and systems-level programming in one or more languages such as Go, C++, or Rust&lt;/li&gt;\n&lt;li&gt;Strong debugging, performance profiling, and optimization skills across GPU and CPU compute stacks&lt;/li&gt;\n&lt;li&gt;Experience implementing monitoring, observability, and cost-optimization for GPU/accelerator-based compute environments&lt;/li&gt;\n&lt;li&gt;Excellent collaboration and communication skills with a systems-thinking mindset&lt;/li&gt;\n&lt;li&gt;Commitment to the highest ethical standards&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;WE TAKE CARE OF OUR PEOPLE&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We invest in our people, their careers, their health, and their well-being. When you work here, we provide:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Fully-paid health care benefits&lt;/li&gt;\n&lt;li&gt;Generous parental and family leave policies&lt;/li&gt;\n&lt;li&gt;Volunteer opportunities&lt;/li&gt;\n&lt;li&gt;Support for employee-led affinity groups representing women, people of color and the LGBT+ community&lt;/li&gt;\n&lt;li&gt;Mental and physical wellness programs&lt;/li&gt;\n&lt;li&gt;Tuition assistance&lt;/li&gt;\n&lt;li&gt;A 401(k) savings program with an employer match and more&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;ABOUT POINT72&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Point72 is a leading global alternative investment firm led by Steven A. Cohen. Building on more than 30 years of investing experience, Point72 seeks to deliver superior returns for its investors through fundamental and systematic investing strategies across asset classes and geographies. We aim to attract and retain the industry&#39;s brightest talent by cultivating an investor-led culture and committing to our people&#39;s long-term growth. For more information, visit https://point72.com/.&lt;/p&gt;\n&lt;p&gt;The annual base salary range for this role is $180,000-$300,000 (USD) , which does not include discretionary bonus compensation or our comprehensive benefits package. Actual compensation offered to the successful candidate may vary from posted hiring range based upon geographic location, work experience, education, and/or skill level, among other things.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
-      "updated_at": "2026-09-30T05:40:36.470052",
+      "updated_at": "2026-09-30T01:47:50.152307",
       "suitability_score": 38,
       "verdict": "LOW RELEVANCE / SKIP",
       "recommendation": "Skip or review manually",
@@ -13946,7 +14941,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Point72::point72_8472280002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T03:20:11.326501",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "official_careers_url": "https://point72.com/careers/",
@@ -13983,7 +14978,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::gh_janestreet_8056588002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -14017,7 +15012,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::gh_janestreet_7449077002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -14051,7 +15046,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::gh_janestreet_7449190002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -14085,7 +15080,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::gh_janestreet_7449252002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -14119,7 +15114,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::gh_janestreet_6485460002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -14153,7 +15148,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::gh_janestreet_7437779002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -14187,7 +15182,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Jane Street::gh_janestreet_6802323002",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -14218,116 +15213,11 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Cubist Systematic Strategies::gh_point72_8472280002",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "Quantitative Hedge Funds",
       "posted_pay_range": "$180,000 - $300,000 / yr",
       "official_careers_url": "https://point72.com/cubist-systematic-strategies/",
-      "url_status": 200
-    },
-    {
-      "job_id": "gh_anthropic_5364804008",
-      "firm_name": "Anthropic",
-      "title": "Machine Learning Infrastructure Engineer, Safeguards Research",
-      "location": "San Francisco, CA | New York City, NY",
-      "department": "AI Research & Engineering",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5364804008",
-      "source_ats": "Greenhouse",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic&#39;s Safeguards team builds the systems that detect and mitigate misuse of our AI models, from individual policy violations to sophisticated, coordinated attacks. A growing part of that work depends on lightweight detection methods trained on model internals, which let us identify harmful behavior cheaply and at scale. This work feeds directly into Anthropic&#39;s Responsible Scaling Policy commitments.&lt;/p&gt;\n&lt;p&gt;We&#39;re looking for an engineer to own the infrastructure behind that research. This is the tooling our researchers rely on to run experiments, train detection methods, and select detections for launch. It sits between research and production: researchers depend on it for fast iteration, and our detection systems depend on it for reliable, correct results as our models continue to change.&lt;/p&gt;\n&lt;p&gt;Running machine learning workloads at our scale often requires solving novel systems problems. You&#39;ll identify those problems and build the abstractions, pipelines, and tooling that keep the research loop fast as requirements shift underneath you. Strong candidates will have a track record of solving large-scale systems and data problems and will be excited to grow deep machine learning expertise alongside it.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;Key responsibilities&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Build and scale the infrastructure and data pipelines behind Safeguards machine learning research&lt;/li&gt;\n&lt;li&gt;Own the training, evaluation, and scoring workflows researchers use, with a focus on cutting the time between an idea and a result&lt;/li&gt;\n&lt;li&gt;Design tooling and interfaces, including libraries and command line tools, that researchers can use directly without needing to understand the systems underneath&lt;/li&gt;\n&lt;li&gt;Build correctness and sanity checking into the stack, so results stay trustworthy as models and workloads evolve&lt;/li&gt;\n&lt;li&gt;Take the highest-value research workflows from experiments to reliable, production-grade jobs&lt;/li&gt;\n&lt;li&gt;Improve the throughput, cost, and reliability of large-scale inference and scoring workloads&lt;/li&gt;\n&lt;li&gt;Partner closely with researchers and engineers across Safeguards to understand their workflows, anticipate how their needs will change, and design for that ahead of time&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Minimum qualifications&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Strong software engineering fundamentals and hands-on coding ability, with proficiency in Python&lt;/li&gt;\n&lt;li&gt;Experience building and operating data-intensive or distributed systems in production&lt;/li&gt;\n&lt;li&gt;Experience building tooling or infrastructure that other engineers or researchers use as a dependency&lt;/li&gt;\n&lt;li&gt;Comfort working across the research-to-deployment pipeline, from exploratory experiments to production systems&lt;/li&gt;\n&lt;li&gt;Ability to debug performance and correctness problems across an unfamiliar stack&lt;/li&gt;\n&lt;li&gt;Strong written and verbal communication skills, and a collaborative approach to technical decisions&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Preferred qualifications&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience with high-performance, large-scale machine learning systems&lt;/li&gt;\n&lt;li&gt;Familiarity with language modeling and transformers, including working with model internals&lt;/li&gt;\n&lt;li&gt;Experience with machine learning framework internals, GPU or accelerator programming, or inference optimization&lt;/li&gt;\n&lt;li&gt;Experience building experiment tracking, caching layers, or evaluation harnesses for research teams&lt;/li&gt;\n&lt;li&gt;Experience with probes, interpretability, or classifier development&lt;/li&gt;\n&lt;li&gt;Interest in the misuse risks of AI systems and a desire to work on mitigating them&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;The annual compensation range for this role is listed below.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;For sales roles, the range provided is the role’s On Target Earnings (&quot;OTE&quot;) range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Annual Salary:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$350,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$500,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;&lt;strong&gt;Minimum education: &lt;/strong&gt;Bachelor’s degree or an equivalent combination of education, training, and/or experience&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Required field of study:&amp;nbsp;&lt;/strong&gt;A field relevant to the role as demonstrated through coursework, training, or professional experience&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Minimum years of experience: &lt;/strong&gt;Years of experience required will correlate with the internal job level requirements for the position&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Location-based hybrid policy:&lt;/strong&gt; Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.&lt;/p&gt;\n&lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Visa sponsorship:&lt;/strong&gt;&amp;nbsp;We do sponsor visas! However, we aren&#39;t able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed.&amp;nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Your safety matters to us.&lt;/strong&gt; To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&amp;nbsp;@anthropic.com&amp;nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you&#39;re ever unsure about a communication, don&#39;t click any links—visit&amp;nbsp;&lt;u data-stringify-type=&quot;underline&quot;&gt;&lt;a class=&quot;c-link c-link--underline&quot; href=&quot;http://anthropic.com/careers&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://anthropic.com/careers&quot; data-sk=&quot;tooltip_parent&quot; data-remove-tab-index=&quot;true&quot;&gt;anthropic.com/careers&lt;/a&gt;&lt;/u&gt;&amp;nbsp;directly for confirmed position openings.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;How we&#39;re different&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact — advancing our long-term goals of steerable, trustworthy AI — rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We&#39;re an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.&lt;/p&gt;\n&lt;p&gt;The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp;amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;Come work with us!&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. &lt;strong data-stringify-type=&quot;bold&quot;&gt;Guidance on Candidates&#39; AI Usage:&lt;/strong&gt;&amp;nbsp;Learn about&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; data-sk=&quot;tooltip_parent&quot;&gt;our policy&lt;/a&gt; for using AI in our application process.&lt;/p&gt;&lt;/div&gt;",
-      "updated_at": "2026-08-21T12:50:40-04:00",
-      "tier": "Tier A: Too Hard",
-      "suitability_score": 38,
-      "verdict": "LOW RELEVANCE / SKIP",
-      "recommendation": "Skip or review manually",
-      "matched_signals": [
-        "Title match '\\bmachine\\s+learning\\b': +12",
-        "Keyword match '\\bmachine\\s+learning\\b': +6",
-        "Firm Quality Boost: +20"
-      ],
-      "penalties": [],
-      "estimated_comp": "$400,000 - $700,000+",
-      "comp_benchmark_delta": "Premier Top-of-Market Offer",
-      "priority_tier": "Tier A: Too Hard",
-      "priority_tag": "Pinnacle Target",
-      "key": "Anthropic::gh_anthropic_5364804008",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "industry_sector": "FinTech & Elite Tech",
-      "closed_at": "2026-09-30T01:30:21.227795",
-      "posted_pay_range": null,
-      "official_careers_url": "https://www.anthropic.com/careers",
-      "url_status": 200
-    },
-    {
-      "job_id": "gh_anthropic_5198108008",
-      "firm_name": "Anthropic",
-      "title": "Research Engineer, Machine Learning (RL Velocity)",
-      "location": "Remote-Friendly (Travel-Required) | San Francisco, CA | New York City, NY",
-      "department": "AI Research & Engineering",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5198108008",
-      "source_ats": "Greenhouse",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;h2 class=&quot;heading&quot;&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;The RL Velocity team owns the efficiency and reliability of our RL Science stack - the infrastructure, tooling, and systems that let researchers iterate quickly on training runs. As a Research Engineer on the team, you&#39;ll build and improve the core platform that underpins how we do RL at Anthropic, removing bottlenecks that slow down research and making it easier for the broader org to ship better models faster. This is high-leverage work: small improvements to velocity compound across every researcher and every run.&lt;/p&gt;\n&lt;h2 class=&quot;heading&quot;&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Build and improve the RL training infrastructure that researchers depend on day-to-day&lt;/li&gt;\n&lt;li&gt;Identify and remove bottlenecks across the RL stack: debugging, profiling, and rearchitecting where needed&lt;/li&gt;\n&lt;li&gt;Partner closely with researchers and with adjacent engineering teams (inference, sandboxing, and many more) to understand pain points and ship tooling that makes them faster&lt;/li&gt;\n&lt;li&gt;Own the reliability and performance of research runs end-to-end&lt;/li&gt;\n&lt;li&gt;Contribute to design decisions that shape how Anthropic does RL at scale&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2 class=&quot;heading&quot;&gt;&lt;strong&gt;You may be a good fit if you&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Have strong software engineering fundamentals and a track record of building performant, reliable systems&lt;/li&gt;\n&lt;li&gt;Have worked on ML infrastructure, distributed systems, or research tooling&lt;/li&gt;\n&lt;li&gt;Care about enabling other people&#39;s work and find leverage through platforms rather than individual experiments&lt;/li&gt;\n&lt;li&gt;Are comfortable operating across the stack, from low-level performance work to RL algorithms&lt;/li&gt;\n&lt;li&gt;Have a bias toward shipping and iterating quickly, with a mix of high agency and low ego&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2 class=&quot;heading&quot;&gt;&lt;strong&gt;Strong candidates may also have&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience with large-scale distributed training (RL, pre-training, or post-training)&lt;/li&gt;\n&lt;li&gt;Familiarity with JAX, PyTorch, or similar ML frameworks&lt;/li&gt;\n&lt;li&gt;A track record of operating at the edge of research and infra in a fast-moving environment&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Deadline to apply: &lt;/strong&gt;None. Applications will be reviewed on a rolling basis.&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;The annual compensation range for this role is listed below.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;For sales roles, the range provided is the role’s On Target Earnings (&quot;OTE&quot;) range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Annual Salary:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$500,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$850,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;&lt;strong&gt;Minimum education: &lt;/strong&gt;Bachelor’s degree or an equivalent combination of education, training, and/or experience&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Required field of study:&amp;nbsp;&lt;/strong&gt;A field relevant to the role as demonstrated through coursework, training, or professional experience&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Minimum years of experience: &lt;/strong&gt;Years of experience required will correlate with the internal job level requirements for the position&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Location-based hybrid policy:&lt;/strong&gt; Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.&lt;/p&gt;\n&lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Visa sponsorship:&lt;/strong&gt;&amp;nbsp;We do sponsor visas! However, we aren&#39;t able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed.&amp;nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Your safety matters to us.&lt;/strong&gt; To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&amp;nbsp;@anthropic.com&amp;nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you&#39;re ever unsure about a communication, don&#39;t click any links—visit&amp;nbsp;&lt;u data-stringify-type=&quot;underline&quot;&gt;&lt;a class=&quot;c-link c-link--underline&quot; href=&quot;http://anthropic.com/careers&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://anthropic.com/careers&quot; data-sk=&quot;tooltip_parent&quot; data-remove-tab-index=&quot;true&quot;&gt;anthropic.com/careers&lt;/a&gt;&lt;/u&gt;&amp;nbsp;directly for confirmed position openings.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;How we&#39;re different&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact — advancing our long-term goals of steerable, trustworthy AI — rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We&#39;re an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.&lt;/p&gt;\n&lt;p&gt;The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp;amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;Come work with us!&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. &lt;strong data-stringify-type=&quot;bold&quot;&gt;Guidance on Candidates&#39; AI Usage:&lt;/strong&gt;&amp;nbsp;Learn about&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; data-sk=&quot;tooltip_parent&quot;&gt;our policy&lt;/a&gt; for using AI in our application process.&lt;/p&gt;&lt;/div&gt;",
-      "updated_at": "2026-08-21T12:50:09-04:00",
-      "tier": "Tier A: Too Hard",
-      "suitability_score": 38,
-      "verdict": "LOW RELEVANCE / SKIP",
-      "recommendation": "Skip or review manually",
-      "matched_signals": [
-        "Title match '\\bmachine\\s+learning\\b': +12",
-        "Keyword match '\\bmachine\\s+learning\\b': +6",
-        "Firm Quality Boost: +20"
-      ],
-      "penalties": [],
-      "estimated_comp": "$400,000 - $700,000+",
-      "comp_benchmark_delta": "Premier Top-of-Market Offer",
-      "priority_tier": "Tier A: Too Hard",
-      "priority_tag": "Pinnacle Target",
-      "key": "Anthropic::gh_anthropic_5198108008",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "industry_sector": "FinTech & Elite Tech",
-      "closed_at": "2026-09-30T01:30:21.227795",
-      "posted_pay_range": null,
-      "official_careers_url": "https://www.anthropic.com/careers",
-      "url_status": 200
-    },
-    {
-      "job_id": "gh_anthropic_5198074008",
-      "firm_name": "Anthropic",
-      "title": "Research Engineer, Machine Learning (RL Velocity)",
-      "location": "London, UK",
-      "department": "AI Research & Engineering",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5198074008",
-      "source_ats": "Greenhouse",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;h2 class=&quot;heading&quot;&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;The RL Velocity team owns the efficiency and reliability of our RL Science stack - the infrastructure, tooling, and systems that let researchers iterate quickly on training runs. As a Research Engineer on the team, you&#39;ll build and improve the core platform that underpins how we do RL at Anthropic, removing bottlenecks that slow down research and making it easier for the broader org to ship better models faster. This is high-leverage work: small improvements to velocity compound across every researcher and every run.&lt;/p&gt;\n&lt;h2 class=&quot;heading&quot;&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Build and improve the RL training infrastructure that researchers depend on day-to-day&lt;/li&gt;\n&lt;li&gt;Identify and remove bottlenecks across the RL stack: debugging, profiling, and rearchitecting where needed&lt;/li&gt;\n&lt;li&gt;Partner closely with researchers and with adjacent engineering teams (inference, sandboxing, and many more) to understand pain points and ship tooling that makes them faster&lt;/li&gt;\n&lt;li&gt;Own the reliability and performance of research runs end-to-end&lt;/li&gt;\n&lt;li&gt;Contribute to design decisions that shape how Anthropic does RL at scale&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2 class=&quot;heading&quot;&gt;&lt;strong&gt;You may be a good fit if you&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Have strong software engineering fundamentals and a track record of building performant, reliable systems&lt;/li&gt;\n&lt;li&gt;Have worked on ML infrastructure, distributed systems, or research tooling&lt;/li&gt;\n&lt;li&gt;Care about enabling other people&#39;s work and find leverage through platforms rather than individual experiments&lt;/li&gt;\n&lt;li&gt;Are comfortable operating across the stack, from low-level performance work to RL algorithms&lt;/li&gt;\n&lt;li&gt;Have a bias toward shipping and iterating quickly, with a mix of high agency and low ego&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2 class=&quot;heading&quot;&gt;&lt;strong&gt;Strong candidates may also have&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience with large-scale distributed training (RL, pre-training, or post-training)&lt;/li&gt;\n&lt;li&gt;Familiarity with JAX, PyTorch, or similar ML frameworks&lt;/li&gt;\n&lt;li&gt;A track record of operating at the edge of research and infra in a fast-moving environment&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Deadline to apply: &lt;/strong&gt;None. Applications will be reviewed on a rolling basis.&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;The annual compensation range for this role is listed below.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;For sales roles, the range provided is the role’s On Target Earnings (&quot;OTE&quot;) range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Annual Salary:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;£370,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;£630,000 GBP&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;&lt;strong&gt;Minimum education: &lt;/strong&gt;Bachelor’s degree or an equivalent combination of education, training, and/or experience&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Required field of study:&amp;nbsp;&lt;/strong&gt;A field relevant to the role as demonstrated through coursework, training, or professional experience&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Minimum years of experience: &lt;/strong&gt;Years of experience required will correlate with the internal job level requirements for the position&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Location-based hybrid policy:&lt;/strong&gt; Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.&lt;/p&gt;\n&lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Visa sponsorship:&lt;/strong&gt;&amp;nbsp;We do sponsor visas! However, we aren&#39;t able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed.&amp;nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Your safety matters to us.&lt;/strong&gt; To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&amp;nbsp;@anthropic.com&amp;nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you&#39;re ever unsure about a communication, don&#39;t click any links—visit&amp;nbsp;&lt;u data-stringify-type=&quot;underline&quot;&gt;&lt;a class=&quot;c-link c-link--underline&quot; href=&quot;http://anthropic.com/careers&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://anthropic.com/careers&quot; data-sk=&quot;tooltip_parent&quot; data-remove-tab-index=&quot;true&quot;&gt;anthropic.com/careers&lt;/a&gt;&lt;/u&gt;&amp;nbsp;directly for confirmed position openings.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;How we&#39;re different&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact — advancing our long-term goals of steerable, trustworthy AI — rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We&#39;re an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.&lt;/p&gt;\n&lt;p&gt;The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp;amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;Come work with us!&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. &lt;strong data-stringify-type=&quot;bold&quot;&gt;Guidance on Candidates&#39; AI Usage:&lt;/strong&gt;&amp;nbsp;Learn about&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; data-sk=&quot;tooltip_parent&quot;&gt;our policy&lt;/a&gt; for using AI in our application process.&lt;/p&gt;&lt;/div&gt;",
-      "updated_at": "2026-08-28T14:43:58-04:00",
-      "tier": "Tier A: Too Hard",
-      "suitability_score": 38,
-      "verdict": "LOW RELEVANCE / SKIP",
-      "recommendation": "Skip or review manually",
-      "matched_signals": [
-        "Title match '\\bmachine\\s+learning\\b': +12",
-        "Keyword match '\\bmachine\\s+learning\\b': +6",
-        "Firm Quality Boost: +20"
-      ],
-      "penalties": [],
-      "estimated_comp": "$400,000 - $700,000+",
-      "comp_benchmark_delta": "Premier Top-of-Market Offer",
-      "priority_tier": "Tier A: Too Hard",
-      "priority_tag": "Pinnacle Target",
-      "key": "Anthropic::gh_anthropic_5198074008",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "industry_sector": "FinTech & Elite Tech",
-      "closed_at": "2026-09-30T01:30:21.227795",
-      "posted_pay_range": null,
-      "official_careers_url": "https://www.anthropic.com/careers",
       "url_status": 200
     },
     {
@@ -14365,8 +15255,113 @@ window.LIVE_OPENINGS_DATA = {
       "key": "OpenAI::ashby_openai_0b57e309-426d-4f5c-a28c-6dd941b84703",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:39:36.754720",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_anthropic_5364804008",
+      "firm_name": "Anthropic",
+      "title": "Machine Learning Infrastructure Engineer, Safeguards Research",
+      "location": "San Francisco, CA | New York City, NY",
+      "department": "AI Research & Engineering",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5364804008",
+      "source_ats": "Greenhouse",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic&#39;s Safeguards team builds the systems that detect and mitigate misuse of our AI models, from individual policy violations to sophisticated, coordinated attacks. A growing part of that work depends on lightweight detection methods trained on model internals, which let us identify harmful behavior cheaply and at scale. This work feeds directly into Anthropic&#39;s Responsible Scaling Policy commitments.&lt;/p&gt;\n&lt;p&gt;We&#39;re looking for an engineer to own the infrastructure behind that research. This is the tooling our researchers rely on to run experiments, train detection methods, and select detections for launch. It sits between research and production: researchers depend on it for fast iteration, and our detection systems depend on it for reliable, correct results as our models continue to change.&lt;/p&gt;\n&lt;p&gt;Running machine learning workloads at our scale often requires solving novel systems problems. You&#39;ll identify those problems and build the abstractions, pipelines, and tooling that keep the research loop fast as requirements shift underneath you. Strong candidates will have a track record of solving large-scale systems and data problems and will be excited to grow deep machine learning expertise alongside it.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;Key responsibilities&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Build and scale the infrastructure and data pipelines behind Safeguards machine learning research&lt;/li&gt;\n&lt;li&gt;Own the training, evaluation, and scoring workflows researchers use, with a focus on cutting the time between an idea and a result&lt;/li&gt;\n&lt;li&gt;Design tooling and interfaces, including libraries and command line tools, that researchers can use directly without needing to understand the systems underneath&lt;/li&gt;\n&lt;li&gt;Build correctness and sanity checking into the stack, so results stay trustworthy as models and workloads evolve&lt;/li&gt;\n&lt;li&gt;Take the highest-value research workflows from experiments to reliable, production-grade jobs&lt;/li&gt;\n&lt;li&gt;Improve the throughput, cost, and reliability of large-scale inference and scoring workloads&lt;/li&gt;\n&lt;li&gt;Partner closely with researchers and engineers across Safeguards to understand their workflows, anticipate how their needs will change, and design for that ahead of time&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Minimum qualifications&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Strong software engineering fundamentals and hands-on coding ability, with proficiency in Python&lt;/li&gt;\n&lt;li&gt;Experience building and operating data-intensive or distributed systems in production&lt;/li&gt;\n&lt;li&gt;Experience building tooling or infrastructure that other engineers or researchers use as a dependency&lt;/li&gt;\n&lt;li&gt;Comfort working across the research-to-deployment pipeline, from exploratory experiments to production systems&lt;/li&gt;\n&lt;li&gt;Ability to debug performance and correctness problems across an unfamiliar stack&lt;/li&gt;\n&lt;li&gt;Strong written and verbal communication skills, and a collaborative approach to technical decisions&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Preferred qualifications&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience with high-performance, large-scale machine learning systems&lt;/li&gt;\n&lt;li&gt;Familiarity with language modeling and transformers, including working with model internals&lt;/li&gt;\n&lt;li&gt;Experience with machine learning framework internals, GPU or accelerator programming, or inference optimization&lt;/li&gt;\n&lt;li&gt;Experience building experiment tracking, caching layers, or evaluation harnesses for research teams&lt;/li&gt;\n&lt;li&gt;Experience with probes, interpretability, or classifier development&lt;/li&gt;\n&lt;li&gt;Interest in the misuse risks of AI systems and a desire to work on mitigating them&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;The annual compensation range for this role is listed below.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;For sales roles, the range provided is the role’s On Target Earnings (&quot;OTE&quot;) range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Annual Salary:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$350,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$500,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;&lt;strong&gt;Minimum education: &lt;/strong&gt;Bachelor’s degree or an equivalent combination of education, training, and/or experience&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Required field of study:&amp;nbsp;&lt;/strong&gt;A field relevant to the role as demonstrated through coursework, training, or professional experience&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Minimum years of experience: &lt;/strong&gt;Years of experience required will correlate with the internal job level requirements for the position&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Location-based hybrid policy:&lt;/strong&gt; Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.&lt;/p&gt;\n&lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Visa sponsorship:&lt;/strong&gt;&amp;nbsp;We do sponsor visas! However, we aren&#39;t able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed.&amp;nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Your safety matters to us.&lt;/strong&gt; To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&amp;nbsp;@anthropic.com&amp;nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you&#39;re ever unsure about a communication, don&#39;t click any links—visit&amp;nbsp;&lt;u data-stringify-type=&quot;underline&quot;&gt;&lt;a class=&quot;c-link c-link--underline&quot; href=&quot;http://anthropic.com/careers&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://anthropic.com/careers&quot; data-sk=&quot;tooltip_parent&quot; data-remove-tab-index=&quot;true&quot;&gt;anthropic.com/careers&lt;/a&gt;&lt;/u&gt;&amp;nbsp;directly for confirmed position openings.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;How we&#39;re different&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact — advancing our long-term goals of steerable, trustworthy AI — rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We&#39;re an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.&lt;/p&gt;\n&lt;p&gt;The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp;amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;Come work with us!&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. &lt;strong data-stringify-type=&quot;bold&quot;&gt;Guidance on Candidates&#39; AI Usage:&lt;/strong&gt;&amp;nbsp;Learn about&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; data-sk=&quot;tooltip_parent&quot;&gt;our policy&lt;/a&gt; for using AI in our application process.&lt;/p&gt;&lt;/div&gt;",
+      "updated_at": "2026-08-21T12:50:40-04:00",
+      "tier": "Tier A: Too Hard",
+      "suitability_score": 38,
+      "verdict": "LOW RELEVANCE / SKIP",
+      "recommendation": "Skip or review manually",
+      "matched_signals": [
+        "Title match '\\bmachine\\s+learning\\b': +12",
+        "Keyword match '\\bmachine\\s+learning\\b': +6",
+        "Firm Quality Boost: +20"
+      ],
+      "penalties": [],
+      "estimated_comp": "$400,000 - $700,000+",
+      "comp_benchmark_delta": "Premier Top-of-Market Offer",
+      "priority_tier": "Tier A: Too Hard",
+      "priority_tag": "Pinnacle Target",
+      "key": "Anthropic::gh_anthropic_5364804008",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-25T15:49:59.455531",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "industry_sector": "FinTech & Elite Tech",
+      "closed_at": "2026-09-30T01:30:21.227795",
+      "posted_pay_range": null,
+      "official_careers_url": "https://www.anthropic.com/careers",
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_anthropic_5198108008",
+      "firm_name": "Anthropic",
+      "title": "Research Engineer, Machine Learning (RL Velocity)",
+      "location": "Remote-Friendly (Travel-Required) | San Francisco, CA | New York City, NY",
+      "department": "AI Research & Engineering",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5198108008",
+      "source_ats": "Greenhouse",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;h2 class=&quot;heading&quot;&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;The RL Velocity team owns the efficiency and reliability of our RL Science stack - the infrastructure, tooling, and systems that let researchers iterate quickly on training runs. As a Research Engineer on the team, you&#39;ll build and improve the core platform that underpins how we do RL at Anthropic, removing bottlenecks that slow down research and making it easier for the broader org to ship better models faster. This is high-leverage work: small improvements to velocity compound across every researcher and every run.&lt;/p&gt;\n&lt;h2 class=&quot;heading&quot;&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Build and improve the RL training infrastructure that researchers depend on day-to-day&lt;/li&gt;\n&lt;li&gt;Identify and remove bottlenecks across the RL stack: debugging, profiling, and rearchitecting where needed&lt;/li&gt;\n&lt;li&gt;Partner closely with researchers and with adjacent engineering teams (inference, sandboxing, and many more) to understand pain points and ship tooling that makes them faster&lt;/li&gt;\n&lt;li&gt;Own the reliability and performance of research runs end-to-end&lt;/li&gt;\n&lt;li&gt;Contribute to design decisions that shape how Anthropic does RL at scale&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2 class=&quot;heading&quot;&gt;&lt;strong&gt;You may be a good fit if you&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Have strong software engineering fundamentals and a track record of building performant, reliable systems&lt;/li&gt;\n&lt;li&gt;Have worked on ML infrastructure, distributed systems, or research tooling&lt;/li&gt;\n&lt;li&gt;Care about enabling other people&#39;s work and find leverage through platforms rather than individual experiments&lt;/li&gt;\n&lt;li&gt;Are comfortable operating across the stack, from low-level performance work to RL algorithms&lt;/li&gt;\n&lt;li&gt;Have a bias toward shipping and iterating quickly, with a mix of high agency and low ego&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2 class=&quot;heading&quot;&gt;&lt;strong&gt;Strong candidates may also have&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience with large-scale distributed training (RL, pre-training, or post-training)&lt;/li&gt;\n&lt;li&gt;Familiarity with JAX, PyTorch, or similar ML frameworks&lt;/li&gt;\n&lt;li&gt;A track record of operating at the edge of research and infra in a fast-moving environment&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Deadline to apply: &lt;/strong&gt;None. Applications will be reviewed on a rolling basis.&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;The annual compensation range for this role is listed below.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;For sales roles, the range provided is the role’s On Target Earnings (&quot;OTE&quot;) range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Annual Salary:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$500,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$850,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;&lt;strong&gt;Minimum education: &lt;/strong&gt;Bachelor’s degree or an equivalent combination of education, training, and/or experience&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Required field of study:&amp;nbsp;&lt;/strong&gt;A field relevant to the role as demonstrated through coursework, training, or professional experience&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Minimum years of experience: &lt;/strong&gt;Years of experience required will correlate with the internal job level requirements for the position&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Location-based hybrid policy:&lt;/strong&gt; Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.&lt;/p&gt;\n&lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Visa sponsorship:&lt;/strong&gt;&amp;nbsp;We do sponsor visas! However, we aren&#39;t able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed.&amp;nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Your safety matters to us.&lt;/strong&gt; To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&amp;nbsp;@anthropic.com&amp;nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you&#39;re ever unsure about a communication, don&#39;t click any links—visit&amp;nbsp;&lt;u data-stringify-type=&quot;underline&quot;&gt;&lt;a class=&quot;c-link c-link--underline&quot; href=&quot;http://anthropic.com/careers&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://anthropic.com/careers&quot; data-sk=&quot;tooltip_parent&quot; data-remove-tab-index=&quot;true&quot;&gt;anthropic.com/careers&lt;/a&gt;&lt;/u&gt;&amp;nbsp;directly for confirmed position openings.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;How we&#39;re different&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact — advancing our long-term goals of steerable, trustworthy AI — rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We&#39;re an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.&lt;/p&gt;\n&lt;p&gt;The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp;amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;Come work with us!&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. &lt;strong data-stringify-type=&quot;bold&quot;&gt;Guidance on Candidates&#39; AI Usage:&lt;/strong&gt;&amp;nbsp;Learn about&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; data-sk=&quot;tooltip_parent&quot;&gt;our policy&lt;/a&gt; for using AI in our application process.&lt;/p&gt;&lt;/div&gt;",
+      "updated_at": "2026-08-21T12:50:09-04:00",
+      "tier": "Tier A: Too Hard",
+      "suitability_score": 38,
+      "verdict": "LOW RELEVANCE / SKIP",
+      "recommendation": "Skip or review manually",
+      "matched_signals": [
+        "Title match '\\bmachine\\s+learning\\b': +12",
+        "Keyword match '\\bmachine\\s+learning\\b': +6",
+        "Firm Quality Boost: +20"
+      ],
+      "penalties": [],
+      "estimated_comp": "$400,000 - $700,000+",
+      "comp_benchmark_delta": "Premier Top-of-Market Offer",
+      "priority_tier": "Tier A: Too Hard",
+      "priority_tag": "Pinnacle Target",
+      "key": "Anthropic::gh_anthropic_5198108008",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-25T15:49:59.455531",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "industry_sector": "FinTech & Elite Tech",
+      "closed_at": "2026-09-30T01:30:21.227795",
+      "posted_pay_range": null,
+      "official_careers_url": "https://www.anthropic.com/careers",
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_anthropic_5198074008",
+      "firm_name": "Anthropic",
+      "title": "Research Engineer, Machine Learning (RL Velocity)",
+      "location": "London, UK",
+      "department": "AI Research & Engineering",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5198074008",
+      "source_ats": "Greenhouse",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;h2 class=&quot;heading&quot;&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;The RL Velocity team owns the efficiency and reliability of our RL Science stack - the infrastructure, tooling, and systems that let researchers iterate quickly on training runs. As a Research Engineer on the team, you&#39;ll build and improve the core platform that underpins how we do RL at Anthropic, removing bottlenecks that slow down research and making it easier for the broader org to ship better models faster. This is high-leverage work: small improvements to velocity compound across every researcher and every run.&lt;/p&gt;\n&lt;h2 class=&quot;heading&quot;&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Build and improve the RL training infrastructure that researchers depend on day-to-day&lt;/li&gt;\n&lt;li&gt;Identify and remove bottlenecks across the RL stack: debugging, profiling, and rearchitecting where needed&lt;/li&gt;\n&lt;li&gt;Partner closely with researchers and with adjacent engineering teams (inference, sandboxing, and many more) to understand pain points and ship tooling that makes them faster&lt;/li&gt;\n&lt;li&gt;Own the reliability and performance of research runs end-to-end&lt;/li&gt;\n&lt;li&gt;Contribute to design decisions that shape how Anthropic does RL at scale&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2 class=&quot;heading&quot;&gt;&lt;strong&gt;You may be a good fit if you&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Have strong software engineering fundamentals and a track record of building performant, reliable systems&lt;/li&gt;\n&lt;li&gt;Have worked on ML infrastructure, distributed systems, or research tooling&lt;/li&gt;\n&lt;li&gt;Care about enabling other people&#39;s work and find leverage through platforms rather than individual experiments&lt;/li&gt;\n&lt;li&gt;Are comfortable operating across the stack, from low-level performance work to RL algorithms&lt;/li&gt;\n&lt;li&gt;Have a bias toward shipping and iterating quickly, with a mix of high agency and low ego&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2 class=&quot;heading&quot;&gt;&lt;strong&gt;Strong candidates may also have&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience with large-scale distributed training (RL, pre-training, or post-training)&lt;/li&gt;\n&lt;li&gt;Familiarity with JAX, PyTorch, or similar ML frameworks&lt;/li&gt;\n&lt;li&gt;A track record of operating at the edge of research and infra in a fast-moving environment&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Deadline to apply: &lt;/strong&gt;None. Applications will be reviewed on a rolling basis.&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;The annual compensation range for this role is listed below.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;For sales roles, the range provided is the role’s On Target Earnings (&quot;OTE&quot;) range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Annual Salary:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;£370,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;£630,000 GBP&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h2&gt;&lt;strong&gt;Logistics&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;&lt;strong&gt;Minimum education: &lt;/strong&gt;Bachelor’s degree or an equivalent combination of education, training, and/or experience&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Required field of study:&amp;nbsp;&lt;/strong&gt;A field relevant to the role as demonstrated through coursework, training, or professional experience&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Minimum years of experience: &lt;/strong&gt;Years of experience required will correlate with the internal job level requirements for the position&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Location-based hybrid policy:&lt;/strong&gt; Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.&lt;/p&gt;\n&lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Visa sponsorship:&lt;/strong&gt;&amp;nbsp;We do sponsor visas! However, we aren&#39;t able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;We encourage you to apply even if you do not believe you meet every single qualification.&lt;/strong&gt; Not all strong candidates will meet every single qualification as listed.&amp;nbsp; Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you&#39;re interested in this work. We think AI systems like the ones we&#39;re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.&lt;br&gt;&lt;br&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Your safety matters to us.&lt;/strong&gt; To protect yourself from potential scams, remember that Anthropic recruiters only contact you from&amp;nbsp;@anthropic.com&amp;nbsp;email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you&#39;re ever unsure about a communication, don&#39;t click any links—visit&amp;nbsp;&lt;u data-stringify-type=&quot;underline&quot;&gt;&lt;a class=&quot;c-link c-link--underline&quot; href=&quot;http://anthropic.com/careers&quot; target=&quot;_blank&quot; data-stringify-link=&quot;http://anthropic.com/careers&quot; data-sk=&quot;tooltip_parent&quot; data-remove-tab-index=&quot;true&quot;&gt;anthropic.com/careers&lt;/a&gt;&lt;/u&gt;&amp;nbsp;directly for confirmed position openings.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;How we&#39;re different&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact — advancing our long-term goals of steerable, trustworthy AI — rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We&#39;re an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.&lt;/p&gt;\n&lt;p&gt;The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI &amp;amp; Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;Come work with us!&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues. &lt;strong data-stringify-type=&quot;bold&quot;&gt;Guidance on Candidates&#39; AI Usage:&lt;/strong&gt;&amp;nbsp;Learn about&amp;nbsp;&lt;a class=&quot;c-link&quot; href=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.anthropic.com/candidate-ai-guidance&quot; data-sk=&quot;tooltip_parent&quot;&gt;our policy&lt;/a&gt; for using AI in our application process.&lt;/p&gt;&lt;/div&gt;",
+      "updated_at": "2026-08-28T14:43:58-04:00",
+      "tier": "Tier A: Too Hard",
+      "suitability_score": 38,
+      "verdict": "LOW RELEVANCE / SKIP",
+      "recommendation": "Skip or review manually",
+      "matched_signals": [
+        "Title match '\\bmachine\\s+learning\\b': +12",
+        "Keyword match '\\bmachine\\s+learning\\b': +6",
+        "Firm Quality Boost: +20"
+      ],
+      "penalties": [],
+      "estimated_comp": "$400,000 - $700,000+",
+      "comp_benchmark_delta": "Premier Top-of-Market Offer",
+      "priority_tier": "Tier A: Too Hard",
+      "priority_tag": "Pinnacle Target",
+      "key": "Anthropic::gh_anthropic_5198074008",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-25T15:49:59.455531",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "industry_sector": "FinTech & Elite Tech",
+      "closed_at": "2026-09-30T01:30:21.227795",
+      "posted_pay_range": null,
+      "official_careers_url": "https://www.anthropic.com/careers",
       "url_status": 200
     },
     {
@@ -14399,41 +15394,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Valkyrie Trading::lever_valkyrietrading_f9b506db-fde4-430f-8d63-f1a8a025b23f",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "url_status": 200
-    },
-    {
-      "job_id": "gh_simplextrading_5239085008",
-      "firm_name": "Simplex Trading",
-      "title": "Volatility Trader",
-      "location": "Chicago",
-      "department": "Trading",
-      "url": "https://job-boards.greenhouse.io/simplextrading/jobs/5239085008",
-      "source_ats": "Greenhouse",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Our employees are our greatest asset. We have spent years building a team of talented, dedicated technologists, data-driven traders, and expert leaders with an emphasis on our core pillars:&lt;strong&gt; &lt;/strong&gt;People, Process, Trading Edge, and Technology. Simplex is an in-office organization, helping to foster a collaborative and communicative culture.&lt;/p&gt;&lt;/div&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;&lt;strong&gt;Position Summary&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;\n&lt;p&gt;As a Volatility Trader at Simplex, you will take an analytical approach to identifying market opportunities with favorable risk-reward profiles with the goal of generating trade ideas and enhancing our core market making pricing systems.&amp;nbsp; We expect that you have experience thinking about volatility valuation through a variety of lenses, including analysis of implied-vs-realized, term structure and event pricing, skew surface dynamics, and relative value or cross-asset relationships.&amp;nbsp; You will manage discretionary positions and work closely with our existing market making team to create systematic pricing overlays and improve hedging, risk management, and edge capture.&lt;/p&gt;\n&lt;h1&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;&lt;strong&gt;Key Responsibilities&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;\n&lt;ul&gt;\n&lt;li&gt;Conduct research to identify market dislocations, mispricings, or other trading opportunities in the volatility space.&lt;/li&gt;\n&lt;li&gt;Monitor and manage live positions with a focus on order flow dynamics and counterparty behavior.&lt;/li&gt;\n&lt;li&gt;Work closely with Simplex&#39;s core market making team to develop systematic approaches to volatility valuation or pricing overlays.&lt;/li&gt;\n&lt;li&gt;Continuously improve the firm&#39;s toolset for volatility research, risk management, and P&amp;amp;L attribution.&lt;/li&gt;\n&lt;li&gt;Clearly communicate and document research methodology and trading decisions for collaboration and review.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h1&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;&lt;strong&gt;Required Qualifications&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;\n&lt;ul&gt;\n&lt;li&gt;Minimum 3–5 years of professional experience in a volatility trading/research or portfolio management role.&lt;/li&gt;\n&lt;li&gt;Demonstrated track record of generating and executing profitable trading ideas.&lt;/li&gt;\n&lt;li&gt;Strong practical foundation in options theory and Bayesian statistics/probability.&lt;/li&gt;\n&lt;li&gt;Strong analytical judgment under uncertainty; able to operate decisively under constraints.&lt;/li&gt;\n&lt;li&gt;Precise technical communication skills; able to concisely present conclusions and articulate associated inputs, assumptions, and process.&lt;/li&gt;\n&lt;li&gt;Sufficient technical skills to independently interface with data and prototype research ideas.&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;Annual base salary ranges from $150,000 to $200,000, and is influenced by a number of factors, including qualifications and experience. This role is also eligible for an annual discretionary bonus, of which can be a significant portion of total compensation. This full time role is also eligible for other forms of compensation and benefits including health/dental/vision insurance, and 401(k) contributions.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Algorithmic Trader pay range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$150,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$200,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;Why us?&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Founded in Chicago in 2004, Simplex is a leading, technology-driven, proprietary market-making firm. We work with the most advanced technology and software in the market, and we’ve continued to remain at the forefront of the industry by always focusing on innovation, automation, and data-driven analysis. We also leverage our experience and expertise to make strategic investments and capitalize on opportunities in the venture capital markets with promising, early-stage financial and technology start-ups.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;PLUS, the goods!&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Benefits:&lt;/strong&gt; Excellent a la carte Medical/Dental/Vision &lt;strong&gt;(free employee coverage!), &lt;/strong&gt;401(k) match,&amp;nbsp;generous parental leave!&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;The Office:&lt;/strong&gt; The kitchen is stocked with snacks, and beverages; you also have daily stipends for breakfast and lunch!&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Tuition Reimbursement: &lt;/strong&gt;As an investment in our employees’ careers and the company’s future, we offer educational assistance to provide employees with professional development opportunities that increase their skills and enhance their contributions to the organization!&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Employee Discounts: &lt;/strong&gt;To gyms, national brands, and more!&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Building:&amp;nbsp;&lt;/strong&gt;We are located in the Federal Reserve building. As a tenant, you have access to a building gym and a full cafeteria. We are easily accessible to all public transportation.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Charity Match: &lt;/strong&gt;We match up to $2,000 a year in donations to the charities of your choice!&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Fun Events:&lt;/strong&gt; In-person happy hours, celebrations throughout the year, game nights, video game fun, and so much more!&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Simplex is an Equal Opportunity Employer. Simplex and its recruitment partners may use artificial intelligence (AI) tools to support certain aspects of the recruiting and hiring process. Final hiring decisions are made by humans. For all job postings, Simplex may use AI to review and analyze applications, resumes, interviews, and applicant responses.&amp;nbsp; Simplex complies with applicable federal and state laws governing AI use. Applicants may still request reasonable accommodations. For more information related to AI or to request an accommodation, please contact&amp;nbsp;&lt;a href=&quot;mailto:HR@simplextrading.com&quot; target=&quot;_blank&quot;&gt;HR@simplextrading.com&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;&lt;/div&gt;",
-      "updated_at": "2026-09-11T16:49:37-04:00",
-      "posted_pay_range": "$150,000 to $200,000 / yr",
-      "tier": "Tier B: Main Focus",
-      "suitability_score": 33,
-      "verdict": "LOW RELEVANCE / SKIP",
-      "recommendation": "Skip or review manually",
-      "matched_signals": [
-        "Title match '\\bvolatility\\b': +12",
-        "Keyword match '\\bvolatility\\b': +6",
-        "Firm Quality Boost: +15"
-      ],
-      "penalties": [],
-      "estimated_comp": ",000 - ,000+",
-      "comp_benchmark_delta": "Significantly Above Benchmark",
-      "priority_tier": "Tier B: Main Focus",
-      "priority_tag": "High Conviction",
-      "industry_sector": "Proprietary Trading & Market Making",
-      "official_careers_url": "https://simplextrading.com/careers/",
-      "key": "Simplex Trading::gh_simplextrading_5239085008",
-      "status": "ACTIVE",
-      "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -14467,7 +15428,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Scale AI::gh_scaleai_4661650005",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:39:36.754720",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -14501,7 +15462,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Scale AI::gh_scaleai_4661647005",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:39:36.754720",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -14535,7 +15496,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Scale AI::gh_scaleai_4660340005",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:39:36.754720",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -14569,7 +15530,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Scale AI::gh_scaleai_4728014005",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:39:36.754720",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -14603,7 +15564,76 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Scale AI::gh_scaleai_4528009005",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:39:36.754720",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_stripe_8205280",
+      "firm_name": "Stripe",
+      "title": "Engineering Manager, Machine Learning - Credit Risk",
+      "location": "N/A",
+      "department": "8535 Risk Credit & Fraud",
+      "url": "https://stripe.com/jobs/search?gh_jid=8205280",
+      "source_ats": "Greenhouse",
+      "description": "&lt;h1 id=&quot;engineering-manager-machine-learning-credit-risk&quot;&gt;Engineering Manager, Machine Learning Credit Risk&lt;/h1&gt;\n&lt;h2 id=&quot;who-we-are&quot;&gt;Who we are&lt;/h2&gt;\n&lt;h3 id=&quot;about-stripe&quot;&gt;About Stripe&lt;/h3&gt;\n&lt;p&gt;Stripe is a financial infrastructure platform for businesses. Millions of companies from the world’s largest enterprises to the most ambitious startups use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career.&lt;/p&gt;\n&lt;h3 id=&quot;about-the-team&quot;&gt;About the team&lt;/h3&gt;\n&lt;p&gt;The Credit Risk team develops intelligent systems that help Stripe identify high-risk accounts, minimize credit losses, and improve profitability. Credit risk is a complex machine learning problem that requires us to distinguish emerging risk from healthy business activity while giving legitimate users a clear and reliable experience.&lt;/p&gt;\n&lt;p&gt;Our team consists of machine learning engineers who build models and systems used across Stripe’s credit-risk products. We work closely with partners in Product, Data Science, Credit Strategy, Operations, and other engineering teams. Together, we help stakeholders make informed decisions and support sustainable growth wherever credit risk affects Stripe’s products.&lt;/p&gt;\n&lt;h2 id=&quot;what-youll-do&quot;&gt;What you’ll do&lt;/h2&gt;\n&lt;p&gt;We’re looking for an engineering manager to lead the Credit Risk team and shape how Stripe uses machine learning to manage credit risk at scale. You’ll set the team’s technical and product direction, connect advances in machine learning to measurable business outcomes, and help engineers deliver reliable systems that balance loss prevention with the user experience.&lt;/p&gt;\n&lt;p&gt;You’ll work across engineering, product, data science, and risk to identify the highest-impact opportunities and turn them into a focused roadmap. You’ll also hire and develop engineers, strengthen the team’s technical practices, and contribute to machine learning and engineering leadership across Stripe.&lt;/p&gt;\n&lt;h3 id=&quot;responsibilities&quot;&gt;Responsibilities&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Set and execute the strategy for detecting and mitigating credit risk through machine learning&lt;/li&gt;\n&lt;li&gt;Own outcomes related to credit losses, profitability, detection quality, and the user experience&lt;/li&gt;\n&lt;li&gt;Lead the design and delivery of reliable machine learning models, services, and decision systems&lt;/li&gt;\n&lt;li&gt;Translate advances in machine learning into practical capabilities that support the team’s business goals&lt;/li&gt;\n&lt;li&gt;Partner with Product, Data Science, Credit Strategy, Operations, and engineering teams to define priorities and deliver cross-functional programs&lt;/li&gt;\n&lt;li&gt;Recruit, hire, and develop machine learning engineers while building an inclusive and effective team&lt;/li&gt;\n&lt;li&gt;Contribute to broader engineering and machine learning initiatives as a member of Stripe’s engineering management team&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2 id=&quot;who-you-are&quot;&gt;Who you are&lt;/h2&gt;\n&lt;p&gt;We’re looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement.&lt;/p&gt;\n&lt;h3 id=&quot;minimum-requirements&quot;&gt;Minimum requirements&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;3+ years of experience managing engineers who build and operate production machine learning systems&lt;/li&gt;\n&lt;li&gt;Experience applying machine learning to complex, real-world problems and leading the technical delivery of models and supporting systems&lt;/li&gt;\n&lt;li&gt;Experience setting strategy and working across engineering, product, data science, operations, and business teams to deliver measurable outcomes&lt;/li&gt;\n&lt;li&gt;Experience recruiting, managing, and developing engineers in a fast-moving environment with significant autonomy&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3 id=&quot;preferred-qualifications&quot;&gt;Preferred qualifications&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience with credit risk, fraud detection, financial risk, trust and safety, or another domain involving decisions under uncertainty&lt;/li&gt;\n&lt;li&gt;Experience balancing risk reduction with customer or user experience&lt;/li&gt;\n&lt;li&gt;Experience building machine learning systems that support high-stakes, time-sensitive decisions at scale&lt;/li&gt;\n&lt;li&gt;Experience setting a multi-year technical direction while delivering progress through quarterly plans&lt;/li&gt;\n&lt;li&gt;Experience managing geographically distributed teams&lt;/li&gt;\n&lt;/ul&gt;",
+      "updated_at": "2026-09-25T16:44:50-04:00",
+      "tier": "Tier B: Main Focus",
+      "suitability_score": 33,
+      "verdict": "LOW RELEVANCE / SKIP",
+      "recommendation": "Skip or review manually",
+      "matched_signals": [
+        "Title match '\\bmachine\\s+learning\\b': +12",
+        "Keyword match '\\bmachine\\s+learning\\b': +6",
+        "Firm Quality Boost: +15"
+      ],
+      "penalties": [],
+      "estimated_comp": "$250,000 - $400,000+",
+      "comp_benchmark_delta": "Significantly Above Benchmark",
+      "priority_tier": "Tier B: Main Focus",
+      "priority_tag": "High Conviction",
+      "key": "Stripe::gh_stripe_8205280",
+      "status": "INACTIVE",
+      "first_seen": "2026-09-25T15:49:59.455531",
+      "last_seen": "2026-09-30T01:47:52.561350",
+      "consecutive_misses": 0,
+      "industry_sector": "FinTech & Elite Tech",
+      "posted_pay_range": null,
+      "official_careers_url": "https://stripe.com/jobs",
+      "url_status": 200,
+      "inactive_reason": "Redirected to homepage/portal (https://stripe.com/careers/listing/engineering-manager-machine-learning-credit-risk/8205280?gh_jid=8205280)"
+    },
+    {
+      "job_id": "gh_simplextrading_5239085008",
+      "firm_name": "Simplex Trading",
+      "title": "Volatility Trader",
+      "location": "Chicago",
+      "department": "Trading",
+      "url": "https://job-boards.greenhouse.io/simplextrading/jobs/5239085008",
+      "source_ats": "Greenhouse",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Our employees are our greatest asset. We have spent years building a team of talented, dedicated technologists, data-driven traders, and expert leaders with an emphasis on our core pillars:&lt;strong&gt; &lt;/strong&gt;People, Process, Trading Edge, and Technology. Simplex is an in-office organization, helping to foster a collaborative and communicative culture.&lt;/p&gt;&lt;/div&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;&lt;strong&gt;Position Summary&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;\n&lt;p&gt;As a Volatility Trader at Simplex, you will take an analytical approach to identifying market opportunities with favorable risk-reward profiles with the goal of generating trade ideas and enhancing our core market making pricing systems.&amp;nbsp; We expect that you have experience thinking about volatility valuation through a variety of lenses, including analysis of implied-vs-realized, term structure and event pricing, skew surface dynamics, and relative value or cross-asset relationships.&amp;nbsp; You will manage discretionary positions and work closely with our existing market making team to create systematic pricing overlays and improve hedging, risk management, and edge capture.&lt;/p&gt;\n&lt;h1&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;&lt;strong&gt;Key Responsibilities&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;\n&lt;ul&gt;\n&lt;li&gt;Conduct research to identify market dislocations, mispricings, or other trading opportunities in the volatility space.&lt;/li&gt;\n&lt;li&gt;Monitor and manage live positions with a focus on order flow dynamics and counterparty behavior.&lt;/li&gt;\n&lt;li&gt;Work closely with Simplex&#39;s core market making team to develop systematic approaches to volatility valuation or pricing overlays.&lt;/li&gt;\n&lt;li&gt;Continuously improve the firm&#39;s toolset for volatility research, risk management, and P&amp;amp;L attribution.&lt;/li&gt;\n&lt;li&gt;Clearly communicate and document research methodology and trading decisions for collaboration and review.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h1&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;&lt;strong&gt;Required Qualifications&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;\n&lt;ul&gt;\n&lt;li&gt;Minimum 3–5 years of professional experience in a volatility trading/research or portfolio management role.&lt;/li&gt;\n&lt;li&gt;Demonstrated track record of generating and executing profitable trading ideas.&lt;/li&gt;\n&lt;li&gt;Strong practical foundation in options theory and Bayesian statistics/probability.&lt;/li&gt;\n&lt;li&gt;Strong analytical judgment under uncertainty; able to operate decisively under constraints.&lt;/li&gt;\n&lt;li&gt;Precise technical communication skills; able to concisely present conclusions and articulate associated inputs, assumptions, and process.&lt;/li&gt;\n&lt;li&gt;Sufficient technical skills to independently interface with data and prototype research ideas.&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;Annual base salary ranges from $150,000 to $200,000, and is influenced by a number of factors, including qualifications and experience. This role is also eligible for an annual discretionary bonus, of which can be a significant portion of total compensation. This full time role is also eligible for other forms of compensation and benefits including health/dental/vision insurance, and 401(k) contributions.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Algorithmic Trader pay range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$150,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$200,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;Why us?&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Founded in Chicago in 2004, Simplex is a leading, technology-driven, proprietary market-making firm. We work with the most advanced technology and software in the market, and we’ve continued to remain at the forefront of the industry by always focusing on innovation, automation, and data-driven analysis. We also leverage our experience and expertise to make strategic investments and capitalize on opportunities in the venture capital markets with promising, early-stage financial and technology start-ups.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;PLUS, the goods!&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Benefits:&lt;/strong&gt; Excellent a la carte Medical/Dental/Vision &lt;strong&gt;(free employee coverage!), &lt;/strong&gt;401(k) match,&amp;nbsp;generous parental leave!&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;The Office:&lt;/strong&gt; The kitchen is stocked with snacks, and beverages; you also have daily stipends for breakfast and lunch!&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Tuition Reimbursement: &lt;/strong&gt;As an investment in our employees’ careers and the company’s future, we offer educational assistance to provide employees with professional development opportunities that increase their skills and enhance their contributions to the organization!&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Employee Discounts: &lt;/strong&gt;To gyms, national brands, and more!&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Building:&amp;nbsp;&lt;/strong&gt;We are located in the Federal Reserve building. As a tenant, you have access to a building gym and a full cafeteria. We are easily accessible to all public transportation.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Charity Match: &lt;/strong&gt;We match up to $2,000 a year in donations to the charities of your choice!&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Fun Events:&lt;/strong&gt; In-person happy hours, celebrations throughout the year, game nights, video game fun, and so much more!&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Simplex is an Equal Opportunity Employer. Simplex and its recruitment partners may use artificial intelligence (AI) tools to support certain aspects of the recruiting and hiring process. Final hiring decisions are made by humans. For all job postings, Simplex may use AI to review and analyze applications, resumes, interviews, and applicant responses.&amp;nbsp; Simplex complies with applicable federal and state laws governing AI use. Applicants may still request reasonable accommodations. For more information related to AI or to request an accommodation, please contact&amp;nbsp;&lt;a href=&quot;mailto:HR@simplextrading.com&quot; target=&quot;_blank&quot;&gt;HR@simplextrading.com&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;&lt;/div&gt;",
+      "updated_at": "2026-09-11T16:49:37-04:00",
+      "posted_pay_range": "$150,000 to $200,000 / yr",
+      "tier": "Tier B: Main Focus",
+      "suitability_score": 33,
+      "verdict": "LOW RELEVANCE / SKIP",
+      "recommendation": "Skip or review manually",
+      "matched_signals": [
+        "Title match '\\bvolatility\\b': +12",
+        "Keyword match '\\bvolatility\\b': +6",
+        "Firm Quality Boost: +15"
+      ],
+      "penalties": [],
+      "estimated_comp": ",000 - ,000+",
+      "comp_benchmark_delta": "Significantly Above Benchmark",
+      "priority_tier": "Tier B: Main Focus",
+      "priority_tag": "High Conviction",
+      "industry_sector": "Proprietary Trading & Market Making",
+      "official_careers_url": "https://simplextrading.com/careers/",
+      "key": "Simplex Trading::gh_simplextrading_5239085008",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-30T01:30:21.227795",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -14637,44 +15667,9 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Waymo::gh_waymo_7698498",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
-      "url_status": 202
-    },
-    {
-      "job_id": "gh_stripe_8205280",
-      "firm_name": "Stripe",
-      "title": "Engineering Manager, Machine Learning - Credit Risk",
-      "location": "N/A",
-      "department": "8535 Risk Credit & Fraud",
-      "url": "https://stripe.com/jobs/search?gh_jid=8205280",
-      "source_ats": "Greenhouse",
-      "description": "&lt;h1 id=&quot;engineering-manager-machine-learning-credit-risk&quot;&gt;Engineering Manager, Machine Learning Credit Risk&lt;/h1&gt;\n&lt;h2 id=&quot;who-we-are&quot;&gt;Who we are&lt;/h2&gt;\n&lt;h3 id=&quot;about-stripe&quot;&gt;About Stripe&lt;/h3&gt;\n&lt;p&gt;Stripe is a financial infrastructure platform for businesses. Millions of companies from the world’s largest enterprises to the most ambitious startups use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career.&lt;/p&gt;\n&lt;h3 id=&quot;about-the-team&quot;&gt;About the team&lt;/h3&gt;\n&lt;p&gt;The Credit Risk team develops intelligent systems that help Stripe identify high-risk accounts, minimize credit losses, and improve profitability. Credit risk is a complex machine learning problem that requires us to distinguish emerging risk from healthy business activity while giving legitimate users a clear and reliable experience.&lt;/p&gt;\n&lt;p&gt;Our team consists of machine learning engineers who build models and systems used across Stripe’s credit-risk products. We work closely with partners in Product, Data Science, Credit Strategy, Operations, and other engineering teams. Together, we help stakeholders make informed decisions and support sustainable growth wherever credit risk affects Stripe’s products.&lt;/p&gt;\n&lt;h2 id=&quot;what-youll-do&quot;&gt;What you’ll do&lt;/h2&gt;\n&lt;p&gt;We’re looking for an engineering manager to lead the Credit Risk team and shape how Stripe uses machine learning to manage credit risk at scale. You’ll set the team’s technical and product direction, connect advances in machine learning to measurable business outcomes, and help engineers deliver reliable systems that balance loss prevention with the user experience.&lt;/p&gt;\n&lt;p&gt;You’ll work across engineering, product, data science, and risk to identify the highest-impact opportunities and turn them into a focused roadmap. You’ll also hire and develop engineers, strengthen the team’s technical practices, and contribute to machine learning and engineering leadership across Stripe.&lt;/p&gt;\n&lt;h3 id=&quot;responsibilities&quot;&gt;Responsibilities&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Set and execute the strategy for detecting and mitigating credit risk through machine learning&lt;/li&gt;\n&lt;li&gt;Own outcomes related to credit losses, profitability, detection quality, and the user experience&lt;/li&gt;\n&lt;li&gt;Lead the design and delivery of reliable machine learning models, services, and decision systems&lt;/li&gt;\n&lt;li&gt;Translate advances in machine learning into practical capabilities that support the team’s business goals&lt;/li&gt;\n&lt;li&gt;Partner with Product, Data Science, Credit Strategy, Operations, and engineering teams to define priorities and deliver cross-functional programs&lt;/li&gt;\n&lt;li&gt;Recruit, hire, and develop machine learning engineers while building an inclusive and effective team&lt;/li&gt;\n&lt;li&gt;Contribute to broader engineering and machine learning initiatives as a member of Stripe’s engineering management team&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2 id=&quot;who-you-are&quot;&gt;Who you are&lt;/h2&gt;\n&lt;p&gt;We’re looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement.&lt;/p&gt;\n&lt;h3 id=&quot;minimum-requirements&quot;&gt;Minimum requirements&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;3+ years of experience managing engineers who build and operate production machine learning systems&lt;/li&gt;\n&lt;li&gt;Experience applying machine learning to complex, real-world problems and leading the technical delivery of models and supporting systems&lt;/li&gt;\n&lt;li&gt;Experience setting strategy and working across engineering, product, data science, operations, and business teams to deliver measurable outcomes&lt;/li&gt;\n&lt;li&gt;Experience recruiting, managing, and developing engineers in a fast-moving environment with significant autonomy&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3 id=&quot;preferred-qualifications&quot;&gt;Preferred qualifications&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience with credit risk, fraud detection, financial risk, trust and safety, or another domain involving decisions under uncertainty&lt;/li&gt;\n&lt;li&gt;Experience balancing risk reduction with customer or user experience&lt;/li&gt;\n&lt;li&gt;Experience building machine learning systems that support high-stakes, time-sensitive decisions at scale&lt;/li&gt;\n&lt;li&gt;Experience setting a multi-year technical direction while delivering progress through quarterly plans&lt;/li&gt;\n&lt;li&gt;Experience managing geographically distributed teams&lt;/li&gt;\n&lt;/ul&gt;",
-      "updated_at": "2026-09-25T16:44:50-04:00",
-      "tier": "Tier B: Main Focus",
-      "suitability_score": 33,
-      "verdict": "LOW RELEVANCE / SKIP",
-      "recommendation": "Skip or review manually",
-      "matched_signals": [
-        "Title match '\\bmachine\\s+learning\\b': +12",
-        "Keyword match '\\bmachine\\s+learning\\b': +6",
-        "Firm Quality Boost: +15"
-      ],
-      "penalties": [],
-      "estimated_comp": "$250,000 - $400,000+",
-      "comp_benchmark_delta": "Significantly Above Benchmark",
-      "priority_tier": "Tier B: Main Focus",
-      "priority_tag": "High Conviction",
-      "key": "Stripe::gh_stripe_8205280",
-      "status": "INACTIVE",
-      "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
-      "consecutive_misses": 0,
-      "industry_sector": "FinTech & Elite Tech",
-      "posted_pay_range": null,
-      "official_careers_url": "https://stripe.com/jobs",
-      "url_status": 200,
-      "inactive_reason": "Redirected to homepage/portal (https://stripe.com/careers/listing/engineering-manager-machine-learning-credit-risk/8205280?gh_jid=8205280)"
+      "url_status": 200
     },
     {
       "job_id": "gh_affirm_7815952003",
@@ -14708,7 +15703,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Affirm::gh_affirm_7815952003",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -14744,7 +15739,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Affirm::gh_affirm_7815954003",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -14781,7 +15776,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "OpenAI::ashby_openai_7f299784-2c75-4d73-99e5-1e5043ec7b48",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:39:36.754720",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -14818,7 +15813,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "OpenAI::ashby_openai_e90a44a7-fc2e-49bf-aec4-d43b9e3d8e92",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:39:36.754720",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -14855,7 +15850,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "OpenAI::ashby_openai_f5dfd3aa-3bf6-49e2-b780-0da281a21533",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:39:36.754720",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -14892,7 +15887,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Ramp::ashby_ramp_e577622f-6657-4e53-8941-b3a774b04448",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:39:36.754720",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -14928,7 +15923,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Spotify::lever_spotify_1bbaf909-5ff3-4ed6-87ca-f7ff007a169c",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T01:30:21.227795",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "url_status": 200
     },
@@ -14961,7 +15956,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Anthropic::gh_anthropic_5115935008",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "FinTech & Elite Tech",
       "closed_at": "2026-09-30T01:30:21.227795",
@@ -14998,7 +15993,7 @@ window.LIVE_OPENINGS_DATA = {
       "key": "Anthropic::gh_anthropic_4613568008",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T05:40:43.366625",
+      "last_seen": "2026-09-30T01:47:52.561350",
       "consecutive_misses": 0,
       "industry_sector": "FinTech & Elite Tech",
       "closed_at": "2026-09-30T01:30:21.227795",

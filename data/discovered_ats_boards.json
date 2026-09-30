@@ -376,5 +376,33 @@
     "tier": "Tier A: Too Hard",
     "sector": "Quantitative Hedge Funds",
     "active_job_count": 98
+  },
+  "Cubist Systematic Strategies": {
+    "ats": "greenhouse",
+    "token": "point72",
+    "tier": "Tier A: Too Hard",
+    "sector": "Quantitative Hedge Funds",
+    "active_job_count": 0
+  },
+  "Five Rings LLC": {
+    "ats": "greenhouse",
+    "token": "fiveringsllc",
+    "tier": "Tier A: Too Hard",
+    "sector": "Proprietary Trading & Market Making",
+    "active_job_count": 16
+  },
+  "Munich Re": {
+    "ats": "greenhouse",
+    "token": "nextinsurancemresandbox",
+    "tier": "Tier C2: Same or Below Benchmark",
+    "sector": "Systematic Asset Management & Allocators",
+    "active_job_count": 4
+  },
+  "Schonfeld Strategic Advisors": {
+    "ats": "greenhouse",
+    "token": "schonfeld",
+    "tier": "Tier B: Main Focus",
+    "sector": "Quantitative Hedge Funds",
+    "active_job_count": 82
   }
 }

@@ -237,6 +237,85 @@ class ATSScraper:
             logger.error(f"Error scraping Ashby board {site_token}: {e}")
         return jobs
 
+    def scrape_smartrecruiters_board(self, site_token: str, firm_name: str) -> List[Dict[str, Any]]:
+        """
+        Fetches live postings via SmartRecruiters API:
+        GET https://api.smartrecruiters.com/v1/companies/{site_token}/postings?limit=100
+        """
+        url = f"https://api.smartrecruiters.com/v1/companies/{site_token}/postings?limit=100"
+        jobs = []
+        try:
+            resp = self.session.get(url, timeout=self.timeout)
+            if resp.status_code == 200:
+                data = resp.json()
+                raw_jobs = data.get("content", [])
+                for rj in raw_jobs:
+                    job_id = str(rj.get("id", ""))
+                    title = rj.get("name", "")
+                    job_url = f"https://jobs.smartrecruiters.com/{site_token}/{job_id}"
+                    loc_info = rj.get("location", {})
+                    city = loc_info.get("city", "")
+                    region = loc_info.get("region", "")
+                    country = loc_info.get("country", "")
+                    loc = ", ".join(filter(None, [city, region or country])) or "Unknown"
+                    dept_info = rj.get("department", {})
+                    dept = dept_info.get("label", "") if isinstance(dept_info, dict) else ""
+
+                    job_entry = {
+                        "job_id": f"sr_{site_token}_{job_id}",
+                        "firm_name": firm_name,
+                        "title": title,
+                        "location": loc,
+                        "department": dept,
+                        "url": job_url,
+                        "source_ats": "SmartRecruiters",
+                        "description": title,
+                        "updated_at": rj.get("releasedDate")
+                    }
+                    job_entry["posted_pay_range"] = extract_posted_pay_range(job_entry)
+                    jobs.append(job_entry)
+            else:
+                logger.warning(f"SmartRecruiters board {site_token} returned HTTP {resp.status_code}")
+        except Exception as e:
+            logger.error(f"Error scraping SmartRecruiters board {site_token}: {e}")
+        return jobs
+
+    def scrape_workable_board(self, site_token: str, firm_name: str) -> List[Dict[str, Any]]:
+        """
+        Fetches live postings via Workable API:
+        GET https://apply.workable.com/api/v1/widget/accounts/{site_token}
+        """
+        url = f"https://apply.workable.com/api/v1/widget/accounts/{site_token}"
+        jobs = []
+        try:
+            resp = self.session.get(url, timeout=self.timeout)
+            if resp.status_code == 200:
+                data = resp.json()
+                raw_jobs = data.get("jobs", [])
+                for rj in raw_jobs:
+                    job_id = str(rj.get("shortcode", rj.get("id", "")))
+                    title = rj.get("title", "")
+                    job_url = rj.get("url", f"https://apply.workable.com/{site_token}/j/{job_id}/")
+                    loc = rj.get("city", "") or rj.get("country", "Unknown")
+                    dept = rj.get("department", "")
+
+                    job_entry = {
+                        "job_id": f"workable_{site_token}_{job_id}",
+                        "firm_name": firm_name,
+                        "title": title,
+                        "location": loc,
+                        "department": dept,
+                        "url": job_url,
+                        "source_ats": "Workable",
+                        "description": rj.get("description", ""),
+                        "updated_at": rj.get("created_at")
+                    }
+                    job_entry["posted_pay_range"] = extract_posted_pay_range(job_entry)
+                    jobs.append(job_entry)
+        except Exception as e:
+            logger.error(f"Error scraping Workable board {site_token}: {e}")
+        return jobs
+
     def scrape_firm(self, firm_name: str, ats_meta: Dict[str, Any]) -> List[Dict[str, Any]]:
         ats_type = ats_meta.get("ats")
         token = ats_meta.get("token")
@@ -246,5 +325,9 @@ class ATSScraper:
             return self.scrape_lever_board(token, firm_name)
         elif ats_type == "ashby":
             return self.scrape_ashby_board(token, firm_name)
+        elif ats_type == "smartrecruiters":
+            return self.scrape_smartrecruiters_board(token, firm_name)
+        elif ats_type == "workable":
+            return self.scrape_workable_board(token, firm_name)
         else:
             return []

@@ -507,6 +507,31 @@
       gap: 5px;
     }
 
+    .pill-crawl-auto {
+      background: rgba(16, 185, 129, 0.14);
+      color: #34d399;
+      border: 1px solid rgba(16, 185, 129, 0.35);
+      font-weight: 600;
+      text-transform: none;
+      font-size: 0.74rem;
+    }
+
+    .pill-crawl-portal {
+      background: rgba(245, 158, 11, 0.14);
+      color: #fbbf24;
+      border: 1px solid rgba(245, 158, 11, 0.35);
+      font-weight: 600;
+      text-transform: none;
+      font-size: 0.74rem;
+    }
+
+    .drawer-uncrawlable-msg {
+      background: #151d2f !important;
+      border: 1px solid rgba(245, 158, 11, 0.3) !important;
+      border-style: solid !important;
+      padding: 22px !important;
+    }
+
     .btn-official-career {
       background: rgba(59, 130, 246, 0.12);
       border: 1px solid rgba(59, 130, 246, 0.35);
@@ -652,6 +677,7 @@
       <div class="stat-card">
         <span class="label">Target Employers Monitored</span>
         <span class="val" id="stat-firms" style="color: #60a5fa;">296</span>
+        <span class="subtext" id="stat-firms-sub" style="font-size: 0.72rem; color: #94a3b8; margin-top: 4px; display: block;">83 Live Feeds &bull; 213 Portals</span>
       </div>
       <div class="stat-card">
         <span class="label">Total Live Openings</span>
@@ -682,6 +708,12 @@
         <select id="filter-view-scope" onchange="renderCards()">
           <option value="ALL_FIRMS" selected>View: All Monitored Target Firms</option>
           <option value="ACTIVE_ONLY">View: Firms with Active Roles Only</option>
+        </select>
+
+        <select id="filter-crawlability" onchange="renderCards()">
+          <option value="ALL" selected>All Crawl Methods (296)</option>
+          <option value="AUTOMATED">⚡ Live Automated Feeds (83)</option>
+          <option value="PORTAL_ONLY">🔒 Direct Portals Monitored (213)</option>
         </select>
 
         <select id="filter-sort" onchange="renderCards()">

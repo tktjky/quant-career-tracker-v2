@@ -56,6 +56,9 @@ Examples:
     openings_parser.add_argument("--min-score", type=int, default=60, help="Minimum suitability score threshold")
     openings_parser.add_argument("--limit", type=int, default=20, help="Max listings to show")
 
+    # Command: audit / nightly
+    audit_parser = subparsers.add_parser("audit", help="Run exhaustive deep inspection and crawlability audit across all 296 firms")
+
     args = parser.parse_args()
 
     if args.command == "scout":
@@ -147,6 +150,10 @@ Examples:
         print(f"Starting recurring crawler daemon every {args.interval} hours...")
         scheduler = CrawlScheduler(interval_hours=args.interval)
         scheduler.run_blocking()
+
+    elif args.command == "audit":
+        from scripts.nightly_crawl_workflow import run_workflow
+        run_workflow()
 
 if __name__ == "__main__":
     main()
