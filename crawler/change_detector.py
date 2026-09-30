@@ -41,7 +41,7 @@ class ChangeDetector:
                 (b"Q2FwaXRhbFxzKk9uZQ==", "Financial Services Corp"),
                 (b"XGJDQlNcYg==", "Quant Program"),
                 (b"XGJNU0ZFXGI=", "Quantitative Finance Master's"),
-                (b"XGJDMVxi", "Benchmark"),
+                (b"KD88IVRpZXJccykoPzwhVGllci0pXGJDMVxi", "Benchmark"),
             ]
             import base64
             for pat_b64, repl in _redactions:

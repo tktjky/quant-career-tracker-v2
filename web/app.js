@@ -13,6 +13,7 @@ async function loadData() {
       const data = await res.json();
       allOpenings = data.openings || [];
       trackerMeta = data;
+      populateIndustryFilter();
       updateStats();
       renderCards();
       return;
@@ -25,6 +26,7 @@ async function loadData() {
   if (window.LIVE_OPENINGS_DATA && window.LIVE_OPENINGS_DATA.openings) {
     allOpenings = window.LIVE_OPENINGS_DATA.openings;
     trackerMeta = window.LIVE_OPENINGS_DATA;
+    populateIndustryFilter();
     updateStats();
     renderCards();
   } else {
@@ -37,6 +39,19 @@ async function loadData() {
         </p>
       </div>
     `;
+  }
+function populateIndustryFilter() {
+  const select = document.getElementById("filter-industry");
+  if (!select) return;
+  const currentVal = select.value;
+  const sectors = Array.from(new Set(allOpenings.map(j => j.industry_sector).filter(Boolean))).sort();
+  if (sectors.length === 0) return;
+
+  select.innerHTML = '<option value="ALL" selected>All Industry Sectors</option>' +
+    sectors.map(s => `<option value="${escapeHtml(s)}">${escapeHtml(s)}</option>`).join('');
+
+  if (currentVal && sectors.includes(currentVal)) {
+    select.value = currentVal;
   }
 }
 
@@ -61,13 +76,14 @@ function renderCards() {
   const container = document.getElementById("jobs-container");
   const search = document.getElementById("filter-search").value.toLowerCase().trim();
   const tierFilter = document.getElementById("filter-tier").value;
+  const industryFilter = document.getElementById("filter-industry") ? document.getElementById("filter-industry").value : "ALL";
   const scoreFilter = document.getElementById("filter-score").value;
   const statusFilter = document.getElementById("filter-status").value;
 
   const filtered = allOpenings.filter(job => {
     // Text search
     if (search) {
-      const matchText = `${job.firm_name} ${job.title} ${job.location} ${job.department || ''}`.toLowerCase();
+      const matchText = `${job.firm_name} ${job.title} ${job.location} ${job.department || ''} ${job.industry_sector || ''}`.toLowerCase();
       if (!matchText.includes(search)) return false;
     }
 
@@ -75,6 +91,12 @@ function renderCards() {
     if (tierFilter !== "ALL") {
       const jobTier = job.priority_tier || "";
       if (!jobTier.includes(tierFilter)) return false;
+    }
+
+    // Industry Sector
+    if (industryFilter !== "ALL") {
+      const jobSector = job.industry_sector || "";
+      if (jobSector !== industryFilter && !jobSector.toLowerCase().includes(industryFilter.toLowerCase())) return false;
     }
 
     // Score
@@ -111,8 +133,12 @@ function renderCards() {
     else if (score >= 60) scoreClass = "score-med";
 
     let tierBadgeClass = "pill-tier-b";
-    if ((j.priority_tier || "").includes("Tier A")) tierBadgeClass = "pill-tier-a";
-    else if ((j.priority_tier || "").includes("Tier C")) tierBadgeClass = "pill-tier-c";
+    const pTier = j.priority_tier || "";
+    if (pTier.includes("Tier A")) tierBadgeClass = "pill-tier-a";
+    else if (pTier.includes("Tier B")) tierBadgeClass = "pill-tier-b";
+    else if (pTier.includes("Tier C1")) tierBadgeClass = "pill-tier-c1";
+    else if (pTier.includes("Tier C2")) tierBadgeClass = "pill-tier-c2";
+    else if (pTier.includes("Tier D")) tierBadgeClass = "pill-tier-d";
 
     const isNew = j.status === "NEW";
     const statusBadge = isNew
@@ -144,16 +170,17 @@ function renderCards() {
         </div>
 
         <div class="badges-row">
-          <span class="badge-pill ${tierBadgeClass}">${escapeHtml(j.priority_tag || 'Main Focus')}</span>
+          <span class="badge-pill ${tierBadgeClass}">${escapeHtml(pTier ? pTier.split(':')[0] : (j.priority_tag || 'Main Focus'))}</span>
+          ${j.industry_sector ? `<span class="badge-pill pill-industry"><i class="fa-solid fa-building-columns"></i> ${escapeHtml(j.industry_sector)}</span>` : ''}
           <span class="badge-pill" style="background: rgba(255,255,255,0.06); color: #cbd5e1;">${escapeHtml(j.verdict || 'Target Match')}</span>
         </div>
 
         <div class="comp-box">
           <div>
             <div style="font-size: 0.7rem; color: #94a3b8; text-transform: uppercase;">Benchmark First-Year Comp</div>
-            <div class="comp-val">${escapeHtml(j.estimated_comp || '$220,000 - $380,000+')}</div>
+            <div class="comp-val">${escapeHtml(j.estimated_comp || '$250,000 - $400,000+')}</div>
           </div>
-          <div class="comp-delta">${escapeHtml(j.comp_benchmark_delta || 'Premier Quant Band')}</div>
+          <div class="comp-delta">${escapeHtml(j.comp_benchmark_delta || 'Significantly Above Benchmark')}</div>
         </div>
 
         ${signalsList ? `

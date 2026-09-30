@@ -35,7 +35,7 @@ Examples:
     # Command: crawl
     crawl_parser = subparsers.add_parser("crawl", help="Run crawl agent to scrape and score target openings")
     crawl_parser.add_argument("--firm", type=str, default=None, help="Target specific firm with tailored subagent")
-    crawl_parser.add_argument("--tier", choices=["tier-a", "tier-b", "tier-c", "all"], default="all", help="Target priority tier")
+    crawl_parser.add_argument("--tier", choices=["tier-a", "tier-b", "tier-c1", "tier-c2", "tier-d", "all"], default="all", help="Target priority tier")
     crawl_parser.add_argument("--max-boards", type=int, default=None, help="Cap number of ATS boards to scrape")
 
     # Command: scout

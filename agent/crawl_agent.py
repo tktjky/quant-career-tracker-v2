@@ -91,10 +91,11 @@ class CrawlAgent:
             enriched_job["recommendation"] = analysis["recommendation"]
             enriched_job["matched_signals"] = analysis["matched_positives"]
             enriched_job["penalties"] = analysis["penalties"]
-            enriched_job["estimated_comp"] = firm_info.get("estimated_comp", "$220,000 - $380,000+")
-            enriched_job["comp_benchmark_delta"] = firm_info.get("comp_delta", "Tier-1 Elite Comp Range")
+            enriched_job["estimated_comp"] = firm_info.get("estimated_comp", "$250,000 - $400,000+")
+            enriched_job["comp_benchmark_delta"] = firm_info.get("comp_delta", "Significantly Above Benchmark")
             enriched_job["priority_tier"] = tier_str
             enriched_job["priority_tag"] = firm_info.get("priority_tag", "Main Focus")
+            enriched_job["industry_sector"] = firm_info.get("industry_sector", "Quantitative Finance")
             scored_jobs.append(enriched_job)
 
         scored_jobs.sort(key=lambda x: x.get("suitability_score", 0), reverse=True)
@@ -116,7 +117,7 @@ class CrawlAgent:
                 (b"Q2FwaXRhbFxzKk9uZQ==", "Financial Services Corp"),
                 (b"XGJDQlNcYg==", "Quant Program"),
                 (b"XGJNU0ZFXGI=", "Quantitative Finance Master's"),
-                (b"XGJDMVxi", "Benchmark"),
+                (b"KD88IVRpZXJccykoPzwhVGllci0pXGJDMVxi", "Benchmark"),
             ]
             import base64
             for pat_b64, repl in _redactions:
@@ -189,10 +190,11 @@ class CrawlAgent:
                 enriched_job["recommendation"] = analysis["recommendation"]
                 enriched_job["matched_signals"] = analysis["matched_positives"]
                 enriched_job["penalties"] = analysis["penalties"]
-                enriched_job["estimated_comp"] = firm_info.get("estimated_comp", "$220,000 - $380,000+")
-                enriched_job["comp_benchmark_delta"] = firm_info.get("comp_delta", "Tier-1 Elite Comp Range")
+                enriched_job["estimated_comp"] = firm_info.get("estimated_comp", "$250,000 - $400,000+")
+                enriched_job["comp_benchmark_delta"] = firm_info.get("comp_delta", "Significantly Above Benchmark")
                 enriched_job["priority_tier"] = tier_str
                 enriched_job["priority_tag"] = firm_info.get("priority_tag", "Main Focus")
+                enriched_job["industry_sector"] = firm_info.get("industry_sector", "Quantitative Finance")
                 scored_jobs.append(enriched_job)
 
         # 4. Sort by Suitability Score descending, then tier

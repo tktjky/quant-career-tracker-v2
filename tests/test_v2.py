@@ -74,5 +74,30 @@ class TestJobTrackerV2(unittest.TestCase):
         self.assertTrue(os.path.exists(agent.firms_csv))
         self.assertGreater(len(agent.firm_meta), 50)
 
+    def test_firm_tier_and_industry_metadata(self):
+        agent = CrawlAgent()
+        coinbase = agent.firm_meta.get("Coinbase")
+        self.assertIsNotNone(coinbase)
+        self.assertEqual(coinbase["priority_tier"], "Tier B: Main Focus")
+        self.assertEqual(coinbase["industry_sector"], "FinTech & Elite Tech")
+
+        robinhood = agent.firm_meta.get("Robinhood")
+        self.assertIsNotNone(robinhood)
+        self.assertEqual(robinhood["priority_tier"], "Tier B: Main Focus")
+        self.assertEqual(robinhood["industry_sector"], "FinTech & Elite Tech")
+
+        goldman = agent.firm_meta.get("Goldman Sachs")
+        self.assertIsNotNone(goldman)
+        self.assertEqual(goldman["priority_tier"], "Tier C1: Same or Above Benchmark")
+        self.assertEqual(goldman["industry_sector"], "Bulge Bracket & Global Investment Banks")
+
+    def test_industry_sector_enrichment(self):
+        agent = CrawlAgent()
+        res = agent.crawl_single_firm("Coinbase")
+        self.assertGreater(len(res["jobs"]), 0)
+        first_job = res["jobs"][0]
+        self.assertEqual(first_job["industry_sector"], "FinTech & Elite Tech")
+        self.assertEqual(first_job["priority_tier"], "Tier B: Main Focus")
+
 if __name__ == "__main__":
     unittest.main()
