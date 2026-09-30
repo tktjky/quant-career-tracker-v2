@@ -98,7 +98,7 @@ def score_job_suitability(job_dict: Dict[str, Any], firm_tier: str = "Tier B") -
     tier_boost = {
         "Tier A": 15,
         "Tier B": 12,
-        "Tier C1": 8,
+        "Tier C": 8,
         "Tier D": 6,
         "Tier C2": 2,
         "Tier E": -20

@@ -35,7 +35,7 @@ Examples:
     # Command: crawl
     crawl_parser = subparsers.add_parser("crawl", help="Run crawl agent to scrape and score target openings")
     crawl_parser.add_argument("--firm", type=str, default=None, help="Target specific firm with tailored subagent")
-    crawl_parser.add_argument("--tier", choices=["tier-a", "tier-b", "tier-c1", "all"], default="all", help="Target priority tier")
+    crawl_parser.add_argument("--tier", choices=["tier-a", "tier-b", "tier-c", "all"], default="all", help="Target priority tier")
     crawl_parser.add_argument("--max-boards", type=int, default=None, help="Cap number of ATS boards to scrape")
 
     # Command: scout
@@ -131,7 +131,7 @@ Examples:
             print(f"\n{i}. {j.get('firm_name')} - {j.get('title')}")
             print(f"   Score: {score}% Fit | Status: {status_tag} | Tier: {j.get('priority_tier')}")
             print(f"   Location: {j.get('location')} | Source: {j.get('source_ats')}")
-            print(f"   Comp: {j.get('estimated_comp')} ({j.get('comp_delta_vs_c1')})")
+            print(f"   Comp: {j.get('estimated_comp')} ({j.get('comp_benchmark_delta')})")
             print(f"   URL: {j.get('url')}")
             if j.get("matched_signals"):
                 print(f"   Signals: {', '.join(j.get('matched_signals')[:2])}")

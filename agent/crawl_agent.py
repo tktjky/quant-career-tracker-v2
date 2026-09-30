@@ -53,7 +53,7 @@ class CrawlAgent:
                                 "priority_tier": row.get("priority_tier", "Tier B: Main Focus"),
                                 "priority_tag": row.get("priority_tag", "Main Focus"),
                                 "estimated_comp": row.get("estimated_first_year_comp", "$220,000 - $380,000+"),
-                                "comp_delta": row.get("comp_delta_vs_c1", "Superior"),
+                                "comp_delta": row.get("comp_benchmark_delta", "Superior"),
                                 "strategic_advice": row.get("strategic_action_advice", "")
                             }
             except Exception as e:
@@ -90,7 +90,7 @@ class CrawlAgent:
             enriched_job["matched_signals"] = analysis["matched_positives"]
             enriched_job["penalties"] = analysis["penalties"]
             enriched_job["estimated_comp"] = firm_info.get("estimated_comp", "$220,000 - $380,000+")
-            enriched_job["comp_delta_vs_c1"] = firm_info.get("comp_delta", "Tier-1 Elite Comp Range")
+            enriched_job["comp_benchmark_delta"] = firm_info.get("comp_delta", "Tier-1 Elite Comp Range")
             enriched_job["priority_tier"] = tier_str
             enriched_job["priority_tag"] = firm_info.get("priority_tag", "Main Focus")
             scored_jobs.append(enriched_job)
@@ -163,7 +163,7 @@ class CrawlAgent:
                 enriched_job["matched_signals"] = analysis["matched_positives"]
                 enriched_job["penalties"] = analysis["penalties"]
                 enriched_job["estimated_comp"] = firm_info.get("estimated_comp", "$220,000 - $380,000+")
-                enriched_job["comp_delta_vs_c1"] = firm_info.get("comp_delta", "Tier-1 Elite Comp Range")
+                enriched_job["comp_benchmark_delta"] = firm_info.get("comp_delta", "Tier-1 Elite Comp Range")
                 enriched_job["priority_tier"] = tier_str
                 enriched_job["priority_tag"] = firm_info.get("priority_tag", "Main Focus")
                 scored_jobs.append(enriched_job)
