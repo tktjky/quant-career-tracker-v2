@@ -1,0 +1,352 @@
+{
+  "Maven Securities": {
+    "ats": "ashby",
+    "token": "maven",
+    "tier": "Tier B: Main Focus",
+    "sector": "Proprietary Trading & Market Making",
+    "active_job_count": 3
+  },
+  "Plaid": {
+    "ats": "ashby",
+    "token": "plaid",
+    "tier": "Tier B: Main Focus",
+    "sector": "FinTech & Elite Tech",
+    "active_job_count": 122
+  },
+  "Ramp": {
+    "ats": "ashby",
+    "token": "ramp",
+    "tier": "Tier B: Main Focus",
+    "sector": "FinTech & Elite Tech",
+    "active_job_count": 155
+  },
+  "MIO Partners": {
+    "ats": "greenhouse",
+    "token": "miopartners",
+    "tier": "Tier C2: Same or Below Benchmark",
+    "sector": "Systematic Asset Management & Allocators",
+    "active_job_count": 9
+  },
+  "Five Rings": {
+    "ats": "greenhouse",
+    "token": "fiveringsllc",
+    "tier": "Tier B: Main Focus",
+    "sector": "Quantitative Hedge Funds",
+    "active_job_count": 16
+  },
+  "Viking Global Investors": {
+    "ats": "greenhouse",
+    "token": "vikingglobalinvestors",
+    "tier": "Tier B: Main Focus",
+    "sector": "Quantitative Hedge Funds",
+    "active_job_count": 5
+  },
+  "SESCO": {
+    "ats": "greenhouse",
+    "token": "sesco",
+    "tier": "Tier C2: Same or Below Benchmark",
+    "sector": "Commodities & Energy Trading Desks",
+    "active_job_count": 5
+  },
+  "AQR Capital Management": {
+    "ats": "greenhouse",
+    "token": "aqr",
+    "tier": "Tier B: Main Focus",
+    "sector": "Quantitative Hedge Funds",
+    "active_job_count": 53
+  },
+  "Capstone Investment Advisors": {
+    "ats": "greenhouse",
+    "token": "capstoneinvestmentadvisors",
+    "tier": "Tier B: Main Focus",
+    "sector": "Quantitative Hedge Funds",
+    "active_job_count": 15
+  },
+  "Numerix": {
+    "ats": "greenhouse",
+    "token": "numerix",
+    "tier": "Tier B: Main Focus",
+    "sector": "FinTech & Elite Tech",
+    "active_job_count": 6
+  },
+  "TIFIN": {
+    "ats": "greenhouse",
+    "token": "tifin",
+    "tier": "Tier B: Main Focus",
+    "sector": "FinTech & Elite Tech",
+    "active_job_count": 4
+  },
+  "Engineers Gate": {
+    "ats": "greenhouse",
+    "token": "engineersgate",
+    "tier": "Tier B: Main Focus",
+    "sector": "Quantitative Hedge Funds",
+    "active_job_count": 9
+  },
+  "MerQube": {
+    "ats": "greenhouse",
+    "token": "merqube",
+    "tier": "Tier B: Main Focus",
+    "sector": "FinTech & Elite Tech",
+    "active_job_count": 4
+  },
+  "Quantbot Technologies": {
+    "ats": "greenhouse",
+    "token": "quantbot-technologies",
+    "tier": "Tier B: Main Focus",
+    "sector": "Quantitative Hedge Funds",
+    "active_job_count": 8
+  },
+  "HBK Capital Management": {
+    "ats": "greenhouse",
+    "token": "hbkcapitalmanagement",
+    "tier": "Tier B: Main Focus",
+    "sector": "Quantitative Hedge Funds",
+    "active_job_count": 1
+  },
+  "Scale AI": {
+    "ats": "greenhouse",
+    "token": "scaleai",
+    "tier": "Tier B: Main Focus",
+    "sector": "FinTech & Elite Tech",
+    "active_job_count": 191
+  },
+  "Squarepoint Capital": {
+    "ats": "greenhouse",
+    "token": "squarepointcapital",
+    "tier": "Tier B: Main Focus",
+    "sector": "Quantitative Hedge Funds",
+    "active_job_count": 89
+  },
+  "Iconiq Capital": {
+    "ats": "greenhouse",
+    "token": "iconiq",
+    "tier": "Tier C2: Same or Below Benchmark",
+    "sector": "Systematic Asset Management & Allocators",
+    "active_job_count": 20
+  },
+  "Upstart": {
+    "ats": "greenhouse",
+    "token": "upstart",
+    "tier": "Tier B: Main Focus",
+    "sector": "FinTech & Elite Tech",
+    "active_job_count": 88
+  },
+  "Conversion Capital": {
+    "ats": "ashby",
+    "token": "conversion",
+    "tier": "Tier B: Main Focus",
+    "sector": "Quantitative Hedge Funds",
+    "active_job_count": 15
+  },
+  "SoFi": {
+    "ats": "greenhouse",
+    "token": "sofi",
+    "tier": "Tier B: Main Focus",
+    "sector": "FinTech & Elite Tech",
+    "active_job_count": 59
+  },
+  "GrayScale": {
+    "ats": "greenhouse",
+    "token": "grayscale",
+    "tier": "Tier B: Main Focus",
+    "sector": "FinTech & Elite Tech",
+    "active_job_count": 3
+  },
+  "Snowflake": {
+    "ats": "ashby",
+    "token": "snowflake",
+    "tier": "Tier B: Main Focus",
+    "sector": "FinTech & Elite Tech",
+    "active_job_count": 338
+  },
+  "Chime": {
+    "ats": "greenhouse",
+    "token": "chime",
+    "tier": "Tier B: Main Focus",
+    "sector": "FinTech & Elite Tech",
+    "active_job_count": 64
+  },
+  "AXQ Capital": {
+    "ats": "greenhouse",
+    "token": "axq",
+    "tier": "Tier C2: Same or Below Benchmark",
+    "sector": "Systematic Asset Management & Allocators",
+    "active_job_count": 20
+  },
+  "Waymo": {
+    "ats": "greenhouse",
+    "token": "waymo",
+    "tier": "Tier B: Main Focus",
+    "sector": "FinTech & Elite Tech",
+    "active_job_count": 357
+  },
+  "Block (Cash App)": {
+    "ats": "greenhouse",
+    "token": "block",
+    "tier": "Tier B: Main Focus",
+    "sector": "FinTech & Elite Tech",
+    "active_job_count": 212
+  },
+  "OpenAI": {
+    "ats": "ashby",
+    "token": "openai",
+    "tier": "Tier A: Too Hard",
+    "sector": "FinTech & Elite Tech",
+    "active_job_count": 839
+  },
+  "Akuna Capital": {
+    "ats": "greenhouse",
+    "token": "akunacapital",
+    "tier": "Tier B: Main Focus",
+    "sector": "Proprietary Trading & Market Making",
+    "active_job_count": 40
+  },
+  "Valkyrie Trading": {
+    "ats": "lever",
+    "token": "valkyrietrading",
+    "tier": "Tier B: Main Focus",
+    "sector": "Proprietary Trading & Market Making",
+    "active_job_count": 6
+  },
+  "Anthropic": {
+    "ats": "greenhouse",
+    "token": "anthropic",
+    "tier": "Tier A: Too Hard",
+    "sector": "FinTech & Elite Tech",
+    "active_job_count": 637
+  },
+  "GMO": {
+    "ats": "lever",
+    "token": "gmo",
+    "tier": "Tier C2: Same or Below Benchmark",
+    "sector": "Systematic Asset Management & Allocators",
+    "active_job_count": 14
+  },
+  "Belvedere Trading": {
+    "ats": "lever",
+    "token": "belvederetrading",
+    "tier": "Tier B: Main Focus",
+    "sector": "Proprietary Trading & Market Making",
+    "active_job_count": 21
+  },
+  "Brex": {
+    "ats": "greenhouse",
+    "token": "brex",
+    "tier": "Tier B: Main Focus",
+    "sector": "FinTech & Elite Tech",
+    "active_job_count": 268
+  },
+  "DV Trading": {
+    "ats": "greenhouse",
+    "token": "dvtrading",
+    "tier": "Tier B: Main Focus",
+    "sector": "Proprietary Trading & Market Making",
+    "active_job_count": 73
+  },
+  "Coinbase": {
+    "ats": "greenhouse",
+    "token": "coinbase",
+    "tier": "Tier B: Main Focus",
+    "sector": "FinTech & Elite Tech",
+    "active_job_count": 209
+  },
+  "Databricks": {
+    "ats": "greenhouse",
+    "token": "databricks",
+    "tier": "Tier B: Main Focus",
+    "sector": "FinTech & Elite Tech",
+    "active_job_count": 883
+  },
+  "ExodusPoint Capital Management": {
+    "ats": "greenhouse",
+    "token": "exoduspoint",
+    "tier": "Tier B: Main Focus",
+    "sector": "Quantitative Hedge Funds",
+    "active_job_count": 2
+  },
+  "Flow Traders": {
+    "ats": "greenhouse",
+    "token": "flowtraders",
+    "tier": "Tier B: Main Focus",
+    "sector": "Proprietary Trading & Market Making",
+    "active_job_count": 47
+  },
+  "Geneva Trading": {
+    "ats": "greenhouse",
+    "token": "genevatrading",
+    "tier": "Tier B: Main Focus",
+    "sector": "Proprietary Trading & Market Making",
+    "active_job_count": 14
+  },
+  "Glenmede": {
+    "ats": "lever",
+    "token": "glenmede",
+    "tier": "Tier C2: Same or Below Benchmark",
+    "sector": "Systematic Asset Management & Allocators",
+    "active_job_count": 13
+  },
+  "Jane Street": {
+    "ats": "greenhouse",
+    "token": "janestreet",
+    "tier": "Tier A: Too Hard",
+    "sector": "Proprietary Trading & Market Making",
+    "active_job_count": 230
+  },
+  "Jump Trading": {
+    "ats": "greenhouse",
+    "token": "jumptrading",
+    "tier": "Tier A: Too Hard",
+    "sector": "Proprietary Trading & Market Making",
+    "active_job_count": 111
+  },
+  "Old Mission Capital": {
+    "ats": "greenhouse",
+    "token": "oldmissioncapital",
+    "tier": "Tier B: Main Focus",
+    "sector": "Proprietary Trading & Market Making",
+    "active_job_count": 37
+  },
+  "Point72": {
+    "ats": "greenhouse",
+    "token": "point72",
+    "tier": "Tier A: Too Hard",
+    "sector": "Quantitative Hedge Funds",
+    "active_job_count": 218
+  },
+  "Robinhood": {
+    "ats": "greenhouse",
+    "token": "robinhood",
+    "tier": "Tier B: Main Focus",
+    "sector": "FinTech & Elite Tech",
+    "active_job_count": 162
+  },
+  "Stripe": {
+    "ats": "greenhouse",
+    "token": "stripe",
+    "tier": "Tier B: Main Focus",
+    "sector": "FinTech & Elite Tech",
+    "active_job_count": 711
+  },
+  "Tower Research Capital": {
+    "ats": "greenhouse",
+    "token": "towerresearchcapital",
+    "tier": "Tier B: Main Focus",
+    "sector": "Quantitative Hedge Funds",
+    "active_job_count": 88
+  },
+  "TransMarket Group": {
+    "ats": "greenhouse",
+    "token": "transmarketgroup",
+    "tier": "Tier B: Main Focus",
+    "sector": "Proprietary Trading & Market Making",
+    "active_job_count": 18
+  },
+  "Spotify": {
+    "ats": "lever",
+    "token": "spotify",
+    "tier": "Tier B: Main Focus",
+    "sector": "FinTech & Elite Tech",
+    "active_job_count": 79
+  }
+}

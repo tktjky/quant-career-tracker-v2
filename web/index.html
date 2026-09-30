@@ -494,6 +494,57 @@
     .pill-status-active { background: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.4); }
     .pill-status-inactive { background: rgba(239, 68, 68, 0.12); color: #fca5a5; border: 1px solid rgba(239, 68, 68, 0.3); }
 
+    .pill-pay-posted {
+      background: rgba(16, 185, 129, 0.16);
+      border: 1px solid rgba(16, 185, 129, 0.45);
+      color: #34d399;
+      font-weight: 700;
+      font-size: 0.78rem;
+      padding: 3px 9px;
+      border-radius: 6px;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .btn-official-career {
+      background: rgba(59, 130, 246, 0.12);
+      border: 1px solid rgba(59, 130, 246, 0.35);
+      color: #60a5fa;
+      font-size: 0.78rem;
+      font-weight: 600;
+      padding: 6px 12px;
+      border-radius: 6px;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+    .btn-official-career:hover {
+      background: #2563eb;
+      color: #fff;
+      border-color: #2563eb;
+      box-shadow: 0 0 12px var(--accent-glow);
+    }
+
+    .openings-count-pill.zero-roles {
+      background: rgba(100, 116, 139, 0.15);
+      border-color: rgba(100, 116, 139, 0.35);
+      color: #94a3b8;
+    }
+
+    .drawer-empty-msg {
+      padding: 20px;
+      text-align: center;
+      background: #111827;
+      border-radius: 8px;
+      border: 1px dashed #374151;
+      color: #9ca3af;
+      font-size: 0.85rem;
+    }
+
     .btn-apply {
       background: var(--accent);
       color: #fff;
@@ -599,6 +650,10 @@
     <!-- Stats Grid -->
     <div class="stats-grid">
       <div class="stat-card">
+        <span class="label">Target Employers Monitored</span>
+        <span class="val" id="stat-firms" style="color: #60a5fa;">268</span>
+      </div>
+      <div class="stat-card">
         <span class="label">Total Live Openings</span>
         <span class="val" id="stat-total">-</span>
       </div>
@@ -611,8 +666,8 @@
         <span class="val" id="stat-new" style="color: #f87171;">-</span>
       </div>
       <div class="stat-card">
-        <span class="label">Firms Represented</span>
-        <span class="val" id="stat-firms">-</span>
+        <span class="label">Active Hiring Firms</span>
+        <span class="val" id="stat-hiring-firms" style="color: #a78bfa;">-</span>
       </div>
     </div>
 
@@ -624,6 +679,11 @@
       </div>
 
       <div class="select-group">
+        <select id="filter-view-scope" onchange="renderCards()">
+          <option value="ALL_FIRMS" selected>View: All Monitored Target Firms</option>
+          <option value="ACTIVE_ONLY">View: Firms with Active Roles Only</option>
+        </select>
+
         <select id="filter-sort" onchange="renderCards()">
           <option value="newest" selected>Sort: Newly Posted</option>
           <option value="name_asc">Sort: Company Name (A &rarr; Z)</option>

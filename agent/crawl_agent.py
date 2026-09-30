@@ -6,12 +6,15 @@ import re
 import base64
 from datetime import datetime
 from typing import Dict, List, Any, Optional
+from collections import Counter
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from crawler.ats_scraper import ATSScraper, ATS_BOARD_REGISTRY
 from crawler.web_search_scraper import WebSearchScraper
 from crawler.relevance_filter import score_job_suitability
 from crawler.change_detector import ChangeDetector
 from crawler.url_verifier import verify_jobs_availability
+from crawler.salary_extractor import extract_posted_pay_range
 from agent.firm_registry import FirmRegistry
 
 logger = logging.getLogger("CrawlAgent")
@@ -44,6 +47,7 @@ class CrawlAgent:
 
     def _load_firm_meta(self) -> Dict[str, Dict[str, Any]]:
         meta = {}
+        self.all_firms_list = []
         if os.path.exists(self.firms_csv):
             try:
                 with open(self.firms_csv, "r", encoding="utf-8-sig") as f:
@@ -51,13 +55,17 @@ class CrawlAgent:
                     for row in reader:
                         fn = row.get("firm_name", "").strip()
                         if fn:
+                            self.all_firms_list.append(dict(row))
                             meta_val = {
+                                "firm_name": fn,
                                 "industry_sector": row.get("industry_sector", "Quantitative Hedge Funds"),
                                 "priority_tier": row.get("priority_tier", "Tier B: Main Focus"),
                                 "priority_tag": row.get("priority_tag", "Main Focus"),
                                 "estimated_comp": row.get("estimated_first_year_comp", "$220,000 - $380,000+"),
                                 "comp_delta": row.get("comp_benchmark_delta", "Superior"),
-                                "strategic_advice": row.get("strategic_action_advice", "")
+                                "strategic_advice": row.get("strategic_action_advice", ""),
+                                "official_careers_url": row.get("official_careers_url", ""),
+                                "difficulty_rating": row.get("difficulty_rating", "4.0/5")
                             }
                             meta[fn] = meta_val
                             meta[fn.lower()] = meta_val
@@ -139,6 +147,8 @@ class CrawlAgent:
             enriched_job["priority_tier"] = tier_str
             enriched_job["priority_tag"] = firm_info.get("priority_tag", "Main Focus")
             enriched_job["industry_sector"] = firm_info.get("industry_sector") or "Quantitative Hedge Funds"
+            enriched_job["official_careers_url"] = firm_info.get("official_careers_url") or ""
+            enriched_job["posted_pay_range"] = job.get("posted_pay_range") or extract_posted_pay_range(job)
             scored_jobs.append(enriched_job)
 
         scored_jobs.sort(key=lambda x: x.get("suitability_score", 0), reverse=True)
@@ -192,24 +202,36 @@ class CrawlAgent:
                     f_jobs = agent.crawl_jobs()
                     raw_candidates.extend(f_jobs)
 
-            # 2. Run ATS scrapers for all configured firms
-            crawled_count = 0
+            # 2. Run ATS scrapers for all configured firms in parallel
+            ats_tasks = []
             for firm_name, registry_info in ATS_BOARD_REGISTRY.items():
                 if tier_filter and tier_filter.lower() not in registry_info.get("tier", "").lower():
                     continue
-                
                 # Avoid duplicate crawling if already covered by tailored agent
-                if firm_name in ["Two Sigma", "Point72"]:
+                if firm_name in ["Point72"]:
                     continue
-
                 if registry_info.get("ats") in ["greenhouse", "lever", "ashby"]:
-                    board_jobs = self.ats_scraper.scrape_firm(firm_name, registry_info)
-                    for j in board_jobs:
-                        j["tier"] = registry_info.get("tier", "Tier B: Main Focus / High Conviction")
-                        raw_candidates.append(j)
-                    crawled_count += 1
-                    if max_boards and crawled_count >= max_boards:
-                        break
+                    ats_tasks.append((firm_name, registry_info))
+
+            logger.info(f"Dispatching parallel ATS scrapers across {len(ats_tasks)} employer boards...")
+            with ThreadPoolExecutor(max_workers=20) as executor:
+                fut_map = {
+                    executor.submit(self.ats_scraper.scrape_firm, fn, reg): (fn, reg)
+                    for fn, reg in ats_tasks
+                }
+                crawled_count = 0
+                for fut in as_completed(fut_map):
+                    fn, reg = fut_map[fut]
+                    try:
+                        board_jobs = fut.result()
+                        for j in board_jobs:
+                            j["tier"] = reg.get("tier", "Tier B: Main Focus / High Conviction")
+                            raw_candidates.append(j)
+                        crawled_count += 1
+                        if max_boards and crawled_count >= max_boards:
+                            break
+                    except Exception as e:
+                        logger.error(f"Error scraping {fn}: {e}")
 
         # 3. Filter & Score candidates against target quantitative finance 2027 profile
         scored_jobs = []
@@ -246,6 +268,8 @@ class CrawlAgent:
                 enriched_job["priority_tier"] = tier_str
                 enriched_job["priority_tag"] = firm_info.get("priority_tag", "Main Focus")
                 enriched_job["industry_sector"] = firm_info.get("industry_sector") or "Quantitative Hedge Funds"
+                enriched_job["official_careers_url"] = firm_info.get("official_careers_url") or ""
+                enriched_job["posted_pay_range"] = job.get("posted_pay_range") or extract_posted_pay_range(job)
                 scored_jobs.append(enriched_job)
 
         # 4. Sort by Suitability Score descending, then tier
@@ -260,6 +284,28 @@ class CrawlAgent:
         active_jobs_count = len([j for j in updated_jobs if j.get("status") in ("ACTIVE", "NEW", "REOPENED")])
         inactive_jobs_count = len([j for j in updated_jobs if j.get("status") == "INACTIVE"])
 
+        # Build comprehensive target firms directory containing all monitored employers
+        active_counts = Counter(
+            j.get("firm_name") for j in updated_jobs if j.get("status") in ("ACTIVE", "NEW", "REOPENED")
+        )
+        firms_directory = []
+        for f_row in self.all_firms_list:
+            fn = f_row.get("firm_name", "").strip()
+            if not fn:
+                continue
+            f_meta = self.firm_meta.get(fn) or self.firm_meta.get(fn.lower(), {})
+            firms_directory.append({
+                "firm_name": fn,
+                "industry_sector": f_meta.get("industry_sector", f_row.get("industry_sector", "Quantitative Hedge Funds")),
+                "priority_tier": f_meta.get("priority_tier", f_row.get("priority_tier", "Tier B: Main Focus")),
+                "priority_tag": f_meta.get("priority_tag", f_row.get("priority_tag", "Main Focus")),
+                "estimated_comp": f_meta.get("estimated_comp", f_row.get("estimated_first_year_comp", "$250,000 - $400,000+")),
+                "comp_benchmark_delta": f_meta.get("comp_delta", f_row.get("comp_benchmark_delta", "Significantly Above Benchmark")),
+                "difficulty_rating": f_meta.get("difficulty_rating", f_row.get("difficulty_rating", "4.0/5")),
+                "official_careers_url": f_meta.get("official_careers_url", f_row.get("official_careers_url", "")),
+                "active_roles_count": active_counts.get(fn, 0)
+            })
+
         # 7. Save live openings feed
         output_payload = {
             "last_updated": datetime.now().isoformat(),
@@ -269,6 +315,8 @@ class CrawlAgent:
                 "benchmark": "Tier B+ High Conviction Priority"
             },
             "stats": {
+                "total_monitored_firms": len(firms_directory),
+                "firms_with_active_openings": len([f for f in firms_directory if f["active_roles_count"] > 0]),
                 "total_live_openings": len(updated_jobs),
                 "active_openings": active_jobs_count,
                 "inactive_openings": inactive_jobs_count,
@@ -277,6 +325,7 @@ class CrawlAgent:
                 "closed_openings": diff_stats["newly_closed"],
                 "total_firms_evaluated": len({j.get("firm_name") for j in updated_jobs})
             },
+            "firms_directory": firms_directory,
             "openings": updated_jobs
         }
 

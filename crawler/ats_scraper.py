@@ -1,6 +1,10 @@
+import os
+import json
 import requests
 import logging
 from typing import Dict, List, Any, Optional
+
+from crawler.salary_extractor import extract_posted_pay_range
 
 logger = logging.getLogger("ATSScraper")
 
@@ -9,7 +13,7 @@ logger = logging.getLogger("ATSScraper")
 ATS_BOARD_REGISTRY = {
     # Tier A & B Proprietary Trading & Market Making
     "Jump Trading": {"ats": "greenhouse", "token": "jumptrading", "tier": "Tier A: Too Hard"},
-    "Jane Street": {"ats": "custom", "token": "janestreet", "tier": "Tier A: Too Hard"},
+    "Jane Street": {"ats": "greenhouse", "token": "janestreet", "tier": "Tier A: Too Hard"},
     "Hudson River Trading": {"ats": "greenhouse", "token": "hudsonrivertrading", "tier": "Tier A: Too Hard"},
     "Citadel": {"ats": "custom", "token": "citadel", "tier": "Tier A: Too Hard"},
     "Citadel Securities": {"ats": "custom", "token": "citadel-securities", "tier": "Tier A: Too Hard"},
@@ -21,14 +25,16 @@ ATS_BOARD_REGISTRY = {
     "SIG": {"ats": "custom", "token": "sig", "tier": "Tier B: Main Focus"},
     "Virtu Financial": {"ats": "greenhouse", "token": "virtufinancial", "tier": "Tier B: Main Focus"},
     "Old Mission Capital": {"ats": "greenhouse", "token": "oldmissioncapital", "tier": "Tier B: Main Focus"},
-    "Five Rings": {"ats": "greenhouse", "token": "fiverings", "tier": "Tier A: Too Hard"},
+    "Five Rings": {"ats": "greenhouse", "token": "fiveringsllc", "tier": "Tier A: Too Hard"},
     "Tower Research Capital": {"ats": "greenhouse", "token": "towerresearchcapital", "tier": "Tier B: Main Focus"},
-    "Valkyrie Trading": {"ats": "greenhouse", "token": "valkyrietrading", "tier": "Tier B: Main Focus"},
+    "Valkyrie Trading": {"ats": "lever", "token": "valkyrietrading", "tier": "Tier B: Main Focus"},
     "Volant Trading": {"ats": "greenhouse", "token": "volanttrading", "tier": "Tier B: Main Focus"},
     "TransMarket Group": {"ats": "greenhouse", "token": "transmarketgroup", "tier": "Tier B: Main Focus"},
-    "Belvedere Trading": {"ats": "greenhouse", "token": "belvederetrading", "tier": "Tier B: Main Focus"},
+    "Belvedere Trading": {"ats": "lever", "token": "belvederetrading", "tier": "Tier B: Main Focus"},
     "Geneva Trading": {"ats": "greenhouse", "token": "genevatrading", "tier": "Tier B: Main Focus"},
     "Peak6 Investments": {"ats": "greenhouse", "token": "peak6", "tier": "Tier B: Main Focus"},
+    "DV Trading": {"ats": "greenhouse", "token": "dvtrading", "tier": "Tier B: Main Focus"},
+    "Maven Securities": {"ats": "ashby", "token": "maven", "tier": "Tier B: Main Focus"},
 
     # Quantitative Hedge Funds & Multi-Managers
     "Two Sigma": {"ats": "greenhouse", "token": "twosigma", "tier": "Tier A: Too Hard"},
@@ -37,7 +43,7 @@ ATS_BOARD_REGISTRY = {
     "Balyasny Asset Management": {"ats": "greenhouse", "token": "balyasnyassetmanagement", "tier": "Tier A: Too Hard"},
     "ExodusPoint Capital": {"ats": "greenhouse", "token": "exoduspoint", "tier": "Tier B: Main Focus"},
     "Schonfeld Strategic Advisors": {"ats": "greenhouse", "token": "schonfeld", "tier": "Tier B: Main Focus"},
-    "AQR Capital Management": {"ats": "custom", "token": "aqr", "tier": "Tier B: Main Focus"},
+    "AQR Capital Management": {"ats": "greenhouse", "token": "aqr", "tier": "Tier B: Main Focus"},
     "D.E. Shaw": {"ats": "custom", "token": "deshaw", "tier": "Tier A: Too Hard"},
     "Bridgewater Associates": {"ats": "greenhouse", "token": "bridgewater", "tier": "Tier B: Main Focus"},
     "Man Group": {"ats": "custom", "token": "mangroup", "tier": "Tier B: Main Focus"},
@@ -45,20 +51,54 @@ ATS_BOARD_REGISTRY = {
     "Verition Fund Management": {"ats": "greenhouse", "token": "veritionfundmanagement", "tier": "Tier B: Main Focus"},
     "Qube Research & Technologies": {"ats": "greenhouse", "token": "qrt", "tier": "Tier B: Main Focus"},
     "Cubist Systematic Strategies": {"ats": "greenhouse", "token": "point72", "tier": "Tier A: Too Hard"},
-    "Squarepoint Capital": {"ats": "custom", "token": "squarepoint", "tier": "Tier B: Main Focus"},
+    "Squarepoint Capital": {"ats": "greenhouse", "token": "squarepointcapital", "tier": "Tier B: Main Focus"},
+    "Capstone Investment Advisors": {"ats": "greenhouse", "token": "capstoneinvestmentadvisors", "tier": "Tier B: Main Focus"},
+    "Engineers Gate": {"ats": "greenhouse", "token": "engineersgate", "tier": "Tier B: Main Focus"},
+    "Quantbot Technologies": {"ats": "greenhouse", "token": "quantbot-technologies", "tier": "Tier B: Main Focus"},
+    "Viking Global Investors": {"ats": "greenhouse", "token": "vikingglobalinvestors", "tier": "Tier B: Main Focus"},
+    "MIO Partners": {"ats": "greenhouse", "token": "miopartners", "tier": "Tier B: Main Focus"},
+    "HBK Capital Management": {"ats": "greenhouse", "token": "hbkcapitalmanagement", "tier": "Tier B: Main Focus"},
+    "AXQ Capital": {"ats": "greenhouse", "token": "axq", "tier": "Tier B: Main Focus"},
+    "GMO": {"ats": "lever", "token": "gmo", "tier": "Tier B: Main Focus"},
 
     # Frontier AI, Tech & FinTech Giants
     "Stripe": {"ats": "greenhouse", "token": "stripe", "tier": "Tier B: Main Focus"},
     "Databricks": {"ats": "greenhouse", "token": "databricks", "tier": "Tier B: Main Focus"},
     "Anthropic": {"ats": "greenhouse", "token": "anthropic", "tier": "Tier A: Too Hard"},
-    "OpenAI": {"ats": "greenhouse", "token": "openai", "tier": "Tier A: Too Hard"},
+    "OpenAI": {"ats": "ashby", "token": "openai", "tier": "Tier A: Too Hard"},
     "Palantir": {"ats": "greenhouse", "token": "palantirtechnologies", "tier": "Tier B: Main Focus"},
     "Robinhood": {"ats": "greenhouse", "token": "robinhood", "tier": "Tier B: Main Focus"},
     "Coinbase": {"ats": "greenhouse", "token": "coinbase", "tier": "Tier B: Main Focus"},
-    "Plaid": {"ats": "greenhouse", "token": "plaid", "tier": "Tier B: Main Focus"},
+    "Plaid": {"ats": "ashby", "token": "plaid", "tier": "Tier B: Main Focus"},
     "Ramp": {"ats": "ashby", "token": "ramp", "tier": "Tier B: Main Focus"},
     "Brex": {"ats": "greenhouse", "token": "brex", "tier": "Tier B: Main Focus"},
+    "Scale AI": {"ats": "greenhouse", "token": "scaleai", "tier": "Tier B: Main Focus"},
+    "Snowflake": {"ats": "ashby", "token": "snowflake", "tier": "Tier B: Main Focus"},
+    "Block (Cash App)": {"ats": "greenhouse", "token": "block", "tier": "Tier B: Main Focus"},
+    "Chime": {"ats": "greenhouse", "token": "chime", "tier": "Tier B: Main Focus"},
+    "SoFi": {"ats": "greenhouse", "token": "sofi", "tier": "Tier B: Main Focus"},
+    "Upstart": {"ats": "greenhouse", "token": "upstart", "tier": "Tier B: Main Focus"},
+    "MerQube": {"ats": "greenhouse", "token": "merqube", "tier": "Tier B: Main Focus"},
+    "Numerix": {"ats": "greenhouse", "token": "numerix", "tier": "Tier B: Main Focus"},
+    "SESCO": {"ats": "greenhouse", "token": "sesco", "tier": "Tier B: Main Focus"},
 }
+
+# Auto-merge any newly discovered boards from data/discovered_ats_boards.json
+_base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+_discovered_path = os.path.join(_base_dir, "data", "discovered_ats_boards.json")
+if os.path.exists(_discovered_path):
+    try:
+        with open(_discovered_path, "r", encoding="utf-8") as _df:
+            _disc = json.load(_df)
+            for _fname, _info in _disc.items():
+                if _fname not in ATS_BOARD_REGISTRY:
+                    ATS_BOARD_REGISTRY[_fname] = {
+                        "ats": _info["ats"],
+                        "token": _info["token"],
+                        "tier": _info.get("tier", "Tier B: Main Focus")
+                    }
+    except Exception as _e:
+        logger.warning(f"Could not auto-load discovered ATS boards: {_e}")
 
 DEFAULT_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
@@ -94,10 +134,9 @@ class ATSScraper:
                     depts = [d.get("name") for d in rj.get("departments", []) if isinstance(d, dict) and d.get("name")]
                     dept_str = ", ".join(depts) if depts else ""
                     
-                    # Content snippet
                     content = rj.get("content", "") or ""
 
-                    jobs.append({
+                    job_entry = {
                         "job_id": f"gh_{board_token}_{job_id}",
                         "firm_name": firm_name,
                         "title": title,
@@ -107,7 +146,10 @@ class ATSScraper:
                         "source_ats": "Greenhouse",
                         "description": content,
                         "updated_at": rj.get("updated_at")
-                    })
+                    }
+                    # Extract posted salary disclosure
+                    job_entry["posted_pay_range"] = extract_posted_pay_range(job_entry)
+                    jobs.append(job_entry)
             else:
                 logger.warning(f"Greenhouse board {board_token} returned HTTP {resp.status_code}")
         except Exception as e:
@@ -134,7 +176,7 @@ class ATSScraper:
                     team = categories.get("team", "") if isinstance(categories, dict) else ""
                     description = rj.get("descriptionPlain", "") or ""
 
-                    jobs.append({
+                    job_entry = {
                         "job_id": f"lever_{site_token}_{job_id}",
                         "firm_name": firm_name,
                         "title": title,
@@ -144,11 +186,55 @@ class ATSScraper:
                         "source_ats": "Lever",
                         "description": description,
                         "updated_at": rj.get("createdAt")
-                    })
+                    }
+                    # Extract posted salary disclosure
+                    job_entry["posted_pay_range"] = extract_posted_pay_range(job_entry)
+                    jobs.append(job_entry)
             else:
                 logger.warning(f"Lever board {site_token} returned HTTP {resp.status_code}")
         except Exception as e:
             logger.error(f"Error scraping Lever board {site_token}: {e}")
+        return jobs
+
+    def scrape_ashby_board(self, site_token: str, firm_name: str) -> List[Dict[str, Any]]:
+        """
+        Fetches live postings via Ashby API:
+        GET https://api.ashbyhq.com/posting-api/job-board/{site_token}
+        """
+        url = f"https://api.ashbyhq.com/posting-api/job-board/{site_token}"
+        jobs = []
+        try:
+            resp = self.session.get(url, timeout=self.timeout)
+            if resp.status_code == 200:
+                data = resp.json()
+                raw_jobs = data.get("jobs", [])
+                for rj in raw_jobs:
+                    job_id = str(rj.get("id", ""))
+                    title = rj.get("title", "")
+                    job_url = rj.get("jobUrl", "") or f"https://jobs.ashbyhq.com/{site_token}/{job_id}"
+                    loc = rj.get("location", "Unknown")
+                    dept = rj.get("department", "") or rj.get("team", "")
+                    desc = rj.get("descriptionPlain", "") or rj.get("descriptionHtml", "") or ""
+                    comp = rj.get("compensation")
+
+                    job_entry = {
+                        "job_id": f"ashby_{site_token}_{job_id}",
+                        "firm_name": firm_name,
+                        "title": title,
+                        "location": loc,
+                        "department": dept,
+                        "url": job_url,
+                        "source_ats": "Ashby",
+                        "description": desc,
+                        "raw_compensation": comp,
+                        "updated_at": rj.get("publishedAt")
+                    }
+                    job_entry["posted_pay_range"] = extract_posted_pay_range(job_entry)
+                    jobs.append(job_entry)
+            else:
+                logger.warning(f"Ashby board {site_token} returned HTTP {resp.status_code}")
+        except Exception as e:
+            logger.error(f"Error scraping Ashby board {site_token}: {e}")
         return jobs
 
     def scrape_firm(self, firm_name: str, ats_meta: Dict[str, Any]) -> List[Dict[str, Any]]:
@@ -158,5 +244,7 @@ class ATSScraper:
             return self.scrape_greenhouse_board(token, firm_name)
         elif ats_type == "lever":
             return self.scrape_lever_board(token, firm_name)
+        elif ats_type == "ashby":
+            return self.scrape_ashby_board(token, firm_name)
         else:
             return []

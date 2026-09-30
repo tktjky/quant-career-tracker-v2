@@ -69,18 +69,19 @@ function populateIndustryFilter() {
 }
 
 function updateStats() {
-  const total = allOpenings.length;
   const activeCount = allOpenings.filter(j => j.status !== "INACTIVE").length;
   const high = allOpenings.filter(j => (j.suitability_score || 0) >= 80).length;
   const newlyDiscovered = allOpenings.filter(j => j.status === "NEW").length;
-  const uniqueFirms = new Set(allOpenings.map(j => j.firm_name)).size;
+  const hiringFirms = new Set(allOpenings.filter(j => j.status !== "INACTIVE").map(j => j.firm_name)).size;
+  const totalMonitoredFirms = (trackerMeta.firms_directory ? trackerMeta.firms_directory.length : (trackerMeta.stats ? trackerMeta.stats.total_monitored_firms : 268)) || 268;
 
-  document.getElementById("stat-total").innerText = activeCount;
-  document.getElementById("stat-high").innerText = high;
-  document.getElementById("stat-new").innerText = newlyDiscovered;
-  document.getElementById("stat-firms").innerText = uniqueFirms;
+  if (document.getElementById("stat-total")) document.getElementById("stat-total").innerText = activeCount;
+  if (document.getElementById("stat-high")) document.getElementById("stat-high").innerText = high;
+  if (document.getElementById("stat-new")) document.getElementById("stat-new").innerText = newlyDiscovered;
+  if (document.getElementById("stat-firms")) document.getElementById("stat-firms").innerText = totalMonitoredFirms;
+  if (document.getElementById("stat-hiring-firms")) document.getElementById("stat-hiring-firms").innerText = hiringFirms;
 
-  if (trackerMeta.last_updated) {
+  if (trackerMeta.last_updated && document.getElementById("last-updated-label")) {
     const d = new Date(trackerMeta.last_updated);
     document.getElementById("last-updated-label").innerText = `Last Agent Crawl: ${d.toLocaleString()}`;
   }
@@ -101,7 +102,6 @@ function toggleCompany(firmKey) {
 function toggleExpandAll() {
   const btnText = document.getElementById("toggle-all-text");
   if (!isAllExpanded) {
-    // Expand all visible companies
     document.querySelectorAll(".company-card").forEach(card => {
       const firmKey = card.getAttribute("data-firm-key");
       if (firmKey) expandedCompanies.add(firmKey);
@@ -110,7 +110,6 @@ function toggleExpandAll() {
     isAllExpanded = true;
     if (btnText) btnText.innerText = "Collapse All";
   } else {
-    // Collapse all
     document.querySelectorAll(".company-card").forEach(card => {
       card.classList.remove("expanded");
     });
@@ -134,6 +133,7 @@ function renderCards() {
   const container = document.getElementById("jobs-container");
   const search = document.getElementById("filter-search").value.toLowerCase().trim();
   const sortOption = document.getElementById("filter-sort") ? document.getElementById("filter-sort").value : "newest";
+  const viewScope = document.getElementById("filter-view-scope") ? document.getElementById("filter-view-scope").value : "ALL_FIRMS";
   const tierFilter = document.getElementById("filter-tier").value;
   const industryFilter = document.getElementById("filter-industry") ? document.getElementById("filter-industry").value : "ALL";
   const scoreFilter = document.getElementById("filter-score").value;
@@ -143,7 +143,7 @@ function renderCards() {
   const filteredJobs = allOpenings.filter(job => {
     // Text search
     if (search) {
-      const matchText = `${job.firm_name} ${job.title} ${job.location} ${job.department || ''} ${job.industry_sector || ''}`.toLowerCase();
+      const matchText = `${job.firm_name} ${job.title} ${job.location} ${job.department || ''} ${job.industry_sector || ''} ${job.posted_pay_range || ''}`.toLowerCase();
       if (!matchText.includes(search)) return false;
     }
 
@@ -175,9 +175,30 @@ function renderCards() {
     return true;
   });
 
-  // 2. Group by Company
+  // 2. Build Company Map
   const companyMap = new Map();
 
+  // Populate from firms_directory if viewScope allows all firms
+  const directory = trackerMeta.firms_directory || [];
+  if (viewScope === "ALL_FIRMS" && directory.length > 0) {
+    for (const f of directory) {
+      companyMap.set(f.firm_name, {
+        firm_name: f.firm_name,
+        priority_tier: f.priority_tier || "Tier B: Main Focus",
+        priority_tag: f.priority_tag || "Main Focus",
+        industry_sector: f.industry_sector || "Quantitative Hedge Funds",
+        estimated_comp: f.estimated_comp || "$250,000 - $400,000+",
+        comp_benchmark_delta: f.comp_benchmark_delta || "Significantly Above Benchmark",
+        official_careers_url: f.official_careers_url || "",
+        has_new: false,
+        max_score: 0,
+        latest_date: null,
+        jobs: []
+      });
+    }
+  }
+
+  // Populate active jobs
   for (const job of filteredJobs) {
     const firm = job.firm_name || "Unknown Firm";
     let sector = job.industry_sector;
@@ -194,6 +215,7 @@ function renderCards() {
         industry_sector: sector,
         estimated_comp: job.estimated_comp || "$250,000 - $400,000+",
         comp_benchmark_delta: job.comp_benchmark_delta || "Significantly Above Benchmark",
+        official_careers_url: job.official_careers_url || "",
         has_new: false,
         max_score: 0,
         latest_date: null,
@@ -203,7 +225,9 @@ function renderCards() {
 
     const group = companyMap.get(firm);
     group.jobs.push(job);
-
+    if (job.official_careers_url && !group.official_careers_url) {
+      group.official_careers_url = job.official_careers_url;
+    }
     if (job.status === "NEW") group.has_new = true;
     if ((job.suitability_score || 0) > group.max_score) {
       group.max_score = job.suitability_score || 0;
@@ -214,13 +238,35 @@ function renderCards() {
     }
   }
 
-  const companies = Array.from(companyMap.values());
+  let companies = Array.from(companyMap.values());
+
+  // Apply filters to companies when in ALL_FIRMS mode
+  if (tierFilter !== "ALL") {
+    companies = companies.filter(c => (c.priority_tier || "").includes(tierFilter));
+  }
+  if (industryFilter !== "ALL") {
+    companies = companies.filter(c => {
+      const sec = c.industry_sector || "";
+      return sec === industryFilter || sec.toLowerCase().includes(industryFilter.toLowerCase());
+    });
+  }
+  if (viewScope === "ACTIVE_ONLY") {
+    companies = companies.filter(c => c.jobs.length > 0);
+  }
+  if (search) {
+    companies = companies.filter(c => {
+      const cText = `${c.firm_name} ${c.industry_sector} ${c.priority_tier}`.toLowerCase();
+      const hasJobMatch = c.jobs.some(j => `${j.title} ${j.location}`.toLowerCase().includes(search));
+      return cText.includes(search) || hasJobMatch;
+    });
+  }
 
   // 3. Sort companies according to selected order
   companies.sort((a, b) => {
     if (sortOption === "newest") {
-      // Companies with NEW jobs first, then by latest date or max score
       if (a.has_new !== b.has_new) return b.has_new ? 1 : -1;
+      if (a.jobs.length > 0 && b.jobs.length === 0) return -1;
+      if (b.jobs.length > 0 && a.jobs.length === 0) return 1;
       if (a.latest_date && b.latest_date && a.latest_date.getTime() !== b.latest_date.getTime()) {
         return b.latest_date.getTime() - a.latest_date.getTime();
       }
@@ -241,15 +287,16 @@ function renderCards() {
   });
 
   // Count summary
-  document.getElementById("feed-count-label").innerText = `Showing ${companies.length} Companies (${filteredJobs.length} Roles)`;
+  const activeRolesInView = companies.reduce((acc, c) => acc + c.jobs.length, 0);
+  document.getElementById("feed-count-label").innerText = `Showing ${companies.length} Employers (${activeRolesInView} Active Postings)`;
 
   if (companies.length === 0) {
     container.innerHTML = `
       <div class="empty-state">
         <i class="fa-solid fa-folder-open fa-2x"></i>
-        <p style="margin-top: 10px; font-weight: 600;">No postings matched your filter criteria.</p>
+        <p style="margin-top: 10px; font-weight: 600;">No postings or firms matched your filter criteria.</p>
         <p style="font-size: 0.85rem; color: #9ca3af; margin-top: 4px;">
-          Try adjusting the priority tier or lowering the suitability threshold.
+          Try adjusting the filter options or clearing the search query.
         </p>
       </div>
     `;
@@ -298,6 +345,11 @@ function renderCards() {
         statusBadge = `<span class="badge-pill pill-status-new"><i class="fa-solid fa-sparkles"></i> NEW</span>`;
       }
 
+      let payRangeBadge = "";
+      if (j.posted_pay_range) {
+        payRangeBadge = `<span class="pill-pay-posted" title="Stated compensation disclosure from employer posting"><i class="fa-solid fa-money-bill-wave"></i> Stated Base: ${escapeHtml(j.posted_pay_range)}</span>`;
+      }
+
       const signalsList = (j.matched_signals || []).slice(0, 2).map(s => `<li>${escapeHtml(s)}</li>`).join("");
 
       return `
@@ -306,6 +358,7 @@ function renderCards() {
             <div class="job-main-title">
               <span>${escapeHtml(j.title)}</span>
               ${statusBadge}
+              ${payRangeBadge}
             </div>
 
             <div class="job-main-meta">
@@ -357,6 +410,11 @@ function renderCards() {
                 <span class="badge-pill ${tierBadgeClass}">${escapeHtml(pTier ? pTier.split(':')[0] : comp.priority_tag)}</span>
                 <span class="badge-pill pill-industry"><i class="fa-solid fa-building-columns"></i> ${escapeHtml(comp.industry_sector)}</span>
                 ${comp.has_new ? `<span class="badge-pill pill-status-new"><i class="fa-solid fa-sparkles"></i> NEW ROLES</span>` : ''}
+                ${comp.official_careers_url ? `
+                  <a href="${escapeHtml(comp.official_careers_url)}" target="_blank" rel="noopener noreferrer" class="btn-official-career" onclick="event.stopPropagation()">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Official Careers Page
+                  </a>
+                ` : ''}
               </div>
             </div>
 
@@ -368,15 +426,22 @@ function renderCards() {
           </div>
 
           <div class="company-meta-right">
-            <div class="score-badge ${topScoreClass}" title="Top Role Fit Score">
-              <i class="fa-solid fa-crosshairs"></i>
-              <span>${comp.max_score}% Top Match</span>
-            </div>
+            ${comp.jobs.length > 0 ? `
+              <div class="score-badge ${topScoreClass}" title="Top Role Fit Score">
+                <i class="fa-solid fa-crosshairs"></i>
+                <span>${comp.max_score}% Top Match</span>
+              </div>
 
-            <div class="openings-count-pill">
-              <i class="fa-solid fa-briefcase"></i>
-              <span>${comp.jobs.length} ${comp.jobs.length === 1 ? 'Role' : 'Roles'}</span>
-            </div>
+              <div class="openings-count-pill">
+                <i class="fa-solid fa-briefcase"></i>
+                <span>${comp.jobs.length} ${comp.jobs.length === 1 ? 'Role' : 'Roles'}</span>
+              </div>
+            ` : `
+              <div class="openings-count-pill zero-roles" title="Monitored ATS Endpoints">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+                <span>0 Active Roles Monitored</span>
+              </div>
+            `}
 
             <div class="chevron-toggle">
               <i class="fa-solid fa-chevron-down"></i>
@@ -385,13 +450,28 @@ function renderCards() {
         </div>
 
         <div class="company-jobs-drawer">
-          <div class="drawer-header">
-            <span>Available Full-Time Entry-Level / Junior Postings (${comp.jobs.length})</span>
-            <span style="font-size: 0.72rem; color: #64748b;">Click to apply directly on verified portal</span>
-          </div>
-          <div class="drawer-jobs-list">
-            ${jobsHtml}
-          </div>
+          ${comp.jobs.length > 0 ? `
+            <div class="drawer-header">
+              <span>Available Full-Time Entry-Level / Junior Postings (${comp.jobs.length})</span>
+              <span style="font-size: 0.72rem; color: #64748b;">Click to apply directly on verified portal</span>
+            </div>
+            <div class="drawer-jobs-list">
+              ${jobsHtml}
+            </div>
+          ` : `
+            <div class="drawer-empty-msg">
+              <i class="fa-solid fa-radar fa-lg" style="color: #60a5fa; margin-bottom: 8px; display: block;"></i>
+              <strong>Currently Monitoring Public ATS & Web Feeds for ${escapeHtml(comp.firm_name)}</strong>
+              <p style="margin-top: 6px; font-size: 0.82rem;">No active full-time junior or new-grad quantitative roles currently detected on public boards. Check their official careers portal directly:</p>
+              ${comp.official_careers_url ? `
+                <div style="margin-top: 12px;">
+                  <a href="${escapeHtml(comp.official_careers_url)}" target="_blank" rel="noopener noreferrer" class="btn-official-career">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Visit ${escapeHtml(comp.firm_name)} Official Careers Page
+                  </a>
+                </div>
+              ` : ''}
+            </div>
+          `}
         </div>
       </div>
     `;

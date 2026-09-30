@@ -149,7 +149,68 @@ class TestJobTrackerV2(unittest.TestCase):
                     f"Found senior/experienced posting in live dataset: {title}"
                 )
 
+    def test_operational_and_back_office_disqualification(self):
+        operational_jobs = [
+            {"title": "Finance Associate", "location": "New York, NY", "department": "Finance"},
+            {"title": "Fraud Operations Associate", "location": "New York, NY", "department": "Risk"},
+            {"title": "Payment Partner Operations, Associate", "location": "San Francisco, CA", "department": "Ops"},
+            {"title": "Associate General Counsel, Privacy", "location": "San Francisco, CA", "department": "Legal"},
+            {"title": "Compliance Associate", "location": "New York, NY", "department": "Compliance"},
+            {"title": "Digital Communications Associate", "location": "New York, NY", "department": "Comms"},
+        ]
+        for job in operational_jobs:
+            score, analysis = score_job_suitability(job, firm_tier="Tier B: Main Focus")
+            self.assertEqual(score, 0, f"Expected 0 score for operational role: {job['title']}")
+            self.assertIn("DISQUALIFIED", analysis["verdict"])
+            self.assertIn("Non-Quant Operational", analysis["verdict"])
+
+    def test_location_invariance(self):
+        job_base = {
+            "title": "Junior Quantitative Researcher",
+            "department": "Quantitative Alpha Research",
+            "description": "Cross-sectional alpha modeling, statistical arbitrage, and stochastic simulation."
+        }
+        job_nyc = dict(job_base, location="New York, NY")
+        job_dallas = dict(job_base, location="Dallas, TX")
+        job_unknown = dict(job_base, location="Unknown / Remote")
+
+        score_nyc, _ = score_job_suitability(job_nyc, firm_tier="Tier B: Main Focus")
+        score_dallas, _ = score_job_suitability(job_dallas, firm_tier="Tier B: Main Focus")
+        score_unknown, _ = score_job_suitability(job_unknown, firm_tier="Tier B: Main Focus")
+
+        self.assertEqual(score_nyc, score_dallas, "NYC should not receive bonus points over Dallas")
+        self.assertEqual(score_nyc, score_unknown, "Location must be purely descriptive with 0 score boost")
+
+    def test_posted_pay_range_extraction(self):
+        from crawler.salary_extractor import extract_posted_pay_range
+        test_samples = [
+            ({"description": "The base salary range for this role is $175,000 - $250,000 plus bonus."}, "$175,000 - $250,000 / yr"),
+            ({"description": "Base Salary: $150k - $220k. Eligible for equity."}, "$150k - $220k / yr"),
+            ({"description": "Pay range: $65.00 - $95.00 / hour depending on experience."}, "$65.00 - $95.00 / hour"),
+            ({"raw_compensation": {"compensationTierSummary": "$160,000 - $210,000 / year"}}, "$160,000 - $210,000 / year"),
+            ({"description": "No salary disclosure mentioned."}, None)
+        ]
+        for job_dict, expected in test_samples:
+            extracted = extract_posted_pay_range(job_dict)
+            self.assertEqual(extracted, expected)
+
+    def test_target_firms_have_official_careers_urls(self):
+        import csv
+        firms_csv = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "target_firms.csv")
+        self.assertTrue(os.path.exists(firms_csv))
+        with open(firms_csv, "r", encoding="utf-8-sig") as f:
+            reader = csv.DictReader(f)
+            self.assertIn("official_careers_url", reader.fieldnames)
+            rows = list(reader)
+            self.assertGreaterEqual(len(rows), 260)
+            for r in rows:
+                fn = r.get("firm_name", "")
+                url = r.get("official_careers_url", "")
+                self.assertTrue(bool(url), f"Firm '{fn}' has missing official_careers_url")
+                self.assertTrue(url.startswith("http"), f"Firm '{fn}' has invalid url: {url}")
+
 if __name__ == "__main__":
     unittest.main()
+
 
 
