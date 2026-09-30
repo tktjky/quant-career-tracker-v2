@@ -1,83 +1,83 @@
 {
-  "crawl_timestamp": "2026-09-25T15:49:59.495136",
-  "duration_seconds": 3.711212,
+  "crawl_timestamp": "2026-09-30T03:20:11.466565",
+  "duration_seconds": 8.953343,
   "diff_stats": {
-    "total_active_scraped": 569,
-    "new_openings": 560,
-    "retained_active": 9,
-    "newly_closed": 0,
-    "total_tracked_all_time": 569
+    "total_active_scraped": 579,
+    "new_openings": 102,
+    "retained_active": 477,
+    "newly_closed": 89,
+    "total_tracked_all_time": 671
   },
   "top_matches": [
     {
-      "firm": "Akuna Capital",
-      "title": "Quantitative Research Intern, Summer 2027",
-      "location": "Chicago, IL ",
+      "firm": "Two Sigma",
+      "title": "Quantitative Researcher - Campus 2027",
+      "location": "New York, NY",
       "score": 100,
-      "url": "https://www.akunacapital.com/careers/job/8036614/?gh_jid=8036614"
+      "url": "https://www.twosigma.com/careers/position/6930101002/"
     },
     {
-      "firm": "Flow Traders",
-      "title": "Graduate Quantitative Trader",
+      "firm": "Two Sigma",
+      "title": "Quantitative Software Engineer - Campus 2027",
+      "location": "New York, NY",
+      "score": 100,
+      "url": "https://www.twosigma.com/careers/position/6930103002/"
+    },
+    {
+      "firm": "Millennium Management",
+      "title": "Quantitative Research Associate (Class of 2027)",
+      "location": "New York, NY",
+      "score": 100,
+      "url": "https://www.mlp.com/careers/"
+    },
+    {
+      "firm": "Point72",
+      "title": "Equity Quantitative Researcher",
       "location": "New York",
       "score": 100,
-      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8094581"
+      "url": "https://boards.greenhouse.io/point72/jobs/7297561002?gh_jid=7297561002"
     },
     {
-      "firm": "Flow Traders",
-      "title": "PhD Graduate Quantitative Researcher",
+      "firm": "Point72",
+      "title": "Quantitative Researcher Intern",
       "location": "New York",
       "score": 100,
-      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8156203"
+      "url": "https://boards.greenhouse.io/point72/jobs/7586061002?gh_jid=7586061002"
     },
     {
-      "firm": "Flow Traders",
-      "title": "PhD Graduate Quantitative Researcher",
-      "location": "Hong Kong",
+      "firm": "Point72",
+      "title": "Quantitative Researcher - Machine Learning",
+      "location": "New York, London, or Hong Kong",
       "score": 100,
-      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8213037"
+      "url": "https://boards.greenhouse.io/point72/jobs/8023550002?gh_jid=8023550002"
     },
     {
-      "firm": "Flow Traders",
-      "title": "PhD Graduate Quantitative Researcher ",
-      "location": "Amsterdam",
-      "score": 100,
-      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/6492219"
-    },
-    {
-      "firm": "Flow Traders",
-      "title": "Quantitative Trading Intern Summer 2027",
+      "firm": "Point72",
+      "title": "Quantitative Researcher - Machine Learning",
       "location": "New York",
       "score": 100,
-      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8047166"
+      "url": "https://boards.greenhouse.io/point72/jobs/7297513002?gh_jid=7297513002"
     },
     {
-      "firm": "Tower Research Capital",
-      "title": "Machine Learning Engineer",
-      "location": "Hong Kong, Hong Kong",
+      "firm": "Point72",
+      "title": "Quantitative Researcher - Systematic Credit",
+      "location": "Chicago, New York",
       "score": 100,
-      "url": "https://www.tower-research.com/open-positions/?gh_jid=7714667"
+      "url": "https://boards.greenhouse.io/point72/jobs/7297625002?gh_jid=7297625002"
     },
     {
-      "firm": "Tower Research Capital",
-      "title": "Machine Learning Engineer",
-      "location": "Singapore, Singapore",
+      "firm": "Point72",
+      "title": "Summer 2027 Quantitative Research Internship",
+      "location": "New York",
       "score": 100,
-      "url": "https://www.tower-research.com/open-positions/?gh_jid=8020385"
+      "url": "https://boards.greenhouse.io/point72/jobs/7297642002?gh_jid=7297642002"
     },
     {
-      "firm": "Tower Research Capital",
-      "title": "Machine Learning Engineer",
-      "location": "Shanghai, China",
+      "firm": "Goldman Sachs",
+      "title": "Global Markets Quantitative Strategist Associate - 2027 Campus",
+      "location": "New York, NY",
       "score": 100,
-      "url": "https://www.tower-research.com/open-positions/?gh_jid=8020380"
-    },
-    {
-      "firm": "Tower Research Capital",
-      "title": "Quantitative Developer Intern - Summer 2027",
-      "location": "New York, Chicago",
-      "score": 100,
-      "url": "https://www.tower-research.com/open-positions/?gh_jid=8044334"
+      "url": "https://www.goldmansachs.com/careers/students/programs/americas/new-analyst-program.html"
     }
   ]
 }
