@@ -85,6 +85,7 @@ KNOWN_FIRM_PROFILES = {
     "Allspring Global Investments": {"status": "AUTOMATED_FEED", "method": "iCIMS API", "ats": "icims", "token": "allspring", "reason": None},
     "Alger": {"status": "AUTOMATED_FEED", "method": "Jobvite Portal", "ats": "jobvite", "token": "alger", "reason": None},
     "Beacon Platform": {"status": "AUTOMATED_FEED", "method": "Greenhouse API", "ats": "greenhouse", "token": "beaconplatform", "reason": None},
+    "TD Securities": {"status": "AUTOMATED_FEED", "method": "Workday CXS API", "ats": "workday", "token": "td", "reason": None},
 
     # Truly Protected Portals
     "Morgan Stanley": {"status": "UNCRAWLABLE_PORTAL_ONLY", "method": "Direct Portal Monitored", "ats": "workday", "reason": "Enterprise Taleo/Workday Portal"},

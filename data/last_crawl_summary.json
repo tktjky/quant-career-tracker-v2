@@ -1,12 +1,12 @@
 {
-  "crawl_timestamp": "2026-09-30T19:17:28.740416",
-  "duration_seconds": 31.874708,
+  "crawl_timestamp": "2026-09-30T15:19:13.222946",
+  "duration_seconds": 27.063213,
   "diff_stats": {
-    "total_active_scraped": 563,
-    "new_openings": 0,
-    "retained_active": 563,
-    "newly_closed": 0,
-    "total_tracked_all_time": 1012
+    "total_active_scraped": 607,
+    "new_openings": 12,
+    "retained_active": 595,
+    "newly_closed": 1,
+    "total_tracked_all_time": 1024
   },
   "top_matches": [
     {
@@ -17,67 +17,67 @@
       "url": "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional/job/New-York-NY/Associate--Securities-Lending-Quantitative-Research-and-Algorithmic-Trading--BlackRock-Global-Markets--BGM-_R266542"
     },
     {
-      "firm": "Virtu Financial",
-      "title": "Machine Learning Researcher",
-      "location": "New York",
+      "firm": "Tower Research Capital",
+      "title": "Machine Learning Engineer",
+      "location": "Hong Kong, Singapore, Shanghai",
       "score": 100,
-      "url": "https://job-boards.greenhouse.io/virtu/jobs/8477580002"
+      "url": "https://www.tower-research.com/open-positions/?gh_jid=7714667"
     },
     {
-      "firm": "Virtu Financial",
-      "title": "Quantitative Trader ",
-      "location": "Dublin, Ireland",
-      "score": 100,
-      "url": "https://job-boards.greenhouse.io/virtu/jobs/4260204002"
-    },
-    {
-      "firm": "Virtu Financial",
-      "title": "Quantitative Trader ",
-      "location": "Chicago",
-      "score": 100,
-      "url": "https://job-boards.greenhouse.io/virtu/jobs/4326632002"
-    },
-    {
-      "firm": "Virtu Financial",
-      "title": "Quantitative Trader ",
+      "firm": "Tower Research Capital",
+      "title": "Quantitative Developer",
       "location": "Singapore",
       "score": 100,
-      "url": "https://job-boards.greenhouse.io/virtu/jobs/4232867002"
+      "url": "https://www.tower-research.com/open-positions/?gh_jid=5733830"
     },
     {
-      "firm": "Virtu Financial",
-      "title": "Quantitative Trader (PhD)",
-      "location": "Austin, TX",
+      "firm": "Tower Research Capital",
+      "title": "Quantitative Developer ",
+      "location": "Gurgaon",
       "score": 100,
-      "url": "https://job-boards.greenhouse.io/virtu/jobs/8817686002"
+      "url": "https://www.tower-research.com/open-positions/?gh_jid=7102180"
     },
     {
-      "firm": "Flow Traders",
-      "title": "Digital Assets Quantitative Researcher",
-      "location": "Amsterdam",
+      "firm": "Tower Research Capital",
+      "title": "Quantitative Developer (C++)",
+      "location": "Hong Kong, Shanghai",
       "score": 100,
-      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8207306"
+      "url": "https://www.tower-research.com/open-positions/?gh_jid=6296510"
     },
     {
-      "firm": "Flow Traders",
-      "title": "PhD Graduate Quantitative Researcher",
-      "location": "Hong Kong",
+      "firm": "Tower Research Capital",
+      "title": "Quantitative Developer, C++ - Trading Teams EMEA",
+      "location": "London",
       "score": 100,
-      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8213037"
+      "url": "https://www.tower-research.com/open-positions/?gh_jid=7080209"
     },
     {
-      "firm": "Flow Traders",
-      "title": "PhD Graduate Quantitative Researcher",
+      "firm": "Tower Research Capital",
+      "title": "Quantitative Developer, Python",
       "location": "New York",
       "score": 100,
-      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8156203"
+      "url": "https://www.tower-research.com/open-positions/?gh_jid=6384976"
     },
     {
-      "firm": "Flow Traders",
-      "title": "PhD Graduate Quantitative Researcher ",
-      "location": "Amsterdam",
+      "firm": "Tower Research Capital",
+      "title": "Quantitative Developer, Python - Trading Teams EMEA",
+      "location": "London",
       "score": 100,
-      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/6492219"
+      "url": "https://www.tower-research.com/open-positions/?gh_jid=7080219"
+    },
+    {
+      "firm": "Tower Research Capital",
+      "title": "Quantitative Researcher",
+      "location": "Hong Kong",
+      "score": 100,
+      "url": "https://www.tower-research.com/open-positions/?gh_jid=6679938"
+    },
+    {
+      "firm": "Tower Research Capital",
+      "title": "Quantitative Researcher, Central Execution Desk",
+      "location": "New York",
+      "score": 100,
+      "url": "https://www.tower-research.com/open-positions/?gh_jid=7989358"
     }
   ]
 }

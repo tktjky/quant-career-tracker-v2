@@ -578,5 +578,10 @@
     "ats": "greenhouse",
     "token": "beaconplatform",
     "tier": "Tier C2: Same or Below Benchmark"
+  },
+  "TD Securities": {
+    "ats": "workday",
+    "token": "td",
+    "tier": "Tier C1: Same or Above Benchmark"
   }
 }

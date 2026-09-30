@@ -131,6 +131,7 @@ ATS_BOARD_REGISTRY = {
     "CIBC Capital Markets": {"ats": "workday", "token": "cibc", "tier": "Tier C1: Same or Above Benchmark"},
     "American Century Investments": {"ats": "workday", "token": "americancentury", "tier": "Tier C2: Same or Below Benchmark"},
     "Columbia Threadneedle": {"ats": "workday", "token": "columbiathreadneedle", "tier": "Tier C2: Same or Below Benchmark"},
+    "TD Securities": {"ats": "workday", "token": "td", "tier": "Tier C1: Same or Above Benchmark"},
 
     # Workable Portals
     "Capula Investment Management": {"ats": "workable", "token": "capula-investment-management-ltd", "tier": "Tier B: Main Focus"},

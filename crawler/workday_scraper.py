@@ -89,6 +89,11 @@ WORKDAY_REGISTRY = {
         "tenant": "ameriprise",
         "site": "Ameriprise",
     },
+    "TD Securities": {
+        "host": "td.wd3.myworkdayjobs.com",
+        "tenant": "td",
+        "site": "TD_Bank_Careers",
+    },
 }
 
 WORKDAY_SEARCH_TERMS = ["quantitative", "quant", "trading", "data scientist"]
