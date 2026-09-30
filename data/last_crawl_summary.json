@@ -1,10 +1,10 @@
 {
-  "crawl_timestamp": "2026-09-30T15:15:23.111595",
-  "duration_seconds": 19.93768,
+  "crawl_timestamp": "2026-09-30T19:17:28.740416",
+  "duration_seconds": 31.874708,
   "diff_stats": {
-    "total_active_scraped": 603,
+    "total_active_scraped": 563,
     "new_openings": 0,
-    "retained_active": 603,
+    "retained_active": 563,
     "newly_closed": 0,
     "total_tracked_all_time": 1012
   },
@@ -52,32 +52,32 @@
       "url": "https://job-boards.greenhouse.io/virtu/jobs/8817686002"
     },
     {
-      "firm": "Old Mission Capital",
-      "title": "Junior Quantitative Researcher (Ph.D.)",
-      "location": "Chicago, IL, United States",
-      "score": 100,
-      "url": "https://www.oldmissioncapital.com/careers/?gh_jid=6309652003"
-    },
-    {
-      "firm": "Old Mission Capital",
-      "title": "Quantitative Researcher (Ph.D.) - 2027 Graduate Program - (August Start)",
-      "location": "Chicago, IL, United States",
-      "score": 100,
-      "url": "https://www.oldmissioncapital.com/careers/?gh_jid=7814534003"
-    },
-    {
-      "firm": "Old Mission Capital",
-      "title": "Quantitative Trader (Options)",
-      "location": "Chicago, IL, United States",
-      "score": 100,
-      "url": "https://www.oldmissioncapital.com/careers/?gh_jid=6088836003"
-    },
-    {
       "firm": "Flow Traders",
       "title": "Digital Assets Quantitative Researcher",
       "location": "Amsterdam",
       "score": 100,
       "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8207306"
+    },
+    {
+      "firm": "Flow Traders",
+      "title": "PhD Graduate Quantitative Researcher",
+      "location": "Hong Kong",
+      "score": 100,
+      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8213037"
+    },
+    {
+      "firm": "Flow Traders",
+      "title": "PhD Graduate Quantitative Researcher",
+      "location": "New York",
+      "score": 100,
+      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8156203"
+    },
+    {
+      "firm": "Flow Traders",
+      "title": "PhD Graduate Quantitative Researcher ",
+      "location": "Amsterdam",
+      "score": 100,
+      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/6492219"
     }
   ]
 }
