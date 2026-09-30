@@ -180,12 +180,18 @@ function renderCards() {
 
   for (const job of filteredJobs) {
     const firm = job.firm_name || "Unknown Firm";
+    let sector = job.industry_sector;
+    if (!sector || sector === "Quantitative Finance") {
+      sector = "Quantitative Hedge Funds";
+      job.industry_sector = sector;
+    }
+
     if (!companyMap.has(firm)) {
       companyMap.set(firm, {
         firm_name: firm,
         priority_tier: job.priority_tier || "Tier B: Main Focus",
         priority_tag: job.priority_tag || "Main Focus",
-        industry_sector: job.industry_sector || "Quantitative Finance",
+        industry_sector: sector,
         estimated_comp: job.estimated_comp || "$250,000 - $400,000+",
         comp_benchmark_delta: job.comp_benchmark_delta || "Significantly Above Benchmark",
         has_new: false,

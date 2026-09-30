@@ -4789,7 +4789,7 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "priority_tier": "Tier B: Main Focus",
       "priority_tag": "Main Focus",
-      "industry_sector": "Quantitative Finance",
+      "industry_sector": "Quantitative Hedge Funds",
       "key": "WorldQuant::gh_worldquant_4705539006",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T00:30:14.964793",
@@ -5069,7 +5069,7 @@ window.LIVE_OPENINGS_DATA = {
       "first_seen": "2026-09-25T15:49:59.455531",
       "last_seen": "2026-09-30T04:51:09.347998",
       "consecutive_misses": 0,
-      "industry_sector": "Quantitative Finance",
+      "industry_sector": "Quantitative Hedge Funds",
       "url_status": 200
     },
     {
@@ -6193,7 +6193,7 @@ window.LIVE_OPENINGS_DATA = {
       "first_seen": "2026-09-25T15:49:59.455531",
       "last_seen": "2026-09-30T04:51:09.347998",
       "consecutive_misses": 0,
-      "industry_sector": "Quantitative Finance",
+      "industry_sector": "Quantitative Hedge Funds",
       "url_status": 200
     },
     {
@@ -6223,9 +6223,73 @@ window.LIVE_OPENINGS_DATA = {
       "key": "WorldQuant::gh_worldquant_4069466006",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T04:51:09.347998",
+      "last_seen": "2026-09-30T04:44:46.527291",
       "consecutive_misses": 0,
-      "industry_sector": "Quantitative Finance",
+      "industry_sector": "Quantitative Hedge Funds",
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_worldquant_4673030006",
+      "firm_name": "WorldQuant",
+      "title": "Quantitative Researcher",
+      "location": "Mumbai",
+      "department": "Research",
+      "url": "https://job-boards.greenhouse.io/worldquant/jobs/4673030006",
+      "source_ats": "Greenhouse",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;WorldQuant develops and deploys systematic financial strategies across a broad range of asset classes and global markets. We seek to produce high-quality predictive signals (alphas) through our proprietary research platform to employ financial strategies focused on market inefficiencies. Our teams work collaboratively to drive the production of alphas and financial strategies – the foundation of a balanced, global investment platform.&lt;/p&gt;\n&lt;p&gt;WorldQuant is built on a culture that pairs academic sensibility with accountability for results. Employees are encouraged to think openly about problems, balancing intellectualism and practicality. Excellent ideas come from anyone, anywhere. Employees are encouraged to challenge conventional thinking and possess an attitude of continuous improvement.&lt;/p&gt;\n&lt;p&gt;Our goal is to hire the best and the brightest. We value intellectual horsepower first and foremost, and people who demonstrate an outstanding talent. There is no roadmap to future success, so we need people who can help us build it.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;The Role: &lt;/strong&gt;Research is at the core of WorldQuant. Through rigorous exploration and unconstrained thinking about how to apply data to the financial markets, our researchers are in constant search of new alphas. Researchers at WorldQuant employ tested processes seeking to identify high-quality predictive signals that we believe are undiscovered by the wider market. These signals are mathematical expressions of data that are used as inputs in our quantitative models.&lt;/p&gt;\n&lt;p&gt;WorldQuant is seeking an exceptional individual to join the firm as a Quantitative Researcher. The person must have a strong understanding of the investment research process to create computer-based models that seek to predict movements of global financial markets. While prior finance experience is not required, a successful candidate must possess a strong interest in learning about finance and global markets. Candidates will have a research scientist mind-set; be a self-starter, a creative and persevering deep thinker who is motivated by unsolved challenges.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;WHAT YOU’LL BRING:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Bachelor&#39;s (Hons), Master&#39;s or PhD degree in in a highly quantitative or highly analytical field e.g. Math, Physics, Computer Science or Financial Engineering from a leading university with excellent academic records are strongly preferred&lt;/li&gt;\n&lt;li&gt;Have a research scientist mindset, i.e., be a deep thinker, creative, persevering, smart, a self-starter, etc.&lt;/li&gt;\n&lt;li&gt;Knowledge of Linear Algebra, Statistics, Machine Learning&lt;/li&gt;\n&lt;li&gt;Prior experience in Finance/Trading is a plus.&lt;/li&gt;\n&lt;li&gt;Be competent in a programming language (Python, Unix)&lt;/li&gt;\n&lt;li&gt;Possess good English language skills&lt;/li&gt;\n&lt;li&gt;Have a strong interest in learning about worldwide financial markets&lt;/li&gt;\n&lt;li&gt;Possess a relentless drive to succeed, supplemented by a strong work ethic&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;By submitting this application, you acknowledge and consent to terms of the &lt;a href=&quot;https://www.worldquant.com/privacy-policy/&quot; target=&quot;_blank&quot;&gt;WorldQuant Privacy Policy.&lt;/a&gt; The privacy policy offers an explanation of how and why your data will be collected, how it will be used and disclosed, how it will be retained and secured, and what legal rights are associated with that data (including the rights of access, correction, and deletion). The policy also describes legal and contractual limitations on these rights. The specific rights and obligations of individuals living and working in different areas may vary by jurisdiction.&lt;/p&gt;\n&lt;p&gt;Copyright © 2025 WorldQuant, LLC. All Rights Reserved.&lt;br&gt;WorldQuant is an equal opportunity employer and does not discriminate in hiring on the basis of race, color, creed, religion, sex, sexual orientation or preference, age, marital status, citizenship, national origin, disability, military status, genetic predisposition or carrier status, or any other protected characteristic as established by applicable law.&lt;/p&gt;&lt;/div&gt;",
+      "updated_at": "2026-06-18T10:35:58-04:00",
+      "tier": "Tier B: Main Focus",
+      "suitability_score": 64,
+      "verdict": "STRONG FIT (Competitive)",
+      "recommendation": "Apply (Standard quant package)",
+      "matched_signals": [
+        "Firm Quality Boost (Tier B): +12",
+        "Title match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +35",
+        "Keyword match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +17"
+      ],
+      "penalties": [],
+      "estimated_comp": "$250,000 - $400,000+",
+      "comp_benchmark_delta": "Significantly Above Benchmark",
+      "priority_tier": "Tier B: Main Focus",
+      "priority_tag": "Main Focus",
+      "key": "WorldQuant::gh_worldquant_4673030006",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-25T15:49:59.455531",
+      "last_seen": "2026-09-30T04:44:46.527291",
+      "consecutive_misses": 0,
+      "industry_sector": "Quantitative Hedge Funds",
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_worldquant_4069484006",
+      "firm_name": "WorldQuant",
+      "title": "Quantitative Researcher",
+      "location": "Taipei",
+      "department": "Research",
+      "url": "https://job-boards.greenhouse.io/worldquant/jobs/4069484006",
+      "source_ats": "Greenhouse",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;WorldQuant develops and deploys systematic financial strategies across a broad range of asset classes and global markets. We seek to produce high-quality predictive signals (alphas) through our proprietary research platform to employ financial strategies focused on market inefficiencies. Our teams work collaboratively to drive the production of alphas and financial strategies – the foundation of a balanced, global investment platform.&lt;/p&gt;\n&lt;p&gt;WorldQuant is built on a culture that pairs academic sensibility with accountability for results. Employees are encouraged to think openly about problems, balancing intellectualism and practicality. Excellent ideas come from anyone, anywhere. Employees are encouraged to challenge conventional thinking and possess an attitude of continuous improvement.&lt;/p&gt;\n&lt;p&gt;Our goal is to hire the best and the brightest. We value intellectual horsepower first and foremost, and people who demonstrate an outstanding talent. There is no roadmap to future success, so we need people who can help us build it.&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;The Role:&lt;/strong&gt; Research is at the core of WorldQuant. Through rigorous exploration and unconstrained thinking about how to apply data to the financial markets, our researchers are in constant search of new alphas. Researchers at WorldQuant employ tested processes seeking to identify high-quality predictive signals that we believe are undiscovered by the wider market. These signals are mathematical expressions of data that are used as inputs in our quantitative models.&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div&gt;WorldQuant is seeking an exceptional individual to join the firm as a Quantitative Researcher. The person must have a strong understanding of the investment research process to create computer-based models that seek to predict movements of global financial markets. While prior finance experience is not required, a successful candidate must possess a strong interest in learning about finance and global markets. Candidates will have a research scientist mind-set; be a self-starter, a creative and persevering problem solver who is motivated by unsolved challenges.&lt;/div&gt;\n&lt;div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;h4&gt;&lt;strong&gt;What You’ll Bring:&lt;/strong&gt;&lt;/h4&gt;\n&lt;/div&gt;\n&lt;ul&gt;\n&lt;li&gt;Degree (BEng, MSc and PhD) from a top university in a field, such as: Mathematics, Computer Science, Physics, Electrical engineering or equivalent&lt;/li&gt;\n&lt;li&gt;High GPA and academic grades&lt;/li&gt;\n&lt;li&gt;Research mentality: deep thinker, creative, strong work ethic, persevering, smart &amp;amp; a self-starter&lt;/li&gt;\n&lt;li&gt;Programming skills – C++ and Python predominantly, but newer skills welcomed too&lt;/li&gt;\n&lt;li&gt;Strong interest in learning about worldwide financial markets&lt;/li&gt;\n&lt;li&gt;Strong communication skills in English – including both written and verbal&lt;/li&gt;\n&lt;/ul&gt;\n&lt;div&gt;&lt;strong&gt;As a plus:&lt;/strong&gt;&lt;/div&gt;\n&lt;ul&gt;\n&lt;li&gt;While not required, a strong interest in financial markets will definitely be beneficial. Prior experience in quant research will count as a big plus&lt;/li&gt;\n&lt;li&gt;Strong record of research achievement – examples include scientific publications, conference presentations, grants or industry awards&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;By submitting this application, you acknowledge and consent to terms of the &lt;a href=&quot;https://www.worldquant.com/privacy-policy/&quot; target=&quot;_blank&quot;&gt;WorldQuant Privacy Policy.&lt;/a&gt; The privacy policy offers an explanation of how and why your data will be collected, how it will be used and disclosed, how it will be retained and secured, and what legal rights are associated with that data (including the rights of access, correction, and deletion). The policy also describes legal and contractual limitations on these rights. The specific rights and obligations of individuals living and working in different areas may vary by jurisdiction.&lt;/p&gt;\n&lt;p&gt;Copyright © 2025 WorldQuant, LLC. All Rights Reserved.&lt;br&gt;WorldQuant is an equal opportunity employer and does not discriminate in hiring on the basis of race, color, creed, religion, sex, sexual orientation or preference, age, marital status, citizenship, national origin, disability, military status, genetic predisposition or carrier status, or any other protected characteristic as established by applicable law.&lt;/p&gt;&lt;/div&gt;",
+      "updated_at": "2026-05-04T13:20:10-04:00",
+      "tier": "Tier B: Main Focus",
+      "suitability_score": 64,
+      "verdict": "STRONG FIT (Competitive)",
+      "recommendation": "Apply (Standard quant package)",
+      "matched_signals": [
+        "Firm Quality Boost (Tier B): +12",
+        "Title match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +35",
+        "Keyword match '\\bquant(?:itative)?\\s+research(?:er|)?\\b': +17"
+      ],
+      "penalties": [],
+      "estimated_comp": "$250,000 - $400,000+",
+      "comp_benchmark_delta": "Significantly Above Benchmark",
+      "priority_tier": "Tier B: Main Focus",
+      "priority_tag": "Main Focus",
+      "key": "WorldQuant::gh_worldquant_4069484006",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-25T15:49:59.455531",
+      "last_seen": "2026-09-30T04:44:46.527291",
+      "consecutive_misses": 0,
+      "industry_sector": "Quantitative Hedge Funds",
       "url_status": 200
     },
     {
@@ -6257,7 +6321,7 @@ window.LIVE_OPENINGS_DATA = {
       "first_seen": "2026-09-25T15:49:59.455531",
       "last_seen": "2026-09-30T04:51:09.347998",
       "consecutive_misses": 0,
-      "industry_sector": "Quantitative Finance",
+      "industry_sector": "Quantitative Hedge Funds",
       "url_status": 200
     },
     {
@@ -6321,7 +6385,7 @@ window.LIVE_OPENINGS_DATA = {
       "first_seen": "2026-09-25T15:49:59.455531",
       "last_seen": "2026-09-30T04:51:09.347998",
       "consecutive_misses": 0,
-      "industry_sector": "Quantitative Finance",
+      "industry_sector": "Quantitative Hedge Funds",
       "url_status": 200
     },
     {
@@ -6353,7 +6417,7 @@ window.LIVE_OPENINGS_DATA = {
       "first_seen": "2026-09-25T15:49:59.455531",
       "last_seen": "2026-09-30T04:51:09.347998",
       "consecutive_misses": 0,
-      "industry_sector": "Quantitative Finance",
+      "industry_sector": "Quantitative Hedge Funds",
       "url_status": 200
     },
     {
@@ -6385,7 +6449,7 @@ window.LIVE_OPENINGS_DATA = {
       "first_seen": "2026-09-25T15:49:59.455531",
       "last_seen": "2026-09-30T04:51:09.347998",
       "consecutive_misses": 0,
-      "industry_sector": "Quantitative Finance",
+      "industry_sector": "Quantitative Hedge Funds",
       "url_status": 200
     },
     {
@@ -8768,7 +8832,7 @@ window.LIVE_OPENINGS_DATA = {
       "comp_benchmark_delta": "Significantly Above Benchmark",
       "priority_tier": "Tier B: Main Focus",
       "priority_tag": "Main Focus",
-      "industry_sector": "Quantitative Finance",
+      "industry_sector": "Quantitative Hedge Funds",
       "key": "WorldQuant::gh_worldquant_4408547006",
       "status": "ACTIVE",
       "first_seen": "2026-09-30T00:30:14.964793",
@@ -10571,9 +10635,41 @@ window.LIVE_OPENINGS_DATA = {
       "key": "WorldQuant::gh_worldquant_4648089006",
       "status": "ACTIVE",
       "first_seen": "2026-09-25T15:49:59.455531",
-      "last_seen": "2026-09-30T04:51:09.347998",
+      "last_seen": "2026-09-30T04:44:46.527291",
       "consecutive_misses": 0,
-      "industry_sector": "Quantitative Finance",
+      "industry_sector": "Quantitative Hedge Funds",
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_worldquant_4659364006",
+      "firm_name": "WorldQuant",
+      "title": "Quantitative Developer",
+      "location": "London",
+      "department": "Technology Division",
+      "url": "https://job-boards.greenhouse.io/worldquant/jobs/4659364006",
+      "source_ats": "Greenhouse",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;WorldQuant develops and deploys systematic financial strategies across a broad range of asset classes and global markets. We seek to produce high-quality predictive signals (alphas) through our proprietary research platform to employ financial strategies focused on market inefficiencies. Our teams work collaboratively to drive the production of alphas and financial strategies – the foundation of a balanced, global investment platform.&lt;/p&gt;\n&lt;p&gt;WorldQuant is built on a culture that pairs academic sensibility with accountability for results. Employees are encouraged to think openly about problems, balancing intellectualism and practicality. Excellent ideas come from anyone, anywhere. Employees are encouraged to challenge conventional thinking and possess an attitude of continuous improvement.&lt;/p&gt;\n&lt;p&gt;Our goal is to hire the best and the brightest. We value intellectual horsepower first and foremost, and people who demonstrate an outstanding talent. There is no roadmap to future success, so we need people who can help us build it.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;Technologists at WorldQuant research, design, code, test and deploy projects while working collaboratively with researchers and portfolio managers. Our environment is relaxed yet intellectually driven. We seek people who think in code and are motivated by being around like-minded people.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt; We are looking for an exceptionally strong software engineer to join our Technology organization at WorldQuant. You will be part of a business-facing team responsible for building and evolving the core systems that power our Quant strategies. This is an AI-forward team: large language models (LLMs) and AI agents are part of our daily workflow — from writing and reviewing code, to automating operational toil, to building internal copilots and agentic tools that the whole team relies on. You won&#39;t just use AI to move faster; you&#39;ll help shape how it&#39;s applied across our engineering practice.&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Design and build data pipelines and the data layer.&lt;/li&gt;\n&lt;li&gt;Develop and maintain the computational frameworks and infrastructure that run our quantitative strategies at scale.&lt;/li&gt;\n&lt;li&gt;Implement and enhance quant-related software systems for data, research, portfolio construction, and trading.&lt;/li&gt;\n&lt;li&gt;Work closely with Researchers, and Quants as a hands-on engineering partner, helping them turn ideas into robust production solutions.&lt;/li&gt;\n&lt;li&gt;Gain exposure to the full lifecycle of the systematic/quant business, from data ingestion through research, implementation.&lt;/li&gt;\n&lt;li&gt;Build and integrate AI-powered tooling - LLM agents, copilots, and automation - into engineering and research workflows.&lt;/li&gt;\n&lt;li&gt;Use AI coding assistants and agentic developer tools to ship higher-quality software faster.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;strong&gt;What You’ll Bring:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Degree in a technical or quantitative discipline from a top tier institution.&lt;/li&gt;\n&lt;li&gt;3 to 8 years of working experience in software engineering.&lt;/li&gt;\n&lt;li&gt;Demonstrated ability to program in Python (preferred) or C++ on Linux/Unix platforms, familiarity with scripting languages.&lt;/li&gt;\n&lt;li&gt;Experience with effective code version control, as well as Continuous Integration and Deployment.&lt;/li&gt;\n&lt;li&gt;Exceptional communication skills in both verbal and written form.&lt;/li&gt;\n&lt;li&gt;Excellent problem-solving abilities and judgment with strong attention to detail.&lt;/li&gt;\n&lt;li&gt;Mature and thoughtful, with the ability to operate in a collaborative, team-oriented culture.&lt;/li&gt;\n&lt;li&gt;Motivated by the transformational effects of technology-at-scale.&lt;/li&gt;\n&lt;li&gt;Experience with AI technologies, such as LLMs and agentic AI, along with their use cases would be beneficial.&lt;/li&gt;\n&lt;li&gt;Experience in finance is a plus but not required.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;#LI-DN1&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;By submitting this application, you acknowledge and consent to terms of the &lt;a href=&quot;https://www.worldquant.com/privacy-policy/&quot; target=&quot;_blank&quot;&gt;WorldQuant Privacy Policy.&lt;/a&gt; The privacy policy offers an explanation of how and why your data will be collected, how it will be used and disclosed, how it will be retained and secured, and what legal rights are associated with that data (including the rights of access, correction, and deletion). The policy also describes legal and contractual limitations on these rights. The specific rights and obligations of individuals living and working in different areas may vary by jurisdiction.&lt;/p&gt;\n&lt;p&gt;Copyright © 2025 WorldQuant, LLC. All Rights Reserved.&lt;br&gt;WorldQuant is an equal opportunity employer and does not discriminate in hiring on the basis of race, color, creed, religion, sex, sexual orientation or preference, age, marital status, citizenship, national origin, disability, military status, genetic predisposition or carrier status, or any other protected characteristic as established by applicable law.&lt;/p&gt;&lt;/div&gt;",
+      "updated_at": "2026-06-25T09:43:09-04:00",
+      "tier": "Tier B: Main Focus",
+      "suitability_score": 42,
+      "verdict": "POSSIBLE FIT (Calibration)",
+      "recommendation": "Secondary / Calibration apply",
+      "matched_signals": [
+        "Firm Quality Boost (Tier B): +12",
+        "Title match '\\bquant(?:itative)?\\s+developer\\b': +20",
+        "Keyword match '\\bquant(?:itative)?\\s+developer\\b': +10"
+      ],
+      "penalties": [],
+      "estimated_comp": "$250,000 - $400,000+",
+      "comp_benchmark_delta": "Significantly Above Benchmark",
+      "priority_tier": "Tier B: Main Focus",
+      "priority_tag": "Main Focus",
+      "key": "WorldQuant::gh_worldquant_4659364006",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-25T15:49:59.455531",
+      "last_seen": "2026-09-30T04:44:46.527291",
+      "consecutive_misses": 0,
+      "industry_sector": "Quantitative Hedge Funds",
       "url_status": 200
     },
     {
@@ -10605,7 +10701,7 @@ window.LIVE_OPENINGS_DATA = {
       "first_seen": "2026-09-25T15:49:59.455531",
       "last_seen": "2026-09-30T04:51:09.347998",
       "consecutive_misses": 0,
-      "industry_sector": "Quantitative Finance",
+      "industry_sector": "Quantitative Hedge Funds",
       "url_status": 200
     },
     {
@@ -10637,14 +10733,46 @@ window.LIVE_OPENINGS_DATA = {
       "first_seen": "2026-09-25T15:49:59.455531",
       "last_seen": "2026-09-30T04:51:09.347998",
       "consecutive_misses": 0,
-      "industry_sector": "Quantitative Finance",
+      "industry_sector": "Quantitative Hedge Funds",
       "url_status": 200
     },
     {
       "job_id": "gh_worldquant_4659364006",
       "firm_name": "WorldQuant",
-      "title": "Quantitative Developer",
-      "location": "London",
+      "title": "Quantitative Developer ",
+      "location": "Singapore",
+      "department": "Portfolio Management Division",
+      "url": "https://job-boards.greenhouse.io/worldquant/jobs/4686743006",
+      "source_ats": "Greenhouse",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;WorldQuant develops and deploys systematic financial strategies across a broad range of asset classes and global markets. We seek to produce high-quality predictive signals (alphas) through our proprietary research platform to employ financial strategies focused on market inefficiencies. Our teams work collaboratively to drive the production of alphas and financial strategies – the foundation of a balanced, global investment platform.&lt;/p&gt;\n&lt;p&gt;WorldQuant is built on a culture that pairs academic sensibility with accountability for results. Employees are encouraged to think openly about problems, balancing intellectualism and practicality. Excellent ideas come from anyone, anywhere. Employees are encouraged to challenge conventional thinking and possess an attitude of continuous improvement.&lt;/p&gt;\n&lt;p&gt;Our goal is to hire the best and the brightest. We value intellectual horsepower first and foremost, and people who demonstrate an outstanding talent. There is no roadmap to future success, so we need people who can help us build it.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We are looking for a Junior Quant Developer to join the Book Platform and Operations Team&amp;nbsp;team. This is an ideal opportunity for a technically strong, early-career candidate who enjoys solving real problems and wants to make a direct and tangible impact on the business.&lt;/p&gt;\n&lt;p&gt;You will work alongside expert developers and portfolio managers, building systems, interfaces, and tools that support day-to-day portfolio management operations. We value clear thinking, strong fundamentals, and a proactive attitude over years of experience.&lt;/p&gt;\n&lt;p&gt;Key Responsibilities&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Contribute to the design, development, and maintenance of systems, interfaces, and tools that support portfolio management workflows&lt;/li&gt;\n&lt;li&gt;Collaborate with portfolio managers and developers to understand requirements and translate them into practical solutions&lt;/li&gt;\n&lt;li&gt;Identify, investigate, and resolve issues in existing tools and infrastructure&lt;/li&gt;\n&lt;li&gt;Monitor and support production systems, responding to incidents and ensuring reliability&lt;/li&gt;\n&lt;li&gt;Contribute to code reviews, testing, and technical documentation&lt;/li&gt;\n&lt;li&gt;Continuously improve team productivity by maximising modern development tools and practices&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What You’ll Bring:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Technical&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Bachelor&#39;s or Master&#39;s degree in Computer Science, Engineering, or a related field&lt;/li&gt;\n&lt;li&gt;Solid practical experience in Python and/or C++&lt;/li&gt;\n&lt;li&gt;Good working knowledge of Bash scripting and Linux environments&lt;/li&gt;\n&lt;li&gt;Familiarity with version control systems such as Git&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Approach &amp;amp; Working Style&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Strong analytical and logical thinking — you approach problems methodically and do not give up easily&lt;/li&gt;\n&lt;li&gt;Meticulous with a high standard for the quality of your own work&lt;/li&gt;\n&lt;li&gt;Self-starter who takes ownership of problems and can work independently without constant direction&lt;/li&gt;\n&lt;li&gt;Comfortable leading multiple tasks and making sound decisions in a fast-paced environment&lt;/li&gt;\n&lt;li&gt;Ability to learn quickly and adapt to new technologies and complex systems&lt;/li&gt;\n&lt;li&gt;Effective and concise communicator in English, both written and verbal&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Ways of Working&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Good working knowledge of Claude or other LLM ecosystems — understanding how to apply them effectively across the full development workflow, from problem analysis and debugging to solution design and documentation&lt;/li&gt;\n&lt;li&gt;Uses LLM tools with good judgment and critical thinking — not blind code generation, but as a genuine force multiplier for quality, speed, and clarity&lt;/li&gt;\n&lt;li&gt;Able to bring this attitude to the broader team and contribute to raising overall productivity&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;What We Offer:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Direct exposure to real portfolio management systems and workflows&lt;/li&gt;\n&lt;li&gt;A collaborative team where your contributions are visible and valued&lt;/li&gt;\n&lt;li&gt;Opportunity to grow quickly in a technically demanding and intellectually stimulating environment&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;By submitting this application, you acknowledge and consent to terms of the &lt;a href=&quot;https://www.worldquant.com/privacy-policy/&quot; target=&quot;_blank&quot;&gt;WorldQuant Privacy Policy.&lt;/a&gt; The privacy policy offers an explanation of how and why your data will be collected, how it will be used and disclosed, how it will be retained and secured, and what legal rights are associated with that data (including the rights of access, correction, and deletion). The policy also describes legal and contractual limitations on these rights. The specific rights and obligations of individuals living and working in different areas may vary by jurisdiction.&lt;/p&gt;\n&lt;p&gt;Copyright © 2025 WorldQuant, LLC. All Rights Reserved.&lt;br&gt;WorldQuant is an equal opportunity employer and does not discriminate in hiring on the basis of race, color, creed, religion, sex, sexual orientation or preference, age, marital status, citizenship, national origin, disability, military status, genetic predisposition or carrier status, or any other protected characteristic as established by applicable law.&lt;/p&gt;&lt;/div&gt;",
+      "updated_at": "2026-09-09T21:47:43-04:00",
+      "tier": "Tier B: Main Focus",
+      "suitability_score": 42,
+      "verdict": "POSSIBLE FIT (Calibration)",
+      "recommendation": "Secondary / Calibration apply",
+      "matched_signals": [
+        "Firm Quality Boost (Tier B): +12",
+        "Title match '\\bquant(?:itative)?\\s+developer\\b': +20",
+        "Keyword match '\\bquant(?:itative)?\\s+developer\\b': +10"
+      ],
+      "penalties": [],
+      "estimated_comp": "$250,000 - $400,000+",
+      "comp_benchmark_delta": "Significantly Above Benchmark",
+      "priority_tier": "Tier B: Main Focus",
+      "priority_tag": "Main Focus",
+      "key": "WorldQuant::gh_worldquant_4686743006",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-25T15:49:59.455531",
+      "last_seen": "2026-09-30T04:44:46.527291",
+      "consecutive_misses": 0,
+      "industry_sector": "Quantitative Hedge Funds",
+      "url_status": 200
+    },
+    {
+      "job_id": "gh_worldquant_4649227006",
+      "firm_name": "WorldQuant",
+      "title": "Quantitative Developer ",
+      "location": "Ramat Gan",
       "department": "Technology Division",
       "url": "https://job-boards.greenhouse.io/worldquant/jobs/4659364006",
       "source_ats": "Greenhouse",
@@ -10669,7 +10797,7 @@ window.LIVE_OPENINGS_DATA = {
       "first_seen": "2026-09-25T15:49:59.455531",
       "last_seen": "2026-09-30T04:51:09.347998",
       "consecutive_misses": 0,
-      "industry_sector": "Quantitative Finance",
+      "industry_sector": "Quantitative Hedge Funds",
       "url_status": 200
     },
     {
@@ -10765,7 +10893,7 @@ window.LIVE_OPENINGS_DATA = {
       "first_seen": "2026-09-25T15:49:59.455531",
       "last_seen": "2026-09-30T04:51:09.347998",
       "consecutive_misses": 0,
-      "industry_sector": "Quantitative Finance",
+      "industry_sector": "Quantitative Hedge Funds",
       "url_status": 200
     },
     {
@@ -11139,6 +11267,38 @@ window.LIVE_OPENINGS_DATA = {
       "url_status": 200
     },
     {
+      "job_id": "gh_worldquant_4703128006",
+      "firm_name": "WorldQuant",
+      "title": "Data Scientist",
+      "location": "New Delhi",
+      "department": "Research",
+      "url": "https://job-boards.greenhouse.io/worldquant/jobs/4703128006",
+      "source_ats": "Greenhouse",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;WorldQuant develops and deploys systematic financial strategies across a broad range of asset classes and global markets. We seek to produce high-quality predictive signals (alphas) through our proprietary research platform to employ financial strategies focused on market inefficiencies. Our teams work collaboratively to drive the production of alphas and financial strategies – the foundation of a balanced, global investment platform.&lt;/p&gt;\n&lt;p&gt;WorldQuant is built on a culture that pairs academic sensibility with accountability for results. Employees are encouraged to think openly about problems, balancing intellectualism and practicality. Excellent ideas come from anyone, anywhere. Employees are encouraged to challenge conventional thinking and possess an attitude of continuous improvement.&lt;/p&gt;\n&lt;p&gt;Our goal is to hire the best and the brightest. We value intellectual horsepower first and foremost, and people who demonstrate an outstanding talent. There is no roadmap to future success, so we need people who can help us build it.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt; This is a highly unique opportunity for a Data Scientist to join a new and rapidly growing intraday team. In this role you will partner with our close-knit team of quantitative researchers, data engineers, technologists and data sourcing colleagues to research, engineer, and validate quantitative signals derived from high-frequency equity market data across multiple global markets, while owning the full lifecycle of a signal, forming a hypothesis about what market behavior predicts, engineering it into a feature, validating it with data, and shipping it into a production research platform. This is a research-focused data science role with meaningful hands-on coding and implementing signals within our internal framework.&lt;/p&gt;\n&lt;p&gt;Key responsibilities include:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Research and engineer features from raw, high-frequency market data, translating market behavior hypotheses into quantitative signals.&lt;/li&gt;\n&lt;li&gt;Implement signals within our internal simulation/backtesting framework, iterating between exploratory data analysis and framework-based implementation.&lt;/li&gt;\n&lt;li&gt;Validate features through backtesting across historical data, checking behavior across different markets, regimes, and edge cases (e.g., market open/close, low-liquidity periods).&lt;/li&gt;\n&lt;li&gt;Collaborate with research and engineering teams to align on implementation approaches, validation standards, and research decisions.&lt;/li&gt;\n&lt;li&gt;Explore new and existing data sources to identify candidate signals worth developing further.&lt;/li&gt;\n&lt;li&gt;Becoming a domain expert on different deep learning and machine learning applications for high frequency data, analyzing &amp;amp; understanding the underlying dynamics, market microstructure and behaviors within the data.&lt;/li&gt;\n&lt;li&gt;Develop insights based on the data and collaborate with the research team to generate tradable&lt;/li&gt;\n&lt;li&gt;Developing the utility tools that can further automate the software development, testing and deployment workflow.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What You’ll Bring:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Strong academic background – minimum of a bachelor’s degree in a technical or quantitative field.&lt;/li&gt;\n&lt;li&gt;Strong data science background, with experience turning noisy, real-world data into validated, well-behaved signals or models.&lt;/li&gt;\n&lt;li&gt;Rigorous quantitative programming skills, with the discipline to write accurate, production-quality, and performance aware code, including low-latency implementations where needed. Prior experience with C++ is a plus.&lt;/li&gt;\n&lt;li&gt;Working knowledge of financial markets and how trading/market data behaves, or strong aptitude to learn it quickly. Prior market microstructure knowledge and experience with dark pools, trading and exchange data is a plus.&lt;/li&gt;\n&lt;li&gt;Practical experience with and theoretical understanding of deep neural networks and other machine learning techniques in high frequency domain is a plus.&lt;/li&gt;\n&lt;li&gt;Comfortably making pragmatic modeling tradeoffs under ambiguity while clearly articulating the reasoning behind them with data.&lt;/li&gt;\n&lt;li&gt;Exceptional analytical &amp;amp; problem-solving abilities, with a strong attention to detail.&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;By submitting this application, you acknowledge and consent to terms of the &lt;a href=&quot;https://www.worldquant.com/privacy-policy/&quot; target=&quot;_blank&quot;&gt;WorldQuant Privacy Policy.&lt;/a&gt; The privacy policy offers an explanation of how and why your data will be collected, how it will be used and disclosed, how it will be retained and secured, and what legal rights are associated with that data (including the rights of access, correction, and deletion). The policy also describes legal and contractual limitations on these rights. The specific rights and obligations of individuals living and working in different areas may vary by jurisdiction.&lt;/p&gt;\n&lt;p&gt;Copyright © 2025 WorldQuant, LLC. All Rights Reserved.&lt;br&gt;WorldQuant is an equal opportunity employer and does not discriminate in hiring on the basis of race, color, creed, religion, sex, sexual orientation or preference, age, marital status, citizenship, national origin, disability, military status, genetic predisposition or carrier status, or any other protected characteristic as established by applicable law.&lt;/p&gt;&lt;/div&gt;",
+      "updated_at": "2026-09-10T07:24:03-04:00",
+      "tier": "Tier B: Main Focus",
+      "suitability_score": 34,
+      "verdict": "LOW RELEVANCE / SKIP",
+      "recommendation": "Skip or review manually",
+      "matched_signals": [
+        "Firm Quality Boost (Tier B): +12",
+        "Title match '\\bdata\\s+scientist\\b': +15",
+        "Keyword match '\\bdata\\s+scientist\\b': +7"
+      ],
+      "penalties": [],
+      "estimated_comp": "$250,000 - $400,000+",
+      "comp_benchmark_delta": "Significantly Above Benchmark",
+      "priority_tier": "Tier B: Main Focus",
+      "priority_tag": "Main Focus",
+      "key": "WorldQuant::gh_worldquant_4703128006",
+      "status": "ACTIVE",
+      "first_seen": "2026-09-25T15:49:59.455531",
+      "last_seen": "2026-09-30T04:44:46.527291",
+      "consecutive_misses": 0,
+      "industry_sector": "Quantitative Hedge Funds",
+      "url_status": 200
+    },
+    {
       "job_id": "gh_worldquant_4069485006",
       "firm_name": "WorldQuant",
       "title": "Data Scientist",
@@ -11167,7 +11327,7 @@ window.LIVE_OPENINGS_DATA = {
       "first_seen": "2026-09-25T15:49:59.455531",
       "last_seen": "2026-09-30T04:51:09.347998",
       "consecutive_misses": 0,
-      "industry_sector": "Quantitative Finance",
+      "industry_sector": "Quantitative Hedge Funds",
       "url_status": 200
     },
     {
@@ -11231,7 +11391,7 @@ window.LIVE_OPENINGS_DATA = {
       "first_seen": "2026-09-25T15:49:59.455531",
       "last_seen": "2026-09-30T04:51:09.347998",
       "consecutive_misses": 0,
-      "industry_sector": "Quantitative Finance",
+      "industry_sector": "Quantitative Hedge Funds",
       "url_status": 200
     },
     {

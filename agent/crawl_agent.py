@@ -51,16 +51,50 @@ class CrawlAgent:
                     for row in reader:
                         fn = row.get("firm_name", "").strip()
                         if fn:
-                            meta[fn] = {
-                                "industry_sector": row.get("industry_sector", ""),
+                            meta_val = {
+                                "industry_sector": row.get("industry_sector", "Quantitative Hedge Funds"),
                                 "priority_tier": row.get("priority_tier", "Tier B: Main Focus"),
                                 "priority_tag": row.get("priority_tag", "Main Focus"),
                                 "estimated_comp": row.get("estimated_first_year_comp", "$220,000 - $380,000+"),
                                 "comp_delta": row.get("comp_benchmark_delta", "Superior"),
                                 "strategic_advice": row.get("strategic_action_advice", "")
                             }
+                            meta[fn] = meta_val
+                            meta[fn.lower()] = meta_val
+                            if "(" in fn:
+                                short_name = fn.split("(")[0].strip()
+                                meta[short_name] = meta_val
+                                meta[short_name.lower()] = meta_val
+                                inner_name = fn.split("(")[1].split(")")[0].strip()
+                                meta[inner_name] = meta_val
+                                meta[inner_name.lower()] = meta_val
             except Exception as e:
                 logger.error(f"Error loading target_firms.csv: {e}")
+
+        known_overrides = {
+            "worldquant": ("Quantitative Hedge Funds", "Tier B: Main Focus"),
+            "balyasny asset management": ("Quantitative Hedge Funds", "Tier A: Too Hard"),
+            "drw": ("Proprietary Trading & Market Making", "Tier B: Main Focus"),
+            "sig": ("Proprietary Trading & Market Making", "Tier B: Main Focus"),
+            "five rings": ("Proprietary Trading & Market Making", "Tier A: Too Hard"),
+            "hudson river trading": ("Proprietary Trading & Market Making", "Tier A: Too Hard"),
+            "exoduspoint": ("Quantitative Hedge Funds", "Tier B: Main Focus"),
+            "exoduspoint capital": ("Quantitative Hedge Funds", "Tier B: Main Focus"),
+            "man group": ("Quantitative Hedge Funds", "Tier B: Main Focus"),
+            "qube research & technologies": ("Quantitative Hedge Funds", "Tier B: Main Focus"),
+            "palantir": ("FinTech & Elite Tech", "Tier B: Main Focus"),
+            "plaid": ("FinTech & Elite Tech", "Tier B: Main Focus"),
+        }
+        for k, (sec, tier) in known_overrides.items():
+            if k not in meta:
+                meta[k] = {
+                    "industry_sector": sec,
+                    "priority_tier": tier,
+                    "priority_tag": "Main Focus",
+                    "estimated_comp": "$250,000 - $400,000+",
+                    "comp_delta": "Significantly Above Benchmark",
+                    "strategic_advice": ""
+                }
         return meta
 
     def crawl_single_firm(self, firm_name: str) -> Dict[str, Any]:
@@ -80,8 +114,8 @@ class CrawlAgent:
             logger.info(f"Dispatching tailored subagent for '{firm_name}'...")
             raw_jobs = agent.crawl_jobs()
 
-        firm_info = self.firm_meta.get(firm_name, {})
-        tier_str = firm_info.get("priority_tier", "Tier B: Main Focus / High Conviction")
+        firm_info = self.firm_meta.get(firm_name) or self.firm_meta.get(firm_name.lower(), {})
+        tier_str = firm_info.get("priority_tier", "Tier B: Main Focus")
 
         scored_jobs = []
         for job in raw_jobs:
@@ -104,7 +138,7 @@ class CrawlAgent:
             enriched_job["comp_benchmark_delta"] = firm_info.get("comp_delta", "Significantly Above Benchmark")
             enriched_job["priority_tier"] = tier_str
             enriched_job["priority_tag"] = firm_info.get("priority_tag", "Main Focus")
-            enriched_job["industry_sector"] = firm_info.get("industry_sector", "Quantitative Finance")
+            enriched_job["industry_sector"] = firm_info.get("industry_sector") or "Quantitative Hedge Funds"
             scored_jobs.append(enriched_job)
 
         scored_jobs.sort(key=lambda x: x.get("suitability_score", 0), reverse=True)
@@ -186,8 +220,8 @@ class CrawlAgent:
                 continue
 
             firm_name = job.get("firm_name", "Unknown")
-            firm_info = self.firm_meta.get(firm_name, {})
-            tier_str = firm_info.get("priority_tier") or job.get("tier", "Tier B")
+            firm_info = self.firm_meta.get(firm_name) or self.firm_meta.get(firm_name.lower(), {})
+            tier_str = firm_info.get("priority_tier") or job.get("tier", "Tier B: Main Focus")
             
             # If already scored in crawl_single_firm, reuse if valid
             if "suitability_score" in job:
@@ -211,7 +245,7 @@ class CrawlAgent:
                 enriched_job["comp_benchmark_delta"] = firm_info.get("comp_delta", "Significantly Above Benchmark")
                 enriched_job["priority_tier"] = tier_str
                 enriched_job["priority_tag"] = firm_info.get("priority_tag", "Main Focus")
-                enriched_job["industry_sector"] = firm_info.get("industry_sector", "Quantitative Finance")
+                enriched_job["industry_sector"] = firm_info.get("industry_sector") or "Quantitative Hedge Funds"
                 scored_jobs.append(enriched_job)
 
         # 4. Sort by Suitability Score descending, then tier
