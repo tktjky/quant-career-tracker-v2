@@ -89,7 +89,7 @@ def score_job_suitability(job_dict: Dict[str, Any], firm_tier: str = "Tier B") -
     
     title_lower = title.lower()
 
-    # Hard rejection: Skip any role that has 'intern' or 'summer' in title or early description
+    # Hard rejection 1: Skip any role that has 'intern' or 'summer' in title or early description
     if re.search(r"\b(?:intern|internship|internships|summer)\b", title_lower) or \
        re.search(r"\b(?:summer\s+(?:analyst|associate|intern|program|internship))\b", description[:400].lower()):
         return 0, {
@@ -100,6 +100,18 @@ def score_job_suitability(job_dict: Dict[str, Any], firm_tier: str = "Tier B") -
             "matched_positives": [],
             "penalties": ["Hard Disqualification: Contains 'intern' or 'summer' (-100)"]
         }
+
+    # Hard rejection 2: Skip any role targeting senior, experienced, staff, principal, or executive hires
+    if re.search(r"\b(?:senior|sr\.?|staff|principal|lead|head\s+of|director|managing\s+director|executive|vp|vice\s+president)\b|\bexperienced\b", title_lower):
+        if not re.search(r"\b(?:junior/senior|senior/junior)\b", title_lower):
+            return 0, {
+                "score": 0,
+                "verdict": "DISQUALIFIED (Senior / Experienced)",
+                "recommendation": "Skip (Senior/Experienced role - seeking new grad / entry level / junior)",
+                "has_quant_title": False,
+                "matched_positives": [],
+                "penalties": ["Hard Disqualification: Senior or Experienced title (-100)"]
+            }
 
     full_text = f"{title} | {department} | {location} | {description[:1000]}".lower()
 

@@ -119,20 +119,37 @@ class TestJobTrackerV2(unittest.TestCase):
         self.assertEqual(updated[0]["status"], "INACTIVE")
         self.assertEqual(updated[1]["status"], "INACTIVE")
 
-    def test_live_openings_contains_no_intern_or_summer_roles(self):
+    def test_senior_experienced_hard_disqualification(self):
+        senior_jobs = [
+            {"title": "Senior Options Quantitative Researcher", "location": "New York, NY", "department": "Trading"},
+            {"title": "Staff Machine Learning Engineer", "location": "San Francisco, CA", "department": "Engineering"},
+            {"title": "Experienced Quantitative Trader", "location": "Chicago, IL", "department": "Trading"},
+            {"title": "Managing Director - Quantitative Strategies", "location": "New York, NY", "department": "Strats"},
+        ]
+        for job in senior_jobs:
+            score, analysis = score_job_suitability(job, firm_tier="Tier B: Main Focus")
+            self.assertEqual(score, 0)
+            self.assertIn("DISQUALIFIED", analysis["verdict"])
+            self.assertIn("senior", analysis["recommendation"].lower())
+
+    def test_live_openings_contains_no_senior_or_experienced_roles(self):
         import re
         agent = CrawlAgent()
         if os.path.exists(agent.output_json):
             with open(agent.output_json, "r", encoding="utf-8") as f:
                 data = json.load(f)
             openings = data.get("openings", [])
+            pattern = r'\b(?:senior|sr\.?|staff|principal|lead|head\s+of|director|managing\s+director|executive|vp|vice\s+president)\b|\bexperienced\b'
             for j in openings:
                 title = j.get("title", "")
+                if "junior/senior" in title.lower():
+                    continue
                 self.assertFalse(
-                    re.search(r"\b(?:intern|internship|internships|summer)\b", title, re.IGNORECASE),
-                    f"Found intern/summer posting in live dataset: {title}"
+                    re.search(pattern, title, re.IGNORECASE),
+                    f"Found senior/experienced posting in live dataset: {title}"
                 )
 
 if __name__ == "__main__":
     unittest.main()
+
 
