@@ -37,7 +37,7 @@ STANDARD_ATS_CONFIGS = {
     "Databricks": ("greenhouse", "databricks", "Tier B: Main Focus / High Conviction"),
     "Anthropic": ("greenhouse", "anthropic", "Tier B: Main Focus / High Conviction"),
     "Palantir": ("greenhouse", "palantirtechnologies", "Tier B: Main Focus / High Conviction"),
-    "Robinhood": ("greenhouse", "robinhood", "Tier C1: Apply to Practice (Par with C1)"),
+    "Robinhood": ("greenhouse", "robinhood", "Tier C: Practice & Calibration (Market Competitive)"),
     "Coinbase": ("greenhouse", "coinbase", "Tier D: Selective / Conditional Fit"),
 }
 

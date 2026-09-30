@@ -112,7 +112,7 @@ function renderCards() {
 
     let tierBadgeClass = "pill-tier-b";
     if ((j.priority_tier || "").includes("Tier A")) tierBadgeClass = "pill-tier-a";
-    else if ((j.priority_tier || "").includes("Tier C1")) tierBadgeClass = "pill-tier-c1";
+    else if ((j.priority_tier || "").includes("Tier C")) tierBadgeClass = "pill-tier-c1";
 
     const isNew = j.status === "NEW";
     const statusBadge = isNew
@@ -153,7 +153,7 @@ function renderCards() {
             <div style="font-size: 0.7rem; color: #94a3b8; text-transform: uppercase;">Benchmark First-Year Comp</div>
             <div class="comp-val">${escapeHtml(j.estimated_comp || '$220,000 - $380,000+')}</div>
           </div>
-          <div class="comp-delta">${escapeHtml(j.comp_delta_vs_c1 || 'Superior to C1')}</div>
+          <div class="comp-delta">${escapeHtml(j.comp_delta_vs_c1 || 'Premier Quant Band')}</div>
         </div>
 
         ${signalsList ? `

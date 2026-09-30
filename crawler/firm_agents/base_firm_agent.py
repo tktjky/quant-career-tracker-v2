@@ -18,7 +18,7 @@ class BaseFirmAgent(ABC):
     Each firm agent specializes in:
       1. Knowing the exact careers API / portal structure of that specific firm.
       2. Constructing tailored requests (handling auth, pagination, session cookies, search parameters).
-      3. Normalizing extracted jobs into a standardized schema for CBS MSFE scoring.
+      3. Normalizing extracted jobs into a standardized schema for quantitative suitability scoring.
     """
 
     def __init__(self, firm_name: str, priority_tier: str = "Tier B: Main Focus / High Conviction", timeout: int = 12):

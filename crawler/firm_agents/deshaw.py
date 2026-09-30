@@ -22,7 +22,7 @@ class DEShawAgent(BaseFirmAgent):
                 "location": "New York, NY",
                 "department": "Quantitative Research",
                 "url": "https://www.deshaw.com/careers/opportunities/quantitative-analyst",
-                "desc": "Mathematical modeling and algorithmic strategy development across systematic global asset portfolios. Welcoming Columbia MSFE / Master's graduates."
+                "desc": "Mathematical modeling and algorithmic strategy development across systematic global asset portfolios. Welcoming quantitative master's and PhD graduates."
             },
             {
                 "id": "quant_fellowship_2027",

@@ -2,7 +2,7 @@
 
 ## Overview
 **Version 2 (`AI_workspace/job_tracker_v2/`)** introduces an autonomous crawling expert agent that actively discovers, filters, scores, and tracks live job openings:
-- **Target Profile**: Master of Science in Financial Economics (Class of 2027)
+- **Target Profile**: Quantitative Finance Master's (Class of 2027)
 - **Target Roles**: Quantitative Research (QR), Quantitative Trading (QT), Front-Office Strats, Financial ML Engineer
 - **Isolation Guarantee**: The original `AI_workspace/job_tracker/` (v1) remains completely untouched and functional.
 
@@ -21,7 +21,7 @@
 3. **High-Speed Direct ATS Scraper (`crawler/ats_scraper.py`)**:
    - Direct HTTP scraping of board APIs without browser overhead.
 
-4. **MSFE Suitability Engine (`crawler/relevance_filter.py`)**:
+4. **Quant Suitability Engine (`crawler/relevance_filter.py`)**:
    - Calculates a 0–100% suitability match score based on title regex, 2026/2027 cohort signals, campus/graduate tags, NYC/Chicago/Greenwich location preferences, and negative filters (penalizes executive MD/Director roles, 7+ years requirement, and non-quant corporate roles).
 
 5. **Stateful Change Detector (`crawler/change_detector.py`)**:
@@ -101,7 +101,7 @@ AI_workspace/job_tracker_v2/
 ├── crawler/
 │   ├── ats_scraper.py          # Greenhouse/Lever/Ashby API scrapers
 │   ├── web_search_scraper.py   # Custom institutional portals & feeds
-│   ├── relevance_filter.py     # Heuristic CBS MSFE scoring engine
+│   ├── relevance_filter.py     # Heuristic quant scoring engine
 │   └── change_detector.py      # Stateful diff tracking (NEW/ACTIVE/CLOSED)
 ├── data/
 │   ├── target_firms.csv        # 293 employers across 6 priority tiers

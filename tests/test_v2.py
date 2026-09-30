@@ -10,7 +10,7 @@ class TestJobTrackerV2(unittest.TestCase):
 
     def test_candidate_profile(self):
         self.assertEqual(CANDIDATE_PROFILE["graduation_year"], 2027)
-        self.assertEqual(CANDIDATE_PROFILE["target_degree"], "MSFE / Quantitative Finance")
+        self.assertEqual(CANDIDATE_PROFILE["target_degree"], "Quantitative Finance / Financial Engineering")
 
     def test_relevance_scoring_high_match(self):
         job = {

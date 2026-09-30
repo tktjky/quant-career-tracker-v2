@@ -18,7 +18,7 @@ class CrawlAgent:
     Expert autonomous crawling agent that:
     1. Orchestrates tailored subagents for specific target firms.
     2. Executes multi-source scraping (ATS APIs + Custom Portals + Web Feeds).
-    3. Evaluates role suitability against target MSFE 2027 profile.
+    3. Evaluates role suitability against target quantitative finance 2027 profile.
     4. Detects state transitions (NEW vs ACTIVE vs CLOSED).
     5. Saves parsed results to data/live_openings.json and outputs summary reports.
     """
@@ -90,7 +90,7 @@ class CrawlAgent:
             enriched_job["matched_signals"] = analysis["matched_positives"]
             enriched_job["penalties"] = analysis["penalties"]
             enriched_job["estimated_comp"] = firm_info.get("estimated_comp", "$220,000 - $380,000+")
-            enriched_job["comp_delta_vs_c1"] = firm_info.get("comp_delta", "Substantially Superior (+20% to +107%)")
+            enriched_job["comp_delta_vs_c1"] = firm_info.get("comp_delta", "Tier-1 Elite Comp Range")
             enriched_job["priority_tier"] = tier_str
             enriched_job["priority_tag"] = firm_info.get("priority_tag", "Main Focus")
             scored_jobs.append(enriched_job)
@@ -140,7 +140,7 @@ class CrawlAgent:
                     if max_boards and crawled_count >= max_boards:
                         break
 
-        # 3. Filter & Score candidates against target MSFE 2027 profile
+        # 3. Filter & Score candidates against target quantitative finance 2027 profile
         scored_jobs = []
         for job in raw_candidates:
             firm_name = job.get("firm_name", "Unknown")
@@ -163,7 +163,7 @@ class CrawlAgent:
                 enriched_job["matched_signals"] = analysis["matched_positives"]
                 enriched_job["penalties"] = analysis["penalties"]
                 enriched_job["estimated_comp"] = firm_info.get("estimated_comp", "$220,000 - $380,000+")
-                enriched_job["comp_delta_vs_c1"] = firm_info.get("comp_delta", "Substantially Superior (+20% to +107%)")
+                enriched_job["comp_delta_vs_c1"] = firm_info.get("comp_delta", "Tier-1 Elite Comp Range")
                 enriched_job["priority_tier"] = tier_str
                 enriched_job["priority_tag"] = firm_info.get("priority_tag", "Main Focus")
                 scored_jobs.append(enriched_job)
@@ -178,7 +178,7 @@ class CrawlAgent:
         output_payload = {
             "last_updated": datetime.now().isoformat(),
             "candidate": {
-                "cohort": "MSFE Class of 2027",
+                "cohort": "Quantitative Finance Class of 2027",
                 "target": "Full-Time QR / QT / Strats Quant Roles",
                 "benchmark": "Tier B+ High Conviction Priority"
             },

@@ -95,8 +95,7 @@ def run_server(port: int = 8081):
     print(f"  Quant Career Intelligence v2 Web Dashboard (Live Openings)")
     print(f"  Dashboard URL: http://localhost:{port}")
     print(f"  Crawl API:     http://localhost:{port}/api/crawl")
-    print(f"  Anchor Offer:  Capital One ($183,500 Total Comp in Hand)")
-    print(f"  Target Cohort: Columbia MSFE Class of 2027")
+    print(f"  Target Cohort: Quantitative Finance (Class of 2027)")
     print("  Press Ctrl+C to terminate server.")
     print("=" * 70 + "\n")
     try:

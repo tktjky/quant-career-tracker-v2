@@ -2,8 +2,8 @@ import re
 from typing import Dict, Any, Tuple
 
 CANDIDATE_PROFILE = {
-    "role_level": "Master of Science in Financial Economics (Class of 2027)",
-    "target_degree": "MSFE / Quantitative Finance",
+    "role_level": "Quantitative Finance Graduate (Class of 2027)",
+    "target_degree": "Quantitative Finance / Financial Engineering",
     "graduation_year": 2027,
     "target_roles": [
         "Quantitative Researcher",
@@ -77,7 +77,7 @@ DISQUALIFIER_PATTERNS = [
 
 def score_job_suitability(job_dict: Dict[str, Any], firm_tier: str = "Tier B") -> Tuple[int, Dict[str, Any]]:
     """
-    Evaluates a candidate job opening against target MSFE quantitative profile.
+    Evaluates a candidate job opening against target quantitative finance candidate profile.
     Returns:
         score: int (0 to 100)
         reasons: dict with matched signals, penalties, and fit tier verdict
@@ -150,7 +150,7 @@ def score_job_suitability(job_dict: Dict[str, Any], firm_tier: str = "Tier B") -
     # Suitability Verdict
     if final_score >= 80:
         verdict = "HIGH PRIORITY (Direct Target)"
-        apply_recommendation = "Immediate Apply (Tailor CBS MSFE resume)"
+        apply_recommendation = "Immediate Apply (Tailor quantitative resume)"
     elif final_score >= 60:
         verdict = "STRONG FIT (Competitive)"
         apply_recommendation = "Apply (Standard quant package)"

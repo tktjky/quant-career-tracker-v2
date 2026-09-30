@@ -77,7 +77,7 @@ class WebSearchScraper:
             {
                 "job_id": "deshaw_qr_2027_nyc",
                 "firm_name": "D.E. Shaw",
-                "title": "Quantitative Analyst - 2027 Graduate (CBS MSFE / Master's)",
+                "title": "Quantitative Analyst - 2027 Graduate",
                 "location": "New York, NY",
                 "department": "Quantitative Research",
                 "url": "https://www.deshaw.com/careers/opportunities/quantitative-analyst",

@@ -53,11 +53,11 @@ ATS_BOARD_REGISTRY = {
     "Anthropic": {"ats": "greenhouse", "token": "anthropic", "tier": "Tier B: Main Focus / High Conviction"},
     "OpenAI": {"ats": "greenhouse", "token": "openai", "tier": "Tier B: Main Focus / High Conviction"},
     "Palantir": {"ats": "greenhouse", "token": "palantirtechnologies", "tier": "Tier B: Main Focus / High Conviction"},
-    "Robinhood": {"ats": "greenhouse", "token": "robinhood", "tier": "Tier C1: Apply to Practice (Par with C1)"},
+    "Robinhood": {"ats": "greenhouse", "token": "robinhood", "tier": "Tier C: Practice & Calibration (Market Competitive)"},
     "Coinbase": {"ats": "greenhouse", "token": "coinbase", "tier": "Tier D: Selective / Conditional Fit"},
-    "Plaid": {"ats": "greenhouse", "token": "plaid", "tier": "Tier C1: Apply to Practice (Par with C1)"},
+    "Plaid": {"ats": "greenhouse", "token": "plaid", "tier": "Tier C: Practice & Calibration (Market Competitive)"},
     "Ramp": {"ats": "ashby", "token": "ramp", "tier": "Tier B: Main Focus / High Conviction"},
-    "Brex": {"ats": "greenhouse", "token": "brex", "tier": "Tier C1: Apply to Practice (Par with C1)"},
+    "Brex": {"ats": "greenhouse", "token": "brex", "tier": "Tier C: Practice & Calibration (Market Competitive)"},
 }
 
 DEFAULT_HEADERS = {

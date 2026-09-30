@@ -123,7 +123,7 @@ Examples:
 
         print("\n" + "=" * 90)
         print(f"  QUANT CAREER INTELLIGENCE v2: TOP TARGET OPENINGS (Score >= {min_score})")
-        print(f"  Profile: MSFE Class of 2027 | QR / QT / Front-Office Strats Focus")
+        print(f"  Profile: Quantitative Finance Class of 2027 | QR / QT / Front-Office Strats Focus")
         print("=" * 90)
         for i, j in enumerate(filtered, 1):
             score = j.get("suitability_score", 0)
