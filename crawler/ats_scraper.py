@@ -132,9 +132,12 @@ ATS_BOARD_REGISTRY = {
     "American Century Investments": {"ats": "workday", "token": "americancentury", "tier": "Tier C2: Same or Below Benchmark"},
     "Columbia Threadneedle": {"ats": "workday", "token": "columbiathreadneedle", "tier": "Tier C2: Same or Below Benchmark"},
     "TD Securities": {"ats": "workday", "token": "td", "tier": "Tier C1: Same or Above Benchmark"},
+    "NVIDIA": {"ats": "workday", "token": "nvidia", "tier": "Tier B: Main Focus"},
+    "Blackstone": {"ats": "workday", "token": "blackstone", "tier": "Tier B: Main Focus"},
 
     # Workable Portals
     "Capula Investment Management": {"ats": "workable", "token": "capula-investment-management-ltd", "tier": "Tier B: Main Focus"},
+    "Tibra Capital": {"ats": "workable", "token": "tibra-capital-1", "tier": "Tier B: Main Focus"},
 
     # Enterprise Portals with verified iCIMS/Jibe/Jobvite API
     "MSCI": {"ats": "icims", "token": "msci", "tier": "Tier C2: Same or Below Benchmark"},

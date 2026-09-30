@@ -94,6 +94,16 @@ WORKDAY_REGISTRY = {
         "tenant": "td",
         "site": "TD_Bank_Careers",
     },
+    "NVIDIA": {
+        "host": "nvidia.wd5.myworkdayjobs.com",
+        "tenant": "nvidia",
+        "site": "NVIDIAExternalCareerSite",
+    },
+    "Blackstone": {
+        "host": "blackstone.wd1.myworkdayjobs.com",
+        "tenant": "blackstone",
+        "site": "Blackstone_Careers",
+    },
 }
 
 WORKDAY_SEARCH_TERMS = ["quantitative", "quant", "trading", "data scientist"]

@@ -1,12 +1,12 @@
 {
-  "crawl_timestamp": "2026-09-30T19:20:36.826638",
-  "duration_seconds": 28.420325,
+  "crawl_timestamp": "2026-09-30T16:04:38.209538",
+  "duration_seconds": 32.683492,
   "diff_stats": {
-    "total_active_scraped": 576,
-    "new_openings": 0,
-    "retained_active": 576,
+    "total_active_scraped": 617,
+    "new_openings": 2,
+    "retained_active": 615,
     "newly_closed": 5,
-    "total_tracked_all_time": 1024
+    "total_tracked_all_time": 1026
   },
   "top_matches": [
     {
@@ -26,16 +26,16 @@
     {
       "firm": "Flow Traders",
       "title": "PhD Graduate Quantitative Researcher",
-      "location": "New York",
+      "location": "Hong Kong",
       "score": 100,
-      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8156203"
+      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8213037"
     },
     {
       "firm": "Flow Traders",
       "title": "PhD Graduate Quantitative Researcher",
-      "location": "Hong Kong",
+      "location": "New York",
       "score": 100,
-      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8213037"
+      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8156203"
     },
     {
       "firm": "Flow Traders",
@@ -66,18 +66,18 @@
       "url": "https://www.oldmissioncapital.com/careers/?gh_jid=6088836003"
     },
     {
-      "firm": "Akuna Capital",
-      "title": "Junior Quantitative Developer & Strategist",
-      "location": "Chicago, IL ",
+      "firm": "Virtu Financial",
+      "title": "Machine Learning Researcher",
+      "location": "New York",
       "score": 100,
-      "url": "https://www.akunacapital.com/careers/job/8016687/?gh_jid=8016687"
+      "url": "https://job-boards.greenhouse.io/virtu/jobs/8477580002"
     },
     {
-      "firm": "Akuna Capital",
-      "title": "Junior Quantitative Researcher - Deep Learning (Time Series)",
-      "location": "Shanghai, China",
+      "firm": "Virtu Financial",
+      "title": "Quantitative Trader ",
+      "location": "Dublin, Ireland",
       "score": 100,
-      "url": "https://www.akunacapital.com/careers/job/8175994/?gh_jid=8175994"
+      "url": "https://job-boards.greenhouse.io/virtu/jobs/4260204002"
     }
   ]
 }

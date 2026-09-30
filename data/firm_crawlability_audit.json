@@ -68,7 +68,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
   },
   "Aigen Investment Management": {
     "firm_name": "Aigen Investment Management",
@@ -382,14 +382,15 @@
     "industry_sector": "Systematic Asset Management & Allocators"
   },
   "Blackstone": {
+    "status": "AUTOMATED_FEED",
+    "method": "Workday CXS API",
+    "ats": "workday",
+    "token": "blackstone",
+    "reason": null,
     "firm_name": "Blackstone",
     "official_careers_url": "https://www.blackstone.com/careers/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "Quantitative Hedge Funds",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
+    "industry_sector": "Quantitative Hedge Funds"
   },
   "Block (Cash App)": {
     "firm_name": "Block (Cash App)",
@@ -553,7 +554,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Access Restricted (SSLError)"
   },
   "Capstone Investment Advisors": {
     "status": "AUTOMATED_FEED",
@@ -615,8 +616,8 @@
     "industry_sector": "Quantitative Hedge Funds",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "ats": "workday",
+    "reason": "Enterprise Workday (Dynamic Session Required)"
   },
   "Charles Schwab": {
     "status": "AUTOMATED_FEED",
@@ -678,7 +679,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "China International Capital Corporation (CICC)": {
     "firm_name": "China International Capital Corporation (CICC)",
@@ -980,8 +981,8 @@
     "industry_sector": "Systematic Asset Management & Allocators",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "ats": "workday",
+    "reason": "Enterprise Workday (Dynamic Session Required)"
   },
   "Dodge & Cox": {
     "firm_name": "Dodge & Cox",
@@ -1043,7 +1044,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (SSLError)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Ernst & Young": {
     "firm_name": "Ernst & Young",
@@ -1134,7 +1135,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
   },
   "Finance Concepts": {
     "firm_name": "Finance Concepts",
@@ -1151,10 +1152,12 @@
     "official_careers_url": "https://fireworks.ai/careers",
     "priority_tier": "Tier B: Main Focus",
     "industry_sector": "FinTech & Elite Tech",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "status": "AUTOMATED_FEED",
+    "method": "Ashby API",
+    "ats": "ashby",
+    "token": "fireworks",
+    "job_count": 86,
+    "reason": null
   },
   "Fitch Ratings": {
     "firm_name": "Fitch Ratings",
@@ -1181,10 +1184,12 @@
     "official_careers_url": "https://fiverings.com/careers/",
     "priority_tier": "Tier A: Too Hard",
     "industry_sector": "Proprietary Trading & Market Making",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "status": "AUTOMATED_FEED",
+    "method": "Greenhouse API",
+    "ats": "greenhouse",
+    "token": "fiveringsllc",
+    "job_count": 16,
+    "reason": null
   },
   "Flow Traders": {
     "status": "AUTOMATED_FEED",
@@ -1406,10 +1411,12 @@
     "official_careers_url": "https://grayscale.com/careers/",
     "priority_tier": "Tier B: Main Focus",
     "industry_sector": "FinTech & Elite Tech",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "status": "AUTOMATED_FEED",
+    "method": "Greenhouse API",
+    "ats": "greenhouse",
+    "token": "grayscaleinvestments",
+    "job_count": 5,
+    "reason": null
   },
   "Gridify": {
     "firm_name": "Gridify",
@@ -1915,8 +1922,8 @@
     "industry_sector": "Bulge Bracket & Global Investment Banks",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "ats": "workday",
+    "reason": "Enterprise Workday (Dynamic Session Required)"
   },
   "Mojo Interactive": {
     "firm_name": "Mojo Interactive",
@@ -1963,22 +1970,21 @@
     "official_careers_url": "https://www.munichre.com/careers",
     "priority_tier": "Tier C2: Same or Below Benchmark",
     "industry_sector": "Systematic Asset Management & Allocators",
-    "status": "AUTOMATED_FEED",
-    "method": "Greenhouse API",
-    "ats": "greenhouse",
-    "token": "nextinsurancemresandbox",
-    "job_count": 4,
-    "reason": null
-  },
-  "NVIDIA": {
-    "firm_name": "NVIDIA",
-    "official_careers_url": "https://www.nvidia.com/careers",
-    "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
     "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+  },
+  "NVIDIA": {
+    "status": "AUTOMATED_FEED",
+    "method": "Workday CXS API",
+    "ats": "workday",
+    "token": "nvidia",
+    "reason": null,
+    "firm_name": "NVIDIA",
+    "official_careers_url": "https://www.nvidia.com/careers",
+    "priority_tier": "Tier B: Main Focus",
+    "industry_sector": "FinTech & Elite Tech"
   },
   "Netflix": {
     "firm_name": "Netflix",
@@ -1997,8 +2003,8 @@
     "industry_sector": "Systematic Asset Management & Allocators",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "ats": "workday",
+    "reason": "Enterprise Workday (Dynamic Session Required)"
   },
   "New York Mortgage Trust": {
     "firm_name": "New York Mortgage Trust",
@@ -2236,7 +2242,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Perella Weinberg Partners": {
     "firm_name": "Perella Weinberg Partners",
@@ -2288,7 +2294,7 @@
     "method": "Greenhouse API",
     "ats": "greenhouse",
     "token": "point72",
-    "job_count": 216,
+    "job_count": 217,
     "reason": null
   },
   "PricewaterhouseCoopers (PwC)": {
@@ -2319,7 +2325,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (SSLError)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Quantbot Technologies": {
     "firm_name": "Quantbot Technologies",
@@ -2398,10 +2404,12 @@
     "official_careers_url": "https://ramp.com/careers",
     "priority_tier": "Tier B: Main Focus",
     "industry_sector": "FinTech & Elite Tech",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "status": "AUTOMATED_FEED",
+    "method": "Ashby API",
+    "ats": "ashby",
+    "token": "ramp",
+    "job_count": 155,
+    "reason": null
   },
   "Robinhood": {
     "firm_name": "Robinhood",
@@ -2515,7 +2523,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (SSLError)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Shanghai Yanfu Investments": {
     "firm_name": "Shanghai Yanfu Investments",
@@ -2532,10 +2540,12 @@
     "official_careers_url": "https://simplextrading.com/careers/",
     "priority_tier": "Tier B: Main Focus",
     "industry_sector": "Proprietary Trading & Market Making",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "status": "AUTOMATED_FEED",
+    "method": "Greenhouse API",
+    "ats": "greenhouse",
+    "token": "simplextrading",
+    "job_count": 5,
+    "reason": null
   },
   "Snowflake": {
     "firm_name": "Snowflake",
@@ -2555,7 +2565,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
   },
   "Societe Generale": {
     "firm_name": "Societe Generale",
@@ -2616,8 +2626,8 @@
     "industry_sector": "Systematic Asset Management & Allocators",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "ats": "workday",
+    "reason": "Enterprise Workday (Dynamic Session Required)"
   },
   "Stripe": {
     "firm_name": "Stripe",
@@ -2732,14 +2742,15 @@
     "industry_sector": "Quantitative Hedge Funds"
   },
   "Tibra Capital": {
+    "status": "AUTOMATED_FEED",
+    "method": "Workable API",
+    "ats": "workable",
+    "token": "tibra-capital-1",
+    "reason": null,
     "firm_name": "Tibra Capital",
     "official_careers_url": "https://www.tibra.com/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "Proprietary Trading & Market Making",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "industry_sector": "Proprietary Trading & Market Making"
   },
   "Tower Research Capital": {
     "status": "AUTOMATED_FEED",
@@ -2902,7 +2913,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Vanguard": {
     "firm_name": "Vanguard",

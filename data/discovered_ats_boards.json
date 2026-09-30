@@ -583,5 +583,20 @@
     "ats": "workday",
     "token": "td",
     "tier": "Tier C1: Same or Above Benchmark"
+  },
+  "NVIDIA": {
+    "ats": "workday",
+    "token": "nvidia",
+    "tier": "Tier B: Main Focus"
+  },
+  "Blackstone": {
+    "ats": "workday",
+    "token": "blackstone",
+    "tier": "Tier B: Main Focus"
+  },
+  "Tibra Capital": {
+    "ats": "workable",
+    "token": "tibra-capital-1",
+    "tier": "Tier B: Main Focus"
   }
 }

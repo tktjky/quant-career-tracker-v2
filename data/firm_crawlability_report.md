@@ -1,13 +1,13 @@
 # Comprehensive Target Employer Crawlability Audit Report
 
-**Audit Timestamp:** 2026-09-30 19:20:36 | **Total Employers Audited:** 296
+**Audit Timestamp:** 2026-09-30 16:04:38 | **Total Employers Audited:** 296
 
 ## Executive Summary
 - **Total Target Employers Monitored:** 296
-- **Automated Live Feeds & Tailored Crawlers:** 119 firms
-- **Direct Official Portals Monitored (Custom / Protected):** 177 firms
-- **Total Active Quant Positions Tracked:** 563
-- **Employers Currently Hiring Quant Roles:** 67
+- **Automated Live Feeds & Tailored Crawlers:** 122 firms
+- **Direct Official Portals Monitored (Custom / Protected):** 174 firms
+- **Total Active Quant Positions Tracked:** 603
+- **Employers Currently Hiring Quant Roles:** 70
 
 ---
 
@@ -31,6 +31,7 @@ These firms possess automated, public, or tailored API endpoints (Greenhouse, Le
 | **Beacon Platform** | Tier C2: Same or Below Benchmark | Financial Data & Market Utilities | `Greenhouse API` | 0 (Off-Cycle) | [Visit Portal](https://www.beacon.io/careers/) |
 | **Belvedere Trading** | Tier B: Main Focus | Proprietary Trading & Market Making | `Lever API` | **2 roles** | [Visit Portal](https://belvederetrading.com/careers/) |
 | **BlackRock** | Tier C1: Same or Above Benchmark | Systematic Asset Management & Allocators | `Workday CXS API` | **2 roles** | [Visit Portal](https://careers.blackrock.com/early-careers) |
+| **Blackstone** | Tier B: Main Focus | Quantitative Hedge Funds | `Workday CXS API` | 0 (Off-Cycle) | [Visit Portal](https://www.blackstone.com/careers/) |
 | **Block (Cash App)** | Tier B: Main Focus | FinTech & Elite Tech | `Direct Portal Monitored` | **1 roles** | [Visit Portal](https://block.xyz/careers) |
 | **Brex** | Tier B: Main Focus | FinTech & Elite Tech | `Direct Portal Monitored` | **1 roles** | [Visit Portal](https://www.brex.com/careers) |
 | **Bridgewater Associates** | Tier B: Main Focus | Quantitative Hedge Funds | `Greenhouse API` | 0 (Off-Cycle) | [Visit Portal](https://www.bridgewater.com/careers) |
@@ -58,15 +59,15 @@ These firms possess automated, public, or tailored API endpoints (Greenhouse, Le
 | **Engineers Gate** | Tier B: Main Focus | Quantitative Hedge Funds | `Greenhouse API` | **2 roles** | [Visit Portal](https://boards.greenhouse.io/engineersgate) |
 | **ExodusPoint Capital Management** | Tier B: Main Focus | Quantitative Hedge Funds | `Greenhouse API` | 0 (Off-Cycle) | [Visit Portal](https://www.exoduspoint.com/) |
 | **Fidelity Investments** | Tier C2: Same or Below Benchmark | Systematic Asset Management & Allocators | `Direct Portal Monitored` | 0 (Off-Cycle) | [Visit Portal](https://jobs.fidelity.com/) |
-| **Fireworks AI** | Tier B: Main Focus | FinTech & Elite Tech | `Direct Portal Monitored` | **3 roles** | [Visit Portal](https://fireworks.ai/careers) |
-| **Five Rings LLC** | Tier A: Too Hard | Proprietary Trading & Market Making | `Direct Portal Monitored` | **3 roles** | [Visit Portal](https://fiverings.com/careers/) |
+| **Fireworks AI** | Tier B: Main Focus | FinTech & Elite Tech | `Ashby API` | **3 roles** | [Visit Portal](https://fireworks.ai/careers) |
+| **Five Rings LLC** | Tier A: Too Hard | Proprietary Trading & Market Making | `Greenhouse API` | **3 roles** | [Visit Portal](https://fiverings.com/careers/) |
 | **Flow Traders** | Tier B: Main Focus | Proprietary Trading & Market Making | `Greenhouse API` | **6 roles** | [Visit Portal](https://www.flowtraders.com/careers) |
 | **GMO** | Tier C2: Same or Below Benchmark | Systematic Asset Management & Allocators | `Lever API` | **1 roles** | [Visit Portal](https://www.gmo.com/americas/careers/) |
-| **GTS** | Tier A: Too Hard | Proprietary Trading & Market Making | `iCIMS API` | 0 (Off-Cycle) | [Visit Portal](https://careers-gtsx.icims.com/) |
+| **GTS** | Tier A: Too Hard | Proprietary Trading & Market Making | `iCIMS API` | **5 roles** | [Visit Portal](https://careers-gtsx.icims.com/) |
 | **Geneva Trading** | Tier B: Main Focus | Proprietary Trading & Market Making | `Greenhouse API` | **1 roles** | [Visit Portal](https://genevatrading.com/careers/) |
 | **Glenmede** | Tier C2: Same or Below Benchmark | Systematic Asset Management & Allocators | `Direct Portal Monitored` | 0 (Off-Cycle) | [Visit Portal](https://www.glenmede.com/careers/) |
 | **Goldman Sachs** | Tier C1: Same or Above Benchmark | Bulge Bracket & Global Investment Banks | `Tailored Subagent` | **1 roles** | [Visit Portal](https://www.goldmansachs.com/careers/students/) |
-| **GrayScale** | Tier B: Main Focus | FinTech & Elite Tech | `Direct Portal Monitored` | 0 (Off-Cycle) | [Visit Portal](https://grayscale.com/careers/) |
+| **GrayScale** | Tier B: Main Focus | FinTech & Elite Tech | `Greenhouse API` | 0 (Off-Cycle) | [Visit Portal](https://grayscale.com/careers/) |
 | **HBK Capital Management** | Tier B: Main Focus | Quantitative Hedge Funds | `Direct Portal Monitored` | 0 (Off-Cycle) | [Visit Portal](https://www.hbk.com/careers/) |
 | **Headlands Technologies** | Tier B: Main Focus | Proprietary Trading & Market Making | `Greenhouse API` | **2 roles** | [Visit Portal](https://www.headlandstech.com/careers/) |
 | **Hudson River Trading (HRT)** | Tier A: Too Hard | Proprietary Trading & Market Making | `Greenhouse API` | **5 roles** | [Visit Portal](https://www.hudsonrivertrading.com/careers/) |
@@ -85,13 +86,14 @@ These firms possess automated, public, or tailored API endpoints (Greenhouse, Le
 | **Millennium Management** | Tier A: Too Hard | Quantitative Hedge Funds | `Tailored Subagent` | **2 roles** | [Visit Portal](https://www.mlp.com/careers/) |
 | **Moon Capital Management** | Tier B: Main Focus | Quantitative Hedge Funds | `Direct Portal Monitored` | 0 (Off-Cycle) | [Visit Portal](https://www.mooncapital.com/) |
 | **Morgan Stanley** | Tier C1: Same or Above Benchmark | Bulge Bracket & Global Investment Banks | `Direct Portal Monitored` | 0 (Off-Cycle) | [Visit Portal](https://www.morganstanley.com/people-opportunities/students-graduates) |
-| **Munich Re** | Tier C2: Same or Below Benchmark | Systematic Asset Management & Allocators | `Greenhouse API` | 0 (Off-Cycle) | [Visit Portal](https://www.munichre.com/careers) |
+| **Munich Re** | Tier C2: Same or Below Benchmark | Systematic Asset Management & Allocators | `Direct Portal Monitored` | 0 (Off-Cycle) | [Visit Portal](https://www.munichre.com/careers) |
+| **NVIDIA** | Tier B: Main Focus | FinTech & Elite Tech | `Workday CXS API` | **1 roles** | [Visit Portal](https://www.nvidia.com/careers) |
 | **Numerix** | Tier B: Main Focus | FinTech & Elite Tech | `Direct Portal Monitored` | 0 (Off-Cycle) | [Visit Portal](https://www.numerix.com/careers) |
 | **Old Mission Capital** | Tier B: Main Focus | Proprietary Trading & Market Making | `Greenhouse API` | **13 roles** | [Visit Portal](https://www.oldmissioncapital.com/careers/) |
 | **One William Street Capital Management** | Tier B: Main Focus | Quantitative Hedge Funds | `Greenhouse API` | 0 (Off-Cycle) | [Visit Portal](https://www.onewilliamstreet.com/careers/) |
 | **OpenAI** | Tier A: Too Hard | FinTech & Elite Tech | `Ashby API` | **23 roles** | [Visit Portal](https://openai.com/careers/) |
 | **Options Clearing Corporation (OCC)** | Tier B: Main Focus | FinTech & Elite Tech | `Workday CXS API` | 0 (Off-Cycle) | [Visit Portal](https://theocc.wd5.myworkdayjobs.com/careers) |
-| **Optiver** | Tier A: Too Hard | Proprietary Trading & Market Making | `Greenhouse API` | **12 roles** | [Visit Portal](https://optiver.com/working-at-optiver/career-opportunities/) |
+| **Optiver** | Tier A: Too Hard | Proprietary Trading & Market Making | `Greenhouse API` | **13 roles** | [Visit Portal](https://optiver.com/working-at-optiver/career-opportunities/) |
 | **PEAK6** | Tier B: Main Focus | Proprietary Trading & Market Making | `Workday CXS API` | 0 (Off-Cycle) | [Visit Portal](https://peak6.com/careers/) |
 | **PIMCO** | Tier C1: Same or Above Benchmark | Proprietary Trading & Market Making | `Direct Portal Monitored` | 0 (Off-Cycle) | [Visit Portal](https://www.pimco.com/en-us/our-firm/careers/) |
 | **Palantir Technologies** | Tier B: Main Focus | FinTech & Elite Tech | `Lever API` | 0 (Off-Cycle) | [Visit Portal](https://www.palantir.com/careers/) |
@@ -103,14 +105,14 @@ These firms possess automated, public, or tailored API endpoints (Greenhouse, Le
 | **Quantbot Technologies** | Tier B: Main Focus | Quantitative Hedge Funds | `Direct Portal Monitored` | 0 (Off-Cycle) | [Visit Portal](https://www.quantbot.com/careers/) |
 | **Qube Research & Technologies (QRT)** | Tier B: Main Focus | Quantitative Hedge Funds | `Greenhouse API` | **44 roles** | [Visit Portal](https://www.qube-rt.com/careers/) |
 | **Radix Trading** | Tier A: Too Hard | Proprietary Trading & Market Making | `Greenhouse API` | **2 roles** | [Visit Portal](https://www.radixtrading.com/) |
-| **Ramp** | Tier B: Main Focus | FinTech & Elite Tech | `Direct Portal Monitored` | **3 roles** | [Visit Portal](https://ramp.com/careers) |
+| **Ramp** | Tier B: Main Focus | FinTech & Elite Tech | `Ashby API` | **3 roles** | [Visit Portal](https://ramp.com/careers) |
 | **Robinhood** | Tier B: Main Focus | FinTech & Elite Tech | `Direct Portal Monitored` | 0 (Off-Cycle) | [Visit Portal](https://careers.robinhood.com/) |
 | **Rokos Capital Management** | Tier B: Main Focus | Quantitative Hedge Funds | `Greenhouse API` | 0 (Off-Cycle) | [Visit Portal](https://job-boards.eu.greenhouse.io/neptunenorth) |
 | **SESCO** | Tier C2: Same or Below Benchmark | Commodities & Energy Trading Desks | `Direct Portal Monitored` | **2 roles** | [Visit Portal](https://www.sesco.com/) |
-| **SIG (Susquehanna International Group)** | Tier B: Main Focus | Proprietary Trading & Market Making | `Jibe API` | 0 (Off-Cycle) | [Visit Portal](https://sig.com/careers/) |
+| **SIG (Susquehanna International Group)** | Tier B: Main Focus | Proprietary Trading & Market Making | `Jibe API` | **17 roles** | [Visit Portal](https://sig.com/careers/) |
 | **Scale AI** | Tier B: Main Focus | FinTech & Elite Tech | `Direct Portal Monitored` | **7 roles** | [Visit Portal](https://scale.com/careers) |
 | **Schonfeld Strategic Advisors** | Tier B: Main Focus | Quantitative Hedge Funds | `Greenhouse API` | **12 roles** | [Visit Portal](https://www.schonfeld.com/careers/) |
-| **Simplex Trading** | Tier B: Main Focus | Proprietary Trading & Market Making | `Direct Portal Monitored` | **2 roles** | [Visit Portal](https://simplextrading.com/careers/) |
+| **Simplex Trading** | Tier B: Main Focus | Proprietary Trading & Market Making | `Greenhouse API` | **2 roles** | [Visit Portal](https://simplextrading.com/careers/) |
 | **Snowflake** | Tier B: Main Focus | FinTech & Elite Tech | `Direct Portal Monitored` | 0 (Off-Cycle) | [Visit Portal](https://careers.snowflake.com/) |
 | **SoFi** | Tier B: Main Focus | FinTech & Elite Tech | `Direct Portal Monitored` | 0 (Off-Cycle) | [Visit Portal](https://www.sofi.com/careers/) |
 | **Spotify** | Tier B: Main Focus | FinTech & Elite Tech | `Direct Portal Monitored` | **4 roles** | [Visit Portal](https://www.lifeatspotify.com/jobs) |
@@ -123,7 +125,8 @@ These firms possess automated, public, or tailored API endpoints (Greenhouse, Le
 | **TIFIN** | Tier B: Main Focus | FinTech & Elite Tech | `Direct Portal Monitored` | 0 (Off-Cycle) | [Visit Portal](https://tifin.com/careers/) |
 | **Tanius Tech** | Tier B: Main Focus | Proprietary Trading & Market Making | `Direct Portal Monitored` | **2 roles** | [Visit Portal](https://www.tanius.tech/) |
 | **The Voleon Group** | Tier B: Main Focus | Quantitative Hedge Funds | `Ashby API` | **4 roles** | [Visit Portal](https://voleon.com/) |
-| **Tower Research Capital** | Tier B: Main Focus | Quantitative Hedge Funds | `Greenhouse API` | **26 roles** | [Visit Portal](https://www.tower-research.com/open-positions) |
+| **Tibra Capital** | Tier B: Main Focus | Proprietary Trading & Market Making | `Workable API` | 0 (Off-Cycle) | [Visit Portal](https://www.tibra.com/careers) |
+| **Tower Research Capital** | Tier B: Main Focus | Quantitative Hedge Funds | `Greenhouse API` | **25 roles** | [Visit Portal](https://www.tower-research.com/open-positions) |
 | **TransMarket Group** | Tier B: Main Focus | Proprietary Trading & Market Making | `Greenhouse API` | **2 roles** | [Visit Portal](https://www.transmarketgroup.com/careers) |
 | **Trexquant Investment** | Tier B: Main Focus | Quantitative Hedge Funds | `Workable API` | **15 roles** | [Visit Portal](https://apply.workable.com/trexquant/) |
 | **Two Sigma** | Tier A: Too Hard | Proprietary Trading & Market Making | `Tailored Subagent` | 0 (Off-Cycle) | [Visit Portal](https://www.twosigma.com/careers/) |
@@ -165,7 +168,6 @@ These firms do not expose open public ATS APIs or are protected by enterprise se
 | **Balbec Capital** | Tier C2: Same or Below Benchmark | Systematic Asset Management & Allocators | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.balbec.com/careers) |
 | **Bank of New York Mellon (BNY Mellon)** | Tier C1: Same or Above Benchmark | Bulge Bracket & Global Investment Banks | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.bankofnewyorkmellon.com/careers) |
 | **Barclays** | Tier C1: Same or Above Benchmark | Bulge Bracket & Global Investment Banks | *Enterprise Workday (Dynamic Session Required)* | [Open Official Portal](https://search.jobs.barclays/) |
-| **Blackstone** | Tier B: Main Focus | Quantitative Hedge Funds | *Cloudflare / Bot Protection (HTTP 403 Challenge)* | [Open Official Portal](https://www.blackstone.com/careers/) |
 | **Bloomberg LP** | Tier C2: Same or Below Benchmark | Financial Data & Market Utilities | *Cloudflare / Bot Protection (HTTP 403 Challenge)* | [Open Official Portal](https://www.bloomberg.com/company/careers/) |
 | **Bopu Fund** | Tier C1: Same or Above Benchmark | Quantitative Hedge Funds | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.bopufund.com/) |
 | **Boston Consulting Group (BCG)** | Tier D: Pure Practice | Commercial Banking & Consulting (Practice) | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://careers.bcg.com/) |
@@ -177,10 +179,10 @@ These firms do not expose open public ATS APIs or are protected by enterprise se
 | **Canada Pension Plan Investment Board (CPPIB)** | Tier C1: Same or Above Benchmark | Systematic Asset Management & Allocators | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.cppinvestments.com/careers) |
 | **Caravela Energy Partners** | Tier C2: Same or Below Benchmark | Commodities & Energy Trading Desks | *Access Restricted (SSLError)* | [Open Official Portal](https://caravelaenergy.com/) |
 | **Centiva Capital** | Tier B: Main Focus | Quantitative Hedge Funds | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.centivacapital.com/) |
-| **Cerberus Capital Management** | Tier B: Main Focus | Quantitative Hedge Funds | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.cerberus.com/careers) |
+| **Cerberus Capital Management** | Tier B: Main Focus | Quantitative Hedge Funds | *Enterprise Workday (Dynamic Session Required)* | [Open Official Portal](https://www.cerberus.com/careers) |
 | **Chengqi Funds** | Tier C1: Same or Above Benchmark | Systematic Asset Management & Allocators | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.chengqi.com/) |
 | **China AMC** | Tier C1: Same or Above Benchmark | Systematic Asset Management & Allocators | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://en.chinaamc.com/) |
-| **China Everbright Bank** | Tier C1: Same or Above Benchmark | Bulge Bracket & Global Investment Banks | *Connection Timeout (Enterprise Firewall / VPN Protected)* | [Open Official Portal](https://www.chinaeverbrightbank.com/careers) |
+| **China Everbright Bank** | Tier C1: Same or Above Benchmark | Bulge Bracket & Global Investment Banks | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.chinaeverbrightbank.com/careers) |
 | **China International Capital Corporation (CICC)** | Tier C1: Same or Above Benchmark | Bulge Bracket & Global Investment Banks | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.cicc.com/) |
 | **China Southern Asset Management** | Tier C2: Same or Below Benchmark | Systematic Asset Management & Allocators | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.chinasouthern.com/careers) |
 | **Cisco Systems** | Tier B: Main Focus | FinTech & Elite Tech | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://jobs.cisco.com/) |
@@ -204,14 +206,14 @@ These firms do not expose open public ATS APIs or are protected by enterprise se
 | **EFund Management** | Tier C1: Same or Above Benchmark | Quantitative Hedge Funds | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.efunds.com.cn/) |
 | **Eisler Capital** | Tier B: Main Focus | Quantitative Hedge Funds | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.linkedin.com/company/eisler-capital/) |
 | **Ellington Management Group** | Tier B: Main Focus | Quantitative Hedge Funds | *Enterprise Taleo / Oracle HCM Portal* | [Open Official Portal](https://www.ellington.com/careers) |
-| **Ergoteles Capital** | Tier B: Main Focus | Quantitative Hedge Funds | *Access Restricted (SSLError)* | [Open Official Portal](https://www.ergoteles.com/) |
+| **Ergoteles Capital** | Tier B: Main Focus | Quantitative Hedge Funds | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.ergoteles.com/) |
 | **Ernst & Young** | Tier D: Pure Practice | Commercial Banking & Consulting (Practice) | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.ey.com/en_us/careers) |
 | **Ernst & Young (EY)** | Tier D: Pure Practice | Commercial Banking & Consulting (Practice) | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.ey.com/en_us/careers) |
 | **Evercore** | Tier C1: Same or Above Benchmark | Bulge Bracket & Global Investment Banks | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.evercore.com/careers/) |
 | **Federal Reserve System** | Tier D: Pure Practice | Commercial Banking & Consulting (Practice) | *Enterprise Taleo / Oracle HCM Portal* | [Open Official Portal](https://www.federalreserve.gov/careers.htm) |
 | **Federated Hermes** | Tier C2: Same or Below Benchmark | Systematic Asset Management & Allocators | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.federatedhermes.com/us/careers) |
 | **Ficc.ai** | Tier B: Main Focus | FinTech & Elite Tech | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.linkedin.com/company/ficc-ai/) |
-| **FinTech Start Up** | Tier C2: Same or Below Benchmark | Systematic Asset Management & Allocators | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://wellfound.com/jobs) |
+| **FinTech Start Up** | Tier C2: Same or Below Benchmark | Systematic Asset Management & Allocators | *Cloudflare / Bot Protection (HTTP 403 Challenge)* | [Open Official Portal](https://wellfound.com/jobs) |
 | **Finance Concepts** | Tier C2: Same or Below Benchmark | Systematic Asset Management & Allocators | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.financeconcepts.com/careers) |
 | **Fitch Ratings** | Tier D: Pure Practice | Commercial Banking & Consulting (Practice) | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.fitchratings.com/careers) |
 | **Five Dimensions Energy LLC** | Tier C2: Same or Below Benchmark | Commodities & Energy Trading Desks | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.fivedimensionsenergy.com/careers) |
@@ -263,12 +265,11 @@ These firms do not expose open public ATS APIs or are protected by enterprise se
 | **Meta** | Tier B: Main Focus | FinTech & Elite Tech | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.metacareers.com/) |
 | **Microsoft** | Tier B: Main Focus | FinTech & Elite Tech | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://careers.microsoft.com/) |
 | **Millennium Advisors** | Tier A: Too Hard | Quantitative Hedge Funds | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.millenniumadvisorsllc.com/) |
-| **Moelis & Company** | Tier C1: Same or Above Benchmark | Bulge Bracket & Global Investment Banks | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.moelis.com/careers/) |
+| **Moelis & Company** | Tier C1: Same or Above Benchmark | Bulge Bracket & Global Investment Banks | *Enterprise Workday (Dynamic Session Required)* | [Open Official Portal](https://www.moelis.com/careers/) |
 | **Mojo Interactive** | Tier B: Main Focus | FinTech & Elite Tech | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.mojoglobal.com/) |
 | **Moody's Investors Service** | Tier B: Main Focus | FinTech & Elite Tech | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://careers.moodys.com/) |
-| **NVIDIA** | Tier B: Main Focus | FinTech & Elite Tech | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.nvidia.com/careers) |
 | **Netflix** | Tier B: Main Focus | FinTech & Elite Tech | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.netflix.com/careers) |
-| **Neuberger Berman** | Tier C1: Same or Above Benchmark | Systematic Asset Management & Allocators | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.nb.com/en/global/careers) |
+| **Neuberger Berman** | Tier C1: Same or Above Benchmark | Systematic Asset Management & Allocators | *Enterprise Workday (Dynamic Session Required)* | [Open Official Portal](https://www.nb.com/en/global/careers) |
 | **New York Mortgage Trust** | Tier D: Pure Practice | Commercial Banking & Consulting (Practice) | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.nymt.com/) |
 | **NextEra Energy** | Tier C2: Same or Below Benchmark | Commodities & Energy Trading Desks | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.nexteraenergy.com/careers) |
 | **Nipun Capital** | Tier C2: Same or Below Benchmark | Systematic Asset Management & Allocators | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.nipun.com/careers) |
@@ -285,7 +286,7 @@ These firms do not expose open public ATS APIs or are protected by enterprise se
 | **Perella Weinberg Partners** | Tier C1: Same or Above Benchmark | Bulge Bracket & Global Investment Banks | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.pwpartners.com/careers) |
 | **PricewaterhouseCoopers (PwC)** | Tier D: Pure Practice | FinTech & Elite Tech | *Cloudflare / Bot Protection (HTTP 403 Challenge)* | [Open Official Portal](https://www.pwc.com/us/en/careers.html) |
 | **Prime Trading** | Tier B: Main Focus | Proprietary Trading & Market Making | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.primetrading.com/careers) |
-| **Quant Z** | Tier B: Main Focus | Quantitative Hedge Funds | *Access Restricted (SSLError)* | [Open Official Portal](https://quantz.ai/) |
+| **Quant Z** | Tier B: Main Focus | Quantitative Hedge Funds | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://quantz.ai/) |
 | **Quantedge Capital** | Tier B: Main Focus | Quantitative Hedge Funds | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.quantedge.com/careers) |
 | **Quantinno Capital Management** | Tier C2: Same or Below Benchmark | Systematic Asset Management & Allocators | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.quantinno.com/careers) |
 | **Quantitative Brokers** | Tier B: Main Focus | Proprietary Trading & Market Making | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.quantitativebrokers.com/careers) |
@@ -294,7 +295,7 @@ These firms do not expose open public ATS APIs or are protected by enterprise se
 | **SAI** | Tier C2: Same or Below Benchmark | Systematic Asset Management & Allocators | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.sai360.com/) |
 | **SciFeCap** | Tier B: Main Focus | Quantitative Hedge Funds | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.scifecap.com/) |
 | **Secor Asset Management** | Tier B: Main Focus | Quantitative Hedge Funds | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.secor-am.com/careers/) |
-| **Seven Eight Capital** | Tier B: Main Focus | Quantitative Hedge Funds | *Access Restricted (SSLError)* | [Open Official Portal](https://www.seveneightcapital.com/careers) |
+| **Seven Eight Capital** | Tier B: Main Focus | Quantitative Hedge Funds | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.seveneightcapital.com/careers) |
 | **Shanghai Yanfu Investments** | Tier B: Main Focus | Quantitative Hedge Funds | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.yanfuinvestments.com/) |
 | **Societe Generale** | Tier C1: Same or Above Benchmark | Bulge Bracket & Global Investment Banks | *Enterprise Taleo / Oracle HCM Portal* | [Open Official Portal](https://careers.societegenerale.com/) |
 | **Soros Fund Management** | Tier B: Main Focus | Quantitative Hedge Funds | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.opensocietyfoundations.org/) |
@@ -303,7 +304,6 @@ These firms do not expose open public ATS APIs or are protected by enterprise se
 | **TD Bank** | Tier D: Pure Practice | Commercial Banking & Consulting (Practice) | *Enterprise Workday (Dynamic Session Required)* | [Open Official Portal](https://www.tdbank.com/careers) |
 | **Tesla** | Tier B: Main Focus | FinTech & Elite Tech | *Cloudflare / Bot Protection (HTTP 403 Challenge)* | [Open Official Portal](https://www.tesla.com/careers) |
 | **The Home Depot** | Tier D: Pure Practice | Commercial Banking & Consulting (Practice) | *Enterprise Workday (Dynamic Session Required)* | [Open Official Portal](https://careers.homedepot.com/) |
-| **Tibra Capital** | Tier B: Main Focus | Proprietary Trading & Market Making | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.tibra.com/careers) |
 | **Trafigura** | Tier B: Main Focus | Commodities & Energy Trading Desks | *Enterprise Workday (Dynamic Session Required)* | [Open Official Portal](https://www.trafigura.com/careers/) |
 | **Transmarket Group** | Tier B: Main Focus | Proprietary Trading & Market Making | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.transmarketgroup.com/careers) |
 | **Truist Financial** | Tier D: Pure Practice | Commercial Banking & Consulting (Practice) | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://careers.truist.com/) |
@@ -313,7 +313,7 @@ These firms do not expose open public ATS APIs or are protected by enterprise se
 | **US Bank** | Tier D: Pure Practice | Commercial Banking & Consulting (Practice) | *Enterprise Workday (Dynamic Session Required)* | [Open Official Portal](https://www.usbank.com/careers.html) |
 | **Uber** | Tier B: Main Focus | FinTech & Elite Tech | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.uber.com/careers) |
 | **Ultramarin GmbH** | Tier C2: Same or Below Benchmark | Systematic Asset Management & Allocators | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.ultramarin.com/) |
-| **VanEck** | Tier C2: Same or Below Benchmark | Systematic Asset Management & Allocators | *Connection Timeout (Enterprise Firewall / VPN Protected)* | [Open Official Portal](https://www.vaneck.com/us/en/about/careers/) |
+| **VanEck** | Tier C2: Same or Below Benchmark | Systematic Asset Management & Allocators | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.vaneck.com/us/en/about/careers/) |
 | **Vanguard** | Tier C1: Same or Above Benchmark | Systematic Asset Management & Allocators | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.vanguardjobs.com/) |
 | **Vistra Corp** | Tier C2: Same or Below Benchmark | Commodities & Energy Trading Desks | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.vistra.com/careers) |
 | **Walmart Global Tech** | Tier D: Pure Practice | Commercial Banking & Consulting (Practice) | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://careers.walmart.com/technology) |

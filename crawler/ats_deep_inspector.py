@@ -86,6 +86,9 @@ KNOWN_FIRM_PROFILES = {
     "Alger": {"status": "AUTOMATED_FEED", "method": "Jobvite Portal", "ats": "jobvite", "token": "alger", "reason": None},
     "Beacon Platform": {"status": "AUTOMATED_FEED", "method": "Greenhouse API", "ats": "greenhouse", "token": "beaconplatform", "reason": None},
     "TD Securities": {"status": "AUTOMATED_FEED", "method": "Workday CXS API", "ats": "workday", "token": "td", "reason": None},
+    "NVIDIA": {"status": "AUTOMATED_FEED", "method": "Workday CXS API", "ats": "workday", "token": "nvidia", "reason": None},
+    "Blackstone": {"status": "AUTOMATED_FEED", "method": "Workday CXS API", "ats": "workday", "token": "blackstone", "reason": None},
+    "Tibra Capital": {"status": "AUTOMATED_FEED", "method": "Workable API", "ats": "workable", "token": "tibra-capital-1", "reason": None},
 
     # Truly Protected Portals
     "Morgan Stanley": {"status": "UNCRAWLABLE_PORTAL_ONLY", "method": "Direct Portal Monitored", "ats": "workday", "reason": "Enterprise Taleo/Workday Portal"},
