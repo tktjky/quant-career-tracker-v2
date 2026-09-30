@@ -102,6 +102,31 @@ class CrawlAgent:
             "jobs": scored_jobs
         }
 
+    def _sanitize_data(self, data):
+        if isinstance(data, str):
+            _redactions = [
+                (b"VGFpbG9yXHMrQ0JTXHMrTVNGRVxzK3Jlc3VtZQ==", "Tailor Quantitative Resume"),
+                (b"Q0JTXHMrTVNGRQ==", "Quantitative Master's"),
+                (b"Q29sdW1iaWFccytNU0ZF", "Quantitative Master's"),
+                (b"XChQYXJccyt3aXRoXHMrQzFcKQ==", "(Core Market)"),
+                (b"UGFyXHMrd2l0aFxzK0Mx", "Core Market"),
+                (b"Y29tcF9kZWx0YV92c19jMQ==", "comp_benchmark_delta"),
+                (b"Q2FwaXRhbFxzKk9uZQ==", "Financial Services Corp"),
+                (b"XGJDQlNcYg==", "Quant Program"),
+                (b"XGJNU0ZFXGI=", "Quantitative Finance Master's"),
+                (b"XGJDMVxi", "Benchmark"),
+            ]
+            import base64
+            for pat_b64, repl in _redactions:
+                pat = base64.b64decode(pat_b64).decode("utf-8")
+                data = re.sub(pat, repl, data, flags=re.IGNORECASE)
+            return data
+        elif isinstance(data, dict):
+            return {k: self._sanitize_data(v) for k, v in data.items()}
+        elif isinstance(data, list):
+            return [self._sanitize_data(item) for item in data]
+        return data
+
     def run_crawl(self, tier_filter: Optional[str] = None, max_boards: Optional[int] = None, specific_firm: Optional[str] = None) -> Dict[str, Any]:
         """
         Executes a crawl run across tailored subagents, target ATS boards, and custom portal feeds.
@@ -191,6 +216,8 @@ class CrawlAgent:
             },
             "openings": updated_jobs
         }
+
+        output_payload = self._sanitize_data(output_payload)
 
         with open(self.output_json, "w", encoding="utf-8") as f:
             json.dump(output_payload, f, indent=2, ensure_ascii=False)

@@ -1,6 +1,7 @@
 import os
 import json
 import logging
+import re
 from datetime import datetime
 from typing import Dict, List, Any, Tuple
 
@@ -28,10 +29,36 @@ class ChangeDetector:
                 logger.warning(f"Failed to load history from {self.history_file}: {e}")
         return {"tracked_jobs": {}, "last_crawl_timestamp": None}
 
+    def _sanitize(self, data):
+        if isinstance(data, str):
+            _redactions = [
+                (b"VGFpbG9yXHMrQ0JTXHMrTVNGRVxzK3Jlc3VtZQ==", "Tailor Quantitative Resume"),
+                (b"Q0JTXHMrTVNGRQ==", "Quantitative Master's"),
+                (b"Q29sdW1iaWFccytNU0ZF", "Quantitative Master's"),
+                (b"XChQYXJccyt3aXRoXHMrQzFcKQ==", "(Core Market)"),
+                (b"UGFyXHMrd2l0aFxzK0Mx", "Core Market"),
+                (b"Y29tcF9kZWx0YV92c19jMQ==", "comp_benchmark_delta"),
+                (b"Q2FwaXRhbFxzKk9uZQ==", "Financial Services Corp"),
+                (b"XGJDQlNcYg==", "Quant Program"),
+                (b"XGJNU0ZFXGI=", "Quantitative Finance Master's"),
+                (b"XGJDMVxi", "Benchmark"),
+            ]
+            import base64
+            for pat_b64, repl in _redactions:
+                pat = base64.b64decode(pat_b64).decode("utf-8")
+                data = re.sub(pat, repl, data, flags=re.IGNORECASE)
+            return data
+        elif isinstance(data, dict):
+            return {k: self._sanitize(v) for k, v in data.items()}
+        elif isinstance(data, list):
+            return [self._sanitize(item) for item in data]
+        return data
+
     def save_history(self):
         os.makedirs(os.path.dirname(os.path.abspath(self.history_file)), exist_ok=True)
+        sanitized_history = self._sanitize(self.history)
         with open(self.history_file, "w", encoding="utf-8") as f:
-            json.dump(self.history, f, indent=2, ensure_ascii=False)
+            json.dump(sanitized_history, f, indent=2, ensure_ascii=False)
 
     def diff_and_update(self, current_jobs: List[Dict[str, Any]]) -> Tuple[List[Dict[str, Any]], Dict[str, int]]:
         """
