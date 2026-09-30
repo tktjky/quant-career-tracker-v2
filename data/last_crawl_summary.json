@@ -1,14 +1,21 @@
 {
-  "crawl_timestamp": "2026-09-30T16:06:09.581731",
-  "duration_seconds": 17.275802,
+  "crawl_timestamp": "2026-09-30T13:58:30.674730",
+  "duration_seconds": 13.160492,
   "diff_stats": {
-    "total_active_scraped": 412,
-    "new_openings": 0,
-    "retained_active": 412,
+    "total_active_scraped": 481,
+    "new_openings": 7,
+    "retained_active": 474,
     "newly_closed": 0,
-    "total_tracked_all_time": 821
+    "total_tracked_all_time": 896
   },
   "top_matches": [
+    {
+      "firm": "BlackRock",
+      "title": "Associate, Securities Lending Quantitative Research and Algorithmic Trading, BlackRock Global Markets (BGM)",
+      "location": "New York, NY",
+      "score": 100,
+      "url": "https://blackrock.wd1.myworkdayjobs.com/job/New-York-NY/Associate--Securities-Lending-Quantitative-Research-and-Algorithmic-Trading--BlackRock-Global-Markets--BGM-_R266542"
+    },
     {
       "firm": "Virtu Financial",
       "title": "Machine Learning Researcher",
@@ -71,13 +78,6 @@
       "location": "Amsterdam",
       "score": 100,
       "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8207306"
-    },
-    {
-      "firm": "Flow Traders",
-      "title": "PhD Graduate Quantitative Researcher",
-      "location": "Hong Kong",
-      "score": 100,
-      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8213037"
     }
   ]
 }

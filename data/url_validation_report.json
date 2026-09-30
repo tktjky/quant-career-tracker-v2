@@ -1,0 +1,595 @@
+{
+  "ok_count": 175,
+  "broken_urls": [
+    {
+      "firm": "AlphaROC",
+      "url": "https://www.alpharoc.com/careers",
+      "status": "SSL_ERROR"
+    },
+    {
+      "firm": "Chicago Trading Company (CTC)",
+      "url": "https://www.chicagotradingcompany.com/careers",
+      "status": "SSL_ERROR"
+    },
+    {
+      "firm": "Capula Investment Management",
+      "url": "https://www.capula.com/careers",
+      "status": "SSL_ERROR"
+    },
+    {
+      "firm": "Consolidated Trading",
+      "url": "https://www.consolidatedtrading.com/careers/",
+      "status": "SSL_ERROR"
+    },
+    {
+      "firm": "Ernst & Young",
+      "url": "https://www.ernstyoung.com/careers",
+      "status": "SSL_ERROR"
+    },
+    {
+      "firm": "GRO Intelligence",
+      "url": "https://www.grointelligence.com/careers",
+      "status": "SSL_ERROR"
+    },
+    {
+      "firm": "HAP Capital",
+      "url": "https://hapcap.com/careers/",
+      "status": "SSL_ERROR"
+    },
+    {
+      "firm": "IMC Trading",
+      "url": "https://careers.imctrading.com/",
+      "status": "SSL_ERROR"
+    },
+    {
+      "firm": "IBM Corporation",
+      "url": "https://www.ibmcorporation.com/careers",
+      "status": "SSL_ERROR"
+    },
+    {
+      "firm": "Johnson & Johnson",
+      "url": "https://www.johnsonjohnson.com/careers",
+      "status": "SSL_ERROR"
+    },
+    {
+      "firm": "Kyte",
+      "url": "https://www.kyte.com/careers",
+      "status": "SSL_ERROR"
+    },
+    {
+      "firm": "Mercuria Energy",
+      "url": "https://www.mercuria.com/careers/",
+      "status": "SSL_ERROR"
+    },
+    {
+      "firm": "Liangpai Investment",
+      "url": "https://www.liangpai.com/careers",
+      "status": "SSL_ERROR"
+    },
+    {
+      "firm": "Perella Weinberg Partners",
+      "url": "https://www.perellaweinberg.com/careers",
+      "status": "SSL_ERROR"
+    },
+    {
+      "firm": "The Home Depot",
+      "url": "https://www.thehomedepot.com/careers",
+      "status": "SSL_ERROR"
+    },
+    {
+      "firm": "PenFed Credit Union",
+      "url": "https://www.penfedcreditunion.com/careers",
+      "status": "SSL_ERROR"
+    },
+    {
+      "firm": "3iC Capital Group",
+      "url": "https://www.3iccapital.com/",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "Aegon-Industrial Fund Management",
+      "url": "https://www.aegonindustrialfund.com/careers",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "Aigen Investment Management",
+      "url": "https://www.aigeninvestments.com/",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "Archeron Trading",
+      "url": "https://www.archerontrading.com/careers",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "BMW US Capital",
+      "url": "https://www.bmwus.com/careers",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "Broad Institute of MIT and Harvard",
+      "url": "https://www.broadinstituteofmitandharvard.com/careers",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "CIBC Capital Markets",
+      "url": "https://www.cibcmarkets.com/careers",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "Brown Brothers Harriman",
+      "url": "https://www.brownbrothersharriman.com/careers",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "Canada Pension Plan Investment Board (CPPIB)",
+      "url": "https://www.canadapensionplanboard.com/careers",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "Capstone Investment Advisors",
+      "url": "https://capstoneia.com/careers/",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "Chengqi Funds",
+      "url": "https://www.chengqifunds.com/careers",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "D. E. Shaw & Co",
+      "url": "https://www.deshawco.com/careers",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "Dai-ichi Life Holdings",
+      "url": "https://www.daiichilifeholdings.com/careers",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "Charles Schwab",
+      "url": "https://www.charlesschwab.com/careers",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "Delta Air Lines",
+      "url": "https://www.deltaairlines.com/careers",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "Engineers Gate",
+      "url": "https://www.eg-lp.com/careers/",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "Fortitude Re",
+      "url": "https://www.fortitudere.com/careers",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "Fundstrat Global Advisors",
+      "url": "https://www.fundstratglobaladvisors.com/careers",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "Heima AI Robotics",
+      "url": "https://www.heimaairobotics.com/careers",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "Japan Bank for International Cooperation (JBIC)",
+      "url": "https://www.japanbankforinternationalcooperation.com/careers",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "Kernal Trading Technologies",
+      "url": "https://www.kernaltradingtechnologies.com/careers",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "New York Mortgage Trust",
+      "url": "https://www.newyorkmortgagetrust.com/careers",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "Novartis Institute",
+      "url": "https://www.novartisinstitute.com/careers",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "Perplexity AI",
+      "url": "https://www.perplexityai.com/careers",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "SESCO",
+      "url": "https://www.sescoenterprises.com/careers",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "The Voleon Group",
+      "url": "https://www.thevoleon.com/careers",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "Ultramarin GmbH",
+      "url": "https://www.ultramaringmbh.com/careers",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "Walmart Global Tech",
+      "url": "https://www.walmartglobaltech.com/careers",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "IF Quant",
+      "url": "https://www.ifquant.com/",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "Corvid Capital",
+      "url": "https://www.corvid.com/careers",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "Soros Fund Management",
+      "url": "https://www.sorosfund.com/careers",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "Gridify",
+      "url": "https://www.gridify.com/careers",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "Millennium Management",
+      "url": "https://www.mlpm.com/careers/",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "Quant Z",
+      "url": "https://www.quantz.com/careers",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "Instinet Incorporated",
+      "url": "https://www.instinetincorporated.com/careers",
+      "status": "CONN_ERROR"
+    },
+    {
+      "firm": "Forest Creek Capital",
+      "url": "https://www.forestcreek.com/careers",
+      "status": "TIMEOUT"
+    },
+    {
+      "firm": "KeyBank",
+      "url": "https://www.key.com/about/careers/careers.jsp",
+      "status": "TIMEOUT"
+    },
+    {
+      "firm": "McKinsey & Company",
+      "url": "https://www.mckinsey.com/careers",
+      "status": "TIMEOUT"
+    },
+    {
+      "firm": "McKinsey & Company (QuantumBlack)",
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/how-we-work/careers",
+      "status": "TIMEOUT"
+    },
+    {
+      "firm": "Barclays",
+      "url": "https://home.barclays/careers/our-firm/early-careers/",
+      "status": "404"
+    },
+    {
+      "firm": "Astorg Partners",
+      "url": "https://www.astorg.com/careers",
+      "status": "404"
+    },
+    {
+      "firm": "Caravela Energy Partners",
+      "url": "https://www.caravelaenergy.com/careers",
+      "status": "404"
+    },
+    {
+      "firm": "Capital Four",
+      "url": "https://www.four.com/careers",
+      "status": "404"
+    },
+    {
+      "firm": "Citigroup",
+      "url": "https://jobs.citi.com/university",
+      "status": "404"
+    },
+    {
+      "firm": "Crimson Education",
+      "url": "https://www.crimsoneducation.com/careers",
+      "status": "404"
+    },
+    {
+      "firm": "Allspring Global Investments",
+      "url": "https://www.allspringglobal.com/careers/",
+      "status": "404"
+    },
+    {
+      "firm": "Eisler Capital",
+      "url": "https://www.eisler.com/careers",
+      "status": "404"
+    },
+    {
+      "firm": "Department of Defense",
+      "url": "https://www.departmentofdefense.com/careers",
+      "status": "404"
+    },
+    {
+      "firm": "DV Trading",
+      "url": "https://dvtrading.co/careers/",
+      "status": "404"
+    },
+    {
+      "firm": "Ficc.ai",
+      "url": "https://www.ficcai.com/careers",
+      "status": "404"
+    },
+    {
+      "firm": "FinTech Start Up",
+      "url": "https://www.fintechstartup.com/careers",
+      "status": "404"
+    },
+    {
+      "firm": "ExodusPoint Capital Management",
+      "url": "https://www.exoduspoint.com/careers/",
+      "status": "404"
+    },
+    {
+      "firm": "Freestone Grove Partners",
+      "url": "https://www.freestonegrove.com/careers",
+      "status": "404"
+    },
+    {
+      "firm": "Fireworks AI",
+      "url": "https://fireworks.ai/company/careers",
+      "status": "404"
+    },
+    {
+      "firm": "Columbia Threadneedle",
+      "url": "https://www.columbiathreadneedle.com/careers/",
+      "status": "404"
+    },
+    {
+      "firm": "Fox Run Management",
+      "url": "https://www.foxrun.com/careers",
+      "status": "404"
+    },
+    {
+      "firm": "Cubist Systematic Strategies",
+      "url": "https://point72.com/cubist-systematic-strategies/",
+      "status": "404"
+    },
+    {
+      "firm": "HedgeTech LLC",
+      "url": "https://www.hedgetech.com/careers",
+      "status": "404"
+    },
+    {
+      "firm": "China AMC",
+      "url": "https://www.chinaamc.com/careers",
+      "status": "404"
+    },
+    {
+      "firm": "KPMG",
+      "url": "https://www.kpmg.us/careers.html",
+      "status": "404"
+    },
+    {
+      "firm": "Mojo Interactive",
+      "url": "https://www.mojointeractive.com/careers",
+      "status": "404"
+    },
+    {
+      "firm": "Millennium Advisors",
+      "url": "https://www.millenniumadvisors.com/careers",
+      "status": "404"
+    },
+    {
+      "firm": "Radix Trading",
+      "url": "https://www.radixtrading.com/careers/",
+      "status": "404"
+    },
+    {
+      "firm": "Pearl River Capital",
+      "url": "https://www.pearlriver.com/careers",
+      "status": "404"
+    },
+    {
+      "firm": "RBC Capital Markets",
+      "url": "https://www.rbccm.com/en/careers/",
+      "status": "404"
+    },
+    {
+      "firm": "Maven Securities",
+      "url": "https://www.mavensecurities.com/careers/",
+      "status": "404"
+    },
+    {
+      "firm": "Point72",
+      "url": "https://point72.com/careers/",
+      "status": "404"
+    },
+    {
+      "firm": "Point72 / Cubist Systematic Strategies",
+      "url": "https://point72.com/careers/",
+      "status": "404"
+    },
+    {
+      "firm": "State Street",
+      "url": "https://www.statestreet.com/us/en/asset-management/about/careers",
+      "status": "404"
+    },
+    {
+      "firm": "Squarepoint Capital",
+      "url": "https://www.squarepoint-capital.com/careers",
+      "status": "404"
+    },
+    {
+      "firm": "Tanius Tech",
+      "url": "https://www.taniustech.com/careers",
+      "status": "404"
+    },
+    {
+      "firm": "UNTL",
+      "url": "https://www.untl.com/careers",
+      "status": "404"
+    },
+    {
+      "firm": "VanEck",
+      "url": "https://www.vaneck.com/careers",
+      "status": "404"
+    },
+    {
+      "firm": "Verition Fund Management",
+      "url": "https://verition.com/careers/",
+      "status": "404"
+    },
+    {
+      "firm": "Marshall Wace",
+      "url": "https://www.mwam.com/careers/",
+      "status": "404"
+    },
+    {
+      "firm": "Sumridge Partners",
+      "url": "https://www.sumridge.com/careers/",
+      "status": "404"
+    },
+    {
+      "firm": "Deloitte",
+      "url": "https://www2.deloitte.com/us/en/pages/careers/careers.html",
+      "status": "404"
+    },
+    {
+      "firm": "Oaktree Capital",
+      "url": "https://www.oaktreecapital.com/about/careers",
+      "status": "404"
+    },
+    {
+      "firm": "GAM Investments",
+      "url": "https://www.gam.com/en/our-company/careers",
+      "status": "404"
+    },
+    {
+      "firm": "Nomura",
+      "url": "https://www.nomuragroup.com/careers/",
+      "status": "404"
+    },
+    {
+      "firm": "Walleye Capital",
+      "url": "https://www.walleye.com/careers",
+      "status": "404"
+    },
+    {
+      "firm": "EFund Management",
+      "url": "https://www.efund.com/careers",
+      "status": "404"
+    },
+    {
+      "firm": "DIA",
+      "url": "https://www.dia.com/careers",
+      "status": "503"
+    },
+    {
+      "firm": "CITIC Securities",
+      "url": "https://www.citic.com/careers",
+      "status": "521"
+    },
+    {
+      "firm": "Meta",
+      "url": "https://www.metacareers.com/",
+      "status": "400"
+    },
+    {
+      "firm": "Alphadyne Asset Management",
+      "url": "https://www.alphadyne.com/",
+      "status": "401"
+    },
+    {
+      "firm": "SAI",
+      "url": "https://www.sai.com/careers",
+      "status": "500"
+    },
+    {
+      "firm": "China International Capital Corporation (CICC)",
+      "url": "https://www.cicc.com/",
+      "status": "521"
+    }
+  ],
+  "cloudflare_blocked": [
+    {
+      "firm": "BNP Paribas",
+      "url": "https://group.bnpparibas/en/careers"
+    },
+    {
+      "firm": "Bloomberg LP",
+      "url": "https://www.bloomberg.com/company/careers/"
+    },
+    {
+      "firm": "Chime",
+      "url": "https://careers.chime.com/"
+    },
+    {
+      "firm": "Citadel",
+      "url": "https://www.citadel.com/careers/open-roles/"
+    },
+    {
+      "firm": "Citadel / Citadel Securities",
+      "url": "https://www.citadel.com/careers/open-roles/"
+    },
+    {
+      "firm": "Citadel Securities",
+      "url": "https://www.citadelsecurities.com/careers/open-roles/"
+    },
+    {
+      "firm": "Intel",
+      "url": "https://www.intel.com/careers"
+    },
+    {
+      "firm": "MassMutual",
+      "url": "https://www.massmutual.com/careers"
+    },
+    {
+      "firm": "Options Clearing Corporation (OCC)",
+      "url": "https://www.theocc.com/Careers"
+    },
+    {
+      "firm": "PIMCO",
+      "url": "https://www.pimco.com/en-us/our-firm/careers/"
+    },
+    {
+      "firm": "PricewaterhouseCoopers (PwC)",
+      "url": "https://www.pwc.com/us/en/careers.html"
+    },
+    {
+      "firm": "Tesla",
+      "url": "https://www.tesla.com/careers"
+    },
+    {
+      "firm": "U.S. Securities and Exchange Commission (SEC)",
+      "url": "https://www.sec.gov/careers"
+    },
+    {
+      "firm": "UBS",
+      "url": "https://www.ubs.com/global/en/careers.html"
+    },
+    {
+      "firm": "BMO Capital Markets",
+      "url": "https://capitalmarkets.bmo.com/en/about-us/careers/"
+    },
+    {
+      "firm": "Credit Suisse",
+      "url": "https://www.credit-suisse.com/careers"
+    },
+    {
+      "firm": "CME Group",
+      "url": "https://www.cmegroup.com/careers.html"
+    }
+  ]
+}

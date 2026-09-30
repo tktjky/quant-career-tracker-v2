@@ -34,6 +34,11 @@ WORKDAY_REGISTRY = {
         "tenant": "morningstar",
         "site": "Morningstar",
     },
+    "CME Group": {
+        "host": "cmegroup.wd1.myworkdayjobs.com",
+        "tenant": "cmegroup",
+        "site": "CME_Careers",
+    },
 }
 
 WORKDAY_SEARCH_TERMS = ["quantitative", "quant", "trading", "data scientist"]

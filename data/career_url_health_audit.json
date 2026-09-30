@@ -1,0 +1,2845 @@
+{
+  "total": 296,
+  "healthy_count": 258,
+  "bot_protected_count": 19,
+  "functional_total": 277,
+  "issues": [
+    {
+      "firm_name": "Canada Pension Plan Investment Board (CPPIB)",
+      "url": "https://www.cppinvestments.com/careers",
+      "status": "HTTP_202",
+      "code": 202,
+      "final_url": "https://www.cppinvestments.com/careers",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Pearl River Capital",
+      "url": "https://www.pearlriver.com/careers",
+      "status": "HTTP_404",
+      "code": 404,
+      "final_url": "https://pearlriver.com/careers",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Alphadyne Asset Management",
+      "url": "https://www.alphadyne.com/",
+      "status": "HTTP_401",
+      "code": 401,
+      "final_url": "https://www.alphadyne.com/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "China International Capital Corporation (CICC)",
+      "url": "https://www.cicc.com/",
+      "status": "HTTP_521",
+      "code": 521,
+      "final_url": "https://www.cicc.com/",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "3iC Capital Group",
+      "url": "https://www.3iccapital.com/",
+      "status": "CONN_ERROR",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Archeron Trading",
+      "url": "https://www.archerontrading.com/careers",
+      "status": "CONN_ERROR",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Eisler Capital",
+      "url": "https://www.eislercapital.com/careers",
+      "status": "CONN_ERROR",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Fortitude Re",
+      "url": "https://www.fortitudere.com/careers",
+      "status": "CONN_ERROR",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Fox Run Management",
+      "url": "https://www.foxrunmanagement.com/",
+      "status": "CONN_ERROR",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Corvid Capital",
+      "url": "https://www.corvidcapital.com/",
+      "status": "CONN_ERROR",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "UNTL",
+      "url": "https://www.untl.co/",
+      "status": "CONN_ERROR",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "IF Quant",
+      "url": "https://www.ifquant.com/",
+      "status": "CONN_ERROR",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Capital Four",
+      "url": "https://www.capitalfour.com/careers",
+      "status": "SSL_ERROR",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Consolidated Trading",
+      "url": "https://www.consolidatedtrading.com/careers",
+      "status": "SSL_ERROR",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier B: Main Focus",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "HAP Capital",
+      "url": "https://www.hapcap.com/careers",
+      "status": "SSL_ERROR",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier B: Main Focus",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "BMW US Capital",
+      "url": "https://www.bmwgroup.jobs/us/en.html",
+      "status": "TIMEOUT",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "KeyBank",
+      "url": "https://www.key.com/about/careers/careers.jsp",
+      "status": "TIMEOUT",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "McKinsey & Company",
+      "url": "https://www.mckinsey.com/careers",
+      "status": "TIMEOUT",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "McKinsey & Company (QuantumBlack)",
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/how-we-work/careers",
+      "status": "TIMEOUT",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    }
+  ],
+  "details": [
+    {
+      "firm_name": "3iC Capital Group",
+      "url": "https://www.3iccapital.com/",
+      "status": "CONN_ERROR",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Archeron Trading",
+      "url": "https://www.archerontrading.com/careers",
+      "status": "CONN_ERROR",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Anthropic",
+      "url": "https://www.anthropic.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.anthropic.com/careers",
+      "tier": "Tier A: Too Hard",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "AXQ Capital",
+      "url": "https://www.axqcap.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.axqcap.com/",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "AGAM Capital",
+      "url": "https://www.agam.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.agam.com/about/careers/",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Astorg Partners",
+      "url": "https://www.astorg.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.astorg.com/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Akuna Capital",
+      "url": "https://akunacapital.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://akunacapital.com/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "BNP Paribas",
+      "url": "https://group.bnpparibas/en/careers",
+      "status": "BOT_PROTECTED",
+      "code": 403,
+      "final_url": "https://group.bnpparibas/en/careers",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "American Century Investments",
+      "url": "https://www.americancentury.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.americancentury.com/about/careers/",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Arrowstreet Capital",
+      "url": "https://www.arrowstreet.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.arrowstreet.com/about/careers/",
+      "tier": "Tier A: Too Hard",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "AllianceBernstein",
+      "url": "https://www.alliancebernstein.com/corporate/en/careers.html",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.alliancebernstein.com/corporate/en/careers.html",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Accenture",
+      "url": "https://www.accenture.com/us-en/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.accenture.com/us-en/careers",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Aegon-Industrial Fund Management",
+      "url": "https://www.aegon.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.aegon.com/careers/",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "AlphaROC",
+      "url": "https://www.alpharoc.ai/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.alpharoc.ai/",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Allspring Global Investments",
+      "url": "https://www.allspringglobal.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.allspringglobal.com/",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "American Express",
+      "url": "https://www.americanexpress.com/en-us/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.americanexpress.com/en-us/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Analysis Group",
+      "url": "https://www.analysis.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.analysis.com/careers",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Aigen Investment Management",
+      "url": "https://aigenim.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://aigenim.com/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Amazon",
+      "url": "https://www.amazon.jobs/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.amazon.jobs/en/",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Barclays",
+      "url": "https://search.jobs.barclays/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://search.jobs.barclays/",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "BlackRock",
+      "url": "https://careers.blackrock.com/early-careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://careers.blackrock.com/students-and-graduates",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Apple",
+      "url": "https://jobs.apple.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.apple.com/careers/us/",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Bloomberg LP",
+      "url": "https://www.bloomberg.com/company/careers/",
+      "status": "BOT_PROTECTED",
+      "code": 403,
+      "final_url": "https://www.bloomberg.com/company/careers/",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Financial Data & Market Utilities"
+    },
+    {
+      "firm_name": "AQR Capital Management",
+      "url": "https://www.aqr.com/Careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.aqr.com/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Avis Budget Group",
+      "url": "https://www.avisbudget.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.avisbudgetgroup.com/home",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Alger",
+      "url": "https://www.alger.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.alger.com/Pages/Careers.aspx",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Bridgewater Associates",
+      "url": "https://www.bridgewater.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.bridgewater.com/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Brex",
+      "url": "https://www.brex.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.brex.com/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Broad Institute of MIT and Harvard",
+      "url": "https://www.broadinstitute.org/careers",
+      "status": "BOT_PROTECTED",
+      "code": 403,
+      "final_url": "https://www.broadinstitute.org/careers",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Bank of America",
+      "url": "https://campus.bankofamerica.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://careers.bankofamerica.com/en-us/students/campus-experience",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "Block (Cash App)",
+      "url": "https://block.xyz/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://block.xyz/careers/jobs",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "CIBC Capital Markets",
+      "url": "https://www.cibc.com/en/about-cibc/careers.html",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.cibc.com/en/about-cibc/careers.html",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "Balbec Capital",
+      "url": "https://www.balbec.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://balbec.com/careers/",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Brown Brothers Harriman",
+      "url": "https://www.bbh.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.bbh.com/us/en/careers.html",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "BP Trading",
+      "url": "https://www.bp.com/en/global/corporate/careers.html",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://careers.bp.com/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Commodities & Energy Trading Desks"
+    },
+    {
+      "firm_name": "All Options Trading",
+      "url": "https://www.alloptions.nl/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.alloptions-international.com/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "Boston Consulting Group (BCG)",
+      "url": "https://careers.bcg.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://careers.bcg.com/global/en/",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Capital Four",
+      "url": "https://www.capitalfour.com/careers",
+      "status": "SSL_ERROR",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Canada Pension Plan Investment Board (CPPIB)",
+      "url": "https://www.cppinvestments.com/careers",
+      "status": "HTTP_202",
+      "code": 202,
+      "final_url": "https://www.cppinvestments.com/careers",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Bopu Fund",
+      "url": "https://www.bopufund.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.bopufund.com/",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "CITIC Securities",
+      "url": "https://www.citics.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.citics.com/newsite/",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "Belvedere Trading",
+      "url": "https://belvederetrading.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.belvederetrading.com/new-graduates-campus-recruiting",
+      "tier": "Tier B: Main Focus",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "Capstone Investment Advisors",
+      "url": "https://www.capstoneco.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.capstoneco.com/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Chicago Trading Company (CTC)",
+      "url": "https://www.chicagotrading.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.chicagotrading.com/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "Calamos Investments",
+      "url": "https://www.calamos.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.calamos.com/careers",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Chime",
+      "url": "https://careers.chime.com/",
+      "status": "BOT_PROTECTED",
+      "code": 403,
+      "final_url": "https://careers.chime.com/",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Bank of New York Mellon (BNY Mellon)",
+      "url": "https://www.bankofnewyorkmellon.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.bny.com/corporate/global/en.html",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "China Southern Asset Management",
+      "url": "https://www.chinasouthern.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.chinasouthern.com/careers",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Chengqi Funds",
+      "url": "https://www.chengqi.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.chengqi.com/",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Beacon Platform",
+      "url": "https://www.beacon.io/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://cwan.com/company/careers/",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Financial Data & Market Utilities"
+    },
+    {
+      "firm_name": "Cerberus Capital Management",
+      "url": "https://www.cerberus.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.cerberus.com/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "China Everbright Bank",
+      "url": "https://www.chinaeverbrightbank.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.chinaeverbrightbank.com/careers",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "Blackstone",
+      "url": "https://www.blackstone.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.blackstone.com/careers/careers-blackstone/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Brevan Howard",
+      "url": "https://www.brevanhoward.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://careers.brevanhoward.com/gb/en/home",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Citigroup",
+      "url": "https://jobs.citi.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://jobs.citi.com/",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "China AMC",
+      "url": "https://en.chinaamc.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://en.chinaamc.com/",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Caravela Energy Partners",
+      "url": "https://caravelaenergy.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://caravelapartners.com",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Commodities & Energy Trading Desks"
+    },
+    {
+      "firm_name": "Charles Schwab",
+      "url": "https://jobs.schwabjobs.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.schwabjobs.com/",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Citadel",
+      "url": "https://www.citadel.com/careers/open-roles/",
+      "status": "BOT_PROTECTED",
+      "code": 403,
+      "final_url": "https://www.citadel.com/careers/open-roles/",
+      "tier": "Tier A: Too Hard",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Consolidated Trading",
+      "url": "https://www.consolidatedtrading.com/careers",
+      "status": "SSL_ERROR",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier B: Main Focus",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "Citadel / Citadel Securities",
+      "url": "https://www.citadel.com/careers/open-roles/",
+      "status": "BOT_PROTECTED",
+      "code": 403,
+      "final_url": "https://www.citadel.com/careers/open-roles/",
+      "tier": "Tier A: Too Hard",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "Citadel Securities",
+      "url": "https://www.citadelsecurities.com/careers/open-roles/",
+      "status": "BOT_PROTECTED",
+      "code": 403,
+      "final_url": "https://www.citadelsecurities.com/careers/open-roles/",
+      "tier": "Tier A: Too Hard",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "Eisler Capital",
+      "url": "https://www.eislercapital.com/careers",
+      "status": "CONN_ERROR",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Castleton Commodities International (CCI)",
+      "url": "https://www.cci.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://cci.com/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Commodities & Energy Trading Desks"
+    },
+    {
+      "firm_name": "Conversion Capital",
+      "url": "https://conversioncapital.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://conversioncapital.com/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "DIA",
+      "url": "https://www.diadata.org/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.diadata.org/",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "DC Investments",
+      "url": "https://www.google.com/search?q=DC+careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.google.com/search?q=DC+careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Columbia Threadneedle",
+      "url": "https://www.columbiathreadneedle.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.columbiathreadneedle.com/en/",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Cubist Systematic Strategies",
+      "url": "https://careers.point72.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://careers.point72.com/",
+      "tier": "Tier A: Too Hard",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Capula Investment Management",
+      "url": "https://www.capula.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://capula.com/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "D. E. Shaw & Co",
+      "url": "https://www.deshaw.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.deshaw.com/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "D.E. Shaw",
+      "url": "https://www.deshaw.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.deshaw.com/careers",
+      "tier": "Tier A: Too Hard",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Coinbase",
+      "url": "https://www.coinbase.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.coinbase.com/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Cisco Systems",
+      "url": "https://jobs.cisco.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://careers.cisco.com/global/en",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Department of Defense",
+      "url": "https://www.usajobs.gov/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.usajobs.gov/",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Dodge & Cox",
+      "url": "https://www.dodgecox.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.dodgecox.com/careers",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Ellington Management Group",
+      "url": "https://www.ellington.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.ellington.com/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Ernst & Young",
+      "url": "https://www.ey.com/en_us/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.ey.com/en_us/careers",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Delta Air Lines",
+      "url": "https://www.delta.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.delta.com/us/en/careers/overview",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Crimson Education",
+      "url": "https://www.crimsoneducation.org/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.crimsoneducation.org/us/careers",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Databricks",
+      "url": "https://www.databricks.com/company/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.databricks.com/company/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Fortitude Re",
+      "url": "https://www.fortitudere.com/careers",
+      "status": "CONN_ERROR",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Fox Run Management",
+      "url": "https://www.foxrunmanagement.com/",
+      "status": "CONN_ERROR",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "DV Trading",
+      "url": "https://dvtrading.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "http://www.dvtrading.com/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "Ernst & Young (EY)",
+      "url": "https://www.ey.com/en_us/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.ey.com/en_us/careers",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Evercore",
+      "url": "https://www.evercore.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.evercore.com/careers/",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "CVS Health",
+      "url": "https://www.cvshealth.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://jobs.cvshealth.com/us/en",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Federal Reserve System",
+      "url": "https://www.federalreserve.gov/careers.htm",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.federalreserve.gov/careers.htm",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Finance Concepts",
+      "url": "https://www.financeconcepts.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.financeconcepts.com/careers",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "FinTech Start Up",
+      "url": "https://wellfound.com/jobs",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://wellfound.com/jobs",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "EFund Management",
+      "url": "https://www.efunds.com.cn/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.efunds.com.cn/",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Ficc.ai",
+      "url": "https://www.linkedin.com/company/ficc-ai/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.linkedin.com/company/ficc-ai/",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Flow Traders",
+      "url": "https://www.flowtraders.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.flowtraders.com/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "Fitch Ratings",
+      "url": "https://www.fitchratings.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.fitchratings.com/careers",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Foresight Fund",
+      "url": "https://sig.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://sig.com/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "Forest Creek Capital",
+      "url": "https://www.forestcreekcapital.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.forestcreekcapital.com/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Fireworks AI",
+      "url": "https://fireworks.ai/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://fireworks.ai/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Dimensional Fund Advisors (DFA)",
+      "url": "https://www.dimensionalfundadvisors.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.dimensional.com/",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Deleg8",
+      "url": "https://www.deleg8.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://deleg8.com/",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "ExodusPoint Capital Management",
+      "url": "https://www.exoduspoint.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.exoduspoint.com/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "GIC (Government of Singapore Investment Corp)",
+      "url": "https://www.gic.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.gic.com/careers",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "GF Securities",
+      "url": "https://www.google.com/search?q=GF+careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.google.com/search?q=GF+careers",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Federated Hermes",
+      "url": "https://www.federatedhermes.com/us/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.federatedhermes.com:443/",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Five Rings LLC",
+      "url": "https://fiverings.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://fiverings.com/careers/",
+      "tier": "Tier A: Too Hard",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "GMO",
+      "url": "https://www.gmo.com/americas/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.gmo.com/americas/careers/",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Global AI",
+      "url": "https://www.globalai.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.globalai.com/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Glenmede",
+      "url": "https://www.glenmede.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.glenmede.com/careers/",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Goldman Sachs",
+      "url": "https://www.goldmansachs.com/careers/students/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.goldmansachs.com/careers/students",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "Five Dimensions Energy LLC",
+      "url": "https://www.fivedimensionsenergy.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://fivedimensionsenergy.com/careers/",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Commodities & Energy Trading Desks"
+    },
+    {
+      "firm_name": "HAP Capital",
+      "url": "https://www.hapcap.com/careers",
+      "status": "SSL_ERROR",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier B: Main Focus",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "GRO Intelligence",
+      "url": "https://www.linkedin.com/company/gro-intelligence/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.linkedin.com/company/gro-intelligence/",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Freestone Grove Partners",
+      "url": "https://www.freestonegrove.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://fgrovep.com/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "HedgeTech LLC",
+      "url": "https://hedgetech.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://hedgetech.com/",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Heima AI Robotics",
+      "url": "https://www.heima.ai/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.heima.ai/",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Hudson River Trading (HRT)",
+      "url": "https://www.hudsonrivertrading.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.hudsonrivertrading.com/careers/",
+      "tier": "Tier A: Too Hard",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "Dai-ichi Life Holdings",
+      "url": "https://www.dai-ichi-life-hd.com/en/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.daiichilife-group.com/en/",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Google DeepMind",
+      "url": "https://deepmind.google/about/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://deepmind.google/careers/",
+      "tier": "Tier A: Too Hard",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "HBK Capital Management",
+      "url": "https://www.hbk.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.hbk.com/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "IBM Corporation",
+      "url": "https://www.ibm.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.ibm.com/careers",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Fundstrat Global Advisors",
+      "url": "https://www.fundstrat.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://fundstrat.com/",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Genentech",
+      "url": "https://www.genentech.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.gene.com/",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "GrayScale",
+      "url": "https://grayscale.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.grayscale.com/company/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Intel",
+      "url": "https://www.intel.com/careers",
+      "status": "BOT_PROTECTED",
+      "code": 403,
+      "final_url": "https://www.intel.com/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Google",
+      "url": "https://www.google.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.google.com/about/careers/applications/",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Haitong International Securities",
+      "url": "https://www.htisec.com/en-us/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.htisec.com/en-us/careers",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "Gridify",
+      "url": "https://www.gridify.io/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://gridify.io/",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Instinet Incorporated",
+      "url": "https://www.instinet.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.instinet.com/",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "Jane Street",
+      "url": "https://www.janestreet.com/join-jane-street/open-roles/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.janestreet.com/join-jane-street/open-roles/",
+      "tier": "Tier A: Too Hard",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "Japan Bank for International Cooperation (JBIC)",
+      "url": "https://www.jbic.go.jp/en/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.jbic.go.jp/en/",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Kernal Trading Technologies",
+      "url": "https://www.kerneltrading.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.kerneltrading.com/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "Jump Trading",
+      "url": "https://www.jumptrading.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.jumptrading.com/careers",
+      "tier": "Tier A: Too Hard",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "Johnson & Johnson",
+      "url": "https://www.careers.jnj.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.careers.jnj.com/en/",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "IMC Trading",
+      "url": "https://careers.imc.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.imc.com/eu/search-careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "Invesco",
+      "url": "https://www.invesco.com/corporate/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://careers.invesco.com/",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Iconiq Capital",
+      "url": "https://iconiqcapital.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.iconiq.com/careers",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Lincoln Financial Group",
+      "url": "https://www.lincolnfinancial.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.lincolnfinancial.com/public/aboutus/careers",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Klarna",
+      "url": "https://www.klarna.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.klarna.com/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Invisible Technologies",
+      "url": "https://www.invisible.co/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://invisibletech.ai/join-us",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Geneva Trading",
+      "url": "https://genevatrading.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.genevatrading.com/career-in-trading/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "Investcorp",
+      "url": "https://www.investcorp.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.investcorp.com/careers/",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "J.P. Morgan Chase",
+      "url": "https://careers.jpmorgan.com/us/en/students/programs",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "MIO Partners",
+      "url": "https://www.miopartners.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.miopartners.com/careers/",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Liangpai Investment",
+      "url": "https://www.liangpai.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.liangpai.com/",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "BMW US Capital",
+      "url": "https://www.bmwgroup.jobs/us/en.html",
+      "status": "TIMEOUT",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Freddie Mac",
+      "url": "https://www.freddiemac.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://careers.freddiemac.com/us/en",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Engineers Gate",
+      "url": "https://boards.greenhouse.io/engineersgate",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://job-boards.greenhouse.io/engineersgate",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "KPMG",
+      "url": "https://home.kpmg/us/en/home/careers.html",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://kpmg.com/us/en/careers-and-culture.html",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Kyte",
+      "url": "https://www.kyte.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://kyte.com/",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "MassMutual",
+      "url": "https://www.massmutual.com/careers",
+      "status": "BOT_PROTECTED",
+      "code": 403,
+      "final_url": "https://www.massmutual.com/careers",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "MerQube",
+      "url": "https://merqube.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://merqube.com/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "McKinsey (MIO Partners)",
+      "url": "https://www.miopartners.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.miopartners.com/careers/",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Lincoln Avenue Capital",
+      "url": "https://www.lincolnavenue.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://lincolnavenue.com/careers/",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Intercontinental Exchange (ICE)",
+      "url": "https://www.theice.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.ice.com/careers",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Financial Data & Market Utilities"
+    },
+    {
+      "firm_name": "Microsoft",
+      "url": "https://careers.microsoft.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://careers.microsoft.com/v2/global/en/home.html",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Millennium Advisors",
+      "url": "https://www.millenniumadvisorsllc.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.millenniumadvisorsllc.com/",
+      "tier": "Tier A: Too Hard",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Moelis & Company",
+      "url": "https://www.moelis.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.moelis.com/careers/",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "Millennium Management",
+      "url": "https://www.mlp.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.mlp.com/careers/",
+      "tier": "Tier A: Too Hard",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Man Group (AHL / Numeric)",
+      "url": "https://www.man.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.man.com/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Mojo Interactive",
+      "url": "https://www.mojoglobal.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.mojoglobal.com/",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Moody's Investors Service",
+      "url": "https://careers.moodys.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://careers.moodys.com/en",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Meta",
+      "url": "https://www.metacareers.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.metacareers.com/",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "NVIDIA",
+      "url": "https://www.nvidia.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.nvidia.com/en-us/about-nvidia/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Netflix",
+      "url": "https://www.netflix.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.netflix.com/NotFound?prev=https%3A%2F%2Fwww.netflix.com%2Fcareers",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Nipun Capital",
+      "url": "https://www.nipun.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.nipun.com/careers",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "NextEra Energy",
+      "url": "https://www.nexteraenergy.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.nexteraenergy.com/careers.html",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Commodities & Energy Trading Desks"
+    },
+    {
+      "firm_name": "Kaiser Permanente",
+      "url": "https://www.kaiserpermanente.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.kaiserpermanentejobs.org/?kp_shortcut_referrer=kp.org/careers",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Novartis Institute",
+      "url": "https://www.novartis.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.novartis.com/careers",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Maven Securities",
+      "url": "https://mavensecurities.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.mavensecurities.com/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "Nomura",
+      "url": "https://www.nomura.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.nomura.com/careers/",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "Old Mission Capital",
+      "url": "https://www.oldmissioncapital.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.oldmissioncapital.com/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "One William Street Capital Management",
+      "url": "https://www.onewilliamstreet.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.onewilliamstreet.com/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Options Clearing Corporation (OCC)",
+      "url": "https://www.theocc.com/Careers",
+      "status": "BOT_PROTECTED",
+      "code": 403,
+      "final_url": "https://www.theocc.com/Careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "OpenAI",
+      "url": "https://openai.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://openai.com/careers/",
+      "tier": "Tier A: Too Hard",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Munich Re",
+      "url": "https://www.munichre.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://careers.munichre.com/en/munichre",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "PEAK6",
+      "url": "https://peak6.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://peak6.com/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "Neuberger Berman",
+      "url": "https://www.nb.com/en/global/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.nb.com/who-we-are/careers",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Oracle",
+      "url": "https://www.oracle.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.oracle.com/careers/",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "New York Mortgage Trust",
+      "url": "https://www.nymt.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://nymt.com/",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "PIMCO",
+      "url": "https://www.pimco.com/en-us/our-firm/careers/",
+      "status": "BOT_PROTECTED",
+      "code": 403,
+      "final_url": "https://www.pimco.com/en-us/our-firm/careers/",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "PGIM",
+      "url": "https://www.pgim.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.pgim.com/campaignCountry/en/institutional/about/careers",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Pacific Gas & Electric (PG&E)",
+      "url": "https://www.pacificgaselectric.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.pacificgaselectric.com/careers",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Commodities & Energy Trading Desks"
+    },
+    {
+      "firm_name": "Mercuria Energy",
+      "url": "https://www.mercuria.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://mercuria.com/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Commodities & Energy Trading Desks"
+    },
+    {
+      "firm_name": "Penn Medicine",
+      "url": "https://www.pennmedicine.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.pennmedicine.com/careers",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "OMNI Risk Management",
+      "url": "https://www.omnirisk.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://leap.ca/?utm_source=omnirisk.com",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "PenFed Credit Union",
+      "url": "https://www.penfed.org/careers",
+      "status": "BOT_PROTECTED",
+      "code": 403,
+      "final_url": "https://www.penfed.org/careers",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Palantir Technologies",
+      "url": "https://www.palantir.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.palantir.com/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "PricewaterhouseCoopers (PwC)",
+      "url": "https://www.pwc.com/us/en/careers.html",
+      "status": "BOT_PROTECTED",
+      "code": 403,
+      "final_url": "https://www.pwc.com/us/en/careers.html",
+      "tier": "Tier D: Pure Practice",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Corvid Capital",
+      "url": "https://www.corvidcapital.com/",
+      "status": "CONN_ERROR",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Perplexity AI",
+      "url": "https://www.perplexity.ai/hub/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.perplexity.ai/hub/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Point72 / Cubist Systematic Strategies",
+      "url": "https://careers.point72.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://careers.point72.com/",
+      "tier": "Tier A: Too Hard",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Quant Z",
+      "url": "https://quantz.ai/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://quantz.ai/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "PanAgora Asset Management",
+      "url": "https://www.panagora.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.panagora.com/careers/",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Optiver",
+      "url": "https://optiver.com/working-at-optiver/career-opportunities/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.optiver.com/join-us/jobs/",
+      "tier": "Tier A: Too Hard",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "Point72",
+      "url": "https://careers.point72.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://careers.point72.com/",
+      "tier": "Tier A: Too Hard",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Numerix",
+      "url": "https://www.numerix.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.numerix.com/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Quantitative Brokers",
+      "url": "https://www.quantitativebrokers.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.quantitativebrokers.com/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "Quantinno Capital Management",
+      "url": "https://www.quantinno.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.quantinno.com/careers",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Quantedge Capital",
+      "url": "https://www.quantedge.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.quantedge.com/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Quantbot Technologies",
+      "url": "https://www.quantbot.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.quantbot.com/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Robinhood",
+      "url": "https://careers.robinhood.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://careers.robinhood.com/",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Radix Trading",
+      "url": "https://www.radixtrading.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.radixtrading.com/",
+      "tier": "Tier A: Too Hard",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "Perella Weinberg Partners",
+      "url": "https://www.pwpartners.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://pwpartners.com/careers/",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "Prime Trading",
+      "url": "https://www.primetrading.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://primetrading.com",
+      "tier": "Tier B: Main Focus",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "Rokos Capital Management",
+      "url": "https://www.rokoscapital.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.rokoscapital.com/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "SAI",
+      "url": "https://www.sai360.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.sai360.com/",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "SIG (Susquehanna International Group)",
+      "url": "https://sig.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://sig.com/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "Schonfeld Strategic Advisors",
+      "url": "https://www.schonfeld.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.schonfeld.com/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Scale AI",
+      "url": "https://scale.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://scale.com/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "S&P Global",
+      "url": "https://careers.spglobal.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://careers.spglobal.com/jobs",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Financial Data & Market Utilities"
+    },
+    {
+      "firm_name": "Qube Research & Technologies (QRT)",
+      "url": "https://www.qube-rt.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.qube-rt.com/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "SciFeCap",
+      "url": "https://www.scifecap.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.scifecap.com/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Pearl River Capital",
+      "url": "https://www.pearlriver.com/careers",
+      "status": "HTTP_404",
+      "code": 404,
+      "final_url": "https://pearlriver.com/careers",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Ramp",
+      "url": "https://ramp.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://ramp.com/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "SoFi",
+      "url": "https://www.sofi.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.sofi.com/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Soros Fund Management",
+      "url": "https://www.opensocietyfoundations.org/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.opensocietyfoundations.org/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Spotify",
+      "url": "https://www.lifeatspotify.com/jobs",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.lifeatspotify.com/jobs",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Societe Generale",
+      "url": "https://careers.societegenerale.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://careers.societegenerale.com/",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "Sumitomo Mitsui Banking Corporation (SMBC)",
+      "url": "https://www.sumitomomitsuibankingcorporation.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.sumitomomitsuibankingcorporation.com/careers",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "Stripe",
+      "url": "https://stripe.com/jobs",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://stripe.com/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "TGS Management",
+      "url": "https://www.tgs.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.tgs.com/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Squarepoint Capital",
+      "url": "https://www.squarepoint-capital.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.squarepoint-capital.com/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "TD Securities",
+      "url": "https://www.google.com/search?q=TD+careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.google.com/search?q=TD+careers",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "Tesla",
+      "url": "https://www.tesla.com/careers",
+      "status": "BOT_PROTECTED",
+      "code": 403,
+      "final_url": "https://www.tesla.com/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "State Street",
+      "url": "https://statestreet.wd1.myworkdayjobs.com/Global",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://statestreet.wd1.myworkdayjobs.com/Global",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "UNTL",
+      "url": "https://www.untl.co/",
+      "status": "CONN_ERROR",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "The Home Depot",
+      "url": "https://careers.homedepot.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://careers.homedepot.com/",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "TIFIN",
+      "url": "https://tifin.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://tifin.com/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Secor Asset Management",
+      "url": "https://www.secor-am.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.mercer.com/solutions/investments/investment-solutions-and-ocio/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "The Voleon Group",
+      "url": "https://voleon.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://voleon.com/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "TransMarket Group",
+      "url": "https://www.transmarketgroup.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.transmarketgroup.com/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "Tibra Capital",
+      "url": "https://www.tibra.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.tibra.com/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "TD Bank",
+      "url": "https://www.tdbank.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://careers.td.com/",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Transmarket Group",
+      "url": "https://www.transmarketgroup.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.transmarketgroup.com/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "U.S. Securities and Exchange Commission (SEC)",
+      "url": "https://www.sec.gov/careers",
+      "status": "BOT_PROTECTED",
+      "code": 403,
+      "final_url": "https://www.sec.gov/careers",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Two Sigma",
+      "url": "https://www.twosigma.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.twosigma.com/careers/",
+      "tier": "Tier A: Too Hard",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "UBS",
+      "url": "https://www.ubs.com/global/en/careers.html",
+      "status": "BOT_PROTECTED",
+      "code": 403,
+      "final_url": "https://www.ubs.com/global/en/careers.html",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "Tanius Tech",
+      "url": "https://www.tanius.tech/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.tanius.com/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "Trafigura",
+      "url": "https://www.trafigura.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.trafigura.com/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Commodities & Energy Trading Desks"
+    },
+    {
+      "firm_name": "RBC Capital Markets",
+      "url": "https://www.rbc.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://jobs.rbc.com/ca/en/",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "Stone Ridge Asset Management",
+      "url": "https://www.stoneridge.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.stoneridge.com/careers/",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Snowflake",
+      "url": "https://careers.snowflake.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://careers.snowflake.com/us/en",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Tower Research Capital",
+      "url": "https://www.tower-research.com/open-positions",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://tower-research.com/open-positions/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Virtu Financial",
+      "url": "https://www.virtu.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.virtu.com/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Vanguard",
+      "url": "https://www.vanguardjobs.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.vanguardjobs.com/",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Trexquant Investment",
+      "url": "https://www.trexquant.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://trexquant.com/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Truist Financial",
+      "url": "https://careers.truist.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://careers.truist.com/us/en",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Upstart",
+      "url": "https://www.upstart.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://careers.upstart.com/home",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Walmart Global Tech",
+      "url": "https://careers.walmart.com/technology",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://careers.walmart.com/us/en/home/careers-areas/technology",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Uber",
+      "url": "https://www.uber.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://jobs.uber.com/en/",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Wells Fargo",
+      "url": "https://www.wellsfargojobs.com/university-programs",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.wellsfargojobs.com/en/early-careers/",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "d1g1t Inc",
+      "url": "https://www.d1g1t.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.d1g1t.com/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "IF Quant",
+      "url": "https://www.ifquant.com/",
+      "status": "CONN_ERROR",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "VanEck",
+      "url": "https://www.vaneck.com/us/en/about/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.vaneck.com/us/en/?redirectVE=2&orig=/?404;https://www.vaneck.com/us/en/about/careers/",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Wolfe Research",
+      "url": "https://www.wolferesearch.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.wolferesearch.com/careers/",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "WorldQuant",
+      "url": "https://www.worldquant.com/career/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.worldquant.com/career-listing/",
+      "tier": "Tier A: Too Hard",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Plaid",
+      "url": "https://plaid.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://plaid.com/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Balyasny Asset Management",
+      "url": "https://www.bamfunds.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.bamfunds.com/careers",
+      "tier": "Tier A: Too Hard",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "GTS",
+      "url": "https://gtsfx.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://gtsfx.com/careers/",
+      "tier": "Tier A: Too Hard",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "Waymo",
+      "url": "https://waymo.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://careers.withwaymo.com",
+      "tier": "Tier B: Main Focus",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Ergoteles Capital",
+      "url": "https://www.ergoteles.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.ergoteles.com/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Alphadyne Asset Management",
+      "url": "https://www.alphadyne.com/",
+      "status": "HTTP_401",
+      "code": 401,
+      "final_url": "https://www.alphadyne.com/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Marshall Wace",
+      "url": "https://www.mwam.com/join-us/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.mwam.com/join-us/",
+      "tier": "Tier A: Too Hard",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Valkyrie Trading",
+      "url": "https://valkyrietrading.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.valkyrietrading.com/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "Headlands Technologies",
+      "url": "https://www.headlandstech.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.headlandstech.com/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "Vistra Corp",
+      "url": "https://www.vistra.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://careers.vistra.com/",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Commodities & Energy Trading Desks"
+    },
+    {
+      "firm_name": "Seven Eight Capital",
+      "url": "https://www.seveneightcapital.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.seveneightcapital.com/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Moon Capital Management",
+      "url": "https://www.mooncapital.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.mooncapital.com/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Simplex Trading",
+      "url": "https://simplextrading.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://simplextrading.com/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "BMO Capital Markets",
+      "url": "https://capitalmarkets.bmo.com/en/about-us/careers/",
+      "status": "BOT_PROTECTED",
+      "code": 403,
+      "final_url": "https://capitalmarkets.bmo.com/en/about-us/careers/",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "DRW",
+      "url": "https://drw.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.drw.com/work-at-drw",
+      "tier": "Tier B: Main Focus",
+      "sector": "Proprietary Trading & Market Making"
+    },
+    {
+      "firm_name": "Viking Global Investors",
+      "url": "https://www.vikingglobal.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://vikingglobal.com/careers/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Ultramarin GmbH",
+      "url": "https://www.ultramarin.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.ultramarin.com/",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "CME Group",
+      "url": "https://www.cmegroup.com/careers.html",
+      "status": "BOT_PROTECTED",
+      "code": 403,
+      "final_url": "https://www.cmegroup.com/careers.html",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Financial Data & Market Utilities"
+    },
+    {
+      "firm_name": "Morgan Stanley",
+      "url": "https://www.morganstanley.com/people-opportunities/students-graduates",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.morganstanley.com/people-opportunities/students-graduates",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "Jefferies",
+      "url": "https://www.jefferies.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.jefferies.com/careers/",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "Deutsche Bank",
+      "url": "https://careers.db.com/students-graduates/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://careers.db.com/students-graduates/",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "Sumridge Partners",
+      "url": "https://www.sumridge.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.sumridge.com/",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "Walleye Capital",
+      "url": "https://www.walleyecapital.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.walleyecapital.com/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Credit Agricole CIB",
+      "url": "https://www.ca-cib.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.ca-cib.com/careers",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "KeyBank",
+      "url": "https://www.key.com/about/careers/careers.jsp",
+      "status": "TIMEOUT",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Affirm",
+      "url": "https://www.affirm.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.affirm.com/careers",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Grubhub",
+      "url": "https://careers.grubhub.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://careers.grubhub.com/",
+      "tier": "Tier D: Pure Practice",
+      "sector": "FinTech & Elite Tech"
+    },
+    {
+      "firm_name": "Credit Suisse",
+      "url": "https://www.credit-suisse.com/careers",
+      "status": "BOT_PROTECTED",
+      "code": 403,
+      "final_url": "https://www.ubs.com/global/en/careers.html",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "Shanghai Yanfu Investments",
+      "url": "https://www.yanfuinvestments.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://yanfuinvestments.com/about",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Oaktree Capital",
+      "url": "https://www.oaktreecapital.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.oaktreecapital.com/careers",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "China International Capital Corporation (CICC)",
+      "url": "https://www.cicc.com/",
+      "status": "HTTP_521",
+      "code": 521,
+      "final_url": "https://www.cicc.com/",
+      "tier": "Tier C1: Same or Above Benchmark",
+      "sector": "Bulge Bracket & Global Investment Banks"
+    },
+    {
+      "firm_name": "Lazard Asset Management",
+      "url": "https://www.lazardassetmanagement.com/us/en_us/about/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.lazardassetmanagement.com/us/en_us/about/careers",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Centiva Capital",
+      "url": "https://www.centivacapital.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://centivacapital.com/",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "Fidelity Investments",
+      "url": "https://jobs.fidelity.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://jobs.fidelity.com/en/",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "US Bank",
+      "url": "https://www.usbank.com/careers.html",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://careers.usbank.com/global/en",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "Verition Fund Management",
+      "url": "https://verition.com/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.verition.com/careers",
+      "tier": "Tier B: Main Focus",
+      "sector": "Quantitative Hedge Funds"
+    },
+    {
+      "firm_name": "GAM Investments",
+      "url": "https://www.gam.com/en/careers",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://www.gam.com/en/careers",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Systematic Asset Management & Allocators"
+    },
+    {
+      "firm_name": "Deloitte",
+      "url": "https://apply.deloitte.com/careers/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://apply.deloitte.com/en_US/careers/",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "SESCO",
+      "url": "https://www.sesco.com/",
+      "status": "HEALTHY",
+      "code": 200,
+      "final_url": "https://sesco.com/",
+      "tier": "Tier C2: Same or Below Benchmark",
+      "sector": "Commodities & Energy Trading Desks"
+    },
+    {
+      "firm_name": "McKinsey & Company",
+      "url": "https://www.mckinsey.com/careers",
+      "status": "TIMEOUT",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    },
+    {
+      "firm_name": "McKinsey & Company (QuantumBlack)",
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/how-we-work/careers",
+      "status": "TIMEOUT",
+      "code": 0,
+      "final_url": "",
+      "tier": "Tier D: Pure Practice",
+      "sector": "Commercial Banking & Consulting (Practice)"
+    }
+  ]
+}

@@ -495,5 +495,68 @@
     "tier": "Tier B: Main Focus",
     "sector": "Quantitative Hedge Funds",
     "active_job_count": 0
+  },
+  "DRW": {
+    "ats": "greenhouse",
+    "token": "drweng",
+    "tier": "Tier B: Main Focus",
+    "sector": "Proprietary Trading & Market Making",
+    "active_job_count": 168
+  },
+  "The Voleon Group": {
+    "ats": "ashby",
+    "token": "voleon",
+    "tier": "Tier B: Main Focus",
+    "sector": "Quantitative Hedge Funds",
+    "active_job_count": 53
+  },
+  "CME Group": {
+    "ats": "workday",
+    "token": "cmegroup",
+    "tier": "Tier C1: Same or Above Benchmark",
+    "sector": "Financial Data & Market Utilities",
+    "active_job_count": 5
+  },
+  "Fireworks AI": {
+    "ats": "ashby",
+    "token": "fireworks",
+    "tier": "Tier B: Main Focus",
+    "sector": "FinTech & Elite Tech",
+    "active_job_count": 86
+  },
+  "Invisible Technologies": {
+    "ats": "smartrecruiters",
+    "token": "invisibletechnologies",
+    "tier": "Tier B: Main Focus",
+    "sector": "FinTech & Elite Tech",
+    "active_job_count": 10
+  },
+  "Capital Four": {
+    "ats": "lever",
+    "token": "capital",
+    "tier": "Tier B: Main Focus",
+    "sector": "Quantitative Hedge Funds",
+    "active_job_count": 55
+  },
+  "Tanius Tech": {
+    "ats": "greenhouse",
+    "token": "tanius",
+    "tier": "Tier B: Main Focus",
+    "sector": "Proprietary Trading & Market Making",
+    "active_job_count": 8
+  },
+  "Penn Medicine": {
+    "ats": "smartrecruiters",
+    "token": "pennmedicine",
+    "tier": "Tier D: Pure Practice",
+    "sector": "Commercial Banking & Consulting (Practice)",
+    "active_job_count": 7
+  },
+  "Point72 / Cubist Systematic Strategies": {
+    "ats": "greenhouse",
+    "token": "point72",
+    "tier": "Tier A: Too Hard",
+    "sector": "Quantitative Hedge Funds",
+    "active_job_count": 215
   }
 }

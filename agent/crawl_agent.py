@@ -210,7 +210,7 @@ class CrawlAgent:
                 # Avoid duplicate crawling if already covered by tailored agent
                 if firm_name in ["Point72"]:
                     continue
-                if registry_info.get("ats") in ["greenhouse", "lever", "ashby"]:
+                if registry_info.get("ats") in ["greenhouse", "lever", "ashby", "workday", "icims", "jibe", "smartrecruiters", "workable"]:
                     ats_tasks.append((firm_name, registry_info))
 
             logger.info(f"Dispatching parallel ATS scrapers across {len(ats_tasks)} employer boards...")

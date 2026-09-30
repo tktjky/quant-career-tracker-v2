@@ -18,7 +18,7 @@ ATS_BOARD_REGISTRY = {
     "Citadel": {"ats": "custom", "token": "citadel", "tier": "Tier A: Too Hard"},
     "Citadel Securities": {"ats": "custom", "token": "citadel-securities", "tier": "Tier A: Too Hard"},
     "Optiver": {"ats": "greenhouse", "token": "optiverus", "tier": "Tier A: Too Hard"},
-    "DRW": {"ats": "greenhouse", "token": "drw", "tier": "Tier B: Main Focus"},
+    "DRW": {"ats": "greenhouse", "token": "drweng", "tier": "Tier B: Main Focus"},
     "Akuna Capital": {"ats": "greenhouse", "token": "akunacapital", "tier": "Tier B: Main Focus"},
     "IMC Trading": {"ats": "greenhouse", "token": "imc", "tier": "Tier B: Main Focus"},
     "Flow Traders": {"ats": "greenhouse", "token": "flowtraders", "tier": "Tier B: Main Focus"},
@@ -98,10 +98,23 @@ ATS_BOARD_REGISTRY = {
     # Systematic Asset Management & Allocators
     "Dimensional Fund Advisors (DFA)": {"ats": "ashby", "token": "dimensional", "tier": "Tier C1: Same or Above Benchmark"},
 
+    # Frontier AI, Tech & FinTech Giants
+    "Fireworks AI": {"ats": "ashby", "token": "fireworks", "tier": "Tier B: Main Focus"},
+    "Invisible Technologies": {"ats": "smartrecruiters", "token": "invisibletechnologies", "tier": "Tier B: Main Focus"},
+
+    # Quantitative Hedge Funds & Proprietary Trading
+    "Capital Four": {"ats": "lever", "token": "capital", "tier": "Tier B: Main Focus"},
+    "The Voleon Group": {"ats": "ashby", "token": "voleon", "tier": "Tier B: Main Focus"},
+    "Tanius Tech": {"ats": "greenhouse", "token": "tanius", "tier": "Tier B: Main Focus"},
+
+    # Practice Tier
+    "Penn Medicine": {"ats": "smartrecruiters", "token": "pennmedicine", "tier": "Tier D: Pure Practice"},
+
     # Enterprise Portals with verified Workday CXS API
     "BlackRock": {"ats": "workday", "token": "blackrock", "tier": "Tier C1: Same or Above Benchmark"},
     "State Street": {"ats": "workday", "token": "statestreet", "tier": "Tier C1: Same or Above Benchmark"},
     "Morningstar": {"ats": "workday", "token": "morningstar", "tier": "Tier C2: Same or Below Benchmark"},
+    "CME Group": {"ats": "workday", "token": "cmegroup", "tier": "Tier C1: Same or Above Benchmark"},
 
     # Enterprise Portals with verified iCIMS/Jibe API
     "MSCI": {"ats": "icims", "token": "msci", "tier": "Tier C2: Same or Below Benchmark"},

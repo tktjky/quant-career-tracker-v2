@@ -12,34 +12,7 @@ from crawler.firm_agents.generic_ats_firm_agent import GenericATSAgent
 
 logger = logging.getLogger("FirmRegistry")
 
-# ATS tokens mapping for firms using standard ATS
-STANDARD_ATS_CONFIGS = {
-    "Jump Trading": ("greenhouse", "jumptrading", "Tier A: Too Hard"),
-    "Hudson River Trading": ("greenhouse", "hudsonrivertrading", "Tier A: Too Hard"),
-    "Five Rings": ("greenhouse", "fiverings", "Tier A: Too Hard"),
-    "Optiver": ("greenhouse", "optiver", "Tier A: Too Hard"),
-    "DRW": ("greenhouse", "drw", "Tier B: Main Focus"),
-    "Akuna Capital": ("greenhouse", "akunacapital", "Tier B: Main Focus"),
-    "IMC Trading": ("greenhouse", "imctrading", "Tier B: Main Focus"),
-    "Flow Traders": ("greenhouse", "flowtraders", "Tier B: Main Focus"),
-    "Tower Research Capital": ("greenhouse", "towerresearchcapital", "Tier B: Main Focus"),
-    "Old Mission Capital": ("greenhouse", "oldmissioncapital", "Tier B: Main Focus"),
-    "Virtu Financial": ("greenhouse", "virtufinancial", "Tier B: Main Focus"),
-    "Geneva Trading": ("greenhouse", "genevatrading", "Tier B: Main Focus"),
-    "TransMarket Group": ("greenhouse", "transmarketgroup", "Tier B: Main Focus"),
-    "Belvedere Trading": ("greenhouse", "belvederetrading", "Tier B: Main Focus"),
-    "Balyasny Asset Management": ("greenhouse", "balyasnyassetmanagement", "Tier A: Too Hard"),
-    "Schonfeld Strategic Advisors": ("greenhouse", "schonfeld", "Tier B: Main Focus"),
-    "ExodusPoint Capital": ("greenhouse", "exoduspoint", "Tier B: Main Focus"),
-    "WorldQuant": ("greenhouse", "worldquant", "Tier B: Main Focus"),
-    "Bridgewater Associates": ("greenhouse", "bridgewater", "Tier B: Main Focus"),
-    "Stripe": ("greenhouse", "stripe", "Tier B: Main Focus"),
-    "Databricks": ("greenhouse", "databricks", "Tier B: Main Focus"),
-    "Anthropic": ("greenhouse", "anthropic", "Tier A: Too Hard"),
-    "Palantir": ("greenhouse", "palantirtechnologies", "Tier B: Main Focus"),
-    "Robinhood": ("greenhouse", "robinhood", "Tier B: Main Focus"),
-    "Coinbase": ("greenhouse", "coinbase", "Tier B: Main Focus"),
-}
+from crawler.ats_scraper import ATS_BOARD_REGISTRY
 
 class FirmRegistry:
     """
@@ -69,9 +42,14 @@ class FirmRegistry:
             return self._dedicated_agents[key]
 
         # Check standard ATS configuration
-        for std_firm, (ats_type, token, tier) in STANDARD_ATS_CONFIGS.items():
+        for std_firm, info in ATS_BOARD_REGISTRY.items():
             if std_firm.lower() == key:
-                return GenericATSAgent(firm_name=std_firm, ats_type=ats_type, board_token=token, priority_tier=tier)
+                return GenericATSAgent(
+                    firm_name=std_firm,
+                    ats_type=info.get("ats"),
+                    board_token=info.get("token"),
+                    priority_tier=info.get("tier", "Tier B: Main Focus")
+                )
 
         return None
 
@@ -79,6 +57,6 @@ class FirmRegistry:
         all_firms = set()
         for f in self._dedicated_agents.keys():
             all_firms.add(f.title())
-        for f in STANDARD_ATS_CONFIGS.keys():
+        for f in ATS_BOARD_REGISTRY.keys():
             all_firms.add(f)
         return sorted(list(all_firms))
