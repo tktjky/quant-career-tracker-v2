@@ -35,9 +35,9 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Run Autonomous Crawl Agent
+      - name: Run Autonomous Crawl Agent & Crawlability Audit
         run: |
-          python main.py crawl
+          python main.py audit
 
       - name: Commit & Push Updated Datasets
         run: |
