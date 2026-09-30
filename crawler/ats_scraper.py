@@ -14,29 +14,33 @@ ATS_BOARD_REGISTRY = {
     # Tier A & B Proprietary Trading & Market Making
     "Jump Trading": {"ats": "greenhouse", "token": "jumptrading", "tier": "Tier A: Too Hard"},
     "Jane Street": {"ats": "greenhouse", "token": "janestreet", "tier": "Tier A: Too Hard"},
-    "Hudson River Trading (HRT)": {"ats": "greenhouse", "token": "hrttalentcommunity", "tier": "Tier A: Too Hard"},
+    "Hudson River Trading (HRT)": {"ats": "greenhouse", "token": "wehrtyou", "tier": "Tier A: Too Hard"},
     "Citadel": {"ats": "custom", "token": "citadel", "tier": "Tier A: Too Hard"},
     "Citadel Securities": {"ats": "custom", "token": "citadel-securities", "tier": "Tier A: Too Hard"},
     "Optiver": {"ats": "greenhouse", "token": "optiverus", "tier": "Tier A: Too Hard"},
+    "Radix Trading": {"ats": "greenhouse", "token": "radixuniversity", "tier": "Tier A: Too Hard"},
     "DRW": {"ats": "greenhouse", "token": "drweng", "tier": "Tier B: Main Focus"},
     "Akuna Capital": {"ats": "greenhouse", "token": "akunacapital", "tier": "Tier B: Main Focus"},
     "IMC Trading": {"ats": "greenhouse", "token": "imc", "tier": "Tier B: Main Focus"},
     "Flow Traders": {"ats": "greenhouse", "token": "flowtraders", "tier": "Tier B: Main Focus"},
     "SIG": {"ats": "jibe", "token": "sig", "tier": "Tier B: Main Focus"},
+    "SIG (Susquehanna International Group)": {"ats": "jibe", "token": "sig", "tier": "Tier B: Main Focus"},
     "Virtu Financial": {"ats": "greenhouse", "token": "virtu", "tier": "Tier B: Main Focus"},
     "Old Mission Capital": {"ats": "greenhouse", "token": "oldmissioncapital", "tier": "Tier B: Main Focus"},
     "Five Rings": {"ats": "greenhouse", "token": "fiveringsllc", "tier": "Tier A: Too Hard"},
     "Five Rings LLC": {"ats": "greenhouse", "token": "fiveringsllc", "tier": "Tier A: Too Hard"},
     "Tower Research Capital": {"ats": "greenhouse", "token": "towerresearchcapital", "tier": "Tier B: Main Focus"},
+    "Headlands Technologies": {"ats": "greenhouse", "token": "headlandstechnologiesllc", "tier": "Tier B: Main Focus"},
     "Valkyrie Trading": {"ats": "lever", "token": "valkyrietrading", "tier": "Tier B: Main Focus"},
     "TransMarket Group": {"ats": "greenhouse", "token": "transmarketgroup", "tier": "Tier B: Main Focus"},
     "Belvedere Trading": {"ats": "lever", "token": "belvederetrading", "tier": "Tier B: Main Focus"},
     "Geneva Trading": {"ats": "greenhouse", "token": "genevatrading", "tier": "Tier B: Main Focus"},
     "DV Trading": {"ats": "greenhouse", "token": "dvtrading", "tier": "Tier B: Main Focus"},
-    "Maven Securities": {"ats": "ashby", "token": "maven", "tier": "Tier B: Main Focus"},
+    "Maven Securities": {"ats": "greenhouse", "token": "mavensecuritiesholdingltd", "tier": "Tier B: Main Focus"},
     "Chicago Trading Company (CTC)": {"ats": "greenhouse", "token": "chicagotrading", "tier": "Tier B: Main Focus"},
     "Simplex Trading": {"ats": "greenhouse", "token": "simplextrading", "tier": "Tier B: Main Focus"},
     "Walleye Capital": {"ats": "greenhouse", "token": "walleyecapital-external-fulltime", "tier": "Tier B: Main Focus"},
+    "PEAK6": {"ats": "workday", "token": "peak6", "tier": "Tier B: Main Focus"},
 
     # Quantitative Hedge Funds & Multi-Managers
     "Two Sigma": {"ats": "greenhouse", "token": "twosigma", "tier": "Tier A: Too Hard"},
@@ -47,11 +51,11 @@ ATS_BOARD_REGISTRY = {
     "Schonfeld Strategic Advisors": {"ats": "greenhouse", "token": "schonfeld", "tier": "Tier B: Main Focus"},
     "AQR Capital Management": {"ats": "greenhouse", "token": "aqr", "tier": "Tier B: Main Focus"},
     "D.E. Shaw": {"ats": "custom", "token": "deshaw", "tier": "Tier A: Too Hard"},
-    "Bridgewater Associates": {"ats": "greenhouse", "token": "bridgewater", "tier": "Tier B: Main Focus"},
+    "Bridgewater Associates": {"ats": "greenhouse", "token": "bridgewater89", "tier": "Tier B: Main Focus"},
     "Man Group (AHL / Numeric)": {"ats": "greenhouse", "token": "mangroup", "tier": "Tier B: Main Focus"},
     "WorldQuant": {"ats": "greenhouse", "token": "worldquant", "tier": "Tier B: Main Focus"},
-    "Verition Fund Management": {"ats": "greenhouse", "token": "veritionfundmanagement", "tier": "Tier B: Main Focus"},
-    "Qube Research & Technologies (QRT)": {"ats": "greenhouse", "token": "qrt", "tier": "Tier B: Main Focus"},
+    "Verition Fund Management": {"ats": "greenhouse", "token": "veritiongroupllc", "tier": "Tier B: Main Focus"},
+    "Qube Research & Technologies (QRT)": {"ats": "greenhouse", "token": "quberesearchandtechnologies", "tier": "Tier B: Main Focus"},
     "Cubist Systematic Strategies": {"ats": "greenhouse", "token": "point72", "tier": "Tier A: Too Hard"},
     "Squarepoint Capital": {"ats": "greenhouse", "token": "squarepointcapital", "tier": "Tier B: Main Focus"},
     "Capstone Investment Advisors": {"ats": "greenhouse", "token": "capstoneinvestmentadvisors", "tier": "Tier B: Main Focus"},
@@ -106,6 +110,9 @@ ATS_BOARD_REGISTRY = {
     "Capital Four": {"ats": "lever", "token": "capital", "tier": "Tier B: Main Focus"},
     "The Voleon Group": {"ats": "ashby", "token": "voleon", "tier": "Tier B: Main Focus"},
     "Tanius Tech": {"ats": "greenhouse", "token": "tanius", "tier": "Tier B: Main Focus"},
+    "Marshall Wace": {"ats": "greenhouse", "token": "mw-tech-grad", "tier": "Tier A: Too Hard"},
+    "Rokos Capital Management": {"ats": "greenhouse", "token": "neptunenorth", "tier": "Tier B: Main Focus"},
+    "Trexquant Investment": {"ats": "workable", "token": "trexquant", "tier": "Tier B: Main Focus"},
 
     # Practice Tier
     "Penn Medicine": {"ats": "smartrecruiters", "token": "pennmedicine", "tier": "Tier D: Pure Practice"},
@@ -115,9 +122,12 @@ ATS_BOARD_REGISTRY = {
     "State Street": {"ats": "workday", "token": "statestreet", "tier": "Tier C1: Same or Above Benchmark"},
     "Morningstar": {"ats": "workday", "token": "morningstar", "tier": "Tier C2: Same or Below Benchmark"},
     "CME Group": {"ats": "workday", "token": "cmegroup", "tier": "Tier C1: Same or Above Benchmark"},
+    "Arrowstreet Capital": {"ats": "workday", "token": "arrowstreetcapital", "tier": "Tier A: Too Hard"},
+    "Options Clearing Corporation (OCC)": {"ats": "workday", "token": "theocc", "tier": "Tier B: Main Focus"},
 
     # Enterprise Portals with verified iCIMS/Jibe API
     "MSCI": {"ats": "icims", "token": "msci", "tier": "Tier C2: Same or Below Benchmark"},
+    "GTS": {"ats": "icims", "token": "gts", "tier": "Tier A: Too Hard"},
 }
 
 # Auto-merge any newly discovered boards from data/discovered_ats_boards.json

@@ -62,7 +62,7 @@ def run_workflow():
         fn = res.get("firm_name")
         ats = res.get("ats")
         token = res.get("token")
-        if res.get("status") == "AUTOMATED_FEED" and ats in ("greenhouse", "lever", "ashby", "smartrecruiters", "workable") and token:
+        if res.get("status") == "AUTOMATED_FEED" and ats in ("greenhouse", "lever", "ashby", "smartrecruiters", "workable", "workday", "icims", "jibe") and token:
             if fn not in discovered_boards:
                 discovered_boards[fn] = {
                     "ats": ats,

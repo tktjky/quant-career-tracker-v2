@@ -39,6 +39,21 @@ WORKDAY_REGISTRY = {
         "tenant": "cmegroup",
         "site": "CME_Careers",
     },
+    "Arrowstreet Capital": {
+        "host": "arrowstreetcapital.wd5.myworkdayjobs.com",
+        "tenant": "arrowstreetcapital",
+        "site": "Arrowstreet",
+    },
+    "Options Clearing Corporation (OCC)": {
+        "host": "theocc.wd5.myworkdayjobs.com",
+        "tenant": "theocc",
+        "site": "careers",
+    },
+    "PEAK6": {
+        "host": "peak6group.wd1.myworkdayjobs.com",
+        "tenant": "peak6group",
+        "site": "PEAK6",
+    },
 }
 
 WORKDAY_SEARCH_TERMS = ["quantitative", "quant", "trading", "data scientist"]
@@ -96,7 +111,7 @@ class WorkdayScraper:
                             continue
                         seen_ids.add(ext_path)
 
-                        job_url = f"https://{host}{ext_path}" if ext_path else ""
+                        job_url = f"https://{host}/{site}{ext_path}" if ext_path else ""
 
                         job_entry = {
                             "job_id": f"wd_{tenant}_{ext_path.split('_')[-1] if '_' in ext_path else ext_path}",

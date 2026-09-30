@@ -21,10 +21,18 @@ ICIMS_REGISTRY = {
         "portal": "uscareers-msci",
         "base_url": "https://uscareers-msci.icims.com",
     },
+    "GTS": {
+        "portal": "careers-gtsx",
+        "base_url": "https://careers-gtsx.icims.com",
+    },
 }
 
 JIBE_REGISTRY = {
     "SIG": {
+        "api_url": "https://careers.sig.com/api/jobs",
+        "careers_url": "https://careers.sig.com",
+    },
+    "SIG (Susquehanna International Group)": {
         "api_url": "https://careers.sig.com/api/jobs",
         "careers_url": "https://careers.sig.com",
     },
@@ -71,7 +79,7 @@ class PortalScraper:
                     seen_ids.add(job_id)
 
                     title_raw = a.get_text(strip=True)
-                    title = re.sub(r"^Title", "", title_raw).strip()
+                    title = re.sub(r"^(?:Job\s*Title|Title)\s*:?\s*", "", title_raw, flags=re.IGNORECASE).strip()
 
                     full_url = href if href.startswith("http") else f"{base_url}{href}"
                     full_url = re.sub(r"[?&]in_iframe=1", "", full_url)
@@ -98,47 +106,67 @@ class PortalScraper:
 
     def scrape_jibe_api(self, firm_name: str, api_url: str) -> List[Dict[str, Any]]:
         jobs = []
-        try:
-            resp = self.session.get(api_url, timeout=self.timeout,
-                                    headers={"Accept": "application/json"})
-            if resp.status_code != 200:
-                logger.warning(f"Jibe API {firm_name} returned HTTP {resp.status_code}")
-                return jobs
+        page = 1
+        limit = 100
+        seen_ids = set()
 
-            data = resp.json()
-            raw_jobs = data.get("jobs", [])
-            total = data.get("totalCount", len(raw_jobs))
-            logger.info(f"Jibe API [{firm_name}]: {total} total positions reported")
+        while True:
+            try:
+                sep = "&" if "?" in api_url else "?"
+                page_url = f"{api_url}{sep}limit={limit}&page={page}"
+                resp = self.session.get(page_url, timeout=self.timeout,
+                                        headers={"Accept": "application/json"})
+                if resp.status_code != 200:
+                    logger.warning(f"Jibe API {firm_name} (page {page}) returned HTTP {resp.status_code}")
+                    break
 
-            for rj in raw_jobs:
-                jdata = rj.get("data", rj)
-                job_id = str(jdata.get("req_id", jdata.get("id", "")))
-                title = jdata.get("title", "")
-                city = jdata.get("city", "")
-                state = jdata.get("state", "")
-                loc = ", ".join(filter(None, [city, state])) or "Unknown"
-                dept = jdata.get("department", "")
-                slug = jdata.get("slug", "")
-                job_url = jdata.get("apply_url", "")
-                if not job_url and slug:
+                data = resp.json()
+                raw_jobs = data.get("jobs", [])
+                total = data.get("totalCount", len(raw_jobs))
+                if page == 1:
+                    logger.info(f"Jibe API [{firm_name}]: {total} total positions reported")
+
+                if not raw_jobs:
+                    break
+
+                for rj in raw_jobs:
+                    jdata = rj.get("data", rj)
+                    job_id = str(jdata.get("req_id", jdata.get("id", "")))
+                    if not job_id or job_id in seen_ids:
+                        continue
+                    seen_ids.add(job_id)
+
+                    title = jdata.get("title", "")
+                    city = jdata.get("city", "")
+                    state = jdata.get("state", "")
+                    loc = ", ".join(filter(None, [city, state])) or "Unknown"
+                    dept = jdata.get("department", "")
+                    slug = str(jdata.get("slug", job_id))
+
                     base = api_url.rsplit("/api", 1)[0]
-                    job_url = f"{base}/job/{slug}"
+                    job_url = f"{base}/jobs/{slug}"
 
-                job_entry = {
-                    "job_id": f"jibe_{firm_name.lower().replace(' ', '_')}_{job_id}",
-                    "firm_name": firm_name,
-                    "title": title,
-                    "location": loc,
-                    "department": dept,
-                    "url": job_url,
-                    "source_ats": "Jibe/iCIMS",
-                    "description": title,
-                    "updated_at": None,
-                }
-                job_entry["posted_pay_range"] = extract_posted_pay_range(job_entry)
-                jobs.append(job_entry)
+                    job_entry = {
+                        "job_id": f"jibe_{firm_name.lower().replace(' ', '_')}_{job_id}",
+                        "firm_name": firm_name,
+                        "title": title,
+                        "location": loc,
+                        "department": dept,
+                        "url": job_url,
+                        "source_ats": "Jibe/iCIMS",
+                        "description": title,
+                        "updated_at": None,
+                    }
+                    job_entry["posted_pay_range"] = extract_posted_pay_range(job_entry)
+                    jobs.append(job_entry)
 
-        except Exception as e:
-            logger.error(f"Error scraping Jibe API {firm_name}: {e}")
+                if len(jobs) >= total or len(raw_jobs) < limit or page >= 5:
+                    break
+                page += 1
 
+            except Exception as e:
+                logger.error(f"Error scraping Jibe API {firm_name} (page {page}): {e}")
+                break
+
+        logger.info(f"Jibe API [{firm_name}]: retrieved {len(jobs)} jobs across {page} pages")
         return jobs

@@ -2,561 +2,521 @@
   "Numerix": {
     "ats": "greenhouse",
     "token": "numerix",
-    "tier": "Tier B: Main Focus",
-    "sector": "FinTech & Elite Tech",
-    "active_job_count": 6
+    "tier": "Tier B: Main Focus"
   },
   "Viking Global Investors": {
     "ats": "greenhouse",
     "token": "vikingglobalinvestors",
-    "tier": "Tier B: Main Focus",
-    "sector": "Quantitative Hedge Funds",
-    "active_job_count": 5
+    "tier": "Tier B: Main Focus"
   },
   "Quantbot Technologies": {
     "ats": "greenhouse",
     "token": "quantbot-technologies",
-    "tier": "Tier B: Main Focus",
-    "sector": "Quantitative Hedge Funds",
-    "active_job_count": 8
+    "tier": "Tier B: Main Focus"
   },
   "Squarepoint Capital": {
     "ats": "greenhouse",
     "token": "squarepointcapital",
-    "tier": "Tier B: Main Focus",
-    "sector": "Quantitative Hedge Funds",
-    "active_job_count": 89
+    "tier": "Tier B: Main Focus"
   },
   "DV Trading": {
     "ats": "greenhouse",
     "token": "dvtrading",
-    "tier": "Tier B: Main Focus",
-    "sector": "Proprietary Trading & Market Making",
-    "active_job_count": 73
+    "tier": "Tier B: Main Focus"
   },
   "MIO Partners": {
     "ats": "greenhouse",
     "token": "miopartners",
-    "tier": "Tier C2: Same or Below Benchmark",
-    "sector": "Systematic Asset Management & Allocators",
-    "active_job_count": 9
+    "tier": "Tier B: Main Focus"
   },
   "HBK Capital Management": {
     "ats": "greenhouse",
     "token": "hbkcapitalmanagement",
-    "tier": "Tier B: Main Focus",
-    "sector": "Quantitative Hedge Funds",
-    "active_job_count": 1
+    "tier": "Tier B: Main Focus"
   },
   "Iconiq Capital": {
     "ats": "greenhouse",
     "token": "iconiq",
-    "tier": "Tier C2: Same or Below Benchmark",
-    "sector": "Systematic Asset Management & Allocators",
-    "active_job_count": 20
+    "tier": "Tier B: Main Focus"
   },
   "TIFIN": {
     "ats": "greenhouse",
     "token": "tifin",
-    "tier": "Tier B: Main Focus",
-    "sector": "FinTech & Elite Tech",
-    "active_job_count": 4
+    "tier": "Tier C2: Same or Below Benchmark"
   },
   "SESCO": {
     "ats": "greenhouse",
     "token": "sesco",
-    "tier": "Tier C2: Same or Below Benchmark",
-    "sector": "Commodities & Energy Trading Desks",
-    "active_job_count": 5
+    "tier": "Tier C2: Same or Below Benchmark"
   },
   "AQR Capital Management": {
     "ats": "greenhouse",
     "token": "aqr",
-    "tier": "Tier B: Main Focus",
-    "sector": "Quantitative Hedge Funds",
-    "active_job_count": 53
+    "tier": "Tier B: Main Focus"
   },
   "Engineers Gate": {
     "ats": "greenhouse",
     "token": "engineersgate",
-    "tier": "Tier B: Main Focus",
-    "sector": "Quantitative Hedge Funds",
-    "active_job_count": 9
+    "tier": "Tier B: Main Focus"
   },
   "Scale AI": {
     "ats": "greenhouse",
     "token": "scaleai",
-    "tier": "Tier B: Main Focus",
-    "sector": "FinTech & Elite Tech",
-    "active_job_count": 191
+    "tier": "Tier B: Main Focus"
   },
   "Five Rings": {
     "ats": "greenhouse",
     "token": "fiveringsllc",
-    "tier": "Tier B: Main Focus",
-    "sector": "Quantitative Hedge Funds",
-    "active_job_count": 16
+    "tier": "Tier A: Too Hard"
   },
   "MerQube": {
     "ats": "greenhouse",
     "token": "merqube",
-    "tier": "Tier B: Main Focus",
-    "sector": "Quantitative Hedge Funds",
-    "active_job_count": 4
+    "tier": "Tier B: Main Focus"
   },
   "Plaid": {
     "ats": "ashby",
     "token": "plaid",
-    "tier": "Tier B: Main Focus",
-    "sector": "FinTech & Elite Tech",
-    "active_job_count": 122
+    "tier": "Tier B: Main Focus"
   },
   "Upstart": {
     "ats": "greenhouse",
     "token": "upstart",
-    "tier": "Tier B: Main Focus",
-    "sector": "FinTech & Elite Tech",
-    "active_job_count": 88
+    "tier": "Tier B: Main Focus"
   },
   "Maven Securities": {
-    "ats": "ashby",
-    "token": "maven",
-    "tier": "Tier B: Main Focus",
-    "sector": "Proprietary Trading & Market Making",
-    "active_job_count": 3
+    "ats": "greenhouse",
+    "token": "mavensecuritiesholdingltd",
+    "tier": "Tier B: Main Focus"
   },
   "Ramp": {
     "ats": "ashby",
     "token": "ramp",
-    "tier": "Tier B: Main Focus",
-    "sector": "FinTech & Elite Tech",
-    "active_job_count": 155
+    "tier": "Tier B: Main Focus"
   },
   "Snowflake": {
     "ats": "ashby",
     "token": "snowflake",
-    "tier": "Tier B: Main Focus",
-    "sector": "FinTech & Elite Tech",
-    "active_job_count": 338
+    "tier": "Tier B: Main Focus"
   },
   "GrayScale": {
     "ats": "greenhouse",
     "token": "grayscale",
-    "tier": "Tier B: Main Focus",
-    "sector": "FinTech & Elite Tech",
-    "active_job_count": 3
+    "tier": "Tier B: Main Focus"
   },
   "Chime": {
     "ats": "greenhouse",
     "token": "chime",
-    "tier": "Tier B: Main Focus",
-    "sector": "FinTech & Elite Tech",
-    "active_job_count": 64
+    "tier": "Tier B: Main Focus"
   },
   "SoFi": {
     "ats": "greenhouse",
     "token": "sofi",
-    "tier": "Tier B: Main Focus",
-    "sector": "FinTech & Elite Tech",
-    "active_job_count": 59
+    "tier": "Tier B: Main Focus"
   },
   "Waymo": {
     "ats": "greenhouse",
     "token": "waymo",
-    "tier": "Tier B: Main Focus",
-    "sector": "FinTech & Elite Tech",
-    "active_job_count": 357
+    "tier": "Tier B: Main Focus"
   },
   "Block (Cash App)": {
     "ats": "greenhouse",
     "token": "block",
-    "tier": "Tier B: Main Focus",
-    "sector": "FinTech & Elite Tech",
-    "active_job_count": 212
+    "tier": "Tier B: Main Focus"
   },
   "Conversion Capital": {
     "ats": "ashby",
     "token": "conversion",
-    "tier": "Tier B: Main Focus",
-    "sector": "Quantitative Hedge Funds",
-    "active_job_count": 15
+    "tier": "Tier B: Main Focus"
   },
   "AXQ Capital": {
     "ats": "greenhouse",
     "token": "axq",
-    "tier": "Tier C2: Same or Below Benchmark",
-    "sector": "Systematic Asset Management & Allocators",
-    "active_job_count": 20
+    "tier": "Tier B: Main Focus"
   },
   "Capstone Investment Advisors": {
     "ats": "greenhouse",
     "token": "capstoneinvestmentadvisors",
-    "tier": "Tier B: Main Focus",
-    "sector": "Quantitative Hedge Funds",
-    "active_job_count": 15
+    "tier": "Tier B: Main Focus"
   },
   "OpenAI": {
     "ats": "ashby",
     "token": "openai",
-    "tier": "Tier A: Too Hard",
-    "sector": "FinTech & Elite Tech",
-    "active_job_count": 839
+    "tier": "Tier A: Too Hard"
   },
   "Akuna Capital": {
     "ats": "greenhouse",
     "token": "akunacapital",
-    "tier": "Tier B: Main Focus",
-    "sector": "Proprietary Trading & Market Making",
-    "active_job_count": 40
+    "tier": "Tier B: Main Focus"
   },
   "Affirm": {
     "ats": "greenhouse",
     "token": "affirm",
-    "tier": "Tier C2: Same or Below Benchmark",
-    "sector": "FinTech & Elite Tech",
-    "active_job_count": 175
+    "tier": "Tier B: Main Focus"
   },
   "Valkyrie Trading": {
     "ats": "lever",
     "token": "valkyrietrading",
-    "tier": "Tier B: Main Focus",
-    "sector": "Proprietary Trading & Market Making",
-    "active_job_count": 6
+    "tier": "Tier B: Main Focus"
   },
   "Anthropic": {
     "ats": "greenhouse",
     "token": "anthropic",
-    "tier": "Tier A: Too Hard",
-    "sector": "FinTech & Elite Tech",
-    "active_job_count": 637
+    "tier": "Tier A: Too Hard"
   },
   "GMO": {
     "ats": "lever",
     "token": "gmo",
-    "tier": "Tier C2: Same or Below Benchmark",
-    "sector": "Systematic Asset Management & Allocators",
-    "active_job_count": 14
+    "tier": "Tier B: Main Focus"
   },
   "Brex": {
     "ats": "greenhouse",
     "token": "brex",
-    "tier": "Tier B: Main Focus",
-    "sector": "FinTech & Elite Tech",
-    "active_job_count": 268
+    "tier": "Tier B: Main Focus"
   },
   "Belvedere Trading": {
     "ats": "lever",
     "token": "belvederetrading",
-    "tier": "Tier B: Main Focus",
-    "sector": "Proprietary Trading & Market Making",
-    "active_job_count": 21
+    "tier": "Tier B: Main Focus"
   },
   "Coinbase": {
     "ats": "greenhouse",
     "token": "coinbase",
-    "tier": "Tier B: Main Focus",
-    "sector": "FinTech & Elite Tech",
-    "active_job_count": 209
+    "tier": "Tier B: Main Focus"
   },
   "Databricks": {
     "ats": "greenhouse",
     "token": "databricks",
-    "tier": "Tier B: Main Focus",
-    "sector": "FinTech & Elite Tech",
-    "active_job_count": 883
+    "tier": "Tier B: Main Focus"
   },
   "ExodusPoint Capital Management": {
     "ats": "greenhouse",
     "token": "exoduspoint",
-    "tier": "Tier B: Main Focus",
-    "sector": "Quantitative Hedge Funds",
-    "active_job_count": 2
+    "tier": "Tier B: Main Focus"
   },
   "Flow Traders": {
     "ats": "greenhouse",
     "token": "flowtraders",
-    "tier": "Tier B: Main Focus",
-    "sector": "Proprietary Trading & Market Making",
-    "active_job_count": 47
+    "tier": "Tier B: Main Focus"
   },
   "Geneva Trading": {
     "ats": "greenhouse",
     "token": "genevatrading",
-    "tier": "Tier B: Main Focus",
-    "sector": "Proprietary Trading & Market Making",
-    "active_job_count": 14
+    "tier": "Tier B: Main Focus"
   },
   "Glenmede": {
     "ats": "lever",
     "token": "glenmede",
-    "tier": "Tier C2: Same or Below Benchmark",
-    "sector": "Systematic Asset Management & Allocators",
-    "active_job_count": 13
+    "tier": "Tier C2: Same or Below Benchmark"
   },
   "Jane Street": {
     "ats": "greenhouse",
     "token": "janestreet",
-    "tier": "Tier A: Too Hard",
-    "sector": "Proprietary Trading & Market Making",
-    "active_job_count": 230
+    "tier": "Tier A: Too Hard"
   },
   "Jump Trading": {
     "ats": "greenhouse",
     "token": "jumptrading",
-    "tier": "Tier A: Too Hard",
-    "sector": "Proprietary Trading & Market Making",
-    "active_job_count": 111
+    "tier": "Tier A: Too Hard"
   },
   "Moon Capital Management": {
     "ats": "greenhouse",
     "token": "moon",
-    "tier": "Tier B: Main Focus",
-    "sector": "Quantitative Hedge Funds",
-    "active_job_count": 7
+    "tier": "Tier B: Main Focus"
   },
   "Old Mission Capital": {
     "ats": "greenhouse",
     "token": "oldmissioncapital",
-    "tier": "Tier B: Main Focus",
-    "sector": "Proprietary Trading & Market Making",
-    "active_job_count": 37
+    "tier": "Tier B: Main Focus"
   },
   "Point72": {
     "ats": "greenhouse",
     "token": "point72",
-    "tier": "Tier A: Too Hard",
-    "sector": "Quantitative Hedge Funds",
-    "active_job_count": 218
+    "tier": "Tier A: Too Hard"
   },
   "Robinhood": {
     "ats": "greenhouse",
     "token": "robinhood",
-    "tier": "Tier B: Main Focus",
-    "sector": "FinTech & Elite Tech",
-    "active_job_count": 162
+    "tier": "Tier B: Main Focus"
   },
   "Simplex Trading": {
     "ats": "greenhouse",
     "token": "simplextrading",
-    "tier": "Tier B: Main Focus",
-    "sector": "Proprietary Trading & Market Making",
-    "active_job_count": 5
+    "tier": "Tier B: Main Focus"
   },
   "Stripe": {
     "ats": "greenhouse",
     "token": "stripe",
-    "tier": "Tier B: Main Focus",
-    "sector": "FinTech & Elite Tech",
-    "active_job_count": 710
+    "tier": "Tier B: Main Focus"
   },
   "Spotify": {
     "ats": "lever",
     "token": "spotify",
-    "tier": "Tier B: Main Focus",
-    "sector": "FinTech & Elite Tech",
-    "active_job_count": 79
+    "tier": "Tier B: Main Focus"
   },
   "Tower Research Capital": {
     "ats": "greenhouse",
     "token": "towerresearchcapital",
-    "tier": "Tier B: Main Focus",
-    "sector": "Quantitative Hedge Funds",
-    "active_job_count": 88
+    "tier": "Tier B: Main Focus"
   },
   "TransMarket Group": {
     "ats": "greenhouse",
     "token": "transmarketgroup",
-    "tier": "Tier B: Main Focus",
-    "sector": "Proprietary Trading & Market Making",
-    "active_job_count": 18
+    "tier": "Tier B: Main Focus"
   },
   "WorldQuant": {
     "ats": "greenhouse",
     "token": "worldquant",
-    "tier": "Tier A: Too Hard",
-    "sector": "Quantitative Hedge Funds",
-    "active_job_count": 98
+    "tier": "Tier B: Main Focus"
   },
   "Cubist Systematic Strategies": {
     "ats": "greenhouse",
     "token": "point72",
-    "tier": "Tier A: Too Hard",
-    "sector": "Quantitative Hedge Funds",
-    "active_job_count": 0
+    "tier": "Tier A: Too Hard"
   },
   "Five Rings LLC": {
     "ats": "greenhouse",
     "token": "fiveringsllc",
-    "tier": "Tier A: Too Hard",
-    "sector": "Proprietary Trading & Market Making",
-    "active_job_count": 16
+    "tier": "Tier A: Too Hard"
   },
   "Munich Re": {
     "ats": "greenhouse",
     "token": "nextinsurancemresandbox",
-    "tier": "Tier C2: Same or Below Benchmark",
-    "sector": "Systematic Asset Management & Allocators",
-    "active_job_count": 4
+    "tier": "Tier C2: Same or Below Benchmark"
   },
   "Schonfeld Strategic Advisors": {
     "ats": "greenhouse",
     "token": "schonfeld",
-    "tier": "Tier B: Main Focus",
-    "sector": "Quantitative Hedge Funds",
-    "active_job_count": 82
+    "tier": "Tier B: Main Focus"
   },
   "Chicago Trading Company (CTC)": {
     "ats": "greenhouse",
     "token": "chicagotrading",
-    "tier": "Tier B: Main Focus",
-    "sector": "Proprietary Trading & Market Making",
-    "active_job_count": 24
+    "tier": "Tier B: Main Focus"
   },
   "IMC Trading": {
     "ats": "greenhouse",
     "token": "imc",
-    "tier": "Tier B: Main Focus",
-    "sector": "Proprietary Trading & Market Making",
-    "active_job_count": 171
+    "tier": "Tier B: Main Focus"
   },
   "Optiver": {
     "ats": "greenhouse",
     "token": "optiverus",
-    "tier": "Tier A: Too Hard",
-    "sector": "Proprietary Trading & Market Making",
-    "active_job_count": 172
+    "tier": "Tier A: Too Hard"
   },
   "Virtu Financial": {
     "ats": "greenhouse",
     "token": "virtu",
-    "tier": "Tier B: Main Focus",
-    "sector": "Proprietary Trading & Market Making",
-    "active_job_count": 50
+    "tier": "Tier B: Main Focus"
   },
   "Tudor Investment Corp": {
     "ats": "greenhouse",
     "token": "tudorgroup",
-    "tier": "Tier B: Main Focus",
-    "sector": "Quantitative Hedge Funds",
-    "active_job_count": 4
+    "tier": "Tier B: Main Focus"
   },
   "Walleye Capital": {
     "ats": "greenhouse",
     "token": "walleyecapital-external-fulltime",
-    "tier": "Tier B: Main Focus",
-    "sector": "Quantitative Hedge Funds",
-    "active_job_count": 13
+    "tier": "Tier B: Main Focus"
   },
   "Hudson River Trading (HRT)": {
     "ats": "greenhouse",
-    "token": "hrttalentcommunity",
-    "tier": "Tier A: Too Hard",
-    "sector": "Proprietary Trading & Market Making",
-    "active_job_count": 3
+    "token": "wehrtyou",
+    "tier": "Tier A: Too Hard"
   },
   "Palantir Technologies": {
     "ats": "lever",
     "token": "palantir",
-    "tier": "Tier B: Main Focus",
-    "sector": "FinTech & Elite Tech",
-    "active_job_count": 318
+    "tier": "Tier B: Main Focus"
   },
   "Dimensional Fund Advisors (DFA)": {
     "ats": "ashby",
     "token": "dimensional",
-    "tier": "Tier C1: Same or Above Benchmark",
-    "sector": "Systematic Asset Management & Allocators",
-    "active_job_count": 12
+    "tier": "Tier C1: Same or Above Benchmark"
   },
   "Perplexity AI": {
     "ats": "ashby",
     "token": "perplexity",
-    "tier": "Tier B: Main Focus",
-    "sector": "FinTech & Elite Tech",
-    "active_job_count": 124
+    "tier": "Tier B: Main Focus"
   },
   "Man Group (AHL / Numeric)": {
     "ats": "greenhouse",
     "token": "mangroup",
-    "tier": "Tier B: Main Focus",
-    "sector": "Quantitative Hedge Funds",
-    "active_job_count": 59
+    "tier": "Tier B: Main Focus"
   },
   "Stone Ridge Asset Management": {
     "ats": "greenhouse",
     "token": "stone",
-    "tier": "Tier B: Main Focus",
-    "sector": "Systematic Asset Management & Allocators",
-    "active_job_count": 397
+    "tier": "Tier B: Main Focus"
   },
   "One William Street Capital Management": {
     "ats": "greenhouse",
     "token": "owscapitalmanagement",
-    "tier": "Tier B: Main Focus",
-    "sector": "Quantitative Hedge Funds",
-    "active_job_count": 0
+    "tier": "Tier B: Main Focus"
   },
   "DRW": {
     "ats": "greenhouse",
     "token": "drweng",
-    "tier": "Tier B: Main Focus",
-    "sector": "Proprietary Trading & Market Making",
-    "active_job_count": 168
+    "tier": "Tier B: Main Focus"
   },
   "The Voleon Group": {
     "ats": "ashby",
     "token": "voleon",
-    "tier": "Tier B: Main Focus",
-    "sector": "Quantitative Hedge Funds",
-    "active_job_count": 53
+    "tier": "Tier B: Main Focus"
   },
   "CME Group": {
     "ats": "workday",
     "token": "cmegroup",
-    "tier": "Tier C1: Same or Above Benchmark",
-    "sector": "Financial Data & Market Utilities",
-    "active_job_count": 5
+    "tier": "Tier C1: Same or Above Benchmark"
   },
   "Fireworks AI": {
     "ats": "ashby",
     "token": "fireworks",
-    "tier": "Tier B: Main Focus",
-    "sector": "FinTech & Elite Tech",
-    "active_job_count": 86
+    "tier": "Tier B: Main Focus"
   },
   "Invisible Technologies": {
     "ats": "smartrecruiters",
     "token": "invisibletechnologies",
-    "tier": "Tier B: Main Focus",
-    "sector": "FinTech & Elite Tech",
-    "active_job_count": 10
+    "tier": "Tier B: Main Focus"
   },
   "Capital Four": {
     "ats": "lever",
     "token": "capital",
-    "tier": "Tier B: Main Focus",
-    "sector": "Quantitative Hedge Funds",
-    "active_job_count": 55
+    "tier": "Tier B: Main Focus"
   },
   "Tanius Tech": {
     "ats": "greenhouse",
     "token": "tanius",
-    "tier": "Tier B: Main Focus",
-    "sector": "Proprietary Trading & Market Making",
-    "active_job_count": 8
+    "tier": "Tier B: Main Focus"
   },
   "Penn Medicine": {
     "ats": "smartrecruiters",
     "token": "pennmedicine",
-    "tier": "Tier D: Pure Practice",
-    "sector": "Commercial Banking & Consulting (Practice)",
-    "active_job_count": 7
+    "tier": "Tier D: Pure Practice"
   },
   "Point72 / Cubist Systematic Strategies": {
     "ats": "greenhouse",
     "token": "point72",
-    "tier": "Tier A: Too Hard",
-    "sector": "Quantitative Hedge Funds",
-    "active_job_count": 215
+    "tier": "Tier A: Too Hard"
+  },
+  "Arrowstreet Capital": {
+    "ats": "workday",
+    "token": "arrowstreetcapital",
+    "tier": "Tier A: Too Hard"
+  },
+  "Marshall Wace": {
+    "ats": "greenhouse",
+    "token": "mw-tech-grad",
+    "tier": "Tier A: Too Hard"
+  },
+  "GTS": {
+    "ats": "icims",
+    "token": "gts",
+    "tier": "Tier A: Too Hard"
+  },
+  "Options Clearing Corporation (OCC)": {
+    "ats": "workday",
+    "token": "theocc",
+    "tier": "Tier B: Main Focus"
+  },
+  "Trexquant Investment": {
+    "ats": "workable",
+    "token": "trexquant",
+    "tier": "Tier B: Main Focus"
+  },
+  "Rokos Capital Management": {
+    "ats": "greenhouse",
+    "token": "neptunenorth",
+    "tier": "Tier B: Main Focus"
+  },
+  "Citadel": {
+    "ats": "custom",
+    "token": "citadel",
+    "tier": "Tier A: Too Hard"
+  },
+  "Citadel Securities": {
+    "ats": "custom",
+    "token": "citadel-securities",
+    "tier": "Tier A: Too Hard"
+  },
+  "Radix Trading": {
+    "ats": "greenhouse",
+    "token": "radixuniversity",
+    "tier": "Tier A: Too Hard"
+  },
+  "SIG": {
+    "ats": "jibe",
+    "token": "sig",
+    "tier": "Tier B: Main Focus"
+  },
+  "SIG (Susquehanna International Group)": {
+    "ats": "jibe",
+    "token": "sig",
+    "tier": "Tier B: Main Focus"
+  },
+  "Headlands Technologies": {
+    "ats": "greenhouse",
+    "token": "headlandstechnologiesllc",
+    "tier": "Tier B: Main Focus"
+  },
+  "PEAK6": {
+    "ats": "workday",
+    "token": "peak6",
+    "tier": "Tier B: Main Focus"
+  },
+  "Two Sigma": {
+    "ats": "greenhouse",
+    "token": "twosigma",
+    "tier": "Tier A: Too Hard"
+  },
+  "Millennium Management": {
+    "ats": "custom",
+    "token": "millennium",
+    "tier": "Tier A: Too Hard"
+  },
+  "Balyasny Asset Management": {
+    "ats": "greenhouse",
+    "token": "balyasnyassetmanagement",
+    "tier": "Tier A: Too Hard"
+  },
+  "D.E. Shaw": {
+    "ats": "custom",
+    "token": "deshaw",
+    "tier": "Tier A: Too Hard"
+  },
+  "Bridgewater Associates": {
+    "ats": "greenhouse",
+    "token": "bridgewater89",
+    "tier": "Tier B: Main Focus"
+  },
+  "Verition Fund Management": {
+    "ats": "greenhouse",
+    "token": "veritiongroupllc",
+    "tier": "Tier B: Main Focus"
+  },
+  "Qube Research & Technologies (QRT)": {
+    "ats": "greenhouse",
+    "token": "quberesearchandtechnologies",
+    "tier": "Tier B: Main Focus"
+  },
+  "BlackRock": {
+    "ats": "workday",
+    "token": "blackrock",
+    "tier": "Tier C1: Same or Above Benchmark"
+  },
+  "State Street": {
+    "ats": "workday",
+    "token": "statestreet",
+    "tier": "Tier C1: Same or Above Benchmark"
+  },
+  "Morningstar": {
+    "ats": "workday",
+    "token": "morningstar",
+    "tier": "Tier C2: Same or Below Benchmark"
+  },
+  "MSCI": {
+    "ats": "icims",
+    "token": "msci",
+    "tier": "Tier C2: Same or Below Benchmark"
   }
 }

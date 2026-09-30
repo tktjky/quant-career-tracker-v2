@@ -16,57 +16,20 @@ class GenericATSAgent(BaseFirmAgent):
         self.board_token = board_token
 
     def crawl_jobs(self) -> List[Dict[str, Any]]:
+        from crawler.ats_scraper import ATSScraper
+        scraper = ATSScraper(timeout=self.timeout)
+        raw = scraper.scrape_firm(self.firm_name, {"ats": self.ats_type, "token": self.board_token})
         jobs = []
-        if self.ats_type == "greenhouse":
-            url = f"https://boards-api.greenhouse.io/v1/boards/{self.board_token}/jobs?content=true"
-            try:
-                resp = self.session.get(url, timeout=self.timeout)
-                if resp.status_code == 200:
-                    data = resp.json()
-                    for rj in data.get("jobs", []):
-                        jid = str(rj.get("id", ""))
-                        title = rj.get("title", "")
-                        loc = rj.get("location", {}).get("name", "Unknown") if isinstance(rj.get("location"), dict) else str(rj.get("location") or "")
-                        link = rj.get("absolute_url", "")
-                        desc = rj.get("content", "") or ""
-                        depts = [d.get("name") for d in rj.get("departments", []) if isinstance(d, dict) and d.get("name")]
-                        dept_str = ", ".join(depts) if depts else ""
-                        jobs.append(self.normalize_job(
-                            job_id=jid,
-                            title=title,
-                            url=link,
-                            location=loc,
-                            department=dept_str,
-                            description=desc,
-                            source_ats=f"Greenhouse ({self.board_token})"
-                        ))
-            except Exception as e:
-                logger.warning(f"Error scraping Greenhouse board {self.board_token}: {e}")
-
-        elif self.ats_type == "lever":
-            url = f"https://api.lever.co/v0/postings/{self.board_token}?mode=json"
-            try:
-                resp = self.session.get(url, timeout=self.timeout)
-                if resp.status_code == 200:
-                    data = resp.json()
-                    for rj in data:
-                        jid = str(rj.get("id", ""))
-                        title = rj.get("text", "")
-                        link = rj.get("hostedUrl", "")
-                        categories = rj.get("categories", {})
-                        loc = categories.get("location", "Unknown") if isinstance(categories, dict) else "Unknown"
-                        team = categories.get("team", "") if isinstance(categories, dict) else ""
-                        desc = rj.get("descriptionPlain", "") or ""
-                        jobs.append(self.normalize_job(
-                            job_id=jid,
-                            title=title,
-                            url=link,
-                            location=loc,
-                            department=team,
-                            description=desc,
-                            source_ats=f"Lever ({self.board_token})"
-                        ))
-            except Exception as e:
-                logger.warning(f"Error scraping Lever board {self.board_token}: {e}")
-
+        for rj in raw:
+            norm = self.normalize_job(
+                job_id=str(rj.get("job_id", "")),
+                title=rj.get("title", ""),
+                url=rj.get("url", ""),
+                location=rj.get("location", ""),
+                department=rj.get("department", ""),
+                description=rj.get("description", ""),
+                source_ats=rj.get("source_ats", f"{self.ats_type} ({self.board_token})")
+            )
+            norm["posted_pay_range"] = rj.get("posted_pay_range", "")
+            jobs.append(norm)
         return jobs

@@ -239,8 +239,12 @@ class TestJobTrackerV2(unittest.TestCase):
         self.assertEqual(res_js["method"], "Tailored Subagent")
 
         res_hrt = inspector.inspect_firm({"firm_name": "Hudson River Trading (HRT)", "official_careers_url": "https://www.hudsonrivertrading.com", "priority_tier": "Tier A: Too Hard"})
-        self.assertEqual(res_hrt["status"], "UNCRAWLABLE_PORTAL_ONLY")
-        self.assertIn("Cloudflare", res_hrt["reason"])
+        self.assertEqual(res_hrt["status"], "AUTOMATED_FEED")
+        self.assertEqual(res_hrt["token"], "wehrtyou")
+
+        res_ms = inspector.inspect_firm({"firm_name": "Morgan Stanley", "official_careers_url": "https://www.morganstanley.com/careers", "priority_tier": "Tier C1: Same or Above Benchmark"})
+        self.assertEqual(res_ms["status"], "UNCRAWLABLE_PORTAL_ONLY")
+        self.assertIn("Enterprise", res_ms["reason"])
 
 if __name__ == "__main__":
     unittest.main()
