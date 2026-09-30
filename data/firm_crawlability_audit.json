@@ -980,7 +980,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Eisler Capital": {
     "firm_name": "Eisler Capital",
@@ -1292,7 +1292,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Access Restricted (SSLError)"
   },
   "GTS": {
     "firm_name": "GTS",
@@ -1522,7 +1522,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
+    "reason": "Access Restricted (ConnectionError)"
   },
   "Intel": {
     "firm_name": "Intel",
@@ -1572,7 +1572,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
   },
   "J.P. Morgan Chase": {
     "status": "UNCRAWLABLE_PORTAL_ONLY",
@@ -2436,7 +2436,7 @@
     "method": "Greenhouse API",
     "ats": "greenhouse",
     "token": "schonfeld",
-    "job_count": 82,
+    "job_count": 83,
     "reason": null
   },
   "SciFeCap": {

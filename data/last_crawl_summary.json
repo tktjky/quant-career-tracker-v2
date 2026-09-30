@@ -1,42 +1,14 @@
 {
-  "crawl_timestamp": "2026-09-30T05:53:01.461410",
-  "duration_seconds": 18.622243,
+  "crawl_timestamp": "2026-09-30T11:32:47.057759",
+  "duration_seconds": 18.97119,
   "diff_stats": {
-    "total_active_scraped": 338,
-    "new_openings": 0,
+    "total_active_scraped": 340,
+    "new_openings": 2,
     "retained_active": 338,
     "newly_closed": 0,
-    "total_tracked_all_time": 745
+    "total_tracked_all_time": 747
   },
   "top_matches": [
-    {
-      "firm": "Flow Traders",
-      "title": "Digital Assets Quantitative Researcher",
-      "location": "Amsterdam",
-      "score": 100,
-      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8207306"
-    },
-    {
-      "firm": "Flow Traders",
-      "title": "PhD Graduate Quantitative Researcher",
-      "location": "New York",
-      "score": 100,
-      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8156203"
-    },
-    {
-      "firm": "Flow Traders",
-      "title": "PhD Graduate Quantitative Researcher",
-      "location": "Hong Kong",
-      "score": 100,
-      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8213037"
-    },
-    {
-      "firm": "Flow Traders",
-      "title": "PhD Graduate Quantitative Researcher ",
-      "location": "Amsterdam",
-      "score": 100,
-      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/6492219"
-    },
     {
       "firm": "Old Mission Capital",
       "title": "Junior Quantitative Researcher (Ph.D.)",
@@ -78,6 +50,34 @@
       "location": "Gurgaon",
       "score": 100,
       "url": "https://www.tower-research.com/open-positions/?gh_jid=7102180"
+    },
+    {
+      "firm": "Tower Research Capital",
+      "title": "Quantitative Developer (C++)",
+      "location": "Hong Kong, Shanghai",
+      "score": 100,
+      "url": "https://www.tower-research.com/open-positions/?gh_jid=6296510"
+    },
+    {
+      "firm": "Tower Research Capital",
+      "title": "Quantitative Developer, C++ - Trading Teams EMEA",
+      "location": "London",
+      "score": 100,
+      "url": "https://www.tower-research.com/open-positions/?gh_jid=7080209"
+    },
+    {
+      "firm": "Tower Research Capital",
+      "title": "Quantitative Developer, Python",
+      "location": "New York",
+      "score": 100,
+      "url": "https://www.tower-research.com/open-positions/?gh_jid=6384976"
+    },
+    {
+      "firm": "Tower Research Capital",
+      "title": "Quantitative Developer, Python - Trading Teams EMEA",
+      "location": "London",
+      "score": 100,
+      "url": "https://www.tower-research.com/open-positions/?gh_jid=7080219"
     }
   ]
 }
