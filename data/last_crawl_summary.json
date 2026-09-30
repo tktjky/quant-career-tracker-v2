@@ -1,14 +1,49 @@
 {
-  "crawl_timestamp": "2026-09-30T11:32:47.057759",
-  "duration_seconds": 18.97119,
+  "crawl_timestamp": "2026-09-30T12:04:32.906818",
+  "duration_seconds": 23.4168,
   "diff_stats": {
-    "total_active_scraped": 340,
-    "new_openings": 2,
+    "total_active_scraped": 412,
+    "new_openings": 74,
     "retained_active": 338,
-    "newly_closed": 0,
-    "total_tracked_all_time": 747
+    "newly_closed": 2,
+    "total_tracked_all_time": 821
   },
   "top_matches": [
+    {
+      "firm": "Flow Traders",
+      "title": "Digital Assets Quantitative Researcher",
+      "location": "Amsterdam",
+      "score": 100,
+      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8207306"
+    },
+    {
+      "firm": "Flow Traders",
+      "title": "PhD Graduate Quantitative Researcher",
+      "location": "Hong Kong",
+      "score": 100,
+      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8213037"
+    },
+    {
+      "firm": "Flow Traders",
+      "title": "PhD Graduate Quantitative Researcher",
+      "location": "New York",
+      "score": 100,
+      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8156203"
+    },
+    {
+      "firm": "Flow Traders",
+      "title": "PhD Graduate Quantitative Researcher ",
+      "location": "Amsterdam",
+      "score": 100,
+      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/6492219"
+    },
+    {
+      "firm": "Walleye Capital",
+      "title": "Quantitative Researcher, Single Stock Volatility",
+      "location": "Miami, FL",
+      "score": 100,
+      "url": "https://job-boards.greenhouse.io/walleyecapital-external-fulltime/jobs/4690167006"
+    },
     {
       "firm": "Old Mission Capital",
       "title": "Junior Quantitative Researcher (Ph.D.)",
@@ -31,53 +66,18 @@
       "url": "https://www.oldmissioncapital.com/careers/?gh_jid=6088836003"
     },
     {
-      "firm": "Tower Research Capital",
-      "title": "Machine Learning Engineer",
-      "location": "Hong Kong, Singapore, Shanghai",
-      "score": 100,
-      "url": "https://www.tower-research.com/open-positions/?gh_jid=7714667"
-    },
-    {
-      "firm": "Tower Research Capital",
-      "title": "Quantitative Developer",
-      "location": "Singapore",
-      "score": 100,
-      "url": "https://www.tower-research.com/open-positions/?gh_jid=5733830"
-    },
-    {
-      "firm": "Tower Research Capital",
-      "title": "Quantitative Developer ",
-      "location": "Gurgaon",
-      "score": 100,
-      "url": "https://www.tower-research.com/open-positions/?gh_jid=7102180"
-    },
-    {
-      "firm": "Tower Research Capital",
-      "title": "Quantitative Developer (C++)",
-      "location": "Hong Kong, Shanghai",
-      "score": 100,
-      "url": "https://www.tower-research.com/open-positions/?gh_jid=6296510"
-    },
-    {
-      "firm": "Tower Research Capital",
-      "title": "Quantitative Developer, C++ - Trading Teams EMEA",
-      "location": "London",
-      "score": 100,
-      "url": "https://www.tower-research.com/open-positions/?gh_jid=7080209"
-    },
-    {
-      "firm": "Tower Research Capital",
-      "title": "Quantitative Developer, Python",
+      "firm": "Virtu Financial",
+      "title": "Machine Learning Researcher",
       "location": "New York",
       "score": 100,
-      "url": "https://www.tower-research.com/open-positions/?gh_jid=6384976"
+      "url": "https://job-boards.greenhouse.io/virtu/jobs/8477580002"
     },
     {
-      "firm": "Tower Research Capital",
-      "title": "Quantitative Developer, Python - Trading Teams EMEA",
-      "location": "London",
+      "firm": "Virtu Financial",
+      "title": "Quantitative Trader ",
+      "location": "Dublin, Ireland",
       "score": 100,
-      "url": "https://www.tower-research.com/open-positions/?gh_jid=7080219"
+      "url": "https://job-boards.greenhouse.io/virtu/jobs/4260204002"
     }
   ]
 }

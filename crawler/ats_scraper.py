@@ -14,42 +14,44 @@ ATS_BOARD_REGISTRY = {
     # Tier A & B Proprietary Trading & Market Making
     "Jump Trading": {"ats": "greenhouse", "token": "jumptrading", "tier": "Tier A: Too Hard"},
     "Jane Street": {"ats": "greenhouse", "token": "janestreet", "tier": "Tier A: Too Hard"},
-    "Hudson River Trading": {"ats": "greenhouse", "token": "hudsonrivertrading", "tier": "Tier A: Too Hard"},
+    "Hudson River Trading (HRT)": {"ats": "greenhouse", "token": "hrttalentcommunity", "tier": "Tier A: Too Hard"},
     "Citadel": {"ats": "custom", "token": "citadel", "tier": "Tier A: Too Hard"},
     "Citadel Securities": {"ats": "custom", "token": "citadel-securities", "tier": "Tier A: Too Hard"},
-    "Optiver": {"ats": "greenhouse", "token": "optiver", "tier": "Tier A: Too Hard"},
+    "Optiver": {"ats": "greenhouse", "token": "optiverus", "tier": "Tier A: Too Hard"},
     "DRW": {"ats": "greenhouse", "token": "drw", "tier": "Tier B: Main Focus"},
     "Akuna Capital": {"ats": "greenhouse", "token": "akunacapital", "tier": "Tier B: Main Focus"},
-    "IMC Trading": {"ats": "greenhouse", "token": "imctrading", "tier": "Tier B: Main Focus"},
+    "IMC Trading": {"ats": "greenhouse", "token": "imc", "tier": "Tier B: Main Focus"},
     "Flow Traders": {"ats": "greenhouse", "token": "flowtraders", "tier": "Tier B: Main Focus"},
-    "SIG": {"ats": "custom", "token": "sig", "tier": "Tier B: Main Focus"},
-    "Virtu Financial": {"ats": "greenhouse", "token": "virtufinancial", "tier": "Tier B: Main Focus"},
+    "SIG": {"ats": "jibe", "token": "sig", "tier": "Tier B: Main Focus"},
+    "Virtu Financial": {"ats": "greenhouse", "token": "virtu", "tier": "Tier B: Main Focus"},
     "Old Mission Capital": {"ats": "greenhouse", "token": "oldmissioncapital", "tier": "Tier B: Main Focus"},
     "Five Rings": {"ats": "greenhouse", "token": "fiveringsllc", "tier": "Tier A: Too Hard"},
+    "Five Rings LLC": {"ats": "greenhouse", "token": "fiveringsllc", "tier": "Tier A: Too Hard"},
     "Tower Research Capital": {"ats": "greenhouse", "token": "towerresearchcapital", "tier": "Tier B: Main Focus"},
     "Valkyrie Trading": {"ats": "lever", "token": "valkyrietrading", "tier": "Tier B: Main Focus"},
-    "Volant Trading": {"ats": "greenhouse", "token": "volanttrading", "tier": "Tier B: Main Focus"},
     "TransMarket Group": {"ats": "greenhouse", "token": "transmarketgroup", "tier": "Tier B: Main Focus"},
     "Belvedere Trading": {"ats": "lever", "token": "belvederetrading", "tier": "Tier B: Main Focus"},
     "Geneva Trading": {"ats": "greenhouse", "token": "genevatrading", "tier": "Tier B: Main Focus"},
-    "Peak6 Investments": {"ats": "greenhouse", "token": "peak6", "tier": "Tier B: Main Focus"},
     "DV Trading": {"ats": "greenhouse", "token": "dvtrading", "tier": "Tier B: Main Focus"},
     "Maven Securities": {"ats": "ashby", "token": "maven", "tier": "Tier B: Main Focus"},
+    "Chicago Trading Company (CTC)": {"ats": "greenhouse", "token": "chicagotrading", "tier": "Tier B: Main Focus"},
+    "Simplex Trading": {"ats": "greenhouse", "token": "simplextrading", "tier": "Tier B: Main Focus"},
+    "Walleye Capital": {"ats": "greenhouse", "token": "walleyecapital-external-fulltime", "tier": "Tier B: Main Focus"},
 
     # Quantitative Hedge Funds & Multi-Managers
     "Two Sigma": {"ats": "greenhouse", "token": "twosigma", "tier": "Tier A: Too Hard"},
     "Millennium Management": {"ats": "custom", "token": "millennium", "tier": "Tier A: Too Hard"},
     "Point72": {"ats": "greenhouse", "token": "point72", "tier": "Tier A: Too Hard"},
     "Balyasny Asset Management": {"ats": "greenhouse", "token": "balyasnyassetmanagement", "tier": "Tier A: Too Hard"},
-    "ExodusPoint Capital": {"ats": "greenhouse", "token": "exoduspoint", "tier": "Tier B: Main Focus"},
+    "ExodusPoint Capital Management": {"ats": "greenhouse", "token": "exoduspoint", "tier": "Tier B: Main Focus"},
     "Schonfeld Strategic Advisors": {"ats": "greenhouse", "token": "schonfeld", "tier": "Tier B: Main Focus"},
     "AQR Capital Management": {"ats": "greenhouse", "token": "aqr", "tier": "Tier B: Main Focus"},
     "D.E. Shaw": {"ats": "custom", "token": "deshaw", "tier": "Tier A: Too Hard"},
     "Bridgewater Associates": {"ats": "greenhouse", "token": "bridgewater", "tier": "Tier B: Main Focus"},
-    "Man Group": {"ats": "custom", "token": "mangroup", "tier": "Tier B: Main Focus"},
+    "Man Group (AHL / Numeric)": {"ats": "greenhouse", "token": "mangroup", "tier": "Tier B: Main Focus"},
     "WorldQuant": {"ats": "greenhouse", "token": "worldquant", "tier": "Tier B: Main Focus"},
     "Verition Fund Management": {"ats": "greenhouse", "token": "veritionfundmanagement", "tier": "Tier B: Main Focus"},
-    "Qube Research & Technologies": {"ats": "greenhouse", "token": "qrt", "tier": "Tier B: Main Focus"},
+    "Qube Research & Technologies (QRT)": {"ats": "greenhouse", "token": "qrt", "tier": "Tier B: Main Focus"},
     "Cubist Systematic Strategies": {"ats": "greenhouse", "token": "point72", "tier": "Tier A: Too Hard"},
     "Squarepoint Capital": {"ats": "greenhouse", "token": "squarepointcapital", "tier": "Tier B: Main Focus"},
     "Capstone Investment Advisors": {"ats": "greenhouse", "token": "capstoneinvestmentadvisors", "tier": "Tier B: Main Focus"},
@@ -60,13 +62,19 @@ ATS_BOARD_REGISTRY = {
     "HBK Capital Management": {"ats": "greenhouse", "token": "hbkcapitalmanagement", "tier": "Tier B: Main Focus"},
     "AXQ Capital": {"ats": "greenhouse", "token": "axq", "tier": "Tier B: Main Focus"},
     "GMO": {"ats": "lever", "token": "gmo", "tier": "Tier B: Main Focus"},
+    "Tudor Investment Corp": {"ats": "greenhouse", "token": "tudorgroup", "tier": "Tier B: Main Focus"},
+    "Stone Ridge Asset Management": {"ats": "greenhouse", "token": "stone", "tier": "Tier B: Main Focus"},
+    "Conversion Capital": {"ats": "ashby", "token": "conversion", "tier": "Tier B: Main Focus"},
+    "Moon Capital Management": {"ats": "greenhouse", "token": "moon", "tier": "Tier B: Main Focus"},
+    "GrayScale": {"ats": "greenhouse", "token": "grayscale", "tier": "Tier B: Main Focus"},
+    "Iconiq Capital": {"ats": "greenhouse", "token": "iconiq", "tier": "Tier B: Main Focus"},
 
     # Frontier AI, Tech & FinTech Giants
     "Stripe": {"ats": "greenhouse", "token": "stripe", "tier": "Tier B: Main Focus"},
     "Databricks": {"ats": "greenhouse", "token": "databricks", "tier": "Tier B: Main Focus"},
     "Anthropic": {"ats": "greenhouse", "token": "anthropic", "tier": "Tier A: Too Hard"},
     "OpenAI": {"ats": "ashby", "token": "openai", "tier": "Tier A: Too Hard"},
-    "Palantir": {"ats": "greenhouse", "token": "palantirtechnologies", "tier": "Tier B: Main Focus"},
+    "Palantir Technologies": {"ats": "lever", "token": "palantir", "tier": "Tier B: Main Focus"},
     "Robinhood": {"ats": "greenhouse", "token": "robinhood", "tier": "Tier B: Main Focus"},
     "Coinbase": {"ats": "greenhouse", "token": "coinbase", "tier": "Tier B: Main Focus"},
     "Plaid": {"ats": "ashby", "token": "plaid", "tier": "Tier B: Main Focus"},
@@ -74,13 +82,29 @@ ATS_BOARD_REGISTRY = {
     "Brex": {"ats": "greenhouse", "token": "brex", "tier": "Tier B: Main Focus"},
     "Scale AI": {"ats": "greenhouse", "token": "scaleai", "tier": "Tier B: Main Focus"},
     "Snowflake": {"ats": "ashby", "token": "snowflake", "tier": "Tier B: Main Focus"},
+    "Perplexity AI": {"ats": "ashby", "token": "perplexity", "tier": "Tier B: Main Focus"},
     "Block (Cash App)": {"ats": "greenhouse", "token": "block", "tier": "Tier B: Main Focus"},
     "Chime": {"ats": "greenhouse", "token": "chime", "tier": "Tier B: Main Focus"},
     "SoFi": {"ats": "greenhouse", "token": "sofi", "tier": "Tier B: Main Focus"},
     "Upstart": {"ats": "greenhouse", "token": "upstart", "tier": "Tier B: Main Focus"},
+    "Affirm": {"ats": "greenhouse", "token": "affirm", "tier": "Tier B: Main Focus"},
+    "Waymo": {"ats": "greenhouse", "token": "waymo", "tier": "Tier B: Main Focus"},
+    "Spotify": {"ats": "lever", "token": "spotify", "tier": "Tier B: Main Focus"},
+    "Glenmede": {"ats": "lever", "token": "glenmede", "tier": "Tier C2: Same or Below Benchmark"},
     "MerQube": {"ats": "greenhouse", "token": "merqube", "tier": "Tier B: Main Focus"},
     "Numerix": {"ats": "greenhouse", "token": "numerix", "tier": "Tier B: Main Focus"},
-    "SESCO": {"ats": "greenhouse", "token": "sesco", "tier": "Tier B: Main Focus"},
+    "TIFIN": {"ats": "greenhouse", "token": "tifin", "tier": "Tier C2: Same or Below Benchmark"},
+
+    # Systematic Asset Management & Allocators
+    "Dimensional Fund Advisors (DFA)": {"ats": "ashby", "token": "dimensional", "tier": "Tier C1: Same or Above Benchmark"},
+
+    # Enterprise Portals with verified Workday CXS API
+    "BlackRock": {"ats": "workday", "token": "blackrock", "tier": "Tier C1: Same or Above Benchmark"},
+    "State Street": {"ats": "workday", "token": "statestreet", "tier": "Tier C1: Same or Above Benchmark"},
+    "Morningstar": {"ats": "workday", "token": "morningstar", "tier": "Tier C2: Same or Below Benchmark"},
+
+    # Enterprise Portals with verified iCIMS/Jibe API
+    "MSCI": {"ats": "icims", "token": "msci", "tier": "Tier C2: Same or Below Benchmark"},
 }
 
 # Auto-merge any newly discovered boards from data/discovered_ats_boards.json
@@ -329,5 +353,50 @@ class ATSScraper:
             return self.scrape_smartrecruiters_board(token, firm_name)
         elif ats_type == "workable":
             return self.scrape_workable_board(token, firm_name)
+        elif ats_type == "workday":
+            return self._scrape_workday(firm_name, token)
+        elif ats_type == "icims":
+            return self._scrape_icims(firm_name, token)
+        elif ats_type == "jibe":
+            return self._scrape_jibe(firm_name, token)
         else:
             return []
+
+    def _scrape_workday(self, firm_name: str, token: str) -> List[Dict[str, Any]]:
+        from crawler.workday_scraper import WorkdayScraper, WORKDAY_REGISTRY
+        config = WORKDAY_REGISTRY.get(firm_name)
+        if not config:
+            logger.warning(f"No Workday CXS config for {firm_name}")
+            return []
+        scraper = WorkdayScraper(timeout=self.timeout)
+        return scraper.scrape_workday_site(
+            firm_name=firm_name,
+            host=config["host"],
+            tenant=config["tenant"],
+            site=config["site"],
+        )
+
+    def _scrape_icims(self, firm_name: str, token: str) -> List[Dict[str, Any]]:
+        from crawler.portal_scraper import PortalScraper, ICIMS_REGISTRY
+        config = ICIMS_REGISTRY.get(firm_name)
+        if not config:
+            logger.warning(f"No iCIMS config for {firm_name}")
+            return []
+        scraper = PortalScraper(timeout=self.timeout)
+        return scraper.scrape_icims_portal(
+            firm_name=firm_name,
+            base_url=config["base_url"],
+        )
+
+    def _scrape_jibe(self, firm_name: str, token: str) -> List[Dict[str, Any]]:
+        from crawler.portal_scraper import PortalScraper, JIBE_REGISTRY
+        config = JIBE_REGISTRY.get(firm_name)
+        if not config:
+            logger.warning(f"No Jibe config for {firm_name}")
+            return []
+        scraper = PortalScraper(timeout=self.timeout)
+        return scraper.scrape_jibe_api(
+            firm_name=firm_name,
+            api_url=config["api_url"],
+        )
+

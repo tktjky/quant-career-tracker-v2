@@ -404,5 +404,96 @@
     "tier": "Tier B: Main Focus",
     "sector": "Quantitative Hedge Funds",
     "active_job_count": 82
+  },
+  "Chicago Trading Company (CTC)": {
+    "ats": "greenhouse",
+    "token": "chicagotrading",
+    "tier": "Tier B: Main Focus",
+    "sector": "Proprietary Trading & Market Making",
+    "active_job_count": 24
+  },
+  "IMC Trading": {
+    "ats": "greenhouse",
+    "token": "imc",
+    "tier": "Tier B: Main Focus",
+    "sector": "Proprietary Trading & Market Making",
+    "active_job_count": 171
+  },
+  "Optiver": {
+    "ats": "greenhouse",
+    "token": "optiverus",
+    "tier": "Tier A: Too Hard",
+    "sector": "Proprietary Trading & Market Making",
+    "active_job_count": 172
+  },
+  "Virtu Financial": {
+    "ats": "greenhouse",
+    "token": "virtu",
+    "tier": "Tier B: Main Focus",
+    "sector": "Proprietary Trading & Market Making",
+    "active_job_count": 50
+  },
+  "Tudor Investment Corp": {
+    "ats": "greenhouse",
+    "token": "tudorgroup",
+    "tier": "Tier B: Main Focus",
+    "sector": "Quantitative Hedge Funds",
+    "active_job_count": 4
+  },
+  "Walleye Capital": {
+    "ats": "greenhouse",
+    "token": "walleyecapital-external-fulltime",
+    "tier": "Tier B: Main Focus",
+    "sector": "Quantitative Hedge Funds",
+    "active_job_count": 13
+  },
+  "Hudson River Trading (HRT)": {
+    "ats": "greenhouse",
+    "token": "hrttalentcommunity",
+    "tier": "Tier A: Too Hard",
+    "sector": "Proprietary Trading & Market Making",
+    "active_job_count": 3
+  },
+  "Palantir Technologies": {
+    "ats": "lever",
+    "token": "palantir",
+    "tier": "Tier B: Main Focus",
+    "sector": "FinTech & Elite Tech",
+    "active_job_count": 318
+  },
+  "Dimensional Fund Advisors (DFA)": {
+    "ats": "ashby",
+    "token": "dimensional",
+    "tier": "Tier C1: Same or Above Benchmark",
+    "sector": "Systematic Asset Management & Allocators",
+    "active_job_count": 12
+  },
+  "Perplexity AI": {
+    "ats": "ashby",
+    "token": "perplexity",
+    "tier": "Tier B: Main Focus",
+    "sector": "FinTech & Elite Tech",
+    "active_job_count": 124
+  },
+  "Man Group (AHL / Numeric)": {
+    "ats": "greenhouse",
+    "token": "mangroup",
+    "tier": "Tier B: Main Focus",
+    "sector": "Quantitative Hedge Funds",
+    "active_job_count": 59
+  },
+  "Stone Ridge Asset Management": {
+    "ats": "greenhouse",
+    "token": "stone",
+    "tier": "Tier B: Main Focus",
+    "sector": "Systematic Asset Management & Allocators",
+    "active_job_count": 397
+  },
+  "One William Street Capital Management": {
+    "ats": "greenhouse",
+    "token": "owscapitalmanagement",
+    "tier": "Tier B: Main Focus",
+    "sector": "Quantitative Hedge Funds",
+    "active_job_count": 0
   }
 }
