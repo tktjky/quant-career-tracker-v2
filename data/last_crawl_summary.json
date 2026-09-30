@@ -1,11 +1,11 @@
 {
-  "crawl_timestamp": "2026-09-30T01:30:26.815287",
-  "duration_seconds": 16.648176,
+  "crawl_timestamp": "2026-09-30T05:32:07.824452",
+  "duration_seconds": 15.401131,
   "diff_stats": {
     "total_active_scraped": 320,
-    "new_openings": 124,
-    "retained_active": 196,
-    "newly_closed": 149,
+    "new_openings": 0,
+    "retained_active": 320,
+    "newly_closed": 0,
     "total_tracked_all_time": 732
   },
   "top_matches": [
@@ -52,13 +52,6 @@
       "url": "https://www.akunacapital.com/careers/job/8175994/?gh_jid=8175994"
     },
     {
-      "firm": "Squarepoint Capital",
-      "title": "Junior Quant Researcher - ML Alpha Research",
-      "location": "London, New York, Singapore, Boston, Paris, Zug, Geneva, Hong Kong, Bangalore",
-      "score": 100,
-      "url": "https://www.squarepoint-capital.com/open-opportunities?id=6069464&gh_jid=6069464"
-    },
-    {
       "firm": "Tower Research Capital",
       "title": "Machine Learning Engineer",
       "location": "Hong Kong, Singapore, Shanghai",
@@ -78,6 +71,13 @@
       "location": "Gurgaon",
       "score": 100,
       "url": "https://www.tower-research.com/open-positions/?gh_jid=7102180"
+    },
+    {
+      "firm": "Tower Research Capital",
+      "title": "Quantitative Developer (C++)",
+      "location": "Hong Kong, Shanghai",
+      "score": 100,
+      "url": "https://www.tower-research.com/open-positions/?gh_jid=6296510"
     }
   ]
 }
