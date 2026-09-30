@@ -1,0 +1,64 @@
+name: Update Quant Jobs & Deploy GitHub Pages
+
+on:
+  schedule:
+    # Run twice daily at 06:00 and 18:00 UTC (customizable)
+    - cron: '0 6,18 * * *'
+  workflow_dispatch: # Allows manual trigger button in GitHub Actions tab
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: 'pages'
+  cancel-in-progress: false
+
+jobs:
+  crawl-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          pip install requests
+
+      - name: Run Autonomous Crawl Agent
+        run: |
+          python main.py crawl
+
+      - name: Commit & Push Updated Datasets
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Quant Crawl Bot"
+          git add data/ web/data.js
+          if git diff --staged --quiet; then
+            echo "No new changes to commit"
+          else
+            git commit -m "Auto-update quant job openings & crawl diffs [skip ci]"
+            git push
+          fi
+
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './web'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
