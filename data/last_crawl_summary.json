@@ -1,10 +1,10 @@
 {
-  "crawl_timestamp": "2026-09-30T20:50:45.730213",
-  "duration_seconds": 38.013562,
+  "crawl_timestamp": "2026-09-30T21:38:53.589145",
+  "duration_seconds": 30.852835,
   "diff_stats": {
     "total_active_scraped": 651,
-    "new_openings": 2,
-    "retained_active": 649,
+    "new_openings": 0,
+    "retained_active": 651,
     "newly_closed": 0,
     "total_tracked_all_time": 1060
   },
@@ -66,18 +66,18 @@
       "url": "https://www.brevanhoward.com/careers/"
     },
     {
-      "firm": "Old Mission Capital",
-      "title": "Junior Quantitative Researcher (Ph.D.)",
-      "location": "Chicago, IL, United States",
+      "firm": "Flow Traders",
+      "title": "Digital Assets Quantitative Researcher",
+      "location": "Amsterdam",
       "score": 100,
-      "url": "https://www.oldmissioncapital.com/careers/?gh_jid=6309652003"
+      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8207306"
     },
     {
-      "firm": "Old Mission Capital",
-      "title": "Quantitative Researcher (Ph.D.) - 2027 Graduate Program - (August Start)",
-      "location": "Chicago, IL, United States",
+      "firm": "Flow Traders",
+      "title": "PhD Graduate Quantitative Researcher",
+      "location": "Hong Kong",
       "score": 100,
-      "url": "https://www.oldmissioncapital.com/careers/?gh_jid=7814534003"
+      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8213037"
     }
   ]
 }
