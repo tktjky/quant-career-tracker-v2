@@ -679,7 +679,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "China International Capital Corporation (CICC)": {
     "firm_name": "China International Capital Corporation (CICC)",
@@ -1029,10 +1029,12 @@
     "official_careers_url": "https://boards.greenhouse.io/engineersgate",
     "priority_tier": "Tier B: Main Focus",
     "industry_sector": "Quantitative Hedge Funds",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
+    "status": "AUTOMATED_FEED",
+    "method": "Greenhouse API",
+    "ats": "greenhouse",
+    "token": "engineersgate",
+    "job_count": 9,
+    "reason": null
   },
   "Ergoteles Capital": {
     "firm_name": "Ergoteles Capital",
@@ -1183,7 +1185,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Flow Traders": {
     "status": "AUTOMATED_FEED",
@@ -1301,10 +1303,12 @@
     "official_careers_url": "https://www.gmo.com/americas/careers/",
     "priority_tier": "Tier C2: Same or Below Benchmark",
     "industry_sector": "Systematic Asset Management & Allocators",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "status": "AUTOMATED_FEED",
+    "method": "Lever API",
+    "ats": "lever",
+    "token": "gmo",
+    "job_count": 14,
+    "reason": null
   },
   "GRO Intelligence": {
     "firm_name": "GRO Intelligence",
@@ -2286,7 +2290,7 @@
     "method": "Greenhouse API",
     "ats": "greenhouse",
     "token": "point72",
-    "job_count": 213,
+    "job_count": 214,
     "reason": null
   },
   "PricewaterhouseCoopers (PwC)": {
@@ -2482,7 +2486,7 @@
     "method": "Greenhouse API",
     "ats": "greenhouse",
     "token": "schonfeld",
-    "job_count": 83,
+    "job_count": 75,
     "reason": null
   },
   "SciFeCap": {
