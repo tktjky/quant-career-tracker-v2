@@ -1,12 +1,12 @@
 # Comprehensive Target Employer Crawlability Audit Report
 
-**Audit Timestamp:** 2026-10-03 10:48:29 | **Total Employers Audited:** 296
+**Audit Timestamp:** 2026-10-03 20:20:21 | **Total Employers Audited:** 296
 
 ## Executive Summary
 - **Total Target Employers Monitored:** 296
 - **Automated Live Feeds & Tailored Crawlers:** 180 firms
 - **Direct Official Portals Monitored (Custom / Protected):** 116 firms
-- **Total Active Quant Positions Tracked:** 966
+- **Total Active Quant Positions Tracked:** 964
 - **Employers Currently Hiring Quant Roles:** 116
 
 ---
@@ -177,7 +177,7 @@ These firms possess automated, public, or tailored API endpoints (Greenhouse, Le
 | **Tesla** | Tier B: Main Focus | FinTech & Elite Tech | `Tailored Subagent` | **1 roles** | [Visit Portal](https://www.tesla.com/careers) |
 | **The Voleon Group** | Tier B: Main Focus | Quantitative Hedge Funds | `Ashby API` | **4 roles** | [Visit Portal](https://voleon.com/) |
 | **Tibra Capital** | Tier B: Main Focus | Proprietary Trading & Market Making | `Workable API` | 0 (Off-Cycle) | [Visit Portal](https://www.tibra.com/careers) |
-| **Tower Research Capital** | Tier B: Main Focus | Quantitative Hedge Funds | `Greenhouse API` | **26 roles** | [Visit Portal](https://www.tower-research.com/open-positions) |
+| **Tower Research Capital** | Tier B: Main Focus | Quantitative Hedge Funds | `Greenhouse API` | **24 roles** | [Visit Portal](https://www.tower-research.com/open-positions) |
 | **Trafigura** | Tier B: Main Focus | Commodities & Energy Trading Desks | `Tailored Subagent` | **1 roles** | [Visit Portal](https://www.trafigura.com/careers/) |
 | **TransMarket Group** | Tier B: Main Focus | Proprietary Trading & Market Making | `Greenhouse API` | **2 roles** | [Visit Portal](https://www.transmarketgroup.com/careers) |
 | **Trexquant Investment** | Tier B: Main Focus | Quantitative Hedge Funds | `Workable API` | **15 roles** | [Visit Portal](https://apply.workable.com/trexquant/) |
@@ -269,7 +269,7 @@ These firms do not expose open public ATS APIs or are protected by enterprise se
 | **Google DeepMind** | Tier A: Too Hard | FinTech & Elite Tech | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://deepmind.google/about/careers/) |
 | **Gridify** | Tier B: Main Focus | FinTech & Elite Tech | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.gridify.io/) |
 | **Grubhub** | Tier D: Pure Practice | FinTech & Elite Tech | *Enterprise Workday (Dynamic Session Required)* | [Open Official Portal](https://careers.grubhub.com/) |
-| **HAP Capital** | Tier B: Main Focus | Proprietary Trading & Market Making | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.hapcap.com/careers) |
+| **HAP Capital** | Tier B: Main Focus | Proprietary Trading & Market Making | *Access Restricted (SSLError)* | [Open Official Portal](https://www.hapcap.com/careers) |
 | **Haitong International Securities** | Tier C1: Same or Above Benchmark | Bulge Bracket & Global Investment Banks | *Enterprise Workday (Dynamic Session Required)* | [Open Official Portal](https://www.htisec.com/en-us/careers) |
 | **HedgeTech LLC** | Tier B: Main Focus | FinTech & Elite Tech | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://hedgetech.com/) |
 | **Heima AI Robotics** | Tier B: Main Focus | FinTech & Elite Tech | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.heima.ai/) |
@@ -283,7 +283,7 @@ These firms do not expose open public ATS APIs or are protected by enterprise se
 | **KeyBank** | Tier D: Pure Practice | Commercial Banking & Consulting (Practice) | *Connection Timeout (Enterprise Firewall / VPN Protected)* | [Open Official Portal](https://www.key.com/about/careers/careers.jsp) |
 | **Klarna** | Tier B: Main Focus | FinTech & Elite Tech | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.klarna.com/careers) |
 | **Kyte** | Tier B: Main Focus | FinTech & Elite Tech | *Access Restricted (SSLError)* | [Open Official Portal](https://www.kyte.com/) |
-| **Liangpai Investment** | Tier C1: Same or Above Benchmark | Quantitative Hedge Funds | *Connection Timeout (Enterprise Firewall / VPN Protected)* | [Open Official Portal](https://www.liangpai.com/) |
+| **Liangpai Investment** | Tier C1: Same or Above Benchmark | Quantitative Hedge Funds | *Access Restricted (SSLError)* | [Open Official Portal](https://www.liangpai.com/) |
 | **Lincoln Avenue Capital** | Tier C2: Same or Below Benchmark | Systematic Asset Management & Allocators | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.lincolnavenue.com/careers) |
 | **Lincoln Financial Group** | Tier D: Pure Practice | Commercial Banking & Consulting (Practice) | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.lincolnfinancial.com/careers) |
 | **McKinsey & Company** | Tier D: Pure Practice | Commercial Banking & Consulting (Practice) | *Connection Timeout (Enterprise Firewall / VPN Protected)* | [Open Official Portal](https://www.mckinsey.com/capabilities/quantumblack/how-we-work/careers) |

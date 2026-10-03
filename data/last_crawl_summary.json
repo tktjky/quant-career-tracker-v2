@@ -1,27 +1,27 @@
 {
-  "crawl_timestamp": "2026-10-03T10:48:29.187817",
-  "duration_seconds": 44.824382,
+  "crawl_timestamp": "2026-10-03T20:20:20.925191",
+  "duration_seconds": 45.924198,
   "diff_stats": {
     "total_active_scraped": 1030,
-    "new_openings": 4,
-    "retained_active": 1026,
-    "newly_closed": 10,
+    "new_openings": 0,
+    "retained_active": 1030,
+    "newly_closed": 0,
     "total_tracked_all_time": 1484
   },
   "top_matches": [
     {
       "firm": "Affirm",
       "title": "Machine Learning Engineer II (Underwriting ML)",
-      "location": "Remote US",
+      "location": "Remote Canada",
       "score": 100,
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7822387003"
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7822389003"
     },
     {
       "firm": "Affirm",
       "title": "Machine Learning Engineer II (Underwriting ML)",
-      "location": "Remote Canada",
+      "location": "Remote US",
       "score": 100,
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7822389003"
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7822387003"
     },
     {
       "firm": "RBC Capital Markets",

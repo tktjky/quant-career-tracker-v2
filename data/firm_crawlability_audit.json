@@ -554,7 +554,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (SSLError)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Capstone Investment Advisors": {
     "status": "AUTOMATED_FEED",
@@ -1440,7 +1440,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Access Restricted (SSLError)"
   },
   "HBK Capital Management": {
     "firm_name": "HBK Capital Management",
@@ -1745,7 +1745,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
+    "reason": "Access Restricted (SSLError)"
   },
   "Lincoln Avenue Capital": {
     "firm_name": "Lincoln Avenue Capital",
