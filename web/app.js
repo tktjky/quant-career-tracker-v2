@@ -109,42 +109,68 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  loadData();
+  try {
+    loadData();
+  } catch (err) {
+    console.error("Fatal error starting application:", err);
+    const container = document.getElementById("jobs-container");
+    if (container) {
+      container.innerHTML = `
+        <div class="empty-state">
+          <i class="fa-solid fa-triangle-exclamation fa-2x" style="color: #ef4444;"></i>
+          <p style="margin-top: 10px; font-weight: 600; color: #ef4444;">Error initializing live dashboard</p>
+          <p style="font-size: 0.85rem; color: #9ca3af; margin-top: 4px;">${escapeHtml(err.message || String(err))}</p>
+        </div>
+      `;
+    }
+  }
 });
 
 async function loadData() {
-  try {
-    const res = await fetch("/api/openings");
-    if (res.ok) {
-      const data = await res.json();
-      allOpenings = data.openings || [];
-      trackerMeta = data;
-      initExcelFilters();
-      updateStats();
-      renderCards();
-      return;
-    }
-  } catch (err) {
-    console.warn("API /api/openings unavailable, falling back to static window.LIVE_OPENINGS_DATA.");
-  }
-
-  // Fallback to static window object if data.js is loaded
-  if (window.LIVE_OPENINGS_DATA && window.LIVE_OPENINGS_DATA.openings) {
+  // Fast path: If preloaded data.js is available (e.g. on GitHub Pages), render immediately without waiting for API
+  if (window.LIVE_OPENINGS_DATA && window.LIVE_OPENINGS_DATA.openings && window.LIVE_OPENINGS_DATA.openings.length > 0) {
     allOpenings = window.LIVE_OPENINGS_DATA.openings;
     trackerMeta = window.LIVE_OPENINGS_DATA;
     initExcelFilters();
     updateStats();
     renderCards();
-  } else {
-    document.getElementById("jobs-container").innerHTML = `
-      <div class="empty-state">
-        <i class="fa-solid fa-triangle-exclamation fa-2x" style="color: #f59e0b;"></i>
-        <p style="margin-top: 10px; font-weight: 600;">No live openings dataset found.</p>
-        <p style="font-size: 0.85rem; color: #9ca3af; margin-top: 4px;">
-          Click <strong>Run All Crawlers</strong> above or execute <code>python main.py crawl</code> to populate live jobs.
-        </p>
-      </div>
-    `;
+  }
+
+  // If running locally with live Python backend server, try to fetch hot updates
+  const isLocalServer = (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1");
+  if (isLocalServer) {
+    try {
+      const res = await fetch("/api/openings");
+      if (res.ok) {
+        const data = await res.json();
+        if (data && data.openings) {
+          allOpenings = data.openings;
+          trackerMeta = data;
+          initExcelFilters();
+          updateStats();
+          renderCards();
+          return;
+        }
+      }
+    } catch (err) {
+      console.warn("Local API /api/openings unavailable, using preloaded dataset.");
+    }
+  }
+
+  // If neither preloaded data nor local API loaded openings
+  if (!allOpenings || allOpenings.length === 0) {
+    const container = document.getElementById("jobs-container");
+    if (container) {
+      container.innerHTML = `
+        <div class="empty-state">
+          <i class="fa-solid fa-triangle-exclamation fa-2x" style="color: #f59e0b;"></i>
+          <p style="margin-top: 10px; font-weight: 600;">No live openings dataset found.</p>
+          <p style="font-size: 0.85rem; color: #9ca3af; margin-top: 4px;">
+            Click <strong>Run All Crawlers</strong> above or execute <code>python main.py crawl</code> to populate live jobs.
+          </p>
+        </div>
+      `;
+    }
   }
 }
 

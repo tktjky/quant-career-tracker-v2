@@ -1141,7 +1141,15 @@
     <span id="toast-text">Executing crawl agent across target ATS boards...</span>
   </div>
 
-  <script src="data.js"></script>
-  <script src="app.js"></script>
+  <!-- Compatibility stubs for legacy cached client scripts -->
+  <div style="display:none;" aria-hidden="true">
+    <input id="filter-tier" value="ALL">
+    <input id="filter-industry" value="ALL">
+    <input id="filter-role" value="ALL">
+  </div>
+
+  <script src="data.js?v=20261004_v2"></script>
+  <script src="app.js?v=20261004_v2"></script>
 </body>
 </html>
+
