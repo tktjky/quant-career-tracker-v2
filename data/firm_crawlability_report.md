@@ -1,6 +1,6 @@
 # Comprehensive Target Employer Crawlability Audit Report
 
-**Audit Timestamp:** 2026-10-04 02:32:58 | **Total Employers Audited:** 296
+**Audit Timestamp:** 2026-10-04 11:29:38 | **Total Employers Audited:** 296
 
 ## Executive Summary
 - **Total Target Employers Monitored:** 296
@@ -166,18 +166,18 @@ These firms possess automated, public, or tailored API endpoints (Greenhouse, Le
 | **Soros Fund Management** | Tier B: Main Focus | Quantitative Hedge Funds | `Tailored Subagent` | 0 (Off-Cycle) | [Visit Portal](https://www.opensocietyfoundations.org/) |
 | **Spotify** | Tier B: Main Focus | Technology & AI | `Direct Portal Monitored` | **5 roles** | [Visit Portal](https://www.lifeatspotify.com/jobs) |
 | **Squarepoint Capital** | Tier B: Main Focus | Quantitative Hedge Funds | `Greenhouse API` | **9 roles** | [Visit Portal](https://www.squarepoint-capital.com/) |
-| **State Street** | Tier C2: Same or Below Benchmark | Systematic Asset Management & Allocators | `Workday CXS API` | **21 roles** | [Visit Portal](https://statestreet.wd1.myworkdayjobs.com/Global) |
+| **State Street** | Tier C2: Same or Below Benchmark | Systematic Asset Management & Allocators | `Workday CXS API` | **22 roles** | [Visit Portal](https://statestreet.wd1.myworkdayjobs.com/Global) |
 | **Stone Ridge Asset Management** | Tier C2: Same or Below Benchmark | Systematic Asset Management & Allocators | `Direct Portal Monitored` | **3 roles** | [Visit Portal](https://www.stoneridge.com/careers) |
 | **Stripe** | Tier B: Main Focus | FinTech & Financial Data | `Direct Portal Monitored` | **3 roles** | [Visit Portal](https://stripe.com/jobs) |
 | **Sumitomo Mitsui Banking Corporation (SMBC)** | Tier C1: Same or Above Benchmark | Bulge Bracket & Global Investment Banks | `Tailored Subagent` | 0 (Off-Cycle) | [Visit Portal](https://www.sumitomomitsuibankingcorporation.com/careers) |
-| **TD Securities** | Tier C1: Same or Above Benchmark | Bulge Bracket & Global Investment Banks | `Workday CXS API` | **21 roles** | [Visit Portal](https://www.google.com/search?q=TD+careers) |
+| **TD Securities** | Tier C1: Same or Above Benchmark | Bulge Bracket & Global Investment Banks | `Workday CXS API` | **20 roles** | [Visit Portal](https://www.google.com/search?q=TD+careers) |
 | **TGS Management** | Tier B: Main Focus | Quantitative Hedge Funds | `Direct Portal Monitored` | 0 (Off-Cycle) | [Visit Portal](https://www.tgs.com/careers) |
 | **TIFIN** | Tier B: Main Focus | FinTech & Financial Data | `Direct Portal Monitored` | 0 (Off-Cycle) | [Visit Portal](https://tifin.com/careers/) |
 | **Tanius Tech** | Tier B: Main Focus | Proprietary Trading & Market Making | `Direct Portal Monitored` | **2 roles** | [Visit Portal](https://www.tanius.tech/) |
 | **Tesla** | Tier B: Main Focus | Technology & AI | `Tailored Subagent` | **1 roles** | [Visit Portal](https://www.tesla.com/careers) |
 | **The Voleon Group** | Tier B: Main Focus | Quantitative Hedge Funds | `Ashby API` | **4 roles** | [Visit Portal](https://voleon.com/) |
 | **Tibra Capital** | Tier B: Main Focus | Proprietary Trading & Market Making | `Workable API` | 0 (Off-Cycle) | [Visit Portal](https://www.tibra.com/careers) |
-| **Tower Research Capital** | Tier B: Main Focus | Proprietary Trading & Market Making | `Greenhouse API` | **28 roles** | [Visit Portal](https://www.tower-research.com/open-positions) |
+| **Tower Research Capital** | Tier B: Main Focus | Proprietary Trading & Market Making | `Greenhouse API` | **27 roles** | [Visit Portal](https://www.tower-research.com/open-positions) |
 | **Trafigura** | Tier B: Main Focus | Commodities & Energy Trading Desks | `Tailored Subagent` | **1 roles** | [Visit Portal](https://www.trafigura.com/careers/) |
 | **TransMarket Group** | Tier B: Main Focus | Proprietary Trading & Market Making | `Greenhouse API` | **2 roles** | [Visit Portal](https://www.transmarketgroup.com/careers) |
 | **Trexquant Investment** | Tier B: Main Focus | Quantitative Hedge Funds | `Workable API` | **15 roles** | [Visit Portal](https://apply.workable.com/trexquant/) |
