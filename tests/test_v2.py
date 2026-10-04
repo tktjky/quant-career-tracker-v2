@@ -79,12 +79,12 @@ class TestJobTrackerV2(unittest.TestCase):
         coinbase = agent.firm_meta.get("Coinbase")
         self.assertIsNotNone(coinbase)
         self.assertEqual(coinbase["priority_tier"], "Tier B: Main Focus")
-        self.assertEqual(coinbase["industry_sector"], "FinTech, Financial Data & Tech")
+        self.assertEqual(coinbase["industry_sector"], "FinTech & Financial Data")
 
         robinhood = agent.firm_meta.get("Robinhood")
         self.assertIsNotNone(robinhood)
         self.assertEqual(robinhood["priority_tier"], "Tier B: Main Focus")
-        self.assertEqual(robinhood["industry_sector"], "FinTech, Financial Data & Tech")
+        self.assertEqual(robinhood["industry_sector"], "FinTech & Financial Data")
 
         goldman = agent.firm_meta.get("Goldman Sachs")
         self.assertIsNotNone(goldman)
@@ -94,7 +94,7 @@ class TestJobTrackerV2(unittest.TestCase):
         openai = agent.firm_meta.get("OpenAI")
         self.assertIsNotNone(openai)
         self.assertEqual(openai["priority_tier"], "Tier A: Too Hard")
-        self.assertEqual(openai["industry_sector"], "FinTech, Financial Data & Tech")
+        self.assertEqual(openai["industry_sector"], "Technology & AI")
 
         # Verify fixed mismatches and Other sector
         pimco = agent.firm_meta.get("PIMCO")

@@ -11,7 +11,8 @@ let isAllExpanded = false;
 const EXCEL_SECTORS = [
   "Quantitative Hedge Funds",
   "Proprietary Trading & Market Making",
-  "FinTech, Financial Data & Tech",
+  "FinTech & Financial Data",
+  "Technology & AI",
   "Systematic Asset Management & Allocators",
   "Bulge Bracket & Global Investment Banks",
   "Commercial Banking & Consulting (Practice)",
@@ -585,8 +586,9 @@ function applyPreset(presetKey) {
     document.getElementById("filter-score").value = "80";
     excelState.activePreset = "buyside_quant";
   } else if (presetKey === "tech_ds_ml") {
-    // Tech & FinTech DS/ML: FinTech/Tech Sector, Data Science, ML & Product
-    excelState.sectors.add("FinTech, Financial Data & Tech");
+    // Tech & FinTech DS/ML: FinTech & Tech Sectors, Data Science, ML & Product
+    excelState.sectors.add("FinTech & Financial Data");
+    excelState.sectors.add("Technology & AI");
     excelState.roles.add("DATA_SCIENCE");
     excelState.roles.add("ML_AI");
     excelState.roles.add("PRODUCT");
