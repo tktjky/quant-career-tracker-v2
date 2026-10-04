@@ -56,7 +56,7 @@
       "code": 0,
       "final_url": "",
       "tier": "Tier B: Main Focus",
-      "sector": "Quantitative Hedge Funds"
+      "sector": "Proprietary Trading & Market Making"
     },
     {
       "firm_name": "Eisler Capital",
@@ -74,7 +74,7 @@
       "code": 0,
       "final_url": "",
       "tier": "Tier D: Pure Practice",
-      "sector": "Commercial Banking & Consulting (Practice)"
+      "sector": "Systematic Asset Management & Allocators"
     },
     {
       "firm_name": "Fox Run Management",
@@ -83,7 +83,7 @@
       "code": 0,
       "final_url": "",
       "tier": "Tier C2: Same or Below Benchmark",
-      "sector": "Systematic Asset Management & Allocators"
+      "sector": "Quantitative Hedge Funds"
     },
     {
       "firm_name": "Corvid Capital",
@@ -119,7 +119,7 @@
       "code": 0,
       "final_url": "",
       "tier": "Tier B: Main Focus",
-      "sector": "Quantitative Hedge Funds"
+      "sector": "Systematic Asset Management & Allocators"
     },
     {
       "firm_name": "Consolidated Trading",
@@ -146,7 +146,7 @@
       "code": 0,
       "final_url": "",
       "tier": "Tier C2: Same or Below Benchmark",
-      "sector": "Systematic Asset Management & Allocators"
+      "sector": "Other"
     },
     {
       "firm_name": "KeyBank",
@@ -193,7 +193,7 @@
       "code": 0,
       "final_url": "",
       "tier": "Tier B: Main Focus",
-      "sector": "Quantitative Hedge Funds"
+      "sector": "Proprietary Trading & Market Making"
     },
     {
       "firm_name": "Anthropic",
@@ -202,7 +202,7 @@
       "code": 200,
       "final_url": "https://www.anthropic.com/careers",
       "tier": "Tier A: Too Hard",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "AXQ Capital",
@@ -211,7 +211,7 @@
       "code": 200,
       "final_url": "https://www.axqcap.com/",
       "tier": "Tier C2: Same or Below Benchmark",
-      "sector": "Systematic Asset Management & Allocators"
+      "sector": "Quantitative Hedge Funds"
     },
     {
       "firm_name": "AGAM Capital",
@@ -229,7 +229,7 @@
       "code": 200,
       "final_url": "https://www.astorg.com/",
       "tier": "Tier B: Main Focus",
-      "sector": "Quantitative Hedge Funds"
+      "sector": "Systematic Asset Management & Allocators"
     },
     {
       "firm_name": "Akuna Capital",
@@ -301,7 +301,7 @@
       "code": 200,
       "final_url": "https://www.alpharoc.ai/",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Allspring Global Investments",
@@ -319,7 +319,7 @@
       "code": 200,
       "final_url": "https://www.americanexpress.com/en-us/careers/",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Analysis Group",
@@ -346,7 +346,7 @@
       "code": 200,
       "final_url": "https://www.amazon.jobs/en/",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Barclays",
@@ -373,7 +373,7 @@
       "code": 200,
       "final_url": "https://www.apple.com/careers/us/",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Bloomberg LP",
@@ -382,7 +382,7 @@
       "code": 403,
       "final_url": "https://www.bloomberg.com/company/careers/",
       "tier": "Tier C2: Same or Below Benchmark",
-      "sector": "Financial Data & Market Utilities"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "AQR Capital Management",
@@ -400,7 +400,7 @@
       "code": 200,
       "final_url": "https://www.avisbudgetgroup.com/home",
       "tier": "Tier C2: Same or Below Benchmark",
-      "sector": "Systematic Asset Management & Allocators"
+      "sector": "Other"
     },
     {
       "firm_name": "Alger",
@@ -427,7 +427,7 @@
       "code": 200,
       "final_url": "https://www.brex.com/careers",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Broad Institute of MIT and Harvard",
@@ -436,7 +436,7 @@
       "code": 403,
       "final_url": "https://www.broadinstitute.org/careers",
       "tier": "Tier D: Pure Practice",
-      "sector": "Commercial Banking & Consulting (Practice)"
+      "sector": "Other"
     },
     {
       "firm_name": "Bank of America",
@@ -454,7 +454,7 @@
       "code": 200,
       "final_url": "https://block.xyz/careers/jobs",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "CIBC Capital Markets",
@@ -481,7 +481,7 @@
       "code": 200,
       "final_url": "https://www.bbh.com/us/en/careers.html",
       "tier": "Tier C1: Same or Above Benchmark",
-      "sector": "Bulge Bracket & Global Investment Banks"
+      "sector": "Commercial Banking & Consulting (Practice)"
     },
     {
       "firm_name": "BP Trading",
@@ -517,7 +517,7 @@
       "code": 0,
       "final_url": "",
       "tier": "Tier B: Main Focus",
-      "sector": "Quantitative Hedge Funds"
+      "sector": "Systematic Asset Management & Allocators"
     },
     {
       "firm_name": "Canada Pension Plan Investment Board (CPPIB)",
@@ -589,7 +589,7 @@
       "code": 403,
       "final_url": "https://careers.chime.com/",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Bank of New York Mellon (BNY Mellon)",
@@ -616,7 +616,7 @@
       "code": 200,
       "final_url": "https://www.chengqi.com/",
       "tier": "Tier C1: Same or Above Benchmark",
-      "sector": "Systematic Asset Management & Allocators"
+      "sector": "Quantitative Hedge Funds"
     },
     {
       "firm_name": "Beacon Platform",
@@ -625,7 +625,7 @@
       "code": 200,
       "final_url": "https://cwan.com/company/careers/",
       "tier": "Tier C2: Same or Below Benchmark",
-      "sector": "Financial Data & Market Utilities"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Cerberus Capital Management",
@@ -634,7 +634,7 @@
       "code": 200,
       "final_url": "https://www.cerberus.com/",
       "tier": "Tier B: Main Focus",
-      "sector": "Quantitative Hedge Funds"
+      "sector": "Systematic Asset Management & Allocators"
     },
     {
       "firm_name": "China Everbright Bank",
@@ -643,7 +643,7 @@
       "code": 200,
       "final_url": "https://www.chinaeverbrightbank.com/careers",
       "tier": "Tier C1: Same or Above Benchmark",
-      "sector": "Bulge Bracket & Global Investment Banks"
+      "sector": "Commercial Banking & Consulting (Practice)"
     },
     {
       "firm_name": "Blackstone",
@@ -652,7 +652,7 @@
       "code": 200,
       "final_url": "https://www.blackstone.com/careers/careers-blackstone/",
       "tier": "Tier B: Main Focus",
-      "sector": "Quantitative Hedge Funds"
+      "sector": "Systematic Asset Management & Allocators"
     },
     {
       "firm_name": "Brevan Howard",
@@ -760,7 +760,7 @@
       "code": 200,
       "final_url": "https://conversioncapital.com/",
       "tier": "Tier B: Main Focus",
-      "sector": "Quantitative Hedge Funds"
+      "sector": "Systematic Asset Management & Allocators"
     },
     {
       "firm_name": "DIA",
@@ -769,7 +769,7 @@
       "code": 200,
       "final_url": "https://www.diadata.org/",
       "tier": "Tier D: Pure Practice",
-      "sector": "Commercial Banking & Consulting (Practice)"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "DC Investments",
@@ -832,7 +832,7 @@
       "code": 200,
       "final_url": "https://www.coinbase.com/careers",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Cisco Systems",
@@ -841,7 +841,7 @@
       "code": 200,
       "final_url": "https://careers.cisco.com/global/en",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Department of Defense",
@@ -850,7 +850,7 @@
       "code": 200,
       "final_url": "https://www.usajobs.gov/",
       "tier": "Tier D: Pure Practice",
-      "sector": "Commercial Banking & Consulting (Practice)"
+      "sector": "Other"
     },
     {
       "firm_name": "Dodge & Cox",
@@ -886,7 +886,7 @@
       "code": 200,
       "final_url": "https://www.delta.com/us/en/careers/overview",
       "tier": "Tier D: Pure Practice",
-      "sector": "Commercial Banking & Consulting (Practice)"
+      "sector": "Other"
     },
     {
       "firm_name": "Crimson Education",
@@ -895,7 +895,7 @@
       "code": 200,
       "final_url": "https://www.crimsoneducation.org/us/careers",
       "tier": "Tier C2: Same or Below Benchmark",
-      "sector": "Systematic Asset Management & Allocators"
+      "sector": "Other"
     },
     {
       "firm_name": "Databricks",
@@ -904,7 +904,7 @@
       "code": 200,
       "final_url": "https://www.databricks.com/company/careers",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Fortitude Re",
@@ -913,7 +913,7 @@
       "code": 0,
       "final_url": "",
       "tier": "Tier D: Pure Practice",
-      "sector": "Commercial Banking & Consulting (Practice)"
+      "sector": "Systematic Asset Management & Allocators"
     },
     {
       "firm_name": "Fox Run Management",
@@ -922,7 +922,7 @@
       "code": 0,
       "final_url": "",
       "tier": "Tier C2: Same or Below Benchmark",
-      "sector": "Systematic Asset Management & Allocators"
+      "sector": "Quantitative Hedge Funds"
     },
     {
       "firm_name": "DV Trading",
@@ -958,7 +958,7 @@
       "code": 200,
       "final_url": "https://jobs.cvshealth.com/us/en",
       "tier": "Tier D: Pure Practice",
-      "sector": "Commercial Banking & Consulting (Practice)"
+      "sector": "Other"
     },
     {
       "firm_name": "Federal Reserve System",
@@ -976,7 +976,7 @@
       "code": 200,
       "final_url": "https://www.financeconcepts.com/careers",
       "tier": "Tier C2: Same or Below Benchmark",
-      "sector": "Systematic Asset Management & Allocators"
+      "sector": "Commercial Banking & Consulting (Practice)"
     },
     {
       "firm_name": "FinTech Start Up",
@@ -985,7 +985,7 @@
       "code": 200,
       "final_url": "https://wellfound.com/jobs",
       "tier": "Tier C2: Same or Below Benchmark",
-      "sector": "Systematic Asset Management & Allocators"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "EFund Management",
@@ -994,7 +994,7 @@
       "code": 200,
       "final_url": "https://www.efunds.com.cn/",
       "tier": "Tier C1: Same or Above Benchmark",
-      "sector": "Quantitative Hedge Funds"
+      "sector": "Systematic Asset Management & Allocators"
     },
     {
       "firm_name": "Ficc.ai",
@@ -1003,7 +1003,7 @@
       "code": 200,
       "final_url": "https://www.linkedin.com/company/ficc-ai/",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Flow Traders",
@@ -1021,7 +1021,7 @@
       "code": 200,
       "final_url": "https://www.fitchratings.com/careers",
       "tier": "Tier D: Pure Practice",
-      "sector": "Commercial Banking & Consulting (Practice)"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Foresight Fund",
@@ -1030,7 +1030,7 @@
       "code": 200,
       "final_url": "https://sig.com/careers/",
       "tier": "Tier B: Main Focus",
-      "sector": "Proprietary Trading & Market Making"
+      "sector": "Systematic Asset Management & Allocators"
     },
     {
       "firm_name": "Forest Creek Capital",
@@ -1048,7 +1048,7 @@
       "code": 200,
       "final_url": "https://fireworks.ai/careers",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Dimensional Fund Advisors (DFA)",
@@ -1066,7 +1066,7 @@
       "code": 200,
       "final_url": "https://deleg8.com/",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "ExodusPoint Capital Management",
@@ -1093,7 +1093,7 @@
       "code": 200,
       "final_url": "https://www.google.com/search?q=GF+careers",
       "tier": "Tier D: Pure Practice",
-      "sector": "Commercial Banking & Consulting (Practice)"
+      "sector": "Bulge Bracket & Global Investment Banks"
     },
     {
       "firm_name": "Federated Hermes",
@@ -1129,7 +1129,7 @@
       "code": 200,
       "final_url": "https://www.globalai.com/careers",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Glenmede",
@@ -1174,7 +1174,7 @@
       "code": 200,
       "final_url": "https://www.linkedin.com/company/gro-intelligence/",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Freestone Grove Partners",
@@ -1192,7 +1192,7 @@
       "code": 200,
       "final_url": "https://hedgetech.com/",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Heima AI Robotics",
@@ -1201,7 +1201,7 @@
       "code": 200,
       "final_url": "https://www.heima.ai/",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "Other"
     },
     {
       "firm_name": "Hudson River Trading (HRT)",
@@ -1228,7 +1228,7 @@
       "code": 200,
       "final_url": "https://deepmind.google/careers/",
       "tier": "Tier A: Too Hard",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "HBK Capital Management",
@@ -1246,7 +1246,7 @@
       "code": 200,
       "final_url": "https://www.ibm.com/careers",
       "tier": "Tier D: Pure Practice",
-      "sector": "Commercial Banking & Consulting (Practice)"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Fundstrat Global Advisors",
@@ -1255,7 +1255,7 @@
       "code": 200,
       "final_url": "https://fundstrat.com/",
       "tier": "Tier D: Pure Practice",
-      "sector": "Commercial Banking & Consulting (Practice)"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Genentech",
@@ -1264,7 +1264,7 @@
       "code": 200,
       "final_url": "https://www.gene.com/",
       "tier": "Tier D: Pure Practice",
-      "sector": "Commercial Banking & Consulting (Practice)"
+      "sector": "Other"
     },
     {
       "firm_name": "GrayScale",
@@ -1273,7 +1273,7 @@
       "code": 200,
       "final_url": "https://www.grayscale.com/company/careers",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Intel",
@@ -1282,7 +1282,7 @@
       "code": 403,
       "final_url": "https://www.intel.com/careers",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Google",
@@ -1291,7 +1291,7 @@
       "code": 200,
       "final_url": "https://www.google.com/about/careers/applications/",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Haitong International Securities",
@@ -1309,7 +1309,7 @@
       "code": 200,
       "final_url": "https://gridify.io/",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Instinet Incorporated",
@@ -1318,7 +1318,7 @@
       "code": 200,
       "final_url": "https://www.instinet.com/",
       "tier": "Tier C1: Same or Above Benchmark",
-      "sector": "Bulge Bracket & Global Investment Banks"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Jane Street",
@@ -1363,7 +1363,7 @@
       "code": 200,
       "final_url": "https://www.careers.jnj.com/en/",
       "tier": "Tier D: Pure Practice",
-      "sector": "Commercial Banking & Consulting (Practice)"
+      "sector": "Other"
     },
     {
       "firm_name": "IMC Trading",
@@ -1408,7 +1408,7 @@
       "code": 200,
       "final_url": "https://www.klarna.com/careers/",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Invisible Technologies",
@@ -1417,7 +1417,7 @@
       "code": 200,
       "final_url": "https://invisibletech.ai/join-us",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Geneva Trading",
@@ -1471,7 +1471,7 @@
       "code": 0,
       "final_url": "",
       "tier": "Tier C2: Same or Below Benchmark",
-      "sector": "Systematic Asset Management & Allocators"
+      "sector": "Other"
     },
     {
       "firm_name": "Freddie Mac",
@@ -1507,7 +1507,7 @@
       "code": 200,
       "final_url": "https://kyte.com/",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "Other"
     },
     {
       "firm_name": "MassMutual",
@@ -1525,7 +1525,7 @@
       "code": 200,
       "final_url": "https://merqube.com/careers/",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "McKinsey (MIO Partners)",
@@ -1534,7 +1534,7 @@
       "code": 200,
       "final_url": "https://www.miopartners.com/careers/",
       "tier": "Tier D: Pure Practice",
-      "sector": "Commercial Banking & Consulting (Practice)"
+      "sector": "Systematic Asset Management & Allocators"
     },
     {
       "firm_name": "Lincoln Avenue Capital",
@@ -1543,7 +1543,7 @@
       "code": 200,
       "final_url": "https://lincolnavenue.com/careers/",
       "tier": "Tier C2: Same or Below Benchmark",
-      "sector": "Systematic Asset Management & Allocators"
+      "sector": "Other"
     },
     {
       "firm_name": "Intercontinental Exchange (ICE)",
@@ -1552,7 +1552,7 @@
       "code": 200,
       "final_url": "https://www.ice.com/careers",
       "tier": "Tier C2: Same or Below Benchmark",
-      "sector": "Financial Data & Market Utilities"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Microsoft",
@@ -1561,7 +1561,7 @@
       "code": 200,
       "final_url": "https://careers.microsoft.com/v2/global/en/home.html",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Millennium Advisors",
@@ -1570,7 +1570,7 @@
       "code": 200,
       "final_url": "https://www.millenniumadvisorsllc.com/",
       "tier": "Tier A: Too Hard",
-      "sector": "Quantitative Hedge Funds"
+      "sector": "Proprietary Trading & Market Making"
     },
     {
       "firm_name": "Moelis & Company",
@@ -1606,7 +1606,7 @@
       "code": 200,
       "final_url": "https://www.mojoglobal.com/",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "Other"
     },
     {
       "firm_name": "Moody's Investors Service",
@@ -1615,7 +1615,7 @@
       "code": 200,
       "final_url": "https://careers.moodys.com/en",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Meta",
@@ -1624,7 +1624,7 @@
       "code": 200,
       "final_url": "https://www.metacareers.com/",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "NVIDIA",
@@ -1633,7 +1633,7 @@
       "code": 200,
       "final_url": "https://www.nvidia.com/en-us/about-nvidia/careers/",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Netflix",
@@ -1642,7 +1642,7 @@
       "code": 200,
       "final_url": "https://www.netflix.com/NotFound?prev=https%3A%2F%2Fwww.netflix.com%2Fcareers",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Nipun Capital",
@@ -1669,7 +1669,7 @@
       "code": 200,
       "final_url": "https://www.kaiserpermanentejobs.org/?kp_shortcut_referrer=kp.org/careers",
       "tier": "Tier D: Pure Practice",
-      "sector": "Commercial Banking & Consulting (Practice)"
+      "sector": "Other"
     },
     {
       "firm_name": "Novartis Institute",
@@ -1678,7 +1678,7 @@
       "code": 200,
       "final_url": "https://www.novartis.com/careers",
       "tier": "Tier D: Pure Practice",
-      "sector": "Commercial Banking & Consulting (Practice)"
+      "sector": "Other"
     },
     {
       "firm_name": "Maven Securities",
@@ -1723,7 +1723,7 @@
       "code": 403,
       "final_url": "https://www.theocc.com/Careers",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "OpenAI",
@@ -1732,7 +1732,7 @@
       "code": 200,
       "final_url": "https://openai.com/careers/",
       "tier": "Tier A: Too Hard",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Munich Re",
@@ -1768,7 +1768,7 @@
       "code": 200,
       "final_url": "https://www.oracle.com/careers/",
       "tier": "Tier D: Pure Practice",
-      "sector": "Commercial Banking & Consulting (Practice)"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "New York Mortgage Trust",
@@ -1777,7 +1777,7 @@
       "code": 200,
       "final_url": "https://nymt.com/",
       "tier": "Tier D: Pure Practice",
-      "sector": "Commercial Banking & Consulting (Practice)"
+      "sector": "Systematic Asset Management & Allocators"
     },
     {
       "firm_name": "PIMCO",
@@ -1786,7 +1786,7 @@
       "code": 403,
       "final_url": "https://www.pimco.com/en-us/our-firm/careers/",
       "tier": "Tier C1: Same or Above Benchmark",
-      "sector": "Proprietary Trading & Market Making"
+      "sector": "Systematic Asset Management & Allocators"
     },
     {
       "firm_name": "PGIM",
@@ -1822,7 +1822,7 @@
       "code": 200,
       "final_url": "https://www.pennmedicine.com/careers",
       "tier": "Tier D: Pure Practice",
-      "sector": "Commercial Banking & Consulting (Practice)"
+      "sector": "Other"
     },
     {
       "firm_name": "OMNI Risk Management",
@@ -1849,7 +1849,7 @@
       "code": 200,
       "final_url": "https://www.palantir.com/careers/",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "PricewaterhouseCoopers (PwC)",
@@ -1858,7 +1858,7 @@
       "code": 403,
       "final_url": "https://www.pwc.com/us/en/careers.html",
       "tier": "Tier D: Pure Practice",
-      "sector": "FinTech & Elite Tech"
+      "sector": "Commercial Banking & Consulting (Practice)"
     },
     {
       "firm_name": "Corvid Capital",
@@ -1876,7 +1876,7 @@
       "code": 200,
       "final_url": "https://www.perplexity.ai/hub/careers",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Point72 / Cubist Systematic Strategies",
@@ -1930,7 +1930,7 @@
       "code": 200,
       "final_url": "https://www.numerix.com/careers",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Quantitative Brokers",
@@ -1939,7 +1939,7 @@
       "code": 200,
       "final_url": "https://www.quantitativebrokers.com/careers",
       "tier": "Tier B: Main Focus",
-      "sector": "Proprietary Trading & Market Making"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Quantinno Capital Management",
@@ -1975,7 +1975,7 @@
       "code": 200,
       "final_url": "https://careers.robinhood.com/",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Radix Trading",
@@ -2020,7 +2020,7 @@
       "code": 200,
       "final_url": "https://www.sai360.com/",
       "tier": "Tier C2: Same or Below Benchmark",
-      "sector": "Systematic Asset Management & Allocators"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "SIG (Susquehanna International Group)",
@@ -2047,7 +2047,7 @@
       "code": 200,
       "final_url": "https://scale.com/careers",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "S&P Global",
@@ -2056,7 +2056,7 @@
       "code": 200,
       "final_url": "https://careers.spglobal.com/jobs",
       "tier": "Tier C2: Same or Below Benchmark",
-      "sector": "Financial Data & Market Utilities"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Qube Research & Technologies (QRT)",
@@ -2092,7 +2092,7 @@
       "code": 200,
       "final_url": "https://ramp.com/careers",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "SoFi",
@@ -2101,7 +2101,7 @@
       "code": 200,
       "final_url": "https://www.sofi.com/careers/",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Soros Fund Management",
@@ -2119,7 +2119,7 @@
       "code": 200,
       "final_url": "https://www.lifeatspotify.com/jobs",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Societe Generale",
@@ -2146,7 +2146,7 @@
       "code": 200,
       "final_url": "https://stripe.com/careers",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "TGS Management",
@@ -2182,7 +2182,7 @@
       "code": 403,
       "final_url": "https://www.tesla.com/careers",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "State Street",
@@ -2209,7 +2209,7 @@
       "code": 200,
       "final_url": "https://careers.homedepot.com/",
       "tier": "Tier D: Pure Practice",
-      "sector": "Commercial Banking & Consulting (Practice)"
+      "sector": "Other"
     },
     {
       "firm_name": "TIFIN",
@@ -2218,7 +2218,7 @@
       "code": 200,
       "final_url": "https://tifin.com/careers/",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Secor Asset Management",
@@ -2227,7 +2227,7 @@
       "code": 200,
       "final_url": "https://www.mercer.com/solutions/investments/investment-solutions-and-ocio/",
       "tier": "Tier B: Main Focus",
-      "sector": "Quantitative Hedge Funds"
+      "sector": "Systematic Asset Management & Allocators"
     },
     {
       "firm_name": "The Voleon Group",
@@ -2290,7 +2290,7 @@
       "code": 200,
       "final_url": "https://www.twosigma.com/careers/",
       "tier": "Tier A: Too Hard",
-      "sector": "Proprietary Trading & Market Making"
+      "sector": "Quantitative Hedge Funds"
     },
     {
       "firm_name": "UBS",
@@ -2344,7 +2344,7 @@
       "code": 200,
       "final_url": "https://careers.snowflake.com/us/en",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Tower Research Capital",
@@ -2353,7 +2353,7 @@
       "code": 200,
       "final_url": "https://tower-research.com/open-positions/",
       "tier": "Tier B: Main Focus",
-      "sector": "Quantitative Hedge Funds"
+      "sector": "Proprietary Trading & Market Making"
     },
     {
       "firm_name": "Virtu Financial",
@@ -2362,7 +2362,7 @@
       "code": 200,
       "final_url": "https://www.virtu.com/careers/",
       "tier": "Tier B: Main Focus",
-      "sector": "Quantitative Hedge Funds"
+      "sector": "Proprietary Trading & Market Making"
     },
     {
       "firm_name": "Vanguard",
@@ -2398,7 +2398,7 @@
       "code": 200,
       "final_url": "https://careers.upstart.com/home",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Walmart Global Tech",
@@ -2407,7 +2407,7 @@
       "code": 200,
       "final_url": "https://careers.walmart.com/us/en/home/careers-areas/technology",
       "tier": "Tier D: Pure Practice",
-      "sector": "Commercial Banking & Consulting (Practice)"
+      "sector": "Other"
     },
     {
       "firm_name": "Uber",
@@ -2416,7 +2416,7 @@
       "code": 200,
       "final_url": "https://jobs.uber.com/en/",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Wells Fargo",
@@ -2434,7 +2434,7 @@
       "code": 200,
       "final_url": "https://www.d1g1t.com/careers/",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "IF Quant",
@@ -2461,7 +2461,7 @@
       "code": 200,
       "final_url": "https://www.wolferesearch.com/careers/",
       "tier": "Tier C1: Same or Above Benchmark",
-      "sector": "Bulge Bracket & Global Investment Banks"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "WorldQuant",
@@ -2479,7 +2479,7 @@
       "code": 200,
       "final_url": "https://plaid.com/careers/",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Balyasny Asset Management",
@@ -2506,7 +2506,7 @@
       "code": 200,
       "final_url": "https://careers.withwaymo.com",
       "tier": "Tier B: Main Focus",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Ergoteles Capital",
@@ -2632,7 +2632,7 @@
       "code": 403,
       "final_url": "https://www.cmegroup.com/careers.html",
       "tier": "Tier C1: Same or Above Benchmark",
-      "sector": "Financial Data & Market Utilities"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Morgan Stanley",
@@ -2668,7 +2668,7 @@
       "code": 200,
       "final_url": "https://www.sumridge.com/",
       "tier": "Tier C1: Same or Above Benchmark",
-      "sector": "Bulge Bracket & Global Investment Banks"
+      "sector": "Proprietary Trading & Market Making"
     },
     {
       "firm_name": "Walleye Capital",
@@ -2704,7 +2704,7 @@
       "code": 200,
       "final_url": "https://www.affirm.com/careers",
       "tier": "Tier C2: Same or Below Benchmark",
-      "sector": "FinTech & Elite Tech"
+      "sector": "FinTech, Financial Data & Tech"
     },
     {
       "firm_name": "Grubhub",
@@ -2713,7 +2713,7 @@
       "code": 200,
       "final_url": "https://careers.grubhub.com/",
       "tier": "Tier D: Pure Practice",
-      "sector": "FinTech & Elite Tech"
+      "sector": "Other"
     },
     {
       "firm_name": "Credit Suisse",

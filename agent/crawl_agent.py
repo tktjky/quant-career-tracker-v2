@@ -90,8 +90,8 @@ class CrawlAgent:
             "exoduspoint capital": ("Quantitative Hedge Funds", "Tier B: Main Focus"),
             "man group": ("Quantitative Hedge Funds", "Tier B: Main Focus"),
             "qube research & technologies": ("Quantitative Hedge Funds", "Tier B: Main Focus"),
-            "palantir": ("FinTech & Elite Tech", "Tier B: Main Focus"),
-            "plaid": ("FinTech & Elite Tech", "Tier B: Main Focus"),
+            "palantir": ("FinTech, Financial Data & Tech", "Tier B: Main Focus"),
+            "plaid": ("FinTech, Financial Data & Tech", "Tier B: Main Focus"),
         }
         for k, (sec, tier) in known_overrides.items():
             if k not in meta:

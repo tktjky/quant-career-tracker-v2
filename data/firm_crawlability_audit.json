@@ -34,7 +34,7 @@
     "firm_name": "AXQ Capital",
     "official_careers_url": "https://www.axqcap.com/",
     "priority_tier": "Tier C2: Same or Below Benchmark",
-    "industry_sector": "Systematic Asset Management & Allocators",
+    "industry_sector": "Quantitative Hedge Funds",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -64,7 +64,7 @@
     "firm_name": "Affirm",
     "official_careers_url": "https://www.affirm.com/careers",
     "priority_tier": "Tier C2: Same or Below Benchmark",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -138,7 +138,7 @@
     "firm_name": "AlphaROC",
     "official_careers_url": "https://www.alpharoc.ai/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -162,7 +162,7 @@
     "firm_name": "Amazon",
     "official_careers_url": "https://www.amazon.jobs/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech"
+    "industry_sector": "FinTech, Financial Data & Tech"
   },
   "American Century Investments": {
     "status": "AUTOMATED_FEED",
@@ -183,7 +183,7 @@
     "firm_name": "American Express",
     "official_careers_url": "https://www.americanexpress.com/en-us/careers/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech"
+    "industry_sector": "FinTech, Financial Data & Tech"
   },
   "Analysis Group": {
     "firm_name": "Analysis Group",
@@ -204,7 +204,7 @@
     "firm_name": "Anthropic",
     "official_careers_url": "https://www.anthropic.com/careers",
     "priority_tier": "Tier A: Too Hard",
-    "industry_sector": "FinTech & Elite Tech"
+    "industry_sector": "FinTech, Financial Data & Tech"
   },
   "Apple": {
     "status": "AUTOMATED_FEED",
@@ -214,13 +214,13 @@
     "firm_name": "Apple",
     "official_careers_url": "https://jobs.apple.com/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech"
+    "industry_sector": "FinTech, Financial Data & Tech"
   },
   "Archeron Trading": {
     "firm_name": "Archeron Trading",
     "official_careers_url": "https://www.archerontrading.com/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "Quantitative Hedge Funds",
+    "industry_sector": "Proprietary Trading & Market Making",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -241,7 +241,7 @@
     "firm_name": "Astorg Partners",
     "official_careers_url": "https://www.astorg.com/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "Quantitative Hedge Funds",
+    "industry_sector": "Systematic Asset Management & Allocators",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -251,7 +251,7 @@
     "firm_name": "Avis Budget Group",
     "official_careers_url": "https://www.avisbudget.com/careers",
     "priority_tier": "Tier C2: Same or Below Benchmark",
-    "industry_sector": "Systematic Asset Management & Allocators",
+    "industry_sector": "Other",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -271,7 +271,7 @@
     "firm_name": "BMW US Capital",
     "official_careers_url": "https://www.bmwgroup.jobs/us/en.html",
     "priority_tier": "Tier C2: Same or Below Benchmark",
-    "industry_sector": "Systematic Asset Management & Allocators",
+    "industry_sector": "Other",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -356,7 +356,7 @@
     "firm_name": "Beacon Platform",
     "official_careers_url": "https://www.beacon.io/careers/",
     "priority_tier": "Tier C2: Same or Below Benchmark",
-    "industry_sector": "Financial Data & Market Utilities"
+    "industry_sector": "FinTech, Financial Data & Tech"
   },
   "Belvedere Trading": {
     "firm_name": "Belvedere Trading",
@@ -390,13 +390,13 @@
     "firm_name": "Blackstone",
     "official_careers_url": "https://www.blackstone.com/careers/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "Quantitative Hedge Funds"
+    "industry_sector": "Systematic Asset Management & Allocators"
   },
   "Block (Cash App)": {
     "firm_name": "Block (Cash App)",
     "official_careers_url": "https://block.xyz/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -410,7 +410,7 @@
     "firm_name": "Bloomberg LP",
     "official_careers_url": "https://www.bloomberg.com/company/careers/",
     "priority_tier": "Tier C2: Same or Below Benchmark",
-    "industry_sector": "Financial Data & Market Utilities"
+    "industry_sector": "FinTech, Financial Data & Tech"
   },
   "Bopu Fund": {
     "firm_name": "Bopu Fund",
@@ -446,7 +446,7 @@
     "firm_name": "Brex",
     "official_careers_url": "https://www.brex.com/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -467,7 +467,7 @@
     "firm_name": "Broad Institute of MIT and Harvard",
     "official_careers_url": "https://www.broadinstitute.org/careers",
     "priority_tier": "Tier D: Pure Practice",
-    "industry_sector": "Commercial Banking & Consulting (Practice)",
+    "industry_sector": "Other",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -482,7 +482,7 @@
     "firm_name": "Brown Brothers Harriman",
     "official_careers_url": "https://www.bbh.com/careers",
     "priority_tier": "Tier C1: Same or Above Benchmark",
-    "industry_sector": "Bulge Bracket & Global Investment Banks"
+    "industry_sector": "Commercial Banking & Consulting (Practice)"
   },
   "CIBC Capital Markets": {
     "status": "AUTOMATED_FEED",
@@ -514,13 +514,13 @@
     "firm_name": "CME Group",
     "official_careers_url": "https://www.cmegroup.com/careers.html",
     "priority_tier": "Tier C1: Same or Above Benchmark",
-    "industry_sector": "Financial Data & Market Utilities"
+    "industry_sector": "FinTech, Financial Data & Tech"
   },
   "CVS Health": {
     "firm_name": "CVS Health",
     "official_careers_url": "https://www.cvshealth.com/careers",
     "priority_tier": "Tier D: Pure Practice",
-    "industry_sector": "Commercial Banking & Consulting (Practice)",
+    "industry_sector": "Other",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -550,7 +550,7 @@
     "firm_name": "Capital Four",
     "official_careers_url": "https://www.capitalfour.com/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "Quantitative Hedge Funds",
+    "industry_sector": "Systematic Asset Management & Allocators",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -617,7 +617,7 @@
     "firm_name": "Cerberus Capital Management",
     "official_careers_url": "https://www.cerberus.com/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "Quantitative Hedge Funds"
+    "industry_sector": "Systematic Asset Management & Allocators"
   },
   "Charles Schwab": {
     "status": "AUTOMATED_FEED",
@@ -634,7 +634,7 @@
     "firm_name": "Chengqi Funds",
     "official_careers_url": "https://www.chengqi.com/",
     "priority_tier": "Tier C1: Same or Above Benchmark",
-    "industry_sector": "Systematic Asset Management & Allocators",
+    "industry_sector": "Quantitative Hedge Funds",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -655,7 +655,7 @@
     "firm_name": "Chime",
     "official_careers_url": "https://careers.chime.com/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -675,7 +675,7 @@
     "firm_name": "China Everbright Bank",
     "official_careers_url": "https://www.chinaeverbrightbank.com/careers",
     "priority_tier": "Tier C1: Same or Above Benchmark",
-    "industry_sector": "Bulge Bracket & Global Investment Banks",
+    "industry_sector": "Commercial Banking & Consulting (Practice)",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -705,7 +705,7 @@
     "firm_name": "Cisco Systems",
     "official_careers_url": "https://jobs.cisco.com/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -755,7 +755,7 @@
     "firm_name": "Coinbase",
     "official_careers_url": "https://www.coinbase.com/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -786,7 +786,7 @@
     "firm_name": "Conversion Capital",
     "official_careers_url": "https://conversioncapital.com/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "Quantitative Hedge Funds",
+    "industry_sector": "Systematic Asset Management & Allocators",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -826,7 +826,7 @@
     "firm_name": "Crimson Education",
     "official_careers_url": "https://www.crimsoneducation.org/careers/",
     "priority_tier": "Tier C2: Same or Below Benchmark",
-    "industry_sector": "Systematic Asset Management & Allocators",
+    "industry_sector": "Other",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -877,7 +877,7 @@
     "firm_name": "DIA",
     "official_careers_url": "https://www.diadata.org/",
     "priority_tier": "Tier D: Pure Practice",
-    "industry_sector": "Commercial Banking & Consulting (Practice)",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -918,7 +918,7 @@
     "firm_name": "Databricks",
     "official_careers_url": "https://www.databricks.com/company/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -928,7 +928,7 @@
     "firm_name": "Deleg8",
     "official_careers_url": "https://www.deleg8.com/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -948,7 +948,7 @@
     "firm_name": "Delta Air Lines",
     "official_careers_url": "https://www.delta.com/careers",
     "priority_tier": "Tier D: Pure Practice",
-    "industry_sector": "Commercial Banking & Consulting (Practice)",
+    "industry_sector": "Other",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -958,7 +958,7 @@
     "firm_name": "Department of Defense",
     "official_careers_url": "https://www.usajobs.gov/",
     "priority_tier": "Tier D: Pure Practice",
-    "industry_sector": "Commercial Banking & Consulting (Practice)",
+    "industry_sector": "Other",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -998,7 +998,7 @@
     "firm_name": "EFund Management",
     "official_careers_url": "https://www.efunds.com.cn/",
     "priority_tier": "Tier C1: Same or Above Benchmark",
-    "industry_sector": "Quantitative Hedge Funds",
+    "industry_sector": "Systematic Asset Management & Allocators",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -1111,7 +1111,7 @@
     "firm_name": "Ficc.ai",
     "official_careers_url": "https://www.linkedin.com/company/ficc-ai/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -1131,7 +1131,7 @@
     "firm_name": "FinTech Start Up",
     "official_careers_url": "https://wellfound.com/jobs",
     "priority_tier": "Tier C2: Same or Below Benchmark",
-    "industry_sector": "Systematic Asset Management & Allocators",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -1141,7 +1141,7 @@
     "firm_name": "Finance Concepts",
     "official_careers_url": "https://www.financeconcepts.com/careers",
     "priority_tier": "Tier C2: Same or Below Benchmark",
-    "industry_sector": "Systematic Asset Management & Allocators",
+    "industry_sector": "Commercial Banking & Consulting (Practice)",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -1151,7 +1151,7 @@
     "firm_name": "Fireworks AI",
     "official_careers_url": "https://fireworks.ai/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "AUTOMATED_FEED",
     "method": "Ashby API",
     "ats": "ashby",
@@ -1163,7 +1163,7 @@
     "firm_name": "Fitch Ratings",
     "official_careers_url": "https://www.fitchratings.com/careers",
     "priority_tier": "Tier D: Pure Practice",
-    "industry_sector": "Commercial Banking & Consulting (Practice)",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -1206,7 +1206,7 @@
     "firm_name": "Foresight Fund",
     "official_careers_url": "https://sig.com/careers/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "Proprietary Trading & Market Making",
+    "industry_sector": "Systematic Asset Management & Allocators",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -1226,7 +1226,7 @@
     "firm_name": "Fortitude Re",
     "official_careers_url": "https://fortitude-re.com/culture-careers/",
     "priority_tier": "Tier D: Pure Practice",
-    "industry_sector": "Commercial Banking & Consulting (Practice)",
+    "industry_sector": "Systematic Asset Management & Allocators",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -1236,7 +1236,7 @@
     "firm_name": "Fox Run Management",
     "official_careers_url": "https://www.foxrunmanagement.com/",
     "priority_tier": "Tier C2: Same or Below Benchmark",
-    "industry_sector": "Systematic Asset Management & Allocators",
+    "industry_sector": "Quantitative Hedge Funds",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -1266,7 +1266,7 @@
     "firm_name": "Fundstrat Global Advisors",
     "official_careers_url": "https://www.fundstrat.com/",
     "priority_tier": "Tier D: Pure Practice",
-    "industry_sector": "Commercial Banking & Consulting (Practice)",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -1286,7 +1286,7 @@
     "firm_name": "GF Securities",
     "official_careers_url": "https://www.google.com/search?q=GF+careers",
     "priority_tier": "Tier D: Pure Practice",
-    "industry_sector": "Commercial Banking & Consulting (Practice)",
+    "industry_sector": "Bulge Bracket & Global Investment Banks",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -1318,7 +1318,7 @@
     "firm_name": "GRO Intelligence",
     "official_careers_url": "https://www.linkedin.com/company/gro-intelligence/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -1339,7 +1339,7 @@
     "firm_name": "Genentech",
     "official_careers_url": "https://www.genentech.com/careers",
     "priority_tier": "Tier D: Pure Practice",
-    "industry_sector": "Commercial Banking & Consulting (Practice)",
+    "industry_sector": "Other",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -1370,7 +1370,7 @@
     "firm_name": "Global AI",
     "official_careers_url": "https://www.globalai.com/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -1394,13 +1394,13 @@
     "firm_name": "Google",
     "official_careers_url": "https://www.google.com/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech"
+    "industry_sector": "FinTech, Financial Data & Tech"
   },
   "Google DeepMind": {
     "firm_name": "Google DeepMind",
     "official_careers_url": "https://deepmind.google/about/careers/",
     "priority_tier": "Tier A: Too Hard",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -1410,7 +1410,7 @@
     "firm_name": "GrayScale",
     "official_careers_url": "https://grayscale.com/careers/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "AUTOMATED_FEED",
     "method": "Greenhouse API",
     "ats": "greenhouse",
@@ -1422,7 +1422,7 @@
     "firm_name": "Gridify",
     "official_careers_url": "https://www.gridify.io/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -1432,7 +1432,7 @@
     "firm_name": "Grubhub",
     "official_careers_url": "https://careers.grubhub.com/",
     "priority_tier": "Tier D: Pure Practice",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "Other",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "workday",
@@ -1483,7 +1483,7 @@
     "firm_name": "HedgeTech LLC",
     "official_careers_url": "https://hedgetech.com/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -1493,7 +1493,7 @@
     "firm_name": "Heima AI Robotics",
     "official_careers_url": "https://www.heima.ai/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "Other",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -1514,7 +1514,7 @@
     "firm_name": "IBM Corporation",
     "official_careers_url": "https://www.ibm.com/careers",
     "priority_tier": "Tier D: Pure Practice",
-    "industry_sector": "Commercial Banking & Consulting (Practice)",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -1559,7 +1559,7 @@
     "firm_name": "Instinet Incorporated",
     "official_careers_url": "https://www.instinet.com/",
     "priority_tier": "Tier C1: Same or Above Benchmark",
-    "industry_sector": "Bulge Bracket & Global Investment Banks"
+    "industry_sector": "FinTech, Financial Data & Tech"
   },
   "Intel": {
     "status": "AUTOMATED_FEED",
@@ -1569,7 +1569,7 @@
     "firm_name": "Intel",
     "official_careers_url": "https://www.intel.com/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech"
+    "industry_sector": "FinTech, Financial Data & Tech"
   },
   "Intercontinental Exchange (ICE)": {
     "status": "AUTOMATED_FEED",
@@ -1579,7 +1579,7 @@
     "firm_name": "Intercontinental Exchange (ICE)",
     "official_careers_url": "https://www.theice.com/careers",
     "priority_tier": "Tier C2: Same or Below Benchmark",
-    "industry_sector": "Financial Data & Market Utilities"
+    "industry_sector": "FinTech, Financial Data & Tech"
   },
   "Invesco": {
     "status": "AUTOMATED_FEED",
@@ -1606,7 +1606,7 @@
     "firm_name": "Invisible Technologies",
     "official_careers_url": "https://www.invisible.co/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -1656,7 +1656,7 @@
     "firm_name": "Johnson & Johnson",
     "official_careers_url": "https://www.careers.jnj.com/",
     "priority_tier": "Tier D: Pure Practice",
-    "industry_sector": "Commercial Banking & Consulting (Practice)",
+    "industry_sector": "Other",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "workday",
@@ -1687,7 +1687,7 @@
     "firm_name": "Kaiser Permanente",
     "official_careers_url": "https://www.kaiserpermanente.com/careers",
     "priority_tier": "Tier D: Pure Practice",
-    "industry_sector": "Commercial Banking & Consulting (Practice)",
+    "industry_sector": "Other",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "taleo",
@@ -1717,7 +1717,7 @@
     "firm_name": "Klarna",
     "official_careers_url": "https://www.klarna.com/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -1727,7 +1727,7 @@
     "firm_name": "Kyte",
     "official_careers_url": "https://www.kyte.com/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "Other",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -1757,7 +1757,7 @@
     "firm_name": "Lincoln Avenue Capital",
     "official_careers_url": "https://www.lincolnavenue.com/careers",
     "priority_tier": "Tier C2: Same or Below Benchmark",
-    "industry_sector": "Systematic Asset Management & Allocators",
+    "industry_sector": "Other",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -1849,7 +1849,7 @@
     "firm_name": "McKinsey (MIO Partners)",
     "official_careers_url": "https://www.miopartners.com/careers/",
     "priority_tier": "Tier D: Pure Practice",
-    "industry_sector": "Commercial Banking & Consulting (Practice)",
+    "industry_sector": "Systematic Asset Management & Allocators",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -1859,7 +1859,7 @@
     "firm_name": "MerQube",
     "official_careers_url": "https://merqube.com/careers/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -1883,7 +1883,7 @@
     "firm_name": "Meta",
     "official_careers_url": "https://www.metacareers.com/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech"
+    "industry_sector": "FinTech, Financial Data & Tech"
   },
   "Microsoft": {
     "status": "AUTOMATED_FEED",
@@ -1893,13 +1893,13 @@
     "firm_name": "Microsoft",
     "official_careers_url": "https://careers.microsoft.com/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech"
+    "industry_sector": "FinTech, Financial Data & Tech"
   },
   "Millennium Advisors": {
     "firm_name": "Millennium Advisors",
     "official_careers_url": "https://www.millenniumadvisorsllc.com/",
     "priority_tier": "Tier A: Too Hard",
-    "industry_sector": "Quantitative Hedge Funds",
+    "industry_sector": "Proprietary Trading & Market Making",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -1929,7 +1929,7 @@
     "firm_name": "Mojo Interactive",
     "official_careers_url": "https://www.mojoglobal.com/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "Other",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -1943,7 +1943,7 @@
     "firm_name": "Moody's Investors Service",
     "official_careers_url": "https://careers.moodys.com/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech"
+    "industry_sector": "FinTech, Financial Data & Tech"
   },
   "Moon Capital Management": {
     "firm_name": "Moon Capital Management",
@@ -1986,7 +1986,7 @@
     "firm_name": "NVIDIA",
     "official_careers_url": "https://www.nvidia.com/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech"
+    "industry_sector": "FinTech, Financial Data & Tech"
   },
   "Netflix": {
     "status": "AUTOMATED_FEED",
@@ -1996,7 +1996,7 @@
     "firm_name": "Netflix",
     "official_careers_url": "https://www.netflix.com/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech"
+    "industry_sector": "FinTech, Financial Data & Tech"
   },
   "Neuberger Berman": {
     "status": "AUTOMATED_FEED",
@@ -2012,7 +2012,7 @@
     "firm_name": "New York Mortgage Trust",
     "official_careers_url": "https://www.nymt.com/",
     "priority_tier": "Tier D: Pure Practice",
-    "industry_sector": "Commercial Banking & Consulting (Practice)",
+    "industry_sector": "Systematic Asset Management & Allocators",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -2052,7 +2052,7 @@
     "firm_name": "Novartis Institute",
     "official_careers_url": "https://www.novartis.com/careers",
     "priority_tier": "Tier D: Pure Practice",
-    "industry_sector": "Commercial Banking & Consulting (Practice)",
+    "industry_sector": "Other",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -2062,7 +2062,7 @@
     "firm_name": "Numerix",
     "official_careers_url": "https://www.numerix.com/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -2120,7 +2120,7 @@
     "firm_name": "OpenAI",
     "official_careers_url": "https://openai.com/careers/",
     "priority_tier": "Tier A: Too Hard",
-    "industry_sector": "FinTech & Elite Tech"
+    "industry_sector": "FinTech, Financial Data & Tech"
   },
   "Options Clearing Corporation (OCC)": {
     "status": "AUTOMATED_FEED",
@@ -2131,7 +2131,7 @@
     "firm_name": "Options Clearing Corporation (OCC)",
     "official_careers_url": "https://theocc.wd5.myworkdayjobs.com/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech"
+    "industry_sector": "FinTech, Financial Data & Tech"
   },
   "Optiver": {
     "status": "AUTOMATED_FEED",
@@ -2148,7 +2148,7 @@
     "firm_name": "Oracle",
     "official_careers_url": "https://www.oracle.com/careers/",
     "priority_tier": "Tier D: Pure Practice",
-    "industry_sector": "Commercial Banking & Consulting (Practice)",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -2183,7 +2183,7 @@
     "firm_name": "PIMCO",
     "official_careers_url": "https://www.pimco.com/en-us/our-firm/careers/",
     "priority_tier": "Tier C1: Same or Above Benchmark",
-    "industry_sector": "Proprietary Trading & Market Making"
+    "industry_sector": "Systematic Asset Management & Allocators"
   },
   "Pacific Gas & Electric (PG&E)": {
     "firm_name": "Pacific Gas & Electric (PG&E)",
@@ -2204,7 +2204,7 @@
     "firm_name": "Palantir Technologies",
     "official_careers_url": "https://www.palantir.com/careers/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech"
+    "industry_sector": "FinTech, Financial Data & Tech"
   },
   "PanAgora Asset Management": {
     "status": "AUTOMATED_FEED",
@@ -2240,7 +2240,7 @@
     "firm_name": "Penn Medicine",
     "official_careers_url": "https://www.pennmedicine.com/careers",
     "priority_tier": "Tier D: Pure Practice",
-    "industry_sector": "Commercial Banking & Consulting (Practice)",
+    "industry_sector": "Other",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -2260,7 +2260,7 @@
     "firm_name": "Perplexity AI",
     "official_careers_url": "https://www.perplexity.ai/hub/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -2270,7 +2270,7 @@
     "firm_name": "Plaid",
     "official_careers_url": "https://plaid.com/careers/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -2303,7 +2303,7 @@
     "firm_name": "PricewaterhouseCoopers (PwC)",
     "official_careers_url": "https://www.pwc.com/us/en/careers.html",
     "priority_tier": "Tier D: Pure Practice",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "Commercial Banking & Consulting (Practice)",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -2367,7 +2367,7 @@
     "firm_name": "Quantitative Brokers",
     "official_careers_url": "https://www.quantitativebrokers.com/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "Proprietary Trading & Market Making"
+    "industry_sector": "FinTech, Financial Data & Tech"
   },
   "Qube Research & Technologies (QRT)": {
     "status": "AUTOMATED_FEED",
@@ -2405,7 +2405,7 @@
     "firm_name": "Ramp",
     "official_careers_url": "https://ramp.com/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "AUTOMATED_FEED",
     "method": "Ashby API",
     "ats": "ashby",
@@ -2417,7 +2417,7 @@
     "firm_name": "Robinhood",
     "official_careers_url": "https://careers.robinhood.com/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -2442,13 +2442,13 @@
     "firm_name": "S&P Global",
     "official_careers_url": "https://careers.spglobal.com/",
     "priority_tier": "Tier C2: Same or Below Benchmark",
-    "industry_sector": "Financial Data & Market Utilities"
+    "industry_sector": "FinTech, Financial Data & Tech"
   },
   "SAI": {
     "firm_name": "SAI",
     "official_careers_url": "https://www.sai360.com/",
     "priority_tier": "Tier C2: Same or Below Benchmark",
-    "industry_sector": "Systematic Asset Management & Allocators",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -2479,7 +2479,7 @@
     "firm_name": "Scale AI",
     "official_careers_url": "https://scale.com/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -2515,7 +2515,7 @@
     "firm_name": "Secor Asset Management",
     "official_careers_url": "https://www.secor-am.com/careers/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "Quantitative Hedge Funds"
+    "industry_sector": "Systematic Asset Management & Allocators"
   },
   "Seven Eight Capital": {
     "firm_name": "Seven Eight Capital",
@@ -2553,7 +2553,7 @@
     "firm_name": "Snowflake",
     "official_careers_url": "https://careers.snowflake.com/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -2563,7 +2563,7 @@
     "firm_name": "SoFi",
     "official_careers_url": "https://www.sofi.com/careers/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -2593,7 +2593,7 @@
     "firm_name": "Spotify",
     "official_careers_url": "https://www.lifeatspotify.com/jobs",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -2635,7 +2635,7 @@
     "firm_name": "Stripe",
     "official_careers_url": "https://stripe.com/jobs",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -2655,7 +2655,7 @@
     "firm_name": "Sumridge Partners",
     "official_careers_url": "https://www.sumridge.com/",
     "priority_tier": "Tier C1: Same or Above Benchmark",
-    "industry_sector": "Bulge Bracket & Global Investment Banks",
+    "industry_sector": "Proprietary Trading & Market Making",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -2696,7 +2696,7 @@
     "firm_name": "TIFIN",
     "official_careers_url": "https://tifin.com/careers/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -2720,13 +2720,13 @@
     "firm_name": "Tesla",
     "official_careers_url": "https://www.tesla.com/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech"
+    "industry_sector": "FinTech, Financial Data & Tech"
   },
   "The Home Depot": {
     "firm_name": "The Home Depot",
     "official_careers_url": "https://careers.homedepot.com/",
     "priority_tier": "Tier D: Pure Practice",
-    "industry_sector": "Commercial Banking & Consulting (Practice)",
+    "industry_sector": "Other",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "workday",
@@ -2763,7 +2763,7 @@
     "firm_name": "Tower Research Capital",
     "official_careers_url": "https://www.tower-research.com/open-positions",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "Quantitative Hedge Funds"
+    "industry_sector": "Proprietary Trading & Market Making"
   },
   "Trafigura": {
     "status": "AUTOMATED_FEED",
@@ -2825,7 +2825,7 @@
     "firm_name": "Two Sigma",
     "official_careers_url": "https://www.twosigma.com/careers/",
     "priority_tier": "Tier A: Too Hard",
-    "industry_sector": "Proprietary Trading & Market Making"
+    "industry_sector": "Quantitative Hedge Funds"
   },
   "U.S. Securities and Exchange Commission (SEC)": {
     "firm_name": "U.S. Securities and Exchange Commission (SEC)",
@@ -2875,7 +2875,7 @@
     "firm_name": "Uber",
     "official_careers_url": "https://www.uber.com/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech"
+    "industry_sector": "FinTech, Financial Data & Tech"
   },
   "Ultramarin GmbH": {
     "firm_name": "Ultramarin GmbH",
@@ -2891,7 +2891,7 @@
     "firm_name": "Upstart",
     "official_careers_url": "https://www.upstart.com/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -2957,7 +2957,7 @@
     "firm_name": "Virtu Financial",
     "official_careers_url": "https://www.virtu.com/careers/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "Quantitative Hedge Funds"
+    "industry_sector": "Proprietary Trading & Market Making"
   },
   "Vistra Corp": {
     "firm_name": "Vistra Corp",
@@ -2985,7 +2985,7 @@
     "firm_name": "Walmart Global Tech",
     "official_careers_url": "https://careers.walmart.com/technology",
     "priority_tier": "Tier D: Pure Practice",
-    "industry_sector": "Commercial Banking & Consulting (Practice)",
+    "industry_sector": "Other",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -2995,7 +2995,7 @@
     "firm_name": "Waymo",
     "official_careers_url": "https://waymo.com/careers/",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
@@ -3019,7 +3019,7 @@
     "firm_name": "Wolfe Research",
     "official_careers_url": "https://www.wolferesearch.com/careers",
     "priority_tier": "Tier C1: Same or Above Benchmark",
-    "industry_sector": "Bulge Bracket & Global Investment Banks"
+    "industry_sector": "FinTech, Financial Data & Tech"
   },
   "WorldQuant": {
     "status": "AUTOMATED_FEED",
@@ -3036,7 +3036,7 @@
     "firm_name": "d1g1t Inc",
     "official_careers_url": "https://www.d1g1t.com/careers",
     "priority_tier": "Tier B: Main Focus",
-    "industry_sector": "FinTech & Elite Tech",
+    "industry_sector": "FinTech, Financial Data & Tech",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",

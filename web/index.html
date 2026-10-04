@@ -204,15 +204,286 @@
       flex-wrap: wrap;
     }
 
-    .select-group select {
+    .select-group select, .excel-filter-toolbar select {
       background: #1f2937;
       border: 1px solid #374151;
       color: #fff;
-      padding: 10px 14px;
+      padding: 9px 12px;
       border-radius: 8px;
-      font-size: 0.85rem;
+      font-size: 0.82rem;
       outline: none;
       cursor: pointer;
+      font-weight: 500;
+      transition: all 0.15s ease;
+    }
+    .select-group select:hover, .excel-filter-toolbar select:hover {
+      border-color: #4b5563;
+      background: #283548;
+    }
+
+    /* Preset Bar */
+    .preset-bar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 14px;
+      flex-wrap: wrap;
+      background: #111827;
+      padding: 10px 14px;
+      border-radius: 8px;
+      border: 1px solid #1f2937;
+    }
+    .preset-label {
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: #93c5fd;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      white-space: nowrap;
+    }
+    .preset-buttons {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .btn-preset {
+      background: #1f2937;
+      border: 1px solid #374151;
+      color: #e2e8f0;
+      padding: 5px 11px;
+      border-radius: 6px;
+      font-size: 0.76rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .btn-preset:hover {
+      background: #2563eb;
+      border-color: #3b82f6;
+      color: #fff;
+    }
+    .btn-preset.active {
+      background: #3b82f6;
+      border-color: #60a5fa;
+      color: #fff;
+      box-shadow: 0 0 10px rgba(59, 130, 246, 0.4);
+    }
+    .btn-preset-reset {
+      background: rgba(239, 68, 68, 0.12);
+      border-color: rgba(239, 68, 68, 0.35);
+      color: #fca5a5;
+    }
+    .btn-preset-reset:hover {
+      background: #dc2626;
+      border-color: #ef4444;
+      color: #fff;
+    }
+
+    /* Excel Filter Dropdown System */
+    .excel-filter-toolbar {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .excel-dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .excel-filter-btn {
+      background: #1f2937;
+      border: 1px solid #374151;
+      color: #fff;
+      padding: 9px 12px;
+      border-radius: 8px;
+      font-size: 0.82rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 500;
+      transition: all 0.15s ease;
+      white-space: nowrap;
+    }
+    .excel-filter-btn:hover {
+      border-color: #4b5563;
+      background: #283548;
+    }
+    .excel-filter-btn.active-filter {
+      border-color: #3b82f6;
+      background: rgba(59, 130, 246, 0.15);
+      color: #93c5fd;
+      font-weight: 600;
+      box-shadow: 0 0 8px rgba(59, 130, 246, 0.25);
+    }
+    .excel-filter-btn .arrow-icon {
+      font-size: 0.68rem;
+      margin-left: 3px;
+      color: #9ca3af;
+      transition: transform 0.2s ease;
+    }
+    .excel-dropdown.open .arrow-icon {
+      transform: rotate(180deg);
+    }
+    .excel-dropdown-panel {
+      position: absolute;
+      top: calc(100% + 6px);
+      left: 0;
+      min-width: 300px;
+      max-width: 380px;
+      background: #162032;
+      border: 1px solid #3b82f6;
+      border-radius: 10px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.6);
+      z-index: 1000;
+      display: none;
+      overflow: hidden;
+    }
+    .excel-dropdown.open .excel-dropdown-panel {
+      display: block;
+      animation: fadeInDown 0.15s ease-out;
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .excel-panel-header {
+      padding: 10px 12px;
+      background: #0f172a;
+      border-bottom: 1px solid #1e293b;
+    }
+    .excel-panel-search {
+      width: 100%;
+      background: #1e293b;
+      border: 1px solid #334155;
+      color: #fff;
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      outline: none;
+      box-sizing: border-box;
+    }
+    .excel-panel-search:focus {
+      border-color: #3b82f6;
+    }
+    .excel-panel-actions {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 8px;
+      font-size: 0.74rem;
+    }
+    .excel-panel-actions button {
+      background: none;
+      border: none;
+      color: #60a5fa;
+      cursor: pointer;
+      font-weight: 600;
+      padding: 0;
+    }
+    .excel-panel-actions button:hover {
+      text-decoration: underline;
+      color: #93c5fd;
+    }
+    .excel-panel-list {
+      max-height: 260px;
+      overflow-y: auto;
+      padding: 6px 8px;
+    }
+    .excel-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 8px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.78rem;
+      color: #e2e8f0;
+      transition: background 0.15s ease;
+      user-select: none;
+    }
+    .excel-item:hover {
+      background: #1e293b;
+    }
+    .excel-item input[type="checkbox"] {
+      accent-color: #3b82f6;
+      width: 15px;
+      height: 15px;
+      cursor: pointer;
+    }
+    .excel-item-label {
+      flex: 1;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .excel-item-count {
+      font-size: 0.7rem;
+      color: #94a3b8;
+      background: rgba(255,255,255,0.06);
+      padding: 1px 6px;
+      border-radius: 4px;
+    }
+
+    /* Active Filter Chips */
+    .active-filter-chips-container {
+      display: none;
+      align-items: center;
+      gap: 8px;
+      margin-top: 12px;
+      flex-wrap: wrap;
+      padding-top: 10px;
+      border-top: 1px dashed rgba(255,255,255,0.1);
+    }
+    .active-chips-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #94a3b8;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .active-chips-list {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .filter-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(59, 130, 246, 0.16);
+      border: 1px solid rgba(59, 130, 246, 0.4);
+      color: #93c5fd;
+      padding: 3px 9px;
+      border-radius: 12px;
+      font-size: 0.73rem;
+      font-weight: 500;
+    }
+    .filter-chip-remove {
+      cursor: pointer;
+      opacity: 0.7;
+      transition: opacity 0.15s ease;
+    }
+    .filter-chip-remove:hover {
+      opacity: 1;
+      color: #fff;
+    }
+    .btn-clear-chips {
+      background: none;
+      border: none;
+      color: #f87171;
+      font-size: 0.74rem;
+      font-weight: 600;
+      cursor: pointer;
+      margin-left: 6px;
+      text-decoration: underline;
+    }
+    .btn-clear-chips:hover {
+      color: #ef4444;
     }
 
     /* Openings Feed & Company List View */
@@ -697,26 +968,128 @@
       </div>
     </div>
 
-    <!-- Filter & Search Controls -->
+    <!-- Quick Combination Presets (Excel-Style) -->
+    <div class="preset-bar">
+      <div class="preset-label"><i class="fa-solid fa-bolt"></i> Quick Excel Combos:</div>
+      <div class="preset-buttons">
+        <button class="btn-preset" id="preset-buyside-quant" onclick="applyPreset('buyside_quant')">⚡ Top Buy-Side Quant</button>
+        <button class="btn-preset" id="preset-tech-ds-ml" onclick="applyPreset('tech_ds_ml')">🤖 Tech &amp; FinTech DS / ML</button>
+        <button class="btn-preset" id="preset-product-data" onclick="applyPreset('product_data')">📦 Product &amp; Analytics</button>
+        <button class="btn-preset" id="preset-nyc-metro" onclick="applyPreset('nyc_metro')">🗽 New York Metro</button>
+        <button class="btn-preset" id="preset-front-office" onclick="applyPreset('front_office')">🎯 $250k+ Main Focus</button>
+        <button class="btn-preset btn-preset-reset" onclick="resetAllFilters()"><i class="fa-solid fa-rotate-left"></i> Reset All</button>
+      </div>
+    </div>
+
+    <!-- Filter & Search Controls (Excel Multi-Column Filter Bar) -->
     <div class="filter-panel">
       <div class="search-box">
         <i class="fa-solid fa-magnifying-glass"></i>
-        <input type="text" id="filter-search" placeholder="Search by firm, title (e.g. Quantitative Trader, Strats, ML), or location..." oninput="renderCards()">
+        <input type="text" id="filter-search" placeholder="Search by firm, title (e.g. Quant, Causal ML, Trader, RecSys, Product), location..." oninput="onSearchInput()">
       </div>
 
-      <div class="select-group">
-        <select id="filter-view-scope" onchange="renderCards()">
-          <option value="ALL_FIRMS" selected>View: All Monitored Target Firms</option>
-          <option value="ACTIVE_ONLY">View: Firms with Active Roles Only</option>
+      <div class="excel-filter-toolbar">
+        <!-- Excel Filter 1: Industry Sectors -->
+        <div class="excel-dropdown" id="dropdown-sector">
+          <button type="button" class="excel-filter-btn" id="btn-filter-sector" onclick="toggleExcelDropdown('sector', event)">
+            <i class="fa-solid fa-building-columns"></i>
+            <span class="btn-label" id="label-filter-sector">Sector: All (8)</span>
+            <i class="fa-solid fa-chevron-down arrow-icon"></i>
+          </button>
+          <div class="excel-dropdown-panel" id="panel-filter-sector">
+            <div class="excel-panel-header">
+              <input type="text" class="excel-panel-search" placeholder="Filter sectors..." oninput="filterDropdownList('sector', this.value)">
+              <div class="excel-panel-actions">
+                <button type="button" onclick="selectAllInDropdown('sector')">Select All</button>
+                <button type="button" onclick="clearAllInDropdown('sector')">Clear</button>
+              </div>
+            </div>
+            <div class="excel-panel-list" id="list-filter-sector"></div>
+          </div>
+        </div>
+
+        <!-- Excel Filter 2: Priority Tiers -->
+        <div class="excel-dropdown" id="dropdown-tier">
+          <button type="button" class="excel-filter-btn" id="btn-filter-tier" onclick="toggleExcelDropdown('tier', event)">
+            <i class="fa-solid fa-layer-group"></i>
+            <span class="btn-label" id="label-filter-tier">Tier: All (5)</span>
+            <i class="fa-solid fa-chevron-down arrow-icon"></i>
+          </button>
+          <div class="excel-dropdown-panel" id="panel-filter-tier">
+            <div class="excel-panel-header">
+              <input type="text" class="excel-panel-search" placeholder="Filter tiers..." oninput="filterDropdownList('tier', this.value)">
+              <div class="excel-panel-actions">
+                <button type="button" onclick="selectAllInDropdown('tier')">Select All</button>
+                <button type="button" onclick="clearAllInDropdown('tier')">Clear</button>
+              </div>
+            </div>
+            <div class="excel-panel-list" id="list-filter-tier"></div>
+          </div>
+        </div>
+
+        <!-- Excel Filter 3: Role Categories -->
+        <div class="excel-dropdown" id="dropdown-role">
+          <button type="button" class="excel-filter-btn" id="btn-filter-role" onclick="toggleExcelDropdown('role', event)">
+            <i class="fa-solid fa-briefcase"></i>
+            <span class="btn-label" id="label-filter-role">Role: All (6)</span>
+            <i class="fa-solid fa-chevron-down arrow-icon"></i>
+          </button>
+          <div class="excel-dropdown-panel" id="panel-filter-role">
+            <div class="excel-panel-header">
+              <input type="text" class="excel-panel-search" placeholder="Filter roles..." oninput="filterDropdownList('role', this.value)">
+              <div class="excel-panel-actions">
+                <button type="button" onclick="selectAllInDropdown('role')">Select All</button>
+                <button type="button" onclick="clearAllInDropdown('role')">Clear</button>
+              </div>
+            </div>
+            <div class="excel-panel-list" id="list-filter-role"></div>
+          </div>
+        </div>
+
+        <!-- Excel Filter 4: Locations -->
+        <div class="excel-dropdown" id="dropdown-location">
+          <button type="button" class="excel-filter-btn" id="btn-filter-location" onclick="toggleExcelDropdown('location', event)">
+            <i class="fa-solid fa-location-dot"></i>
+            <span class="btn-label" id="label-filter-location">Location: All</span>
+            <i class="fa-solid fa-chevron-down arrow-icon"></i>
+          </button>
+          <div class="excel-dropdown-panel" id="panel-filter-location">
+            <div class="excel-panel-header">
+              <input type="text" class="excel-panel-search" placeholder="Filter locations..." oninput="filterDropdownList('location', this.value)">
+              <div class="excel-panel-actions">
+                <button type="button" onclick="selectAllInDropdown('location')">Select All</button>
+                <button type="button" onclick="clearAllInDropdown('location')">Clear</button>
+              </div>
+            </div>
+            <div class="excel-panel-list" id="list-filter-location"></div>
+          </div>
+        </div>
+
+        <!-- Match Score Threshold -->
+        <select id="filter-score" onchange="onScoreChange()">
+          <option value="ALL">All Suitability Scores</option>
+          <option value="80">Top Match (&ge; 80 pts)</option>
+          <option value="60" selected>Strong Fit (&ge; 60 pts)</option>
+          <option value="40">Any Positive (&ge; 40 pts)</option>
         </select>
 
-        <select id="filter-crawlability" onchange="renderCards()">
+        <!-- Listing State -->
+        <select id="filter-status" onchange="onStatusChange()">
+          <option value="ALL" selected>All Listing States</option>
+          <option value="ACTIVE_ONLY">Active &amp; New Only</option>
+          <option value="NEW">Newly Discovered Only</option>
+          <option value="INACTIVE">Inactive / Closed</option>
+        </select>
+
+        <!-- Crawl Method Scope -->
+        <select id="filter-crawlability" onchange="onCrawlabilityChange()">
           <option value="ALL" selected>All Crawl Methods (296)</option>
-          <option value="AUTOMATED">⚡ Live Automated Feeds (83)</option>
-          <option value="PORTAL_ONLY">🔒 Direct Portals Monitored (213)</option>
+          <option value="AUTOMATED">⚡ Live Automated Feeds</option>
+          <option value="PORTAL_ONLY">🔒 Direct Portals Monitored</option>
         </select>
 
-        <select id="filter-sort" onchange="renderCards()">
+        <!-- Sort Order -->
+        <select id="filter-sort" onchange="onSortChange()">
           <option value="newest" selected>Sort: Newly Posted</option>
           <option value="name_asc">Sort: Company Name (A &rarr; Z)</option>
           <option value="tier">Sort: Priority Tier</option>
@@ -724,40 +1097,18 @@
           <option value="score">Sort: Highest Match Score</option>
         </select>
 
-        <select id="filter-tier" onchange="renderCards()">
-          <option value="ALL" selected>All Priority Tiers</option>
-          <option value="Tier A">Tier A: Too Hard ($400k - $700k+)</option>
-          <option value="Tier B">Tier B: Main Focus ($250k - $400k+)</option>
-          <option value="Tier C1">Tier C1: Same or Above ($180k - $260k)</option>
-          <option value="Tier C2">Tier C2: Same or Below ($130k - $180k)</option>
-          <option value="Tier D">Tier D: Pure Practice (&lt; $130k)</option>
+        <!-- View Scope -->
+        <select id="filter-view-scope" onchange="onViewScopeChange()">
+          <option value="ALL_FIRMS" selected>View: All Monitored Employers (296)</option>
+          <option value="ACTIVE_ONLY">View: Employers with Active Roles Only</option>
         </select>
+      </div>
 
-        <select id="filter-industry" onchange="renderCards()">
-          <option value="ALL" selected>All Industry Sectors</option>
-          <option value="FinTech & Elite Tech">FinTech & Elite Tech (Coinbase, Robinhood, Stripe, Databricks, etc.)</option>
-          <option value="Proprietary Trading & Market Making">Proprietary Trading & Market Making (Jane Street, Jump, SIG, DRW, etc.)</option>
-          <option value="Quantitative Hedge Funds">Quantitative Hedge Funds (Two Sigma, Millennium, Point72, AQR, etc.)</option>
-          <option value="Bulge Bracket & Global Investment Banks">Bulge Bracket & Global Investment Banks (Goldman Sachs, Morgan Stanley, JPM, etc.)</option>
-          <option value="Systematic Asset Management & Allocators">Systematic Asset Management & Allocators (BlackRock, PIMCO, etc.)</option>
-          <option value="Commodities & Energy Trading Desks">Commodities & Energy Trading Desks (Trafigura, Mercuria, Castleton, etc.)</option>
-          <option value="Financial Data & Market Utilities">Financial Data & Market Utilities (Bloomberg, CME Group, FactSet, etc.)</option>
-          <option value="Commercial Banking & Consulting (Practice)">Commercial Banking & Consulting (Practice) (Accenture, Big 4, etc.)</option>
-        </select>
-
-        <select id="filter-score" onchange="renderCards()">
-          <option value="ALL">All Suitability Scores</option>
-          <option value="80">Top Match (&ge; 80 pts)</option>
-          <option value="60" selected>Strong Fit (&ge; 60 pts)</option>
-          <option value="40">Any Positive (&ge; 40 pts)</option>
-        </select>
-
-        <select id="filter-status" onchange="renderCards()">
-          <option value="ALL" selected>All Listing States</option>
-          <option value="ACTIVE_ONLY">Active & New Only</option>
-          <option value="NEW">Newly Discovered Only</option>
-          <option value="INACTIVE">Inactive / Closed</option>
-        </select>
+      <!-- Active Filter Chips Row -->
+      <div class="active-filter-chips-container" id="active-filter-chips-container">
+        <span class="active-chips-label"><i class="fa-solid fa-filter"></i> Active Filters:</span>
+        <div class="active-chips-list" id="active-filter-chips"></div>
+        <button class="btn-clear-chips" onclick="resetAllFilters()">Clear All</button>
       </div>
     </div>
 

@@ -4,7 +4,111 @@ let trackerMeta = {};
 let expandedCompanies = new Set();
 let isAllExpanded = false;
 
+// ============================================================================
+// EXCEL-STYLE MULTI-COLUMN FILTER ENGINE DEFINITIONS
+// ============================================================================
+
+const EXCEL_SECTORS = [
+  "Quantitative Hedge Funds",
+  "Proprietary Trading & Market Making",
+  "FinTech, Financial Data & Tech",
+  "Systematic Asset Management & Allocators",
+  "Bulge Bracket & Global Investment Banks",
+  "Commercial Banking & Consulting (Practice)",
+  "Commodities & Energy Trading Desks",
+  "Other"
+];
+
+const EXCEL_TIERS = [
+  { key: "Tier A", label: "Tier A: Moonshots ($400k - $700k+)" },
+  { key: "Tier B", label: "Tier B: Main Focus ($250k - $400k+)" },
+  { key: "Tier C1", label: "Tier C1: Same or Above ($180k - $260k)" },
+  { key: "Tier C2", label: "Tier C2: Same or Below ($130k - $180k)" },
+  { key: "Tier D", label: "Tier D: Pure Practice (< $130k)" }
+];
+
+const EXCEL_ROLES = [
+  { key: "QR_QT", label: "Quant Research & Trading (QR, QT, Alpha)", icon: "chart-line" },
+  { key: "DATA_SCIENCE", label: "Data Science & Analytics (Causal, A/B Testing)", icon: "chart-pie" },
+  { key: "ML_AI", label: "Machine Learning & AI (RecSys, LLM, Vision)", icon: "brain" },
+  { key: "PRODUCT", label: "Product & Strategy (Product Manager, PM, Growth)", icon: "boxes-stacked" },
+  { key: "ENGINEERING", label: "Engineering & Core Infra (SWE, Data Eng, MLOps)", icon: "code" },
+  { key: "RISK_FINANCE", label: "Risk & Finance Analytics (Model Risk, Quant Dev)", icon: "shield-halved" }
+];
+
+const EXCEL_LOCATIONS = [
+  { key: "NYC", label: "New York Metro / Tri-State", icon: "city" },
+  { key: "BAY_AREA", label: "SF Bay Area / Silicon Valley", icon: "laptop-code" },
+  { key: "CHICAGO", label: "Chicago", icon: "wind" },
+  { key: "SEATTLE", label: "Seattle", icon: "cloud-rain" },
+  { key: "EUROPE", label: "London & Europe", icon: "earth-europe" },
+  { key: "OTHER_LOC", label: "Remote / Other Locations", icon: "globe" }
+];
+
+const excelState = {
+  sectors: new Set(),
+  tiers: new Set(),
+  roles: new Set(),
+  locations: new Set(),
+  score: "60",
+  status: "ALL",
+  viewScope: "ALL_FIRMS",
+  crawlMethod: "ALL",
+  sort: "newest",
+  search: "",
+  activePreset: null
+};
+
+// Role Category Classifier
+function getJobRoleCategory(title, department) {
+  const text = `${title || ""} ${department || ""}`.toLowerCase();
+  if (/\b(?:quant|quantitative|trader|trading|alpha|portfolio manager|strat|strats|pricing model)\b/.test(text)) {
+    return "QR_QT";
+  }
+  if (/\b(?:data scientist|data science|causal|analytics|statistician|business intelligence|bi analyst)\b/.test(text)) {
+    return "DATA_SCIENCE";
+  }
+  if (/\b(?:machine learning|mle|deep learning|nlp|computer vision|recsys|ai engineer|artificial intelligence)\b/.test(text)) {
+    return "ML_AI";
+  }
+  if (/\b(?:product manager|product management|product lead|technical pm|product strategy|product ops)\b/.test(text)) {
+    return "PRODUCT";
+  }
+  if (/\b(?:software|developer|swe|engineer|data engineer|systems|infrastructure|devops|mlops|backend)\b/.test(text)) {
+    return "ENGINEERING";
+  }
+  return "RISK_FINANCE";
+}
+
+// Location Bucket Classifier
+function getJobLocationBucket(location) {
+  const loc = (location || "").toLowerCase();
+  if (loc.includes("new york") || loc.includes("ny") || loc.includes("jersey") || loc.includes("greenwich") || loc.includes("stamford")) {
+    return "NYC";
+  }
+  if (loc.includes("san jose") || loc.includes("san francisco") || loc.includes("bay area") || loc.includes("mountain view") || loc.includes("palo alto") || loc.includes("sunnyvale") || loc.includes("menlo park")) {
+    return "BAY_AREA";
+  }
+  if (loc.includes("chicago") || loc.includes(" il")) {
+    return "CHICAGO";
+  }
+  if (loc.includes("seattle") || loc.includes("bellevue") || loc.includes(" wa")) {
+    return "SEATTLE";
+  }
+  if (loc.includes("london") || loc.includes("uk") || loc.includes("europe") || loc.includes("paris") || loc.includes("amsterdam") || loc.includes("dublin") || loc.includes("zurich")) {
+    return "EUROPE";
+  }
+  return "OTHER_LOC";
+}
+
 document.addEventListener("DOMContentLoaded", () => {
+  // Global click listener to close Excel dropdowns when clicking outside
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest(".excel-dropdown")) {
+      document.querySelectorAll(".excel-dropdown.open").forEach(el => el.classList.remove("open"));
+    }
+  });
+
   loadData();
 });
 
@@ -15,7 +119,7 @@ async function loadData() {
       const data = await res.json();
       allOpenings = data.openings || [];
       trackerMeta = data;
-      populateIndustryFilter();
+      initExcelFilters();
       updateStats();
       renderCards();
       return;
@@ -28,7 +132,7 @@ async function loadData() {
   if (window.LIVE_OPENINGS_DATA && window.LIVE_OPENINGS_DATA.openings) {
     allOpenings = window.LIVE_OPENINGS_DATA.openings;
     trackerMeta = window.LIVE_OPENINGS_DATA;
-    populateIndustryFilter();
+    initExcelFilters();
     updateStats();
     renderCards();
   } else {
@@ -44,28 +148,530 @@ async function loadData() {
   }
 }
 
-const SECTOR_DEFINITIONS = [
-  { key: "FinTech & Elite Tech", label: "FinTech & Elite Tech (Coinbase, Robinhood, Stripe, Databricks, etc.)" },
-  { key: "Proprietary Trading & Market Making", label: "Proprietary Trading & Market Making (Jane Street, Jump, SIG, DRW, etc.)" },
-  { key: "Quantitative Hedge Funds", label: "Quantitative Hedge Funds (Two Sigma, Millennium, Point72, AQR, etc.)" },
-  { key: "Bulge Bracket & Global Investment Banks", label: "Bulge Bracket & Global Investment Banks (Goldman Sachs, Morgan Stanley, JPM, etc.)" },
-  { key: "Systematic Asset Management & Allocators", label: "Systematic Asset Management & Allocators (BlackRock, PIMCO, etc.)" },
-  { key: "Commodities & Energy Trading Desks", label: "Commodities & Energy Trading Desks (Trafigura, Mercuria, Castleton, etc.)" },
-  { key: "Financial Data & Market Utilities", label: "Financial Data & Market Utilities (Bloomberg, CME Group, FactSet, etc.)" },
-  { key: "Commercial Banking & Consulting (Practice)", label: "Commercial Banking & Consulting (Practice) (Accenture, Big 4, etc.)" }
-];
+// ============================================================================
+// EXCEL DROPDOWNS INITIALIZATION & EVENT HANDLERS
+// ============================================================================
 
-function populateIndustryFilter() {
-  const select = document.getElementById("filter-industry");
-  if (!select) return;
-  const currentVal = select.value;
+function initExcelFilters() {
+  renderSectorDropdownList();
+  renderTierDropdownList();
+  renderRoleDropdownList();
+  renderLocationDropdownList();
+  updateDropdownLabels();
+  renderActiveChips();
+}
 
-  select.innerHTML = '<option value="ALL" selected>All Industry Sectors</option>' +
-    SECTOR_DEFINITIONS.map(s => `<option value="${escapeHtml(s.key)}">${escapeHtml(s.label)}</option>`).join('');
+function toggleExcelDropdown(type, event) {
+  if (event) event.stopPropagation();
+  const dropdownEl = document.getElementById(`dropdown-${type}`);
+  const isOpen = dropdownEl.classList.contains("open");
+  
+  // Close any other open dropdowns
+  document.querySelectorAll(".excel-dropdown.open").forEach(el => el.classList.remove("open"));
 
-  if (currentVal && (currentVal === "ALL" || SECTOR_DEFINITIONS.some(s => s.key === currentVal))) {
-    select.value = currentVal;
+  if (!isOpen) {
+    dropdownEl.classList.add("open");
+    const searchInput = dropdownEl.querySelector(".excel-panel-search");
+    if (searchInput) {
+      searchInput.value = "";
+      filterDropdownList(type, "");
+      setTimeout(() => searchInput.focus(), 50);
+    }
   }
+}
+
+function filterDropdownList(type, query) {
+  const q = query.toLowerCase().trim();
+  const listEl = document.getElementById(`list-filter-${type}`);
+  if (!listEl) return;
+  listEl.querySelectorAll(".excel-item").forEach(item => {
+    const text = item.innerText.toLowerCase();
+    item.style.display = (!q || text.includes(q)) ? "flex" : "none";
+  });
+}
+
+function renderSectorDropdownList() {
+  const listEl = document.getElementById("list-filter-sector");
+  if (!listEl) return;
+
+  // Compute live job count per sector
+  const counts = {};
+  EXCEL_SECTORS.forEach(s => counts[s] = 0);
+  allOpenings.forEach(j => {
+    const s = j.industry_sector;
+    if (counts[s] !== undefined) counts[s]++;
+  });
+
+  listEl.innerHTML = EXCEL_SECTORS.map(sec => {
+    const isChecked = excelState.sectors.has(sec);
+    const count = counts[sec] || 0;
+    return `
+      <label class="excel-item">
+        <input type="checkbox" value="${escapeHtml(sec)}" ${isChecked ? "checked" : ""} onchange="onCheckboxChange('sector', this.value, this.checked)">
+        <span class="excel-item-label">${escapeHtml(sec)}</span>
+        <span class="excel-item-count">${count}</span>
+      </label>
+    `;
+  }).join("");
+}
+
+function renderTierDropdownList() {
+  const listEl = document.getElementById("list-filter-tier");
+  if (!listEl) return;
+
+  const counts = {};
+  EXCEL_TIERS.forEach(t => counts[t.key] = 0);
+  allOpenings.forEach(j => {
+    const pt = j.priority_tier || "";
+    EXCEL_TIERS.forEach(t => {
+      if (pt.includes(t.key)) counts[t.key]++;
+    });
+  });
+
+  listEl.innerHTML = EXCEL_TIERS.map(tier => {
+    const isChecked = excelState.tiers.has(tier.key);
+    const count = counts[tier.key] || 0;
+    return `
+      <label class="excel-item">
+        <input type="checkbox" value="${escapeHtml(tier.key)}" ${isChecked ? "checked" : ""} onchange="onCheckboxChange('tier', this.value, this.checked)">
+        <span class="excel-item-label">${escapeHtml(tier.label)}</span>
+        <span class="excel-item-count">${count}</span>
+      </label>
+    `;
+  }).join("");
+}
+
+function renderRoleDropdownList() {
+  const listEl = document.getElementById("list-filter-role");
+  if (!listEl) return;
+
+  const counts = {};
+  EXCEL_ROLES.forEach(r => counts[r.key] = 0);
+  allOpenings.forEach(j => {
+    const cat = getJobRoleCategory(j.title, j.department);
+    if (counts[cat] !== undefined) counts[cat]++;
+  });
+
+  listEl.innerHTML = EXCEL_ROLES.map(role => {
+    const isChecked = excelState.roles.has(role.key);
+    const count = counts[role.key] || 0;
+    return `
+      <label class="excel-item">
+        <input type="checkbox" value="${escapeHtml(role.key)}" ${isChecked ? "checked" : ""} onchange="onCheckboxChange('role', this.value, this.checked)">
+        <span class="excel-item-label"><i class="fa-solid fa-${role.icon}" style="width: 16px; opacity: 0.8; margin-right: 4px;"></i>${escapeHtml(role.label)}</span>
+        <span class="excel-item-count">${count}</span>
+      </label>
+    `;
+  }).join("");
+}
+
+function renderLocationDropdownList() {
+  const listEl = document.getElementById("list-filter-location");
+  if (!listEl) return;
+
+  const counts = {};
+  EXCEL_LOCATIONS.forEach(l => counts[l.key] = 0);
+  allOpenings.forEach(j => {
+    const loc = getJobLocationBucket(j.location);
+    if (counts[loc] !== undefined) counts[loc]++;
+  });
+
+  listEl.innerHTML = EXCEL_LOCATIONS.map(loc => {
+    const isChecked = excelState.locations.has(loc.key);
+    const count = counts[loc.key] || 0;
+    return `
+      <label class="excel-item">
+        <input type="checkbox" value="${escapeHtml(loc.key)}" ${isChecked ? "checked" : ""} onchange="onCheckboxChange('location', this.value, this.checked)">
+        <span class="excel-item-label"><i class="fa-solid fa-${loc.icon}" style="width: 16px; opacity: 0.8; margin-right: 4px;"></i>${escapeHtml(loc.label)}</span>
+        <span class="excel-item-count">${count}</span>
+      </label>
+    `;
+  }).join("");
+}
+
+function onCheckboxChange(type, value, checked) {
+  excelState.activePreset = null;
+  updatePresetButtons();
+
+  if (type === "sector") {
+    if (checked) excelState.sectors.add(value);
+    else excelState.sectors.delete(value);
+  } else if (type === "tier") {
+    if (checked) excelState.tiers.add(value);
+    else excelState.tiers.delete(value);
+  } else if (type === "role") {
+    if (checked) excelState.roles.add(value);
+    else excelState.roles.delete(value);
+  } else if (type === "location") {
+    if (checked) excelState.locations.add(value);
+    else excelState.locations.delete(value);
+  }
+
+  updateDropdownLabels();
+  renderActiveChips();
+  renderCards();
+}
+
+function selectAllInDropdown(type) {
+  excelState.activePreset = null;
+  updatePresetButtons();
+
+  if (type === "sector") {
+    excelState.sectors.clear();
+    EXCEL_SECTORS.forEach(s => excelState.sectors.add(s));
+  } else if (type === "tier") {
+    excelState.tiers.clear();
+    EXCEL_TIERS.forEach(t => excelState.tiers.add(t.key));
+  } else if (type === "role") {
+    excelState.roles.clear();
+    EXCEL_ROLES.forEach(r => excelState.roles.add(r.key));
+  } else if (type === "location") {
+    excelState.locations.clear();
+    EXCEL_LOCATIONS.forEach(l => excelState.locations.add(l.key));
+  }
+
+  refreshCheckboxesInDOM(type);
+  updateDropdownLabels();
+  renderActiveChips();
+  renderCards();
+}
+
+function clearAllInDropdown(type) {
+  excelState.activePreset = null;
+  updatePresetButtons();
+
+  if (type === "sector") excelState.sectors.clear();
+  else if (type === "tier") excelState.tiers.clear();
+  else if (type === "role") excelState.roles.clear();
+  else if (type === "location") excelState.locations.clear();
+
+  refreshCheckboxesInDOM(type);
+  updateDropdownLabels();
+  renderActiveChips();
+  renderCards();
+}
+
+function refreshCheckboxesInDOM(type) {
+  const listEl = document.getElementById(`list-filter-${type}`);
+  if (!listEl) return;
+  listEl.querySelectorAll("input[type='checkbox']").forEach(cb => {
+    let checked = false;
+    if (type === "sector") checked = excelState.sectors.has(cb.value);
+    else if (type === "tier") checked = excelState.tiers.has(cb.value);
+    else if (type === "role") checked = excelState.roles.has(cb.value);
+    else if (type === "location") checked = excelState.locations.has(cb.value);
+    cb.checked = checked;
+  });
+}
+
+function updateDropdownLabels() {
+  // Sector label
+  const btnSector = document.getElementById("btn-filter-sector");
+  const lblSector = document.getElementById("label-filter-sector");
+  if (btnSector && lblSector) {
+    const total = EXCEL_SECTORS.length;
+    const selected = excelState.sectors.size;
+    if (selected === 0 || selected === total) {
+      lblSector.innerText = `Sector: All (${total})`;
+      btnSector.classList.remove("active-filter");
+    } else if (selected === 1) {
+      lblSector.innerText = `Sector: ${Array.from(excelState.sectors)[0]}`;
+      btnSector.classList.add("active-filter");
+    } else {
+      lblSector.innerText = `Sectors: (${selected}/${total})`;
+      btnSector.classList.add("active-filter");
+    }
+  }
+
+  // Tier label
+  const btnTier = document.getElementById("btn-filter-tier");
+  const lblTier = document.getElementById("label-filter-tier");
+  if (btnTier && lblTier) {
+    const total = EXCEL_TIERS.length;
+    const selected = excelState.tiers.size;
+    if (selected === 0 || selected === total) {
+      lblTier.innerText = `Tier: All (${total})`;
+      btnTier.classList.remove("active-filter");
+    } else if (selected === 1) {
+      lblTier.innerText = `Tier: ${Array.from(excelState.tiers)[0]}`;
+      btnTier.classList.add("active-filter");
+    } else {
+      lblTier.innerText = `Tiers: (${selected}/${total})`;
+      btnTier.classList.add("active-filter");
+    }
+  }
+
+  // Role label
+  const btnRole = document.getElementById("btn-filter-role");
+  const lblRole = document.getElementById("label-filter-role");
+  if (btnRole && lblRole) {
+    const total = EXCEL_ROLES.length;
+    const selected = excelState.roles.size;
+    if (selected === 0 || selected === total) {
+      lblRole.innerText = `Role: All (${total})`;
+      btnRole.classList.remove("active-filter");
+    } else if (selected === 1) {
+      const rObj = EXCEL_ROLES.find(r => r.key === Array.from(excelState.roles)[0]);
+      lblRole.innerText = `Role: ${rObj ? rObj.label.split("(")[0].trim() : "Custom"}`;
+      btnRole.classList.add("active-filter");
+    } else {
+      lblRole.innerText = `Roles: (${selected}/${total})`;
+      btnRole.classList.add("active-filter");
+    }
+  }
+
+  // Location label
+  const btnLoc = document.getElementById("btn-filter-location");
+  const lblLoc = document.getElementById("label-filter-location");
+  if (btnLoc && lblLoc) {
+    const total = EXCEL_LOCATIONS.length;
+    const selected = excelState.locations.size;
+    if (selected === 0 || selected === total) {
+      lblLoc.innerText = `Location: All`;
+      btnLoc.classList.remove("active-filter");
+    } else if (selected === 1) {
+      const lObj = EXCEL_LOCATIONS.find(l => l.key === Array.from(excelState.locations)[0]);
+      lblLoc.innerText = `Location: ${lObj ? lObj.label.split("/")[0].trim() : "Custom"}`;
+      btnLoc.classList.add("active-filter");
+    } else {
+      lblLoc.innerText = `Locations: (${selected}/${total})`;
+      btnLoc.classList.add("active-filter");
+    }
+  }
+}
+
+function renderActiveChips() {
+  const container = document.getElementById("active-filter-chips-container");
+  const chipsList = document.getElementById("active-filter-chips");
+  if (!container || !chipsList) return;
+
+  const chips = [];
+
+  // Search chip
+  if (excelState.search) {
+    chips.push({
+      text: `Search: "${excelState.search}"`,
+      clear: () => {
+        excelState.search = "";
+        document.getElementById("filter-search").value = "";
+        renderCards();
+      }
+    });
+  }
+
+  // Sectors chips
+  if (excelState.sectors.size > 0 && excelState.sectors.size < EXCEL_SECTORS.length) {
+    excelState.sectors.forEach(sec => {
+      chips.push({
+        text: `Sector: ${sec}`,
+        clear: () => onCheckboxChange("sector", sec, false)
+      });
+    });
+  }
+
+  // Tiers chips
+  if (excelState.tiers.size > 0 && excelState.tiers.size < EXCEL_TIERS.length) {
+    excelState.tiers.forEach(tierKey => {
+      chips.push({
+        text: `Tier: ${tierKey}`,
+        clear: () => onCheckboxChange("tier", tierKey, false)
+      });
+    });
+  }
+
+  // Roles chips
+  if (excelState.roles.size > 0 && excelState.roles.size < EXCEL_ROLES.length) {
+    excelState.roles.forEach(roleKey => {
+      const rObj = EXCEL_ROLES.find(r => r.key === roleKey);
+      chips.push({
+        text: `Role: ${rObj ? rObj.label.split("(")[0].trim() : roleKey}`,
+        clear: () => onCheckboxChange("role", roleKey, false)
+      });
+    });
+  }
+
+  // Locations chips
+  if (excelState.locations.size > 0 && excelState.locations.size < EXCEL_LOCATIONS.length) {
+    excelState.locations.forEach(locKey => {
+      const lObj = EXCEL_LOCATIONS.find(l => l.key === locKey);
+      chips.push({
+        text: `Loc: ${lObj ? lObj.label.split("/")[0].trim() : locKey}`,
+        clear: () => onCheckboxChange("location", locKey, false)
+      });
+    });
+  }
+
+  // Score chip
+  if (excelState.score && excelState.score !== "ALL") {
+    chips.push({
+      text: `Score ≥ ${excelState.score}`,
+      clear: () => {
+        excelState.score = "ALL";
+        document.getElementById("filter-score").value = "ALL";
+        renderCards();
+      }
+    });
+  }
+
+  // Status chip
+  if (excelState.status && excelState.status !== "ALL") {
+    chips.push({
+      text: `Status: ${excelState.status === "ACTIVE_ONLY" ? "Active" : excelState.status}`,
+      clear: () => {
+        excelState.status = "ALL";
+        document.getElementById("filter-status").value = "ALL";
+        renderCards();
+      }
+    });
+  }
+
+  if (chips.length === 0) {
+    container.style.display = "none";
+    chipsList.innerHTML = "";
+  } else {
+    container.style.display = "flex";
+    chipsList.innerHTML = chips.map((c, idx) => `
+      <span class="filter-chip">
+        <span>${escapeHtml(c.text)}</span>
+        <i class="fa-solid fa-xmark filter-chip-remove" onclick="window.activeChipActions[${idx}]()"></i>
+      </span>
+    `).join("");
+    window.activeChipActions = chips.map(c => c.clear);
+  }
+}
+
+// Quick Preset Combinations
+function applyPreset(presetKey) {
+  excelState.sectors.clear();
+  excelState.tiers.clear();
+  excelState.roles.clear();
+  excelState.locations.clear();
+  excelState.search = "";
+  document.getElementById("filter-search").value = "";
+
+  if (presetKey === "buyside_quant") {
+    // Top Buy-Side Quant: Tier A & B, Quant Hedge Funds & Prop Trading, Score >= 80
+    excelState.tiers.add("Tier A");
+    excelState.tiers.add("Tier B");
+    excelState.sectors.add("Quantitative Hedge Funds");
+    excelState.sectors.add("Proprietary Trading & Market Making");
+    excelState.score = "80";
+    document.getElementById("filter-score").value = "80";
+    excelState.activePreset = "buyside_quant";
+  } else if (presetKey === "tech_ds_ml") {
+    // Tech & FinTech DS/ML: FinTech/Tech Sector, Data Science, ML & Product
+    excelState.sectors.add("FinTech, Financial Data & Tech");
+    excelState.roles.add("DATA_SCIENCE");
+    excelState.roles.add("ML_AI");
+    excelState.roles.add("PRODUCT");
+    excelState.score = "60";
+    document.getElementById("filter-score").value = "60";
+    excelState.activePreset = "tech_ds_ml";
+  } else if (presetKey === "product_data") {
+    // Product & Analytics
+    excelState.roles.add("PRODUCT");
+    excelState.roles.add("DATA_SCIENCE");
+    excelState.score = "60";
+    document.getElementById("filter-score").value = "60";
+    excelState.activePreset = "product_data";
+  } else if (presetKey === "nyc_metro") {
+    // New York Metro
+    excelState.locations.add("NYC");
+    excelState.activePreset = "nyc_metro";
+  } else if (presetKey === "front_office") {
+    // High-Comp Tier A & B ($250k+)
+    excelState.tiers.add("Tier A");
+    excelState.tiers.add("Tier B");
+    excelState.activePreset = "front_office";
+  }
+
+  updatePresetButtons();
+  refreshCheckboxesInDOM("sector");
+  refreshCheckboxesInDOM("tier");
+  refreshCheckboxesInDOM("role");
+  refreshCheckboxesInDOM("location");
+  updateDropdownLabels();
+  renderActiveChips();
+  renderCards();
+}
+
+function updatePresetButtons() {
+  document.querySelectorAll(".btn-preset").forEach(btn => {
+    btn.classList.remove("active");
+  });
+  if (excelState.activePreset) {
+    const activeBtn = document.getElementById(`preset-${excelState.activePreset.replace(/_/g, "-")}`);
+    if (activeBtn) activeBtn.classList.add("active");
+  }
+}
+
+function resetAllFilters() {
+  excelState.sectors.clear();
+  excelState.tiers.clear();
+  excelState.roles.clear();
+  excelState.locations.clear();
+  excelState.search = "";
+  excelState.score = "ALL";
+  excelState.status = "ALL";
+  excelState.viewScope = "ALL_FIRMS";
+  excelState.crawlMethod = "ALL";
+  excelState.sort = "newest";
+  excelState.activePreset = null;
+
+  document.getElementById("filter-search").value = "";
+  if (document.getElementById("filter-score")) document.getElementById("filter-score").value = "ALL";
+  if (document.getElementById("filter-status")) document.getElementById("filter-status").value = "ALL";
+  if (document.getElementById("filter-sort")) document.getElementById("filter-sort").value = "newest";
+  if (document.getElementById("filter-view-scope")) document.getElementById("filter-view-scope").value = "ALL_FIRMS";
+  if (document.getElementById("filter-crawlability")) document.getElementById("filter-crawlability").value = "ALL";
+
+  updatePresetButtons();
+  refreshCheckboxesInDOM("sector");
+  refreshCheckboxesInDOM("tier");
+  refreshCheckboxesInDOM("role");
+  refreshCheckboxesInDOM("location");
+  updateDropdownLabels();
+  renderActiveChips();
+  renderCards();
+}
+
+function onSearchInput() {
+  excelState.search = document.getElementById("filter-search").value.toLowerCase().trim();
+  excelState.activePreset = null;
+  updatePresetButtons();
+  renderActiveChips();
+  renderCards();
+}
+
+function onScoreChange() {
+  excelState.score = document.getElementById("filter-score").value;
+  excelState.activePreset = null;
+  updatePresetButtons();
+  renderActiveChips();
+  renderCards();
+}
+
+function onStatusChange() {
+  excelState.status = document.getElementById("filter-status").value;
+  excelState.activePreset = null;
+  updatePresetButtons();
+  renderActiveChips();
+  renderCards();
+}
+
+function onCrawlabilityChange() {
+  excelState.crawlMethod = document.getElementById("filter-crawlability").value;
+  renderCards();
+}
+
+function onSortChange() {
+  excelState.sort = document.getElementById("filter-sort").value;
+  renderCards();
+}
+
+function onViewScopeChange() {
+  excelState.viewScope = document.getElementById("filter-view-scope").value;
+  renderCards();
 }
 
 function updateStats() {
@@ -83,7 +689,7 @@ function updateStats() {
   if (document.getElementById("stat-new")) document.getElementById("stat-new").innerText = newlyDiscovered;
   if (document.getElementById("stat-firms")) document.getElementById("stat-firms").innerText = totalMonitoredFirms;
   if (document.getElementById("stat-firms-sub") && autoCount > 0) {
-    document.getElementById("stat-firms-sub").innerText = `${autoCount} Live Feeds \u2022 ${portalCount} Direct Portals`;
+    document.getElementById("stat-firms-sub").innerText = `${autoCount} Live Feeds • ${portalCount} Direct Portals`;
   }
   if (document.getElementById("stat-hiring-firms")) document.getElementById("stat-hiring-firms").innerText = hiringFirms;
 
@@ -135,17 +741,19 @@ function getTierRank(tierStr) {
   return 90;
 }
 
+// ============================================================================
+// MAIN RENDER ENGINE
+// ============================================================================
+
 function renderCards() {
   const container = document.getElementById("jobs-container");
-  const search = document.getElementById("filter-search").value.toLowerCase().trim();
-  const sortOption = document.getElementById("filter-sort") ? document.getElementById("filter-sort").value : "newest";
-  const viewScope = document.getElementById("filter-view-scope") ? document.getElementById("filter-view-scope").value : "ALL_FIRMS";
-  const tierFilter = document.getElementById("filter-tier").value;
-  const industryFilter = document.getElementById("filter-industry") ? document.getElementById("filter-industry").value : "ALL";
-  const scoreFilter = document.getElementById("filter-score").value;
-  const statusFilter = document.getElementById("filter-status").value;
+  const search = excelState.search;
+  const sortOption = excelState.sort;
+  const viewScope = excelState.viewScope;
+  const scoreFilter = excelState.score;
+  const statusFilter = excelState.status;
 
-  // 1. Filter individual openings
+  // 1. Filter individual openings using Excel combinations
   const filteredJobs = allOpenings.filter(job => {
     // Text search
     if (search) {
@@ -153,16 +761,29 @@ function renderCards() {
       if (!matchText.includes(search)) return false;
     }
 
-    // Priority Tier
-    if (tierFilter !== "ALL") {
+    // Priority Tier (Multi-select)
+    if (excelState.tiers.size > 0 && excelState.tiers.size < EXCEL_TIERS.length) {
       const jobTier = job.priority_tier || "";
-      if (!jobTier.includes(tierFilter)) return false;
+      const matchesAnyTier = Array.from(excelState.tiers).some(t => jobTier.includes(t));
+      if (!matchesAnyTier) return false;
     }
 
-    // Industry Sector
-    if (industryFilter !== "ALL") {
+    // Industry Sector (Multi-select)
+    if (excelState.sectors.size > 0 && excelState.sectors.size < EXCEL_SECTORS.length) {
       const jobSector = job.industry_sector || "";
-      if (jobSector !== industryFilter && !jobSector.toLowerCase().includes(industryFilter.toLowerCase())) return false;
+      if (!excelState.sectors.has(jobSector)) return false;
+    }
+
+    // Role Category (Multi-select)
+    if (excelState.roles.size > 0 && excelState.roles.size < EXCEL_ROLES.length) {
+      const jobRoleCat = getJobRoleCategory(job.title, job.department);
+      if (!excelState.roles.has(jobRoleCat)) return false;
+    }
+
+    // Location (Multi-select)
+    if (excelState.locations.size > 0 && excelState.locations.size < EXCEL_LOCATIONS.length) {
+      const jobLocBucket = getJobLocationBucket(job.location);
+      if (!excelState.locations.has(jobLocBucket)) return false;
     }
 
     // Suitability Score
@@ -253,26 +874,30 @@ function renderCards() {
 
   let companies = Array.from(companyMap.values());
 
-  // Apply filters to companies
-  const crawlFilter = document.getElementById("filter-crawlability") ? document.getElementById("filter-crawlability").value : "ALL";
+  // Apply filters to company metadata
+  const crawlFilter = excelState.crawlMethod;
   if (crawlFilter === "AUTOMATED") {
     companies = companies.filter(c => c.crawl_status === "AUTOMATED_FEED");
   } else if (crawlFilter === "PORTAL_ONLY") {
     companies = companies.filter(c => c.crawl_status !== "AUTOMATED_FEED");
   }
 
-  if (tierFilter !== "ALL") {
-    companies = companies.filter(c => (c.priority_tier || "").includes(tierFilter));
+  // Sector filter for companies
+  if (excelState.sectors.size > 0 && excelState.sectors.size < EXCEL_SECTORS.length) {
+    companies = companies.filter(c => excelState.sectors.has(c.industry_sector));
   }
-  if (industryFilter !== "ALL") {
-    companies = companies.filter(c => {
-      const sec = c.industry_sector || "";
-      return sec === industryFilter || sec.toLowerCase().includes(industryFilter.toLowerCase());
-    });
+
+  // Tier filter for companies
+  if (excelState.tiers.size > 0 && excelState.tiers.size < EXCEL_TIERS.length) {
+    companies = companies.filter(c => Array.from(excelState.tiers).some(t => (c.priority_tier || "").includes(t)));
   }
+
+  // View Scope
   if (viewScope === "ACTIVE_ONLY") {
     companies = companies.filter(c => c.jobs.length > 0);
   }
+
+  // Search filter across company metadata
   if (search) {
     companies = companies.filter(c => {
       const cText = `${c.firm_name} ${c.industry_sector} ${c.priority_tier}`.toLowerCase();
@@ -314,9 +939,9 @@ function renderCards() {
     container.innerHTML = `
       <div class="empty-state">
         <i class="fa-solid fa-folder-open fa-2x"></i>
-        <p style="margin-top: 10px; font-weight: 600;">No postings or firms matched your filter criteria.</p>
+        <p style="margin-top: 10px; font-weight: 600;">No postings or firms matched your filter combination.</p>
         <p style="font-size: 0.85rem; color: #9ca3af; margin-top: 4px;">
-          Try adjusting the filter options or clearing the search query.
+          Try adjusting the filter combination or clicking <button class="btn-clear-chips" onclick="resetAllFilters()" style="display:inline; margin:0; padding:0; text-decoration:underline;">Reset All</button>.
         </p>
       </div>
     `;
@@ -325,7 +950,7 @@ function renderCards() {
 
   // 4. Render Company List View with Expandable 2nd Layer
   container.innerHTML = companies.map(comp => {
-    const firmKey = encodeURIComponent(comp.firm_name.replace(/\s+/g, "_"));
+    const firmKey = encodeURIComponent(comp.firm_name.replace(/\\s+/g, "_"));
     const isExpanded = expandedCompanies.has(firmKey);
 
     // Tier badge class
@@ -340,63 +965,47 @@ function renderCards() {
     // Score badge for company
     let topScoreClass = "score-low";
     if (comp.max_score >= 80) topScoreClass = "score-high";
-    else if (comp.max_score >= 60) topScoreClass = "score-med";
+    else if (comp.max_score >= 60) topScoreClass = "score-mid";
 
-    // Sort company jobs: highest score first, then NEW status
-    const sortedJobs = comp.jobs.slice().sort((j1, j2) => {
-      if (j1.status === "NEW" && j2.status !== "NEW") return -1;
-      if (j2.status === "NEW" && j1.status !== "NEW") return 1;
-      return (j2.suitability_score || 0) - (j1.suitability_score || 0);
-    });
-
-    const jobsHtml = sortedJobs.map(j => {
-      const score = j.suitability_score || 0;
-      let jScoreClass = "score-low";
-      if (score >= 80) jScoreClass = "score-high";
-      else if (score >= 60) jScoreClass = "score-med";
-
-      const isInactive = j.status === "INACTIVE";
+    // Render inner jobs
+    const jobsHtml = comp.jobs.map(j => {
       const isNew = j.status === "NEW";
+      const isInactive = j.status === "INACTIVE";
+      const score = j.suitability_score || 0;
+      let scoreClass = "score-low";
+      if (score >= 80) scoreClass = "score-high";
+      else if (score >= 60) scoreClass = "score-mid";
 
-      let statusBadge = `<span class="badge-pill pill-status-active"><i class="fa-solid fa-circle-check"></i> ACTIVE</span>`;
-      if (isInactive) {
-        statusBadge = `<span class="badge-pill pill-status-inactive" title="${escapeHtml(j.inactive_reason || 'Page closed')}"><i class="fa-solid fa-circle-xmark"></i> INACTIVE</span>`;
-      } else if (isNew) {
-        statusBadge = `<span class="badge-pill pill-status-new"><i class="fa-solid fa-sparkles"></i> NEW</span>`;
-      }
-
-      let payRangeBadge = "";
-      if (j.posted_pay_range) {
-        payRangeBadge = `<span class="pill-pay-posted" title="Stated compensation disclosure from employer posting"><i class="fa-solid fa-money-bill-wave"></i> Stated Base: ${escapeHtml(j.posted_pay_range)}</span>`;
-      }
-
-      const signalsList = (j.matched_signals || []).slice(0, 2).map(s => `<li>${escapeHtml(s)}</li>`).join("");
+      const roleCat = getJobRoleCategory(j.title, j.department);
+      let roleIcon = "fa-briefcase";
+      if (roleCat === "QR_QT") roleIcon = "fa-chart-line";
+      else if (roleCat === "DATA_SCIENCE") roleIcon = "fa-chart-pie";
+      else if (roleCat === "ML_AI") roleIcon = "fa-brain";
+      else if (roleCat === "PRODUCT") roleIcon = "fa-boxes-stacked";
+      else if (roleCat === "ENGINEERING") roleIcon = "fa-code";
 
       return `
-        <div class="job-subcard ${isInactive ? 'inactive-posting' : ''}">
-          <div class="job-main-info">
-            <div class="job-main-title">
-              <span>${escapeHtml(j.title)}</span>
-              ${statusBadge}
-              ${payRangeBadge}
+        <div class="job-item ${isNew ? 'job-item-new' : ''}">
+          <div class="job-item-left">
+            <div class="job-item-title">
+              <i class="fa-solid ${roleIcon}" style="color: #60a5fa; width: 14px;"></i>
+              <a href="${escapeHtml(j.url || '#')}" target="_blank" rel="noopener noreferrer">
+                ${escapeHtml(j.title || 'Untitled Quantitative Role')}
+              </a>
+              ${isNew ? `<span class="badge-pill pill-status-new">NEW</span>` : ''}
+              ${isInactive ? `<span class="badge-pill pill-status-inactive">CLOSED</span>` : ''}
             </div>
 
-            <div class="job-main-meta">
-              <span class="meta-item"><i class="fa-solid fa-location-dot"></i> ${escapeHtml(j.location || 'NYC / US')}</span>
-              ${j.department ? `<span class="meta-item"><i class="fa-solid fa-layer-group"></i> ${escapeHtml(j.department)}</span>` : ''}
-              <span class="meta-item"><i class="fa-solid fa-cube"></i> ${escapeHtml(j.source_ats || 'Official Portal')}</span>
-              <span class="meta-item" style="color: #60a5fa;"><i class="fa-solid fa-bullseye"></i> ${escapeHtml(j.verdict || 'Target Match')}</span>
+            <div class="job-item-sub">
+              ${j.location ? `<span><i class="fa-solid fa-location-dot"></i> ${escapeHtml(j.location)}</span>` : ''}
+              ${j.department ? `<span>&bull;</span><span>${escapeHtml(j.department)}</span>` : ''}
+              ${j.posted_pay_range ? `<span>&bull;</span><span class="job-salary"><i class="fa-solid fa-dollar-sign"></i> ${escapeHtml(j.posted_pay_range)}</span>` : ''}
+              ${j.first_seen ? `<span>&bull;</span><span style="color: #64748b;">Discovered ${new Date(j.first_seen).toLocaleDateString()}</span>` : ''}
             </div>
-
-            ${signalsList ? `
-              <div style="font-size: 0.74rem; color: #94a3b8; margin-top: 4px;">
-                <ul style="padding-left: 14px; margin: 0; display: flex; gap: 16px; flex-wrap: wrap;">${signalsList}</ul>
-              </div>
-            ` : ''}
           </div>
 
-          <div class="job-action-right">
-            <div class="score-badge ${jScoreClass}">
+          <div class="job-item-right">
+            <div class="score-badge ${scoreClass}" title="${escapeHtml(j.recommendation || 'Scored via Quantitative Relevance Engine')}">
               <i class="fa-solid fa-crosshairs"></i>
               <span>${score}% Fit</span>
             </div>
@@ -507,7 +1116,7 @@ function renderCards() {
           ` : `
             <div class="drawer-empty-msg">
               <i class="fa-solid fa-radar fa-lg" style="color: #60a5fa; margin-bottom: 8px; display: block;"></i>
-              <strong>Automated ATS & Web Feeds Active for ${escapeHtml(comp.firm_name)}</strong>
+              <strong>Automated ATS &amp; Web Feeds Active for ${escapeHtml(comp.firm_name)}</strong>
               <p style="margin-top: 6px; font-size: 0.82rem;">Public ATS feed (${escapeHtml(comp.crawl_method || 'API')}) is actively monitored. Currently 0 entry-level or junior quantitative positions are listed. Check their portal directly for off-cycle updates:</p>
               ${comp.official_careers_url ? `
                 <div style="margin-top: 12px;">
@@ -547,10 +1156,10 @@ async function triggerFirmCrawl() {
       await loadData();
       alert(`Tailored crawl complete for ${firm}! Processed ${data.jobs_count || data.openings?.length || 0} openings.`);
     } else {
-      alert(`Note: On static GitHub Pages, live background scraping is managed automatically by GitHub Actions (runs every 12h or manually in the Actions tab). To run an instant local crawl on demand, run 'python main.py web' on your computer.`);
+      alert(`Note: On static GitHub Pages, live background scraping is managed automatically by GitHub Actions. To run a real-time local crawl on demand, run 'python main.py web' on your computer.`);
     }
   } catch (err) {
-    alert(`Note: On static GitHub Pages, live background scraping is executed automatically by GitHub Actions. To run a real-time local crawl on demand, run 'python main.py web' on your computer.`);
+    alert(`Note: On static GitHub Pages, live background scraping is managed automatically by GitHub Actions. To run a real-time local crawl on demand, run 'python main.py web' on your computer.`);
   } finally {
     toast.style.display = "none";
     btn.disabled = false;
@@ -576,7 +1185,7 @@ async function triggerCrawl() {
       renderCards();
       alert(`Crawl completed! Discovered ${data.stats.total_live_openings} openings (${data.stats.new_openings_this_crawl} new).`);
     } else {
-      alert(`Note: On static GitHub Pages, live background scraping is managed automatically by GitHub Actions (runs every 12h or manually in the Actions tab). To run an instant local crawl on demand, run 'python main.py web' on your computer.`);
+      alert(`Note: On static GitHub Pages, live background scraping is managed automatically by GitHub Actions. To run a real-time local crawl on demand, run 'python main.py web' on your computer.`);
     }
   } catch (err) {
     alert(`Note: On static GitHub Pages, live background scraping is managed automatically by GitHub Actions. To run a real-time local crawl on demand, run 'python main.py web' on your computer.`);

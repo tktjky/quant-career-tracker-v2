@@ -79,12 +79,12 @@ class TestJobTrackerV2(unittest.TestCase):
         coinbase = agent.firm_meta.get("Coinbase")
         self.assertIsNotNone(coinbase)
         self.assertEqual(coinbase["priority_tier"], "Tier B: Main Focus")
-        self.assertEqual(coinbase["industry_sector"], "FinTech & Elite Tech")
+        self.assertEqual(coinbase["industry_sector"], "FinTech, Financial Data & Tech")
 
         robinhood = agent.firm_meta.get("Robinhood")
         self.assertIsNotNone(robinhood)
         self.assertEqual(robinhood["priority_tier"], "Tier B: Main Focus")
-        self.assertEqual(robinhood["industry_sector"], "FinTech & Elite Tech")
+        self.assertEqual(robinhood["industry_sector"], "FinTech, Financial Data & Tech")
 
         goldman = agent.firm_meta.get("Goldman Sachs")
         self.assertIsNotNone(goldman)
@@ -94,7 +94,23 @@ class TestJobTrackerV2(unittest.TestCase):
         openai = agent.firm_meta.get("OpenAI")
         self.assertIsNotNone(openai)
         self.assertEqual(openai["priority_tier"], "Tier A: Too Hard")
-        self.assertEqual(openai["industry_sector"], "FinTech & Elite Tech")
+        self.assertEqual(openai["industry_sector"], "FinTech, Financial Data & Tech")
+
+        # Verify fixed mismatches and Other sector
+        pimco = agent.firm_meta.get("PIMCO")
+        self.assertEqual(pimco["industry_sector"], "Systematic Asset Management & Allocators")
+
+        two_sigma = agent.firm_meta.get("Two Sigma")
+        self.assertEqual(two_sigma["industry_sector"], "Quantitative Hedge Funds")
+
+        tower = agent.firm_meta.get("Tower Research Capital")
+        self.assertEqual(tower["industry_sector"], "Proprietary Trading & Market Making")
+
+        delta = agent.firm_meta.get("Delta Air Lines")
+        self.assertEqual(delta["industry_sector"], "Other")
+
+        cvs = agent.firm_meta.get("CVS Health")
+        self.assertEqual(cvs["industry_sector"], "Other")
 
     def test_intern_summer_hard_disqualification(self):
         intern_jobs = [
