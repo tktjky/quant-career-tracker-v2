@@ -554,7 +554,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Access Restricted (SSLError)"
   },
   "Capstone Investment Advisors": {
     "status": "AUTOMATED_FEED",
@@ -679,7 +679,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
   },
   "China International Capital Corporation (CICC)": {
     "firm_name": "China International Capital Corporation (CICC)",
@@ -1152,12 +1152,10 @@
     "official_careers_url": "https://fireworks.ai/careers",
     "priority_tier": "Tier B: Main Focus",
     "industry_sector": "FinTech, Financial Data & Tech",
-    "status": "AUTOMATED_FEED",
-    "method": "Ashby API",
-    "ats": "ashby",
-    "token": "fireworks",
-    "job_count": 86,
-    "reason": null
+    "status": "UNCRAWLABLE_PORTAL_ONLY",
+    "method": "Direct Portal Monitored",
+    "ats": "custom",
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Fitch Ratings": {
     "firm_name": "Fitch Ratings",
@@ -1409,12 +1407,10 @@
     "official_careers_url": "https://grayscale.com/careers/",
     "priority_tier": "Tier B: Main Focus",
     "industry_sector": "FinTech, Financial Data & Tech",
-    "status": "AUTOMATED_FEED",
-    "method": "Greenhouse API",
-    "ats": "greenhouse",
-    "token": "grayscaleinvestments",
-    "job_count": 5,
-    "reason": null
+    "status": "UNCRAWLABLE_PORTAL_ONLY",
+    "method": "Direct Portal Monitored",
+    "ats": "custom",
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Gridify": {
     "firm_name": "Gridify",
@@ -2404,12 +2400,10 @@
     "official_careers_url": "https://ramp.com/careers",
     "priority_tier": "Tier B: Main Focus",
     "industry_sector": "FinTech, Financial Data & Tech",
-    "status": "AUTOMATED_FEED",
-    "method": "Ashby API",
-    "ats": "ashby",
-    "token": "ramp",
-    "job_count": 155,
-    "reason": null
+    "status": "UNCRAWLABLE_PORTAL_ONLY",
+    "method": "Direct Portal Monitored",
+    "ats": "custom",
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Robinhood": {
     "firm_name": "Robinhood",
