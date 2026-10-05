@@ -638,7 +638,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
   },
   "Chicago Trading Company (CTC)": {
     "status": "AUTOMATED_FEED",
@@ -679,7 +679,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
   },
   "China International Capital Corporation (CICC)": {
     "firm_name": "China International Capital Corporation (CICC)",
@@ -1033,7 +1033,7 @@
     "method": "Greenhouse API",
     "ats": "greenhouse",
     "token": "engineersgate",
-    "job_count": 9,
+    "job_count": 10,
     "reason": null
   },
   "Ergoteles Capital": {
@@ -1044,7 +1044,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (ConnectionError)"
+    "reason": "Access Restricted (SSLError)"
   },
   "Ernst & Young": {
     "firm_name": "Ernst & Young",
@@ -2290,7 +2290,7 @@
     "method": "Greenhouse API",
     "ats": "greenhouse",
     "token": "point72",
-    "job_count": 210,
+    "job_count": 215,
     "reason": null
   },
   "PricewaterhouseCoopers (PwC)": {
@@ -2321,7 +2321,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (ConnectionError)"
+    "reason": "Access Restricted (SSLError)"
   },
   "Quantbot Technologies": {
     "firm_name": "Quantbot Technologies",
@@ -2486,7 +2486,7 @@
     "method": "Greenhouse API",
     "ats": "greenhouse",
     "token": "schonfeld",
-    "job_count": 72,
+    "job_count": 68,
     "reason": null
   },
   "SciFeCap": {
@@ -2517,7 +2517,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (ConnectionError)"
+    "reason": "Access Restricted (SSLError)"
   },
   "Shanghai Yanfu Investments": {
     "firm_name": "Shanghai Yanfu Investments",
