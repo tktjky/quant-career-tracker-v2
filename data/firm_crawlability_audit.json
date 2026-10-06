@@ -679,7 +679,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
   },
   "China International Capital Corporation (CICC)": {
     "firm_name": "China International Capital Corporation (CICC)",
@@ -1033,7 +1033,7 @@
     "method": "Greenhouse API",
     "ats": "greenhouse",
     "token": "engineersgate",
-    "job_count": 10,
+    "job_count": 11,
     "reason": null
   },
   "Ergoteles Capital": {
@@ -1094,8 +1094,8 @@
     "industry_sector": "Commercial Banking & Consulting (Practice)",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
-    "ats": "taleo",
-    "reason": "Enterprise Taleo / Oracle HCM Portal"
+    "ats": "custom",
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Federated Hermes": {
     "firm_name": "Federated Hermes",
@@ -1307,7 +1307,7 @@
     "method": "Lever API",
     "ats": "lever",
     "token": "gmo",
-    "job_count": 14,
+    "job_count": 13,
     "reason": null
   },
   "GRO Intelligence": {
@@ -2290,7 +2290,7 @@
     "method": "Greenhouse API",
     "ats": "greenhouse",
     "token": "point72",
-    "job_count": 215,
+    "job_count": 216,
     "reason": null
   },
   "PricewaterhouseCoopers (PwC)": {
@@ -2619,7 +2619,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Stripe": {
     "firm_name": "Stripe",
