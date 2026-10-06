@@ -1,12 +1,12 @@
 {
-  "crawl_timestamp": "2026-10-05T23:28:10.263368",
-  "duration_seconds": 46.947565,
+  "crawl_timestamp": "2026-10-06T12:24:05.906911",
+  "duration_seconds": 52.189615,
   "diff_stats": {
-    "total_active_scraped": 1020,
-    "new_openings": 17,
-    "retained_active": 1003,
-    "newly_closed": 13,
-    "total_tracked_all_time": 1503
+    "total_active_scraped": 1023,
+    "new_openings": 8,
+    "retained_active": 1015,
+    "newly_closed": 6,
+    "total_tracked_all_time": 1511
   },
   "top_matches": [
     {
@@ -45,13 +45,6 @@
       "url": "https://careers.societegenerale.com/"
     },
     {
-      "firm": "BlackRock",
-      "title": "Associate, Securities Lending Quantitative Research and Algorithmic Trading, BlackRock Global Markets (BGM)",
-      "location": "New York, NY",
-      "score": 100,
-      "url": "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional/job/New-York-NY/Associate--Securities-Lending-Quantitative-Research-and-Algorithmic-Trading--BlackRock-Global-Markets--BGM-_R266542"
-    },
-    {
       "firm": "TD Securities",
       "title": "Machine Learning Engineer",
       "location": "Toronto, Ontario",
@@ -64,6 +57,13 @@
       "location": "661 University Avenue, Toronto, Ontario",
       "score": 100,
       "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/661-University-Avenue-Toronto-Ontario/Machine-Learning-Engineer-II_R_1476583"
+    },
+    {
+      "firm": "BlackRock",
+      "title": "Associate, Securities Lending Quantitative Research and Algorithmic Trading, BlackRock Global Markets (BGM)",
+      "location": "New York, NY",
+      "score": 100,
+      "url": "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional/job/New-York-NY/Associate--Securities-Lending-Quantitative-Research-and-Algorithmic-Trading--BlackRock-Global-Markets--BGM-_R266542"
     },
     {
       "firm": "Meta",
