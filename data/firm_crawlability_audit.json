@@ -367,7 +367,7 @@
     "method": "Lever API",
     "ats": "lever",
     "token": "belvederetrading",
-    "job_count": 21,
+    "job_count": 20,
     "reason": null
   },
   "BlackRock": {
@@ -1033,7 +1033,7 @@
     "method": "Greenhouse API",
     "ats": "greenhouse",
     "token": "engineersgate",
-    "job_count": 11,
+    "job_count": 9,
     "reason": null
   },
   "Ergoteles Capital": {
@@ -1307,7 +1307,7 @@
     "method": "Lever API",
     "ats": "lever",
     "token": "gmo",
-    "job_count": 13,
+    "job_count": 12,
     "reason": null
   },
   "GRO Intelligence": {
@@ -2290,7 +2290,7 @@
     "method": "Greenhouse API",
     "ats": "greenhouse",
     "token": "point72",
-    "job_count": 214,
+    "job_count": 218,
     "reason": null
   },
   "PricewaterhouseCoopers (PwC)": {
@@ -2486,7 +2486,7 @@
     "method": "Greenhouse API",
     "ats": "greenhouse",
     "token": "schonfeld",
-    "job_count": 68,
+    "job_count": 67,
     "reason": null
   },
   "SciFeCap": {
