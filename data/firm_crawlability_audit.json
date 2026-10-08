@@ -2290,7 +2290,7 @@
     "method": "Greenhouse API",
     "ats": "greenhouse",
     "token": "point72",
-    "job_count": 218,
+    "job_count": 220,
     "reason": null
   },
   "PricewaterhouseCoopers (PwC)": {
@@ -2331,7 +2331,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Access Restricted (SSLError)"
   },
   "Quantedge Capital": {
     "status": "AUTOMATED_FEED",
