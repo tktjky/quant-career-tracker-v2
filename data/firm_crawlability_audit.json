@@ -363,12 +363,10 @@
     "official_careers_url": "https://belvederetrading.com/careers/",
     "priority_tier": "Tier B: Main Focus",
     "industry_sector": "Proprietary Trading & Market Making",
-    "status": "AUTOMATED_FEED",
-    "method": "Lever API",
-    "ats": "lever",
-    "token": "belvederetrading",
-    "job_count": 17,
-    "reason": null
+    "status": "UNCRAWLABLE_PORTAL_ONLY",
+    "method": "Direct Portal Monitored",
+    "ats": "custom",
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "BlackRock": {
     "status": "AUTOMATED_FEED",
@@ -638,7 +636,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
   },
   "Chicago Trading Company (CTC)": {
     "status": "AUTOMATED_FEED",
@@ -679,7 +677,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
   },
   "China International Capital Corporation (CICC)": {
     "firm_name": "China International Capital Corporation (CICC)",
@@ -1440,7 +1438,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (SSLError)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "HBK Capital Management": {
     "firm_name": "HBK Capital Management",
@@ -2288,7 +2286,7 @@
     "method": "Greenhouse API",
     "ats": "greenhouse",
     "token": "point72",
-    "job_count": 207,
+    "job_count": 206,
     "reason": null
   },
   "PricewaterhouseCoopers (PwC)": {
