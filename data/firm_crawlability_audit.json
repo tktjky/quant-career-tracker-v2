@@ -1440,7 +1440,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Access Restricted (SSLError)"
   },
   "HBK Capital Management": {
     "firm_name": "HBK Capital Management",
@@ -1725,7 +1725,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
+    "reason": "Access Restricted (SSLError)"
   },
   "Lazard Asset Management": {
     "status": "AUTOMATED_FEED",
@@ -1745,7 +1745,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (SSLError)"
+    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
   },
   "Lincoln Avenue Capital": {
     "firm_name": "Lincoln Avenue Capital",
@@ -2288,7 +2288,7 @@
     "method": "Greenhouse API",
     "ats": "greenhouse",
     "token": "point72",
-    "job_count": 206,
+    "job_count": 207,
     "reason": null
   },
   "PricewaterhouseCoopers (PwC)": {
@@ -2452,7 +2452,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "SIG (Susquehanna International Group)": {
     "status": "AUTOMATED_FEED",
