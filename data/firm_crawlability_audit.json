@@ -367,7 +367,7 @@
     "method": "Lever API",
     "ats": "lever",
     "token": "belvederetrading",
-    "job_count": 20,
+    "job_count": 17,
     "reason": null
   },
   "BlackRock": {
@@ -679,7 +679,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "China International Capital Corporation (CICC)": {
     "firm_name": "China International Capital Corporation (CICC)",
@@ -1033,7 +1033,7 @@
     "method": "Greenhouse API",
     "ats": "greenhouse",
     "token": "engineersgate",
-    "job_count": 9,
+    "job_count": 10,
     "reason": null
   },
   "Ergoteles Capital": {
@@ -1307,7 +1307,7 @@
     "method": "Lever API",
     "ats": "lever",
     "token": "gmo",
-    "job_count": 12,
+    "job_count": 9,
     "reason": null
   },
   "GRO Intelligence": {
@@ -1440,7 +1440,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (SSLError)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "HBK Capital Management": {
     "firm_name": "HBK Capital Management",
@@ -1725,7 +1725,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (SSLError)"
+    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
   },
   "Lazard Asset Management": {
     "status": "AUTOMATED_FEED",
@@ -1964,12 +1964,10 @@
     "official_careers_url": "https://www.munichre.com/careers",
     "priority_tier": "Tier C2: Same or Below Benchmark",
     "industry_sector": "Systematic Asset Management & Allocators",
-    "status": "AUTOMATED_FEED",
-    "method": "Greenhouse API",
-    "ats": "greenhouse",
-    "token": "nextinsurancemresandbox",
-    "job_count": 3,
-    "reason": null
+    "status": "UNCRAWLABLE_PORTAL_ONLY",
+    "method": "Direct Portal Monitored",
+    "ats": "custom",
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "NVIDIA": {
     "status": "AUTOMATED_FEED",
@@ -2290,7 +2288,7 @@
     "method": "Greenhouse API",
     "ats": "greenhouse",
     "token": "point72",
-    "job_count": 220,
+    "job_count": 206,
     "reason": null
   },
   "PricewaterhouseCoopers (PwC)": {
@@ -2454,7 +2452,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
   },
   "SIG (Susquehanna International Group)": {
     "status": "AUTOMATED_FEED",
@@ -2482,12 +2480,10 @@
     "official_careers_url": "https://www.schonfeld.com/careers/",
     "priority_tier": "Tier B: Main Focus",
     "industry_sector": "Quantitative Hedge Funds",
-    "status": "AUTOMATED_FEED",
-    "method": "Greenhouse API",
-    "ats": "greenhouse",
-    "token": "schonfeld",
-    "job_count": 67,
-    "reason": null
+    "status": "UNCRAWLABLE_PORTAL_ONLY",
+    "method": "Direct Portal Monitored",
+    "ats": "custom",
+    "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
   },
   "SciFeCap": {
     "firm_name": "SciFeCap",
@@ -2649,7 +2645,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
   },
   "TD Bank": {
     "firm_name": "TD Bank",
@@ -2968,7 +2964,7 @@
     "method": "Greenhouse API",
     "ats": "greenhouse",
     "token": "walleyecapital-external-students",
-    "job_count": 6,
+    "job_count": 2,
     "reason": null
   },
   "Walmart Global Tech": {
