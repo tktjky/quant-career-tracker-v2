@@ -114,10 +114,10 @@ def score_job_suitability(job_dict: Dict[str, Any], firm_tier: str = "Tier B") -
         score: int (0 to 100)
         reasons: dict with matched signals, penalties, and fit tier verdict
     """
-    title = job_dict.get("title", "").strip()
-    location = job_dict.get("location", "").strip()
-    department = job_dict.get("department", "").strip()
-    description = job_dict.get("description", "") or ""
+    title = (job_dict.get("title") or "").strip()
+    location = (job_dict.get("location") or "").strip()
+    department = (job_dict.get("department") or "").strip()
+    description = (job_dict.get("description") or "").strip()
     
     title_lower = title.lower()
 
