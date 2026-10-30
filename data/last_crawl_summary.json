@@ -1,12 +1,12 @@
 {
-  "crawl_timestamp": "2026-10-29T22:12:16.765180",
-  "duration_seconds": 52.004737,
+  "crawl_timestamp": "2026-10-30T11:50:29.874148",
+  "duration_seconds": 47.926359,
   "diff_stats": {
-    "total_active_scraped": 1087,
-    "new_openings": 13,
-    "retained_active": 1074,
-    "newly_closed": 15,
-    "total_tracked_all_time": 1739
+    "total_active_scraped": 1079,
+    "new_openings": 3,
+    "retained_active": 1076,
+    "newly_closed": 11,
+    "total_tracked_all_time": 1742
   },
   "top_matches": [
     {
@@ -19,16 +19,16 @@
     {
       "firm": "Affirm",
       "title": "Machine Learning Engineer II (Underwriting ML)",
-      "location": "Remote US",
+      "location": "Remote Canada",
       "score": 100,
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7822387003"
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7822389003"
     },
     {
       "firm": "Affirm",
       "title": "Machine Learning Engineer II (Underwriting ML)",
-      "location": "Remote Canada",
+      "location": "Remote US",
       "score": 100,
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7822389003"
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7822387003"
     },
     {
       "firm": "RBC Capital Markets",
@@ -52,18 +52,18 @@
       "url": "https://careers.societegenerale.com/"
     },
     {
-      "firm": "CIBC Capital Markets",
-      "title": "Machine Learning Engineer Co-op",
-      "location": "Toronto, ON",
-      "score": 100,
-      "url": "https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/Machine-Learning-Engineer-Co-op_2621721-1"
-    },
-    {
       "firm": "BlackRock",
       "title": "Associate, Securities Lending Quantitative Research and Algorithmic Trading, BlackRock Global Markets (BGM)",
       "location": "New York, NY",
       "score": 100,
       "url": "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional/job/New-York-NY/Associate--Securities-Lending-Quantitative-Research-and-Algorithmic-Trading--BlackRock-Global-Markets--BGM-_R266542"
+    },
+    {
+      "firm": "CIBC Capital Markets",
+      "title": "Machine Learning Engineer Co-op",
+      "location": "Toronto, ON",
+      "score": 100,
+      "url": "https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/Machine-Learning-Engineer-Co-op_2621721-1"
     },
     {
       "firm": "TD Securities",
