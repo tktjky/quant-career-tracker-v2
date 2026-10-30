@@ -1,12 +1,12 @@
 {
-  "crawl_timestamp": "2026-10-30T11:50:29.874148",
-  "duration_seconds": 47.926359,
+  "crawl_timestamp": "2026-10-30T21:48:03.012977",
+  "duration_seconds": 52.222436,
   "diff_stats": {
-    "total_active_scraped": 1079,
-    "new_openings": 3,
-    "retained_active": 1076,
-    "newly_closed": 11,
-    "total_tracked_all_time": 1742
+    "total_active_scraped": 1080,
+    "new_openings": 14,
+    "retained_active": 1066,
+    "newly_closed": 14,
+    "total_tracked_all_time": 1756
   },
   "top_matches": [
     {
@@ -52,18 +52,18 @@
       "url": "https://careers.societegenerale.com/"
     },
     {
-      "firm": "BlackRock",
-      "title": "Associate, Securities Lending Quantitative Research and Algorithmic Trading, BlackRock Global Markets (BGM)",
-      "location": "New York, NY",
-      "score": 100,
-      "url": "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional/job/New-York-NY/Associate--Securities-Lending-Quantitative-Research-and-Algorithmic-Trading--BlackRock-Global-Markets--BGM-_R266542"
-    },
-    {
       "firm": "CIBC Capital Markets",
       "title": "Machine Learning Engineer Co-op",
       "location": "Toronto, ON",
       "score": 100,
       "url": "https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/Machine-Learning-Engineer-Co-op_2621721-1"
+    },
+    {
+      "firm": "BlackRock",
+      "title": "Associate, Securities Lending Quantitative Research and Algorithmic Trading, BlackRock Global Markets (BGM)",
+      "location": "New York, NY",
+      "score": 100,
+      "url": "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional/job/New-York-NY/Associate--Securities-Lending-Quantitative-Research-and-Algorithmic-Trading--BlackRock-Global-Markets--BGM-_R266542"
     },
     {
       "firm": "TD Securities",
