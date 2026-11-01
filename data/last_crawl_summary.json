@@ -1,10 +1,10 @@
 {
-  "crawl_timestamp": "2026-11-01T12:15:59.757875",
-  "duration_seconds": 42.900235,
+  "crawl_timestamp": "2026-11-01T21:28:54.104689",
+  "duration_seconds": 45.314881,
   "diff_stats": {
-    "total_active_scraped": 1074,
+    "total_active_scraped": 1073,
     "new_openings": 0,
-    "retained_active": 1074,
+    "retained_active": 1073,
     "newly_closed": 1,
     "total_tracked_all_time": 1758
   },
@@ -19,16 +19,16 @@
     {
       "firm": "Affirm",
       "title": "Machine Learning Engineer II (Underwriting ML)",
-      "location": "Remote US",
+      "location": "Remote Canada",
       "score": 100,
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7822387003"
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7822389003"
     },
     {
       "firm": "Affirm",
       "title": "Machine Learning Engineer II (Underwriting ML)",
-      "location": "Remote Canada",
+      "location": "Remote US",
       "score": 100,
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7822389003"
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7822387003"
     },
     {
       "firm": "RBC Capital Markets",
@@ -59,13 +59,6 @@
       "url": "https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/Machine-Learning-Engineer-Co-op_2621721-1"
     },
     {
-      "firm": "BlackRock",
-      "title": "Associate, Securities Lending Quantitative Research and Algorithmic Trading, BlackRock Global Markets (BGM)",
-      "location": "New York, NY",
-      "score": 100,
-      "url": "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional/job/New-York-NY/Associate--Securities-Lending-Quantitative-Research-and-Algorithmic-Trading--BlackRock-Global-Markets--BGM-_R266542"
-    },
-    {
       "firm": "TD Securities",
       "title": "Applied Machine Learning Scientist I ATH# 5645 (Tabular Deep Learning Model Validation)",
       "location": "Toronto, Ontario",
@@ -78,6 +71,13 @@
       "location": "Toronto, Ontario",
       "score": 100,
       "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Machine-Learning-Engineer_R_1431479"
+    },
+    {
+      "firm": "TD Securities",
+      "title": "Machine Learning Engineer II",
+      "location": "661 University Avenue, Toronto, Ontario",
+      "score": 100,
+      "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/661-University-Avenue-Toronto-Ontario/Machine-Learning-Engineer-II_R_1476583"
     }
   ]
 }
