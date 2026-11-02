@@ -1303,12 +1303,10 @@
     "official_careers_url": "https://www.gmo.com/americas/careers/",
     "priority_tier": "Tier C2: Same or Below Benchmark",
     "industry_sector": "Systematic Asset Management & Allocators",
-    "status": "AUTOMATED_FEED",
-    "method": "Lever API",
-    "ats": "lever",
-    "token": "gmo",
-    "job_count": 9,
-    "reason": null
+    "status": "UNCRAWLABLE_PORTAL_ONLY",
+    "method": "Direct Portal Monitored",
+    "ats": "custom",
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "GRO Intelligence": {
     "firm_name": "GRO Intelligence",
@@ -2288,7 +2286,7 @@
     "method": "Greenhouse API",
     "ats": "greenhouse",
     "token": "point72",
-    "job_count": 206,
+    "job_count": 202,
     "reason": null
   },
   "PricewaterhouseCoopers (PwC)": {
@@ -2932,7 +2930,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Virtu Financial": {
     "status": "AUTOMATED_FEED",
