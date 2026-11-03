@@ -638,7 +638,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
   },
   "Chicago Trading Company (CTC)": {
     "status": "AUTOMATED_FEED",
@@ -679,7 +679,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "China International Capital Corporation (CICC)": {
     "firm_name": "China International Capital Corporation (CICC)",
@@ -1033,7 +1033,7 @@
     "method": "Greenhouse API",
     "ats": "greenhouse",
     "token": "engineersgate",
-    "job_count": 10,
+    "job_count": 9,
     "reason": null
   },
   "Ergoteles Capital": {
@@ -1303,12 +1303,10 @@
     "official_careers_url": "https://www.gmo.com/americas/careers/",
     "priority_tier": "Tier C2: Same or Below Benchmark",
     "industry_sector": "Systematic Asset Management & Allocators",
-    "status": "AUTOMATED_FEED",
-    "method": "Lever API",
-    "ats": "lever",
-    "token": "gmo",
-    "job_count": 9,
-    "reason": null
+    "status": "UNCRAWLABLE_PORTAL_ONLY",
+    "method": "Direct Portal Monitored",
+    "ats": "custom",
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "GRO Intelligence": {
     "firm_name": "GRO Intelligence",
@@ -2216,7 +2214,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
   },
   "PenFed Credit Union": {
     "firm_name": "PenFed Credit Union",
@@ -2288,7 +2286,7 @@
     "method": "Greenhouse API",
     "ats": "greenhouse",
     "token": "point72",
-    "job_count": 197,
+    "job_count": 198,
     "reason": null
   },
   "PricewaterhouseCoopers (PwC)": {
@@ -2871,7 +2869,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Upstart": {
     "firm_name": "Upstart",
@@ -2891,7 +2889,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
   },
   "VanEck": {
     "status": "AUTOMATED_FEED",
