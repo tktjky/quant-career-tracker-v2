@@ -554,7 +554,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (SSLError)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Capstone Investment Advisors": {
     "status": "AUTOMATED_FEED",
@@ -679,7 +679,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
   },
   "China International Capital Corporation (CICC)": {
     "firm_name": "China International Capital Corporation (CICC)",
@@ -1044,7 +1044,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (SSLError)"
+    "reason": "Access Restricted (ConnectionError)"
   },
   "Ernst & Young": {
     "firm_name": "Ernst & Young",
@@ -1440,7 +1440,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (SSLError)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "HBK Capital Management": {
     "firm_name": "HBK Capital Management",
@@ -2288,7 +2288,7 @@
     "method": "Greenhouse API",
     "ats": "greenhouse",
     "token": "point72",
-    "job_count": 198,
+    "job_count": 197,
     "reason": null
   },
   "PricewaterhouseCoopers (PwC)": {
@@ -2319,7 +2319,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (SSLError)"
+    "reason": "Access Restricted (ConnectionError)"
   },
   "Quantbot Technologies": {
     "firm_name": "Quantbot Technologies",
@@ -2452,7 +2452,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
   },
   "SIG (Susquehanna International Group)": {
     "status": "AUTOMATED_FEED",
