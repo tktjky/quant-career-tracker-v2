@@ -1,12 +1,12 @@
 {
-  "crawl_timestamp": "2026-11-05T13:41:37.385327",
-  "duration_seconds": 47.466822,
+  "crawl_timestamp": "2026-11-05T23:01:14.194031",
+  "duration_seconds": 57.599003,
   "diff_stats": {
-    "total_active_scraped": 1087,
-    "new_openings": 5,
-    "retained_active": 1082,
-    "newly_closed": 8,
-    "total_tracked_all_time": 1820
+    "total_active_scraped": 1083,
+    "new_openings": 9,
+    "retained_active": 1074,
+    "newly_closed": 13,
+    "total_tracked_all_time": 1829
   },
   "top_matches": [
     {
@@ -15,13 +15,6 @@
       "location": "Remote Canada",
       "score": 100,
       "url": "https://job-boards.greenhouse.io/affirm/jobs/8033261003"
-    },
-    {
-      "firm": "Affirm",
-      "title": "Machine Learning Engineer II (Underwriting ML)",
-      "location": "Remote US",
-      "score": 100,
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7822387003"
     },
     {
       "firm": "Affirm",
@@ -78,6 +71,13 @@
       "location": "Toronto, Ontario",
       "score": 100,
       "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Machine-Learning-Engineer_R_1431479"
+    },
+    {
+      "firm": "TD Securities",
+      "title": "Machine Learning Engineer II",
+      "location": "661 University Avenue, Toronto, Ontario",
+      "score": 100,
+      "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/661-University-Avenue-Toronto-Ontario/Machine-Learning-Engineer-II_R_1476583"
     }
   ]
 }

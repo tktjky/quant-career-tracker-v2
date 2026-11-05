@@ -552,7 +552,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
   },
   "Capstone Investment Advisors": {
     "status": "AUTOMATED_FEED",
@@ -1436,7 +1436,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
   },
   "HBK Capital Management": {
     "firm_name": "HBK Capital Management",
@@ -1455,8 +1455,8 @@
     "industry_sector": "Bulge Bracket & Global Investment Banks",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
+    "ats": "workday",
+    "reason": "Enterprise Workday (Dynamic Session Required)"
   },
   "Headlands Technologies": {
     "status": "AUTOMATED_FEED",
@@ -1741,7 +1741,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (SSLError)"
+    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
   },
   "Lincoln Avenue Capital": {
     "firm_name": "Lincoln Avenue Capital",
@@ -2284,7 +2284,7 @@
     "method": "Greenhouse API",
     "ats": "greenhouse",
     "token": "point72",
-    "job_count": 197,
+    "job_count": 195,
     "reason": null
   },
   "PricewaterhouseCoopers (PwC)": {
@@ -2509,7 +2509,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (ConnectionError)"
+    "reason": "Access Restricted (SSLError)"
   },
   "Shanghai Yanfu Investments": {
     "firm_name": "Shanghai Yanfu Investments",
