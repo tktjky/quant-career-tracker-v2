@@ -1,12 +1,12 @@
 # Comprehensive Target Employer Crawlability Audit Report
 
-**Audit Timestamp:** 2026-11-07 21:14:02 | **Total Employers Audited:** 296
+**Audit Timestamp:** 2026-11-08 12:24:59 | **Total Employers Audited:** 296
 
 ## Executive Summary
 - **Total Target Employers Monitored:** 296
 - **Automated Live Feeds & Tailored Crawlers:** 180 firms
 - **Direct Official Portals Monitored (Custom / Protected):** 116 firms
-- **Total Active Quant Positions Tracked:** 1031
+- **Total Active Quant Positions Tracked:** 1023
 - **Employers Currently Hiring Quant Roles:** 117
 
 ---
@@ -24,7 +24,7 @@ These firms possess automated, public, or tailored API endpoints (Greenhouse, Le
 | **All Options Trading** | Tier B: Main Focus | Proprietary Trading & Market Making | `Tailored Subagent` | **1 roles** | [Visit Portal](https://www.alloptions.nl/careers/) |
 | **AllianceBernstein** | Tier C1: Same or Above Benchmark | Systematic Asset Management & Allocators | `Workday CXS API` | **6 roles** | [Visit Portal](https://www.alliancebernstein.com/corporate/en/careers.html) |
 | **Allspring Global Investments** | Tier C2: Same or Below Benchmark | Systematic Asset Management & Allocators | `iCIMS API` | 0 (Off-Cycle) | [Visit Portal](https://www.allspringglobal.com/) |
-| **Amazon** | Tier B: Main Focus | Technology & AI | `Tailored Subagent` | **8 roles** | [Visit Portal](https://www.amazon.jobs/) |
+| **Amazon** | Tier B: Main Focus | Technology & AI | `Tailored Subagent` | **9 roles** | [Visit Portal](https://www.amazon.jobs/) |
 | **American Century Investments** | Tier C2: Same or Below Benchmark | Systematic Asset Management & Allocators | `Workday CXS API` | 0 (Off-Cycle) | [Visit Portal](https://www.americancentury.com/careers/) |
 | **American Express** | Tier B: Main Focus | FinTech & Financial Data | `Tailored Subagent` | 0 (Off-Cycle) | [Visit Portal](https://www.americanexpress.com/en-us/careers/) |
 | **Anthropic** | Tier A: Too Hard | Technology & AI | `Greenhouse API` | **40 roles** | [Visit Portal](https://www.anthropic.com/careers) |
@@ -62,9 +62,9 @@ These firms possess automated, public, or tailored API endpoints (Greenhouse, Le
 | **Citadel** | Tier A: Too Hard | Quantitative Hedge Funds | `Tailored Subagent` | **8 roles** | [Visit Portal](https://www.citadel.com/careers/open-roles/) |
 | **Citadel Securities** | Tier A: Too Hard | Proprietary Trading & Market Making | `Tailored Subagent` | 0 (Off-Cycle) | [Visit Portal](https://www.citadelsecurities.com/careers/open-roles/) |
 | **Citigroup** | Tier C1: Same or Above Benchmark | Bulge Bracket & Global Investment Banks | `Tailored Subagent` | 0 (Off-Cycle) | [Visit Portal](https://jobs.citi.com/) |
-| **Coinbase** | Tier B: Main Focus | FinTech & Financial Data | `Direct Portal Monitored` | **15 roles** | [Visit Portal](https://www.coinbase.com/careers) |
+| **Coinbase** | Tier B: Main Focus | FinTech & Financial Data | `Direct Portal Monitored` | **10 roles** | [Visit Portal](https://www.coinbase.com/careers) |
 | **Columbia Threadneedle** | Tier C2: Same or Below Benchmark | Systematic Asset Management & Allocators | `Workday CXS API` | **5 roles** | [Visit Portal](https://www.columbiathreadneedle.com/) |
-| **Conversion Capital** | Tier B: Main Focus | Systematic Asset Management & Allocators | `Direct Portal Monitored` | **3 roles** | [Visit Portal](https://conversioncapital.com/) |
+| **Conversion Capital** | Tier B: Main Focus | Systematic Asset Management & Allocators | `Direct Portal Monitored` | **2 roles** | [Visit Portal](https://conversioncapital.com/) |
 | **Credit Agricole CIB** | Tier C1: Same or Above Benchmark | Bulge Bracket & Global Investment Banks | `Tailored Subagent` | **1 roles** | [Visit Portal](https://www.ca-cib.com/careers) |
 | **Credit Suisse** | Tier C1: Same or Above Benchmark | Bulge Bracket & Global Investment Banks | `Tailored Subagent` | 0 (Off-Cycle) | [Visit Portal](https://www.credit-suisse.com/careers) |
 | **Cubist Systematic Strategies** | Tier A: Too Hard | Quantitative Hedge Funds | `Greenhouse API` | **38 roles** | [Visit Portal](https://careers.point72.com/) |
@@ -177,7 +177,7 @@ These firms possess automated, public, or tailored API endpoints (Greenhouse, Le
 | **Tesla** | Tier B: Main Focus | Technology & AI | `Tailored Subagent` | **1 roles** | [Visit Portal](https://www.tesla.com/careers) |
 | **The Voleon Group** | Tier B: Main Focus | Quantitative Hedge Funds | `Ashby API` | **4 roles** | [Visit Portal](https://voleon.com/) |
 | **Tibra Capital** | Tier B: Main Focus | Proprietary Trading & Market Making | `Workable API` | 0 (Off-Cycle) | [Visit Portal](https://www.tibra.com/careers) |
-| **Tower Research Capital** | Tier B: Main Focus | Proprietary Trading & Market Making | `Greenhouse API` | **19 roles** | [Visit Portal](https://www.tower-research.com/open-positions) |
+| **Tower Research Capital** | Tier B: Main Focus | Proprietary Trading & Market Making | `Greenhouse API` | **17 roles** | [Visit Portal](https://www.tower-research.com/open-positions) |
 | **Trafigura** | Tier B: Main Focus | Commodities & Energy Trading Desks | `Tailored Subagent` | **1 roles** | [Visit Portal](https://www.trafigura.com/careers/) |
 | **TransMarket Group** | Tier B: Main Focus | Proprietary Trading & Market Making | `Greenhouse API` | **2 roles** | [Visit Portal](https://www.transmarketgroup.com/careers) |
 | **Trexquant Investment** | Tier B: Main Focus | Quantitative Hedge Funds | `Workable API` | **15 roles** | [Visit Portal](https://apply.workable.com/trexquant/) |
@@ -192,7 +192,7 @@ These firms possess automated, public, or tailored API endpoints (Greenhouse, Le
 | **Viking Global Investors** | Tier B: Main Focus | Quantitative Hedge Funds | `Direct Portal Monitored` | 0 (Off-Cycle) | [Visit Portal](https://www.vikingglobal.com/careers/) |
 | **Virtu Financial** | Tier B: Main Focus | Proprietary Trading & Market Making | `Greenhouse API` | **9 roles** | [Visit Portal](https://www.virtu.com/careers/) |
 | **Walleye Capital** | Tier B: Main Focus | Quantitative Hedge Funds | `Greenhouse API` | 0 (Off-Cycle) | [Visit Portal](https://www.walleyecapital.com/careers) |
-| **Waymo** | Tier B: Main Focus | Technology & AI | `Direct Portal Monitored` | **20 roles** | [Visit Portal](https://waymo.com/careers/) |
+| **Waymo** | Tier B: Main Focus | Technology & AI | `Direct Portal Monitored` | **19 roles** | [Visit Portal](https://waymo.com/careers/) |
 | **Wells Fargo** | Tier C1: Same or Above Benchmark | Bulge Bracket & Global Investment Banks | `Tailored Subagent` | 0 (Off-Cycle) | [Visit Portal](https://www.wellsfargojobs.com/university-programs) |
 | **Wolfe Research** | Tier C1: Same or Above Benchmark | FinTech & Financial Data | `Tailored Subagent` | 0 (Off-Cycle) | [Visit Portal](https://www.wolferesearch.com/careers) |
 | **WorldQuant** | Tier A: Too Hard | Quantitative Hedge Funds | `Greenhouse API` | **17 roles** | [Visit Portal](https://www.worldquant.com/career/) |
