@@ -367,7 +367,7 @@
     "method": "Lever API",
     "ats": "lever",
     "token": "belvederetrading",
-    "job_count": 17,
+    "job_count": 13,
     "reason": null
   },
   "BlackRock": {
@@ -2286,7 +2286,7 @@
     "method": "Greenhouse API",
     "ats": "greenhouse",
     "token": "point72",
-    "job_count": 199,
+    "job_count": 196,
     "reason": null
   },
   "PricewaterhouseCoopers (PwC)": {
