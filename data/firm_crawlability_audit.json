@@ -1042,7 +1042,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (ConnectionError)"
+    "reason": "Access Restricted (SSLError)"
   },
   "Ernst & Young": {
     "firm_name": "Ernst & Young",
@@ -2282,12 +2282,10 @@
     "official_careers_url": "https://careers.point72.com/",
     "priority_tier": "Tier A: Too Hard",
     "industry_sector": "Quantitative Hedge Funds",
-    "status": "AUTOMATED_FEED",
-    "method": "Greenhouse API",
-    "ats": "greenhouse",
-    "token": "point72",
-    "job_count": 201,
-    "reason": null
+    "status": "UNCRAWLABLE_PORTAL_ONLY",
+    "method": "Direct Portal Monitored",
+    "ats": "custom",
+    "reason": "Access Restricted (SSLError)"
   },
   "PricewaterhouseCoopers (PwC)": {
     "firm_name": "PricewaterhouseCoopers (PwC)",
@@ -2450,7 +2448,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "SIG (Susquehanna International Group)": {
     "status": "AUTOMATED_FEED",
@@ -2511,7 +2509,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (ConnectionError)"
+    "reason": "Access Restricted (SSLError)"
   },
   "Shanghai Yanfu Investments": {
     "firm_name": "Shanghai Yanfu Investments",
