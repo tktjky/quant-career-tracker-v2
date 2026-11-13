@@ -902,7 +902,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Dai-ichi Life Holdings": {
     "firm_name": "Dai-ichi Life Holdings",
@@ -1042,7 +1042,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (ConnectionError)"
+    "reason": "Access Restricted (SSLError)"
   },
   "Ernst & Young": {
     "firm_name": "Ernst & Young",
@@ -2315,7 +2315,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (ConnectionError)"
+    "reason": "Access Restricted (SSLError)"
   },
   "Quantbot Technologies": {
     "firm_name": "Quantbot Technologies",
@@ -2650,8 +2650,8 @@
     "industry_sector": "Commercial Banking & Consulting (Practice)",
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
-    "ats": "workday",
-    "reason": "Enterprise Workday (Dynamic Session Required)"
+    "ats": "custom",
+    "reason": "Cloudflare / Bot Protection (HTTP 403 Challenge)"
   },
   "TD Securities": {
     "status": "AUTOMATED_FEED",
