@@ -1,12 +1,12 @@
 {
-  "crawl_timestamp": "2026-11-14T21:48:38.689992",
-  "duration_seconds": 42.023361,
+  "crawl_timestamp": "2026-11-15T13:08:05.021445",
+  "duration_seconds": 44.45106,
   "diff_stats": {
-    "total_active_scraped": 1065,
+    "total_active_scraped": 1063,
     "new_openings": 1,
-    "retained_active": 1064,
-    "newly_closed": 2,
-    "total_tracked_all_time": 1926
+    "retained_active": 1062,
+    "newly_closed": 3,
+    "total_tracked_all_time": 1927
   },
   "top_matches": [
     {
@@ -66,18 +66,18 @@
       "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Machine-Learning-Engineer-II_R_1518866"
     },
     {
+      "firm": "Amazon",
+      "title": "Machine Learning Engineer, CreativeFlux, AI Studios",
+      "location": "US, NY, New York",
+      "score": 100,
+      "url": "https://www.amazon.jobs/en/jobs/10605453/machine-learning-engineer-creativeflux-ai-studios"
+    },
+    {
       "firm": "Meta",
       "title": "Machine Learning Engineer - Ranking & Distributed Recommendation Graphs",
       "location": "New York, NY / Menlo Park, CA",
       "score": 100,
       "url": "https://www.metacareers.com/jobs/?q=machine%20learning"
-    },
-    {
-      "firm": "All Options Trading",
-      "title": "Market Risk Manager / Quantitative Analyst - Derivatives Trading",
-      "location": "New York, NY / Amsterdam",
-      "score": 100,
-      "url": "https://www.alloptions.nl/careers/"
     }
   ]
 }
