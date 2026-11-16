@@ -1,12 +1,12 @@
 {
-  "crawl_timestamp": "2026-11-15T22:16:28.051775",
-  "duration_seconds": 41.567475,
+  "crawl_timestamp": "2026-11-16T14:14:27.122173",
+  "duration_seconds": 29.39259,
   "diff_stats": {
-    "total_active_scraped": 1062,
-    "new_openings": 0,
-    "retained_active": 1062,
-    "newly_closed": 1,
-    "total_tracked_all_time": 1927
+    "total_active_scraped": 916,
+    "new_openings": 3,
+    "retained_active": 913,
+    "newly_closed": 5,
+    "total_tracked_all_time": 1930
   },
   "top_matches": [
     {
@@ -38,46 +38,46 @@
       "url": "https://careers.societegenerale.com/"
     },
     {
-      "firm": "CIBC Capital Markets",
-      "title": "Machine Learning Engineer Co-op",
-      "location": "Toronto, ON",
-      "score": 100,
-      "url": "https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/Machine-Learning-Engineer-Co-op_2621721-1"
-    },
-    {
-      "firm": "TD Securities",
-      "title": "Applied Machine Learning Scientist I ATH# 5645 (Tabular Deep Learning Model Validation)",
-      "location": "Toronto, Ontario",
-      "score": 100,
-      "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Applied-Machine-Learning-Scientist-I-ATH--5645--Tabular-Deep-Learning-Model-Validation-_R_1514923"
-    },
-    {
-      "firm": "TD Securities",
-      "title": "Machine Learning Engineer",
-      "location": "Toronto, Ontario",
-      "score": 100,
-      "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Machine-Learning-Engineer_R_1431479"
-    },
-    {
-      "firm": "TD Securities",
-      "title": "Machine Learning Engineer II",
-      "location": "Toronto, Ontario",
-      "score": 100,
-      "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Machine-Learning-Engineer-II_R_1518866"
-    },
-    {
-      "firm": "Amazon",
-      "title": "Machine Learning Engineer, CreativeFlux, AI Studios",
-      "location": "US, NY, New York",
-      "score": 100,
-      "url": "https://www.amazon.jobs/en/jobs/10605453/machine-learning-engineer-creativeflux-ai-studios"
-    },
-    {
       "firm": "Meta",
       "title": "Machine Learning Engineer - Ranking & Distributed Recommendation Graphs",
       "location": "New York, NY / Menlo Park, CA",
       "score": 100,
       "url": "https://www.metacareers.com/jobs/?q=machine%20learning"
+    },
+    {
+      "firm": "All Options Trading",
+      "title": "Market Risk Manager / Quantitative Analyst - Derivatives Trading",
+      "location": "New York, NY / Amsterdam",
+      "score": 100,
+      "url": "https://www.alloptions.nl/careers/"
+    },
+    {
+      "firm": "Quantitative Brokers",
+      "title": "Quantitative Trading Analyst - Algorithmic Execution & Market Microstructure",
+      "location": "New York, NY",
+      "score": 100,
+      "url": "https://www.quantitativebrokers.com/careers"
+    },
+    {
+      "firm": "Ellington Management Group",
+      "title": "Quantitative Research Analyst - Structured Credit & Mortgage Derivatives",
+      "location": "Old Greenwich, CT / New York, NY",
+      "score": 100,
+      "url": "https://www.ellington.com/careers"
+    },
+    {
+      "firm": "Brevan Howard",
+      "title": "Quantitative Trader / Researcher - Systematic Rates & Macro (2027 Start)",
+      "location": "New York, NY / Geneva",
+      "score": 100,
+      "url": "https://www.brevanhoward.com/careers/"
+    },
+    {
+      "firm": "Netflix",
+      "title": "Machine Learning Engineer (L4/L5) - Studio Media Algorithms",
+      "location": "Los Angeles,California,United States of America",
+      "score": 100,
+      "url": "https://explore.jobs.netflix.net/careers/job/790319186617"
     }
   ]
 }
