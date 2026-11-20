@@ -363,10 +363,12 @@
     "official_careers_url": "https://belvederetrading.com/careers/",
     "priority_tier": "Tier B: Main Focus",
     "industry_sector": "Proprietary Trading & Market Making",
-    "status": "UNCRAWLABLE_PORTAL_ONLY",
-    "method": "Direct Portal Monitored",
-    "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "status": "AUTOMATED_FEED",
+    "method": "Lever API",
+    "ats": "lever",
+    "token": "belvederetrading",
+    "job_count": 11,
+    "reason": null
   },
   "BlackRock": {
     "status": "AUTOMATED_FEED",
@@ -1040,7 +1042,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (ConnectionError)"
+    "reason": "Access Restricted (SSLError)"
   },
   "Ernst & Young": {
     "firm_name": "Ernst & Young",
@@ -1299,12 +1301,10 @@
     "official_careers_url": "https://www.gmo.com/americas/careers/",
     "priority_tier": "Tier C2: Same or Below Benchmark",
     "industry_sector": "Systematic Asset Management & Allocators",
-    "status": "AUTOMATED_FEED",
-    "method": "Lever API",
-    "ats": "lever",
-    "token": "gmo",
-    "job_count": 8,
-    "reason": null
+    "status": "UNCRAWLABLE_PORTAL_ONLY",
+    "method": "Direct Portal Monitored",
+    "ats": "custom",
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "GRO Intelligence": {
     "firm_name": "GRO Intelligence",
@@ -2313,7 +2313,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (ConnectionError)"
+    "reason": "Access Restricted (SSLError)"
   },
   "Quantbot Technologies": {
     "firm_name": "Quantbot Technologies",
@@ -2446,7 +2446,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "SIG (Susquehanna International Group)": {
     "status": "AUTOMATED_FEED",
@@ -2507,7 +2507,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (ConnectionError)"
+    "reason": "Access Restricted (SSLError)"
   },
   "Shanghai Yanfu Investments": {
     "firm_name": "Shanghai Yanfu Investments",
