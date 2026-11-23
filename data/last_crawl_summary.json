@@ -1,12 +1,12 @@
 {
-  "crawl_timestamp": "2026-11-22T22:56:38.450518",
-  "duration_seconds": 26.667904,
+  "crawl_timestamp": "2026-11-23T16:47:44.556730",
+  "duration_seconds": 48.162369,
   "diff_stats": {
-    "total_active_scraped": 937,
-    "new_openings": 2,
-    "retained_active": 935,
-    "newly_closed": 13,
-    "total_tracked_all_time": 2003
+    "total_active_scraped": 944,
+    "new_openings": 3,
+    "retained_active": 941,
+    "newly_closed": 8,
+    "total_tracked_all_time": 2006
   },
   "top_matches": [
     {
