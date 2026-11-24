@@ -367,7 +367,7 @@
     "method": "Lever API",
     "ats": "lever",
     "token": "belvederetrading",
-    "job_count": 10,
+    "job_count": 9,
     "reason": null
   },
   "BlackRock": {
@@ -607,7 +607,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
+    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
   },
   "Cerberus Capital Management": {
     "status": "AUTOMATED_FEED",
@@ -2867,7 +2867,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Upstart": {
     "firm_name": "Upstart",
