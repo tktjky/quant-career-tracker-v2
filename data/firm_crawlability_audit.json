@@ -363,12 +363,10 @@
     "official_careers_url": "https://belvederetrading.com/careers/",
     "priority_tier": "Tier B: Main Focus",
     "industry_sector": "Proprietary Trading & Market Making",
-    "status": "AUTOMATED_FEED",
-    "method": "Lever API",
-    "ats": "lever",
-    "token": "belvederetrading",
-    "job_count": 9,
-    "reason": null
+    "status": "UNCRAWLABLE_PORTAL_ONLY",
+    "method": "Direct Portal Monitored",
+    "ats": "custom",
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "BlackRock": {
     "status": "AUTOMATED_FEED",
@@ -607,7 +605,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Connection Timeout (Enterprise Firewall / VPN Protected)"
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "Cerberus Capital Management": {
     "status": "AUTOMATED_FEED",
@@ -1042,7 +1040,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (SSLError)"
+    "reason": "Access Restricted (ConnectionError)"
   },
   "Ernst & Young": {
     "firm_name": "Ernst & Young",
@@ -1301,12 +1299,10 @@
     "official_careers_url": "https://www.gmo.com/americas/careers/",
     "priority_tier": "Tier C2: Same or Below Benchmark",
     "industry_sector": "Systematic Asset Management & Allocators",
-    "status": "AUTOMATED_FEED",
-    "method": "Lever API",
-    "ats": "lever",
-    "token": "gmo",
-    "job_count": 8,
-    "reason": null
+    "status": "UNCRAWLABLE_PORTAL_ONLY",
+    "method": "Direct Portal Monitored",
+    "ats": "custom",
+    "reason": "Custom Portal / Off-Cycle (No Public ATS API Discovered)"
   },
   "GRO Intelligence": {
     "firm_name": "GRO Intelligence",
@@ -2315,7 +2311,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (SSLError)"
+    "reason": "Access Restricted (ConnectionError)"
   },
   "Quantbot Technologies": {
     "firm_name": "Quantbot Technologies",
@@ -2509,7 +2505,7 @@
     "status": "UNCRAWLABLE_PORTAL_ONLY",
     "method": "Direct Portal Monitored",
     "ats": "custom",
-    "reason": "Access Restricted (SSLError)"
+    "reason": "Access Restricted (ConnectionError)"
   },
   "Shanghai Yanfu Investments": {
     "firm_name": "Shanghai Yanfu Investments",
