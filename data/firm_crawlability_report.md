@@ -1,6 +1,6 @@
 # Comprehensive Target Employer Crawlability Audit Report
 
-**Audit Timestamp:** 2026-11-27 15:47:39 | **Total Employers Audited:** 296
+**Audit Timestamp:** 2026-11-28 00:49:55 | **Total Employers Audited:** 296
 
 ## Executive Summary
 - **Total Target Employers Monitored:** 296
@@ -302,11 +302,11 @@ These firms do not expose open public ATS APIs or are protected by enterprise se
 | **PenFed Credit Union** | Tier D: Pure Practice | Commercial Banking & Consulting (Practice) | *Cloudflare / Bot Protection (HTTP 403 Challenge)* | [Open Official Portal](https://www.penfed.org/careers) |
 | **PricewaterhouseCoopers (PwC)** | Tier D: Pure Practice | Commercial Banking & Consulting (Practice) | *Cloudflare / Bot Protection (HTTP 403 Challenge)* | [Open Official Portal](https://www.pwc.com/us/en/careers.html) |
 | **Prime Trading** | Tier B: Main Focus | Proprietary Trading & Market Making | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.primetrading.com/careers) |
-| **Quant Z** | Tier B: Main Focus | Quantitative Hedge Funds | *Access Restricted (SSLError)* | [Open Official Portal](https://quantz.ai/) |
+| **Quant Z** | Tier B: Main Focus | Quantitative Hedge Funds | *Access Restricted (ConnectionError)* | [Open Official Portal](https://quantz.ai/) |
 | **Quantinno Capital Management** | Tier C2: Same or Below Benchmark | Systematic Asset Management & Allocators | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.quantinno.com/careers) |
 | **SAI** | Tier C2: Same or Below Benchmark | FinTech & Financial Data | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.sai360.com/) |
 | **SciFeCap** | Tier B: Main Focus | Quantitative Hedge Funds | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.scifecap.com/) |
-| **Seven Eight Capital** | Tier B: Main Focus | Quantitative Hedge Funds | *Access Restricted (SSLError)* | [Open Official Portal](https://www.seveneightcapital.com/careers) |
+| **Seven Eight Capital** | Tier B: Main Focus | Quantitative Hedge Funds | *Access Restricted (ConnectionError)* | [Open Official Portal](https://www.seveneightcapital.com/careers) |
 | **Shanghai Yanfu Investments** | Tier B: Main Focus | Quantitative Hedge Funds | *Custom Portal / Off-Cycle (No Public ATS API Discovered)* | [Open Official Portal](https://www.yanfuinvestments.com/) |
 | **Sumridge Partners** | Tier C1: Same or Above Benchmark | Proprietary Trading & Market Making | *Connection Timeout (Enterprise Firewall / VPN Protected)* | [Open Official Portal](https://www.sumridge.com/) |
 | **TD Bank** | Tier D: Pure Practice | Commercial Banking & Consulting (Practice) | *Enterprise Workday (Dynamic Session Required)* | [Open Official Portal](https://www.tdbank.com/careers) |
